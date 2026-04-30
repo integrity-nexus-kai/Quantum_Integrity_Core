@@ -1,5 +1,6 @@
-\documentclass[11pt]{article}
+\documentclass[11pt, a4paper]{article}
 
+\usepackage[a4paper, margin=2.5cm]{geometry}
 \usepackage{amsmath, amssymb}
 \usepackage{hyperref}
 
@@ -12,188 +13,115 @@
 \maketitle
 
 \begin{abstract}
-Topological Integrity Gravity (TIG) proposes a spectral-geometric framework for gravitational consistency. The central idea is that physically admissible spacetime configurations are not determined solely by local curvature dynamics, but also by a global integrity constraint. We introduce an integrity functional, derive its schematic contribution to modified gravitational field equations, and discuss implications for black hole structure, cosmological evolution, and testable deviations from standard General Relativity.
+Topological Integrity Gravity (TIG) proposes a spectral-geometric framework for gravitational consistency. 
+This work introduces a global integrity functional as a selection principle for admissible spacetime configurations. 
+The framework extends General Relativity by incorporating global constraints that may affect black hole structure 
+and cosmological evolution.
 \end{abstract}
 
 % --------------------------------------------------
 \section{Introduction}
 
-General Relativity provides a geometrical description of gravitation in terms of spacetime curvature \cite{einstein1915}. While the theory is locally consistent and highly successful, it does not impose a fundamental global constraint on the admissibility of physical configurations.
+General Relativity provides a geometrical description of gravitation in terms of spacetime curvature. 
+While highly successful, it does not impose a fundamental global constraint on admissible configurations.
 
-Developments in black hole thermodynamics suggest that geometric structures encode deeper informational properties \cite{bekenstein1973, hawking1975}. Similarly, cosmological models describe large-scale dynamics with increasing observational precision, yet remain dependent on parameterized inputs rather than structural necessity \cite{friedmann1922}.
+Black hole thermodynamics suggests deeper links between geometry and information, while cosmological models 
+remain dependent on parameterized inputs rather than structural necessity.
 
-These observations indicate that current formulations of gravitational physics may be incomplete at the level of global consistency conditions.
-
-In this work, we introduce Topological Integrity Gravity (TIG), a spectral-geometric framework that postulates a fundamental constraint on admissible physical configurations. Rather than replacing local gravitational dynamics, TIG supplements them with a global condition of topological integrity.
+These observations motivate the introduction of a global consistency principle. 
+We propose Topological Integrity Gravity (TIG), in which physically admissible configurations 
+are selected by a global integrity condition rather than local dynamics alone.
 
 % --------------------------------------------------
 \section{Topological Integrity Formalism}
 
-Let $(M,g)$ be a smooth Lorentzian manifold representing spacetime. We define an integrity functional $\mathcal{I}[g]$ assigning a scalar measure of global consistency to a geometric configuration.
+Let $(M,g)$ be a smooth Lorentzian manifold. 
+We define an integrity functional:
 
-In general form, we write
 \begin{equation}
-\mathcal{I}[g] =
-\int_M \mathcal{F}(R, \nabla R, \lambda_i, \chi(M), \dots)\, d\mu_g ,
-\end{equation}
-where $R$ denotes curvature invariants, $\nabla R$ their derivatives, $\lambda_i$ spectral quantities associated with geometric operators on $M$, and $\chi(M)$ denotes topological data of the manifold.
-
-A representative local approximation is
-\begin{equation}
-\mathcal{F}
-=
-\alpha R^2
-+
-\beta \nabla_\mu R \nabla^\mu R
-+
-\gamma \sum_i f(\lambda_i),
-\end{equation}
-where $\alpha$, $\beta$, and $\gamma$ are coupling parameters and $\lambda_i$ may be interpreted as eigenvalues of a geometric spectral operator such as the Laplace-Beltrami operator.
-
-Physical configurations satisfy the extremal condition
-\begin{equation}
-\delta \mathcal{I}[g] = 0 .
+\mathcal{I}[g] = \int_M \mathcal{F}(R, \nabla R, \lambda_i)\, d\mu_g
 \end{equation}
 
-This condition defines a global consistency constraint over admissible spacetime geometries.
+where $R$ denotes curvature invariants and $\lambda_i$ represent spectral quantities 
+associated with geometric operators such as the Laplace-Beltrami operator.
+
+A representative form is:
+
+\begin{equation}
+\mathcal{F} = \alpha R^2 + \beta \nabla_\mu R \nabla^\mu R + \gamma \sum_i \lambda_i
+\end{equation}
+
+Physical configurations satisfy:
+
+\begin{equation}
+\delta \mathcal{I}[g] = 0
+\end{equation}
+
+which defines a global consistency constraint.
 
 % --------------------------------------------------
 \section{Field Equations}
 
-The extremal condition on the integrity functional leads to an additional contribution to the gravitational field equations:
+Variation of the integrity functional yields modified field equations:
+
 \begin{equation}
-G_{\mu\nu} + \Lambda g_{\mu\nu} + \mathcal{T}^{(\mathcal{I})}_{\mu\nu}
-=
-8\pi T_{\mu\nu}.
+G_{\mu\nu} + \Lambda g_{\mu\nu} + \mathcal{T}^{(\mathcal{I})}_{\mu\nu} = 8\pi T_{\mu\nu}
 \end{equation}
 
-Here $G_{\mu\nu}$ is the Einstein tensor, $\Lambda$ is the cosmological term, $T_{\mu\nu}$ is the standard energy-momentum tensor, and $\mathcal{T}^{(\mathcal{I})}_{\mu\nu}$ is the effective integrity stress contribution.
+where
 
-Schemati­cally,
 \begin{equation}
-\mathcal{T}^{(\mathcal{I})}_{\mu\nu}
-=
-\frac{\delta}{\delta g^{\mu\nu}}
-\int_M
-\mathcal{F}(R, \nabla R, \lambda_i, \chi(M), \dots)\, d\mu_g .
+\mathcal{T}^{(\mathcal{I})}_{\mu\nu} =
+\frac{\delta \mathcal{I}}{\delta g^{\mu\nu}}
 \end{equation}
 
-This term encodes curvature, spectral, and topological consistency constraints beyond purely local dynamics. In the limit
-\begin{equation}
-\mathcal{T}^{(\mathcal{I})}_{\mu\nu} \rightarrow 0,
-\end{equation}
+encodes global integrity contributions.
+
+In the limit $\mathcal{T}^{(\mathcal{I})}_{\mu\nu} \to 0$, 
 standard General Relativity is recovered.
 
 % --------------------------------------------------
 \section{Black Hole Solutions}
 
-We consider static, spherically symmetric solutions. In the classical limit, these are described by the Schwarzschild geometry.
+For static, spherically symmetric configurations:
 
-For vacuum configurations, the TIG-modified equations take the form
 \begin{equation}
-G_{\mu\nu} + \mathcal{T}^{(\mathcal{I})}_{\mu\nu} = 0 .
+G_{\mu\nu} + \mathcal{T}^{(\mathcal{I})}_{\mu\nu} = 0
 \end{equation}
 
-The integrity term introduces global constraints that may become relevant in strong-curvature regimes. In particular, TIG suggests that admissible black hole geometries must satisfy both local vacuum equations and global integrity conditions.
+The integrity contribution may modify strong-field regions. 
+Potential consequences include:
 
-Possible consequences include:
 \begin{itemize}
-\item regularization of curvature singularities,
-\item constraints on admissible horizon structure,
-\item modified black hole thermodynamic behavior,
-\item spectral restrictions on near-horizon geometry.
+\item suppression of curvature divergences,
+\item constraints on horizon structure,
+\item modified thermodynamic behavior.
 \end{itemize}
-
-In the weak-field or large-radius limit, the integrity contribution is expected to decay, recovering the Schwarzschild solution as an effective approximation.
 
 % --------------------------------------------------
 \section{Cosmology and Friedmann Dynamics}
 
-We consider homogeneous and isotropic cosmological solutions described by the FLRW metric \cite{friedmann1922}. In standard cosmology, the dynamics are governed by the Friedmann equations.
+The Friedmann equations receive additional contributions:
 
-Within TIG, the modified equations introduce additional integrity contributions:
 \begin{equation}
-H^2
-=
-\frac{8\pi}{3}\rho
-+
-\frac{\Lambda}{3}
-+
-\Delta_{\mathcal{I}},
-\end{equation}
-and
-\begin{equation}
-\frac{\ddot{a}}{a}
-=
--\frac{4\pi}{3}(\rho + 3p)
-+
-\frac{\Lambda}{3}
-+
-\Pi_{\mathcal{I}} .
+H^2 = \frac{8\pi}{3} \rho + \frac{\Lambda}{3} + \Delta_{\mathcal{I}}
 \end{equation}
 
-Here $H$ is the Hubble parameter, $a(t)$ the scale factor, $\rho$ the energy density, $p$ the pressure, and $\Delta_{\mathcal{I}}$, $\Pi_{\mathcal{I}}$ are effective cosmological integrity terms.
-
-In the limit
 \begin{equation}
-\Delta_{\mathcal{I}}, \Pi_{\mathcal{I}} \rightarrow 0,
+\frac{\ddot{a}}{a} = -\frac{4\pi}{3} (\rho + 3p) + \frac{\Lambda}{3} + \Pi_{\mathcal{I}}
 \end{equation}
-standard Friedmann dynamics are recovered.
 
-When nonzero, these terms may influence early-universe dynamics, late-time acceleration, or effective dark-energy-like behavior without necessarily introducing additional matter species.
+where $\Delta_{\mathcal{I}}$ and $\Pi_{\mathcal{I}}$ arise from global integrity constraints.
 
-% --------------------------------------------------
-\section{Predictions and Observational Signatures}
-
-The TIG framework becomes physically meaningful only if the integrity contribution leads to observable deviations from standard General Relativity or standard cosmology.
-
-The main qualitative predictions are:
-
-\begin{itemize}
-\item deviations from the Schwarzschild solution in strong-curvature regimes,
-\item possible regularization of curvature singularities,
-\item modified near-horizon spectral structure,
-\item effective corrections to Friedmann dynamics,
-\item potential dark-energy-like behavior from global consistency terms.
-\end{itemize}
-
-In black hole systems, the most relevant signatures would arise near horizons or in regimes where curvature invariants become large. In cosmology, deviations would appear through the effective terms $\Delta_{\mathcal{I}}$ and $\Pi_{\mathcal{I}}$.
-
-A minimal phenomenological parametrization may be written as
-\begin{equation}
-\Delta_{\mathcal{I}}(a)
-=
-\delta_0 a^{-n},
-\end{equation}
-where $\delta_0$ measures the strength of the integrity correction and $n$ determines its scaling with cosmic expansion.
-
-This provides a possible route for comparing TIG with observational cosmology.
-
-% --------------------------------------------------
-\section{Limitations}
-
-The present formulation is intentionally general. The explicit form of the integrity density $\mathcal{F}$ remains to be fixed by additional physical or mathematical criteria.
-
-Several limitations therefore remain:
-
-\begin{itemize}
-\item the full spectral operator underlying $\lambda_i$ must be specified,
-\item the coupling parameters $\alpha$, $\beta$, and $\gamma$ require physical calibration,
-\item explicit black hole solutions have not yet been solved,
-\item cosmological fits to observational data remain future work,
-\item the relation between TIG and quantum gravity remains open.
-\end{itemize}
-
-Thus, TIG should presently be understood as a spectral-geometric framework rather than a completed replacement for General Relativity.
+These terms may influence cosmic expansion without introducing additional matter components, 
+depending on the structure of the integrity functional.
 
 % --------------------------------------------------
 \section{Conclusion}
 
-Topological Integrity Gravity proposes that physically admissible spacetime configurations are constrained not only by local field equations, but also by a global condition of spectral-geometric consistency.
-
-By introducing an integrity functional $\mathcal{I}[g]$, TIG provides a mechanism for additional gravitational contributions that may affect black holes, cosmology, and large-scale structure. In the appropriate limit, standard General Relativity is recovered.
-
-The framework motivates further investigation of explicit integrity functionals, exact solutions, and observational signatures.
+Topological Integrity Gravity introduces a global constraint on admissible spacetime configurations. 
+The framework extends General Relativity by incorporating spectral-geometric consistency conditions. 
+Future work will focus on explicit forms of the integrity functional and observable predictions.
 
 % --------------------------------------------------
 \bibliographystyle{unsrt}
