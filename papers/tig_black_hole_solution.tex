@@ -1,0 +1,77 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+
+\title{\textbf{Topological Integrity Gravity (TIG):\\
+A Regular Black Hole Solution}}
+
+\author{Kai}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We present a regular black hole solution within the framework of Topological Integrity Gravity (TIG). By introducing an effective integrity scale, the classical Schwarzschild singularity at \( r \to 0 \) is replaced by a finite core. The resulting metric is asymptotically consistent with General Relativity and avoids divergent curvature behavior in the central region.
+\end{abstract}
+
+\section{Introduction}
+
+In classical General Relativity, the Schwarzschild solution describes the exterior geometry of a static, spherically symmetric mass. However, the classical solution contains a curvature singularity at \( r = 0 \), where the geometric description breaks down.
+
+Topological Integrity Gravity introduces an intrinsic stabilization scale that regularizes the high-curvature regime and replaces the singularity with a finite core.
+
+\section{Metric Ansatz}
+
+We consider a static, spherically symmetric spacetime of the form:
+\begin{equation}
+ds^2 = -A(r)\,dt^2 + \frac{dr^2}{A(r)} + r^2 d\Omega^2 .
+\end{equation}
+
+\section{Regularized Metric Function}
+
+The proposed regular metric function is:
+\begin{equation}
+A(r) = 1 - \frac{2GM r^2}{r^3 + r_0^3},
+\end{equation}
+where \( M \) is the total mass, \( G \) is Newton's gravitational constant, and \( r_0 \) denotes the integrity scale.
+
+\section{Asymptotic Behavior}
+
+For \( r \gg r_0 \), one obtains:
+\begin{equation}
+A(r) \approx 1 - \frac{2GM}{r}.
+\end{equation}
+
+Thus, the classical Schwarzschild solution is recovered in the large-distance limit.
+
+\section{Near-Core Behavior}
+
+For \( r \to 0 \), the metric function behaves as:
+\begin{equation}
+A(r) \approx 1 - \frac{2GM}{r_0^3} r^2 .
+\end{equation}
+
+This corresponds to a de Sitter-like core with an effective cosmological constant:
+\begin{equation}
+\Lambda_{\mathrm{eff}} = \frac{6GM}{r_0^3}.
+\end{equation}
+
+\section{Regularity}
+
+Because the metric function remains finite at \( r = 0 \), the central singularity of the Schwarzschild solution is removed. The core behaves as a finite-curvature region rather than a divergent point.
+
+\section{Physical Interpretation}
+
+The parameter \( r_0 \) represents an effective minimal length scale associated with the integrity structure of spacetime. It may be interpreted as a geometric ultraviolet cutoff that prevents collapse into a singular state.
+
+\section{Conclusion}
+
+The proposed TIG black hole solution preserves the Schwarzschild limit at large distances while replacing the central singularity with a finite de Sitter-like core. This provides a first concrete application of the TIG framework to high-curvature gravitational systems.
+
+\end{document}
