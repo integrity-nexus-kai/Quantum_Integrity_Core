@@ -1,0 +1,154 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath,amssymb,geometry}
+\geometry{margin=1in}
+
+\title{Topological Integrity Gravity (TIG):\\
+A Spectral-Driven Stability Extension of General Relativity}
+
+\author{Kai}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We propose Topological Integrity Gravity (TIG), a framework extending General Relativity by introducing a curvature-dependent integrity term derived from a spectral action. The additional contribution acts as a nonlinear feedback mechanism that suppresses high-curvature divergences. In the low-energy limit, General Relativity is recovered. We derive effective field equations, analyze the trace dynamics, and show that the model introduces a scalar degree of freedom with finite mass. A regular black hole solution and modified cosmological dynamics are discussed. The framework is presented as an effective theory, and testable predictions are outlined.
+\end{abstract}
+
+\section{Introduction}
+
+General Relativity (GR) successfully describes gravitational phenomena but admits singular solutions and lacks intrinsic ultraviolet (UV) regularization. Various extensions introduce higher-order curvature terms or quantum corrections.
+
+In this work, we explore an alternative approach motivated by spectral geometry, introducing an integrity functional that dynamically suppresses pathological configurations of spacetime.
+
+\section{Spectral Framework}
+
+We consider a spectral triple $(\mathcal{A}, \mathcal{H}, D)$, where $D$ is the Dirac operator encoding geometric information. The spectral action is extended by an additional functional:
+
+\begin{equation}
+S = \mathrm{Tr}\, f\left(\frac{D}{\Lambda}\right) + \lambda \mathrm{Tr}\,\log\left(1 + \frac{D^2}{\Lambda^2}\right)
+\end{equation}
+
+The second term introduces a nonlinear correction dependent on curvature.
+
+\section{Effective Action}
+
+In the low-energy limit, we consider the truncated effective action:
+
+\begin{equation}
+S_{\text{eff}} =
+\frac{1}{16\pi G}
+\int d^4x \sqrt{-g}
+\left(
+R + \frac{\alpha}{\Lambda^2} R^2
+\right)
+\end{equation}
+
+This corresponds to an $f(R)$-type theory.
+
+\section{Field Equations}
+
+Variation yields:
+
+\begin{equation}
+G_{\mu\nu} + \mathcal{I}_{\mu\nu} = 8\pi G T_{\mu\nu}
+\end{equation}
+
+with:
+
+\begin{align}
+\mathcal{I}_{\mu\nu}
+&=
+\frac{2\alpha}{\Lambda^2}R R_{\mu\nu}
+-
+\frac{\alpha}{2\Lambda^2}R^2 g_{\mu\nu}
+\\
+&+
+\frac{2\alpha}{\Lambda^2}
+\left(
+g_{\mu\nu}\Box R
+-
+\nabla_\mu\nabla_\nu R
+\right)
+\end{align}
+
+\section{Trace Equation}
+
+Taking the trace:
+
+\begin{equation}
+-R + \frac{6\alpha}{\Lambda^2}\Box R = 8\pi G T
+\end{equation}
+
+which can be rewritten as:
+
+\begin{equation}
+\Box R - m^2 R = \frac{8\pi G \Lambda^2}{6\alpha} T
+\end{equation}
+
+with:
+
+\begin{equation}
+m^2 = \frac{\Lambda^2}{6\alpha}
+\end{equation}
+
+This corresponds to a propagating scalar degree of freedom.
+
+\section{Black Hole Solution}
+
+A regularized metric function of the form:
+
+\begin{equation}
+A(r) = 1 - \frac{2GM r^2}{r^3 + r_0^3}
+\end{equation}
+
+is consistent with the expected high-curvature suppression, replacing the singular core by a finite region.
+
+\section{Cosmology}
+
+For a flat FRW metric, the Ricci scalar is:
+
+\begin{equation}
+R = 6(2H^2 + \dot{H})
+\end{equation}
+
+The modified Friedmann equation includes additional curvature-dependent terms:
+
+\begin{equation}
+3H^2 = 8\pi G \rho + \frac{\alpha}{\Lambda^2}\left(\frac{1}{2}R^2 - 6H \dot{R}\right)
+\end{equation}
+
+These contributions become relevant in high-curvature regimes.
+
+\section{Stability}
+
+The model is stable under the conditions:
+
+\begin{equation}
+\alpha > 0, \quad \Lambda^2 > 0
+\end{equation}
+
+ensuring absence of tachyonic instabilities and ghost modes in the effective theory.
+
+\section{Predictions}
+
+The framework predicts:
+
+\begin{itemize}
+\item deviations from GR in strong gravity regimes
+\item regular black hole cores
+\item an additional scalar mode
+\item modified early-universe dynamics
+\end{itemize}
+
+\section{Discussion}
+
+TIG can be interpreted as an effective theory introducing curvature-dependent feedback. The spectral origin suggests a deeper geometric structure, but a full derivation remains open.
+
+\section{Conclusion}
+
+We presented TIG as a stability-driven extension of GR. The framework recovers GR in the low-energy limit and introduces controlled deviations at high curvature. Further work is required to fully derive the spectral action and confront observational constraints.
+
+\end{document}
