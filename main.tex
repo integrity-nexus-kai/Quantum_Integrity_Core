@@ -13,7 +13,7 @@
 \maketitle
 
 \begin{abstract}
-We propose a spectral-geometric framework in which physically admissible spacetime configurations are constrained by a global condition of topological integrity. In contrast to General Relativity, which determines gravitational dynamics through local curvature, the present approach introduces an integrity functional that acts as a global selection principle over geometries. We give a concrete realization of this functional through a quadratic curvature term and discuss its extension by spectral contributions. The resulting field equations contain explicit higher-curvature corrections and reduce to standard General Relativity in the appropriate limit. We discuss implications for black hole structure, cosmological evolution, and observational signatures.
+We propose a spectral-geometric framework in which physically admissible spacetime configurations are constrained by a global condition of topological integrity. In contrast to General Relativity, which determines gravitational dynamics through local curvature, the present approach introduces an integrity functional that acts as a global selection principle over geometries. We give a concrete realization of this functional through a quadratic curvature term and discuss its extension by spectral contributions. The resulting field equations contain explicit higher-curvature corrections and reduce to standard General Relativity in the appropriate limit. For spatially flat FLRW cosmology, we derive a concrete modified Friedmann equation, providing a first calculable prediction of the framework.
 \end{abstract}
 
 % --------------------------------------------------
@@ -23,7 +23,7 @@ General Relativity provides a geometrical description of gravitation in terms of
 
 Black hole thermodynamics suggests deeper links between geometry and information \cite{bekenstein1973, hawking1975}. Similarly, cosmological models remain dependent on parameterized inputs rather than structural necessity \cite{friedmann1922}.
 
-These observations motivate the introduction of a global consistency principle. We propose a framework in which physically admissible configurations are selected by a global integrity condition rather than local dynamics alone.
+Quadratic curvature corrections have also appeared in inflationary and modified-gravity contexts \cite{starobinsky1980}. These observations motivate the introduction of a global consistency principle. We propose a framework in which physically admissible configurations are selected by a global integrity condition rather than local dynamics alone.
 
 % --------------------------------------------------
 \section{Topological Integrity Formalism}
@@ -109,7 +109,7 @@ H_{\mu\nu}
 
 Here $\Box = \nabla^\rho \nabla_\rho$ denotes the covariant d'Alembertian.
 
-Thus the integrity contribution is no longer a black box. It is explicitly given by
+Thus the integrity contribution is explicitly given by
 \begin{equation}
 \mathcal{T}^{(\mathcal{I})}_{\mu\nu}
 =
@@ -145,43 +145,80 @@ Possible consequences include:
 % --------------------------------------------------
 \section{Cosmology and Friedmann Dynamics}
 
-We consider homogeneous and isotropic cosmological solutions described by the FLRW metric \cite{friedmann1922}. In this case, the Ricci scalar is
+We consider homogeneous and isotropic cosmological solutions described by the FLRW metric \cite{friedmann1922}. For a spatially flat FLRW universe, the Ricci scalar is
 \begin{equation}
-R = 6 \left( \dot{H} + 2H^2 + \frac{k}{a^2} \right),
+R = 6(\dot{H}+2H^2),
 \end{equation}
-where $H=\dot{a}/a$ is the Hubble parameter and $k$ is the spatial curvature parameter.
+where $H=\dot{a}/a$ is the Hubble parameter.
 
-The modified Friedmann equations may be written schematically as
+The local integrity density
+\begin{equation}
+\mathcal{F}_{\mathrm{loc}}=\alpha R^2
+\end{equation}
+is equivalent to an $f(R)$ model with
+\begin{equation}
+f(R)=R-2\Lambda+\mu R^2,
+\qquad
+\mu=16\pi\alpha .
+\end{equation}
+
+For spatially flat FLRW geometry, the modified Friedmann equation is
+\begin{equation}
+3(1+2\mu R)H^2
+=
+8\pi\rho
++
+\Lambda
++
+\frac{\mu}{2}R^2
+-
+3\mu H\dot{R}.
+\end{equation}
+
+Equivalently,
 \begin{equation}
 H^2
 =
-\frac{8\pi}{3}\rho
-+
-\frac{\Lambda}{3}
-+
-\Delta_{\mathcal{I}},
+\frac{
+8\pi\rho+\Lambda+\frac{\mu}{2}R^2-3\mu H\dot{R}
+}{
+3(1+2\mu R)
+}.
 \end{equation}
-where $\Delta_{\mathcal{I}}$ arises from the $R^2$ integrity correction.
 
-For the local integrity term, the correction scales with curvature and its time derivatives:
+Substituting $\mu=16\pi\alpha$ gives the concrete TIG Friedmann result
+\begin{equation}
+H^2
+=
+\frac{
+8\pi\rho+\Lambda+8\pi\alpha R^2-48\pi\alpha H\dot{R}
+}{
+3(1+32\pi\alpha R)
+}.
+\end{equation}
+
+Thus the effective integrity contribution can be written as
 \begin{equation}
 \Delta_{\mathcal{I}}
-\sim
-\alpha
-\left(
-R^2,
-H\dot{R},
-\ddot{R}
-\right).
+=
+\frac{
+8\pi\alpha R^2-48\pi\alpha H\dot{R}
+}{
+3(1+32\pi\alpha R)
+}
++
+\left[
+\frac{1}{1+32\pi\alpha R}-1
+\right]
+\frac{8\pi\rho+\Lambda}{3}.
 \end{equation}
 
-This implies that integrity corrections are expected to be strongest in high-curvature cosmological regimes, such as the early universe, and suppressed in low-curvature late-time regimes unless enhanced by spectral or global contributions.
-
-A phenomenological parametrization is
+In the limit $\alpha \to 0$, the standard Friedmann equation is recovered:
 \begin{equation}
-\Delta_{\mathcal{I}}(a) = \delta_0 a^{-n},
+H^2 = \frac{8\pi}{3}\rho + \frac{\Lambda}{3}.
 \end{equation}
-which allows comparison with observational data.
+
+This provides a first concrete cosmological result of the TIG framework.
 
 % --------------------------------------------------
 \section{Predictions and Observational Signatures}
@@ -225,7 +262,9 @@ Third, explicit black hole interior solutions and cosmological fits remain futur
 
 Topological Integrity Gravity introduces a global constraint on admissible spacetime configurations. By choosing the explicit local integrity density $\mathcal{F}_{\mathrm{loc}}=\alpha R^2$, the framework yields concrete higher-curvature field equations rather than an unspecified correction term.
 
-The resulting theory preserves standard General Relativity in the limit $\alpha \to 0$ and in Ricci-flat vacuum regions, while allowing deviations in high-curvature regimes. This makes TIG compatible with known weak-field gravitational tests while motivating further investigation into black hole interiors, early-universe cosmology, and spectral extensions of gravitational dynamics.
+The resulting theory preserves standard General Relativity in the limit $\alpha \to 0$ and in Ricci-flat vacuum regions, while allowing deviations in high-curvature regimes. The spatially flat FLRW result provides a concrete modified Friedmann equation and therefore a first calculable cosmological prediction of TIG.
+
+This makes TIG compatible with known weak-field gravitational tests while motivating further investigation into black hole interiors, early-universe cosmology, and spectral extensions of gravitational dynamics.
 
 % --------------------------------------------------
 \bibliographystyle{unsrt}
