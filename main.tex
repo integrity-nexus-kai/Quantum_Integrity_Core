@@ -19,40 +19,92 @@ for gravitational consistency. This work introduces the core formalism
 and explores its implications for black holes and cosmology.
 \end{abstract}
 
+% --------------------------------------------------
 \section{Introduction}
 
-\section{Introduction}
+General Relativity provides a geometrical description of gravitation in terms of spacetime curvature \cite{einstein1915}. 
+While the theory is locally consistent and highly successful, it does not impose a fundamental global constraint on the admissibility of physical configurations.
 
+Developments in black hole thermodynamics suggest that geometric structures encode deeper informational properties \cite{bekenstein1973, hawking1975}. 
+Similarly, cosmological models describe large-scale dynamics with increasing observational precision, yet remain dependent on parameterized inputs rather than structural necessity \cite{friedmann1922}.
+
+These observations indicate that current formulations of gravitational physics may be incomplete at the level of global consistency conditions.
+
+In this work, we introduce Topological Integrity Gravity (TIG), a spectral-geometric framework that postulates a fundamental constraint on admissible physical configurations. 
+Rather than modifying local dynamics, TIG imposes a global condition of topological integrity.
+
+% --------------------------------------------------
 \section{Topological Integrity Formalism}
 
 We introduce the concept of topological integrity as a global constraint on admissible geometric configurations. 
-Let $(M, g)$ be a smooth Lorentzian manifold representing spacetime. 
+Let $(M, g)$ be a smooth Lorentzian manifold representing spacetime.
+
 We define an integrity functional $\mathcal{I}[g]$ that assigns a scalar measure of consistency to a given configuration.
 
-The functional $\mathcal{I}[g]$ is assumed to depend on spectral and geometric properties of the manifold, including curvature invariants and global topological structure. 
 In general form, we write:
 
 \begin{equation}
 \mathcal{I}[g] = \int_M \mathcal{F}(R, \nabla R, \lambda_i, \dots)\, d\mu_g
 \end{equation}
 
-where $R$ denotes curvature invariants, $\nabla R$ their derivatives, and $\lambda_i$ represent spectral quantities associated with the geometry.
+where $R$ denotes curvature invariants, $\nabla R$ their derivatives, and $\lambda_i$ represent spectral quantities.
 
-Physical configurations are postulated to satisfy an extremal condition on $\mathcal{I}[g]$:
+Physical configurations satisfy an extremal condition:
 
 \begin{equation}
 \delta \mathcal{I}[g] = 0
 \end{equation}
 
-This condition defines a selection principle over admissible spacetime geometries, analogous to an action principle but interpreted as a constraint on global consistency rather than local dynamics.
+This defines a global consistency constraint on admissible spacetime geometries.
 
-In this framework, classical gravitational solutions correspond to configurations that satisfy both the Einstein field equations and the integrity condition. 
-Deviations from standard solutions arise when the integrity constraint imposes additional structure beyond local curvature dynamics.
+% --------------------------------------------------
+\section{Field Equations}
 
+The extremal condition on the integrity functional leads to modified field equations extending General Relativity:
+
+\begin{equation}
+G_{\mu\nu} + \Lambda g_{\mu\nu} + \mathcal{T}^{(\mathcal{I})}_{\mu\nu} = 8\pi T_{\mu\nu}
+\end{equation}
+
+where $\mathcal{T}^{(\mathcal{I})}_{\mu\nu}$ arises from the variation of the integrity functional.
+
+In general:
+
+\begin{equation}
+\mathcal{T}^{(\mathcal{I})}_{\mu\nu} = \frac{\delta}{\delta g^{\mu\nu}} \int_M \mathcal{F}(R, \nabla R, \lambda_i, \dots)\, d\mu_g
+\end{equation}
+
+This term encodes global consistency constraints beyond local curvature dynamics.
+
+% --------------------------------------------------
+\section{Black Hole Solutions}
+
+We consider static, spherically symmetric solutions. 
+In the classical limit, these are described by the Schwarzschild metric \cite{schwarzschild1916}.
+
+With the integrity contribution, the vacuum equations become:
+
+\begin{equation}
+G_{\mu\nu} + \mathcal{T}^{(\mathcal{I})}_{\mu\nu} = 0
+\end{equation}
+
+The integrity term introduces global constraints that may modify strong-field behavior.
+
+Possible implications include:
+
+\begin{itemize}
+\item regularization of singularities,
+\item constraints on horizon structure,
+\item modified thermodynamic behavior.
+\end{itemize}
+
+% --------------------------------------------------
 \section{Conclusion}
 
-This paper outlines the foundational structure of TIG and motivates further exploration.
+This paper introduces a spectral-geometric framework for gravitational consistency. 
+Topological Integrity Gravity imposes a global constraint on admissible spacetime configurations and provides a basis for further exploration of gravitational structure.
 
+% --------------------------------------------------
 \bibliographystyle{unsrt}
 \bibliography{references}
 
