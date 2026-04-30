@@ -45,10 +45,10 @@ Die Allgemeine Relativitätstheorie basiert auf lokalen Feldgleichungen, währen
 ## 4. Warum ist die Kommunikation auf den schriftlichen Weg beschränkt?
 
 **EN:**
-Written communication ensures reproducibility, precision, and traceability of arguments. It enables rigorous evaluation of complex mathematical structures.
+Written communication ensures reproducibility, precision, and traceability of arguments, enabling rigorous evaluation of complex mathematical structures.
 
 **DE:**
-Schriftliche Kommunikation gewährleistet Reproduzierbarkeit, Präzision und Nachvollziehbarkeit der Argumente. Sie ermöglicht die rigorose Prüfung komplexer mathematischer Strukturen.
+Schriftliche Kommunikation gewährleistet Reproduzierbarkeit, Präzision und Nachvollziehbarkeit von Argumenten und ermöglicht die rigorose Prüfung komplexer mathematischer Strukturen.
 
 ---
 
@@ -153,45 +153,81 @@ TIG modifiziert die Friedmann-Gleichungen durch krümmungsabhängige Korrekturen
 ## 13. Welche Rolle spielt Entropie in TIG?
 
 **EN:**
-Entropy-like effects can be modeled via curvature gradients, but are treated as effective extensions due to higher-derivative stability concerns.
+Entropy-like effects can be modeled via curvature gradients but are treated as effective extensions due to higher-derivative stability concerns.
 
 **DE:**
 Entropieähnliche Effekte können über Krümmungsgradienten modelliert werden, werden jedoch aufgrund von Stabilitätsfragen als Erweiterungen behandelt.
 
 ---
 
-## 14. Is the theory stable?
+## 14. Does TIG contain ghost modes?
 
-## 14. Ist die Theorie stabil?
+## 14. Enthält TIG Ghost-Freiheitsgrade?
 
 **EN:**
-The minimal ( R^2 ) model is stable for ( \alpha > 0 ). Higher-derivative extensions require additional analysis.
+The minimal ( R^2 ) realization is consistent with known stable ( f(R) ) models for ( \alpha > 0 ). Potential ghost instabilities arise mainly from higher-derivative extensions such as ((\nabla R)^2), which are therefore excluded from the core formulation.
 
 **DE:**
-Das minimale ( R^2 )-Modell ist für ( \alpha > 0 ) stabil. Höherableitungs-Terme erfordern zusätzliche Analysen.
+Die minimale ( R^2 )-Umsetzung ist für ( \alpha > 0 ) mit bekannten stabilen ( f(R) )-Modellen kompatibel. Mögliche Ghost-Instabilitäten entstehen vor allem bei höherableitenden Erweiterungen wie ((\nabla R)^2), weshalb diese nicht Teil der Kerntheorie sind.
 
 ---
 
-## 15. Is TIG experimentally testable?
+## 15. Is TIG compatible with LIGO observations?
 
-## 15. Ist TIG experimentell überprüfbar?
+## 15. Ist TIG mit LIGO-Beobachtungen kompatibel?
 
 **EN:**
-In principle yes, through cosmological observations, strong-field gravity, and gravitational wave signatures.
+Yes at leading order. Since Ricci-flat vacuum solutions (( R = 0 )) are preserved, TIG remains compatible with classical gravitational-wave sources. Deviations are expected only in high-curvature or non-vacuum regimes.
 
 **DE:**
-Prinzipiell ja, über kosmologische Beobachtungen, starke Gravitation und Gravitationswellen.
+Im führenden Grenzfall ja. Da Ricci-flache Vakuumlösungen (( R = 0 )) erhalten bleiben, ist TIG mit klassischen Gravitationswellenquellen kompatibel. Abweichungen werden nur in Hochkrümmungs- oder Nicht-Vakuum-Regimen erwartet.
 
 ---
 
-## 16. What are the main limitations?
+## 16. What is the role of Burkhard Heim?
 
-## 16. Was sind die Hauptgrenzen der Theorie?
+## 16. Welche Rolle spielt Burkhard Heim?
+
+**EN:**
+Burkhard Heim may be regarded as a historical inspiration for geometrically structured physics. However, TIG is formulated entirely within modern differential geometry and tensor analysis.
+
+**DE:**
+Burkhard Heim kann als historische Inspiration für geometrisch strukturierte Physik betrachtet werden. TIG wird jedoch vollständig innerhalb moderner Differentialgeometrie und Tensoranalysis formuliert.
+
+---
+
+## 17. Is the theory stable?
+
+## 17. Ist die Theorie stabil?
+
+**EN:**
+The minimal ( R^2 ) model is stable for ( \alpha > 0 ). Extensions require separate stability analysis.
+
+**DE:**
+Das minimale ( R^2 )-Modell ist für ( \alpha > 0 ) stabil. Erweiterungen erfordern separate Stabilitätsanalysen.
+
+---
+
+## 18. Is TIG experimentally testable?
+
+## 18. Ist TIG experimentell überprüfbar?
+
+**EN:**
+In principle yes, through cosmology, strong-field gravity, and gravitational wave observations.
+
+**DE:**
+Prinzipiell ja, über Kosmologie, starke Gravitation und Gravitationswellenbeobachtungen.
+
+---
+
+## 19. What are the main limitations?
+
+## 19. Was sind die Hauptgrenzen der Theorie?
 
 **EN:**
 
 * Spectral extension not yet explicitly constructed
-* Only the minimal ( R^2 ) model fully developed
+* Only minimal ( R^2 ) model fully developed
 * No complete numerical solutions yet
 
 **DE:**
@@ -214,3 +250,4 @@ TIG führt ein globales Konsistenzprinzip in die Gravitationstheorie ein und ble
 
 Author: Kai Stefan Dietrich
 Status: Release v1.0
+
