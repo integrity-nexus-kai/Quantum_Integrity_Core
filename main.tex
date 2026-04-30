@@ -23,24 +23,31 @@ and explores its implications for black holes and cosmology.
 
 \section{Introduction}
 
-General Relativity provides a geometrical description of gravitation in terms of spacetime curvature \cite{einstein1915, wald1984}. 
-While the theory is locally consistent and highly successful in describing gravitational phenomena, it does not impose a fundamental global constraint on the admissibility of physical configurations.
+\section{Topological Integrity Formalism}
 
-Developments in black hole thermodynamics suggest that geometric structures encode deeper informational or entropic properties \cite{bekenstein1973, hawking1975}. 
-Similarly, cosmological models describe large-scale dynamics with increasing observational precision, yet remain dependent on parameterized inputs rather than structural necessity \cite{friedmann1922, planck2018}.
+We introduce the concept of topological integrity as a global constraint on admissible geometric configurations. 
+Let $(M, g)$ be a smooth Lorentzian manifold representing spacetime. 
+We define an integrity functional $\mathcal{I}[g]$ that assigns a scalar measure of consistency to a given configuration.
 
-These observations indicate that current formulations of gravitational physics may be incomplete at the level of global consistency conditions. 
-In particular, there is no explicit principle that enforces the coherence of geometric, dynamical, and informational aspects within a unified framework.
+The functional $\mathcal{I}[g]$ is assumed to depend on spectral and geometric properties of the manifold, including curvature invariants and global topological structure. 
+In general form, we write:
 
-In this work, we introduce Topological Integrity Gravity (TIG), a spectral-geometric framework that postulates a fundamental constraint on admissible physical configurations. 
-Rather than modifying the local dynamics of General Relativity, TIG imposes a global condition of topological integrity, which acts as a selection principle over physically realizable states.
+\begin{equation}
+\mathcal{I}[g] = \int_M \mathcal{F}(R, \nabla R, \lambda_i, \dots)\, d\mu_g
+\end{equation}
 
-This approach reframes gravitational theory from a purely dynamical description to a constrained geometric system, in which consistency itself becomes a primary physical quantity. 
-We develop the formal structure of this framework and explore its implications for black hole solutions and cosmological dynamics.
-\section{Core Idea}
+where $R$ denotes curvature invariants, $\nabla R$ their derivatives, and $\lambda_i$ represent spectral quantities associated with the geometry.
 
-We introduce the concept of topological integrity as a fundamental constraint 
-on admissible physical configurations.
+Physical configurations are postulated to satisfy an extremal condition on $\mathcal{I}[g]$:
+
+\begin{equation}
+\delta \mathcal{I}[g] = 0
+\end{equation}
+
+This condition defines a selection principle over admissible spacetime geometries, analogous to an action principle but interpreted as a constraint on global consistency rather than local dynamics.
+
+In this framework, classical gravitational solutions correspond to configurations that satisfy both the Einstein field equations and the integrity condition. 
+Deviations from standard solutions arise when the integrity constraint imposes additional structure beyond local curvature dynamics.
 
 \section{Conclusion}
 
