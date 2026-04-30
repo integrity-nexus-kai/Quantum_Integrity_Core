@@ -117,3 +117,7 @@ Dieses Repository befindet sich in aktiver Entwicklung.
 Ziel ist der Aufbau einer **konsistenten, überprüfbaren Theorie**,  
 die Gravitation und Quantenfeldtheorie auf einer gemeinsamen  
 geometrischen Grundlage beschreibt.
+
+Citation:
+Dietrich, Kai Stefan.
+"Topological Integrity Gravity (TIG)", 2026.
