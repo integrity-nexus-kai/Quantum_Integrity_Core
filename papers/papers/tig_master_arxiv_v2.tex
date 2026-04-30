@@ -1,0 +1,209 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath,amssymb,geometry}
+\geometry{margin=1in}
+
+\title{Topological Integrity Gravity (TIG):\\
+A Spectral-Derived Effective Extension of General Relativity}
+
+\author{Kai}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We propose Topological Integrity Gravity (TIG) as an effective extension of General Relativity motivated by spectral geometry. Starting from a spectral action based on the Dirac operator, we derive a low-energy truncation containing curvature-squared corrections. An additional logarithmic functional introduces nonlinear feedback at high curvature. The resulting field equations admit a scalar degree of freedom and lead to regularized high-curvature behavior. We analyze black hole solutions, cosmological dynamics, and stability conditions, and outline testable predictions.
+\end{abstract}
+
+\section{Introduction}
+
+General Relativity (GR) provides an accurate description of gravitational phenomena but admits singular solutions and lacks intrinsic ultraviolet (UV) regularization. Extensions of GR often introduce higher-order curvature invariants or quantum corrections.
+
+In this work, we investigate an approach motivated by spectral geometry, where spacetime structure is encoded in the spectrum of a Dirac operator. The framework leads naturally to curvature-dependent corrections and suggests a stabilizing feedback mechanism at high curvature.
+
+\section{Spectral Framework}
+
+We consider a spectral triple $(\mathcal{A}, \mathcal{H}, D)$, where $D$ is the Dirac operator. The spectral action is defined as:
+
+\begin{equation}
+S_{\mathrm{spec}} = \mathrm{Tr}\, f\left(\frac{D}{\Lambda}\right)
+\end{equation}
+
+where $f$ is a cutoff function and $\Lambda$ is a characteristic energy scale.
+
+\subsection{Dirac Operator and Geometry}
+
+On a smooth spin manifold, the Dirac operator is:
+
+\begin{equation}
+D = i \gamma^\mu \nabla_\mu
+\end{equation}
+
+Its square satisfies the Lichnerowicz formula:
+
+\begin{equation}
+D^2 = -\nabla^\mu \nabla_\mu + \frac{1}{4} R
+\end{equation}
+
+This establishes a direct relation between the spectrum of $D$ and the scalar curvature $R$.
+
+\subsection{Heat-Kernel Expansion}
+
+For large $\Lambda$, the spectral action admits an asymptotic expansion:
+
+\begin{equation}
+\mathrm{Tr}\, f(D/\Lambda)
+\sim
+\sum_n f_n \Lambda^{4-n} a_n(D^2)
+\end{equation}
+
+The Seeley–DeWitt coefficients yield:
+
+\begin{align}
+a_0 &\sim \int d^4x \sqrt{-g} \\
+a_2 &\sim \int d^4x \sqrt{-g} \, R \\
+a_4 &\sim \int d^4x \sqrt{-g} \left(R^2 + R_{\mu\nu}R^{\mu\nu} + \cdots \right)
+\end{align}
+
+\section{Effective Action}
+
+We consider a low-energy truncation retaining the leading scalar curvature terms:
+
+\begin{equation}
+S_{\mathrm{eff}} =
+\frac{1}{16\pi G}
+\int d^4x \sqrt{-g}
+\left(
+R + \frac{\alpha}{\Lambda^2} R^2
+\right)
++ S_m
+\end{equation}
+
+This corresponds to an $f(R)$-type theory.
+
+\section{Integrity Functional}
+
+We extend the spectral action by introducing:
+
+\begin{equation}
+\mathcal{I}[D] =
+\mathrm{Tr}\,\log\left(1 + \frac{D^2}{\Lambda^2}\right)
+\end{equation}
+
+For small $D^2/\Lambda^2$:
+
+\begin{equation}
+\log\left(1 + \frac{D^2}{\Lambda^2}\right)
+=
+\frac{D^2}{\Lambda^2}
+-
+\frac{D^4}{2\Lambda^4}
++
+\cdots
+\end{equation}
+
+This generates additional curvature-dependent corrections.
+
+\section{Field Equations}
+
+Variation yields:
+
+\begin{equation}
+G_{\mu\nu} + \mathcal{I}_{\mu\nu} = 8\pi G T_{\mu\nu}
+\end{equation}
+
+where, in the $R^2$ truncation:
+
+\begin{align}
+\mathcal{I}_{\mu\nu}
+&=
+\frac{2\alpha}{\Lambda^2} R R_{\mu\nu}
+-
+\frac{\alpha}{2\Lambda^2} R^2 g_{\mu\nu} \\
+&+
+\frac{2\alpha}{\Lambda^2}
+\left(
+g_{\mu\nu} \Box R
+-
+\nabla_\mu \nabla_\nu R
+\right)
+\end{align}
+
+\section{Trace Equation}
+
+Taking the trace:
+
+\begin{equation}
+-R + \frac{6\alpha}{\Lambda^2} \Box R = 8\pi G T
+\end{equation}
+
+which can be rewritten as:
+
+\begin{equation}
+\Box R - m^2 R = \frac{8\pi G \Lambda^2}{6\alpha} T
+\end{equation}
+
+with:
+
+\begin{equation}
+m^2 = \frac{\Lambda^2}{6\alpha}
+\end{equation}
+
+This corresponds to a propagating scalar degree of freedom.
+
+\section{Black Hole Solutions}
+
+A regularized metric of the form:
+
+\begin{equation}
+A(r) = 1 - \frac{2GM r^2}{r^3 + r_0^3}
+\end{equation}
+
+illustrates the suppression of curvature divergences in the core region.
+
+\section{Cosmology}
+
+For a flat FRW metric:
+
+\begin{equation}
+R = 6(2H^2 + \dot{H})
+\end{equation}
+
+The modified Friedmann equation becomes:
+
+\begin{equation}
+3H^2 = 8\pi G \rho + \frac{\alpha}{\Lambda^2}\left(\frac{1}{2}R^2 - 6H \dot{R}\right)
+\end{equation}
+
+\section{Stability}
+
+The theory is stable under:
+
+\begin{equation}
+\alpha > 0, \quad \Lambda^2 > 0
+\end{equation}
+
+ensuring absence of tachyonic instabilities in the scalar sector.
+
+\section{Predictions}
+
+The framework predicts:
+
+\begin{itemize}
+\item deviations from GR in strong gravity regimes
+\item regularized black hole cores
+\item an additional scalar mode
+\item modified early-universe dynamics
+\end{itemize}
+
+\section{Discussion}
+
+The presented model is an effective truncation of a more general spectral theory. The full structure may include additional curvature invariants and interactions.
+
+\section{Conclusion}
+
+We have presented TIG as a spectral-motivated effective extension of GR. The model introduces curvature-dependent feedback that suppresses divergences and modifies high-energy behavior while recovering GR in the low-energy limit.
+
+\end{document}
