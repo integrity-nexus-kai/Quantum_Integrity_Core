@@ -13,83 +13,72 @@
 \maketitle
 
 \begin{abstract}
-We propose a spectral-geometric framework in which physically admissible spacetime configurations 
-are constrained by a global condition of topological integrity. In addition to curvature-squared 
-terms, we include gradient-based contributions that encode variations of curvature. The resulting 
-field equations extend General Relativity by incorporating both amplitude and variation of curvature. 
-We derive explicit cosmological equations in the spatially flat FLRW case and discuss implications 
-for black hole structure, cosmology, and gravitational stability.
+We propose a spectral-geometric framework in which physically admissible spacetime configurations are constrained by a global condition of topological integrity. The present work focuses on a minimal local realization based on a quadratic curvature contribution, \(\alpha R^2\), which yields explicit higher-curvature corrections while preserving General Relativity in the appropriate limit. A spatially flat FLRW reduction provides a concrete modified Friedmann equation. Entropy-like gradient terms are discussed as possible effective extensions but are not included in the fundamental action due to their higher-derivative stability issues.
 \end{abstract}
 
 % --------------------------------------------------
 \section{Introduction}
 
-General Relativity provides a geometrical description of gravitation 
-in terms of spacetime curvature \cite{einstein1915, wald1984}. 
+General Relativity provides a geometrical description of gravitation in terms of spacetime curvature \cite{einstein1915, wald1984}. While highly successful, it does not impose a fundamental global constraint on admissible configurations.
 
-Black hole thermodynamics suggests deeper links between geometry 
-and information \cite{bekenstein1973, hawking1975}. 
+Black hole thermodynamics suggests deeper links between geometry and information \cite{bekenstein1973, hawking1975}. Similarly, cosmological models remain dependent on parameterized inputs rather than structural necessity \cite{friedmann1922}.
 
-Cosmological models remain dependent on parameterized inputs 
-rather than structural necessity \cite{friedmann1922}. 
-
-Quadratic curvature corrections have also appeared in modified-gravity contexts \cite{starobinsky1980}. 
-
-These observations motivate the introduction of a global consistency principle 
-in which admissible configurations are selected by geometric constraints.
+Quadratic curvature corrections have also appeared in inflationary and modified-gravity contexts \cite{starobinsky1980}. These observations motivate the introduction of a global consistency principle in which physically admissible configurations are selected by a geometric integrity condition rather than by local dynamics alone.
 
 % --------------------------------------------------
 \section{Topological Integrity Formalism}
 
-We define an integrity functional:
-
+Let $(M,g)$ be a smooth Lorentzian manifold. We define an integrity functional
 \begin{equation}
-\mathcal{I}[g] = \int_M \mathcal{F}\, d\mu_g
+\mathcal{I}[g] = \int_M \mathcal{F}\, d\mu_g .
 \end{equation}
 
-with a minimal local realization:
-
+In the minimal local realization considered here, the integrity density is chosen as
 \begin{equation}
-\mathcal{F} = \alpha R^2 + \beta \nabla_\mu R \nabla^\mu R
+\mathcal{F}_{\mathrm{loc}} = \alpha R^2 ,
 \end{equation}
+where \(R\) is the Ricci scalar and \(\alpha\) is an integrity coupling parameter.
 
-where $\alpha$ and $\beta$ are coupling parameters.
+This term penalizes configurations with large curvature concentration and therefore acts as a geometric regularity constraint.
+
+A broader spectral extension may be written formally as
+\begin{equation}
+\mathcal{F}_{\mathrm{spec}} = \gamma \zeta_{\Delta}(s),
+\end{equation}
+where \(\zeta_{\Delta}(s)\) is a regularized spectral zeta function associated with a geometric operator such as the Laplace-Beltrami operator.
+
+In the present work, the spectral contribution is treated as a possible extension, while the explicitly variational local term \(\alpha R^2\) defines the core theory.
 
 % --------------------------------------------------
 \section{Field Equations}
 
-We consider the action:
-
+We consider the total gravitational action
 \begin{equation}
-S =
-\int d^4x \sqrt{-g}
+S[g]
+=
+\int_M
 \left[
-\frac{1}{16\pi}(R - 2\Lambda)
+\frac{1}{16\pi}
+(R - 2\Lambda)
 +
 \alpha R^2
-+
-\beta \nabla_\mu R \nabla^\mu R
 \right]
+d\mu_g
 +
-S_{\mathrm{matter}}
+S_{\mathrm{matter}} .
 \end{equation}
 
-Variation yields:
-
+Variation with respect to the inverse metric \(g^{\mu\nu}\) gives the modified field equations
 \begin{equation}
 G_{\mu\nu}
 +
 \Lambda g_{\mu\nu}
 +
 16\pi \alpha H_{\mu\nu}
-+
-16\pi \beta K_{\mu\nu}
 =
-8\pi T_{\mu\nu}
+8\pi T_{\mu\nu},
 \end{equation}
-
-with:
-
+where the integrity correction tensor is
 \begin{equation}
 H_{\mu\nu}
 =
@@ -99,73 +88,197 @@ H_{\mu\nu}
 -
 2 \nabla_\mu \nabla_\nu R
 +
-2 g_{\mu\nu} \Box R
+2 g_{\mu\nu} \Box R .
 \end{equation}
 
+Here \(\Box = \nabla^\rho \nabla_\rho\) denotes the covariant d'Alembertian.
+
+Thus the integrity contribution is explicitly given by
 \begin{equation}
-K_{\mu\nu}
+\mathcal{T}^{(\mathcal{I})}_{\mu\nu}
 =
-\nabla_\mu R \nabla_\nu R
--
-\frac{1}{2} g_{\mu\nu} (\nabla R)^2
--
-\nabla_\mu \nabla_\nu R
-+
-g_{\mu\nu} \Box R
+16\pi \alpha H_{\mu\nu}.
 \end{equation}
+
+In the limit \(\alpha \to 0\), the integrity correction vanishes and standard General Relativity is recovered.
 
 % --------------------------------------------------
 \section{Entropy and Geometric Integrity}
 
-The $R^2$ term suppresses large curvature amplitudes, while the gradient term penalizes rapid variations of curvature. Together, these contributions define a balance between geometric concentration and dispersion.
+Entropy-like effects may be interpreted as the degradation or redistribution of geometric structure. A natural covariant candidate for such an extension is a gradient term of the form
+\begin{equation}
+\mathcal{F}_{\mathrm{grad}}
+=
+\beta \nabla_\mu R \nabla^\mu R .
+\end{equation}
+
+This term is sensitive to spatial and temporal variations of curvature and may provide an effective description of geometric dispersion.
+
+However, such gradient terms introduce higher derivatives into the field equations. While the \(R^2\) theory leads to fourth-order equations, a term such as \((\nabla R)^2\) generally introduces sixth-order derivatives and may therefore generate Ostrogradsky-type ghost instabilities.
+
+For this reason, the present work does not include \(\mathcal{F}_{\mathrm{grad}}\) in the fundamental action. It is treated only as a possible effective or phenomenological extension requiring an independent stability analysis.
 
 % --------------------------------------------------
 \section{Black Hole Solutions}
 
-For Schwarzschild vacuum:
-
+For static, spherically symmetric configurations, the classical exterior solution is given by the Schwarzschild metric \cite{schwarzschild1916}. In vacuum, the modified field equations become
 \begin{equation}
-R = 0
+G_{\mu\nu}
++
+16\pi \alpha H_{\mu\nu}
+=
+0 .
 \end{equation}
 
-Thus corrections vanish externally, preserving classical solutions.
+Since the Schwarzschild exterior satisfies \(R=0\), the local \(R^2\) integrity term does not modify the exterior vacuum solution directly. This is an important consistency property: the theory preserves the classical weak-field Schwarzschild regime.
 
-In high-curvature regimes, corrections become relevant and may regularize singularities.
+However, the correction becomes relevant when curvature scalars or their derivatives cease to be regular. In regimes where \(R\) is dynamically generated by matter, quantum corrections, or non-vacuum effective stress, the tensor \(H_{\mu\nu}\) can suppress divergent curvature behavior.
+
+Possible consequences include:
+\begin{itemize}
+\item suppression of curvature divergences,
+\item constraints on admissible interior black hole geometries,
+\item modified collapse endpoints,
+\item compatibility with the classical exterior solution.
+\end{itemize}
 
 % --------------------------------------------------
 \section{Cosmology and Friedmann Dynamics}
 
-For flat FLRW:
-
+We consider homogeneous and isotropic cosmological solutions described by the FLRW metric \cite{friedmann1922}. For a spatially flat FLRW universe, the Ricci scalar is
 \begin{equation}
-R = 6(\dot{H}+2H^2)
+R = 6(\dot{H}+2H^2),
+\end{equation}
+where \(H=\dot{a}/a\) is the Hubble parameter.
+
+The local integrity density
+\begin{equation}
+\mathcal{F}_{\mathrm{loc}}=\alpha R^2
+\end{equation}
+is equivalent to an \(f(R)\) model with
+\begin{equation}
+f(R)=R-2\Lambda+\mu R^2,
+\qquad
+\mu=16\pi\alpha .
 \end{equation}
 
-The modified Friedmann equation becomes:
-
+For spatially flat FLRW geometry, the modified Friedmann equation is
 \begin{equation}
-H^2 =
+3(1+2\mu R)H^2
+=
+8\pi\rho
++
+\Lambda
++
+\frac{\mu}{2}R^2
+-
+3\mu H\dot{R}.
+\end{equation}
+
+Equivalently,
+\begin{equation}
+H^2
+=
 \frac{
-8\pi \rho + \Lambda + 8\pi\alpha R^2 - 48\pi\alpha H \dot{R} + \beta (\dot{R})^2
+8\pi\rho+\Lambda+\frac{\mu}{2}R^2-3\mu H\dot{R}
 }{
-3(1 + 32\pi\alpha R)
-}
+3(1+2\mu R)
+}.
 \end{equation}
+
+Substituting \(\mu=16\pi\alpha\) gives the concrete TIG Friedmann result
+\begin{equation}
+H^2
+=
+\frac{
+8\pi\rho+\Lambda+8\pi\alpha R^2-48\pi\alpha H\dot{R}
+}{
+3(1+32\pi\alpha R)
+}.
+\end{equation}
+
+Thus the effective integrity contribution can be written as
+\begin{equation}
+\Delta_{\mathcal{I}}
+=
+\frac{
+8\pi\alpha R^2-48\pi\alpha H\dot{R}
+}{
+3(1+32\pi\alpha R)
+}
++
+\left[
+\frac{1}{1+32\pi\alpha R}-1
+\right]
+\frac{8\pi\rho+\Lambda}{3}.
+\end{equation}
+
+In the limit \(\alpha \to 0\), the standard Friedmann equation is recovered:
+\begin{equation}
+H^2 = \frac{8\pi}{3}\rho + \frac{\Lambda}{3}.
+\end{equation}
+
+This provides a first concrete cosmological result of the TIG framework.
 
 % --------------------------------------------------
-\section{Predictions}
+\section{Predictions and Observational Signatures}
+
+The concrete \(R^2\) realization leads to several qualitative predictions.
 
 \begin{itemize}
-\item Stability of spacetime under curvature fluctuations
-\item Suppression of singularities
-\item Modified cosmological evolution
-\item Potential deviations in gravitational waves
+
+\item \textbf{Weak-field consistency:}
+In vacuum regions with \(R=0\), the local correction vanishes, preserving standard Schwarzschild behavior.
+
+\item \textbf{High-curvature sensitivity:}
+Integrity corrections become relevant when curvature scalars vary strongly, especially near collapse interiors or early-universe regimes.
+
+\item \textbf{Singularity suppression:}
+The quadratic curvature term penalizes divergent curvature configurations and may regularize otherwise singular solutions.
+
+\item \textbf{Cosmological deviations:}
+The modified Friedmann dynamics contain curvature-derivative corrections that may affect early-universe evolution.
+
+\item \textbf{Spectral extension:}
+A non-local spectral contribution may impose additional constraints on admissible spacetime geometries.
+
 \end{itemize}
+
+These predictions are falsifiable in principle through strong-field gravity, gravitational collapse models, and cosmological constraints on higher-curvature corrections.
+
+% --------------------------------------------------
+\section{Stability Considerations}
+
+The minimal \(R^2\) realization is closely related to known \(f(R)\) gravity models and can be rewritten in scalar-tensor form with an additional scalar degree of freedom. The absence of tachyonic instability requires the effective scalar mass squared to be positive, which in the present normalization is satisfied for
+\begin{equation}
+\alpha > 0 .
+\end{equation}
+
+The condition \(\alpha>0\) also ensures that large curvature amplitudes increase the integrity functional rather than lower it.
+
+By contrast, gradient extensions such as \(\beta(\nabla R)^2\) introduce higher derivatives and may contain ghost-like modes unless embedded in a degenerate or effective framework. Therefore, such terms are excluded from the core action of the present paper.
+
+% --------------------------------------------------
+\section{Limitations}
+
+The present work develops a minimal local realization of the TIG framework. Several limitations remain.
+
+First, the spectral term \(\zeta_{\Delta}(s)\) has been introduced only formally. A complete treatment requires specifying the operator, boundary conditions, regularization scheme, and physical interpretation of the spectral parameter \(s\).
+
+Second, the \(R^2\) correction is not unique. Other curvature invariants such as \(R_{\mu\nu}R^{\mu\nu}\), \(R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}\), or topological densities may contribute to a more complete integrity functional.
+
+Third, explicit black hole interior solutions and cosmological fits remain future work.
 
 % --------------------------------------------------
 \section{Conclusion}
 
-We presented a modified gravitational framework combining curvature amplitude and variation terms. The resulting theory remains consistent with General Relativity in appropriate limits while introducing new dynamical effects in high-curvature regimes.
+Topological Integrity Gravity introduces a global constraint on admissible spacetime configurations. By choosing the explicit local integrity density \(\mathcal{F}_{\mathrm{loc}}=\alpha R^2\), the framework yields concrete higher-curvature field equations rather than an unspecified correction term.
+
+The resulting theory preserves standard General Relativity in the limit \(\alpha \to 0\) and in Ricci-flat vacuum regions, while allowing deviations in high-curvature regimes. The spatially flat FLRW result provides a concrete modified Friedmann equation and therefore a first calculable cosmological prediction.
+
+Entropy-like gradient terms are conceptually useful for interpreting geometric dispersion, but they are not included in the core action due to higher-derivative stability concerns.
+
+This makes the minimal \(R^2\) realization a controlled starting point for further investigation into black hole interiors, early-universe cosmology, and spectral extensions of gravitational dynamics.
 
 % --------------------------------------------------
 \bibliographystyle{unsrt}
