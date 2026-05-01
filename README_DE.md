@@ -1,123 +1,138 @@
-# Quantum_Integrity_Core
-Formalisierung der TIG-Theorie und Regularisierung von Krümmungssingularitäten / Formalization of the TIG Theorie and Regularization of Curvature Singularities
-# 📚 Repository-Struktur
+# Quantum Integrity Core
 
-Dieses Repository ist als wachsendes Forschungsframework für  
-**Topological Integrity Gravity (TIG)** organisiert.
+## Überblick
 
-Die Struktur ist darauf ausgelegt, sowohl mathematische Ableitungen  
-als auch physikalische Anwendungen systematisch zu entwickeln.
+Dieses Repository enthält zwei miteinander verbundene, aber klar getrennte Ebenen:
 
----
+1. **Topological Integrity Gravity (TIG)**
+   Eine modifizierte Gravitationstheorie als Erweiterung der Allgemeinen Relativitätstheorie.
 
-## 🧭 Überblick
-
-Das Projekt ist in mehrere klar getrennte Ebenen unterteilt:
-
-- Grundlagen (Theorie)
-- Ableitungen (Mathematik)
-- Lösungen (Physik)
-- Dokumentation (Publikation)
-- Forschung (Notizen)
+2. **AXIOMA**
+   Ein Cyber-Security-Framework zur Bewertung globaler Systemintegrität.
 
 ---
 
-## 📂 Verzeichnisstruktur
+## 1. Topological Integrity Gravity (TIG)
 
-### `/foundations/`
-**Kern der Theorie**
+### Beschreibung
 
-Enthält die grundlegenden Postulate und Definitionen:
+Topological Integrity Gravity (TIG) ist eine modifizierte Gravitationstheorie auf Basis eines quadratischen Krümmungsterms.
 
-- Spektralgeometrie
-- Integritätsprinzip
-- Wirkungsfunktional
-- Grundgleichungen
+In der aktuellen Form entspricht TIG einer (R^2)-modifizierten Gravitation mit wohldefinierten höherordentlichen Feldgleichungen bei Erhalt klassischer Vakuumlösungen.
 
-👉 Ziel: mathematisch konsistente Basis der Theorie
+Der konzeptionelle Beitrag liegt in der Interpretation dieser Korrekturen als globale Konsistenzbedingung für zulässige Raumzeitgeometrien.
 
 ---
 
-### `/derivations/`
-**Mathematische Ausarbeitung**
+### Minimale Umsetzung
 
-Detaillierte Herleitungen:
-
-- Variation der Wirkung
-- Low-Energy-Limit (GR)
-- Feldgleichungen
-- Stabilitätsanalysen
-
-👉 Ziel: vollständige Nachvollziehbarkeit der Theorie
+[
+\mathcal{F} = \alpha R^2
+]
 
 ---
 
-### `/solutions/`
-**Physikalische Lösungen**
+### Zentrale Eigenschaften
 
-Konkrete Anwendungen der Theorie:
-
-- Schwarze Löcher (reguläre Lösungen)
-- Kosmologische Modelle
-- Hochenergie-Grenzfälle
-
-👉 Ziel: überprüfbare physikalische Vorhersagen
+* Entspricht einer kontrollierten (f(R))-Erweiterung
+* Erhält Ricci-flache Vakuumlösungen ((R = 0))
+* Führt Korrekturen in Hochkrümmungsregimen ein
+* Bleibt kompatibel mit schwachen Gravitationsfeldern
 
 ---
 
-### `/papers/`
-**Wissenschaftliche Arbeiten**
+### Einstiegspunkte
 
-Formal ausgearbeitete Dokumente:
-
-- Foundations Paper (TIG v1.0)
-- Erweiterungen
-- Preprints / Publikationen
-
-👉 Ziel: akademische Kommunikation und Veröffentlichung
+* `main.tex` → vollständiges wissenschaftliches Paper
+* `docs/faq.md` → konzeptionelle Erläuterung
+* `docs/executive_summary.md` → Überblick
 
 ---
 
-### `/notes/`
-**Forschungsnotizen**
+## 2. AXIOMA
 
-Arbeitsbereich für:
+### Beschreibung
 
-- Zwischenideen
-- offene Fragen
-- experimentelle Ansätze
+AXIOMA ist ein systemisches Cyber-Security-Framework zur Bewertung globaler Integrität.
 
-👉 Ziel: flexible Weiterentwicklung der Theorie
+Anstatt isolierte Ereignisse zu analysieren, bewertet AXIOMA den Gesamtzustand eines Systems.
 
 ---
 
-## 🔁 Entwicklungsstrategie
+### Kernidee
 
-Die Entwicklung folgt einer klaren Reihenfolge:
+Klassische Security fragt:
 
-1. Grundlagen definieren  
-2. mathematisch ableiten  
-3. physikalische Lösungen konstruieren  
-4. Ergebnisse publizieren  
+> "Gab es einen Angriff?"
 
----
+AXIOMA fragt:
 
-## ⚠️ Hinweis
-
-Dieses Repository befindet sich in aktiver Entwicklung.
-
-- Strukturen können angepasst werden  
-- Inhalte werden iterativ erweitert  
-- nicht alle Bereiche sind vollständig ausgearbeitet  
+> "Ist das System noch in einem gültigen Gesamtzustand?"
 
 ---
 
-## 🎯 Ziel
+### Einstiegspunkte
 
-Ziel ist der Aufbau einer **konsistenten, überprüfbaren Theorie**,  
-die Gravitation und Quantenfeldtheorie auf einer gemeinsamen  
-geometrischen Grundlage beschreibt.
+* `axioma/axioma_whitepaper.md`
+* `axioma/axioma_architecture.md`
+* `axioma/axioma_use_cases.md`
+* `axioma/axioma_prompt.md`
 
-Citation:
-Dietrich, Kai Stefan.
-"Topological Integrity Gravity (TIG)", 2026.
+---
+
+## 3. Repository-Struktur
+
+```text id="treede2"
+main.tex
+references.bib
+
+docs/
+  faq.md
+  executive_summary.md
+  tig_overview.md
+
+axioma/
+  axioma_whitepaper.md
+  axioma_architecture.md
+  axioma_use_cases.md
+  axioma_prompt.md
+
+papers/
+  derivations/
+
+applications/
+strategy/
+```
+
+---
+
+## 4. Einordnung
+
+Das Repository trennt klar:
+
+* **Theorie (TIG)**
+* **Anwendung (AXIOMA)**
+* **Dokumentation (docs)**
+* **Herleitungen (papers)**
+
+---
+
+## 5. Beitrag
+
+Beiträge sind willkommen in Form von:
+
+* mathematischer Prüfung
+* kritischer Analyse
+* Systemarchitektur-Vorschlägen
+* Simulationen
+
+---
+
+## 6. Hinweis
+
+TIG ist eine aktive Forschungstheorie.
+AXIOMA ist ein konzeptionelles System in Entwicklung.
+
+---
+
+Autor: Kai Stefan Dietrich
