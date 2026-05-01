@@ -1,19 +1,82 @@
-\section{Black Hole Solution in TIG}
+\section{Black Hole Solution in Topological Integrity Gravity (TIG)}
 
-We consider a static, spherically symmetric spacetime:
+\subsection{Metric Ansatz}
 
+We consider a static, spherically symmetric spacetime of the form:
+
+\[
 ds^2 = -f(r) dt^2 + f(r)^{-1} dr^2 + r^2 d\Omega^2
+\]
 
-The TIG-modified field equations are:
+In classical General Relativity, the Schwarzschild solution is given by:
 
-G_{\mu\nu} + \alpha I_{\mu\nu} = 8\pi T_{\mu\nu}
+\[
+f(r) = 1 - \frac{2GM}{r}
+\]
 
-We obtain a modified metric function:
+\subsection{TIG Modification}
 
-f(r) = 1 - \frac{2GM}{r} + \epsilon(r)
+In the TIG framework, we introduce an integrity correction term that modifies the effective gravitational behavior at small scales.
 
-where \epsilon(r) encodes the integrity correction.
+The modified metric function is:
 
-\section{Physical Implications}
+\[
+f(r) = 1 - \frac{2GM}{r} \left(1 - e^{-r_0 / r}\right)
+\]
 
-The correction modifies horizon structure and entropy behavior.
+where:
+\begin{itemize}
+\item $G$ is the gravitational constant
+\item $M$ is the mass
+\item $r_0$ is the fundamental integrity scale
+\end{itemize}
+
+\subsection{Properties of the Solution}
+
+\paragraph{Asymptotic Behavior}
+
+For large $r$, the exponential term vanishes:
+
+\[
+e^{-r_0 / r} \rightarrow 1
+\]
+
+and we recover the Schwarzschild solution:
+
+\[
+f(r) \approx 1 - \frac{2GM}{r}
+\]
+
+\paragraph{Regular Core}
+
+For $r \rightarrow 0$, the correction term suppresses the singularity:
+
+\[
+f(r) \rightarrow 1
+\]
+
+This indicates the absence of a classical curvature singularity.
+
+\subsection{Physical Implications}
+
+The TIG modification leads to:
+
+\begin{itemize}
+\item Regularization of the black hole core
+\item Modified horizon structure
+\item Potential deviations in black hole thermodynamics
+\end{itemize}
+
+In particular, the event horizon is defined by:
+
+\[
+f(r_H) = 0
+\]
+
+which must be solved numerically in the TIG framework.
+
+\subsection{Interpretation}
+
+The exponential correction encodes the effect of topological integrity, acting as a stabilizing mechanism that prevents the formation of singularities.
+
+This suggests that gravitational collapse is regulated by an intrinsic geometric principle rather than leading to divergence.
