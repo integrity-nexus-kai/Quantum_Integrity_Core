@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as follows:"
+authors:
+
+* family-names: "Dietrich"
+  given-names: "Kai Stefan"
+  title: "Topological Integrity Gravity (TIG): A Quadratic Curvature Extension of General Relativity"
+  version: 1.0.0
+  date-released: 2026-05-01
+  url: "https://github.com/DEIN-USERNAME/Quantum_Integrity_Core"
+  keywords:
+* General Relativity
+* Modified Gravity
+* f(R) Gravity
+* Higher-Curvature Theories
+* Cosmology
+  abstract: >-
+  Topological Integrity Gravity (TIG) is a modified gravitational theory based on
+  a quadratic curvature correction to General Relativity. The framework introduces
+  higher-curvature contributions to the field equations while preserving classical
+  vacuum solutions. The theory can be interpreted as a structured extension of
+  f(R) gravity with a focus on global consistency properties of spacetime geometries.
