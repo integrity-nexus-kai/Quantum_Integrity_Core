@@ -1,116 +1,138 @@
-# 📚 Repository Structure
+# Quantum Integrity Core
 
-This repository is organized as a growing research framework for  
-**Topological Integrity Gravity (TIG)**.
+## Overview
 
-The structure is designed to systematically develop both  
-mathematical derivations and physical applications.
+This repository contains two connected but distinct layers:
 
----
+1. **Topological Integrity Gravity (TIG)**
+   A modified gravitational theory extending General Relativity.
 
-## 🧭 Overview
-
-The project is divided into clearly separated layers:
-
-- Foundations (theory)
-- Derivations (mathematics)
-- Solutions (physics)
-- Documentation (publications)
-- Research (notes)
+2. **AXIOMA**
+   A cyber security framework derived from integrity-based system modeling.
 
 ---
 
-## 📂 Directory Structure
+## 1. Topological Integrity Gravity (TIG)
 
-### `/foundations/`
-**Core Theory**
+### Description
 
-Contains fundamental postulates and definitions:
+Topological Integrity Gravity (TIG) is a modified gravitational theory based on a quadratic curvature correction to General Relativity.
 
-- Spectral geometry
-- Integrity principle
-- Action functional
-- Fundamental equations
+In its current formulation, TIG corresponds to an (R^2)-modified gravitational action, leading to well-defined higher-curvature field equations while preserving classical vacuum solutions.
 
-👉 Goal: mathematically consistent theoretical foundation
+The conceptual contribution of TIG is the interpretation of these corrections as a global consistency condition on admissible spacetime geometries.
 
 ---
 
-### `/derivations/`
-**Mathematical Development**
+### Minimal Realization
 
-Detailed derivations:
-
-- Variation of the action
-- Low-energy limit (GR)
-- Field equations
-- Stability analysis
-
-👉 Goal: full mathematical traceability
+[
+\mathcal{F} = \alpha R^2
+]
 
 ---
 
-### `/solutions/`
-**Physical Solutions**
+### Key Properties
 
-Concrete applications of the theory:
-
-- Black holes (regular solutions)
-- Cosmological models
-- High-energy regimes
-
-👉 Goal: testable physical predictions
+* Equivalent to a controlled (f(R)) extension in minimal form
+* Preserves Ricci-flat vacuum solutions ((R = 0))
+* Introduces corrections in high-curvature regimes
+* Remains compatible with weak-field observations
 
 ---
 
-### `/papers/`
-**Scientific Publications**
+### Entry Points
 
-Formally structured documents:
-
-- Foundations paper (TIG v1.0)
-- Extensions
-- Preprints / publications
-
-👉 Goal: academic communication
+* `main.tex` → Full scientific paper
+* `docs/faq.md` → Conceptual clarification
+* `docs/executive_summary.md` → High-level overview
 
 ---
 
-### `/notes/`
-**Research Notes**
+## 2. AXIOMA
 
-Workspace for:
+### Description
 
-- intermediate ideas
-- open problems
-- exploratory approaches
+AXIOMA is a system-level cyber security framework focused on global integrity evaluation.
 
-👉 Goal: flexible development of the theory
+Instead of analyzing isolated events, AXIOMA evaluates whether the entire system remains in a valid operational state.
 
 ---
 
-## 🔁 Development Strategy
+### Core Idea
 
-The project follows a clear progression:
+Traditional security asks:
 
-1. Define foundations  
-2. Develop mathematical structure  
-3. Construct physical solutions  
-4. Publish results  
+> "Was something attacked?"
 
----
+AXIOMA asks:
 
-## ⚠️ Note
-
-This repository is under active development.
-
-- Structure may evolve  
-- Content will expand iteratively  
-- Not all sections are fully developed  
+> "Is the system still in a valid global state?"
 
 ---
 
-## 🎯 Objective
+### Entry Points
 
-The goal is to build a **consistent, testable theoretical framework**  
-that unifies gravity and quantum field theory on a common geometric basis.
+* `axioma/axioma_whitepaper.md`
+* `axioma/axioma_architecture.md`
+* `axioma/axioma_use_cases.md`
+* `axioma/axioma_prompt.md`
+
+---
+
+## 3. Repository Structure
+
+```text id="treeen2"
+main.tex
+references.bib
+
+docs/
+  faq.md
+  executive_summary.md
+  tig_overview.md
+
+axioma/
+  axioma_whitepaper.md
+  axioma_architecture.md
+  axioma_use_cases.md
+  axioma_prompt.md
+
+papers/
+  derivations/
+
+applications/
+strategy/
+```
+
+---
+
+## 4. Positioning
+
+This repository separates:
+
+* **Theory (TIG)**
+* **Application (AXIOMA)**
+* **Documentation (docs)**
+* **Derivations (papers)**
+
+---
+
+## 5. Contribution
+
+Contributions are welcome in the form of:
+
+* mathematical validation
+* critical analysis
+* system architecture proposals
+* simulation concepts
+
+---
+
+## 6. Disclaimer
+
+TIG is an active research theory.
+AXIOMA is a conceptual system architecture under development.
+
+---
+
+Author: Kai Stefan Dietrich
