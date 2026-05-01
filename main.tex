@@ -20,15 +20,15 @@ Independent Research
 \maketitle
 
 \begin{abstract}
-Topological Integrity Gravity (TIG) is a modified gravitational theory based on a quadratic curvature correction to General Relativity. In its minimal realization, the theory corresponds to an $R^2$ extension of the gravitational action, leading to well-defined higher-curvature field equations while preserving classical vacuum solutions. We derive the modified field equations, analyze their implications for black hole configurations, and obtain explicit cosmological predictions. The framework remains consistent with known weak-field limits while introducing dynamically activated corrections in evolving curvature regimes.
+Topological Integrity Gravity (TIG) is a modified gravitational theory based on a quadratic curvature correction to General Relativity. In its minimal realization, the theory corresponds to an $R^2$ extension of the gravitational action. We derive the modified field equations, analyze black hole configurations, and present explicit cosmological predictions. The theory preserves classical limits while introducing dynamically activated corrections in high-curvature regimes.
 \end{abstract}
 
 % --------------------------------------------------
 \section{Introduction}
 
-General Relativity provides a geometrical description of gravitation in terms of spacetime curvature \cite{einstein1915, wald1984}. Modified gravity theories introduce higher-order curvature terms to account for high-energy and cosmological regimes.
+General Relativity provides a geometrical description of gravitation in terms of spacetime curvature \cite{einstein1915, wald1984}. Modified gravity theories introduce higher-order curvature terms to address high-energy and cosmological regimes.
 
-In this work, we present Topological Integrity Gravity (TIG) in its minimal realization, corresponding to a quadratic curvature extension.
+We present Topological Integrity Gravity (TIG) in its minimal realization as a quadratic curvature extension.
 
 % --------------------------------------------------
 \section{Formalism}
@@ -79,7 +79,63 @@ Linearizing around Minkowski space yields Newtonian gravity with corrections of 
 % --------------------------------------------------
 \section{Black Hole Solutions}
 
-In vacuum ($T_{\mu\nu}=0$) and $R=0$, classical Schwarzschild solutions remain valid. Deviations arise only in non-Ricci-flat or dynamical curvature regimes.
+In vacuum ($T_{\mu\nu}=0$) and $R=0$, classical Schwarzschild solutions remain valid.
+
+In regions of high curvature, the TIG correction may modify the internal structure of black holes.
+
+% --------------------------------------------------
+\subsection{Regular Black Hole Interior Ansatz}
+
+We consider a static spherically symmetric metric
+
+\begin{equation}
+ds^2 =
+-F(r)dt^2
++
+\frac{dr^2}{F(r)}
++
+r^2 d\Omega^2
+\end{equation}
+
+with
+
+\begin{equation}
+F(r) = 1 - \frac{2m(r)}{r}
+\end{equation}
+
+and
+
+\begin{equation}
+m(r) = \frac{M r^3}{r^3 + r_c^3}
+\end{equation}
+
+For large $r$:
+
+\begin{equation}
+m(r) \to M
+\quad \Rightarrow \quad
+F(r) \to 1 - \frac{2M}{r}
+\end{equation}
+
+For small $r$:
+
+\begin{equation}
+m(r) \approx \frac{M}{r_c^3} r^3
+\end{equation}
+
+\begin{equation}
+F(r) \approx 1 - \frac{2M}{r_c^3} r^2
+\end{equation}
+
+This corresponds to a de-Sitter-like core with finite curvature.
+
+A natural scale is
+
+\begin{equation}
+r_c \sim \sqrt{\alpha}
+\end{equation}
+
+Thus, TIG allows a regular interior while preserving the Schwarzschild exterior.
 
 % --------------------------------------------------
 \section{Cosmology}
@@ -118,12 +174,8 @@ H^2 =
 \right)
 \end{equation}
 
-Cosmological deviations arise from time variation of curvature rather than curvature magnitude.
-
 % --------------------------------------------------
 \subsection{Numerical Prediction for the Expansion History}
-
-We define
 
 \begin{equation}
 E(z)^2 = \frac{H(z)^2}{H_0^2}
@@ -164,30 +216,28 @@ H_0
 }
 \end{equation}
 
-The dominant correction scales as $(1+z)^6$, indicating strong effects in the early universe and suppression at late times.
-
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{tig_expansion_history_prediction.png}
-\caption{Comparison of the expansion history $H(z)$ in the TIG framework with standard $\Lambda$CDM cosmology for representative values of the coupling parameter $A=\alpha H_0^2$. The deviation grows rapidly with redshift, exhibiting a characteristic $(1+z)^6$ scaling at high redshift, while remaining negligible at low redshift.}
+\caption{Comparison of TIG and $\Lambda$CDM expansion histories. TIG deviations grow with redshift and remain small at low redshift.}
 \end{figure}
 
 % --------------------------------------------------
 \section{Stability Analysis}
 
-The minimal $R^2$ model corresponds to a known class of $f(R)$ gravity. For $\alpha > 0$, the additional scalar degree of freedom is non-tachyonic, and classical ghost instabilities are avoided \cite{defelice2010}.
+The minimal $R^2$ model is a known subclass of $f(R)$ gravity. For $\alpha > 0$, the additional scalar degree of freedom is non-tachyonic and ghost instabilities are avoided \cite{defelice2010}.
 
 % --------------------------------------------------
 \section{Observational Consistency}
 
-Ricci-flat vacuum solutions remain unchanged, ensuring compatibility with gravitational wave observations \cite{gwtc3}.
+Ricci-flat solutions remain unchanged, ensuring compatibility with gravitational wave observations \cite{gwtc3}.
 
-Cosmological deviations may be constrained by CMB measurements \cite{planck2018}.
+Cosmological deviations may be constrained by CMB data \cite{planck2018}.
 
 % --------------------------------------------------
 \section{Conclusion}
 
-We presented TIG as a quadratic curvature extension of General Relativity with explicit field equations and cosmological predictions. The theory preserves known limits while introducing dynamically activated corrections, providing a testable modification of gravitational physics.
+We presented TIG as a quadratic curvature extension of General Relativity with explicit field equations and testable cosmological predictions. The theory preserves known limits while introducing dynamically activated corrections.
 
 % --------------------------------------------------
 \bibliographystyle{unsrt}
