@@ -7,7 +7,11 @@
 \title{Topological Integrity Gravity (TIG):\\
 A Quadratic Curvature Extension of General Relativity}
 
-\author{Kai Stefan Dietrich}
+\author{
+Kai Stefan Dietrich \\
+Independent Research
+}
+
 \date{\today}
 
 \begin{document}
@@ -15,7 +19,7 @@ A Quadratic Curvature Extension of General Relativity}
 \maketitle
 
 \begin{abstract}
-Topological Integrity Gravity (TIG) is a modified gravitational theory based on a quadratic curvature correction to General Relativity. In its minimal realization, the theory corresponds to an $R^2$ extension of the gravitational action, leading to well-defined higher-curvature field equations while preserving classical vacuum solutions. We derive the modified field equations, analyze their implications for black hole configurations, and obtain an explicit cosmological prediction. The framework remains consistent with known weak-field limits while introducing dynamically activated corrections in evolving curvature regimes.
+Topological Integrity Gravity (TIG) is a modified gravitational theory based on a quadratic curvature correction to General Relativity. In its minimal realization, the theory corresponds to an $R^2$ extension of the gravitational action, leading to well-defined higher-curvature field equations while preserving classical vacuum solutions. We derive the modified field equations, analyze their implications for black hole configurations, and obtain explicit cosmological predictions. The framework remains consistent with known weak-field limits while introducing dynamically activated corrections in evolving curvature regimes.
 \end{abstract}
 
 % --------------------------------------------------
@@ -69,7 +73,7 @@ R = 0 \Rightarrow \text{Schwarzschild solution preserved}
 
 \textbf{Weak-field limit:}
 
-Linearizing around Minkowski space yields standard Newtonian gravity plus small corrections of order $\alpha$.
+Linearizing around Minkowski space yields Newtonian gravity with corrections of order $\alpha$.
 
 % --------------------------------------------------
 \section{Black Hole Solutions}
@@ -78,8 +82,6 @@ In vacuum ($T_{\mu\nu}=0$) and $R=0$, classical Schwarzschild solutions remain v
 
 % --------------------------------------------------
 \section{Cosmology}
-
-FLRW metric:
 
 \begin{equation}
 ds^2 = -dt^2 + a(t)^2 d\vec{x}^2
@@ -115,36 +117,70 @@ H^2 =
 \right)
 \end{equation}
 
-\textbf{Prediction:}
 Cosmological deviations arise from time variation of curvature rather than curvature magnitude.
+
+% --------------------------------------------------
+\subsection{Numerical Prediction for the Expansion History}
+
+We define
+
+\begin{equation}
+E(z)^2 = \frac{H(z)^2}{H_0^2}
+\end{equation}
+
+\begin{equation}
+E_{\Lambda CDM}^2(z) = \Omega_m (1+z)^3 + \Omega_\Lambda
+\end{equation}
+
+\begin{equation}
+\Delta E_{\mathrm{TIG}}^2(z)
+=
+96\pi A
+\left[
+\frac{3}{4}\Omega_m^2(1+z)^6
+-
+\frac{3}{2}\Omega_\Lambda \Omega_m (1+z)^3
+\right]
+\end{equation}
+
+\begin{equation}
+A = \alpha H_0^2
+\end{equation}
+
+\begin{equation}
+H_{\mathrm{TIG}}(z)
+=
+H_0
+\sqrt{
+\Omega_m(1+z)^3 + \Omega_\Lambda
++
+96\pi A
+\left[
+\frac{3}{4}\Omega_m^2(1+z)^6
+-
+\frac{3}{2}\Omega_\Lambda \Omega_m (1+z)^3
+\right]
+}
+\end{equation}
+
+The dominant correction scales as $(1+z)^6$, indicating strong effects in the early universe and suppression at late times.
 
 % --------------------------------------------------
 \section{Stability Analysis}
 
-The minimal $R^2$ model corresponds to a well-known subclass of $f(R)$ gravity.
-
-For $\alpha > 0$, the additional scalar degree of freedom is non-tachyonic, and ghost instabilities are avoided at the classical level \cite{defelice2010}.
-
-Higher-derivative extensions are not considered here.
+The minimal $R^2$ model corresponds to a known class of $f(R)$ gravity. For $\alpha > 0$, the additional scalar degree of freedom is non-tachyonic, and classical ghost instabilities are avoided \cite{defelice2010}.
 
 % --------------------------------------------------
 \section{Observational Consistency}
 
-\textbf{Gravitational waves:}
-Ricci-flat vacuum solutions remain unchanged, ensuring compatibility with LIGO observations.
+Ricci-flat vacuum solutions remain unchanged, ensuring compatibility with gravitational wave observations \cite{gwtc3}.
 
-\textbf{Cosmology:}
-Deviations are expected primarily in early-universe regimes and may be constrained by CMB data \cite{planck2018}.
-
-\textbf{Expansion history:}
-Modified Friedmann dynamics provide a testable deviation from $\Lambda$CDM.
+Cosmological deviations may be constrained by CMB measurements \cite{planck2018}.
 
 % --------------------------------------------------
 \section{Conclusion}
 
-We presented TIG as a quadratic curvature extension of General Relativity. The theory yields explicit field equations and a concrete cosmological prediction.
-
-The framework preserves classical limits while introducing dynamical curvature corrections, providing a testable extension of standard gravitational theory.
+We presented TIG as a quadratic curvature extension of General Relativity with explicit field equations and cosmological predictions. The theory preserves known limits while introducing dynamically activated corrections, providing a testable modification of gravitational physics.
 
 % --------------------------------------------------
 \bibliographystyle{unsrt}
