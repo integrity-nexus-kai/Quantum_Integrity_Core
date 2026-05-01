@@ -15,82 +15,79 @@ A Quadratic Curvature Extension of General Relativity}
 \maketitle
 
 \begin{abstract}
-Topological Integrity Gravity (TIG) is a modified gravitational theory based on a quadratic curvature correction to General Relativity. In its minimal realization, the theory corresponds to an $R^2$ extension of the gravitational action, leading to well-defined higher-curvature field equations while preserving classical vacuum solutions. We derive the modified field equations, analyze their implications for black hole configurations, and obtain an explicit cosmological prediction in the form of a modified Friedmann equation. The resulting framework remains compatible with known weak-field limits while introducing dynamically activated corrections in evolving curvature regimes.
+Topological Integrity Gravity (TIG) is a modified gravitational theory based on a quadratic curvature correction to General Relativity. In its minimal realization, the theory corresponds to an $R^2$ extension of the gravitational action, leading to well-defined higher-curvature field equations while preserving classical vacuum solutions. We derive the modified field equations, analyze their implications for black hole configurations, and obtain an explicit cosmological prediction. The framework remains consistent with known weak-field limits while introducing dynamically activated corrections in evolving curvature regimes.
 \end{abstract}
 
 % --------------------------------------------------
 \section{Introduction}
 
-General Relativity provides a geometrical description of gravitation in terms of spacetime curvature \cite{einstein1915, wald1984}. While highly successful, it is expected to receive corrections at high curvature scales.
+General Relativity provides a geometrical description of gravitation in terms of spacetime curvature \cite{einstein1915, wald1984}. Modified gravity theories introduce higher-order curvature terms to account for high-energy and cosmological regimes.
 
-Modified gravity models, including $f(R)$ theories, introduce higher-order curvature terms to address cosmological and strong-field phenomena.
-
-In this work, we introduce Topological Integrity Gravity (TIG) in its minimal realization, corresponding to a quadratic curvature extension. The theory provides a controlled modification of Einstein gravity with explicit field equations and well-defined limits.
+In this work, we present Topological Integrity Gravity (TIG) in its minimal realization, corresponding to a quadratic curvature extension.
 
 % --------------------------------------------------
-\section{Topological Integrity Formalism}
-
-We consider the gravitational action
+\section{Formalism}
 
 \begin{equation}
 S = \int d^4x \sqrt{-g}
 \left[
 \frac{1}{16\pi}(R - 2\Lambda) + \alpha R^2
 \right]
-+ S_{\mathrm{matter}}.
++ S_{\mathrm{matter}}
 \end{equation}
-
-This corresponds to an $f(R)$ theory with
 
 \begin{equation}
-f(R) = R - 2\Lambda + \mu R^2,
+f(R) = R - 2\Lambda + \mu R^2, \quad \mu = 16\pi\alpha
 \end{equation}
-
-where $\mu = 16\pi \alpha$.
 
 % --------------------------------------------------
 \section{Field Equations}
-
-Variation with respect to $g^{\mu\nu}$ yields
 
 \begin{equation}
 f'(R) R_{\mu\nu}
 - \frac{1}{2} f(R) g_{\mu\nu}
 + (g_{\mu\nu}\Box - \nabla_\mu \nabla_\nu) f'(R)
-= 8\pi T_{\mu\nu},
+= 8\pi T_{\mu\nu}
 \end{equation}
-
-with
 
 \begin{equation}
-f'(R) = 1 + 2\mu R.
+f'(R) = 1 + 2\mu R
 \end{equation}
 
-In the limit $\alpha \to 0$, standard Einstein field equations are recovered.
+% --------------------------------------------------
+\section{Limit Analysis}
+
+\textbf{GR limit:}
+\begin{equation}
+\alpha \to 0 \Rightarrow G_{\mu\nu} = 8\pi T_{\mu\nu}
+\end{equation}
+
+\textbf{Vacuum limit:}
+\begin{equation}
+R = 0 \Rightarrow \text{Schwarzschild solution preserved}
+\end{equation}
+
+\textbf{Weak-field limit:}
+
+Linearizing around Minkowski space yields standard Newtonian gravity plus small corrections of order $\alpha$.
 
 % --------------------------------------------------
 \section{Black Hole Solutions}
 
-In vacuum, $T_{\mu\nu} = 0$. For Ricci-flat solutions ($R=0$), the correction terms vanish.
-
-Thus, classical Schwarzschild solutions are preserved in the exterior region. Deviations may arise in regions where curvature becomes dynamically relevant.
+In vacuum ($T_{\mu\nu}=0$) and $R=0$, classical Schwarzschild solutions remain valid. Deviations arise only in non-Ricci-flat or dynamical curvature regimes.
 
 % --------------------------------------------------
-\section{Cosmology and Friedmann Dynamics}
+\section{Cosmology}
 
-We consider a spatially flat FLRW metric
-
-\begin{equation}
-ds^2 = -dt^2 + a(t)^2 d\vec{x}^2.
-\end{equation}
-
-The Ricci scalar is
+FLRW metric:
 
 \begin{equation}
-R = 6(\dot{H} + 2H^2).
+ds^2 = -dt^2 + a(t)^2 d\vec{x}^2
 \end{equation}
 
-The modified Friedmann equation reads
+\begin{equation}
+R = 6(\dot{H} + 2H^2)
+\end{equation}
 
 \begin{equation}
 H^2 =
@@ -98,41 +95,15 @@ H^2 =
 8\pi \rho + \Lambda + 8\pi\alpha R^2 - 48\pi\alpha H \dot{R}
 }{
 3(1 + 32\pi\alpha R)
-}.
+}
 \end{equation}
 
 % --------------------------------------------------
 \subsection{Explicit Cosmological Prediction}
 
-For the FLRW background,
-
 \begin{equation}
-R = 6(\dot{H} + 2H^2),
+\dot{R} = 6(\ddot{H} + 4H\dot{H})
 \end{equation}
-
-\begin{equation}
-\dot{R} = 6(\ddot{H} + 4H\dot{H}).
-\end{equation}
-
-Substituting yields
-
-\begin{equation}
-H^2 =
-\frac{
-8\pi\rho + \Lambda
-+
-288\pi\alpha
-\left(
-\dot{H}^2 + 4H^4 - H\ddot{H}
-\right)
-}{
-3\left[
-1 + 192\pi\alpha(\dot{H} + 2H^2)
-\right]
-}.
-\end{equation}
-
-Equivalently,
 
 \begin{equation}
 3H^2 =
@@ -141,34 +112,39 @@ Equivalently,
 288\pi\alpha
 \left(
 \dot{H}^2 - 2H^2\dot{H} - H\ddot{H}
-\right).
+\right)
 \end{equation}
 
-In the limit $\alpha \to 0$:
-
-\begin{equation}
-3H^2 = 8\pi\rho + \Lambda.
-\end{equation}
-
-The correction terms vanish for constant curvature but become relevant when the Hubble parameter evolves dynamically.
-
-\begin{quote}
-Cosmological deviations from General Relativity are governed by time derivatives of curvature rather than curvature alone.
-\end{quote}
+\textbf{Prediction:}
+Cosmological deviations arise from time variation of curvature rather than curvature magnitude.
 
 % --------------------------------------------------
-\section{Limitations}
+\section{Stability Analysis}
 
-The present work considers only the minimal $R^2$ realization. Extensions involving higher-derivative terms may introduce additional degrees of freedom and require separate stability analysis.
+The minimal $R^2$ model corresponds to a well-known subclass of $f(R)$ gravity.
 
-Spectral or non-local generalizations are not included in this formulation.
+For $\alpha > 0$, the additional scalar degree of freedom is non-tachyonic, and ghost instabilities are avoided at the classical level \cite{defelice2010}.
+
+Higher-derivative extensions are not considered here.
+
+% --------------------------------------------------
+\section{Observational Consistency}
+
+\textbf{Gravitational waves:}
+Ricci-flat vacuum solutions remain unchanged, ensuring compatibility with LIGO observations.
+
+\textbf{Cosmology:}
+Deviations are expected primarily in early-universe regimes and may be constrained by CMB data \cite{planck2018}.
+
+\textbf{Expansion history:}
+Modified Friedmann dynamics provide a testable deviation from $\Lambda$CDM.
 
 % --------------------------------------------------
 \section{Conclusion}
 
-We have presented Topological Integrity Gravity as a minimal quadratic curvature extension of General Relativity. The theory yields explicit modified field equations while preserving classical vacuum solutions.
+We presented TIG as a quadratic curvature extension of General Relativity. The theory yields explicit field equations and a concrete cosmological prediction.
 
-A key result is the explicit cosmological prediction showing that deviations arise dynamically through curvature evolution. This provides a concrete and testable direction for further investigation.
+The framework preserves classical limits while introducing dynamical curvature corrections, providing a testable extension of standard gravitational theory.
 
 % --------------------------------------------------
 \bibliographystyle{unsrt}
