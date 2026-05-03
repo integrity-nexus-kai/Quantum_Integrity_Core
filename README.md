@@ -151,6 +151,8 @@ This difference implies that near-critical configurations in TIG exhibit enhance
 
 As a result, observational data showing non-linear response near horizon formation would favor TIG-type consistency constraints over standard GR descriptions.
 
+![TIG vs Schwarzschild](papers/tig_schwarzschild_horizon_comparison.png)
+
 ## Numerical Illustration
 
 The qualitative scaling behavior is supported by numerical illustrations contained in this repository.
@@ -218,13 +220,6 @@ Derzeit nicht enthalten:
 ---
 ---
 
-## 📂 Repository Structure
-
-- 📁 applications/ — applied models and domain-specific extensions  
-- 📁 axioma/ — core architectural concepts  
-- 📁 figures/ — visualizations and prediction plots  
-- 📁 papers/ — scientific derivations and LaTeX sources  
-- 📁 strategy/ — publication and positioning strategy
 
 ## Open Question
 
