@@ -1,3 +1,6 @@
+![TIG vs Schwarzschild](papers/tig_schwarzschild_horizon_comparison.png)
+
+
 # Quantum Integrity Core (TIG Framework)
 ## Reading Guide
 
