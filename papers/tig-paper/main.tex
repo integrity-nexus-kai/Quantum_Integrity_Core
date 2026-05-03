@@ -5,7 +5,8 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 
-\graphicspath{{figures/}}
+% Wichtig: relativer Pfad zu den Figures
+\graphicspath{{../../figures/}}
 
 \title{Topological Integrity Gravity (TIG):\
 A Quadratic $f(R)$ Model with a Critical Horizon Transition}
@@ -21,18 +22,17 @@ Independent Research
 
 \maketitle
 
-\begin{abstract}
-We investigate Topological Integrity Gravity (TIG) within the framework of quadratic $f(R)$ gravity, characterized by an $R^2$ curvature correction. We derive the modified field equations and study static, spherically symmetric configurations. Motivated by regular black hole models, we consider an effective interior mass profile that interpolates between Schwarzschild behavior and a regular core. The resulting geometry exhibits a critical dimensionless scale governing the existence of horizons. Below this scale, solutions resemble Schwarzschild black holes, while above it, horizonless compact configurations arise. We further derive the photon-sphere condition and corresponding shadow-radius predictions, providing potential observational signatures. The model is discussed in the broader context of $f(R)$ gravity and regular black hole solutions.
-\end{abstract}
+% Abstract wird extern geladen
+\input{abstract}
 
 % --------------------------------------------------
 \section{Introduction}
 
-General Relativity (GR) provides a highly successful description of gravitation \cite{einstein1915, wald1984}. Nevertheless, extensions of GR are widely explored in high-energy physics and cosmology.
+General Relativity (GR) provides a highly successful description of gravitation. Nevertheless, extensions of GR are widely explored in high-energy physics and cosmology.
 
-Among these, $f(R)$ gravity represents a minimal and well-established modification \cite{defelice2010, sotiriou2010}, in which the Einstein-Hilbert action is generalized to a function of the Ricci scalar.
+Among these, $f(R)$ gravity represents a minimal and well-established modification, in which the Einstein-Hilbert action is generalized to a function of the Ricci scalar.
 
-In this work, we investigate a quadratic $f(R)$ model and explore its implications for compact objects, focusing on horizon structure and observable signatures.
+In this work, we investigate Topological Integrity Gravity (TIG) as a constrained quadratic $f(R)$ framework and explore its implications for compact objects and observable signatures.
 
 % --------------------------------------------------
 \section{Formalism}
@@ -73,19 +73,8 @@ f'(R) = 1 + 2\mu R.
 
 The trace equation reads:
 \begin{equation}
-3\Box f'(R) + f'(R)R - 2f(R) = 8\pi T,
+3\Box f'(R) + f'(R)R - 2f(R) = 8\pi T.
 \end{equation}
-which reveals the presence of an additional scalar degree of freedom.
-
-% --------------------------------------------------
-\section{Relation to $f(R)$ Gravity}
-
-Quadratic $f(R)$ models introduce a scalar degree of freedom with effective mass
-\begin{equation}
-m^2 \sim \frac{1}{6\alpha}.
-\end{equation}
-
-For $\alpha > 0$, the scalar mode is non-tachyonic and the theory is free of ghost instabilities at the classical level \cite{defelice2010}. In the low-curvature regime, GR is recovered.
 
 % --------------------------------------------------
 \section{Static Configurations}
@@ -107,20 +96,11 @@ Motivated by regular black hole solutions, we consider the effective mass profil
 m(r) = \frac{M r^3}{r^3 + r_c^3}.
 \end{equation}
 
-This profile interpolates between:
-\begin{itemize}
-\item Schwarzschild behavior at large $r$,
-\item a regular core at small $r$.
-\end{itemize}
+This profile interpolates between Schwarzschild behavior at large $r$ and a regular core at small $r$.
 
 The associated metric function is:
 \begin{equation}
 F(r) = 1 - \frac{2m(r)}{r}.
-\end{equation}
-
-A characteristic length scale is expected on dimensional grounds:
-\begin{equation}
-r_c \sim m^{-1} \sim \sqrt{\alpha}.
 \end{equation}
 
 % --------------------------------------------------
@@ -128,9 +108,10 @@ r_c \sim m^{-1} \sim \sqrt{\alpha}.
 
 Horizons satisfy:
 \begin{equation}
-F(r_H) = 0,
+F(r_H) = 0.
 \end{equation}
-leading to:
+
+This leads to:
 \begin{equation}
 r_H^3 - 2M r_H^2 + r_c^3 = 0.
 \end{equation}
@@ -144,7 +125,6 @@ we obtain:
 x^3 - x^2 + \beta^3 = 0.
 \end{equation}
 
-% --------------------------------------------------
 \subsection{Critical Transition}
 
 The cubic equation exhibits a critical value:
@@ -159,7 +139,7 @@ For:
 \item $\beta > \beta_c$: no real positive solution exists.
 \end{itemize}
 
-This transition corresponds to a change in the causal structure of spacetime, separating black hole configurations from horizonless compact objects.
+This transition separates black hole configurations from horizonless compact objects.
 
 % --------------------------------------------------
 \subsection{Numerical Illustration}
@@ -188,12 +168,11 @@ The shadow radius is given by:
 R_{\mathrm{sh}} = \frac{r_{\mathrm{ph}}}{\sqrt{F(r_{\mathrm{ph}})}}.
 \end{equation}
 
-Thus, deviations from the Schwarzschild prediction are controlled by $\beta$.
-
 % --------------------------------------------------
 \section{Observational Implications}
 
 The modified horizon and photon-sphere structure may be probed via:
+
 \begin{itemize}
 \item black hole imaging,
 \item gravitational lensing,
@@ -201,23 +180,11 @@ The modified horizon and photon-sphere structure may be probed via:
 \end{itemize}
 
 % --------------------------------------------------
-\section{Comparison with Regular Black Hole Models}
-
-Regular black hole models (e.g., Bardeen, Hayward) introduce phenomenological modifications to remove singularities.
-
-In the present approach, we explore such regular configurations within the context of a modified gravitational action. The emergence of a critical scale distinguishes the model by introducing a transition in horizon structure.
-
-% --------------------------------------------------
-\section{Cosmological Considerations}
-
-Quadratic curvature corrections can influence early-universe dynamics, while reducing to $\Lambda$CDM behavior at late times.
-
-% --------------------------------------------------
 \section{Conclusion}
 
-We have studied a quadratic $f(R)$ gravity model and explored regular interior configurations motivated by modified gravity.
+We have studied TIG as a constrained quadratic $f(R)$ gravity model.
 
-A key feature is the existence of a critical dimensionless parameter:
+A key feature is the existence of a critical parameter:
 \begin{equation}
 \beta_c = \left(\frac{4}{27}\right)^{1/3},
 \end{equation}
