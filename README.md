@@ -19,7 +19,7 @@ This is the full LaTeX source of the paper.
 
 ---
 
-## 📘 Überblick
+## 📘 Overview (German section below)
 
 Dieses Repository enthält die formale Ausarbeitung von Topological Integrity Gravity (TIG), einem eingeschränkten quadratischen f(R)-Gravitationsmodell mit einem kritischen Horizont-Übergang.
 
