@@ -142,6 +142,23 @@ This difference implies that near-critical configurations in TIG exhibit enhance
 
 As a result, observational data showing non-linear response near horizon formation would favor TIG-type consistency constraints over standard GR descriptions.
 
+## Numerical Illustration
+
+The qualitative scaling behavior is supported by numerical illustrations contained in this repository.
+
+The current figures show:
+
+- the robustness of the saddle-node transition under generalized mass profiles
+- the dependence of the horizon radius on the control parameter
+- the predicted echo-delay enhancement near the critical regime
+
+Relevant figures:
+
+- `papers/tig-paper/tig_bifurcation_robustness.png`
+- `papers/tig-paper/tig_horizon_radius_prediction.png`
+- `papers/tig-paper/tig_echo_delay_prediction.png`
+
+These plots provide the first numerical visualization of the transition structure and support the claim that TIG predicts non-linear behavior near criticality.
 
 ## 📂 Repository-Struktur
 
