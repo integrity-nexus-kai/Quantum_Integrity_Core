@@ -116,7 +116,25 @@ Derzeit nicht enthalten:
 - Starobinsky (1980) — quadratische Gravitation  
 
 ---
+---
 
+## 📂 Repository Structure
+
+- 📁 applications/ — applied models and domain-specific extensions  
+- 📁 axioma/ — core architectural concepts  
+- 📁 figures/ — visualizations and prediction plots  
+- 📁 papers/ — scientific derivations and LaTeX sources  
+- 📁 strategy/ — publication and positioning strategy  
+
+---
+
+## 📌 Status
+
+- Model defined  
+- Analytical structure derived  
+- Numerical illustrations available  
+- Extended interpretation in progress  
+- Stability analysis in progress  
 ## 👤 Autor
 
 Kai Stefan Dietrich  
