@@ -1,4 +1,11 @@
 # Quantum Integrity Core (TIG Framework)
+## Reading Guide
+
+* Start here: Conceptual overview and key properties below
+* Core theory: See the LaTeX source in `papers/tig-paper/main.tex`
+* Visual intuition: Check the `figures/` directory
+* Extensions and applications: See `applications/`
+* Architectural context: See `axioma/`
 
 ---
 ## Topological Integrity Gravity (TIG)
@@ -41,6 +48,18 @@ Observable implications include:
 * Black hole imaging
 * Gravitational lensing effects
 * Gravitational wave signatures
+
+## Why this matters
+
+Topological Integrity Gravity (TIG) introduces a structurally constrained extension of General Relativity in which not all curvature corrections are admissible.
+
+The existence of a critical parameter separating horizon and non-horizon configurations suggests that gravitational systems may be organized by deeper consistency conditions rather than continuous deformation alone.
+
+This has potential implications for:
+
+* the interpretation of black hole horizons
+* the structure of compact objects
+* observational signatures in strong gravity regimes
 
 ## 📂 Repository-Struktur
 
