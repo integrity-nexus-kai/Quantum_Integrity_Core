@@ -177,6 +177,12 @@ These plots provide the first numerical visualization of the transition structur
 - papers/ — wissenschaftliche Inhalte  
 - strategy/ — Veröffentlichungsstrategie  
 
+## Open Question
+
+What is the exact scaling exponent ( \alpha ) governing the transition near the critical parameter, and does it exhibit universality across different gravitational configurations?
+
+Answering this question is central to establishing TIG as a predictive framework.
+
 ---
 
 ## 📊 Status
