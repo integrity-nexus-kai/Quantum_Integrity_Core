@@ -61,6 +61,20 @@ This has potential implications for:
 * the structure of compact objects
 * observational signatures in strong gravity regimes
 
+## Minimal Consistency Statement
+
+In TIG, admissible curvature corrections are not arbitrary but must preserve the structural integrity of horizon formation.
+
+This implies the existence of a constrained parameter space in which:
+
+* the horizon equation admits a well-defined root structure
+* transitions between horizon and non-horizon configurations occur only via critical points
+* no continuous deformation can remove or introduce horizons without crossing a structural threshold
+
+As a consequence, not all ( f(R) )-type extensions are physically admissible:
+only those respecting these consistency conditions can represent viable gravitational configurations.
+
+
 ## 📂 Repository-Struktur
 
 - applications/ — Anwendungen (zukünftige Arbeiten)  
