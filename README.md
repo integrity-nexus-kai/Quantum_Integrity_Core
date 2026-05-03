@@ -88,6 +88,20 @@ These effects arise not from arbitrary parameter choices, but from the underlyin
 
 As a result, observational signatures are not independent predictions, but direct consequences of the consistency structure itself.
 
+## First Concrete Prediction
+
+The critical structure in TIG implies the existence of a transition scale at which horizon formation changes qualitatively.
+
+Near this critical regime, small variations in the effective curvature scale lead to disproportionately large changes in observable properties.
+
+In particular, this suggests:
+
+* enhanced sensitivity of photon sphere structure near the transition
+* non-linear shifts in shadow radius for compact objects close to criticality
+* amplified deviations in gravitational wave signatures during merger events involving near-critical configurations
+
+This behavior is not generic to all modified gravity models, but follows specifically from the existence of a structurally constrained transition between horizon and non-horizon states.
+
 
 
 ## 📂 Repository-Struktur
