@@ -28,24 +28,6 @@ The core result is the existence of a **critical parameter** that separates:
 This is the full LaTeX source of the paper.
 
 ---
-
-## 📘 Overview (German section below)
-
-Dieses Repository enthält die formale Ausarbeitung von Topological Integrity Gravity (TIG), einem eingeschränkten quadratischen f(R)-Gravitationsmodell mit einem kritischen Horizont-Übergang.
-
-Topological Integrity Gravity (TIG) wird als strukturierte Erweiterung der Allgemeinen Relativitätstheorie formuliert, motiviert durch Einschränkungen der zulässigen Krümmungskorrekturen.
-
-Im Niedrigkrümmungsregime reduziert sich TIG auf eine quadratische f(R)-Theorie im Sinne der Starobinsky-Gravitation, führt jedoch durch die Einschränkung des Parameterraums zu qualitativ neuem Verhalten.
-
-Das zentrale Resultat des Modells ist die Existenz eines kritischen Parameters:
-
-beta_c = (4/27)^(1/3)
-
-der trennt zwischen:
-
-- Schwarzen-Loch-Konfigurationen (mit Horizonten)  
-- kompakten Objekten ohne Horizont  
-
 ---
 
 ## 🧠## Conceptual Positioning
