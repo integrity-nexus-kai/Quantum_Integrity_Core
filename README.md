@@ -11,8 +11,7 @@ The core result is the existence of a **critical parameter** that separates:
 
 - Black hole configurations (with horizons)
 - Compact objects without horizons
-
-- 
+  
 ## 🔗 Quick Links
 
 - 📄 Main paper (LaTeX): [papers/tig-paper/main.tex](papers/tig-paper/main.tex)
@@ -49,42 +48,24 @@ der trennt zwischen:
 
 ---
 
-## 🧠 Konzeptuelle Einordnung
+## 🧠## Conceptual Positioning
 
-TIG wird nicht als generische Erweiterung der Allgemeinen Relativitätstheorie eingeführt, sondern als strukturell eingeschränkte Theorie, in der Krümmungskorrekturen durch Konsistenzbedingungen begrenzt sind.
+Topological Integrity Gravity (TIG) is not introduced as a generic extension of General Relativity, but as a structurally constrained theory in which admissible curvature corrections are restricted by consistency conditions.
 
-Im Gegensatz zu phänomenologischen f(R)-Modellen zeigt TIG einen diskreten kritischen Übergang zwischen Horizont- und Nicht-Horizont-Geometrien, was auf eine tiefere strukturelle Organisation gravitativer Konfigurationen hindeutet.
+In contrast to phenomenological f(R) models, TIG exhibits a discrete critical transition between horizon and non-horizon geometries. This indicates a deeper structural organization of gravitational configurations.
 
----
+## Key Properties
 
-## 🔬 Zentrale Eigenschaften
+* Constrained quadratic f(R) gravity
+* Regularized internal mass profile
+* Cubic horizon equation with analytical structure
+* Critical transition between horizon and non-horizon geometries
 
-- Eingeschränkte quadratische f(R)-Gravitation  
-- Regularisiertes inneres Massenprofil  
-- Kubische Horizontgleichung mit analytischer Struktur  
-- Kritischer Übergang zwischen Horizont- und Nicht-Horizont-Geometrien  
-- Beobachtbare Konsequenzen für:
-  - Schwarzes-Loch-Imaging  
-  - Gravitationslinseneffekte  
-  - Gravitationswellen  
+Observable implications include:
 
----
-
-## 📄 Paper
-
-Die vollständige Herleitung und die Ergebnisse befinden sich in:
-
-papers/tig-paper/main.tex
-
-Das kompilierte PDF enthält:
-
-- Feldgleichungen  
-- Horizontstruktur  
-- kritischen Übergang  
-- numerische Illustration  
-- Photonensphäre und Schattenradius  
-
----
+* Black hole imaging
+* Gravitational lensing effects
+* Gravitational wave signatures
 
 ## 📂 Repository-Struktur
 
