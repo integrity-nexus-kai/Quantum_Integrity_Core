@@ -36,6 +36,15 @@ Topological Integrity Gravity (TIG) is not introduced as a generic extension of 
 
 In contrast to phenomenological f(R) models, TIG exhibits a discrete critical transition between horizon and non-horizon geometries. This indicates a deeper structural organization of gravitational configurations.
 
+## What TIG is not
+
+* not a generic parameter extension of General Relativity
+* not a phenomenological curve-fitting model
+* not based on arbitrary modification of the action
+
+TIG instead restricts the space of admissible theories by structural consistency requirements.
+
+
 ## Key Properties
 
 * Constrained quadratic f(R) gravity
