@@ -8,7 +8,7 @@
 \graphicspath{{figures/}}
 
 \title{Topological Integrity Gravity (TIG):\\
-A Quadratic Curvature Extension of General Relativity}
+A Quadratic $f(R)$ Model with a Critical Horizon Transition}
 
 \author{
 Kai Stefan Dietrich \\
@@ -22,7 +22,7 @@ Independent Research
 \maketitle
 
 \begin{abstract}
-Topological Integrity Gravity (TIG) is a modified gravitational theory based on a quadratic curvature correction to General Relativity. In its minimal realization, the theory corresponds to an $R^2$ extension of the gravitational action. We derive the modified field equations, analyze black hole configurations, and present explicit cosmological predictions. The theory preserves classical limits while introducing dynamically activated corrections in high-curvature regimes.
+We introduce Topological Integrity Gravity (TIG), a modified gravitational theory based on a quadratic curvature extension of General Relativity. In its minimal realization, the model corresponds to an $R^2$ correction to the Einstein-Hilbert action. We derive the modified field equations and analyze static, spherically symmetric solutions. The model admits regular black hole interiors and predicts a critical integrity scale that governs the existence of horizons. Below this scale, solutions reduce to Schwarzschild-like black holes, while above it, horizonless compact objects emerge. We further discuss cosmological implications and observational signatures. The theory preserves standard low-curvature limits while introducing dynamically activated corrections in high-curvature regimes.
 \end{abstract}
 
 % --------------------------------------------------
@@ -30,7 +30,7 @@ Topological Integrity Gravity (TIG) is a modified gravitational theory based on 
 
 General Relativity provides a geometrical description of gravitation in terms of spacetime curvature \cite{einstein1915, wald1984}. Modified gravity theories introduce higher-order curvature terms to address high-energy and cosmological regimes.
 
-We present Topological Integrity Gravity (TIG) in its minimal realization as a quadratic curvature extension.
+We present Topological Integrity Gravity (TIG) as a quadratic $f(R)$ extension and analyze its implications for black hole structure and cosmology.
 
 % --------------------------------------------------
 \section{Formalism}
@@ -83,7 +83,7 @@ Linearizing around Minkowski space yields Newtonian gravity with corrections of 
 
 In vacuum ($T_{\mu\nu}=0$) and $R=0$, classical Schwarzschild solutions remain valid.
 
-In regions of high curvature, the TIG correction may modify the internal structure of black holes.
+In regions of high curvature, the TIG correction modifies the internal structure of compact objects.
 
 % --------------------------------------------------
 \subsection{Regular Black Hole Interior Ansatz}
@@ -137,142 +137,81 @@ A natural scale is
 r_c \sim \sqrt{\alpha}
 \end{equation}
 
-The horizon radius is determined by the condition
+% --------------------------------------------------
+\subsection{Horizon Structure}
+
+The horizon radius is determined by
 
 \begin{equation}
 F(r_H)=0,
 \end{equation}
 
-which yields
+leading to
 
 \begin{equation}
 r_H^3 - 2M r_H^2 + r_c^3 = 0.
 \end{equation}
 
-Introducing the dimensionless variables
+Introducing dimensionless variables
 
 \begin{equation}
 x = \frac{r_H}{2M}, \qquad \beta = \frac{r_c}{2M},
 \end{equation}
 
-the horizon equation becomes
+we obtain
 
 \begin{equation}
 x^3 - x^2 + \beta^3 = 0.
 \end{equation}
 
-Thus, the regular interior ansatz leads to a modified horizon structure controlled by the dimensionless integrity scale $\beta$.
-
-% --------------------------------------------------
-\subsection{Existence of Horizons}
-
-The existence of real, positive solutions of the cubic equation
-
-\begin{equation}
-x^3 - x^2 + \beta^3 = 0
-\end{equation}
-
-determines whether a black hole horizon exists.
-
-For sufficiently small $\beta$, the equation admits a real positive root, corresponding to a modified event horizon.
-
-However, beyond a critical value $\beta_c$, no real positive solution exists. This implies that horizon formation is suppressed and the object becomes a horizonless compact configuration.
-
-Thus, TIG predicts a transition between black hole and non-black-hole states controlled by the integrity scale.
-
 % --------------------------------------------------
 \subsection{Critical Integrity Scale}
 
-The critical value of the integrity scale is obtained by analyzing the minimum of
+The critical transition occurs when the cubic polynomial develops a degenerate root.
 
 \begin{equation}
-P(x)=x^3-x^2+\beta^3.
+P(x)=x^3-x^2+\beta^3
 \end{equation}
-
-The stationary points satisfy
 
 \begin{equation}
-\frac{dP}{dx}=3x^2-2x=x(3x-2)=0.
+\frac{dP}{dx}=3x^2-2x=0
 \end{equation}
-
-The relevant positive stationary point is
 
 \begin{equation}
-x_c=\frac{2}{3}.
+x_c=\frac{2}{3}
 \end{equation}
-
-At the critical transition, the minimum touches zero:
 
 \begin{equation}
-P\left(\frac{2}{3}\right)=0.
+\beta_c^3=\frac{4}{27}
 \end{equation}
-
-This yields
-
-\begin{equation}
-\beta_c^3=\frac{4}{27},
-\end{equation}
-
-and therefore
 
 \begin{equation}
 \beta_c=\left(\frac{4}{27}\right)^{1/3}
-=
-\frac{\sqrt[3]{4}}{3}.
 \end{equation}
 
-Thus, horizons exist only for
-
-\begin{equation}
-\beta \leq \beta_c.
-\end{equation}
-
-For
-
-\begin{equation}
-\beta > \beta_c,
-\end{equation}
-
-the regular compact object becomes horizonless.
+Horizons exist only for $\beta \leq \beta_c$. For $\beta > \beta_c$, the solution becomes horizonless.
 
 % --------------------------------------------------
 \subsection{Numerical Horizon Prediction}
 
-The outer horizon radius can be obtained numerically by solving
+The outer horizon radius corresponds to the largest real root of
 
 \begin{equation}
-x^3 - x^2 + \beta^3 = 0
+x^3 - x^2 + \beta^3 = 0.
 \end{equation}
-
-for the largest positive real root.
-
-Figure~\ref{fig:horizon_radius_prediction} shows the normalized outer horizon radius as a function of the integrity scale $\beta$.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{tig_horizon_radius_prediction.png}
-\caption{Normalized TIG outer horizon radius $x=r_H/(2M)$ as a function of the integrity scale $\beta=r_c/(2M)$. The dashed vertical line marks the critical transition $\beta_c=(4/27)^{1/3}$ beyond which no horizon exists.}
-\label{fig:horizon_radius_prediction}
+\caption{Normalized outer horizon radius as a function of the integrity scale $\beta$. The critical value $\beta_c$ marks the transition to horizonless solutions.}
 \end{figure}
 
 % --------------------------------------------------
 \subsection{Observational Signatures}
 
-The modified horizon structure leads to distinct observational consequences.
+The modified horizon structure leads to measurable deviations from General Relativity.
 
-For $\beta \ll \beta_c$, deviations from General Relativity are negligible and classical black hole behavior is recovered.
-
-As $\beta \rightarrow \beta_c$, the horizon radius decreases relative to the Schwarzschild value, leading to a compact object with modified gravitational redshift and lensing properties.
-
-For $\beta > \beta_c$, no event horizon forms. The object behaves as a horizonless ultra-compact configuration, which may be distinguishable from classical black holes via:
-
-\begin{itemize}
-\item Absence of a true shadow edge
-\item Modified ringdown signals in gravitational wave observations
-\item Deviations in strong lensing near the compact object
-\end{itemize}
-
-Thus, TIG predicts observable deviations in the near-horizon regime that could be tested with current and future astrophysical observations.
+Near the critical scale, the horizon radius is reduced relative to the Schwarzschild value, affecting gravitational redshift, lensing, and ringdown signals. For $\beta > \beta_c$, horizonless compact objects may replace classical black holes.
 
 % --------------------------------------------------
 \section{Cosmology}
@@ -285,19 +224,20 @@ ds^2 = -dt^2 + a(t)^2 d\vec{x}^2
 R = 6(\dot{H} + 2H^2)
 \end{equation}
 
-\begin{equation}
-H^2 =
-\frac{
-8\pi \rho + \Lambda + 8\pi\alpha R^2 - 48\pi\alpha H \dot{R}
-}{
-3(1 + 32\pi\alpha R)
-}
-\end{equation}
+The modified Friedmann equation introduces higher-order curvature corrections that become relevant at early times. At late times, the model approaches standard $\Lambda$CDM behavior.
 
 % --------------------------------------------------
 \section{Conclusion}
 
-We presented TIG as a quadratic curvature extension of General Relativity with explicit field equations and a modified black hole structure exhibiting a critical transition controlled by the integrity scale.
+We presented TIG as a quadratic curvature extension of General Relativity with a modified horizon structure.
+
+A key result is the existence of a critical integrity scale
+
+\begin{equation}
+\beta_c = \left(\frac{4}{27}\right)^{1/3}
+\end{equation}
+
+which defines a transition between black hole and horizonless compact objects.
 
 % --------------------------------------------------
 \bibliographystyle{unsrt}
