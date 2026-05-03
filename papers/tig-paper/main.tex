@@ -3,13 +3,11 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-
+\usepackage[a4paper,margin=1in]{geometry}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{float}
-
-\graphicspath{{./}}
 
 \title{Topological Integrity Gravity (TIG):\\
 Critical Horizon Transitions in Quadratic $f(R)$ Gravity}
@@ -37,9 +35,9 @@ General Relativity provides an accurate description of gravitational phenomena a
 
 Regular black hole geometries and gravitational-wave echoes provide observational probes of compact-object structure.
 
-We define Topological Integrity Gravity (TIG) as a framework in which spacetime configurations are classified by the qualitative root structure of the horizon equation.
+We define Topological Integrity Gravity (TIG) as a framework in which spacetime configurations are classified by the qualitative root structure of the horizon equation. In this work, the term ``topological'' refers to the qualitative structure of solution branches of the horizon equation, rather than to topological invariants in the strict mathematical sense.
 
-In this work, the term ``topological'' refers to the qualitative structure of solution branches of the horizon equation, rather than to topological invariants in the strict mathematical sense. Horizon formation is associated with changes in root multiplicity, which define equivalence classes of spacetime configurations under continuous parameter variation.
+Horizon formation is associated with changes in root multiplicity, which define equivalence classes of spacetime configurations under continuous parameter variation.
 
 The purpose of this work is to show that horizon formation is governed by a structurally stable bifurcation.
 
@@ -55,12 +53,14 @@ S =
 R - 2\Lambda + \alpha R^2
 \right)
 \right]
-+ S_{\mathrm{matter}} .
++
+S_{\mathrm{matter}} .
 \end{equation}
 
 Equivalently, we write
 \begin{equation}
-f(R) = R - 2\Lambda + \mu R^2,
+f(R) =
+R - 2\Lambda + \mu R^2,
 \qquad
 \mu = 16\pi\alpha .
 \end{equation}
@@ -72,7 +72,10 @@ The scalar curvature degree of freedom is
 
 For $\mu>0$, the scalar mode is non-tachyonic, with effective mass
 \begin{equation}
-m_\phi^2 = \frac{1}{3f''(R)} = \frac{1}{6\mu}.
+m_\phi^2 =
+\frac{1}{3f''(R)}
+=
+\frac{1}{6\mu}.
 \end{equation}
 
 This defines a characteristic scalar length scale
@@ -87,7 +90,8 @@ r_c \sim \ell_\phi \sim \sqrt{6\mu}.
 
 The dimensionless control parameter is
 \begin{equation}
-\beta = \frac{r_c}{2M}.
+\beta =
+\frac{r_c}{2M}.
 \end{equation}
 
 The parameter $\beta$ quantifies the ratio between the intrinsic curvature regularization scale and the gravitational radius. It therefore acts as a control parameter governing the transition between distinct causal regimes.
@@ -110,20 +114,20 @@ m(r) =
 \frac{M r^3}{r^3 + r_c^3}.
 \end{equation}
 
-This mass profile should be understood as an effective parametrization capturing the leading-order impact of curvature regularization. It satisfies the expected limiting properties:
+This mass profile should be understood as an effective parametrization capturing the leading-order impact of curvature regularization. It satisfies the expected limiting properties
 \begin{equation}
 m(r) \to M
-\quad
+\qquad
 \text{as}
-\quad
+\qquad
 r \to \infty ,
 \end{equation}
 and
 \begin{equation}
 m(r) \sim r^3
-\quad
+\qquad
 \text{as}
-\quad
+\qquad
 r \to 0 .
 \end{equation}
 
@@ -134,14 +138,15 @@ We emphasize that the subsequent bifurcation structure depends only on the exist
 The metric function is
 \begin{equation}
 F(r) =
-1 - \frac{2m(r)}{r}.
+1 -
+\frac{2m(r)}{r}.
 \end{equation}
 
 \section{Critical Horizon Structure}
 
 Horizons satisfy
 \begin{equation}
-F(r_H) = 0 .
+F(r_H)=0 .
 \end{equation}
 
 Substituting the effective mass profile gives
@@ -151,9 +156,11 @@ r_H^3 - 2M r_H^2 + r_c^3 = 0 .
 
 Introducing dimensionless variables
 \begin{equation}
-x = \frac{r_H}{2M},
+x =
+\frac{r_H}{2M},
 \qquad
-\beta = \frac{r_c}{2M},
+\beta =
+\frac{r_c}{2M},
 \end{equation}
 we obtain
 \begin{equation}
@@ -176,7 +183,7 @@ At $\beta=\beta_c$, two real roots merge. This marks a structural transition bet
 
 For small $\beta$, the outer horizon branch satisfies
 \begin{equation}
-x \simeq 1 - \beta^3 .
+x \simeq 1-\beta^3 .
 \end{equation}
 
 Therefore,
@@ -190,12 +197,13 @@ The collapse of the outer horizon branch near $\beta_c$ indicates that the trans
 
 The photon sphere is determined by
 \begin{equation}
-rF'(r) - 2F(r) = 0 .
+rF'(r)-2F(r)=0 .
 \end{equation}
 
 The corresponding shadow radius is
 \begin{equation}
-R_{\mathrm{sh}} =
+R_{\mathrm{sh}}
+=
 \frac{r_{\mathrm{ph}}}
 {\sqrt{F(r_{\mathrm{ph}})}} .
 \end{equation}
@@ -208,18 +216,19 @@ The characteristic echo delay is estimated by
 \begin{equation}
 \Delta t_{\mathrm{echo}}
 \sim
-2 \int \frac{dr}{F(r)} .
+2\int
+\frac{dr}{F(r)} .
 \end{equation}
 
 Near the critical point, the metric function develops an extended near-zero region. Locally, it can be expanded as
 \begin{equation}
 F(r)
 \approx
-a(r-r_c)^2 + \epsilon ,
+a(r-r_c)^2+\epsilon ,
 \end{equation}
 where
 \begin{equation}
-\epsilon \sim \beta_c - \beta .
+\epsilon \sim \beta_c-\beta .
 \end{equation}
 
 The delay integral then scales as
@@ -295,7 +304,8 @@ In this perspective, horizon formation is not a smooth geometric deformation, bu
 
 To assess the robustness of the bifurcation structure, we consider a generalized class of regular mass profiles,
 \begin{equation}
-m(r) =
+m(r)
+=
 M
 \frac{r^n}{r^n+r_c^n},
 \qquad
@@ -305,17 +315,17 @@ n \geq 3 .
 This class satisfies
 \begin{equation}
 m(r) \to M
-\quad
+\qquad
 \text{as}
-\quad
+\qquad
 r \to \infty ,
 \end{equation}
 and
 \begin{equation}
 m(r) \sim r^n
-\quad
+\qquad
 \text{as}
-\quad
+\qquad
 r \to 0 .
 \end{equation}
 
@@ -323,7 +333,8 @@ The corresponding metric function is
 \begin{equation}
 F(r)
 =
-1 -
+1
+-
 \frac{2M}{r}
 \frac{r^n}{r^n+r_c^n}.
 \end{equation}
@@ -348,13 +359,15 @@ r_c^n
 
 With
 \begin{equation}
-x = \frac{r_H}{2M},
+x =
+\frac{r_H}{2M},
 \qquad
-\beta = \frac{r_c}{2M},
+\beta =
+\frac{r_c}{2M},
 \end{equation}
 we obtain
 \begin{equation}
-x^n - x^{n-1} + \beta^n = 0 .
+x^n-x^{n-1}+\beta^n=0 .
 \end{equation}
 
 \subsection{Criticality Condition}
@@ -381,7 +394,8 @@ n x^{n-1}
 
 The nonzero critical root is therefore
 \begin{equation}
-x_c = \frac{n-1}{n}.
+x_c =
+\frac{n-1}{n}.
 \end{equation}
 
 Substituting this into the horizon equation gives
@@ -413,7 +427,7 @@ Near criticality, any smooth function $F(r)$ with a double root admits a Taylor 
 \begin{equation}
 F(r)
 \approx
-a(r-r_c)^2 + \epsilon ,
+a(r-r_c)^2+\epsilon ,
 \end{equation}
 where
 \begin{equation}
@@ -450,5 +464,77 @@ This scaling is independent of the exponent $n$, the detailed functional form of
 $m(r)=M r^n/(r^n+r_c^n)$ with $n=3,4,6$. The bifurcation persists across different regularization profiles.}
 \label{fig:bifurcation-robustness}
 \end{figure}
+
+\newpage
+
+\begin{thebibliography}{99}
+
+\bibitem{einstein1915}
+A. Einstein,
+Die Feldgleichungen der Gravitation,
+Sitzungsberichte der Preussischen Akademie der Wissenschaften zu Berlin,
+844--847, 1915.
+
+\bibitem{wald1984}
+R. M. Wald,
+\textit{General Relativity},
+University of Chicago Press, Chicago, 1984.
+
+\bibitem{sotiriou2010}
+T. P. Sotiriou and V. Faraoni,
+$f(R)$ theories of gravity,
+Reviews of Modern Physics 82, 451--497, 2010.
+
+\bibitem{defelice2010}
+A. De Felice and S. Tsujikawa,
+$f(R)$ theories,
+Living Reviews in Relativity 13, 3, 2010.
+
+\bibitem{bardeen1968}
+J. M. Bardeen,
+Non-singular general-relativistic gravitational collapse,
+Proceedings of the International Conference GR5, Tbilisi, USSR, 1968.
+
+\bibitem{hayward2006}
+S. A. Hayward,
+Formation and evaporation of regular black holes,
+Physical Review Letters 96, 031103, 2006.
+
+\bibitem{berti2009}
+E. Berti, V. Cardoso, and A. O. Starinets,
+Quasinormal modes of black holes and black branes,
+Classical and Quantum Gravity 26, 163001, 2009.
+
+\bibitem{konoplya2011}
+R. A. Konoplya and A. Zhidenko,
+Quasinormal modes of black holes: From astrophysics to string theory,
+Reviews of Modern Physics 83, 793--836, 2011.
+
+\bibitem{cardoso2016}
+V. Cardoso, E. Franzin, and P. Pani,
+Is the gravitational-wave ringdown a probe of the event horizon?,
+Physical Review Letters 116, 171101, 2016.
+
+\bibitem{cardoso2019}
+V. Cardoso and P. Pani,
+Testing the nature of dark compact objects: A status report,
+Living Reviews in Relativity 22, 4, 2019.
+
+\bibitem{starobinsky1980}
+A. A. Starobinsky,
+A new type of isotropic cosmological models without singularity,
+Physics Letters B 91, 99--102, 1980.
+
+\bibitem{abbott2016}
+B. P. Abbott et al.,
+Observation of gravitational waves from a binary black hole merger,
+Physical Review Letters 116, 061102, 2016.
+
+\bibitem{eht2019}
+K. Akiyama et al.,
+First M87 Event Horizon Telescope results. I. The shadow of the supermassive black hole,
+Astrophysical Journal Letters 875, L1, 2019.
+
+\end{thebibliography}
 
 \end{document}
