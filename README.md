@@ -23,13 +23,6 @@ The core result is the existence of a **critical parameter** that separates:
 ---
 
 
-👉 Full derivation: [main paper](papers/tig-paper/main.tex)
-
-This is the full LaTeX source of the paper.
-
----
----
-
 ## 🧠## Conceptual Positioning
 
 Topological Integrity Gravity (TIG) is not introduced as a generic extension of General Relativity, but as a structurally constrained theory in which admissible curvature corrections are restricted by consistency conditions.
