@@ -122,6 +122,26 @@ This implies:
 
 Determining the exponent ( \alpha ) is a key step toward quantitative verification of TIG.
 
+## Comparison with General Relativity
+
+In General Relativity, horizon formation is determined by smooth parameter dependence, and small variations in system parameters typically lead to proportional (linear) changes in observable quantities.
+
+This corresponds to an effectively linear response near equilibrium configurations:
+
+[
+\Delta \mathcal{O}_{GR} \sim |\beta - \beta_c|
+]
+
+In contrast, TIG predicts a structurally constrained transition with non-linear scaling:
+
+[
+\Delta \mathcal{O}_{TIG} \sim |\beta - \beta_c|^\alpha, \quad \alpha \neq 1
+]
+
+This difference implies that near-critical configurations in TIG exhibit enhanced sensitivity and potentially universal scaling behavior, whereas GR remains perturbative and linear.
+
+As a result, observational data showing non-linear response near horizon formation would favor TIG-type consistency constraints over standard GR descriptions.
+
 
 ## 📂 Repository-Struktur
 
