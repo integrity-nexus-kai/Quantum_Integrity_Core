@@ -10,14 +10,13 @@ This repository provides a minimal, internally consistent formulation together w
 
 ## What is this?
 
-This repository contains a minimal, consistent formulation of **Topological Integrity Gravity (TIG)**.
+## Concept
 
-The core result is the existence of a **critical parameter** that separates:
+Topological Integrity Gravity (TIG) is a structurally constrained extension of General Relativity, defined by consistency conditions on admissible curvature corrections.
 
-- Black hole configurations (with horizons)
-- Compact objects without horizons
+The theory introduces a critical parameter separating horizon and non-horizon geometries, leading to a qualitatively new regime structure.
 
-
+This repository provides a minimal, internally consistent formulation together with analytical and numerical results.
 
 👉 Full derivation: [main paper](papers/tig-paper/main.tex)
 
