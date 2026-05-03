@@ -11,7 +11,7 @@ The core result is the existence of a **critical parameter** that separates:
 - Black hole configurations (with horizons)
 - Compact objects without horizons
 
-- Compact objects without horizons
+
 
 👉 Full derivation: [main paper](papers/tig-paper/main.tex)
 
