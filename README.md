@@ -74,6 +74,21 @@ This implies the existence of a constrained parameter space in which:
 As a consequence, not all ( f(R) )-type extensions are physically admissible:
 only those respecting these consistency conditions can represent viable gravitational configurations.
 
+## Observable Consequences
+
+The consistency constraints imposed by TIG are not only structural but have direct observational implications.
+
+In particular, the existence of a critical transition in the horizon equation implies:
+
+* the presence of a characteristic scale separating horizon and non-horizon configurations
+* non-trivial modifications to photon sphere structure and shadow profiles
+* potential deviations in gravitational wave signals near the critical regime
+
+These effects arise not from arbitrary parameter choices, but from the underlying constraint on admissible gravitational configurations.
+
+As a result, observational signatures are not independent predictions, but direct consequences of the consistency structure itself.
+
+
 
 ## 📂 Repository-Struktur
 
