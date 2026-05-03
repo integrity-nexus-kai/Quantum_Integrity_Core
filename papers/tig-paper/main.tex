@@ -5,8 +5,7 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 
-% Pfad zu den Figures (wichtig wegen Ordnerstruktur)
-\graphicspath{{../../figures/}}
+\graphicspath{{./}}
 
 \title{Topological Integrity Gravity (TIG):\
 A Quadratic $f(R)$ Model with a Critical Horizon Transition}
@@ -22,15 +21,15 @@ Independent Research
 
 \maketitle
 
-% Abstract aus externer Datei
+% Abstract (EN + DE)
 \input{abstract}
 
 % --------------------------------------------------
 \section{Introduction}
 
-General Relativity (GR) provides a highly successful description of gravitation. Nevertheless, extensions of GR are widely explored in high-energy physics and cosmology.
+General Relativity was first formulated by Einstein~\cite{einstein1915} and remains the foundation of modern gravitational theory~\cite{wald1984}.
 
-Among these, $f(R)$ gravity represents a minimal and well-established modification, in which the Einstein-Hilbert action is generalized to a function of the Ricci scalar.
+Among its extensions, $f(R)$ gravity has been extensively studied~\cite{defelice2010,sotiriou2010}, with the quadratic model originally proposed by Starobinsky~\cite{starobinsky1980}.
 
 In this work, we investigate Topological Integrity Gravity (TIG) as a constrained quadratic $f(R)$ framework and explore its implications for compact objects and observable signatures.
 
@@ -79,7 +78,7 @@ The trace equation reads:
 % --------------------------------------------------
 \section{Static Configurations}
 
-We consider static, spherically symmetric geometries of the form:
+We consider static, spherically symmetric geometries:
 \begin{equation}
 ds^2 =
 -F(r)dt^2
@@ -91,14 +90,12 @@ r^2 d\Omega^2.
 
 \subsection{Effective Interior Profile}
 
-Motivated by regular black hole solutions, we consider the effective mass profile:
+We consider the mass profile:
 \begin{equation}
 m(r) = \frac{M r^3}{r^3 + r_c^3}.
 \end{equation}
 
-This profile interpolates between Schwarzschild behavior at large $r$ and a regular core at small $r$.
-
-The associated metric function is:
+The metric function is:
 \begin{equation}
 F(r) = 1 - \frac{2m(r)}{r}.
 \end{equation}
@@ -125,13 +122,13 @@ we obtain:
 x^3 - x^2 + \beta^3 = 0.
 \end{equation}
 
+% --------------------------------------------------
 \subsection{Critical Transition}
 
 The cubic equation exhibits a critical value:
 \begin{equation}
 \beta_c = \left(\frac{4}{27}\right)^{1/3},
 \end{equation}
-corresponding to a degeneracy of roots.
 
 For:
 \begin{itemize}
@@ -158,7 +155,7 @@ The photon sphere is defined by:
 rF'(r) - 2F(r) = 0.
 \end{equation}
 
-Substituting the mass profile yields:
+This yields:
 \begin{equation}
 2x^6 - 3x^5 + 4\beta^3x^3 + 2\beta^6 = 0.
 \end{equation}
@@ -188,6 +185,7 @@ A key feature is the existence of a critical parameter:
 \begin{equation}
 \beta_c = \left(\frac{4}{27}\right)^{1/3},
 \end{equation}
+
 which separates black hole solutions from horizonless compact objects.
 
 These results suggest potential observational signatures that could test deviations from General Relativity.
