@@ -1,104 +1,100 @@
 # Quantum Integrity Core
 
+This repository contains research on modified gravity and system-level integrity models, organized into two distinct layers:
+
+* **Topological Integrity Gravity (TIG)** — a quadratic (f(R)) extension of General Relativity
+* **AXIOMA** — a system-level integrity framework for complex infrastructures
+
+---
+
+# 1. Topological Integrity Gravity (TIG)
+
 ## Overview
 
-This repository contains two connected but distinct layers:
-
-1. **Topological Integrity Gravity (TIG)**
-   A modified gravitational theory extending General Relativity.
-
-2. **AXIOMA**
-   A cyber security framework derived from integrity-based system modeling.
-
----
-
-## 1. Topological Integrity Gravity (TIG)
-
-### Description
-
-Topological Integrity Gravity (TIG) is a modified gravitational theory based on a quadratic curvature correction to General Relativity.
-
-In its current formulation, TIG corresponds to an (R^2)-modified gravitational action, leading to well-defined higher-curvature field equations while preserving classical vacuum solutions.
-
-The conceptual contribution of TIG is the interpretation of these corrections as a global consistency condition on admissible spacetime geometries.
-
----
-
-### Minimal Realization
+Topological Integrity Gravity (TIG) is a quadratic curvature extension of General Relativity of the form:
 
 [
-\mathcal{F} = \alpha R^2
+f(R) = R + \alpha R^2
 ]
 
+The model corresponds to a controlled (f(R)) modification with well-defined higher-order field equations.
+
+In the low-curvature regime, TIG reproduces standard General Relativity, while introducing corrections in high-curvature environments.
+
 ---
 
-### Key Properties
+## Key Properties
 
-* Equivalent to a controlled (f(R)) extension in minimal form
+* Quadratic (f(R)) gravity (Starobinsky-type structure)
 * Preserves Ricci-flat vacuum solutions ((R = 0))
-* Introduces corrections in high-curvature regimes
-* Remains compatible with weak-field observations
+* Introduces corrections at high curvature
+* Compatible with weak-field limits
 
 ---
 
-### Entry Points
+## Scientific Entry Point
 
-* `main.tex` → Full scientific paper
-* `docs/faq.md` → Conceptual clarification
-* `docs/executive_summary.md` → High-level overview
+The main reference is the full paper:
+
+```text
+papers/tig-paper/main.tex
+```
+
+This document contains:
+
+* model definition
+* field equations
+* horizon structure
+* photon sphere and shadow predictions
 
 ---
 
-## 2. AXIOMA
+# 2. AXIOMA
 
-### Description
+## Overview
 
-AXIOMA is a system-level cyber security framework focused on global integrity evaluation.
+AXIOMA is a system-level integrity framework designed to evaluate the global state of complex systems.
 
-Instead of analyzing isolated events, AXIOMA evaluates whether the entire system remains in a valid operational state.
+Unlike classical security approaches, which focus on individual events, AXIOMA evaluates whether a system remains in a valid overall configuration.
 
 ---
 
-### Core Idea
+## Conceptual Shift
 
-Traditional security asks:
+Classical security asks:
 
-> "Was something attacked?"
+> "Was there an attack?"
 
 AXIOMA asks:
 
-> "Is the system still in a valid global state?"
+> "Is the system still in a valid state?"
 
 ---
 
-### Entry Points
+## Entry Points
 
 * `axioma/axioma_whitepaper.md`
 * `axioma/axioma_architecture.md`
 * `axioma/axioma_use_cases.md`
-* `axioma/axioma_prompt.md`
 
 ---
 
-## 3. Repository Structure
+# 3. Repository Structure
 
-```text id="treeen2"
-main.tex
-references.bib
+```text
+papers/
+  tig-paper/
+    main.tex
+    abstract.tex
+    references.bib
 
-docs/
-  faq.md
-  executive_summary.md
-  tig_overview.md
+figures/
+  tig_horizon_radius_prediction.png
 
 axioma/
   axioma_whitepaper.md
   axioma_architecture.md
   axioma_use_cases.md
-  axioma_prompt.md
-
-papers/
-  derivations/
 
 applications/
 strategy/
@@ -106,33 +102,31 @@ strategy/
 
 ---
 
-## 4. Positioning
+# 4. Scope
 
 This repository separates:
 
-* **Theory (TIG)**
-* **Application (AXIOMA)**
-* **Documentation (docs)**
-* **Derivations (papers)**
+* **theoretical physics (TIG)**
+* **system architecture (AXIOMA)**
 
 ---
 
-## 5. Contribution
+# 5. Contributions
 
 Contributions are welcome in the form of:
 
-* mathematical validation
-* critical analysis
-* system architecture proposals
-* simulation concepts
+* mathematical analysis
+* critical review
+* simulations
+* model validation
 
 ---
 
-## 6. Disclaimer
+# 6. Status
 
-TIG is an active research theory.
-AXIOMA is a conceptual system architecture under development.
+* TIG: initial research release
+* AXIOMA: conceptual development
 
 ---
 
-Author: Kai Stefan Dietrich
+**Author:** Kai Stefan Dietrich
