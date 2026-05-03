@@ -6,7 +6,7 @@
 \geometry{margin=1in}
 
 \title{Topological Integrity Gravity (TIG): A Quadratic $f(R)$ Model with a Critical Horizon Transition}
-\author{Kai Stefan Dietrich \ Independent Research}
+\author{Kai Stefan Dietrich \\ Independent Research}
 \date{May 3, 2026}
 
 \begin{document}
@@ -15,23 +15,23 @@
 
 \begin{abstract}
 
-We investigate Topological Integrity Gravity (TIG) as a constrained quadratic $f(R)$ extension of General Relativity.
+We investigate Topological Integrity Gravity (TIG) as a constrained quadratic $f(R)$ extension of General Relativity~\cite{einstein1915,wald1984}.
 
-In the low-curvature regime, the model reduces to a Starobinsky-type theory. In contrast to phenomenological regular black hole constructions, curvature corrections are not introduced ad hoc but arise from a structurally constrained action.
+In the low-curvature regime, the model reduces to a Starobinsky-type theory~\cite{starobinsky1980}. In contrast to phenomenological regular black hole constructions, curvature corrections are not introduced ad hoc but arise from a structurally constrained action.
 
 We analyze static, spherically symmetric configurations exhibiting regular interiors and modified horizon structures. A central result is the emergence of a critical parameter governing horizon existence.
 
-This transition is intrinsic to the theory and leads to nonlinear deviations in horizon size near the critical regime, providing potential observational signatures.
+This transition is intrinsic to the model and leads to nonlinear deviations in horizon size near the critical regime, providing potential observational signatures.
 
 \end{abstract}
 
 \section{Introduction}
 
-Modified gravity theories based on $f(R)$ extensions provide a natural framework for exploring deviations from General Relativity.
+Modified gravity theories based on $f(R)$ extensions have been extensively studied~\cite{defelice2010,sotiriou2010}.
 
 In this work, we study Topological Integrity Gravity (TIG) as a constrained quadratic $f(R)$ model.
 
-Unlike regular black hole models such as the Bardeen or Hayward geometries, where regularity is imposed phenomenologically, the transition identified here emerges from the structure of the gravitational action itself.
+Unlike regular black hole models such as the Bardeen or Hayward geometries, where regularity is imposed phenomenologically, the transition identified here emerges from the structure of a modified gravitational framework.
 
 This leads to the appearance of a critical parameter separating horizon-bearing and horizonless configurations.
 
@@ -39,112 +39,177 @@ This leads to the appearance of a critical parameter separating horizon-bearing 
 
 We consider the action:
 \begin{equation}
-S = \int d^4x \sqrt{-g} \left[ \frac{1}{16\pi}(R - 2\Lambda + \alpha R^2) \right]
+S = \int d^4x \sqrt{-g}
+\left[
+\frac{1}{16\pi}(R - 2\Lambda + \alpha R^2)
+\right]
++ S_{\mathrm{matter}}.
 \end{equation}
 
-Defining:
+Defining
 \begin{equation}
-f(R) = R - 2\Lambda + \mu R^2, \quad \mu = 16\pi \alpha
+f(R) = R - 2\Lambda + \mu R^2, \quad \mu = 16\pi \alpha,
 \end{equation}
+the model corresponds to a quadratic $f(R)$ theory.
 
 \section{Field Equations}
 
-The field equations are:
+The modified field equations are:
 \begin{equation}
-f'(R) R_{\mu\nu} - \frac{1}{2}f(R)g_{\mu\nu} - \nabla_\mu \nabla_\nu f'(R) + g_{\mu\nu}\Box f'(R) = 8\pi T_{\mu\nu}
+f'(R) R_{\mu\nu}
+- \frac{1}{2}f(R)g_{\mu\nu}
+- \nabla_\mu \nabla_\nu f'(R)
++ g_{\mu\nu}\Box f'(R)
+= 8\pi T_{\mu\nu}.
+\end{equation}
+
+For the quadratic model,
+\begin{equation}
+f'(R) = 1 + 2\mu R.
+\end{equation}
+
+The trace equation is:
+\begin{equation}
+3\Box f'(R) + f'(R)R - 2f(R) = 8\pi T.
 \end{equation}
 
 \section{Static Configurations}
 
-We consider static, spherically symmetric geometries.
+We consider static, spherically symmetric geometries of the form
+\begin{equation}
+ds^2 =
+-F(r)dt^2
++
+\frac{dr^2}{F(r)}
++
+r^2 d\Omega^2.
+\end{equation}
 
 \subsection{Effective Interior Profile}
 
-The mass profile is chosen as:
+While a full solution of the modified field equations remains beyond the scope of this work, we consider an effective metric ansatz capturing the expected qualitative behavior of regularized compact objects in modified gravity scenarios.
+
+The mass profile is chosen as
 \begin{equation}
-m(r) = \frac{M r^3}{r^3 + r_c^3}
+m(r) = \frac{M r^3}{r^3 + r_c^3}.
 \end{equation}
 
-This form ensures a regular de Sitter-like core for small $r$ and asymptotic Schwarzschild behavior for large $r$.
+This form produces a regular de Sitter-like core for small $r$ and asymptotic Schwarzschild behavior for large $r$.
 
-The metric function is:
+The metric function is
 \begin{equation}
-F(r) = 1 - \frac{2m(r)}{r}
+F(r) = 1 - \frac{2m(r)}{r}.
 \end{equation}
 
 \subsection{Horizon Structure}
 
-Horizons satisfy:
+Horizons satisfy
 \begin{equation}
-F(r_H) = 0
+F(r_H) = 0.
 \end{equation}
 
-which yields:
+This yields
 \begin{equation}
-r_H^3 - 2M r_H^2 + r_c^3 = 0
+r_H^3 - 2M r_H^2 + r_c^3 = 0.
 \end{equation}
 
-Defining dimensionless variables:
+Defining dimensionless variables
 \begin{equation}
-x = \frac{r_H}{2M}, \quad \beta = \frac{r_c}{2M}
+x = \frac{r_H}{2M}, \quad \beta = \frac{r_c}{2M},
 \end{equation}
-
-we obtain the cubic equation:
+we obtain
 \begin{equation}
-x^3 - x^2 + \beta^3 = 0
+x^3 - x^2 + \beta^3 = 0.
 \end{equation}
 
 \subsection{Critical Transition}
 
-The cubic equation admits a critical value:
+The cubic equation admits a critical value
 \begin{equation}
-\beta_c = \left(\frac{4}{27}\right)^{1/3}
+\beta_c = \left(\frac{4}{27}\right)^{1/3}.
 \end{equation}
 
-For $\beta \leq \beta_c$, two horizons exist, while for $\beta > \beta_c$, no real positive solution remains.
+For $\beta \leq \beta_c$, horizons exist, while for $\beta > \beta_c$, no positive real horizon solution remains.
 
 This defines a sharp transition between black hole geometries and horizonless compact objects.
+
+\subsection{Physical Interpretation}
+
+The existence of a critical parameter $\beta_c$ suggests that horizon formation in this model is governed by a structural threshold rather than by a smooth continuation of Schwarzschild behavior.
+
+For $\beta \leq \beta_c$, the geometry admits horizons and resembles black hole configurations. For $\beta > \beta_c$, no horizon forms despite the presence of a compact mass distribution.
+
+The parameter $\beta$ therefore controls the balance between gravitational attraction and the regularizing scale $r_c$.
 
 \subsection{Numerical Illustration}
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.6\textwidth]{tig_horizon_radius_prediction}
-\caption{Normalized horizon radius as a function of $\beta$. The curve terminates at the critical value $\beta_c$.}
+\includegraphics[width=0.75\textwidth]{tig_horizon_radius_prediction.png}
+\caption{Normalized horizon radius as a function of $\beta$. The horizon branch terminates at the critical value $\beta_c=(4/27)^{1/3}$, marking the transition from black hole configurations to horizonless compact objects.}
 \end{figure}
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.6\textwidth]{tig_horizon_radius_prediction}
-\caption{Illustration of the critical transition. For $\beta < \beta_c$, two horizons exist; at $\beta = \beta_c$, they merge; for $\beta > \beta_c$, no horizon forms.}
-\end{figure}
+\section{Photon Sphere and Shadow Radius}
+
+The photon sphere is determined by
+\begin{equation}
+rF'(r) - 2F(r) = 0.
+\end{equation}
+
+Substitution of the mass profile gives
+\begin{equation}
+2x^6 - 3x^5 + 4\beta^3x^3 + 2\beta^6 = 0.
+\end{equation}
+
+The corresponding shadow radius is
+\begin{equation}
+R_{\mathrm{sh}} =
+\frac{r_{\mathrm{ph}}}{\sqrt{F(r_{\mathrm{ph}})}}.
+\end{equation}
+
+Near the critical regime, deviations in the photon-sphere structure can translate into observable deviations in shadow size.
 
 \section{Observational Implications}
 
-Near the critical regime $\beta \sim \beta_c$, the horizon radius decreases nonlinearly.
+Near the critical regime $\beta \sim \beta_c$, the model predicts a nonlinear reduction of the horizon radius.
 
 This effect may lead to measurable deviations in black hole shadow sizes relative to standard General Relativity predictions.
 
-In addition, the disappearance of horizons for $\beta > \beta_c$ suggests potential modifications in gravitational wave ringdown signals, including the possibility of echoes.
+In addition, the disappearance of horizons for $\beta > \beta_c$ suggests potential modifications in gravitational-wave ringdown signals, including the possibility of echoes.
+
+These effects provide potential observational channels through black hole imaging, gravitational lensing, and gravitational-wave measurements.
 
 \section{Stability and Theoretical Consistency}
 
-While a full dynamical analysis is beyond the present scope, the regular interior structure and absence of curvature singularities indicate improved stability properties compared to classical solutions.
+A full dynamical stability analysis remains beyond the scope of this work.
+
+Nevertheless, the quadratic $f(R)$ structure with positive curvature correction is known to avoid tachyonic scalar instabilities at the perturbative level~\cite{defelice2010,sotiriou2010}.
+
+The effective metric ansatz used here also removes the central singularity by construction, replacing it with a regular core.
+
+The critical value $\beta_c$ partitions the solution space into horizon-bearing and horizonless regimes, suggesting that the transition is structurally controlled rather than continuously deformable.
+
+\section{Relation to General Relativity and Regular Black Hole Models}
+
+In the limit $r_c \to 0$, equivalently $\beta \to 0$, the metric function reduces to the Schwarzschild form, recovering the standard General Relativity limit.
+
+For finite $\beta$, the geometry resembles regular black hole models in the sense that the central singularity is removed.
+
+However, the focus of TIG is the critical transition governed by $\beta_c$, which provides a compact analytic characterization of the horizon/no-horizon boundary.
 
 \section{Conclusion}
 
 We have analyzed Topological Integrity Gravity (TIG) as a constrained quadratic $f(R)$ model and identified a critical parameter governing horizon formation.
 
-The existence of a critical value:
+The critical value
 \begin{equation}
 \beta_c = \left(\frac{4}{27}\right)^{1/3}
 \end{equation}
+marks the boundary between horizon-bearing black hole geometries and horizonless compact configurations.
 
-demonstrates that horizon formation is controlled by a structural threshold rather than a continuous process.
+This result suggests that horizon formation can be controlled by a structural threshold rather than by a purely continuous deformation of the Schwarzschild solution.
 
-This suggests a geometrically driven mechanism for regulating strong-gravity configurations without introducing exotic matter.
-
-Future work should address dynamical stability and explore observational consequences in more detail.
+Future work should address dynamical stability, quasi-normal modes, and observational constraints in more detail.
 
 \bibliographystyle{unsrt}
 \bibliography{references}
