@@ -1,214 +1,130 @@
-\documentclass[11pt]{article}
-
-\usepackage{amsmath,amssymb,graphicx}
-\usepackage{geometry}
-\geometry{margin=1in}
-
-\title{Critical Horizon Transition in a Quadratic $f(R)$ Gravity Model}
-
-\author{Kai Stefan Dietrich\\
-Independent Research}
-
-\date{\today}
-
-\begin{document}
-
-\maketitle
-
-\begin{abstract}
-We analyze a constrained quadratic $f(R)$ gravity model exhibiting a critical transition in horizon formation. 
-A dimensionless parameter $\beta$ controls the existence of horizons, with a critical value $\beta_c = (4/27)^{1/3}$ separating black hole geometries from horizonless compact objects.
-
-We investigate modifications in photon-sphere structure, quasi-normal-mode (QNM) behavior, and late-time echo signatures. 
-Near the critical regime, nonlinear deviations from Schwarzschild behavior arise, including frequency shifts and enhanced echo delays.
-
-These features provide potential observational signatures in gravitational-wave \cite{LIGO2016} and black hole imaging data \cite{EHT2019}.
-\end{abstract}
-
-%--------------------------------------------------
-
-\section{Introduction}
-
-General Relativity \cite{Einstein1915,Wald1984} provides a highly successful description of gravity. Extensions based on $f(R)$ gravity \cite{Sotiriou2010,DeFelice2010,Capozziello2011} offer a minimal framework for incorporating higher-curvature corrections.
-
-Regular black hole models have been proposed to resolve singularities \cite{Bardeen1968,Hayward2006}. In this work, we study a constrained quadratic model exhibiting a structural transition in horizon formation.
-
-We show that this transition leads to observable consequences in quasi-normal-mode spectra \cite{Berti2009} and potential echo signatures \cite{Cardoso2016,Cardoso2017}.
-
-%--------------------------------------------------
-
-\section{Model Setup}
-
-\begin{equation}
-S = \int d^4x \sqrt{-g} \left[ \frac{1}{16\pi}(R - 2\Lambda) + \alpha R^2 \right]
-\end{equation}
-
-\begin{equation}
-f(R) = R - 2\Lambda + \mu R^2
-\end{equation}
-
-\begin{equation}
-m_\phi^2 = \frac{1}{6\mu}
-\end{equation}
-
-%--------------------------------------------------
-
-\section{Static Solutions}
-
-\begin{equation}
-ds^2 = -F(r)dt^2 + \frac{dr^2}{F(r)} + r^2 d\Omega^2
-\end{equation}
-
-The metric should be interpreted as an effective solution capturing the qualitative features of modified gravity dynamics.
-
-\begin{equation}
-m(r) = \frac{Mr^3}{r^3 + r_c^3}
-\end{equation}
-
-\begin{equation}
-F(r) = 1 - \frac{2m(r)}{r}
-\end{equation}
-
-%--------------------------------------------------
-
-\section{Horizon Structure}
-
-\begin{equation}
-x^3 - x^2 + \beta^3 = 0
-\end{equation}
-
-\begin{equation}
-\beta_c = \left(\frac{4}{27}\right)^{1/3}
-\end{equation}
-
-%--------------------------------------------------
-
-\section{Numerical Horizon Structure}
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.85\textwidth]{tig_horizon_branches_critical_transition.png}
-\caption{Horizon structure as a function of $\beta$.}
-\end{figure}
-
-%--------------------------------------------------
-
-\section{Photon Sphere}
-
-\begin{equation}
-R_{\text{sh}} = \frac{r_{\text{ph}}}{\sqrt{F(r_{\text{ph}})}}
-\end{equation}
-
-%--------------------------------------------------
-
-\section{Quasi-Normal Modes}
-
-\begin{equation}
-\frac{d^2\Psi}{dr_*^2} + [\omega^2 - V(r)]\Psi = 0
-\end{equation}
-
-\subsection{Approximate QNM Behavior}
-
-We use an approximate treatment based on the eikonal limit \cite{Berti2009}:
-
-\begin{equation}
-\omega \approx \Omega_{\text{ph}} - i\lambda_{\text{ph}}
-\end{equation}
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.85\textwidth]{tig_qnm_frequency_prediction.png}
-\caption{Estimated QNM frequency components as a function of $\beta$.}
-\end{figure}
-
-%--------------------------------------------------
-
-\section{Echo Signatures}
-
-Echo signals have been proposed as probes of horizon structure \cite{Cardoso2016,Cardoso2017}.
-
-\begin{equation}
-\Delta t_{\text{echo}} \approx 2\int_{r_0}^{r_{\text{ph}}} \frac{dr}{F(r)}
-\end{equation}
-
-\begin{equation}
-\Delta t_{\text{echo}} \to \infty \quad \text{as} \quad \beta \to \beta_c
-\end{equation}
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.85\textwidth]{tig_echo_delay_prediction.png}
-\caption{Phenomenological echo delay near the critical regime.}
-\end{figure}
-
-%--------------------------------------------------
-
-\section{Comparison with Observations}
-
-The ringdown signal observed in GW150914 \cite{LIGO2016} corresponds to frequencies of order
-\begin{equation}
-M\omega \sim 0.37 - 0.09i.
-\end{equation}
-
-Within this model, deviations appear near the critical regime while remaining consistent at leading order.
-
-%--------------------------------------------------
-
-\section{Conclusion}
-
-We identified a critical parameter
-\begin{equation}
-\beta_c = \left(\frac{4}{27}\right)^{1/3}
-\end{equation}
-governing horizon formation.
-
-The model predicts coupled geometric and spectral transitions with potential observational signatures.
-
-%--------------------------------------------------
-
-\section*{References}
-
-\begin{thebibliography}{99}
-
-\bibitem{Einstein1915}
-A. Einstein (1915)
-
-\bibitem{Wald1984}
-R. M. Wald (1984)
-
-\bibitem{Starobinsky1980}
-A. A. Starobinsky (1980)
-
-\bibitem{DeFelice2010}
-A. De Felice and S. Tsujikawa (2010)
-
-\bibitem{Sotiriou2010}
-T. P. Sotiriou and V. Faraoni (2010)
-
-\bibitem{Capozziello2011}
-S. Capozziello and M. De Laurentis (2011)
-
-\bibitem{Bardeen1968}
-J. M. Bardeen (1968)
-
-\bibitem{Hayward2006}
-S. A. Hayward (2006)
-
-\bibitem{Cardoso2016}
-V. Cardoso et al. (2016)
-
-\bibitem{Cardoso2017}
-V. Cardoso and P. Pani (2017)
-
-\bibitem{Berti2009}
-E. Berti et al. (2009)
-
-\bibitem{LIGO2016}
-B. P. Abbott et al. (2016)
-
-\bibitem{EHT2019}
-Event Horizon Telescope Collaboration (2019)
-
-\end{thebibliography}
-
-\end{document}
+@article{Einstein1915,
+  author = {Einstein, Albert},
+  title = {Die Feldgleichungen der Gravitation},
+  journal = {Sitzungsberichte der Preussischen Akademie der Wissenschaften},
+  year = {1915},
+  pages = {844--847}
+}
+
+@book{Wald1984,
+  author = {Wald, Robert M.},
+  title = {General Relativity},
+  publisher = {University of Chicago Press},
+  year = {1984}
+}
+
+@article{Starobinsky1980,
+  author = {Starobinsky, A. A.},
+  title = {A New Type of Isotropic Cosmological Models Without Singularity},
+  journal = {Physics Letters B},
+  volume = {91},
+  number = {1},
+  pages = {99--102},
+  year = {1980}
+}
+
+@article{DeFelice2010,
+  author = {De Felice, Antonio and Tsujikawa, Shinji},
+  title = {$f(R)$ Theories},
+  journal = {Living Reviews in Relativity},
+  volume = {13},
+  number = {3},
+  year = {2010}
+}
+
+@article{Sotiriou2010,
+  author = {Sotiriou, Thomas P. and Faraoni, Valerio},
+  title = {$f(R)$ Theories of Gravity},
+  journal = {Reviews of Modern Physics},
+  volume = {82},
+  pages = {451--497},
+  year = {2010}
+}
+
+@article{Capozziello2011,
+  author = {Capozziello, Salvatore and De Laurentis, Mariafelicia},
+  title = {Extended Theories of Gravity},
+  journal = {Physics Reports},
+  volume = {509},
+  pages = {167--321},
+  year = {2011}
+}
+
+@inproceedings{Bardeen1968,
+  author = {Bardeen, James M.},
+  title = {Non-singular General-Relativistic Gravitational Collapse},
+  booktitle = {Proceedings of GR5},
+  year = {1968}
+}
+
+@article{Hayward2006,
+  author = {Hayward, Sean A.},
+  title = {Formation and Evaporation of Regular Black Holes},
+  journal = {Physical Review Letters},
+  volume = {96},
+  pages = {031103},
+  year = {2006}
+}
+
+@article{Berti2009,
+  author = {Berti, Emanuele and Cardoso, Vitor and Starinets, Andrei O.},
+  title = {Quasinormal Modes of Black Holes and Black Branes},
+  journal = {Classical and Quantum Gravity},
+  volume = {26},
+  pages = {163001},
+  year = {2009}
+}
+
+@article{Kokkotas1999,
+  author = {Kokkotas, Kostas D. and Schmidt, Bernd G.},
+  title = {Quasi-normal Modes of Stars and Black Holes},
+  journal = {Living Reviews in Relativity},
+  volume = {2},
+  number = {2},
+  year = {1999}
+}
+
+@article{Cardoso2016,
+  author = {Cardoso, Vitor and Franzin, Edgardo and Pani, Paolo},
+  title = {Is the Gravitational-Wave Ringdown a Probe of the Event Horizon?},
+  journal = {Physical Review Letters},
+  volume = {116},
+  pages = {171101},
+  year = {2016}
+}
+
+@article{Cardoso2017,
+  author = {Cardoso, Vitor and Pani, Paolo},
+  title = {Tests for the Existence of Black Holes through Gravitational Wave Echoes},
+  journal = {Nature Astronomy},
+  volume = {1},
+  pages = {586--591},
+  year = {2017}
+}
+
+@article{LIGO2016,
+  author = {Abbott, B. P. et al.},
+  title = {Observation of Gravitational Waves from a Binary Black Hole Merger},
+  journal = {Physical Review Letters},
+  volume = {116},
+  pages = {061102},
+  year = {2016}
+}
+
+@article{LIGOTests2016,
+  author = {Abbott, B. P. et al.},
+  title = {Tests of General Relativity with GW150914},
+  journal = {Physical Review Letters},
+  volume = {116},
+  pages = {221101},
+  year = {2016}
+}
+
+@article{EHT2019,
+  author = {{Event Horizon Telescope Collaboration}},
+  title = {First M87 Event Horizon Telescope Results},
+  journal = {Astrophysical Journal Letters},
+  volume = {875},
+  pages = {L1},
+  year = {2019}
+}
