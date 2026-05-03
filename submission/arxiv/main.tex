@@ -158,27 +158,96 @@ Echo-delay scaling near $\beta_c$. The divergence indicates an extended optical 
 
 ## Quantitative Prediction
 
-Near the critical parameter \( \beta_c \), TIG predicts universal critical scaling:
+\section{Quantitative Prediction}
 
-- Horizon branches merge as \( (\beta_c-\beta)^{1/2} \)
-- Echo delays diverge as \( (\beta_c-\beta)^{-1/2} \)
+The horizon equation is
+\begin{equation}
+f(x,\beta)=x^3-x^2+\beta^3=0 .
+\end{equation}
 
-Thus the characteristic critical exponents are:
-
-\[
-\alpha_H = \frac{1}{2},
+The critical point is
+\begin{equation}
+x_c=\frac{2}{3},
 \qquad
-\alpha_{\mathrm{echo}} = -\frac{1}{2}
-\]
+\beta_c=\left(\frac{4}{27}\right)^{1/3}.
+\end{equation}
 
-\section{Observational Implications}
+We expand around criticality by writing
+\begin{equation}
+x=x_c+\delta x,
+\qquad
+\beta=\beta_c-\delta\beta ,
+\end{equation}
+with $\delta\beta>0$.
 
-Observable consequences include:
-\begin{itemize}
-\item shadow-radius deviations,
-\item quasi-normal-mode shifts,
-\item gravitational-wave echoes.
-\end{itemize}
+A Taylor expansion gives
+\begin{equation}
+0 \approx
+\frac{1}{2}f_{xx}(x_c,\beta_c)(\delta x)^2
+-
+f_\beta(x_c,\beta_c)\delta\beta .
+\end{equation}
+
+Since
+\begin{equation}
+f_{xx}(x_c,\beta_c)=2,
+\qquad
+f_\beta(x_c,\beta_c)=3\beta_c^2,
+\end{equation}
+we obtain
+\begin{equation}
+(\delta x)^2 \approx 3\beta_c^2\delta\beta .
+\end{equation}
+
+Therefore,
+\begin{equation}
+x_\pm-x_c
+\approx
+\pm \sqrt{3}\,\beta_c(\beta_c-\beta)^{1/2}.
+\end{equation}
+
+The horizon branches thus merge with the critical exponent
+\begin{equation}
+\alpha_H=\frac{1}{2}.
+\end{equation}
+
+Since $r_H=2Mx$, the near-critical horizon radii obey
+\begin{equation}
+r_{H,\pm}
+\approx
+2M\left[
+\frac{2}{3}
+\pm
+\sqrt{3}\,\beta_c(\beta_c-\beta)^{1/2}
+\right].
+\end{equation}
+
+For echo delays, the near-critical lapse develops a quadratic minimum,
+\begin{equation}
+F(r)\sim (r-r_c)^2+\epsilon,
+\qquad
+\epsilon\sim \beta_c-\beta .
+\end{equation}
+
+Thus,
+\begin{equation}
+\Delta t_{\mathrm{echo}}
+\sim
+\int\frac{dr}{(r-r_c)^2+\epsilon}
+\sim
+\epsilon^{-1/2},
+\end{equation}
+and therefore
+\begin{equation}
+\Delta t_{\mathrm{echo}}
+\sim
+(\beta_c-\beta)^{-1/2}.
+\end{equation}
+
+The corresponding echo-delay critical exponent is
+\begin{equation}
+\alpha_{\mathrm{echo}}=-\frac{1}{2}.
+\end{equation}
 
 \section{Conclusion}
 
