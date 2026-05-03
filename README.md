@@ -102,6 +102,25 @@ In particular, this suggests:
 
 This behavior is not generic to all modified gravity models, but follows specifically from the existence of a structurally constrained transition between horizon and non-horizon states.
 
+## Scaling Behavior Near Criticality
+
+Let ( \beta ) denote the effective curvature parameter and ( \beta_c ) the critical value separating horizon and non-horizon configurations.
+
+Near the critical point, TIG predicts a non-linear response of observable quantities of the form:
+
+[
+\Delta \mathcal{O} \sim |\beta - \beta_c|^\alpha
+]
+
+with a non-trivial exponent ( \alpha \neq 1 ), reflecting the structural transition in the horizon equation.
+
+This implies:
+
+* enhanced sensitivity of observables near ( \beta_c )
+* deviation from linear response expected in perturbative regimes
+* potential universality of scaling behavior across different compact object classes
+
+Determining the exponent ( \alpha ) is a key step toward quantitative verification of TIG.
 
 
 ## 📂 Repository-Struktur
