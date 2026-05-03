@@ -1,4 +1,4 @@
-# Quantum Integrity Core
+# Quantum Integrity Core (TIG Framework)
 
 ---
 ## Topological Integrity Gravity (TIG)
