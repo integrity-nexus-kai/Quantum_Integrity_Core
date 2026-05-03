@@ -1,7 +1,18 @@
 # Quantum Integrity Core
 
 ---
+## Topological Integrity Gravity (TIG)
 
+## What is this?
+
+This repository contains a minimal, consistent formulation of **Topological Integrity Gravity (TIG)**.
+
+The core result is the existence of a **critical parameter** that separates:
+
+- Black hole configurations (with horizons)
+- Compact objects without horizons
+
+- 
 ## 🔗 Quick Links
 
 - 📄 Main paper (LaTeX): [papers/tig-paper/main.tex](papers/tig-paper/main.tex)
