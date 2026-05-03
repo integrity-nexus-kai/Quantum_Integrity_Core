@@ -218,7 +218,14 @@ Derzeit nicht enthalten:
 - 📁 axioma/ — core architectural concepts  
 - 📁 figures/ — visualizations and prediction plots  
 - 📁 papers/ — scientific derivations and LaTeX sources  
-- 📁 strategy/ — publication and positioning strategy  
+- 📁 strategy/ — publication and positioning strategy
+
+## Open Question
+
+What is the exact scaling exponent ( \alpha ) governing the transition near the critical parameter, and does it exhibit universality across different gravitational configurations?
+
+Answering this question is central to establishing TIG as a predictive framework.
+
 
 ---
 
