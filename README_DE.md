@@ -1,62 +1,48 @@
-Überblick
+# Quantum Integrity Core
 
-Dieses Repository enthält die formale Ausarbeitung von Topological Integrity Gravity (TIG), einem eingeschränkten quadratischen f(R)-Gravitationsmodell mit einem kritischen Horizont-Übergang.
+## Topological Integrity Gravity (TIG)
 
-Topological Integrity Gravity (TIG) wird als strukturierte Erweiterung der Allgemeinen Relativitätstheorie formuliert, motiviert durch Einschränkungen der zulässigen Krümmungskorrekturen.
+---
 
-Im Niedrigkrümmungsregime reduziert sich TIG auf eine quadratische f(R)-Theorie im Sinne der Starobinsky-Gravitation, führt jedoch durch die Einschränkung des Parameterraums zu qualitativ neuem Verhalten.
+## Overview
 
-Das zentrale Resultat ist die Existenz eines kritischen Parameters:
+This repository contains the formal development of Topological Integrity Gravity (TIG), a constrained quadratic f(R) gravity model exhibiting a critical horizon transition.
+
+The central result is the existence of a critical parameter:
 
 beta_c = (4/27)^(1/3)
 
-der trennt zwischen:
+which separates:
 
-Schwarzen-Loch-Konfigurationen (mit Horizonten)
-kompakten Objekten ohne Horizont
+- black hole configurations (with horizons)
+- horizonless compact objects
 
-Zentrale Eigenschaften
+---
 
-Eingeschränkte quadratische f(R)-Gravitation
-Regularisiertes inneres Massenprofil
-Kubische Horizontgleichung
-Kritischer Übergang zwischen Horizont- und Nicht-Horizont-Geometrien
-Beobachtbare Konsequenzen für Imaging, Linseneffekte und Gravitationswellen
+## Key Features
 
-Paper
+- Constrained quadratic f(R) gravity
+- Regularized interior mass profile
+- Cubic horizon equation
+- Critical transition behavior
+- Observable implications (imaging, lensing, gravitational waves)
 
-Die vollständige Herleitung befindet sich in:
+---
+
+## Paper
 
 papers/tig-paper/main.tex
 
-Repository-Struktur
+---
 
-applications Anwendungen (zukünftige Arbeiten)
-axioma Kernarchitektur
-figures Abbildungen
-papers Wissenschaftliche Inhalte
-strategy Veröffentlichungsstrategie
+## Status
 
-Status
+- Model defined
+- Analytical structure derived
+- Numerical illustration included
 
-Formales Modell definiert
-Analytische Struktur hergeleitet
-Numerische Illustration vorhanden
-Erweiterungen und Stabilitätsanalyse in Arbeit
+---
 
-Geltungsbereich
-
-Dieses Repository stellt eine minimale, konsistente Formulierung von TIG dar.
-
-Nicht enthalten:
-
-vollständige Stabilitätsanalyse
-kosmologische Lösungen
-quantenphysikalische Beschreibung
-
-Autor
+## Author
 
 Kai Stefan Dietrich
-Unabhängige Forschung
-
-✔️ WICHTIG
