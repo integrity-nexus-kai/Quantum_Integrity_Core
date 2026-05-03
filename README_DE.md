@@ -4,45 +4,105 @@
 
 ---
 
-## Overview
+## 📘 Überblick
 
-This repository contains the formal development of Topological Integrity Gravity (TIG), a constrained quadratic f(R) gravity model exhibiting a critical horizon transition.
+Dieses Repository enthält die formale Ausarbeitung von Topological Integrity Gravity (TIG), einem eingeschränkten quadratischen f(R)-Gravitationsmodell mit einem kritischen Horizont-Übergang.
 
-The central result is the existence of a critical parameter:
+Topological Integrity Gravity (TIG) wird als strukturierte Erweiterung der Allgemeinen Relativitätstheorie formuliert, motiviert durch Einschränkungen der zulässigen Krümmungskorrekturen.
+
+Im Niedrigkrümmungsregime reduziert sich TIG auf eine quadratische f(R)-Theorie im Sinne der Starobinsky-Gravitation, führt jedoch durch die Einschränkung des Parameterraums zu qualitativ neuem Verhalten.
+
+Das zentrale Resultat des Modells ist die Existenz eines kritischen Parameters:
 
 beta_c = (4/27)^(1/3)
 
-which separates:
+der trennt zwischen:
 
-- black hole configurations (with horizons)
-- horizonless compact objects
-
----
-
-## Key Features
-
-- Constrained quadratic f(R) gravity
-- Regularized interior mass profile
-- Cubic horizon equation
-- Critical transition behavior
-- Observable implications (imaging, lensing, gravitational waves)
+- Schwarzen-Loch-Konfigurationen (mit Horizonten)  
+- kompakten Objekten ohne Horizont  
 
 ---
 
-## Paper
+## 🧠 Konzeptuelle Einordnung
+
+TIG wird nicht als generische Erweiterung der Allgemeinen Relativitätstheorie eingeführt, sondern als strukturell eingeschränkte Theorie, in der Krümmungskorrekturen durch Konsistenzbedingungen begrenzt sind.
+
+Im Gegensatz zu phänomenologischen f(R)-Modellen zeigt TIG einen diskreten kritischen Übergang zwischen Horizont- und Nicht-Horizont-Geometrien, was auf eine tiefere strukturelle Organisation gravitativer Konfigurationen hindeutet.
+
+---
+
+## 🔬 Zentrale Eigenschaften
+
+- Eingeschränkte quadratische f(R)-Gravitation  
+- Regularisiertes inneres Massenprofil  
+- Kubische Horizontgleichung mit analytischer Struktur  
+- Kritischer Übergang zwischen Horizont- und Nicht-Horizont-Geometrien  
+- Beobachtbare Konsequenzen für:
+  - Schwarzes-Loch-Imaging  
+  - Gravitationslinseneffekte  
+  - Gravitationswellen  
+
+---
+
+## 📄 Paper
+
+Die vollständige Herleitung und die Ergebnisse befinden sich in:
 
 papers/tig-paper/main.tex
 
+Das kompilierte PDF enthält:
+
+- Feldgleichungen  
+- Horizontstruktur  
+- kritischen Übergang  
+- numerische Illustration  
+- Photonensphäre und Schattenradius  
+
 ---
 
-## Status
+## 📂 Repository-Struktur
 
-- Model defined
-- Analytical structure derived
-- Numerical illustration included
+- applications/ — Anwendungen (zukünftige Arbeiten)  
+- axioma/ — Kernarchitektur-Konzepte  
+- figures/ — Abbildungen und Visualisierungen  
+- papers/ — wissenschaftliche Inhalte  
+- strategy/ — Veröffentlichungsstrategie  
 
 ---
 
-## Author
+## 📊 Status
 
-Kai Stefan Dietrich
+- Modell definiert  
+- Analytische Struktur hergeleitet  
+- Numerische Illustration vorhanden  
+- Erweiterte Interpretation in Arbeit  
+- Stabilitätsanalyse in Arbeit  
+
+---
+
+## ⚠️ Geltungsbereich
+
+Dieses Repository stellt eine minimale, konsistente Formulierung von TIG dar.
+
+Derzeit nicht enthalten:
+
+- vollständige dynamische Stabilitätsanalyse  
+- kosmologische Lösungen  
+- quantenphysikalische Formulierung  
+
+---
+
+## 📚 Referenzen
+
+- Einstein (1915) — Allgemeine Relativitätstheorie  
+- Wald (1984) — Klassische Gravitation  
+- De Felice & Tsujikawa (2010) — f(R)-Überblick  
+- Sotiriou & Faraoni (2010) — f(R)-Gravitation  
+- Starobinsky (1980) — quadratische Gravitation  
+
+---
+
+## 👤 Autor
+
+Kai Stefan Dietrich  
+Unabhängige Forschung
