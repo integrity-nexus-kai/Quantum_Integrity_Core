@@ -1,5 +1,11 @@
 # Quantum Integrity Core
+## Concept
 
+Topological Integrity Gravity (TIG) is a structurally constrained extension of General Relativity, defined by consistency conditions on admissible curvature corrections.
+
+The theory introduces a critical parameter separating horizon and non-horizon geometries, leading to a qualitatively new regime structure.
+
+This repository provides a minimal, internally consistent formulation together with analytical and numerical results.
 ## Topological Integrity Gravity (TIG)
 
 ## What is this?
