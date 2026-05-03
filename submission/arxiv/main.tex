@@ -1,10 +1,13 @@
-\documentclass[11pt]{article}
+\documentclass[11pt,final]{article}
 
 \usepackage[a4paper,margin=1in]{geometry}
 \usepackage{amsmath,amssymb}
-\usepackage{graphicx}
-\usepackage{hyperref}
+\usepackage[final]{graphicx}
 \usepackage{microtype}
+\usepackage{hyperref}
+
+\graphicspath{{./}}
+\setkeys{Gin}{draft=false}
 
 \hypersetup{
     colorlinks=true,
@@ -35,11 +38,13 @@ These results suggest that horizon formation in modified gravity can exhibit str
 
 \section{Introduction}
 
-General Relativity provides an accurate description of gravitational phenomena across a wide range of scales \cite{einstein1915,wald1984}. Nevertheless, extensions such as $f(R)$ gravity offer a minimal framework for incorporating higher-curvature corrections while preserving general covariance \cite{sotiriou2010,defelice2010}.
+General Relativity provides an accurate description of gravitational phenomena across a wide range of scales \cite{einstein1915,wald1984}. Nevertheless, extensions such as $f(R)$ gravity offer a minimal framework for incorporating higher-curvature corrections while preserving general covariance \cite{sotiriou2010,defelice2010}. The quadratic case is particularly important because of its relation to Starobinsky gravity \cite{starobinsky1980}.
 
 A key question is whether horizon formation is structurally stable under such corrections. While classical black hole solutions possess well-defined event horizons, modified gravity theories can introduce additional degrees of freedom that alter this structure.
 
-In this work, we analyze a quadratic $f(R)$ model in which horizon formation is governed by a critical parameter, leading to a sharp transition between horizon-bearing and horizonless configurations. The resulting phenomenology includes modifications in photon-sphere structure, quasi-normal-mode behavior, and possible echo signatures.
+Regular black hole models such as those of Bardeen and Hayward replace the central singularity by an effective regular core \cite{bardeen1968,hayward2006}. In contrast, the present work focuses on the emergence of a critical parameter controlling the existence of horizons within an effective quadratic $f(R)$ framework.
+
+The resulting phenomenology connects naturally to photon-sphere structure, quasi-normal modes, gravitational-wave ringdown, and black hole shadow observations \cite{berti2009,konoplya2011,cardoso2016,cardoso2019,abbott2016,eventhorizon2019}.
 
 \section{Formalism}
 
@@ -178,7 +183,7 @@ The cubic admits a real positive horizon solution only if
 
 Thus $\beta_c$ defines a sharp transition between horizon-bearing and horizonless configurations. This behavior is illustrated in Fig.~\ref{fig:horizon}.
 
-\begin{figure}[t]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=0.72\textwidth]{tig_horizon_branches_critical_transition.png}
 \caption{
@@ -243,7 +248,7 @@ The effective potential depends on the metric function $F(r)$ and therefore inhe
 
 \section{Quasi-Normal Modes}
 
-In the eikonal approximation, the quasi-normal-mode spectrum is controlled by the photon-sphere frequency and the instability timescale of null geodesics:
+In the eikonal approximation, the quasi-normal-mode spectrum is controlled by the photon-sphere frequency and the instability timescale of null geodesics \cite{berti2009,konoplya2011}:
 \begin{equation}
 \omega_n
 \simeq
@@ -254,7 +259,7 @@ i\left(n+\frac{1}{2}\right)\lambda_{\mathrm{ph}} .
 
 Near the critical regime, modifications of the effective potential lead to shifts in both oscillation frequencies and damping rates. A schematic numerical estimate is shown in Fig.~\ref{fig:qnm}.
 
-\begin{figure}[t]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=0.72\textwidth]{tig_qnm_frequency_prediction.png}
 \caption{
@@ -266,7 +271,7 @@ The real part softens while damping decreases as $\beta$ approaches $\beta_c$.
 
 \section{Echo Physics}
 
-For horizonless configurations, the inner boundary is no longer purely absorbing. Signal propagation can therefore lead to echo-like structures. The characteristic delay time is approximately
+For horizonless configurations, the inner boundary is no longer purely absorbing. Signal propagation can therefore lead to echo-like structures \cite{cardoso2016,cardoso2019}. The characteristic delay time is approximately
 \begin{equation}
 \Delta t_{\mathrm{echo}}
 \simeq
@@ -288,7 +293,7 @@ As $\beta$ approaches the critical value, the near-throat optical distance incre
 
 This scaling behavior is illustrated in Fig.~\ref{fig:echo}.
 
-\begin{figure}[t]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=0.72\textwidth]{tig_echo_delay_prediction.png}
 \caption{
@@ -302,9 +307,9 @@ The delay grows rapidly as $\beta$ approaches the critical value $\beta_c$.
 
 The model suggests three possible observational channels:
 \begin{itemize}
-\item deviations in black hole shadow radii,
-\item systematic shifts in quasi-normal-mode spectra,
-\item possible gravitational-wave echo signatures.
+\item deviations in black hole shadow radii \cite{eventhorizon2019},
+\item systematic shifts in quasi-normal-mode spectra \cite{berti2009,konoplya2011},
+\item possible gravitational-wave echo signatures \cite{abbott2016,cardoso2016,cardoso2019}.
 \end{itemize}
 
 A quantitative comparison with observational data requires exact or numerical solutions of the full field equations and is left for future work.
@@ -317,7 +322,7 @@ For $\mu>0$, the scalar degree of freedom is non-tachyonic. This supports pertur
 
 In the limit $r_c\to0$, equivalently $\beta\to0$, the metric function reduces to the Schwarzschild form, recovering the standard General Relativity limit.
 
-For finite $\beta$, the geometry resembles regular black hole models in the sense that the central singularity is replaced by a regular core. However, the focus of the present construction is the analytic critical transition in horizon formation, rather than a purely phenomenological regularization of the central region.
+For finite $\beta$, the geometry resembles regular black hole models in the sense that the central singularity is replaced by a regular core \cite{bardeen1968,hayward2006}. However, the focus of the present construction is the analytic critical transition in horizon formation, rather than a purely phenomenological regularization of the central region.
 
 \section{Conclusion}
 
@@ -327,6 +332,7 @@ The transition affects photon-sphere geometry, quasi-normal-mode spectra, and po
 
 Further work should construct exact or numerical solutions of the full field equations and analyze dynamical stability in detail.
 
+\clearpage
 \sloppy
 \bibliographystyle{unsrt}
 \bibliography{references}
