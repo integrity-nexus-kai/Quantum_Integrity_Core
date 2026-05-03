@@ -164,6 +164,78 @@ x^3 - x^2 + \beta^3 = 0.
 Thus, the regular interior ansatz leads to a modified horizon structure controlled by the dimensionless integrity scale $\beta$.
 
 % --------------------------------------------------
+\subsection{Existence of Horizons}
+
+The existence of real, positive solutions of the cubic equation
+
+\begin{equation}
+x^3 - x^2 + \beta^3 = 0
+\end{equation}
+
+determines whether a black hole horizon exists.
+
+For sufficiently small $\beta$, the equation admits a real positive root, corresponding to a modified event horizon.
+
+However, beyond a critical value $\beta_c$, no real positive solution exists. This implies that horizon formation is suppressed and the object becomes a horizonless compact configuration.
+
+Thus, TIG predicts a transition between black hole and non-black-hole states controlled by the integrity scale.
+
+% --------------------------------------------------
+\subsection{Critical Integrity Scale}
+
+The critical value of the integrity scale is obtained by analyzing the minimum of
+
+\begin{equation}
+P(x)=x^3-x^2+\beta^3.
+\end{equation}
+
+The stationary points satisfy
+
+\begin{equation}
+\frac{dP}{dx}=3x^2-2x=x(3x-2)=0.
+\end{equation}
+
+The relevant positive stationary point is
+
+\begin{equation}
+x_c=\frac{2}{3}.
+\end{equation}
+
+At the critical transition, the minimum touches zero:
+
+\begin{equation}
+P\left(\frac{2}{3}\right)=0.
+\end{equation}
+
+This yields
+
+\begin{equation}
+\beta_c^3=\frac{4}{27},
+\end{equation}
+
+and therefore
+
+\begin{equation}
+\beta_c=\left(\frac{4}{27}\right)^{1/3}
+=
+\frac{\sqrt[3]{4}}{3}.
+\end{equation}
+
+Thus, horizons exist only for
+
+\begin{equation}
+\beta \leq \beta_c.
+\end{equation}
+
+For
+
+\begin{equation}
+\beta > \beta_c,
+\end{equation}
+
+the regular compact object becomes horizonless.
+
+% --------------------------------------------------
 \section{Cosmology}
 
 \begin{equation}
@@ -184,86 +256,9 @@ H^2 =
 \end{equation}
 
 % --------------------------------------------------
-\subsection{Explicit Cosmological Prediction}
-
-\begin{equation}
-\dot{R} = 6(\ddot{H} + 4H\dot{H})
-\end{equation}
-
-\begin{equation}
-3H^2 =
-8\pi\rho + \Lambda
-+
-288\pi\alpha
-\left(
-\dot{H}^2 - 2H^2\dot{H} - H\ddot{H}
-\right)
-\end{equation}
-
-% --------------------------------------------------
-\subsection{Numerical Prediction for the Expansion History}
-
-\begin{equation}
-E(z)^2 = \frac{H(z)^2}{H_0^2}
-\end{equation}
-
-\begin{equation}
-E_{\Lambda CDM}^2(z) = \Omega_m (1+z)^3 + \Omega_\Lambda
-\end{equation}
-
-\begin{equation}
-\Delta E_{\mathrm{TIG}}^2(z)
-=
-96\pi A
-\left[
-\frac{3}{4}\Omega_m^2(1+z)^6
--
-\frac{3}{2}\Omega_\Lambda \Omega_m (1+z)^3
-\right]
-\end{equation}
-
-\begin{equation}
-A = \alpha H_0^2
-\end{equation}
-
-\begin{equation}
-H_{\mathrm{TIG}}(z)
-=
-H_0
-\sqrt{
-\Omega_m(1+z)^3 + \Omega_\Lambda
-+
-96\pi A
-\left[
-\frac{3}{4}\Omega_m^2(1+z)^6
--
-\frac{3}{2}\Omega_\Lambda \Omega_m (1+z)^3
-\right]
-}
-\end{equation}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.8\textwidth]{tig_expansion_history_prediction.png}
-\caption{Comparison of TIG and $\Lambda$CDM expansion histories. TIG deviations grow with redshift and remain small at low redshift.}
-\end{figure}
-
-% --------------------------------------------------
-\section{Stability Analysis}
-
-The minimal $R^2$ model is a known subclass of $f(R)$ gravity. For $\alpha > 0$, the additional scalar degree of freedom is non-tachyonic and ghost instabilities are avoided \cite{defelice2010}.
-
-% --------------------------------------------------
-\section{Observational Consistency}
-
-Ricci-flat solutions remain unchanged, ensuring compatibility with gravitational wave observations \cite{gwtc3}.
-
-Cosmological deviations may be constrained by CMB data \cite{planck2018}.
-
-% --------------------------------------------------
 \section{Conclusion}
 
-We presented TIG as a quadratic curvature extension of General Relativity with explicit field equations and testable cosmological predictions. The theory preserves known limits while introducing dynamically activated corrections.
+We presented TIG as a quadratic curvature extension of General Relativity with explicit field equations and a modified black hole structure exhibiting a critical transition controlled by the integrity scale.
 
 % --------------------------------------------------
 \bibliographystyle{unsrt}
