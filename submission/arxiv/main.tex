@@ -1,175 +1,234 @@
-\documentclass[11pt]{article}
+\documentclass[11pt,final]{article}
 
 \usepackage[a4paper,margin=1in]{geometry}
+\usepackage[final]{graphicx}
 \usepackage{amsmath,amssymb}
-\usepackage{graphicx}
-\usepackage{microtype}
 \usepackage{hyperref}
 \usepackage{float}
 
-\setkeys{Gin}{draft=false}
+\title{Topological Integrity Gravity (TIG):\\
+A Quadratic $f(R)$ Model with a Critical Horizon Transition}
 
-\hypersetup{
-colorlinks=true,
-linkcolor=blue,
-citecolor=blue,
-urlcolor=blue
-}
-
-\title{Topological Integrity Gravity (TIG):\
-Critical Horizon Formation in a Quadratic $f(R)$ Framework}
-
-\author{Kai Stefan Dietrich\
+\author{Kai Stefan Dietrich\\
 Independent Research}
 
-\date{May 3, 2026}
+\date{May 2026}
 
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
-We analyze horizon formation in a quadratic $f(R)$ gravity model and identify a dimensionless control parameter governing the existence of horizons. Static, spherically symmetric configurations exhibit a critical threshold separating horizon-bearing from horizonless geometries.
-
-The transition emerges from the scalar dynamics of quadratic $f(R)$ gravity and induces observable modifications in photon-sphere structure, quasi-normal-mode spectra, and signal propagation. Near the critical regime, deviations from Schwarzschild behavior become parametrically enhanced.
-
-These results indicate that horizon formation in modified gravity can exhibit structurally controlled critical behavior with potential observational signatures in gravitational-wave and black hole imaging data.
+We investigate a constrained quadratic $f(R)$ gravity model exhibiting a critical transition in horizon formation. 
+The transition is controlled by a dimensionless parameter $\beta$ and separates horizon-bearing configurations from horizonless compact geometries. 
+We analyze the effective geometry, photon-sphere structure, perturbative dynamics, echo-delay scaling, and observational implications.
 \end{abstract}
 
 \section{Introduction}
 
-General Relativity successfully describes gravitational phenomena across a wide range of scales \cite{einstein1915,wald1984}. Nevertheless, extensions such as $f(R)$ gravity provide a minimal framework for incorporating higher-curvature corrections \cite{sotiriou2010,defelice2010}. The quadratic case is particularly relevant due to its connection to Starobinsky gravity \cite{starobinsky1980}.
+General Relativity remains the foundation of modern gravitational physics \cite{einstein1915,wald1984}. 
+Extensions such as $f(R)$ gravity provide a minimal framework for incorporating higher-curvature corrections \cite{sotiriou2010,defelice2010}. 
+The quadratic case is especially relevant because of its connection to Starobinsky-type curvature corrections \cite{starobinsky1980}.
 
-A central question is whether horizon formation remains structurally stable under such corrections. Modified gravity introduces additional degrees of freedom which can alter the classical horizon structure.
-
-Regular black hole models such as those of Bardeen and Hayward replace singularities with effective cores \cite{bardeen1968,hayward2006}. Here, we instead identify a **critical parameter controlling horizon existence**.
+This work studies an effective quadratic $f(R)$ compact-object model in which horizon formation is controlled by a critical parameter. 
+The resulting transition separates black-hole-like configurations from horizonless regular geometries.
 
 \section{Quadratic $f(R)$ Framework}
 
+We consider the action
 \begin{equation}
-S = \int d^4x \sqrt{-g}
+S=\int d^4x\sqrt{-g}
 \left[
 \frac{1}{16\pi}
-\left(
-R - 2\Lambda + \alpha R^2
-\right)
+\left(R-2\Lambda+\alpha R^2\right)
 \right]
++S_{\mathrm{matter}} .
 \end{equation}
 
+Equivalently,
 \begin{equation}
-f(R) = R - 2\Lambda + \mu R^2, \quad \mu = 16\pi\alpha
+f(R)=R-2\Lambda+\mu R^2 ,
+\qquad
+\mu=16\pi\alpha .
 \end{equation}
 
-The scalar mode is
-
+The additional scalar degree of freedom is
 \begin{equation}
-\phi = 1 + 2\mu R
+\phi=f'(R)=1+2\mu R ,
 \end{equation}
-
-with mass
-
+with effective mass
 \begin{equation}
-m_\phi^2 = \frac{1}{6\mu}
+m_\phi^2=\frac{1}{3f''(R)}=\frac{1}{6\mu}.
 \end{equation}
+For $\mu>0$, this scalar mode is non-tachyonic.
 
 \section{Effective Geometry}
 
-We consider
-
+We consider a static, spherically symmetric metric
 \begin{equation}
-ds^2 =
--F(r)dt^2 +
-\frac{dr^2}{F(r)} +
-r^2 d\Omega^2
+ds^2=-F(r)dt^2+\frac{dr^2}{F(r)}+r^2d\Omega^2 .
 \end{equation}
 
-with mass profile
-
+The effective mass profile is chosen as
 \begin{equation}
-m(r)=\frac{Mr^3}{r^3+r_c^3}
+m(r)=\frac{Mr^3}{r^3+r_c^3},
+\end{equation}
+so that
+\begin{equation}
+F(r)=1-\frac{2m(r)}{r}.
 \end{equation}
 
-\begin{equation}
-F(r)=1-\frac{2m(r)}{r}
-\end{equation}
+This profile interpolates between a regular core at small radii and Schwarzschild behavior at large radii.
 
 \section{Critical Horizon Structure}
 
 Horizons satisfy
-
 \begin{equation}
-r_H^3 - 2Mr_H^2 + r_c^3 = 0
+F(r_H)=0 .
 \end{equation}
 
-Defining
-
+Substituting the mass profile gives
 \begin{equation}
-x=\frac{r_H}{2M}, \quad \beta=\frac{r_c}{2M}
+r_H^3-2Mr_H^2+r_c^3=0 .
 \end{equation}
 
-we obtain
-
+Introducing
 \begin{equation}
-x^3-x^2+\beta^3=0
+x=\frac{r_H}{2M},
+\qquad
+\beta=\frac{r_c}{2M},
+\end{equation}
+one obtains
+\begin{equation}
+x^3-x^2+\beta^3=0 .
 \end{equation}
 
-The critical point is
-
+The critical value is
 \begin{equation}
-\beta_c = \left(\frac{4}{27}\right)^{1/3}
+\beta_c=\left(\frac{4}{27}\right)^{1/3}.
 \end{equation}
+
+For $\beta\leq\beta_c$, horizon-bearing configurations exist. 
+For $\beta>\beta_c$, the geometry becomes horizonless.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{tig_horizon_branches_critical_transition.png}
-\caption{Critical horizon structure separating horizon-bearing and horizonless regimes.}
+\includegraphics[width=0.75\textwidth]{tig_horizon_radius_prediction.png}
+\caption{Horizon-radius behavior as a function of the control parameter $\beta$. The critical regime separates horizon-bearing from horizonless configurations.}
+\label{fig:horizon}
 \end{figure}
+
+For small $\beta$, the outer horizon branch satisfies
+\begin{equation}
+x\simeq 1-\beta^3,
+\end{equation}
+and therefore
+\begin{equation}
+r_H\simeq 2M(1-\beta^3).
+\end{equation}
 
 \section{Photon Sphere}
 
+The photon sphere is determined by
 \begin{equation}
-rF'(r)-2F(r)=0
+rF'(r)-2F(r)=0 .
 \end{equation}
+
+The corresponding shadow radius is
+\begin{equation}
+R_{\mathrm{sh}}
+=
+\frac{r_{\mathrm{ph}}}{\sqrt{F(r_{\mathrm{ph}})}} .
+\end{equation}
+
+Near the critical regime, deviations in the photon-sphere structure may translate into observable shadow-radius deviations.
+
+\section{Perturbative Dynamics}
+
+Linear perturbations may be described by a Schrödinger-like master equation
+\begin{equation}
+\frac{d^2\Psi}{dr_*^2}
++
+\left[
+\omega^2-V_{\mathrm{eff}}(r)
+\right]\Psi=0 ,
+\end{equation}
+where
+\begin{equation}
+\frac{dr_*}{dr}=\frac{1}{F(r)} .
+\end{equation}
+
+The effective potential inherits the critical behavior of the metric function.
 
 \section{Quasi-Normal Modes}
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.7\textwidth]{tig_qnm_frequency_prediction.png}
-\caption{QNM spectrum behavior near the critical transition.}
-\end{figure}
+In the eikonal approximation, quasi-normal-mode frequencies are schematically controlled by the photon-sphere frequency and the Lyapunov exponent \cite{berti2009}:
+\begin{equation}
+\omega_n
+\simeq
+\left(n+\frac{1}{2}\right)\Omega_{\mathrm{ph}}
+-
+i\left(n+\frac{1}{2}\right)\lambda_{\mathrm{ph}} .
+\end{equation}
+
+Approaching the critical regime can shift both the real oscillation frequency and the damping rate.
 
 \section{Echo Physics}
 
+For horizonless configurations, the inner boundary is no longer purely absorbing. 
+The characteristic echo delay is estimated as
 \begin{equation}
-\Delta t_{\mathrm{echo}} \sim \int \frac{dr}{F(r)}
+\Delta t_{\mathrm{echo}}
+\simeq
+2\int_{r_0}^{r_{\mathrm{ph}}}\frac{dr}{F(r)} .
 \end{equation}
 
+Near the critical value,
 \begin{equation}
-\Delta t_{\mathrm{echo}} \rightarrow \infty \quad \text{as} \quad \beta \rightarrow \beta_c
+\Delta t_{\mathrm{echo}}\rightarrow\infty
+\qquad
+\mathrm{as}
+\qquad
+\beta\rightarrow\beta_c .
 \end{equation}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{tig_echo_delay_prediction.png}
-\caption{Echo delay scaling near the critical regime.}
+\includegraphics[width=0.75\textwidth]{tig_echo_delay_prediction.png}
+\caption{Echo-delay scaling near the critical regime. The delay grows as the effective optical cavity becomes increasingly extended.}
+\label{fig:echo}
 \end{figure}
 
 \section{Observational Implications}
 
 Observable channels include:
-
 \begin{itemize}
-\item black hole shadow deviations
-\item QNM spectrum shifts
-\item gravitational-wave echoes
+\item black hole shadow-radius deviations,
+\item quasi-normal-mode frequency shifts,
+\item possible gravitational-wave echo signatures.
 \end{itemize}
+
+These effects provide possible probes of modified gravity in strong-field regimes.
+
+\section{Stability}
+
+For $\mu>0$, the scalar curvature mode is non-tachyonic, which supports perturbative consistency of the quadratic correction. 
+A complete dynamical stability analysis remains future work.
+
+\section{Relation to Regular Black Hole Models}
+
+The effective geometry resembles regular black hole models in that the central singularity is replaced by a regular core \cite{bardeen1968,hayward2006}. 
+However, the present construction emphasizes the analytic critical transition in horizon formation rather than only regularization of the central region.
 
 \section{Conclusion}
 
-We identify a structurally controlled critical transition governing horizon formation in quadratic $f(R)$ gravity. This leads to distinct observational signatures and provides a new framework for probing modified gravity in strong-field regimes.
+We identified a structurally controlled critical transition governing horizon formation in a quadratic $f(R)$ gravity model. 
+The transition separates horizon-bearing and horizonless configurations and leads to observable signatures in photon-sphere structure, quasi-normal-mode behavior, and echo-delay scaling.
+
+Future work should address full numerical solutions, stability, and direct comparison with observational data.
 
 \clearpage
+
 \bibliographystyle{unsrt}
 \bibliography{references}
 
