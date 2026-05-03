@@ -26,39 +26,37 @@ In the TIG perspective, horizon formation is not a continuous deformation but a 
 
 Near the critical regime, the metric function develops an extended near-zero region, enhancing the tortoise coordinate and causing the echo delay time to diverge as $\beta \rightarrow \beta_c$. This corresponds to the emergence of an effectively infinite optical cavity.
 
-The TIG framework interpolates between classical black hole geometries and regular horizonless compact objects. Observable consequences include deviations in black hole shadow radii, shifts in quasi-normal mode spectra, and characteristic gravitational-wave echo signatures, providing potential probes of modified gravity in the strong-field regime.
+The TIG framework interpolates between classical black hole geometries and regular horizonless compact objects. Observable consequences include deviations in black hole shadow radii, shifts in quasi-normal mode spectra, and characteristic gravitational-wave echo signatures.
 \end{abstract}
 
 \section{Introduction}
 
 General Relativity provides an accurate description of gravitational phenomena across a wide range of scales \cite{einstein1915,wald1984}. Extensions such as $f(R)$ gravity introduce higher-curvature corrections and additional degrees of freedom \cite{sotiriou2010,defelice2010}.
 
-Regular black hole geometries have been studied as alternatives to singular solutions \cite{bardeen1968,hayward2006}. Quasi-normal modes and gravitational-wave echoes provide observational channels for probing compact-object structure \cite{berti2009,cardoso2016}.
+Regular black hole geometries have been studied as alternatives to singular solutions \cite{bardeen1968,hayward2006}. Quasi-normal modes and gravitational-wave echoes provide observational channels for probing compact-object structure \cite{berti2009,cardoso2016,konoplya2011}.
 
-In this work, we adopt the framework of Topological Integrity Gravity (TIG), in which the existence of horizons is interpreted as a structural property of the geometry rather than a purely dynamical outcome.
+We adopt the framework of Topological Integrity Gravity (TIG), in which spacetime configurations are classified by the topological structure of the horizon equation rather than by continuous metric deformation. In this framework, horizon formation is interpreted as a structural property of the geometry rather than a purely dynamical outcome.
+
+We show that horizon formation in this class of models is governed by a universal structural transition rather than a continuous dynamical process.
 
 \section{Quadratic $f(R)$ Framework}
 
 We consider the action
-
 \begin{equation}
 S = \int d^4x \sqrt{-g} \left[ \frac{1}{16\pi}(R - 2\Lambda + \alpha R^2) \right] + S_{\text{matter}}.
 \end{equation}
 
 Equivalently,
-
 \begin{equation}
 f(R) = R - 2\Lambda + \mu R^2, \quad \mu = 16\pi \alpha.
 \end{equation}
 
 The additional scalar degree of freedom is
-
 \begin{equation}
 \phi = f'(R) = 1 + 2\mu R,
 \end{equation}
 
 with effective mass
-
 \begin{equation}
 m_\phi^2 = \frac{1}{6\mu}.
 \end{equation}
@@ -66,19 +64,16 @@ m_\phi^2 = \frac{1}{6\mu}.
 \section{Effective Geometry}
 
 We consider a static, spherically symmetric metric
-
 \begin{equation}
 ds^2 = -F(r) dt^2 + \frac{dr^2}{F(r)} + r^2 d\Omega^2.
 \end{equation}
 
 The effective mass profile is
-
 \begin{equation}
 m(r) = \frac{M r^3}{r^3 + r_c^3},
 \end{equation}
 
 leading to
-
 \begin{equation}
 F(r) = 1 - \frac{2m(r)}{r}.
 \end{equation}
@@ -86,36 +81,31 @@ F(r) = 1 - \frac{2m(r)}{r}.
 \section{Critical Horizon Structure}
 
 Horizons satisfy
-
 \begin{equation}
 F(r_H) = 0.
 \end{equation}
 
 This yields
-
 \begin{equation}
 r_H^3 - 2M r_H^2 + r_c^3 = 0.
 \end{equation}
 
 Introducing
-
 \begin{equation}
 x = \frac{r_H}{2M}, \quad \beta = \frac{r_c}{2M},
 \end{equation}
 
 we obtain
-
 \begin{equation}
 x^3 - x^2 + \beta^3 = 0.
 \end{equation}
 
 The critical value is
-
 \begin{equation}
 \beta_c = \left(\frac{4}{27}\right)^{1/3}.
 \end{equation}
 
-At $\beta = \beta_c$, two real roots merge, indicating a saddle-node bifurcation.
+At $\beta = \beta_c$, two real roots merge, indicating a saddle-node bifurcation. In the TIG framework, this marks a topological transition between horizon-bearing and horizonless geometries.
 
 \clearpage
 
@@ -142,26 +132,31 @@ r F'(r) - 2F(r) = 0.
 \end{equation}
 
 Near the critical regime,
-
 \begin{equation}
 \Delta t_{\text{echo}} \rightarrow \infty.
 \end{equation}
+
+This behavior is analogous to critical slowing down in dynamical systems and provides a potential observable signature of the transition.
 
 \clearpage
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.75\textwidth]{tig_echo_delay_prediction.png}
-\caption{Echo delay scaling near the critical regime. Divergence indicates an extended optical cavity.}
+\caption{Echo delay scaling near the critical regime. Divergence indicates the formation of an extended optical cavity.}
 \end{figure}
 
 \FloatBarrier
 
 \section{Quasi-Normal Modes}
 
+In the eikonal limit, quasi-normal modes are governed by photon-sphere properties \cite{cardoso2016,konoplya2011}.
+
 \begin{equation}
 \omega_n \approx \left(n + \frac{1}{2}\right)\Omega - i \left(n + \frac{1}{2}\right)\lambda.
 \end{equation}
+
+Approaching the critical regime can shift both the real oscillation frequency and the damping rate.
 
 \section{Observational Implications}
 
@@ -171,13 +166,17 @@ Near the critical regime,
 \item gravitational-wave echo signatures.
 \end{itemize}
 
+These effects provide potential probes of modified gravity in strong-field regimes.
+
 \section{Stability}
 
-For $\mu > 0$, the scalar mode is non-tachyonic.
+For $\mu > 0$, the scalar mode is non-tachyonic, supporting perturbative consistency. A full dynamical stability analysis remains future work.
 
 \section{Conclusion}
 
-We identified a structurally controlled critical transition governing horizon formation in quadratic $f(R)$ gravity within the TIG framework.
+We identified a structurally controlled critical transition governing horizon formation in quadratic $f(R)$ gravity within the TIG framework. The transition separates horizon-bearing and horizonless configurations and is associated with non-analytic behavior and divergent timescales.
+
+This suggests that horizon formation may be a universal structural phenomenon in modified gravity theories rather than a model-dependent feature.
 
 \clearpage
 
