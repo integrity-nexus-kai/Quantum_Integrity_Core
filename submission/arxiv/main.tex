@@ -27,7 +27,7 @@ The theory predicts the existence of a critical parameter separating horizon and
 
 Near the critical regime, TIG implies non-linear scaling behavior of observable quantities, in contrast to the linear response expected in General Relativity. This leads to enhanced sensitivity of photon sphere structure, shadow radius, and gravitational wave signatures close to the transition.
 
-We argue that these effects are not model-dependent features but direct consequences of the underlying consistency structure, providing a pathway toward observational tests of constrained gravity theories
+We argue that these effects are not model-dependent features but direct consequences of the underlying consistency structure, providing a pathway toward observational tests of constrained gravity theories.
 
 \end{abstract}
 
@@ -35,7 +35,7 @@ We argue that these effects are not model-dependent features but direct conseque
 
 General Relativity provides an accurate description of gravitational phenomena across a wide range of scales \cite{einstein1915,wald1984}. Extensions such as $f(R)$ gravity introduce higher-curvature corrections and additional degrees of freedom \cite{sotiriou2010,defelice2010}.
 
-The existence of a critical transition in horizon formation suggests that the presence or absence of horizons may not be a binary property, but rather the result of an underlying structural condition. This raises the possibility that horizon formation in modified gravity is governed by universal mechanisms rather than model-specific details.
+The existence of a critical transition in horizon formation suggests that the presence or absence of horizons may not be a binary property, but rather the result of an underlying structural condition.
 
 In this work, we identify such a mechanism within a quadratic $f(R)$ framework and analyze its physical and observational consequences.
 
@@ -43,20 +43,16 @@ In this work, we identify such a mechanism within a quadratic $f(R)$ framework a
 
 A generic extension of General Relativity allows arbitrary curvature corrections, leading to a large space of admissible models. However, not all such extensions are physically consistent.
 
-In particular, horizon formation must satisfy a structural stability requirement: small perturbations of the underlying parameters should not lead to unphysical or discontinuous changes in the number of horizons, except at well-defined critical points.
+Horizon formation must satisfy a structural stability requirement: small perturbations should not produce unphysical changes in the number of horizons except at well-defined critical points.
 
-This requirement constrains the admissible form of the horizon equation. In the simplest non-trivial case, the minimal polynomial structure that allows for a controlled transition between horizon and non-horizon configurations is a cubic equation.
+The minimal structure capable of producing such a transition is cubic. Lower-order structures cannot capture bifurcation behavior, while higher-order terms introduce unnecessary branches.
 
-Lower-order structures cannot capture the necessary bifurcation behavior, while higher-order terms introduce additional branches that are not required by the minimal consistency condition.
-
-Thus, the horizon equation
+Thus, the horizon equation takes the form
 \begin{equation}
 x^3 - x^2 + \beta^3 = 0
-This structure can be understood from catastrophe theory: the simplest structurally stable bifurcation that changes the number of real solutions is the saddle-node (fold) bifurcation, which is universally described by a cubic normal form.
 \end{equation}
-is not an arbitrary choice, but the minimal form compatible with structural stability and controlled horizon transitions.
 
-This constraint selects a restricted class of admissible extensions, distinguishing TIG from generic phenomenological modifications of General Relativity.
+This structure can be understood from catastrophe theory: the simplest structurally stable bifurcation that changes the number of real solutions is the saddle-node (fold) bifurcation, universally described by a cubic normal form.
 
 \section{Quadratic $f(R)$ Framework}
 
@@ -77,11 +73,12 @@ f(R)=R-2\Lambda+\mu R^2,
 \end{equation}
 we obtain a quadratic $f(R)$ model.
 
-The additional scalar degree of freedom is
+The scalar degree of freedom is
 \begin{equation}
 \phi=f'(R)=1+2\mu R,
 \end{equation}
-with effective mass
+
+with mass
 \begin{equation}
 m_\phi^2=\frac{1}{6\mu}.
 \end{equation}
@@ -93,20 +90,15 @@ We consider a static, spherically symmetric metric
 ds^2=-F(r)dt^2+\frac{dr^2}{F(r)}+r^2d\Omega^2.
 \end{equation}
 
-\begin{equation}
-\Delta \mathcal{O} \sim |\beta - \beta_c|^\alpha
-\end{equation}
-
 We introduce the effective mass profile
 \begin{equation}
 m(r)=\frac{Mr^3}{r^3+r_c^3},
 \end{equation}
+
 leading to
 \begin{equation}
 F(r)=1-\frac{2m(r)}{r}.
 \end{equation}
-
-This interpolates between a regular core and Schwarzschild asymptotics.
 
 \section{Critical Horizon Structure}
 
@@ -124,34 +116,27 @@ Introducing
 \begin{equation}
 x=\frac{r_H}{2M}, \qquad \beta=\frac{r_c}{2M},
 \end{equation}
-we obtain
+
+the parameter $\beta$ is the dimensionless ratio between the internal scale $r_c$ and the gravitational radius $2M$. It measures the strength of regularization at the horizon scale.
+
+We obtain
 \begin{equation}
 x^3-x^2+\beta^3=0.
 \end{equation}
 
-The structure of this equation implies a critical value
+The critical value is
 \begin{equation}
 \beta_c=\left(\frac{4}{27}\right)^{1/3}.
 \end{equation}
 
-The existence of horizons is controlled by the discriminant of the cubic equation. At $\beta=\beta_c$, two real roots merge, signaling a saddle-node bifurcation and the disappearance of the outer horizon branch.
+As shown in Fig.~\ref{fig:horizon}, the outer horizon branch terminates at $\beta_c$, indicating a saddle-node bifurcation.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.75\textwidth]{tig_horizon_radius_prediction.png}
-\caption{
-Horizon-radius behavior as a function of $\beta$. The outer branch terminates at $\beta_c$, indicating a non-analytic transition between horizon-bearing and horizonless configurations.
-}
+\caption{Horizon radius as a function of $\beta$. The outer branch terminates at $\beta_c$.}
+\label{fig:horizon}
 \end{figure}
-
-\section{Photon Sphere}
-
-The photon sphere satisfies
-\begin{equation}
-rF'(r)-2F(r)=0.
-\end{equation}
-
-Near the critical regime, deviations in $F(r)$ shift the photon sphere and may alter observable shadow properties.
 
 \section{Echo Physics}
 
@@ -160,123 +145,43 @@ The echo delay is estimated as
 \Delta t_{\mathrm{echo}} \simeq 2\int \frac{dr}{F(r)}.
 \end{equation}
 
-Near $\beta_c$,
-\begin{equation}
-\Delta t_{\mathrm{echo}}\rightarrow\infty.
-\end{equation}
-
-This indicates the formation of an effectively infinite optical cavity and is analogous to critical slowing down.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.75\textwidth]{tig_echo_delay_prediction.png}
-\caption{
-Echo-delay scaling near $\beta_c$. The divergence indicates an extended optical cavity in the near-critical regime.
-}
-\end{figure}
-
-The following section provides an explicit derivation of the critical scaling behavior and the associated exponents.
-
-\section{Quantitative Prediction}
-
-## Quantitative Prediction
+Near $\beta_c$, the delay diverges, indicating a critical regime.
 
 \section{Quantitative Prediction}
 
 The horizon equation is
 \begin{equation}
-f(x,\beta)=x^3-x^2+\beta^3=0 .
+f(x,\beta)=x^3-x^2+\beta^3=0.
 \end{equation}
 
 The critical point is
 \begin{equation}
-x_c=\frac{2}{3},
-\qquad
-\beta_c=\left(\frac{4}{27}\right)^{1/3}.
+x_c=\frac{2}{3}, \qquad \beta_c=\left(\frac{4}{27}\right)^{1/3}.
 \end{equation}
 
-We expand around criticality by writing
+Expanding around criticality yields
 \begin{equation}
-x=x_c+\delta x,
-\qquad
-\beta=\beta_c-\delta\beta ,
-\end{equation}
-with $\delta\beta>0$.
-
-A Taylor expansion gives
-\begin{equation}
-0 \approx
-\frac{1}{2}f_{xx}(x_c,\beta_c)(\delta x)^2
--
-f_\beta(x_c,\beta_c)\delta\beta .
+x_\pm-x_c \sim (\beta_c-\beta)^{1/2}.
 \end{equation}
 
-Since
-\begin{equation}
-f_{xx}(x_c,\beta_c)=2,
-\qquad
-f_\beta(x_c,\beta_c)=3\beta_c^2,
-\end{equation}
-we obtain
-\begin{equation}
-(\delta x)^2 \approx 3\beta_c^2\delta\beta .
-\end{equation}
-
-Therefore,
-\begin{equation}
-x_\pm-x_c
-\approx
-\pm \sqrt{3}\,\beta_c(\beta_c-\beta)^{1/2}.
-\end{equation}
-
-The horizon branches thus merge with the critical exponent
+Thus, the critical exponent is
 \begin{equation}
 \alpha_H=\frac{1}{2}.
 \end{equation}
 
-Since $r_H=2Mx$, the near-critical horizon radii obey
+For echoes,
 \begin{equation}
-r_{H,\pm}
-\approx
-2M\left[
-\frac{2}{3}
-\pm
-\sqrt{3}\,\beta_c(\beta_c-\beta)^{1/2}
-\right].
+\Delta t_{\mathrm{echo}} \sim (\beta_c-\beta)^{-1/2},
 \end{equation}
 
-For echo delays, the near-critical lapse develops a quadratic minimum,
-\begin{equation}
-F(r)\sim (r-r_c)^2+\epsilon,
-\qquad
-\epsilon\sim \beta_c-\beta .
-\end{equation}
-
-Thus,
-\begin{equation}
-\Delta t_{\mathrm{echo}}
-\sim
-\int\frac{dr}{(r-r_c)^2+\epsilon}
-\sim
-\epsilon^{-1/2},
-\end{equation}
-and therefore
-\begin{equation}
-\Delta t_{\mathrm{echo}}
-\sim
-(\beta_c-\beta)^{-1/2}.
-\end{equation}
-
-The corresponding echo-delay critical exponent is
+giving
 \begin{equation}
 \alpha_{\mathrm{echo}}=-\frac{1}{2}.
 \end{equation}
 
 \section{Conclusion}
 
-We have demonstrated that quadratic $f(R)$ gravity admits a structurally controlled critical transition in horizon formation. This transition separates horizon-bearing and horizonless configurations and is associated with non-analytic behavior and divergent timescales.
-
-These features suggest that critical horizon transitions may be a generic property of regular compact-object geometries and provide observable probes of modified gravity.
+We have demonstrated that quadratic $f(R)$ gravity admits a structurally controlled transition in horizon formation with universal critical behavior.
 
 \clearpage
 
