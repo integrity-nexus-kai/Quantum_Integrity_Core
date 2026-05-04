@@ -27,7 +27,7 @@ The theory predicts the existence of a critical parameter separating horizon and
 
 Near the critical regime, TIG implies non-linear scaling behavior of observable quantities, in contrast to the linear response expected in General Relativity. This leads to enhanced sensitivity of photon sphere structure, shadow radius, and gravitational wave signatures close to the transition.
 
-We argue that these effects are not model-dependent features but direct consequences of the underlying consistency structure, providing a pathway toward observational tests of constrained gravity theories.
+We argue that these effects are not model-dependent features but direct consequences of the underlying consistency structure, providing a pathway toward observational tests of structurally constrained gravity theories.
 
 \end{abstract}
 
@@ -120,7 +120,7 @@ x=\frac{r_H}{2M},
 \qquad
 \beta=\frac{r_c}{2M},
 \end{equation}
-the parameter $\beta$ is the dimensionless ratio between the internal regularization scale $r_c$ and the gravitational radius $2M$. It measures the relative strength of curvature regularization at the horizon scale. Small values of $\beta$ correspond to Schwarzschild-like configurations, while values approaching $\beta_c$ drive the system toward the critical transition.
+the parameter $\beta$ is the dimensionless ratio between the internal regularization scale $r_c$ and the gravitational radius $2M$.
 
 We obtain
 \begin{equation}
@@ -134,15 +134,15 @@ The critical value is
 
 The existence of horizons is controlled by the discriminant of the cubic equation. At $\beta=\beta_c$, two real roots merge, signaling a saddle-node bifurcation and the disappearance of the outer horizon branch.
 
-As shown in Fig.~\ref{fig:horizon-radius}, the horizon branches terminate at $\beta_c$, indicating a structurally controlled transition.
+As shown in Fig.~\ref{fig:horizon-transition}, the inner and outer horizon branches merge at the critical point $(\beta_c,x_c)$, producing a saddle-node transition beyond which no horizon solution exists.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.75\textwidth]{tig_horizon_radius_prediction.png}
+\includegraphics[width=0.82\textwidth]{tig_horizon_transition_publication.png}
 \caption{
-Horizon-radius behavior as a function of $\beta$. The outer branch terminates at $\beta_c$, indicating a non-analytic transition between horizon-bearing and horizonless configurations.
+Publication-style visualization of the TIG horizon transition compared with the Schwarzschild reference. The inner and outer horizon branches merge at the critical point $(\beta_c,x_c)$, producing a saddle-node transition beyond which no horizon solution exists.
 }
-\label{fig:horizon-radius}
+\label{fig:horizon-transition}
 \end{figure}
 
 \section{Photon Sphere}
@@ -176,8 +176,6 @@ Echo-delay scaling near $\beta_c$. The divergence indicates an extended optical 
 }
 \label{fig:echo-delay}
 \end{figure}
-
-The following section provides an explicit derivation of the critical scaling behavior and the associated exponents.
 
 \section{Quantitative Prediction}
 
@@ -227,54 +225,9 @@ x_\pm-x_c
 \pm \sqrt{3}\,\beta_c(\beta_c-\beta)^{1/2}.
 \end{equation}
 
-The horizon branches thus merge with the critical exponent
-\begin{equation}
-\alpha_H=\frac{1}{2}.
-\end{equation}
-
-Since $r_H=2Mx$, the near-critical horizon radii obey
-\begin{equation}
-r_{H,\pm}
-\approx
-2M\left[
-\frac{2}{3}
-\pm
-\sqrt{3}\,\beta_c(\beta_c-\beta)^{1/2}
-\right].
-\end{equation}
-
-For echo delays, the near-critical lapse develops a quadratic minimum,
-\begin{equation}
-F(r)\sim (r-r_c)^2+\epsilon,
-\qquad
-\epsilon\sim \beta_c-\beta .
-\end{equation}
-
-Thus,
-\begin{equation}
-\Delta t_{\mathrm{echo}}
-\sim
-\int\frac{dr}{(r-r_c)^2+\epsilon}
-\sim
-\epsilon^{-1/2},
-\end{equation}
-and therefore
-\begin{equation}
-\Delta t_{\mathrm{echo}}
-\sim
-(\beta_c-\beta)^{-1/2}.
-\end{equation}
-
-The corresponding echo-delay critical exponent is
-\begin{equation}
-\alpha_{\mathrm{echo}}=-\frac{1}{2}.
-\end{equation}
-
 \section{Conclusion}
 
-We have demonstrated that quadratic $f(R)$ gravity admits a structurally controlled critical transition in horizon formation. This transition separates horizon-bearing and horizonless configurations and is associated with non-analytic behavior and divergent timescales.
-
-These features suggest that critical horizon transitions may be a generic property of regular compact-object geometries and provide observable probes of modified gravity.
+We have demonstrated that quadratic $f(R)$ gravity admits a structurally controlled critical transition in horizon formation.
 
 \clearpage
 
