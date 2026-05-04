@@ -21,13 +21,24 @@ Independent Research}
 
 \begin{abstract}
 
-We introduce Topological Integrity Gravity (TIG), a structurally constrained extension of General Relativity in which admissible curvature corrections are restricted by consistency conditions.
+We present a minimal formulation of Topological Integrity Gravity (TIG),
+a structurally constrained extension of General Relativity within a quadratic $f(R)$ framework.
 
-The theory predicts the existence of a critical parameter separating horizon and non-horizon configurations, leading to a discrete transition in the space of gravitational solutions. In contrast to phenomenological $f(R)$ models, this transition is not arbitrary but arises from structural constraints on the horizon equation.
+The central result is that horizon formation is governed by a critical transition,
+rather than a continuous deformation of solutions.
 
-Near the critical regime, TIG implies non-linear scaling behavior of observable quantities, in contrast to the linear response expected in General Relativity. This leads to enhanced sensitivity of photon sphere structure, shadow radius, and gravitational wave signatures close to the transition.
+Under consistency constraints on admissible curvature corrections,
+the horizon equation reduces to a cubic structure,
+leading to a saddle-node bifurcation that controls the existence of horizons.
 
-We argue that these effects are direct consequences of the underlying consistency structure and provide a concrete observational signature of structurally constrained gravity theories.
+This implies the presence of a critical parameter separating horizon and non-horizon configurations,
+as well as non-linear scaling behavior near the transition point.
+
+These features arise as direct consequences of the imposed structural constraints
+and are not introduced phenomenologically.
+
+We discuss observable implications, including modifications to photon sphere structure,
+black hole shadow size, and gravitational wave signatures near criticality.
 
 \end{abstract}
 
@@ -95,7 +106,9 @@ m(r)=\frac{Mr^3}{r^3+r_c^3},
 \end{equation}
 leading to
 \begin{equation}
-F(r)=1-\frac{2m(r)}{r}.
+F(r)=1-\frac{2m(r)}{r}
+=
+1-\frac{2M r^2}{r^3+r_c^3}.
 \end{equation}
 
 This interpolates between a regular core and Schwarzschild asymptotics.
@@ -130,7 +143,11 @@ The critical value is
 \beta_c=\left(\frac{4}{27}\right)^{1/3}.
 \end{equation}
 
-At this point, the corresponding critical radius is given by $x_c = 2/3$, where the two real roots coincide.
+At this point, the corresponding critical radius is given by
+\begin{equation}
+x_c=\frac{2}{3},
+\end{equation}
+where the two real roots coincide.
 
 The existence of horizons is controlled by the discriminant of the cubic equation. At $\beta=\beta_c$, two real roots merge, signaling a saddle-node bifurcation and the disappearance of the outer horizon branch.
 
@@ -145,14 +162,49 @@ Publication-style visualization of the TIG horizon transition compared with the 
 \label{fig:horizon-transition}
 \end{figure}
 
-\section{Photon Sphere}
+\section{Photon Sphere Structure and Observable Deviation}
 
-The photon sphere satisfies
+A central consequence of the TIG framework is the modification of null geodesic structure near compact objects. In particular, the location of the photon sphere provides a direct probe of the underlying gravitational geometry.
+
+The photon sphere is determined by the standard condition for unstable circular null geodesics,
 \begin{equation}
 rF'(r)-2F(r)=0.
 \end{equation}
 
-Near the critical regime, deviations in $F(r)$ shift the photon sphere and may alter observable shadow properties.
+For the TIG metric function
+\begin{equation}
+F(r)=1-\frac{2M r^2}{r^3+r_c^3},
+\end{equation}
+this equation is solved numerically for the photon sphere radius $r_{\mathrm{ph}}$.
+
+In the limit $r_c\rightarrow 0$, the model reduces smoothly to the Schwarzschild solution with
+\begin{equation}
+r_{\mathrm{ph}}^{\mathrm{GR}}=3M.
+\end{equation}
+
+We define the relative deviation from the Schwarzschild photon sphere as
+\begin{equation}
+\Delta_{\mathrm{ph}}(r_c)
+=
+\frac{r_{\mathrm{ph}}^{\mathrm{TIG}}-3M}{3M}.
+\end{equation}
+
+Numerical solutions show that the deviation remains negligible for small $r_c$, ensuring consistency with the GR limit, while for larger values of $r_c$ it grows non-linearly and reaches values of approximately $-4\%$ in the explored regime.
+
+This corresponds to a systematic contraction of the photon sphere and implies a reduced black hole shadow radius relative to General Relativity.
+
+The numerical behavior is illustrated in Fig.~\ref{fig:photon_sphere}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.72\textwidth]{tig_photon_sphere_deviation.png}
+\caption{
+Relative deviation of the photon sphere radius in TIG compared to General Relativity. The model approaches the Schwarzschild value for small $r_c$ and develops a systematic negative deviation as the characteristic scale increases.
+}
+\label{fig:photon_sphere}
+\end{figure}
+
+Although current observational precision does not yet resolve deviations at this level, the predicted effect defines a concrete and testable target for future high-resolution observations.
 
 \section{Echo Physics}
 
@@ -227,9 +279,40 @@ x_\pm-x_c
 
 This square-root behavior is a universal feature of saddle-node bifurcations and is independent of the specific details of the underlying model.
 
+For echo delays, the near-critical lapse develops a quadratic minimum,
+\begin{equation}
+F(r)\sim (r-r_c)^2+\epsilon,
+\qquad
+\epsilon\sim \beta_c-\beta .
+\end{equation}
+
+Thus,
+\begin{equation}
+\Delta t_{\mathrm{echo}}
+\sim
+\int\frac{dr}{(r-r_c)^2+\epsilon}
+\sim
+\epsilon^{-1/2},
+\end{equation}
+and therefore
+\begin{equation}
+\Delta t_{\mathrm{echo}}
+\sim
+(\beta_c-\beta)^{-1/2}.
+\end{equation}
+
+The corresponding echo-delay critical exponent is
+\begin{equation}
+\alpha_{\mathrm{echo}}=-\frac{1}{2}.
+\end{equation}
+
 \section{Conclusion}
 
-We have demonstrated that quadratic $f(R)$ gravity admits a structurally controlled critical transition in horizon formation.
+We have demonstrated that quadratic $f(R)$ gravity admits a structurally controlled critical transition in horizon formation. This transition separates horizon-bearing and horizonless configurations and is associated with non-analytic behavior and divergent timescales.
+
+The photon sphere analysis provides a first concrete observable consequence of the TIG framework. In the explored regime, TIG predicts a systematic contraction of the photon sphere relative to the Schwarzschild value, corresponding to a reduced black hole shadow radius.
+
+These features suggest that critical horizon transitions may provide observable probes of structurally constrained modifications of gravity.
 
 \clearpage
 
@@ -238,389 +321,3 @@ We have demonstrated that quadratic $f(R)$ gravity admits a structurally control
 \bibliography{references}
 
 \end{document}
-
-
-![TIG vs Schwarzschild](papers/tig_schwarzschild_horizon_comparison.png)
-
-# Topological Integrity Gravity (TIG)
-## Reading Guide
-
-* Start here: Conceptual overview and key properties below  
-* Core theory: See the LaTeX source in `papers/tig-paper/main.tex`  
-* Visual intuition: Check the `figures/` directory  
-* Extensions and applications: See `applications/`  
-* Architectural context: See `axioma/`  
-
----
-
-## What is this?
-
-This repository contains a minimal, consistent formulation of **Topological Integrity Gravity (TIG)**.
-
-The core result is the existence of a **critical parameter** that separates:
-
-- black hole configurations (with horizons)  
-- compact objects without horizons  
-
----
-
-## �� Quick Links
-
-- �� Main paper (LaTeX): [papers/tig-paper/main.tex](papers/tig-paper/main.tex)  
-- �� Figures: [figures/](figures/)  
-- �� Applications: [applications/](applications/)  
-- �� Axioma: [axioma/](axioma/)  
-- �� Strategy: [strategy/](strategy/)  
-
----
-
-## �� Conceptual Positioning
-
-Topological Integrity Gravity (TIG) is not introduced as a generic extension of General Relativity, but as a structurally constrained theory in which admissible curvature corrections are restricted by consistency conditions.
-
-In contrast to phenomenological f(R) models, TIG exhibits a discrete critical transition between horizon and non-horizon geometries. This indicates a deeper structural organization of gravitational configurations.
-
----
-
-## What TIG is not
-
-* not a generic parameter extension of General Relativity  
-* not a phenomenological curve-fitting model  
-* not based on arbitrary modification of the action  
-
-TIG instead restricts the space of admissible theories by structural consistency requirements.
-
----
-
-## Key Properties
-
-* constrained quadratic f(R) gravity  
-* regularized internal mass profile  
-* cubic horizon equation with analytical structure  
-* critical transition between horizon and non-horizon geometries  
-
-Observable implications include:
-
-* black hole imaging  
-* gravitational lensing effects  
-* gravitational wave signatures  
-
----
-
-## Why this matters
-
-Topological Integrity Gravity (TIG) introduces a structurally constrained extension of General Relativity in which not all curvature corrections are admissible.
-
-The existence of a critical parameter separating horizon and non-horizon configurations suggests that gravitational systems may be organized by deeper consistency conditions rather than continuous deformation alone.
-
----
-
-## Minimal Consistency Statement
-
-In TIG, admissible curvature corrections are not arbitrary but must preserve the structural integrity of horizon formation.
-
-This implies:
-
-* a well-defined root structure of the horizon equation  
-* transitions only via critical points  
-* no continuous deformation without crossing a structural threshold  
-
-As a consequence, not all \( f(R) \)-type extensions are physically admissible.
-
----
-
-## Observable Consequences
-
-The consistency constraints imposed by TIG have direct observational implications:
-
-* characteristic scale separating horizon and non-horizon configurations  
-* modifications to photon sphere structure and shadow profiles  
-* deviations in gravitational wave signals near criticality  
-
-These effects arise from structural constraints, not parameter tuning.
-
----
-
-## First Concrete Prediction
-
-Near the critical regime:
-
-* enhanced sensitivity of photon sphere structure  
-* non-linear shifts in shadow radius  
-* amplified deviations in gravitational wave signatures  
-
----
-
-## Scaling Behavior Near Criticality
-
-Let \( \beta \) denote the control parameter and \( \beta_c \) the critical value.
-
-Near criticality:
-
-\[
-\Delta \mathcal{O} \sim |\beta - \beta_c|^\alpha
-\]
-
-with a non-trivial exponent \( \alpha \neq 1 \).
-
-This implies:
-
-* enhanced sensitivity near \( \beta_c \)  
-* deviation from linear response  
-* potential universality  
-
----
-
-## Comparison with General Relativity
-
-In General Relativity:
-
-\[
-\Delta \mathcal{O}_{GR} \sim |\beta - \beta_c|
-\]
-
-In TIG:
-
-\[
-\Delta \mathcal{O}_{TIG} \sim |\beta - \beta_c|^\alpha
-\]
-
-This difference provides a direct observational discriminator.
-
-\section{Photon Sphere Structure and Observable Deviation}
-
-A central consequence of the TIG framework is the modification of null geodesic structure near compact objects. In particular, the location of the photon sphere provides a direct probe of the underlying gravitational geometry.
-
-The photon sphere is determined by the standard condition for unstable circular null geodesics:
-\begin{equation}
-r F'(r) - 2F(r) = 0.
-\end{equation}
-
-Within the TIG framework, the metric function takes the form
-\begin{equation}
-F(r) = 1 - \frac{2M r^2}{r^3 + r_c^3},
-\end{equation}
-which introduces a characteristic scale $r_c$ governing deviations from classical General Relativity.
-
-In the limit $r_c \to 0$, the model smoothly reduces to the Schwarzschild solution with
-\begin{equation}
-r_{\mathrm{ph}}^{\mathrm{GR}} = 3M,
-\end{equation}
-ensuring consistency with established gravitational theory.
-
-We define the relative deviation from the Schwarzschild photon sphere as
-\begin{equation}
-\Delta(r_c) = \frac{r_{\mathrm{ph}}^{\mathrm{TIG}} - 3M}{3M}.
-\end{equation}
-
-Numerical solutions reveal a clear and systematic deviation from the classical result. While the deviation remains negligible for small $r_c$, it grows non-linearly as the characteristic scale increases, reaching values of approximately $-4%$ in the explored regime.
-
-This shift implies a measurable contraction of the photon sphere and, consequently, a reduced black hole shadow radius relative to General Relativity.
-
-Although current observational precision does not yet resolve deviations at this level, the predicted effect defines a concrete and testable target for future high-resolution observations.
-The numerical behavior is illustrated in Fig.~1.
-
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.7\textwidth]{tig_photon_sphere_deviation.png}
-\caption{Relative deviation of the photon sphere radius in TIG compared to General Relativity.}
-\end{figure}
----
-The numerical behavior is illustrated in Fig.~1.
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.7\textwidth]{tig_photon_sphere_deviation.png}
-\caption{Relative deviation of the photon sphere radius in TIG compared to General Relativity.}
-\label{fig:photon_sphere}
-\end{figure}
-
-![TIG vs Schwarzschild](papers/tig_schwarzschild_horizon_comparison.png)
-
-\section{Photon Sphere Structure and Observable Deviation}
-
-A central consequence of the TIG framework is the modification of null geodesic structure near compact objects. In particular, the location of the photon sphere provides a direct probe of the underlying gravitational geometry.
-
-The photon sphere is determined by the standard condition for unstable circular null geodesics:
-\begin{equation}
-r F'(r) - 2F(r) = 0.
-\end{equation}
-
-Within the TIG framework, the metric function takes the form
-\begin{equation}
-F(r) = 1 - \frac{2M r^2}{r^3 + r_c^3},
-\end{equation}
-which introduces a characteristic scale $r_c$ governing deviations from classical General Relativity.
-
-In the limit $r_c \to 0$, the model smoothly reduces to the Schwarzschild solution with
-\begin{equation}
-r_{\mathrm{ph}}^{\mathrm{GR}} = 3M,
-\end{equation}
-ensuring consistency with established gravitational theory.
-
-We define the relative deviation from the Schwarzschild photon sphere as
-\begin{equation}
-\Delta(r_c) = \frac{r_{\mathrm{ph}}^{\mathrm{TIG}} - 3M}{3M}.
-\end{equation}
-
-Numerical solutions reveal a clear and systematic deviation from the classical result. While the deviation remains negligible for small $r_c$, it grows non-linearly as the characteristic scale increases, reaching values of approximately $-4%$ in the explored regime.
-
-This shift implies a measurable contraction of the photon sphere and, consequently, a reduced black hole shadow radius relative to General Relativity.
-
-Although current observational precision does not yet resolve deviations at this level, the predicted effect defines a concrete and testable target for future high-resolution observations.
-
----
-
-## Numerical Illustration
-
-The repository includes numerical illustrations of:
-
-- horizon radius dependence  
-- saddle-node transition structure  
-- echo-delay enhancement  
-
-Relevant figures:
-
-- `tig_horizon_transition_publication.png`  
-- `tig_echo_delay_prediction.png`  
-
----
-
-## �� Repository Structure
-
-- `applications/` — applications  
-- `axioma/` — architecture  
-- `figures/` — visualizations  
-- `papers/` — scientific content  
-- `strategy/` — publication strategy  
-
----
-
-## Open Question
-
-What is the exact scaling exponent \( \alpha \) and does it exhibit universality?
-
-\appendix
-
-\section{Robustness of the Bifurcation Structure}
-
-\subsection{Generalized Mass Profiles}
-
-To assess the robustness of the bifurcation structure, we consider a generalized class of regular mass profiles of the form
-\begin{equation}
-m(r) = M \frac{r^n}{r^n + r_c^n}, \quad n \geq 3.
-\end{equation}
-
-This class satisfies the generic conditions expected for regular black hole solutions:
-\begin{itemize}
-\item $m(r) \to M$ as $r \to \infty$,
-\item $m(r) \sim r^n$ as $r \to 0$.
-\end{itemize}
-
-The corresponding metric function is
-\begin{equation}
-F(r) = 1 - \frac{2M}{r} \frac{r^n}{r^n + r_c^n}.
-\end{equation}
-
-\subsection{Horizon Equation}
-
-Horizons are defined by
-\begin{equation}
-F(r_H) = 0,
-\end{equation}
-which yields
-\begin{equation}
-r_H^n - 2M r_H^{n-1} + r_c^n = 0.
-\end{equation}
-
-Introducing dimensionless variables
-\begin{equation}
-x = \frac{r_H}{2M}, \quad \beta = \frac{r_c}{2M},
-\end{equation}
-we obtain
-\begin{equation}
-x^n - x^{n-1} + \beta^n = 0.
-\end{equation}
-
-\subsection{Criticality Condition}
-
-A critical point occurs when two roots merge. This requires:
-\begin{equation}
-F(r_c) = 0, \quad F'(r_c) = 0.
-\end{equation}
-
-Equivalently, in dimensionless form:
-\begin{equation}
-f(x) = 0, \quad f'(x) = 0.
-\end{equation}
-
-This condition implies the existence of a **double root**, independently of the specific value of $n$.
-
-\subsection{Universality of the Local Structure}
-
-Near criticality, any smooth function $F(r)$ with a double root admits a Taylor expansion:
-\begin{equation}
-F(r) \approx a (r - r_c)^2 + \epsilon,
-\end{equation}
-where
-\begin{equation}
-\epsilon \sim (\beta_c - \beta).
-\end{equation}
-
-This local quadratic form is independent of the global structure of $F(r)$ and depends only on the degeneracy condition.
-
-\subsection{Universal Scaling}
-
-The echo delay is given by
-\begin{equation}
-\Delta t_{\text{echo}} \sim \int \frac{dr}{F(r)}.
-\end{equation}
-
-Using the quadratic approximation, we obtain
-\begin{equation}
-\Delta t_{\text{echo}} \sim (\beta_c - \beta)^{-1/2}.
-\end{equation}
-
-This scaling is therefore **universal** and independent of:
-\begin{itemize}
-\item the exponent $n$,
-\item the detailed functional form of $m(r)$,
-\item the global geometry.
-\end{itemize}
-
-\subsection{Conclusion of the Appendix}
-
-The existence of a bifurcation, its classification as a saddle-node transition, and the associated critical scaling behavior follow solely from:
-\begin{itemize}
-\item the presence of a regularization scale $r_c$,
-\item the existence of a double root in the horizon equation.
-\end{itemize}
-
-These features are therefore structurally stable and do not depend on the specific effective ansatz used in the main text.
-
----
-
-## �� Status
-
-- model defined  
-- analytical structure derived  
-- numerical illustrations available  
-- stability analysis in progress  
-
----
-
-## ⚠️ Scope
-
-Not yet included:
-
-- full dynamical stability analysis  
-- cosmological solutions  
-- quantum formulation  
-
----
-
-## �� Author
-
-Kai Stefan Dietrich  
-Independent Research
