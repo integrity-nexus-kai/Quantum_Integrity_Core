@@ -422,6 +422,104 @@ Relevant figures:
 
 What is the exact scaling exponent \( \alpha \) and does it exhibit universality?
 
+\appendix
+
+\section{Robustness of the Bifurcation Structure}
+
+\subsection{Generalized Mass Profiles}
+
+To assess the robustness of the bifurcation structure, we consider a generalized class of regular mass profiles of the form
+\begin{equation}
+m(r) = M \frac{r^n}{r^n + r_c^n}, \quad n \geq 3.
+\end{equation}
+
+This class satisfies the generic conditions expected for regular black hole solutions:
+\begin{itemize}
+\item $m(r) \to M$ as $r \to \infty$,
+\item $m(r) \sim r^n$ as $r \to 0$.
+\end{itemize}
+
+The corresponding metric function is
+\begin{equation}
+F(r) = 1 - \frac{2M}{r} \frac{r^n}{r^n + r_c^n}.
+\end{equation}
+
+\subsection{Horizon Equation}
+
+Horizons are defined by
+\begin{equation}
+F(r_H) = 0,
+\end{equation}
+which yields
+\begin{equation}
+r_H^n - 2M r_H^{n-1} + r_c^n = 0.
+\end{equation}
+
+Introducing dimensionless variables
+\begin{equation}
+x = \frac{r_H}{2M}, \quad \beta = \frac{r_c}{2M},
+\end{equation}
+we obtain
+\begin{equation}
+x^n - x^{n-1} + \beta^n = 0.
+\end{equation}
+
+\subsection{Criticality Condition}
+
+A critical point occurs when two roots merge. This requires:
+\begin{equation}
+F(r_c) = 0, \quad F'(r_c) = 0.
+\end{equation}
+
+Equivalently, in dimensionless form:
+\begin{equation}
+f(x) = 0, \quad f'(x) = 0.
+\end{equation}
+
+This condition implies the existence of a **double root**, independently of the specific value of $n$.
+
+\subsection{Universality of the Local Structure}
+
+Near criticality, any smooth function $F(r)$ with a double root admits a Taylor expansion:
+\begin{equation}
+F(r) \approx a (r - r_c)^2 + \epsilon,
+\end{equation}
+where
+\begin{equation}
+\epsilon \sim (\beta_c - \beta).
+\end{equation}
+
+This local quadratic form is independent of the global structure of $F(r)$ and depends only on the degeneracy condition.
+
+\subsection{Universal Scaling}
+
+The echo delay is given by
+\begin{equation}
+\Delta t_{\text{echo}} \sim \int \frac{dr}{F(r)}.
+\end{equation}
+
+Using the quadratic approximation, we obtain
+\begin{equation}
+\Delta t_{\text{echo}} \sim (\beta_c - \beta)^{-1/2}.
+\end{equation}
+
+This scaling is therefore **universal** and independent of:
+\begin{itemize}
+\item the exponent $n$,
+\item the detailed functional form of $m(r)$,
+\item the global geometry.
+\end{itemize}
+
+\subsection{Conclusion of the Appendix}
+
+The existence of a bifurcation, its classification as a saddle-node transition, and the associated critical scaling behavior follow solely from:
+\begin{itemize}
+\item the presence of a regularization scale $r_c$,
+\item the existence of a double root in the horizon equation.
+\end{itemize}
+
+These features are therefore structurally stable and do not depend on the specific effective ansatz used in the main text.
+
 ---
 
 ## �� Status
