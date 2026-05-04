@@ -1,3 +1,18 @@
+# Topological Integrity Gravity (TIG)
+
+**Paper (PDF):**
+👉 [Download TIG Paper](./papers/tig-paper/TIG_Paper.pdf)
+
+---
+
+This repository contains the initial formulation of **Topological Integrity Gravity (TIG)**,
+a structurally constrained extension of General Relativity.
+
+The central result is a **critical transition governing horizon formation**,
+emerging from consistency constraints rather than phenomenological modification.
+
+---
+
 ![TIG vs Schwarzschild](papers/tig_schwarzschild_horizon_comparison.png)
 
 # Topological Integrity Gravity (TIG)
