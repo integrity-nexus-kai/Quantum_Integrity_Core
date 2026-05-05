@@ -32,11 +32,12 @@
 \sloppy
 
 % ------------------------------------------------------------
-% Links, graphics, lists
+% Links, graphics, lists, citations
 % ------------------------------------------------------------
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{enumitem}
+\usepackage{cite}
 
 % ------------------------------------------------------------
 % Header and footer
@@ -57,8 +58,12 @@
 % Metadata
 % ------------------------------------------------------------
 \title{Topological Integrity Gravity: A Structural Horizon Transition}
-\author{Kai Stefan Dietrich}
-\date{Version 1.0}
+\author{
+Kai Stefan Dietrich\\
+Independent Researcher\\
+\texttt{kai.physics@protonmail.ch}
+}
+\date{Version 1.1}
 
 \begin{document}
 
@@ -79,8 +84,9 @@ characterized by the coalescence of roots in the associated cubic equation. We
 derive the critical parameter, analyze the root structure, and discuss the
 interpretation of the transition as a structural threshold rather than a
 continuous perturbative deformation. The control parameter is interpreted as a
-structural degree of freedom in the space of admissible solutions, not as an
-additional physical spatial dimension.
+structural degree of freedom in the space of admissible solutions. For clarity,
+we denote the associated structural coordinate by \(X_4\). This coordinate does
+not represent an additional physical spatial dimension.
 \end{abstract}
 
 \tableofcontents
@@ -89,17 +95,21 @@ additional physical spatial dimension.
 
 General Relativity provides the most successful classical description of
 gravitation. Its geometric formulation identifies gravitational interaction with
-the curvature of spacetime and has passed a wide range of observational tests.
-Nevertheless, the appearance of singularities and the structure of horizon
-formation indicate that the classical theory may not fully encode all structural
-constraints relevant at extreme curvature scales.
+the curvature of spacetime and has passed a wide range of observational tests
+since Einstein's formulation of the gravitational field equations
+\cite{einstein1915,wald1984,carroll2004}. Nevertheless, the appearance of
+singularities and the structure of horizon formation indicate that the classical
+theory may not fully encode all structural constraints relevant at extreme
+curvature scales.
 
 A common strategy is to modify the gravitational action by adding curvature
 corrections. Such models are often written as extensions of the Einstein-Hilbert
-action through a generalized function \(f(R)\) of the Ricci scalar. However,
-this procedure may introduce an overly large space of possible theories. If
-curvature corrections are chosen freely, the resulting model space becomes
-phenomenological rather than structurally constrained.
+action through a generalized function \(f(R)\) of the Ricci scalar. These
+approaches form a broad and well-studied class of modified gravitational
+theories \cite{sotiriou2010,nojiri2011,faraoni2010}. However, this procedure may
+introduce an overly large space of possible theories. If curvature corrections
+are chosen freely, the resulting model space becomes phenomenological rather
+than structurally constrained.
 
 The purpose of this work is to formulate a minimal alternative viewpoint. We
 assume that admissible curvature corrections are restricted by consistency
@@ -125,13 +135,17 @@ critical value, no positive horizon root remains.
 The transition is not introduced by hand. It follows from the algebraic
 structure of the reduced horizon equation. The resulting critical point is
 therefore interpreted as a structural boundary between horizon and non-horizon
-configurations.
+configurations. The associated root coalescence is structurally analogous to
+fold-type criticality and saddle-node bifurcations known from catastrophe theory
+\cite{arnold1992}.
 
 A central interpretive point is that the parameter \(\beta\) should not be
 understood as an additional physical spatial dimension. Rather, it defines an
 additional structural degree of freedom in the space of admissible solutions.
-It organizes the solution space and governs transitions between qualitatively
-distinct configurations.
+We denote the corresponding structural coordinate by \(X_4\). This notation is
+introduced only to name the organization direction in solution space; it is not
+a reference to an additional spacetime dimension or to an external higher-
+dimensional physical theory.
 
 \section{Geometric and Physical Setup}
 
@@ -150,7 +164,9 @@ the radial coordinate
 r_s = \frac{2GM}{c^2},
 \label{eq:schwarzschild_radius}
 \end{equation}
-where \(M\) is the mass of the central object.
+where \(M\) is the mass of the central object \cite{schwarzschild1916}. The
+Schwarzschild geometry remains the canonical reference solution for static black
+holes in General Relativity \cite{wald1984,chandrasekhar1983}.
 
 The horizon condition can be expressed through the vanishing of the lapse
 function,
@@ -189,18 +205,18 @@ requirement imposes a normalization condition on any admissible horizon
 equation: the dimensionless equation must admit \(x=1\) as the physical root
 when \(\beta=0\).
 
-\begin{definition}[Structural solution coordinate]
+\begin{definition}[Structural solution coordinate \(X_4\)]
 The parameter \(\beta\) defines a structural coordinate on the family of
-admissible horizon equations. It does not represent an additional physical
-spatial direction. Instead, it parametrizes how the admissible solutions are
-organized relative to the Schwarzschild limit.
+admissible horizon equations. We denote this coordinate by \(X_4\). It does not
+represent an additional physical spatial direction. Instead, \(X_4\) parametrizes
+how admissible solutions are organized relative to the Schwarzschild limit.
 \end{definition}
 
 \begin{remark}
-This distinction is essential. TIG does not assume an extra spatial dimension.
-It extends the classification space of solutions by introducing a structural
-degree of freedom that controls the transition between different horizon
-regimes.
+The notation \(X_4\) is used to name a coordinate in solution space, not in
+spacetime. TIG does not assume an extra spatial dimension. It extends the
+classification space of solutions by introducing a structural degree of freedom
+that controls the transition between different horizon regimes.
 \end{remark}
 
 \section{Structural Consistency Principle}
@@ -237,8 +253,12 @@ normal form is therefore the minimal algebraic structure capable of encoding:
 \item the Schwarzschild root at \(x=1\);
 \item a degenerate zero-radius sector;
 \item a finite correction scale;
-\item a structural control direction in solution space.
+\item a structural control direction in solution space, denoted by \(X_4\).
 \end{enumerate}
+
+This point is closely related to the normal-form viewpoint in local bifurcation
+analysis, where qualitative changes of solution structure are captured by
+minimal polynomial models \cite{arnold1992}.
 
 \section{Derivation of the Cubic Normal Form}
 
@@ -282,11 +302,11 @@ equation. It is a reduced algebraic normal form for the horizon condition under
 the structural consistency assumptions stated above.
 \end{remark}
 
-The role of \(\beta\) is therefore twofold. Algebraically, it unfolds the
-degenerate root structure of \(P_0(x)\). Conceptually, it labels a direction in
-solution space along which the horizon structure changes. In this sense,
-\(\beta\) plays the role of an effective structural coordinate, not an added
-spatial coordinate.
+The role of \(\beta\), or equivalently \(X_4\), is therefore twofold.
+Algebraically, it unfolds the degenerate root structure of \(P_0(x)\).
+Conceptually, it labels a direction in solution space along which the horizon
+structure changes. In this sense, \(X_4\) plays the role of an effective
+structural coordinate, not an added spatial coordinate.
 
 \section{Root Structure and Criticality}
 
@@ -449,8 +469,8 @@ For positive \(\beta\), the critical transition occurs at
 
 The discriminant therefore provides an invariant algebraic diagnostic of the
 structural transition. It does not depend on a coordinate interpretation of
-\(\beta\) as a spatial direction. Instead, \(\beta\) controls the unfolding of
-the polynomial family within the solution space.
+\(\beta\) as a spatial direction. Instead, \(\beta\), or \(X_4\), controls the
+unfolding of the polynomial family within the solution space.
 
 \section{Physical Interpretation}
 
@@ -481,7 +501,7 @@ The transition is not interpreted as a smooth perturbation of the Schwarzschild
 radius. Instead, it represents a qualitative change in the root structure of the
 horizon equation.
 
-The additional structural degree of freedom associated with \(\beta\) should be
+The additional structural degree of freedom associated with \(X_4\) should be
 understood as a coordinate on the family of admissible configurations. It does
 not enlarge physical space. Rather, it enlarges the classification space in
 which different gravitational configurations are organized and compared.
@@ -511,6 +531,10 @@ The classical horizon appears as the limiting member of a family of structurally
 constrained configurations. In this setting, General Relativity corresponds to a
 boundary point of the structural solution family rather than to an arbitrary
 member of a phenomenological parameter space.
+
+From this perspective, \(X_4\) is not a correction to spacetime geometry itself.
+It is the coordinate that labels movement through the family of admissible
+horizon configurations.
 
 \section{Scaling Near Criticality}
 
@@ -574,14 +598,15 @@ Therefore,
 \label{eq:sqrt_scaling}
 \end{equation}
 
-This square-root scaling is characteristic of saddle-node type criticality.
-Observable quantities depending on the horizon root may therefore exhibit
-nonlinear scaling near the transition.
+This square-root scaling is characteristic of saddle-node type criticality
+\cite{arnold1992}. Observable quantities depending on the horizon root may
+therefore exhibit nonlinear scaling near the transition.
 
 From the solution-space perspective, the square-root scaling expresses the
 local geometry of the branch structure near the critical point. The transition
 is therefore not merely a shift in radius, but a change in the topology of the
-admissible solution branches.
+admissible solution branches. The coordinate \(X_4\) labels the structural
+direction along which this branch transition is traversed.
 
 \section{Observable Implications}
 
@@ -594,6 +619,12 @@ Possible implications include:
 \item changes in near-horizon lensing behavior;
 \item modified ringdown or echo-like structures near criticality.
 \end{itemize}
+
+The observational study of compact objects and black hole candidates increasingly
+relies on horizon-scale probes, including black hole imaging, strong lensing,
+and gravitational-wave measurements. TIG should therefore be understood as a
+structural framework whose observational consequences must ultimately be tested
+against these horizon-scale channels \cite{thorne1994,chandrasekhar1983}.
 
 At the present stage, these implications should be regarded as structural
 predictions rather than fully developed observational forecasts. A complete
@@ -616,8 +647,8 @@ The present work should therefore be read as the foundational normal-form
 analysis of the TIG horizon transition, not as a complete gravitational theory.
 
 A further limitation concerns the interpretation of additional structural
-coordinates. The present framework introduces \(\beta\) only as a parameter in
-solution space. No claim is made that \(\beta\) corresponds to an additional
+coordinates. The present framework introduces \(X_4\) only as a coordinate in
+solution space. No claim is made that \(X_4\) corresponds to an additional
 physical spacetime dimension.
 
 \section{Conclusion}
@@ -642,10 +673,10 @@ The resulting structure separates horizon and non-horizon configurations and
 suggests that gravitational systems may be constrained by algebraic consistency
 conditions beyond ordinary phenomenological deformation.
 
-The control parameter \(\beta\) should be understood as a structural coordinate
-in the space of admissible solutions. It organizes the transition between
-qualitatively distinct gravitational regimes without requiring the introduction
-of an additional physical spatial dimension.
+The coordinate \(X_4\) should be understood as a structural coordinate in the
+space of admissible solutions. It organizes the transition between qualitatively
+distinct gravitational regimes without requiring the introduction of an
+additional physical spatial dimension.
 
 Future work will focus on deriving the full field equations, analyzing dynamical
 stability, and extracting observational signatures.
@@ -681,12 +712,12 @@ Springer (2010).
 
 \bibitem{sotiriou2010}
 T. P. Sotiriou and V. Faraoni,
-\textit{f(R) theories of gravity},
+\textit{\(f(R)\) theories of gravity},
 Reviews of Modern Physics 82, 451--497 (2010).
 
 \bibitem{nojiri2011}
 S. Nojiri and S. D. Odintsov,
-\textit{Unified cosmic history in modified gravity: from F(R) theory to Lorentz non-invariant models},
+\textit{Unified cosmic history in modified gravity: from \(F(R)\) theory to Lorentz non-invariant models},
 Physics Reports 505, 59--144 (2011).
 
 \bibitem{thorne1994}
