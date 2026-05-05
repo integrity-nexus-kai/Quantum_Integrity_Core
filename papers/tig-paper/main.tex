@@ -1,373 +1,94 @@
-\documentclass[preprint,amsmath,amssymb,aps,prd]{revtex4-2}
-
-\usepackage{graphicx}
-\usepackage{hyperref}
-\usepackage{float}
-\usepackage{microtype}
-\usepackage{listings}
-
-\lstset{
-basicstyle=\ttfamily\small,
-breaklines=true,
-frame=single,
-language=Python
-}
-
-\newcommand{\safeincludegraphics}[2][]{%
-\IfFileExists{#2}{\includegraphics[#1]{#2}}%
-{\fbox{\parbox{0.8\linewidth}{\centering Missing figure: #2}}}%
-}
-
-\begin{document}
-
-\title{Topological Integrity Gravity (TIG):\\
-A Structural Constraint on Horizon Formation in Quadratic $f(R)$ Gravity}
-
-\author{Kai Stefan Dietrich}
-\email{exionkai@proton.me}
-\affiliation{Independent Researcher}
-
-\date{\today}
-
-\begin{abstract}
-We formulate Topological Integrity Gravity (TIG) as a structural constraint on horizon formation. 
-Instead of modifying the gravitational field equations directly, TIG restricts the admissible form 
-of horizon conditions. In the static, spherically symmetric sector, this condition reduces to a 
-cubic normal form exhibiting a saddle-node bifurcation. This introduces a critical parameter 
-separating horizon-bearing and horizonless geometries. The Schwarzschild solution is recovered 
-in the limit of vanishing correction scale. We analyze the resulting critical structure, derive 
-universal near-critical scaling, and discuss observational implications.
-\end{abstract}
-
-\maketitle
-
 %=====================================================
-\section{Introduction}
+\section{Derivation of the Cubic Normal Form}
 %=====================================================
 
-General Relativity (GR) successfully describes gravitational phenomena across a wide range 
-of scales \cite{einstein1915,wald1984}. However, when extending GR or considering 
-regularized geometries, the structure of horizons is no longer uniquely fixed.
+The TIG horizon condition is constructed as the lowest-order algebraic normal form
+capable of describing a transition between horizon-bearing and horizonless
+configurations while preserving the Schwarzschild limit.
 
-Modified gravity theories such as $f(R)$ gravity introduce higher-curvature corrections 
-\cite{sotiriou2010,defelice2010}. At the same time, regular black hole models demonstrate 
-that singularities can be removed while maintaining horizon-like structures 
-\cite{bardeen1968,hayward2006}.
-
-These developments motivate the idea that horizon formation may be governed by a structural 
-consistency condition rather than purely by dynamical equations.
-
-%=====================================================
-\section{Structural Horizon Equation}
-%=====================================================
-
-We introduce the dimensionless equation
-
+Let
 \begin{equation}
-x^3 - x^2 + \beta^3 = 0
+x=\frac{r_H}{2M}, \qquad \beta=\frac{r_c}{2M},
+\end{equation}
+where $r_H$ is a candidate horizon radius, $M$ is the mass scale, and $r_c$ is a
+correction scale. We seek a dimensionless algebraic horizon condition of the form
+\begin{equation}
+P(x,\beta)=0.
+\end{equation}
+
+The Schwarzschild limit requires that, for vanishing correction scale,
+\begin{equation}
+\beta \rightarrow 0,
+\end{equation}
+the physical horizon is recovered at
+\begin{equation}
+x=1.
+\end{equation}
+Therefore the reduced polynomial must contain the factor
+\begin{equation}
+x-1
+\end{equation}
+in the limit $\beta=0$.
+
+A transition between two horizons and no horizons requires the coalescence of two
+real roots. Algebraically, this is the defining condition of a saddle-node
+bifurcation: at criticality one has
+\begin{equation}
+P(x_c,\beta_c)=0,
+\qquad
+\frac{\partial P}{\partial x}(x_c,\beta_c)=0.
+\end{equation}
+Thus, the minimal polynomial must be able to support a double root at finite
+positive $x_c$.
+
+A quadratic polynomial can produce a double root, but it cannot simultaneously
+encode the Schwarzschild root at $x=1$ in the zero-correction limit together with
+a separate degenerating pair of horizon roots without collapsing the structure
+into a purely discriminant-level deformation. The next minimal possibility is
+therefore a cubic polynomial.
+
+We impose the following minimal requirements:
+
+\begin{enumerate}
+\item the polynomial is dimensionless;
+\item the Schwarzschild horizon is recovered as $x=1$ when $\beta=0$;
+\item the correction enters through the scale ratio $\beta$ only;
+\item the polynomial admits a saddle-node degeneracy at finite $x>0$.
+\end{enumerate}
+
+The simplest cubic satisfying these requirements is
+\begin{equation}
+P(x,\beta)=x^3-x^2+\beta^3.
+\label{eq:cubic_normal_form_derivation}
+\end{equation}
+
+Indeed, when $\beta=0$,
+\begin{equation}
+P(x,0)=x^3-x^2=x^2(x-1),
+\end{equation}
+so that the nonzero physical root is exactly
+\begin{equation}
+x=1.
+\end{equation}
+
+The double factor $x^2$ at the origin is not interpreted as a physical horizon.
+Rather, it encodes the degenerate zero-radius sector that unfolds when the
+correction scale becomes finite.
+
+The power $\beta^3$ is fixed by dimensional consistency with the cubic polynomial
+in $x$. Since both $x$ and $\beta$ are dimensionless ratios of length scales, the
+lowest correction compatible with the cubic structure is proportional to
+\begin{equation}
+\beta^3.
+\end{equation}
+
+Thus, the TIG structural horizon equation is
+\begin{equation}
+x^3-x^2+\beta^3=0.
 \label{eq:tig}
 \end{equation}
 
-with
-
-\begin{equation}
-x=\frac{r_H}{2M}, \qquad \beta=\frac{r_c}{2M}.
-\end{equation}
-
-Equation \eqref{eq:tig} represents the minimal algebraic structure capable of describing 
-a transition in the number of real solutions. It corresponds to the normal form of a 
-saddle-node bifurcation.
-
-%=====================================================
-\section{Effective Geometry}
-%=====================================================
-
-A minimal realization is given by
-
-\begin{equation}
-F(r)=1-\frac{2Mr^2}{r^3+r_c^3}.
-\end{equation}
-
-This interpolates between Schwarzschild behavior and a regular core. The horizon condition 
-$F(r_H)=0$ reduces exactly to Eq.~\eqref{eq:tig}.
-
-%=====================================================
-\section{Critical Structure}
-%=====================================================
-
-The discriminant is
-
-\begin{equation}
-\Delta=\beta^3(4-27\beta^3).
-\end{equation}
-
-Criticality occurs at
-
-\begin{equation}
-\beta_c=\left(\frac{4}{27}\right)^{1/3}, \quad x_c=\frac{2}{3}.
-\end{equation}
-
-\begin{figure}[H]
-\centering
-\safeincludegraphics[width=0.8\linewidth]{tig_horizon_transition_publication.png}
-\caption{Horizon bifurcation.}
-\end{figure}
-
-%=====================================================
-\section{Near-Critical Scaling}
-%=====================================================
-
-Expanding around the critical point yields
-
-\begin{equation}
-\delta x \sim (\beta_c-\beta)^{1/2}.
-\end{equation}
-
-This scaling is universal for saddle-node bifurcations.
-
-%=====================================================
-\section{Photon Sphere}
-%=====================================================
-
-\begin{equation}
-rF'(r)-2F(r)=0.
-\end{equation}
-
-\begin{equation}
-\Delta_{\mathrm{ph}} \sim -\frac{16}{27}\beta^3.
-\end{equation}
-
-\begin{figure}[H]
-\centering
-\safeincludegraphics[width=0.7\linewidth]{tig_photon_sphere_deviation.png}
-\caption{Photon sphere deviation.}
-\end{figure}
-
-%=====================================================
-\section{Echo Physics}
-%=====================================================
-
-\begin{equation}
-\Delta t \sim \int \frac{dr}{F(r)}.
-\end{equation}
-
-Near criticality:
-
-\begin{equation}
-\Delta t \sim (\beta_c-\beta)^{-1/2}.
-\end{equation}
-
-\begin{figure}[H]
-\centering
-\safeincludegraphics[width=0.7\linewidth]{tig_echo_delay_prediction.png}
-\caption{Echo delay scaling.}
-\end{figure}
-
-%=====================================================
-\section{Observational Interface}
-%=====================================================
-
-The leading-order shadow deviation is
-
-\begin{equation}
-\frac{\delta R}{R} \sim -\frac{16}{27}\beta^3.
-\end{equation}
-
-These effects are small and can be degenerate with astrophysical parameters, 
-requiring combined observational constraints.
-
-%=====================================================
-\section{Conclusion}
-%=====================================================
-
-TIG provides a minimal structural constraint on horizon formation leading to 
-critical behavior and universal scaling laws.
-
-%=====================================================
-\\appendix
-
-\section{Illustrative MCMC Inference Pipeline}
-\label{app:mcmc}
-
-The following minimal inference pipeline illustrates how the TIG control parameter
-$\beta$ may be constrained from shadow-size measurements. It is intended as a
-reproducibility example and not as a substitute for a full astrophysical analysis.
-
-\begin{lstlisting}
-import numpy as np
-import emcee
-import matplotlib.pyplot as plt
-
-beta_c = (4.0 / 27.0)**(1.0 / 3.0)
-
-def delta_shadow(beta):
-    return -(16.0 / 27.0) * beta**3
-
-def theta_tig(theta_gr, beta):
-    return theta_gr * (1.0 + delta_shadow(beta))
-
-def echo_amplitude(beta, A0=0.05):
-    eps = beta_c - beta
-    if eps <= 0:
-        return np.inf
-    return A0 / np.sqrt(eps)
-
-data_eht = [
-    {"name": "M87*",   "theta_obs": 42.0, "theta_gr": 42.0, "sigma": 3.0},
-    {"name": "Sgr A*", "theta_obs": 51.8, "theta_gr": 51.8, "sigma": 2.3},
-]
-
-def log_prior(beta):
-    if 0.0 <= beta < beta_c:
-        return 0.0
-    return -np.inf
-
-def log_likelihood_eht(beta):
-    logL = 0.0
-    for d in data_eht:
-        model = theta_tig(d["theta_gr"], beta)
-        resid = d["theta_obs"] - model
-        logL += -0.5 * (resid / d["sigma"])**2
-    return logL
-
-def log_likelihood_echo(beta, sigma_A=0.5):
-    A = echo_amplitude(beta)
-    if not np.isfinite(A):
-        return -np.inf
-    return -0.5 * (A / sigma_A)**2
-
-def log_probability(theta):
-    beta = theta[0]
-    lp = log_prior(beta)
-    if not np.isfinite(lp):
-        return -np.inf
-    return lp + log_likelihood_eht(beta) + log_likelihood_echo(beta)
-
-ndim = 1
-nwalkers = 32
-nsteps = 5000
-burnin = 1000
-
-rng = np.random.default_rng(42)
-initial = rng.uniform(0.001, 0.3, size=(nwalkers, ndim))
-
-sampler = emcee.EnsembleSampler(nwalkers, ndim, log_probability)
-sampler.run_mcmc(initial, nsteps, progress=True)
-
-samples = sampler.get_chain(discard=burnin, flat=True)
-beta_samples = samples[:, 0]
-
-print("beta_c =", beta_c)
-print("median beta =", np.median(beta_samples))
-print("68 percent interval =", np.percentile(beta_samples, [16, 84]))
-print("95 percent upper bound =", np.percentile(beta_samples, 95))
-
-plt.hist(beta_samples, bins=50, density=True)
-plt.xlabel("beta")
-plt.ylabel("posterior density")
-plt.tight_layout()
-plt.savefig("tig_beta_posterior.png", dpi=200)
-\end{lstlisting}
-
-The numerical values used above are illustrative benchmark inputs. A full
-observational analysis would require image-domain modeling, marginalization over
-spin, inclination, plasma structure, accretion morphology, and gravitational-wave
-systematics.
-
-\begin{thebibliography}{99}
-
-\bibitem{einstein1915}
-A. Einstein,
-``Die Feldgleichungen der Gravitation,''
-Sitzungsberichte der K{\"o}niglich Preu{\ss}ischen Akademie der Wissenschaften,
-844--847 (1915).
-
-\bibitem{wald1984}
-R. M. Wald,
-\textit{General Relativity},
-University of Chicago Press, Chicago (1984).
-
-\bibitem{sotiriou2010}
-T. P. Sotiriou and V. Faraoni,
-``$f(R)$ theories of gravity,''
-Rev. Mod. Phys. \textbf{82}, 451--497 (2010).
-
-\bibitem{defelice2010}
-A. De Felice and S. Tsujikawa,
-``$f(R)$ theories,''
-Living Rev. Relativity \textbf{13}, 3 (2010).
-
-\bibitem{bardeen1968}
-J. M. Bardeen,
-``Non-singular general-relativistic gravitational collapse,''
-in \textit{Proceedings of the 5th International Conference on Gravitation and the Theory of Relativity},
-Tbilisi, USSR, pp. 174--181 (1968).
-
-\bibitem{hayward2006}
-S. A. Hayward,
-``Formation and evaporation of regular black holes,''
-Phys. Rev. Lett. \textbf{96}, 031103 (2006).
-
-\bibitem{penrose1965}
-R. Penrose,
-``Gravitational collapse and space-time singularities,''
-Phys. Rev. Lett. \textbf{14}, 57--59 (1965).
-
-\bibitem{bekenstein1973}
-J. D. Bekenstein,
-``Black holes and entropy,''
-Phys. Rev. D \textbf{7}, 2333--2346 (1973).
-
-\bibitem{hawking1975}
-S. W. Hawking,
-``Particle creation by black holes,''
-Commun. Math. Phys. \textbf{43}, 199--220 (1975).
-
-\bibitem{ayonbeato1998}
-E. Ay{\'o}n-Beato and A. Garc{\'i}a,
-``Regular black hole in general relativity coupled to nonlinear electrodynamics,''
-Phys. Rev. Lett. \textbf{80}, 5056--5059 (1998).
-
-\bibitem{bozza2002}
-V. Bozza,
-``Gravitational lensing in the strong field limit,''
-Phys. Rev. D \textbf{66}, 103001 (2002).
-
-\bibitem{cardoso2016}
-V. Cardoso, E. Franzin, and P. Pani,
-``Is the gravitational-wave ringdown a probe of the event horizon?''
-Phys. Rev. Lett. \textbf{116}, 171101 (2016).
-
-\bibitem{abedi2017}
-J. Abedi, H. Dykaar, and N. Afshordi,
-``Echoes from the abyss: tentative evidence for Planck-scale structure at black hole horizons,''
-Phys. Rev. D \textbf{96}, 082004 (2017).
-
-\bibitem{ehtm872019}
-Event Horizon Telescope Collaboration,
-``First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole,''
-Astrophys. J. Lett. \textbf{875}, L1 (2019).
-
-\bibitem{ehtm872021}
-Event Horizon Telescope Collaboration,
-``First M87 Event Horizon Telescope Results. VII. Polarization of the Ring,''
-Astrophys. J. Lett. \textbf{910}, L12 (2021).
-
-\bibitem{ehtsgrA2022}
-Event Horizon Telescope Collaboration,
-``First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way,''
-Astrophys. J. Lett. \textbf{930}, L12 (2022).
-
-\bibitem{ehtm872024}
-Event Horizon Telescope Collaboration,
-``The Persistent Shadow of the Supermassive Black Hole of M87,''
-Astron. Astrophys. \textbf{681}, A79 (2024).
-
-\bibitem{miani2023}
-A. Miani et al.,
-``Constraints on the amplitude of gravitational wave echoes from black hole ringdown using minimal assumptions,''
-Phys. Rev. D \textbf{108}, 064018 (2023).
-
-\end{thebibliography}
-
-\end{document}
+This equation should be understood as a normal form, not as a fundamental field
+equation. It captures the local algebraic structure of horizon creation and
+annihilation in the same way that a saddle-node normal form captures the local
+structure of root coalescence in dynamical systems.
