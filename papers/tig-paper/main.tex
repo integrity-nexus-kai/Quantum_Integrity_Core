@@ -1,7 +1,7 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[11pt,a4paper,twoside]{article}
 
 % ------------------------------------------------------------
-% Encoding and language
+% Encoding and fonts
 % ------------------------------------------------------------
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -14,14 +14,37 @@
 \usepackage{amsthm}
 
 % ------------------------------------------------------------
-% Layout and links
+% Layout and typography
 % ------------------------------------------------------------
 \usepackage{geometry}
+\geometry{
+  a4paper,
+  left=2.5cm,
+  right=2.5cm,
+  top=2.5cm,
+  bottom=3cm
+}
+
+\usepackage{microtype}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+\linespread{1.05}
+\sloppy
+
+% ------------------------------------------------------------
+% Links, graphics, lists
+% ------------------------------------------------------------
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{enumitem}
 
-\geometry{margin=2.5cm}
+% ------------------------------------------------------------
+% Header and footer
+% ------------------------------------------------------------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
 
 % ------------------------------------------------------------
 % Theorem environments
@@ -40,20 +63,22 @@
 \begin{document}
 
 \maketitle
+\thispagestyle{plain}
 
 \begin{abstract}
 We introduce Topological Integrity Gravity (TIG), a structurally constrained
-framework for gravitational horizon formation. The central idea is that admissible
-curvature corrections should not be treated as arbitrary phenomenological
-deformations of General Relativity, but as structures constrained by consistency
-requirements. Within a minimal static and spherically symmetric reduction, these
-conditions lead to a cubic normal form governing horizon formation. The resulting
-horizon equation exhibits a critical transition separating configurations with
-horizons from compact configurations without horizons. This transition is
-controlled by a dimensionless parameter and is characterized by the coalescence
-of roots in the associated cubic equation. We derive the critical parameter,
-analyze the root structure, and discuss the interpretation of the transition as
-a structural threshold rather than a continuous perturbative deformation.
+framework for gravitational horizon formation. The central idea is that
+admissible curvature corrections should not be treated as arbitrary
+phenomenological deformations of General Relativity, but as structures
+constrained by consistency requirements. Within a minimal static and spherically
+symmetric reduction, these conditions lead to a cubic normal form governing
+horizon formation. The resulting horizon equation exhibits a critical transition
+separating configurations with horizons from compact configurations without
+horizons. This transition is controlled by a dimensionless parameter and is
+characterized by the coalescence of roots in the associated cubic equation. We
+derive the critical parameter, analyze the root structure, and discuss the
+interpretation of the transition as a structural threshold rather than a
+continuous perturbative deformation.
 \end{abstract}
 
 \tableofcontents
@@ -61,17 +86,17 @@ a structural threshold rather than a continuous perturbative deformation.
 \section{Introduction}
 
 General Relativity provides the most successful classical description of
-gravitation. Its geometric formulation identifies gravitational interaction
-with the curvature of spacetime and has passed a wide range of observational
-tests. Nevertheless, the appearance of singularities and the structure of
-horizon formation indicate that the classical theory may not fully encode all
-structural constraints relevant at extreme curvature scales.
+gravitation. Its geometric formulation identifies gravitational interaction with
+the curvature of spacetime and has passed a wide range of observational tests.
+Nevertheless, the appearance of singularities and the structure of horizon
+formation indicate that the classical theory may not fully encode all structural
+constraints relevant at extreme curvature scales.
 
 A common strategy is to modify the gravitational action by adding curvature
 corrections. Such models are often written as extensions of the Einstein-Hilbert
-action through a generalized function \(f(R)\) of the Ricci scalar. However, this
-procedure may introduce an overly large space of possible theories. If curvature
-corrections are chosen freely, the resulting model space becomes
+action through a generalized function \(f(R)\) of the Ricci scalar. However,
+this procedure may introduce an overly large space of possible theories. If
+curvature corrections are chosen freely, the resulting model space becomes
 phenomenological rather than structurally constrained.
 
 The purpose of this work is to formulate a minimal alternative viewpoint. We
@@ -95,9 +120,9 @@ dimensionless structural control parameter. This equation exhibits a critical
 transition: for sufficiently small \(\beta\), horizon solutions exist; beyond a
 critical value, no positive horizon root remains.
 
-The transition is not introduced by hand. It follows from the algebraic structure
-of the reduced horizon equation. The resulting critical point is therefore
-interpreted as a structural boundary between horizon and non-horizon
+The transition is not introduced by hand. It follows from the algebraic
+structure of the reduced horizon equation. The resulting critical point is
+therefore interpreted as a structural boundary between horizon and non-horizon
 configurations.
 
 \section{Geometric and Physical Setup}
@@ -152,15 +177,15 @@ Schwarzschild scale.
 \end{definition}
 
 The limit \(\beta=0\) must recover the classical Schwarzschild horizon. This
-requirement imposes a normalization condition on any admissible horizon equation:
-the dimensionless equation must admit \(x=1\) as the physical root when
-\(\beta=0\).
+requirement imposes a normalization condition on any admissible horizon
+equation: the dimensionless equation must admit \(x=1\) as the physical root
+when \(\beta=0\).
 
 \section{Structural Consistency Principle}
 
-The guiding assumption of TIG is that gravitational corrections are not arbitrary
-deformations. Instead, they must preserve the qualitative integrity of the
-horizon formation problem.
+The guiding assumption of TIG is that gravitational corrections are not
+arbitrary deformations. Instead, they must preserve the qualitative integrity of
+the horizon formation problem.
 
 \begin{definition}[Structural horizon consistency]
 A horizon equation is structurally consistent if:
@@ -184,8 +209,8 @@ a pairwise disappearance of roots, but does not naturally encode the
 Schwarzschild root together with a degenerate correction sector. The cubic
 normal form is therefore the minimal algebraic structure capable of encoding:
 \begin{enumerate}[label=(\alph*)]
-\item the Schwarzschild root at \(x=1\),
-\item a degenerate zero-radius sector,
+\item the Schwarzschild root at \(x=1\);
+\item a degenerate zero-radius sector;
 \item a finite correction scale.
 \end{enumerate}
 
@@ -411,9 +436,9 @@ the Schwarzschild value. As \(\beta\) increases, the relevant positive roots
 approach each other. At \(\beta=\beta_c\), the roots coalesce at \(x=2/3\).
 For \(\beta>\beta_c\), the corresponding pair of real roots no longer exists.
 
-This is the structural horizon transition of TIG. It separates a regime in
-which horizon solutions exist from a regime in which compact configurations do
-not possess horizons.
+This is the structural horizon transition of TIG. It separates a regime in which
+horizon solutions exist from a regime in which compact configurations do not
+possess horizons.
 
 The transition is not interpreted as a smooth perturbation of the Schwarzschild
 radius. Instead, it represents a qualitative change in the root structure of the
