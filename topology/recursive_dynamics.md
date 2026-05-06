@@ -1,262 +1,148 @@
-# RECURSIVE DYNAMICS
+# Recursive Dynamics
+
 ## Recursive State Evolution in TIG Topology
 
-Version 0.1  
-Status: Foundational Draft
+Version: Draft 0.1  
+Status: Exploratory Formalization
 
 ---
 
-# 1. PURPOSE
+# PURPOSE
 
-This document defines the preliminary recursive dynamics framework within the Topological Integrity Gravity (TIG) topology system.
+This document introduces the preliminary recursive dynamics framework of the TIG topology extension.
 
-The objective is to describe how:
-
-- admissible states,
-- transition operators,
-- integrity conditions,
-- and topology constraints
-
-interact during recursive geometric evolution.
-
-Recursive dynamics represent the first global evolution layer of TIG topology.
+The objective is to describe how admissible structural states evolve under recursive integrity constraints while preserving topological consistency.
 
 ---
 
-# 2. MOTIVATION
+# CORE IDEA
 
-Previous TIG topology documents define:
+The TIG topology framework assumes that physical configurations evolve through recursively admissible transitions rather than arbitrary geometric motion.
 
-- admissible states,
-- root manifolds,
-- critical surfaces,
-- integrity metrics,
-- and transition operators.
-
-However, these structures remain primarily static unless recursive evolution rules are introduced.
-
-Recursive dynamics are therefore required to define:
-
-> how admissible geometric systems evolve through state space.
+A state is considered physically admissible only if recursive integrity conditions remain satisfied throughout evolution.
 
 ---
 
-# 3. CORE PRINCIPLE
+# RECURSIVE EVOLUTION
 
-Within TIG:
-
-> geometric evolution is interpreted as recursively constrained state traversal.
-
-Evolution does not occur arbitrarily.
-
-Instead, each transition must satisfy:
-
-- admissibility conditions,
-- topology continuity,
-- recursive consistency,
-- and integrity preservation.
-
-Recursive dynamics therefore define constrained structural evolution.
-
----
-
-# 4. BASIC EVOLUTION STRUCTURE
-
-The recursive evolution process may be represented schematically as:
+A recursive state transition may be represented abstractly as:
 
 \[
-S_i
-\rightarrow
-\mathcal{T}
-\rightarrow
-S_j
-\rightarrow
-\mathcal{I}(S_j)
-\rightarrow
-S_{j+1}
+S_{n+1} = \mathcal{R}(S_n)
 \]
 
 where:
 
-- \(S_i\) denotes an initial state,
-- \(\mathcal{T}\) denotes a transition operator,
-- \(\mathcal{I}\) denotes integrity evaluation,
-- and recursive evolution continues only if admissibility is preserved.
+- \(S_n\) denotes the recursive state at iteration \(n\),
+- and \(\mathcal{R}\) denotes a recursive transition operator.
+
+The recursive operator is assumed to preserve admissibility under bounded structural evolution.
 
 ---
 
-# 5. RECURSIVE ADMISSIBILITY
+# ADMISSIBILITY PRESERVATION
 
-At each recursive step:
-
-1. a transition is proposed,
-2. admissibility is evaluated,
-3. integrity stability is checked,
-4. topology continuity is verified,
-5. and forbidden evolution is rejected.
-
-Recursive evolution therefore acts as a continuously constrained process.
-
----
-
-# 6. STABILITY EVOLUTION
-
-Integrity may evolve dynamically during recursive traversal.
-
-Examples include:
-
-| Evolution Type | Behavior |
-|---|---|
-| stable recursion | bounded integrity preservation |
-| critical recursion | integrity weakening |
-| unstable recursion | topology destabilization |
-| forbidden recursion | admissibility collapse |
-
-Recursive dynamics therefore organize structural stability across evolution trajectories.
-
----
-
-# 7. RELATION TO ROOT MANIFOLD
-
-The root manifold defines the continuous geometry of admissible state space.
-
-Recursive dynamics define movement through this manifold.
-
-Thus:
-
-| Structure | Function |
-|---|---|
-| root manifold | geometric continuity |
-| recursive dynamics | admissible evolution |
-
-Recursive traversal therefore generates geometric evolution paths across the manifold.
-
----
-
-# 8. RELATION TO TRANSITION OPERATORS
-
-Transition operators drive recursive evolution.
-
-However, operators remain constrained by:
-
-- admissibility,
-- integrity preservation,
-- and topology continuity.
-
-Operators generating recursive instability become non-admissible.
-
----
-
-# 9. RELATION TO CRITICAL SURFACES
-
-Critical surfaces define regions of transition sensitivity.
-
-Near criticality:
+Recursive evolution is constrained by admissibility conditions:
 
 \[
-\Delta = 0
+\mathcal{I}(S_n) \geq 0
 \]
 
-recursive evolution may experience:
+where:
 
-- branch restructuring,
-- integrity weakening,
-- topology sensitivity,
-- and elevated instability risk.
+- \(\mathcal{I}\) denotes the integrity functional,
+- and admissible evolution requires non-negative recursive integrity.
 
-Critical regions therefore act as recursive stress zones.
+States violating admissibility conditions become structurally unstable.
 
 ---
 
-# 10. RELATION TO X4
+# STRUCTURAL STABILITY
 
-X4 parametrizes directional movement through recursive state space.
+The recursive framework distinguishes between:
 
-Within recursive dynamics:
+- stable recursive states,
+- metastable recursive states,
+- and divergent recursive states.
 
-- states define configurations,
-- operators define transitions,
-- integrity defines stability,
-- and X4 defines traversal direction.
+Stable recursive configurations preserve bounded topology under recursive evolution.
 
-X4 therefore acts as a recursive structural coordinate.
+Divergent states generate recursive instability and may terminate admissibility.
 
 ---
 
-# 11. RECURSIVE INTEGRITY PRESERVATION
+# ATTRACTOR REGIONS
 
-A central TIG principle is:
-
-> recursive evolution must preserve structural integrity.
-
-Admissible recursive evolution therefore satisfies:
+Recursive topology may contain admissible attractor regions:
 
 \[
-\mathcal{I}(S_{n+1}) \approx \mathcal{I}(S_n)
+\mathcal{A} \subseteq \mathcal{M}
 \]
 
-within bounded deviation.
+where:
 
-Unbounded integrity collapse signals forbidden recursion.
+- \(\mathcal{M}\) denotes the recursive manifold,
+- and \(\mathcal{A}\) denotes a bounded attractor subset.
 
----
-
-# 12. RELATION TO SIR
-
-Recursive dynamics provide one of the strongest compatibility regions between TIG topology and Structural Integrity Recursion (SIR).
-
-Within SIR:
-
-- recursive integrity governs stable evolution.
-
-Within TIG:
-
-- recursive dynamics govern topology-preserving geometric evolution.
-
-This suggests that:
-
-> recursive integrity may represent a universal structural evolution principle.
+Recursive evolution may converge toward admissible attractor regions under integrity-preserving dynamics.
 
 ---
 
-# 13. POTENTIAL QUANTUM INTERPRETATION
+# TRANSITION BOUNDARIES
 
-Recursive dynamics may later correspond to:
+The framework assumes the existence of critical recursive boundaries separating:
 
-- bounded quantum evolution,
-- topology-preserving quantum recursion,
-- recursive state stability,
-- or constrained quantum transition paths.
+- admissible evolution,
+- metastable evolution,
+- and structurally forbidden regions.
 
-No complete quantum formalism is proposed at the present stage.
+These transition surfaces may later correspond to generalized critical geometries.
 
 ---
 
-# 14. OPEN PROBLEMS
+# RECURSIVE CONSERVATION
 
-The following elements remain unresolved:
+Recursive evolution is assumed to preserve generalized structural consistency:
+
+\[
+\Delta \mathcal{I}_{\text{total}} \approx 0
+\]
+
+under admissible recursive transitions.
+
+This does not imply exact conservation in the classical sense, but bounded recursive preservation of structural integrity.
+
+---
+
+# RELATION TO TIG PAPER 1
+
+The original TIG framework introduced bounded horizon formation through cubic structural constraints.
+
+The recursive dynamics extension generalizes this concept toward recursive topology evolution and admissible state-space dynamics.
+
+---
+
+# OPEN PROBLEMS
+
+Several unresolved elements remain:
 
 - explicit recursive operators,
-- temporal interpretation,
-- metric coupling,
-- tensor dynamics,
-- quantum correspondence,
-- and observational implications.
+- topology tensor structures,
+- recursive metric definitions,
+- stability eigenvalue analysis,
+- and observational correspondence.
 
-These remain future work.
+The framework currently remains exploratory.
 
 ---
 
-# 15. SUMMARY
+# LONG-TERM DIRECTION
 
-Within TIG topology:
+The long-term objective is the development of a recursive topology formalism capable of describing:
 
-- states define configurations,
-- operators define transitions,
-- admissibility defines structural allowance,
-- integrity defines stability,
-- and recursive dynamics define constrained evolution.
-
-Recursive dynamics therefore represent the first global recursive evolution framework within TIG topology.
+- admissible structural evolution,
+- recursive geometric dynamics,
+- bounded state transitions,
+- and integrity-constrained physical systems.
 
 ---
