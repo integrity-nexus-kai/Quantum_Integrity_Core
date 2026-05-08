@@ -25,6 +25,16 @@ SIR does not replace TIG.
 
 SIR abstracts and governs the recursive and mathematical structures that emerged from TIG and related integrity frameworks.
 
+## Recursive Consolidation Notice
+
+The ongoing separation between TIG and SIR is intentional and designed to preserve publication-grade semantic consistency.
+
+TIG remains the canonical physical admissibility layer.
+
+SIR functions as a controlled mathematical consolidation environment for recursive admissibility structures, operator stabilization, semantic governance, and exploratory abstraction development.
+
+This layered separation prevents uncontrolled theoretical inflation while allowing mathematically governed recursive evolution.
+
 ## Publication Status
 
 The published TIG material should be treated as the foundational TIG reference layer.
