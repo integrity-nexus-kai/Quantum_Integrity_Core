@@ -1,6 +1,7 @@
 # Topological Integrity Gravity (TIG)
 
 **Paper (PDF):**
+
 👉 [Download TIG Paper](./papers/tig-paper/TIG_Paper.pdf)
 
 ---
@@ -32,7 +33,7 @@ This leads to a discrete transition between:
 
 ## ⚙️ Key Properties
 
-* constrained quadratic ( f(R) ) structure
+* constrained quadratic $f(R)$ structure
 * cubic horizon equation
 * regularized internal mass profile
 * critical transition (saddle-node type)
@@ -49,9 +50,9 @@ This leads to a discrete transition between:
 
 ## 📈 Scaling Near Criticality
 
-[
+$$
 \Delta \mathcal{O} \sim |\beta - \beta_c|^\alpha, \quad \alpha \neq 1
-]
+$$
 
 ---
 
@@ -73,26 +74,24 @@ Since the initial publication state of this repository, the framework has underg
 
 This evolution includes:
 
-- recursive admissibility formalization,
-- primitive stabilization,
-- recursive operator structures,
-- admissibility-flow mechanics,
-- semantic governance classification,
-- and cross-layer abstraction development connecting physical, mathematical, and enforcement-oriented integrity architectures.
+- recursive admissibility formalization
+- primitive stabilization
+- recursive operator structures
+- admissibility-flow mechanics
+- semantic governance classification
+- and cross-layer abstraction development connecting physical, mathematical, and enforcement-oriented integrity architectures
 
 To preserve semantic stability, publication consistency, and controlled theoretical evolution, advanced recursive admissibility structures are now being formalized separately within:
 
-## Structural Integrity Recursion (SIR)
-
-https://github.com/integrity-nexus-kai/Structural_Integrity_Recursion
+## [Structural Integrity Recursion (SIR)](https://github.com/integrity-nexus-kai/Structural_Integrity_Recursion)
 
 SIR functions as:
 
-- the mathematical abstraction layer,
-- recursive admissibility framework,
-- primitive stabilization system,
-- recursive consistency architecture,
-- semantic governance layer,
+- the mathematical abstraction layer
+- recursive admissibility framework
+- primitive stabilization system
+- recursive consistency architecture
+- semantic governance layer
 - and formal consolidation environment
 
 for evolving TIG-derived structures.
@@ -103,9 +102,10 @@ SIR does not replace TIG.
 
 Instead, SIR abstracts, governs, stabilizes, and classifies recursive mathematical developments before potential reintegration into canonical TIG physics.
 
-This separation is intentional.
-
+This separation is intentional.  
 It prevents uncontrolled semantic inflation, preserves publication-grade consistency, and allows exploratory mathematical development without destabilizing the canonical physical framework.
+
+---
 
 ## Governance Model
 
@@ -117,9 +117,11 @@ The Integrity Nexus architecture is currently organized into layered domains:
 
 This layered separation preserves structural clarity between:
 
-- physical interpretation,
-- mathematical abstraction,
-- and technical realization.
+- physical interpretation
+- mathematical abstraction
+- and technical realization
+
+---
 
 ## Classification Policy
 
@@ -134,12 +136,14 @@ before migration into publication-grade physical formalism.
 
 Unclassified recursive structures are not considered stable components of the canonical TIG framework.
 
+---
+
 ## Publication Status
 
 The published TIG repository should therefore be interpreted as:
 
-- the foundational physical reference layer,
-- the initial admissibility formulation,
+- the foundational physical reference layer
+- the initial admissibility formulation
 - and the canonical publication baseline
 
 from which mathematically governed recursive developments are now evolving through SIR.
@@ -148,6 +152,5 @@ from which mathematically governed recursive developments are now evolving throu
 
 ## 👤 Author
 
-Kai Stefan Dietrich
-Independent Research
-
+Kai Stefan Dietrich  
+Independent Researcher
