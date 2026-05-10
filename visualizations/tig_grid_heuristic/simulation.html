@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIG - Latency Optimization Visualizer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #050505; color: #00ffcc; font-family: 'Courier New', Courier, monospace; overflow: hidden; }
+        canvas { display: block; }
+        .ui-panel {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(0, 40, 40, 0.85);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #00ffcc;
+            box-shadow: 0 0 15px rgba(0, 255, 204, 0.3);
+            pointer-events: auto;
+            max-width: 350px;
+        }
+        .stats { font-size: 0.85rem; color: #aaffff; margin-top: 10px; }
+        .label { font-weight: bold; color: #00ffcc; }
+    </style>
+</head>
+<body>
+
+<div class="ui-panel">
+    <h1 class="text-xl font-bold mb-2">PROJECT AXIOMA / TIG</h1>
+    <p class="text-sm italic mb-4">Teleological Integrity Gravity</p>
+    <div class="stats">
+        <p><span class="label">Status:</span> System Audit Active</p>
+        <p><span class="label">Kernel:</span> TIG_v1.0_L-Optim</p>
+        <p id="latency-display"><span class="label">System Latency (λ):</span> 0.00ms</p>
+        <p id="integrity-display"><span class="label">Root Integrity (I):</span> 100%</p>
+    </div>
+    <hr class="my-4 border-cyan-900">
+    <p class="text-xs text-gray-400">
+        Klicke und ziehe, um Daten-Cluster (Masse) zu platzieren. 
+        Die Krümmung visualisiert den Rechenaufwand zur Wahrung der Kausalität.
+    </p>
+</div>
+
+<canvas id="tigCanvas"></canvas>
+
+<script>
+    const canvas = document.getElementById('tigCanvas');
+    const ctx = canvas.getContext('2d');
+    
+    let width, height;
+    let points = [];
+    let masses = [];
+    const spacing = 35;
+    
+    // TIG Parameters
+    const KAPPA = 0.5; // Integrity stress constant
+    const SYSTEM_LATENCY_BASE = 1.0;
+    
+    function init() {
+        resize();
+        window.addEventListener('resize', resize);
+        canvas.addEventListener('mousedown', addMass);
+        canvas.addEventListener('touchstart', (e) => {
+            const touch = e.touches[0];
+            addMass({ clientX: touch.clientX, clientY: touch.clientY });
+        });
+        
+        animate();
+    }
+
+    function resize() {
+        width = window.innerWidth;
+        height = window.innerHeight;
+        canvas.width = width;
+        canvas.height = height;
+        
+        createGrid();
+    }
+
+    function createGrid() {
+        points = [];
+        for (let x = 0; x < width; x += spacing) {
+            for (let y = 0; y < height; y += spacing) {
+                points.push({ x, y, origX: x, origY: y });
+            }
+        }
+    }
+
+    function addMass(e) {
+        masses.push({ x: e.clientX, y: e.clientY, strength: 120, pulse: 0 });
+        if (masses.length > 5) masses.shift(); // Keep buffer clean
+    }
+
+    function update() {
+        let totalStress = 0;
+
+        points.forEach(p => {
+            let dxTotal = 0;
+            let dyTotal = 0;
+
+            masses.forEach(m => {
+                const dx = m.x - p.origX;
+                const dy = m.y - p.origY;
+                const distSq = dx * dx + dy * dy;
+                const dist = Math.sqrt(distSq);
+                
+                // Integrity Stress Calculation: I = Kappa * (DataDensity / Dist)
+                const stress = (m.strength * KAPPA) / (dist / 80 + 1);
+                const angle = Math.atan2(dy, dx);
+                
+                dxTotal += Math.cos(angle) * stress;
+                dyTotal += Math.sin(angle) * stress;
+                
+                totalStress += stress / 10000;
+            });
+
+            p.x = p.origX + dxTotal;
+            p.y = p.origY + dyTotal;
+        });
+
+        // Update UI
+        const latVal = (SYSTEM_LATENCY_BASE + totalStress).toFixed(4);
+        const intVal = Math.max(0, (100 - totalStress * 10)).toFixed(2);
+        document.getElementById('latency-display').innerHTML = `<span class="label">System Latency (λ):</span> ${latVal}ms`;
+        document.getElementById('integrity-display').innerHTML = `<span class="label">Root Integrity (I):</span> ${intVal}%`;
+    }
+
+    function draw() {
+        ctx.fillStyle = '#050505';
+        ctx.fillRect(0, 0, width, height);
+
+        // Draw Connections (Grid Stress)
+        ctx.strokeStyle = 'rgba(0, 255, 204, 0.15)';
+        ctx.lineWidth = 1;
+
+        // Draw horizontal lines
+        const rows = Math.ceil(height / spacing);
+        const cols = Math.ceil(width / spacing);
+
+        for (let i = 0; i < cols; i++) {
+            ctx.beginPath();
+            for (let j = 0; j < rows; j++) {
+                const p = points[i * rows + j];
+                if (!p) continue;
+                if (j === 0) ctx.moveTo(p.x, p.y);
+                else ctx.lineTo(p.x, p.y);
+            }
+            ctx.stroke();
+        }
+
+        for (let j = 0; j < rows; j++) {
+            ctx.beginPath();
+            for (let i = 0; i < cols; i++) {
+                const p = points[i * rows + j];
+                if (!p) continue;
+                if (i === 0) ctx.moveTo(p.x, p.y);
+                else ctx.lineTo(p.x, p.y);
+            }
+            ctx.stroke();
+        }
+
+        // Draw Masses (Data Clusters)
+        masses.forEach(m => {
+            m.pulse += 0.05;
+            const s = 5 + Math.sin(m.pulse) * 2;
+            
+            ctx.beginPath();
+            ctx.arc(m.x, m.y, s, 0, Math.PI * 2);
+            ctx.fillStyle = '#00ffcc';
+            ctx.shadowBlur = 15;
+            ctx.shadowColor = '#00ffcc';
+            ctx.fill();
+            ctx.shadowBlur = 0;
+            
+            // Core Stress Label
+            ctx.font = '10px Courier New';
+            ctx.fillText("DATA_CLUSTER_SIG", m.x + 10, m.y - 10);
+        });
+    }
+
+    function animate() {
+        update();
+        draw();
+        requestAnimationFrame(animate);
+    }
+
+    window.onload = init;
+</script>
+
+</body>
+</html>
