@@ -150,6 +150,14 @@ from which mathematically governed recursive developments are now evolving throu
 
 ---
 
+## Visualizations
+
+Experimental heuristic visualizations can be found under:
+
+- `/visualizations/tig_grid_heuristic/`
+
+These visualizations are conceptual demonstrations only and are not part of the formal TIG derivation.
+
 ## 👤 Author
 
 Kai Stefan Dietrich  
