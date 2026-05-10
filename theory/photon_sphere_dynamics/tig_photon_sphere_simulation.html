@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TIG Photon Sphere Dynamics</title>
+<style>
+  body {
+    margin: 0;
+    background: #050505;
+    color: #00ffcc;
+    font-family: "Courier New", monospace;
+    overflow: hidden;
+  }
+  canvas { display: block; }
+  #panel {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 390px;
+    padding: 18px;
+    background: rgba(0, 20, 20, 0.86);
+    border: 1px solid #00ffcc;
+    border-radius: 10px;
+    box-shadow: 0 0 18px rgba(0,255,204,0.35);
+  }
+  h1 {
+    font-size: 18px;
+    margin: 0 0 8px 0;
+  }
+  .small {
+    font-size: 12px;
+    color: #aaffee;
+    line-height: 1.45;
+  }
+  .metric {
+    margin-top: 8px;
+    font-size: 13px;
+  }
+  .warning {
+    margin-top: 12px;
+    font-size: 11px;
+    color: #ffaa88;
+  }
+</style>
+</head>
+<body>
+
+<canvas id="sim"></canvas>
+
+<div id="panel">
+  <h1>TIG Photon Sphere Dynamics</h1>
+  <div class="small">Heuristic near-critical photon-ring simulation</div>
+
+  <div class="metric">β: <span id="beta"></span></div>
+  <div class="metric">βc: <span id="betac"></span></div>
+  <div class="metric">Horizon state xH: <span id="xh"></span></div>
+  <div class="metric">Photon radius rph: <span id="rph"></span></div>
+  <div class="metric">Shadow deviation: <span id="dev"></span></div>
+  <div class="metric">Instability index: <span id="inst"></span></div>
+
+  <div class="warning">
+    Status: heuristic / exploratory / non-rigorous.<br>
+    Not a numerical relativity simulation.
+  </div>
+</div>
+
+<script>
+const canvas = document.getElementById("sim");
+const ctx = canvas.getContext("2d");
+
+function resize() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+}
+window.addEventListener("resize", resize);
+resize();
+
+const betaC = Math.pow(4 / 27, 1 / 3);
+let t = 0;
+
+function horizonRoot(beta) {
+  let x = 1.0;
+  for (let k = 0; k < 20; k++) {
+    const f = x*x*x - x*x + beta*beta*beta;
+    const df = 3*x*x - 2*x;
+    if (Math.abs(df) < 1e-6) break;
+    x -= f / df;
+    x = Math.max(0.25, Math.min(1.2, x));
+  }
+  return x;
+}
+
+function drawGrid(cx, cy, beta) {
+  ctx.strokeStyle = "rgba(0,255,204,0.12)";
+  ctx.lineWidth = 1;
+
+  const grid = 34;
+  const distortion = 85 * (beta / betaC);
+
+  for (let i = -24; i <= 24; i++) {
+    ctx.beginPath();
+    for (let j = -24; j <= 24; j++) {
+      let px = cx + i * grid;
+      let py = cy + j * grid;
+      const dx = px - cx;
+      const dy = py - cy;
+      const d = Math.sqrt(dx*dx + dy*dy) + 1;
+
+      const pull = distortion * Math.exp(-d / 300);
+      const wave = 8 * Math.sin(0.02 * d - t * 2.2) * Math.exp(-d / 520);
+
+      px -= (dx / d) * (pull + wave);
+      py -= (dy / d) * (pull + wave);
+
+      if (j === -24) ctx.moveTo(px, py);
+      else ctx.lineTo(px, py);
+    }
+    ctx.stroke();
+  }
+
+  for (let j = -24; j <= 24; j++) {
+    ctx.beginPath();
+    for (let i = -24; i <= 24; i++) {
+      let px = cx + i * grid;
+      let py = cy + j * grid;
+      const dx = px - cx;
+      const dy = py - cy;
+      const d = Math.sqrt(dx*dx + dy*dy) + 1;
+
+      const pull = distortion * Math.exp(-d / 300);
+      const wave = 8 * Math.sin(0.02 * d - t * 2.2) * Math.exp(-d / 520);
+
+      px -= (dx / d) * (pull + wave);
+      py -= (dy / d) * (pull + wave);
+
+      if (i === -24) ctx.moveTo(px, py);
+      else ctx.lineTo(px, py);
+    }
+    ctx.stroke();
+  }
+}
+
+function drawRing(cx, cy, r, color, width, alpha, wobble) {
+  ctx.beginPath();
+
+  for (let i = 0; i <= 360; i++) {
+    const a = i * Math.PI / 180;
+    const local = r * (1 + wobble * Math.sin(5*a + t*2.5) + 0.012*Math.cos(3*a - t));
+    const x = cx + Math.cos(a) * local;
+    const y = cy + Math.sin(a) * local;
+
+    if (i === 0) ctx.moveTo(x, y);
+    else ctx.lineTo(x, y);
+  }
+
+  ctx.closePath();
+  ctx.strokeStyle = color.replace("ALPHA", alpha);
+  ctx.lineWidth = width;
+  ctx.shadowBlur = 18;
+  ctx.shadowColor = color.replace("ALPHA", 0.7);
+  ctx.stroke();
+  ctx.shadowBlur = 0;
+}
+
+function drawPhotonPackets(cx, cy, r, instability) {
+  for (let i = 0; i < 14; i++) {
+    const a = t * (0.7 + instability * 0.8) + i * Math.PI * 2 / 14;
+    const rr = r * (1 + 0.04 * Math.sin(t * 3 + i));
+    const x = cx + Math.cos(a) * rr;
+    const y = cy + Math.sin(a) * rr;
+
+    ctx.beginPath();
+    ctx.arc(x, y, 3.5 + 2 * instability, 0, Math.PI * 2);
+    ctx.fillStyle = "#00ffcc";
+    ctx.shadowBlur = 16;
+    ctx.shadowColor = "#00ffcc";
+    ctx.fill();
+    ctx.shadowBlur = 0;
+  }
+}
+
+function drawLightTrajectories(cx, cy, rph, instability) {
+  ctx.strokeStyle = "rgba(0,255,204,0.34)";
+  ctx.lineWidth = 1;
+
+  for (let k = 0; k < 9; k++) {
+    ctx.beginPath();
+    const offset = -360 + k * 90;
+    for (let s = 0; s < 220; s++) {
+      const u = s / 220;
+      const x0 = cx - 520 + s * 5;
+      const y0 = cy + offset * 0.35 + 70 * Math.sin(u * Math.PI * 2 + k);
+
+      const dx = x0 - cx;
+      const dy = y0 - cy;
+      const d = Math.sqrt(dx*dx + dy*dy) + 1;
+      const bend = Math.exp(-Math.abs(d - rph) / 90) * (55 + 90 * instability);
+
+      const ang = Math.atan2(dy, dx) + bend * 0.0025 * Math.sin(u * Math.PI);
+      const rr = d - bend * Math.sin(u * Math.PI);
+
+      const px = cx + Math.cos(ang) * rr;
+      const py = cy + Math.sin(ang) * rr;
+
+      if (s === 0) ctx.moveTo(px, py);
+      else ctx.lineTo(px, py);
+    }
+    ctx.stroke();
+  }
+}
+
+function animate() {
+  t += 0.014;
+
+  const beta = 0.04 + (betaC - 0.05) * (0.5 + 0.5 * Math.sin(t * 0.075));
+  const xH = horizonRoot(beta);
+
+  const criticalDistance = Math.max(0.003, Math.abs(betaC - beta));
+  const instability = Math.min(1, 0.18 / (criticalDistance * 10));
+
+  const basePhoton = 210;
+  const deviation = -0.04 * (1 - 1 / Math.max(1.01, xH*xH));
+  const rph = basePhoton * (1 + deviation + 0.06 * instability * Math.sin(t * 2.1));
+
+  ctx.fillStyle = "rgba(5,5,5,0.28)";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  const cx = canvas.width * 0.60;
+  const cy = canvas.height * 0.52;
+
+  drawGrid(cx, cy, beta);
+  drawLightTrajectories(cx, cy, rph, instability);
+
+  ctx.beginPath();
+  ctx.arc(cx, cy, 72 * xH, 0, Math.PI * 2);
+  ctx.fillStyle = "rgba(0,0,0,0.95)";
+  ctx.fill();
+
+  drawRing(cx, cy, 72 * xH, "rgba(0,255,204,ALPHA)", 2, 0.55, 0.006);
+  drawRing(cx, cy, rph, "rgba(0,255,204,ALPHA)", 3, 0.95, 0.018 * instability);
+  drawRing(cx, cy, rph * 1.24, "rgba(0,255,204,ALPHA)", 1, 0.22, 0.012 * instability);
+
+  drawPhotonPackets(cx, cy, rph, instability);
+
+  ctx.fillStyle = "#00ffcc";
+  ctx.font = "13px Courier New";
+  ctx.fillText("event horizon candidate", cx - 82, cy - 72 * xH - 16);
+  ctx.fillText("photon sphere / unstable light ring", cx - 132, cy - rph - 18);
+  ctx.fillText("near-critical optical response", cx - 128, cy + rph + 34);
+
+  document.getElementById("beta").textContent = beta.toFixed(5);
+  document.getElementById("betac").textContent = betaC.toFixed(5);
+  document.getElementById("xh").textContent = xH.toFixed(5);
+  document.getElementById("rph").textContent = rph.toFixed(2);
+  document.getElementById("dev").textContent = (deviation * 100).toFixed(3) + " %";
+  document.getElementById("inst").textContent = instability.toFixed(3);
+
+  requestAnimationFrame(animate);
+}
+
+animate();
+</script>
+
+</body>
+</html>
