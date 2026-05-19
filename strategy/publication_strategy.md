@@ -9,7 +9,7 @@
 
 Dieses Dokument definiert die Veröffentlichungs- und Positionierungsstrategie für TIG.
 
-Ziel ist es, maximale wissenschaftliche Glaubwürdigkeit aufzubauen und gleichzeitig das langfristige Potenzial zu sichern.
+Ziel ist der Aufbau maximaler wissenschaftlicher Glaubwürdigkeit bei gleichzeitiger kontrollierter struktureller Expansion.
 
 ---
 
@@ -17,7 +17,7 @@ Ziel ist es, maximale wissenschaftliche Glaubwürdigkeit aufzubauen und gleichze
 
 Strategie:
 
-> Erst Physik validieren → dann Systeme → dann Anwendungen
+> Erst Physik validieren → dann mathematische Konsolidierung → dann Systeme → dann Anwendungen
 
 Nicht umgekehrt.
 
@@ -28,6 +28,7 @@ Nicht umgekehrt.
 Das Projekt enthält mehrere Ebenen:
 
 - Gravitation / Physik
+- mathematische Strukturtheorie
 - Systemtheorie
 - Cybersecurity
 - Multi-Agenten-Systeme
@@ -35,7 +36,7 @@ Das Projekt enthält mehrere Ebenen:
 
 Gefahr:
 
-👉 Zu viel Scope zerstört Glaubwürdigkeit
+👉 Zu viel Scope zerstört wissenschaftliche Glaubwürdigkeit.
 
 ---
 
@@ -43,97 +44,117 @@ Gefahr:
 
 ---
 
-### Phase 1: Physik (Foundation Paper)
+### Phase 1: Physik (Foundation Layer)
 
 Inhalt:
 
 - TIG-Framework
-- Feldgleichungen
-- Black-Hole-Lösung
-- Stabilität
-- Kosmologie
-- Vorhersagen
+- horizon structure
+- admissibility conditions
+- bounded curvature behavior
+- structural transitions
+- beobachtbare Konsequenzen
 
 Ziel:
 
-👉 ernst genommen werden
+👉 mathematische und physikalische Ernsthaftigkeit etablieren.
 
 ---
 
-### Phase 2: Formal Extension
+### Phase 2: Mathematical Consolidation
 
 Inhalt:
 
 - Integritätsfunktional allgemein
 - mathematische Struktur
-- Verbindung zu \( f(R) \), Spektralgeometrie
+- rekursive Konsolidierung
+- Verbindung zu \( f(R) \)-artigen Strukturen
+- Spektral- und Operatorperspektiven
 
 Ziel:
 
-👉 theoretische Tiefe zeigen
+👉 mathematische Tiefe kontrolliert erweitern.
 
 ---
 
-### Phase 3: Systems Paper
+### Phase 3: Systems Framework
 
 Inhalt:
 
 - Integritätsprinzip für komplexe Systeme
 - MAS-Integration
-- Cyber-Modell
+- Cyber-Modelle
+- technische Durchsetzungsschichten
 
 Ziel:
 
-👉 Interdisziplinäre Brücke
+👉 kontrollierte interdisziplinäre Brücke.
 
 ---
 
-### Phase 4: Applied Papers
+### Phase 4: Applied Research
 
 Separat veröffentlichen:
 
 - Cybersecurity
 - Simulation
-- Biologie (sehr vorsichtig!)
+- Sensor-Integrität
+- Biologie (vorsichtig und getrennt)
 
 ---
 
 ### 5. Veröffentlichungsreihenfolge
 
-1. TIG Master Paper (Physik)
+1. TIG Foundation Paper
 2. TIG Mathematical Extension
 3. TIG Systems Framework
-4. TIG Applications
+4. TIG Applied Research
 
 ---
 
 ### 6. Plattformen
 
-#### Physik
+#### Wissenschaftlicher Primärlayer
 
 - arXiv (Pflicht)
+- Zenodo (DOI-Archivierung)
 - ResearchGate
 
-#### Systeme / AI
+#### Entwicklungs- und Governance-Layer
 
-- GitHub (Hauptplattform)
+- GitHub (zentrale Entwicklungs- und Governance-Plattform)
+
+#### Kommunikationslayer
+
+- Projektwebsite
 - Blog / Medium
 
 #### Später
 
 - Konferenzen
 - Kooperationen
+- institutionelle Vernetzung
 
 ---
 
 ### 7. GitHub-Strategie
 
-Repo = zentrale Wahrheit
+Das Repository dient als zentrale strukturelle Referenzschicht.
 
 Struktur:
 
 ```text
 papers/
-derivations/
+theory/
 applications/
 strategy/
+```
+
+Die öffentliche TIG-Schicht bleibt:
+
+- mathematisch konservativ,
+- strukturell kontrolliert,
+- publikationsorientiert,
+- und semantisch stabilisiert.
+
+Explorative rekursive, operator-theoretische und Yang--Mills-bezogene Entwicklungen werden getrennt konsolidiert und nicht unmittelbar in die öffentliche TIG-Kernschicht integriert.
