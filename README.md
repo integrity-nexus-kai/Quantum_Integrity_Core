@@ -1,8 +1,8 @@
 # Topological Integrity Gravity (TIG)
 
-Topological Integrity Gravity (TIG) is a structurally constrained framework for horizon formation and high-curvature vacuum admissibility.
+Topological Integrity Gravity (TIG) is a structurally constrained framework for horizon formation and admissible high-curvature geometry.
 
-The central result is a critical transition governing horizon formation, arising from consistency conditions rather than phenomenological modification.
+The central result is a critical transition governing horizon formation, arising from structural consistency conditions rather than phenomenological modification.
 
 ---
 
@@ -24,12 +24,12 @@ $$
 
 ## Core Idea
 
-TIG restricts admissible curvature corrections by structural consistency.
+TIG restricts admissible curvature corrections through structural consistency.
 
-This leads to a discrete transition between:
+This produces a discrete transition between:
 
-- geometries with horizons
-- compact configurations without horizons
+- geometries admitting horizons
+- compact configurations without admissible horizon formation
 
 ---
 
@@ -40,6 +40,21 @@ This leads to a discrete transition between:
 - discriminant-controlled critical transition
 - saddle-node branch structure
 - bounded-curvature representative vacuum sector
+
+---
+
+## TIG3 Research Direction
+
+TIG3 investigates whether admissible high-curvature vacuum configurations can remain structurally bounded near critical horizon transitions.
+
+The public TIG3 layer is restricted to:
+
+- bounded-curvature representative geometry,
+- conditional vacuum admissibility,
+- near-critical horizon structure,
+- and structurally constrained thermodynamic behavior.
+
+Recursive operator structures and exploratory mathematical abstraction layers are intentionally maintained outside the canonical public TIG formulation.
 
 ---
 
@@ -66,9 +81,9 @@ A public TIG3 horizon-dynamics simulation is available through the project websi
 
 ## Repository Notes
 
-This repository contains the public TIG research layer.
+This repository contains the canonical public TIG research layer.
 
-Exploratory operator-theoretic and Yang--Mills-related investigations are maintained separately and are not part of the public TIG release layer.
+Exploratory recursive, operator-theoretic, and Yang--Mills-related investigations are maintained separately and are not part of the canonical public TIG release layer.
 
 ---
 
