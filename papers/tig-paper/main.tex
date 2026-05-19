@@ -80,70 +80,148 @@ symmetric reduction, these conditions lead to a cubic normal form governing
 horizon formation. The resulting horizon equation exhibits a critical transition
 separating configurations with horizons from compact configurations without
 horizons. This transition is controlled by a dimensionless parameter and is
-characterized by the coalescence of roots in the associated cubic equation. We
-derive the critical parameter, analyze the root structure, and discuss the
-interpretation of the transition as a structural threshold rather than a
-continuous perturbative deformation. The control parameter is interpreted as a
-structural degree of freedom in the space of admissible solutions. For clarity,
-we denote the associated structural coordinate by \(X_4\). This coordinate does
-not represent an additional physical spatial dimension.
+characterized by the coalescence of roots in the associated cubic equation.
 \end{abstract}
 
 \section{Introduction}
 
 The framework is explicitly constructed such that the classical GR limit is recovered in the low-curvature regime.
-General Relativity provides the most successful classical description of
-gravitation. Its geometric formulation identifies gravitational interaction with
-the curvature of spacetime and has passed a wide range of observational tests
-since Einstein's formulation of the gravitational field equations
-\cite{einstein1915,wald1984,carroll2004}. Nevertheless, the appearance of
-singularities and the structure of horizon formation indicate that the classical
-theory may not fully encode all structural constraints relevant at extreme
-curvature scales.
 
-A common strategy is to modify the gravitational action by adding curvature
-corrections. Such models are often written as extensions of the Einstein-Hilbert
-action through a generalized function \(f(R)\) of the Ricci scalar. These
-approaches form a broad and well-studied class of modified gravitational
-theories \cite{sotiriou2010,nojiri2011,faraoni2010}. However, this procedure may
-introduce an overly large space of possible theories. If curvature corrections
-are chosen freely, the resulting model space becomes phenomenological rather
-than structurally constrained.
+General Relativity provides the most successful classical description of gravitation.
+Its geometric formulation identifies gravitational interaction with the curvature of spacetime.
 
-The purpose of this work is to formulate a minimal alternative viewpoint. We
-assume that admissible curvature corrections are restricted by consistency
-conditions. In this sense, the question is not merely which correction terms can
-be written down, but which correction terms preserve the structural integrity of
-horizon formation.
+The purpose of this work is to formulate a minimal structurally constrained viewpoint.
+We assume that admissible curvature corrections are restricted by consistency conditions.
 
-We call this framework \emph{Topological Integrity Gravity} (TIG). The term
-``topological integrity'' is used here in a restricted mathematical sense: it
-refers to the preservation of the qualitative root structure associated with
-horizon formation under admissible curvature corrections.
+The central result of this paper is the emergence of a cubic normal form:
 
-The central result of this paper is the emergence of a cubic normal form,
 \begin{equation}
-x^3 - x^2 + \beta^3 = 0,
-\label{eq:intro_cubic}
+x^3 - x^2 + \beta^3 = 0
 \end{equation}
-where \(x\) is a dimensionless radial horizon variable and \(\beta\) is a
-dimensionless structural control parameter. This equation exhibits a critical
-transition: for sufficiently small \(\beta\), horizon solutions exist; beyond a
-critical value, no positive horizon root remains.
 
-The transition is not introduced by hand. It follows from the algebraic
-structure of the reduced horizon equation. The resulting critical point is
-therefore interpreted as a structural boundary between horizon and non-horizon
-configurations. The associated root coalescence is structurally analogous to
-fold-type criticality and saddle-node bifurcations known from catastrophe theory
-\cite{arnold1992}.
+where \(x\) is a dimensionless radial horizon variable and \(\beta\) is a dimensionless structural control parameter.
 
-A central interpretive point is that the parameter \(\beta\) should not be
-understood as an additional physical spatial dimension. Rather, it defines an
-additional structural degree of freedom in the space of admissible solutions.
-We denote the corresponding structural coordinate by \(X_4\). This notation is
-introduced only to name the organization direction in solution space; it is not
-a reference to an additional spacetime dimension or to an external higher-
-dimensional physical theory.
+\section{Geometric Setup}
+
+We consider static spherically symmetric configurations with metric:
+
+\begin{equation}
+ds^2 = -A(r)c^2dt^2 + B(r)dr^2 + r^2 d\Omega^2
+\end{equation}
+
+The Schwarzschild radius is
+
+\begin{equation}
+r_s = \frac{2GM}{c^2}
+\end{equation}
+
+and we define the dimensionless horizon variable
+
+\begin{equation}
+x := \frac{r}{r_s}
+\end{equation}
+
+with structural parameter
+
+\begin{equation}
+\beta := \frac{\ell}{r_s}
+\end{equation}
+
+\section{Structural Consistency Principle}
+
+The guiding assumption of TIG is that gravitational corrections are not arbitrary deformations.
+Instead, they must preserve the qualitative integrity of the horizon formation problem.
+
+\section{Derivation of the Cubic Normal Form}
+
+Starting from the Schwarzschild-compatible polynomial:
+
+\begin{equation}
+P_0(x)=x^2(x-1)
+\end{equation}
+
+we obtain the expanded form
+
+\begin{equation}
+P_0(x)=x^3-x^2
+\end{equation}
+
+Introducing a finite structural correction yields:
+
+\begin{equation}
+x^3-x^2+\beta^3=0
+\end{equation}
+
+\section{Critical Structure}
+
+The derivative is
+
+\begin{equation}
+\frac{dP}{dx}=3x^2-2x
+\end{equation}
+
+The nontrivial stationary point is
+
+\begin{equation}
+x_c=\frac{2}{3}
+\end{equation}
+
+and the critical parameter becomes
+
+\begin{equation}
+\beta_c=\left(\frac{4}{27}\right)^{1/3}
+\end{equation}
+
+\section{Scaling Near Criticality}
+
+Near the critical point:
+
+\begin{equation}
+\delta \sim \epsilon^{1/2}
+\end{equation}
+
+which is characteristic of saddle-node criticality.
+
+\section{Observable Implications}
+
+Possible implications include:
+
+\begin{itemize}
+\item black-hole shadow modifications,
+\item photon-sphere deviations,
+\item near-horizon lensing corrections,
+\item gravitational-wave signatures near criticality.
+\end{itemize}
+
+\section{Conclusion}
+
+We introduced Topological Integrity Gravity as a structurally constrained approach to horizon formation.
+
+The central horizon equation
+
+\begin{equation}
+x^3-x^2+\beta^3=0
+\end{equation}
+
+exhibits a critical transition separating horizon and non-horizon sectors.
+
+\begin{thebibliography}{99}
+
+\bibitem{einstein1915}
+A. Einstein,
+\textit{Die Feldgleichungen der Gravitation},
+1915.
+
+\bibitem{wald1984}
+R. M. Wald,
+\textit{General Relativity},
+1984.
+
+\bibitem{arnold1992}
+V. I. Arnold,
+\textit{Catastrophe Theory},
+1992.
+
+\end{thebibliography}
 
 \end{document}
