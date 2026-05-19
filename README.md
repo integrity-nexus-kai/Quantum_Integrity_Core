@@ -1,164 +1,79 @@
 # Topological Integrity Gravity (TIG)
 
-**Paper (PDF):**
+Topological Integrity Gravity (TIG) is a structurally constrained framework for horizon formation and high-curvature vacuum admissibility.
 
-👉 [Download TIG Paper](./papers/tig-paper/TIG_Paper.pdf)
-
----
-
-Topological Integrity Gravity (TIG) is a structurally constrained extension of General Relativity.
-
-The central result is a **critical transition governing horizon formation**, arising from consistency conditions rather than phenomenological modification.
+The central result is a critical transition governing horizon formation, arising from consistency conditions rather than phenomenological modification.
 
 ---
 
-## 🧠 Core Idea
+## Papers
+
+- [TIG1 — Foundational Structural Framework](./papers/tig-paper/TIG_Paper.pdf)
+- TIG2 — Exact Cubic Branch Structure of Structural Horizon Formation
+- TIG3 — Conditional Vacuum Admissibility and Bounded Curvature Structure
+
+---
+
+## Core Equation
+
+$$
+x^3 - x^2 + \beta^3 = 0
+$$
+
+---
+
+## Core Idea
 
 TIG restricts admissible curvature corrections by structural consistency.
 
 This leads to a discrete transition between:
 
-* geometries with horizons
-* compact configurations without horizons
+- geometries with horizons
+- compact configurations without horizons
 
 ---
 
-## 🔗 Quick Links
+## Key Properties
 
-* 📄 Paper (LaTeX): [papers/tig-paper/main.tex](papers/tig-paper/main.tex)
-* 📊 Figures: [figures/](figures/)
-* 📁 Applications: [applications/](applications/)
-
----
-
-## ⚙️ Key Properties
-
-* constrained quadratic $f(R)$ structure
-* cubic horizon equation
-* regularized internal mass profile
-* critical transition (saddle-node type)
+- constrained structural horizon formation
+- cubic horizon equation
+- discriminant-controlled critical transition
+- saddle-node branch structure
+- bounded-curvature representative vacuum sector
 
 ---
 
-## 📊 Observable Implications
+## Observable Implications
 
-* black hole shadow modifications
-* gravitational lensing deviations
-* gravitational wave signatures near criticality
+The framework motivates structurally constrained analyses of:
 
----
+- black-hole shadow deviations
+- gravitational lensing corrections
+- photon-sphere shifts
+- near-critical horizon transitions
 
-## 📈 Scaling Near Criticality
-
-$$
-\Delta \mathcal{O} \sim |\beta - \beta_c|^\alpha, \quad \alpha \neq 1
-$$
+These implications are treated as model-dependent consequences requiring further observational and theoretical analysis.
 
 ---
 
-## 📊 Status
+## Simulation
 
-* analytical structure derived
-* numerical illustrations available
-* stability analysis in progress
+A public TIG3 horizon-dynamics simulation is available through the project website:
 
----
-
-# Framework Evolution Notice
-
-Topological Integrity Gravity (TIG) represents the foundational physical admissibility layer of the Integrity Nexus architecture.
-
-The original TIG publication established the initial structural framework for admissibility-constrained horizon formation, recursive stability behavior, and topological regularization mechanisms within high-curvature gravitational systems.
-
-Since the initial publication state of this repository, the framework has undergone substantial mathematical, structural, and semantic consolidation.
-
-This evolution includes:
-
-- recursive admissibility formalization
-- primitive stabilization
-- recursive operator structures
-- admissibility-flow mechanics
-- semantic governance classification
-- and cross-layer abstraction development connecting physical, mathematical, and enforcement-oriented integrity architectures
-
-To preserve semantic stability, publication consistency, and controlled theoretical evolution, advanced recursive admissibility structures are now being formalized separately within:
-
-## [Structural Integrity Recursion (SIR)](https://github.com/integrity-nexus-kai/Structural_Integrity_Recursion)
-
-SIR functions as:
-
-- the mathematical abstraction layer
-- recursive admissibility framework
-- primitive stabilization system
-- recursive consistency architecture
-- semantic governance layer
-- and formal consolidation environment
-
-for evolving TIG-derived structures.
-
-TIG remains the canonical physical layer.
-
-SIR does not replace TIG.
-
-Instead, SIR abstracts, governs, stabilizes, and classifies recursive mathematical developments before potential reintegration into canonical TIG physics.
-
-This separation is intentional.  
-It prevents uncontrolled semantic inflation, preserves publication-grade consistency, and allows exploratory mathematical development without destabilizing the canonical physical framework.
+[https://integrity-nexus-kai.github.io](https://integrity-nexus-kai.github.io)
 
 ---
 
-## Governance Model
+## Repository Notes
 
-The Integrity Nexus architecture is currently organized into layered domains:
+This repository contains the public TIG research layer.
 
-- TIG → physical admissibility layer
-- SIR → mathematical abstraction and recursive admissibility layer
-- SGI → technical enforcement and implementation layer
-
-This layered separation preserves structural clarity between:
-
-- physical interpretation
-- mathematical abstraction
-- and technical realization
+Exploratory operator-theoretic and Yang--Mills-related investigations are maintained separately and are not part of the public TIG release layer.
 
 ---
 
-## Classification Policy
-
-All future developments should be explicitly classified as:
-
-- canonical
-- exploratory
-- speculative
-- deprecated
-
-before migration into publication-grade physical formalism.
-
-Unclassified recursive structures are not considered stable components of the canonical TIG framework.
-
----
-
-## Publication Status
-
-The published TIG repository should therefore be interpreted as:
-
-- the foundational physical reference layer
-- the initial admissibility formulation
-- and the canonical publication baseline
-
-from which mathematically governed recursive developments are now evolving through SIR.
-
----
-
-## Visualizations
-
-Experimental heuristic visualizations can be found under:
-
-- `/visualizations/tig_grid_heuristic/`
-
-These visualizations are conceptual demonstrations only and are not part of the formal TIG derivation.
-
-## 👤 Author
+## Author
 
 Kai Stefan Dietrich  
-Independent Researcher
+Independent Researcher  
+Contact: kai.physics@protonmail.ch
