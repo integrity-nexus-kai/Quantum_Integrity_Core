@@ -63,6 +63,26 @@ The structure must support self-similar organization.
 
 ---
 
+# Operational Measures
+
+Persistence:
+Ability to maintain organizational coherence under local perturbation.
+
+Integrity:
+Ability to preserve global structure despite local disruption.
+
+Connectivity:
+Number and stability of neighborhood relationships.
+
+Addressability:
+Ability to uniquely identify states.
+
+Recursive Growth:
+Ability to extend organization without changing local rules.
+
+Organizational Cost:
+Complexity required to maintain stable organization.
+
 # Candidate Structures
 
 - Point structures
