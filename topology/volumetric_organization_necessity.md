@@ -2,171 +2,188 @@
 
 ## Status
 
-Open Foundational Investigation
+Core Foundational Investigation
 
 Part of the TIG Topological Foundations Program.
 
 ---
 
-# Core Question
+## Central Question
 
-Do the requirements of structural admissibility naturally imply volumetric organization?
+Can persistent organizational structures exist without volumetric embedding?
 
----
-
-# Motivation
-
-The Structural Admissibility Framework establishes that physical reality must satisfy:
-
-- persistence,
-- integrity,
-- connectivity,
-- addressability,
-- recursive evolution.
-
-The Continuous Geometry Limitations investigation raises a deeper possibility:
-
-> Continuity alone may not be sufficient to explain stable physical organization.
-
-If this is true, additional organizational principles may be required.
-
-The present investigation explores whether these principles imply volumetric structure.
+This investigation examines whether stable recursive organization necessarily requires a volumetric structure.
 
 ---
 
-# The Organizational Problem
+## Motivation
 
-A persistent universe must support:
+Many physical theories implicitly assume geometry.
 
-- stable state relationships,
-- local interactions,
-- recursive extension,
-- information preservation.
+TIG attempts to move one layer deeper.
 
-The question is not:
+Instead of beginning with geometry, we begin with organization.
 
-> What geometry can be imagined?
+The central question therefore becomes:
 
-The question is:
-
-> What geometry can continuously sustain admissible states?
+> What is the minimal structure required for persistent organization?
 
 ---
 
-# Working Hypothesis H1
+## Organizational Persistence Principle
 
-Structural persistence imposes organizational constraints.
+A structure exists only if it can preserve distinguishable relationships.
 
----
+If relationships cannot be preserved, organization collapses.
 
-# Working Hypothesis H2
+Therefore:
 
-Organizational constraints may favor volumetric structures over lower-dimensional arrangements.
-
----
-
-# Working Hypothesis H3
-
-Admissibility may depend not only on geometry itself, but on the neighborhood structure that geometry supports.
+Organization requires persistent relational separation.
 
 ---
 
-# Neighborhood Requirement
+## Surface Limitation
 
-Persistence requires stable local relationships.
+Consider a purely surface-based organization.
 
-Any candidate structure must support:
+All organizational transitions must occur within the same lower-dimensional layer.
 
-- neighbor identification,
-- neighbor stability,
-- state propagation,
-- local recovery after perturbation.
+As complexity increases:
 
-The ability to maintain these relationships becomes a central selection criterion.
+- crossings increase,
+- conflicts increase,
+- accessibility decreases,
+- recursive stability degrades.
 
----
+The organizational burden accumulates within the same layer.
 
-# Integrity Requirement
-
-Structural integrity requires resistance against local failure.
-
-A physically admissible organization should:
-
-- absorb local disturbances,
-- preserve global coherence,
-- maintain valid state relationships.
-
-This motivates investigation of whether volumetric structures provide advantages over lower-dimensional organizations.
+No additional organizational capacity is available.
 
 ---
 
-# Recursive Requirement
+## Volumetric Resolution
 
-Persistent reality must remain capable of extension.
+A volume introduces an additional degree of organizational freedom.
 
-A viable organization must therefore support:
+Relationships can separate without destroying existing relationships.
 
-- recursive growth,
-- recursive stability,
-- recursive state propagation.
+Transitions can occur through alternative organizational routes.
 
-Whether volumetric structures provide unique advantages remains an open question.
+Complexity can increase without immediate structural conflict.
 
----
-
-# Addressability Requirement
-
-Physical states must remain distinguishable.
-
-Addressability requires:
-
-- identifiable locations,
-- stable relationships,
-- coherent neighborhood structure.
-
-The degree to which volumetric organization supports addressability is a central research topic.
+Volume therefore increases organizational capacity.
 
 ---
 
-# Preliminary Selection Principle
+## Organizational Capacity Principle
 
-A preferred organizational structure should maximize:
+A structure possessing greater organizational capacity can preserve a larger number of admissible relationships.
 
-- persistence,
-- integrity,
-- connectivity,
-- addressability,
-- recursive growth,
+Persistent recursive systems therefore favor organizational architectures that maximize relational preservation.
 
-while minimizing organizational complexity.
+This favors volumetric organization over purely surface organization.
 
 ---
 
-# Expected Outcome
+## Recursive Stability Requirement
 
-This investigation seeks to determine whether admissibility requirements imply:
+A recursive system continuously generates new relationships.
 
-> The necessity of volumetric organization.
+These relationships must remain:
 
-If such necessity emerges, the next question becomes:
+- distinguishable,
+- accessible,
+- admissible,
+- and stable.
 
-> Which volumetric structure is optimal?
+Without volumetric separation:
 
-This motivates the next stage of research:
+recursive growth eventually produces organizational collapse.
 
-- Minimal Structure Comparison
-- Cube Necessity Investigation
+Volumetric structures delay or prevent this collapse.
 
 ---
 
-# Connection to TIG
+## Why Three Dimensions?
 
-The purpose of this investigation is not to replace TIG1.
+One-dimensional organization permits only sequential relationships.
 
-The purpose is to extend the Structural Admissibility Framework toward the organization of physical space-time itself.
+Two-dimensional organization permits surface relationships.
 
-The resulting question becomes:
+Three-dimensional organization permits volumetric separation.
 
-> Can admissibility requirements constrain the geometry of reality?
+This introduces a qualitatively new organizational capability:
 
-This remains an open research problem.
+independent coexistence of multiple relationship layers.
+
+Three-dimensional organization is therefore the first structure capable of supporting persistent volumetric recursion.
+
+---
+
+## Minimal Volumetric Principle
+
+TIG proposes the working hypothesis:
+
+> Three-dimensional organization is the minimal structure capable of sustaining persistent recursive organization without inevitable relational collapse.
+
+This hypothesis motivates the investigation of volumetric space-time structures.
+
+---
+
+## Relationship to TIG
+
+Within TIG:
+
+Structural Admissibility
+
+↓
+
+Persistent Organization
+
+↓
+
+Volumetric Organization
+
+↓
+
+Recursive Stability
+
+↓
+
+Observable Geometry
+
+The volumetric character of space-time is therefore interpreted as a consequence of organizational necessity rather than a primitive assumption.
+
+---
+
+## Open Questions
+
+Several important questions remain:
+
+- Can the minimality of three dimensions be formally derived?
+- Can organizational collapse be quantified?
+- Can volumetric capacity be measured?
+- Can recursive stability be expressed mathematically?
+- Can alternative dimensionalities remain admissible?
+
+---
+
+## Future Work
+
+This investigation motivates:
+
+- Recursive Stability Theory
+- Organizational Capacity Metrics
+- Connectivity Operator Theory
+- Emergent Dimension Models
+- TIG Topological Foundations
+
+---
+
+## Success Criterion
+
+The investigation succeeds if:
+
+> persistent recursive organization can be shown to require volumetric embedding, with three dimensions representing the minimal admissible volumetric structure.
+
+Such a result would provide a topological explanation for the observed three-dimensional character of physical space.
