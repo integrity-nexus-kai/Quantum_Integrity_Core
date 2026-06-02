@@ -77,6 +77,31 @@ Mathematical Possibility
 
 ---
 
+# Operational Definition of Admissibility
+
+For the purposes of the Topological Foundations Program, a structure is considered admissible if it simultaneously satisfies:
+
+- persistence,
+- integrity,
+- connectivity,
+- addressability,
+- recursive stability.
+
+A structure failing any of these conditions is considered structurally non-admissible.
+
+Formally:
+
+A(S) = 1
+
+if all admissibility criteria are satisfied.
+
+A(S) = 0
+
+otherwise.
+
+This definition remains provisional and will be refined as quantitative measures become available.
+
+
 # Open Question
 
 What is the minimal geometric structure capable of supporting persistent admissible states?
