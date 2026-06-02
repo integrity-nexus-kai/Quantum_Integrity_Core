@@ -37,6 +37,18 @@ All candidate structures must emerge from admissibility, persistence, integrity,
 
 ---
 
+# Position within Physics
+
+The Topological Foundations Program does not begin with gravity.
+
+Instead, it investigates the structural requirements necessary for the emergence of persistent physical organization.
+
+Within this perspective, geometry, curvature, horizons, and gravitational dynamics are treated as emergent consequences of deeper organizational principles.
+
+Where General Relativity studies the dynamics of an existing geometric space-time, the Topological Foundations Program investigates the conditions under which geometric structure may emerge in the first place.
+
+The objective is therefore not to replace General Relativity, but to explore a deeper organizational layer that may underlie geometric and gravitational descriptions.
+
 ## Strategic Goal
 
 To determine whether the observed organization of space-time can be derived from structural admissibility principles rather than postulated geometrically.
