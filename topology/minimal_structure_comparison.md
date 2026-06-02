@@ -236,6 +236,18 @@ Among currently considered candidates, cubic structures appear uniquely effectiv
 
 This observation remains provisional.
 
+
+# Preliminary Evaluation Matrix
+
+| Structure | Persistence | Integrity | Connectivity | Addressability | Growth | Cost |
+|------------|------------|------------|------------|------------|------------|------------|
+| Point | Low | Low | Low | Low | Low | Low |
+| Line | Low | Low | Low | Medium | Low | Low |
+| Planar | Medium | Medium | Medium | Medium | Medium | Medium |
+| Tetrahedral | High | High | Medium | Medium | Medium | High |
+| Octahedral | High | Medium | Medium | Medium | Medium | High |
+| Cubic | High | High | High | High | High | Low |
+
 ---
 
 # Connection to Future Work
