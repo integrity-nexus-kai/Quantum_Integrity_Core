@@ -2,291 +2,309 @@
 
 ## Status
 
-Open Foundational Investigation
+Core Foundational Investigation
 
 Part of the TIG Topological Foundations Program.
 
 ---
 
-# Purpose
+## Central Question
 
-Previous investigations established:
+Why do stable organizational systems develop branches?
+
+This investigation explores whether branch formation is a necessary consequence of persistent organization operating under admissibility constraints.
+
+---
+
+## Motivation
+
+The previous investigations established:
 
 Structural Admissibility
-→ Organization
-→ Connectivity
-→ Metric
-→ Dimension
-→ Geometry
-→ Curvature
-→ Horizon Formation
-→ Critical Transition
+
+↓
+
+Persistent Organization
+
+↓
+
+Volumetric Organization
+
+↓
+
+Connectivity
+
+↓
+
+Emergent Geometry
 
 A fundamental question remains:
 
-> Why do multiple structural branches emerge?
+> How does a stable organizational structure generate multiple admissible outcomes?
 
-The purpose of this investigation is to explore whether branch formation is an unavoidable consequence of critical organizational dynamics.
-
----
-
-# Core Research Question
-
-Can branch structures emerge naturally from admissibility constraints and critical transitions?
+The answer may provide the missing bridge between topological organization and TIG critical transitions.
 
 ---
 
-# Motivation
+## Organizational Stability Principle
 
-Many physical systems exhibit branching behavior near critical points.
+A stable organizational system follows a single admissible evolution path.
 
-Examples include:
+As long as:
 
-- phase transitions,
-- bifurcation systems,
-- stability transitions,
-- critical dynamical systems.
+- connectivity remains stable,
+- accessibility remains stable,
+- organizational relationships remain stable,
 
-The emergence of multiple admissible futures appears to be a generic feature of critical organization.
+the system evolves predictably.
 
-The Topological Foundations Program investigates whether branch formation is a fundamental consequence of organizational criticality.
-
----
-
-# The Branch Problem
-
-A stable system possesses:
-
-- a single admissible regime,
-- predictable evolution,
-- persistent accessibility.
-
-As the system approaches criticality:
-
-- stability weakens,
-- accessibility changes,
-- multiple organizational possibilities may appear.
-
-The challenge is understanding why a single organizational state separates into multiple branches.
+No branch structure exists.
 
 ---
 
-# Working Hypothesis H1
+## The Overconstraint Problem
 
-Branch formation is not fundamental.
+As complexity increases:
 
-Branches emerge from critical organizational transitions.
+- relationships increase,
+- connectivity increases,
+- accessibility constraints increase.
 
----
+Eventually the system reaches a state where a single organizational continuation can no longer satisfy all admissibility requirements simultaneously.
 
-# Working Hypothesis H2
+At this point:
 
-Branches represent distinct admissible continuations of organizational evolution.
-
----
-
-# Working Hypothesis H3
-
-Branch structures appear whenever organizational constraints become degenerate.
+organizational degeneracy emerges.
 
 ---
 
-# Degeneracy Principle
+## Organizational Degeneracy
 
-Consider a stable organizational configuration.
+Degeneracy occurs when multiple organizational continuations satisfy admissibility conditions.
 
-Before criticality:
+Instead of:
 
 One State
-→ One Evolution Path
 
-Near criticality:
+↓
+
+One Future
+
+the system permits:
 
 One State
-→ Multiple Admissible Paths
 
-Branch formation emerges when the system can no longer uniquely determine its future organizational evolution.
+↓
 
----
+Multiple Admissible Futures
 
-# Organizational Bifurcation
-
-One possible interpretation is:
-
-Stable Organization
-→ Critical Threshold
-→ Branch Formation
-
-Under this view:
-
-Branches are not created.
-
-Branches become visible.
+This is the origin of branch structure.
 
 ---
 
-# Admissible and Non-Admissible Branches
+## Branch Formation Principle
 
-Not every branch must remain physically admissible.
+A branch is not created.
 
-A critical transition may generate:
-
-- admissible branches,
-- unstable branches,
-- forbidden branches.
-
-Admissibility becomes the selection mechanism.
-
----
-
-# Branch Stability
-
-Branches may differ in:
-
-- accessibility,
-- persistence,
-- stability,
-- structural integrity.
-
-Only a subset may survive long-term evolution.
-
----
-
-# Relationship to Criticality
-
-Criticality acts as the generator of branch structure.
-
-Without criticality:
-
-- no bifurcation,
-- no branch separation,
-- no structural alternatives.
+A branch becomes visible when admissibility no longer selects a unique continuation.
 
 Under this interpretation:
 
-Criticality
-→ Branch Structure
+Critical Organization
+
+↓
+
+Degeneracy
+
+↓
+
+Branch Emergence
 
 ---
 
-# Relationship to TIG
+## Accessibility Separation
+
+Before branch formation:
+
+all admissible states remain connected through a common accessibility structure.
+
+After branch formation:
+
+accessibility separates into distinct sectors.
+
+Each branch becomes a distinct organizational possibility.
+
+---
+
+## Branch Stability
+
+Not all branches possess equal stability.
+
+Branches may differ in:
+
+- persistence,
+- accessibility,
+- integrity,
+- recursive stability.
+
+Only a subset may remain viable under continued evolution.
+
+Admissibility acts as the selection mechanism.
+
+---
+
+## Why Branches Matter
+
+Branches provide an alternative to organizational collapse.
+
+Without branching:
+
+increasing complexity may force structural failure.
+
+With branching:
+
+the system reorganizes into multiple admissible sectors.
+
+Branch formation therefore becomes a mechanism of organizational preservation.
+
+---
+
+## Relationship to Geometry
+
+As geometry becomes increasingly constrained:
+
+- accessibility changes,
+- connectivity changes,
+- organizational freedom decreases.
+
+At critical thresholds:
+
+branch structures may emerge naturally.
+
+This suggests that branching is a geometric consequence of organizational criticality.
+
+---
+
+## Relationship to TIG
 
 Within TIG:
 
-The horizon condition
+the cubic horizon condition
 
 x³ − x² + β³ = 0
 
-naturally produces multiple solution branches.
+produces multiple solution sectors.
 
-The present investigation interprets this as:
+The present investigation proposes that this behavior reflects a deeper organizational principle:
 
-Organizational Criticality
-→ Structural Degeneracy
-→ Branch Formation
+Persistent Organization
 
-The cubic equation becomes a mathematical expression of a deeper organizational phenomenon.
+↓
 
----
+Critical Constraint
 
-# Relationship to the Discriminant
+↓
 
-The discriminant acts as a branch-selection boundary.
+Organizational Degeneracy
 
-When:
+↓
 
-Δ > 0
+Branch Structure
 
-multiple admissible branches may exist.
+↓
 
-When:
+TIG Critical Transition
 
-Δ = 0
-
-branches merge.
-
-When:
-
-Δ < 0
-
-the branch structure changes qualitatively.
-
-This suggests that discriminant behavior reflects organizational branch topology.
+The cubic equation therefore appears as a mathematical expression of branch emergence.
 
 ---
 
-# Relationship to Horizons
+## Relationship to Horizons
 
-A horizon may correspond to one branch of a larger organizational structure.
+A horizon may correspond to the selection of a specific branch sector.
 
 Under this interpretation:
 
 Branch Structure
-→ Horizon Sector Selection
 
-The horizon is therefore not the full structure.
+↓
 
-It is one admissible realization within it.
+Accessibility Transition
+
+↓
+
+Horizon Formation
+
+The horizon becomes a manifestation of organizational branch selection.
 
 ---
 
-# Relationship to Singularities
+## Relationship to Singularities
 
-Branch formation may prevent singular collapse.
+Traditional approaches often continue compression toward singular collapse.
 
-Instead of:
+The present framework explores an alternative possibility:
 
-Single Evolution
-→ Infinite Compression
+Critical Organization
 
-the system may undergo:
+↓
 
-Criticality
-→ Branch Formation
-→ Structural Reorganization
+Branch Emergence
+
+↓
+
+Structural Reorganization
+
+rather than:
+
+Continuous Compression
+
+↓
+
+Singularity
+
+This remains an active research hypothesis.
+
+---
+
+## Working Hypothesis
+
+TIG proposes:
+
+> Branch structures emerge whenever admissibility constraints prevent the existence of a unique organizational continuation.
 
 This remains under investigation.
 
 ---
 
-# Universality Principle
+## Open Questions
 
-A key question is whether branch structures appear universally in all sufficiently complex admissible systems.
+Several important questions remain:
 
-If true:
-
-Branch formation may represent a universal consequence of critical organization.
-
----
-
-# Open Questions
-
-Several important questions remain unresolved:
-
-- Why do cubic structures generate branch behavior?
-- Can branch formation be derived directly from admissibility?
-- Are branches observable physical entities or organizational descriptions?
+- Can branch emergence be derived mathematically from admissibility?
 - What determines branch stability?
-- Can horizon transitions always be interpreted as branch transitions?
+- Why do some branches disappear?
+- How does branch merging occur?
+- Can TIG critical points be reconstructed from organizational degeneracy?
 
 ---
 
-# Future Work
+## Future Work
 
 This investigation motivates:
 
-- Discriminant Geometry
-- Branch Stability Theory
-- Critical Organization Models
-- TIG Horizon Dynamics
-- Structural Admissibility Theory
+- Critical Transition Theory
+- Organizational Degeneracy Models
+- Branch Stability Analysis
+- Horizon Sector Dynamics
+- TIG Critical Structure Reconstruction
 
 ---
 
-# Success Criterion
+## Success Criterion
 
 The investigation succeeds if:
 
-> Branch formation can be reconstructed as a natural consequence of critical organizational dynamics and admissibility constraints.
+> branch formation can be reconstructed as a natural consequence of admissibility-constrained organization.
 
 Such a result would establish branch structure as an emergent organizational phenomenon rather than a purely mathematical artifact.
