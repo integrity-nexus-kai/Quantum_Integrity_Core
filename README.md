@@ -1,94 +1,249 @@
 # Topological Integrity Gravity (TIG)
 
-Topological Integrity Gravity (TIG) is a structurally constrained framework for horizon formation and admissible high-curvature geometry.
+Topological Integrity Gravity (TIG) is a structurally constrained gravitational research program investigating admissible horizon formation, bounded-curvature vacuum sectors, and integrity-driven geometric organization.
 
-The central result is a critical transition governing horizon formation, arising from structural consistency conditions rather than phenomenological modification.
-
----
-
-## Papers
-
-- [TIG1 — Foundational Structural Framework](./papers/tig-paper/TIG_Paper.pdf)
-- TIG2 — Exact Cubic Branch Structure of Structural Horizon Formation
-- TIG3 — Conditional Vacuum Admissibility and Bounded Curvature Structure
+The framework preserves General Relativity in the appropriate limits while introducing structural admissibility conditions governing horizon formation.
 
 ---
 
-## Core Equation
+# Current Status
 
-$$
+TIG currently possesses:
+
+- a validated Field Equation Architecture,
+- a canonical spherical realization,
+- a derived horizon condition,
+- a critical horizon transition,
+- General Relativity recovery,
+- Schwarzschild recovery,
+- Newtonian recovery,
+- bounded-curvature representative geometries.
+
+Current classification:
+
+**STRUCTURALLY VALIDATED RESEARCH CANDIDATE**
+
+TIG should currently be interpreted as a validated field-equation architecture rather than a completed gravitational field theory.
+
+---
+
+# Papers
+
+The TIG framework currently consists of three primary research layers.
+
+## TIG1
+
+Foundational admissibility framework and horizon consistency structure.
+
+## TIG2
+
+Exact horizon bifurcation analysis based on:
+
+```math
 x^3 - x^2 + \beta^3 = 0
-$$
+```
+
+including:
+
+- discriminant geometry,
+- saddle-node criticality,
+- admissible horizon sectors,
+- structural transition analysis.
+
+## TIG3
+
+Bounded-curvature vacuum realization including:
+
+- effective field-equation architecture,
+- integrity tensor realization,
+- finite-curvature geometry,
+- critical horizon dynamics,
+- observational research directions.
 
 ---
 
-## Core Idea
+# Canonical Field Equation Architecture
 
-TIG restricts admissible curvature corrections through structural consistency.
+The current TIG realization is based on:
 
-This produces a discrete transition between:
+```math
+G_{\mu\nu}
+=
+I_{\mu\nu}[g,r_c]
+```
 
-- geometries admitting horizons
-- compact configurations without admissible horizon formation
+where
+
+- \(G_{\mu\nu}\) is the Einstein tensor,
+- \(I_{\mu\nu}\) is the Integrity Tensor realization,
+- \(g_{\mu\nu}\) is the metric,
+- \(r_c\) is the integrity scale.
+
+The current spherical realization uses
+
+```math
+m(r)
+=
+\frac{M r^3}
+     {r^3+r_c^3}
+```
+
+leading to
+
+```math
+F(r)
+=
+1-
+\frac{2Mr^2}
+     {r^3+r_c^3}.
+```
 
 ---
 
-## Key Properties
+# Horizon Structure
 
-- constrained structural horizon formation
-- cubic horizon equation
-- discriminant-controlled critical transition
-- saddle-node branch structure
-- bounded-curvature representative vacuum sector
+The horizon condition becomes
+
+```math
+x^3-x^2+\beta^3=0
+```
+
+with
+
+```math
+x=\frac{r_H}{2M}
+```
+
+and
+
+```math
+\beta=\frac{r_c}{2M}.
+```
+
+The critical transition occurs at
+
+```math
+x_c=\frac{2}{3}
+```
+
+and
+
+```math
+\beta_c=
+\left(\frac{4}{27}\right)^{1/3}.
+```
+
+This bifurcation governs admissible horizon formation within the current TIG realization.
 
 ---
 
-## TIG3 Research Direction
+# Validated Results
 
-TIG3 investigates whether admissible high-curvature vacuum configurations can remain structurally bounded near critical horizon transitions.
+The following results are currently established within the TIG program:
 
-The public TIG3 layer is restricted to:
+- Tensor Construction
+- Horizon Derivation
+- Critical Transition
+- Finite Curvature
+- Structural Stability
+- Admissibility Closure
+- General Relativity Recovery
+- Schwarzschild Recovery
+- Newtonian Recovery
 
-- bounded-curvature representative geometry,
-- conditional vacuum admissibility,
-- near-critical horizon structure,
-- and structurally constrained thermodynamic behavior.
+See:
 
-Recursive operator structures and exploratory mathematical abstraction layers are intentionally maintained outside the canonical public TIG formulation.
+```text
+field_equations/validation_status.md
+```
+
+for detailed classification.
 
 ---
 
-## Observable Implications
+# Open Programs
+
+The following programs remain active:
+
+- Variational Formulation
+- Covariant Extension
+- Independent Integrity Tensor Definition
+- Dynamical Closure
+- Observational Predictions
+
+See:
+
+```text
+field_equations/open_questions.md
+```
+
+---
+
+# Observable Implications
 
 The framework motivates structurally constrained analyses of:
 
-- black-hole shadow deviations
-- gravitational lensing corrections
-- photon-sphere shifts
-- near-critical horizon transitions
+- black-hole shadow deviations,
+- gravitational lensing corrections,
+- photon-sphere shifts,
+- near-critical horizon transitions.
 
 These implications are treated as model-dependent consequences requiring further observational and theoretical analysis.
 
 ---
 
-## Simulation
+# Repository Structure
 
-A public TIG3 horizon-dynamics simulation is available through the project website:
+```text
+field_equations/
+├── field_equation_1_0.md
+├── validation_status.md
+├── open_questions.md
 
-[https://integrity-nexus-kai.github.io](https://integrity-nexus-kai.github.io)
+papers/
+├── tig-paper/
+├── TIG2/
+├── TIG3/
+
+figures/
+theory/
+topology/
+applications/
+strategy/
+axioma/
+```
 
 ---
 
-## Repository Notes
+# Scientific Position
 
-This repository contains the canonical public TIG research layer.
+TIG is not presented as a replacement for General Relativity.
 
-Exploratory recursive, operator-theoretic, and Yang--Mills-related investigations are maintained separately and are not part of the canonical public TIG release layer.
+The current objective is to investigate whether admissibility-driven geometric constraints can generate observable horizon phenomena while preserving established gravitational limits.
+
+The present repository contains the canonical public TIG research layer.
 
 ---
 
-## Author
+# Repository Notes
 
-Kai Stefan Dietrich  
-Independent Researcher  
-Contact: kai.physics@protonmail.ch
+The repository separates:
+
+- published scientific results,
+- validated field-equation architecture,
+- active research programs,
+- and open mathematical problems.
+
+Historical development chains remain archived within the repository structure and are not removed when a canonical result is established.
+
+---
+
+# Author
+
+Kai Stefan Dietrich
+
+Independent Researcher
+
+Contact:
+
+kai.physics@protonmail.ch
