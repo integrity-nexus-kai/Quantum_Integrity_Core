@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Quantum Integrity Core"
+authors:
+  - family-names: "Dietrich"
+    given-names: "Kai Stefan"
+    affiliation: "Independent Researcher"
+    email: "kai.physics@protonmail.ch"
+repository-code: "https://github.com/integrity-nexus-kai/Quantum_Integrity_Core"
+url: "https://github.com/integrity-nexus-kai/Quantum_Integrity_Core"
+abstract: "Research repository for integrity-oriented mathematical physics and related structural research materials."
+keywords:
+  - integrity
+  - mathematical physics
+  - research architecture
+license: "LicenseRef-Canonical-Integrity-License-1.0"
