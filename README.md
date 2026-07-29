@@ -238,6 +238,26 @@ Historical development chains remain archived within the repository structure an
 
 ---
 
+# Exploratory Domain-Transfer Material
+
+The file `biology_predictions.md` is an exploratory and non-canonical domain-transfer hypothesis.
+
+It is not derived from the TIG gravitational field-equation architecture and does not constitute a validated biological, medical, clinical, diagnostic, prognostic, or therapeutic result.
+
+Its presence in this repository is historical and provisional. Repository location does not assign canonical TIG status to the file.
+
+Any future biological or medical research direction requires:
+
+- separate domain expertise,
+- independent biological and medical validation,
+- appropriate empirical data,
+- explicit repository and governance review,
+- and, where applicable, ethical and regulatory assessment.
+
+No scientific result in the canonical TIG gravitational program depends on this exploratory domain-transfer file.
+
+---
+
 # Author
 
 Kai Stefan Dietrich
