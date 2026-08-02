@@ -1,5 +1,7 @@
 # Topological Integrity Gravity (TIG)
 
+> Governance candidate: the local mapping to the draft TIG Research Governance Standard is recorded in `governance/TRGS_LOCAL_PROFILE.md`. It is not an independent scientific validation or an activation of the standard.
+
 Topological Integrity Gravity (TIG) is a structurally constrained gravitational research program investigating admissible horizon formation, bounded-curvature vacuum sectors, and integrity-driven geometric organization.
 
 The framework preserves General Relativity in the appropriate limits while introducing structural admissibility conditions governing horizon formation.
