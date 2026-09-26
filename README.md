@@ -13,7 +13,7 @@ The current `main` branch is governed by the **Canonical Integrity Research & Co
 
 Commercial use, monetization, sale, paid distribution, commercial product/service integration, licensing, sublicensing, and other commercial exploitation of the current repository material require prior explicit written agreement with Kai Stefan Dietrich and expressly negotiated economic participation for Kai Stefan Dietrich.
 
-**Historical DOI exception:** the public GitHub release `v1.0.0` from 2026-05-19 is a DOI-linked archival snapshot whose tagged `LICENSE` file is the MIT License. That historical tagged/DOI-linked version is preserved as its own version-bound licensing object and is not retroactively rewritten by changes to current `main`.
+**Historical DOI exception:** the public GitHub release `v1.0.0` from 2026-05-19 is a DOI-linked archival snapshot with its own release-specific license notice. That historical tagged/DOI-linked version is preserved as its own version-bound licensing object and is not retroactively rewritten by changes to current `main`.
 
 See:
 - `LICENSE`
