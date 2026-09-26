@@ -1,76 +1,126 @@
-# Canonical Integrity License v1.0
+# Canonical Integrity Research & Commercial Rights License v2.0
 
 Copyright (c) 2026 Kai Stefan Dietrich
 
 Repository: Quantum_Integrity_Core
+Licensor / Rights Holder: Kai Stefan Dietrich
 
----
+## 1. Scope
 
-## Core Rule
+This license applies to all copyrightable texts, definitions, research architectures, governance structures, diagrams, documentation, source code, scripts, simulations, data structures, prompts, specifications, and other original materials in this repository for which Kai Stefan Dietrich owns or controls the relevant rights, unless a specific file or directory carries a different license notice.
 
-```text
-Share: yes.
-Cite: yes.
-Study: yes.
-Build upon independently: yes.
-Modify the canonical material: no.
-Misrepresent modified material as canonical: no.
-```
+Third-party materials remain subject to their own rights and license terms.
 
----
+## 2. Non-Commercial Research Permission
 
-## Canonical Repository
+Subject to attribution and the other conditions of this license, the covered material may be used without a separate commercial agreement for non-commercial purposes including:
 
-```text
-https://github.com/integrity-nexus-kai/Quantum_Integrity_Core
-```
+- reading and private study;
+- scientific review, criticism, discussion, and audit;
+- citation and linking;
+- non-commercial teaching and research;
+- sharing unchanged copies for non-commercial purposes with attribution;
+- creating non-commercial independent derivatives, provided they are clearly identified as non-canonical and do not imply endorsement, approval, co-authorship, or official continuation.
 
-Only author-approved changes in the canonical repository are considered canonical material.
+These permissions do not grant any commercial exploitation right.
 
----
+## 3. Commercial Use Is Prohibited Without Prior Written Agreement
 
-## Permitted Uses
+Any commercial use of the covered material is prohibited unless Kai Stefan Dietrich has granted prior explicit written commercial authorization or entered into a separate written commercial license agreement.
 
-You may read, study, cite, link to, share unchanged copies with attribution, review, criticize, audit, and build independent work inspired by the material.
+Commercial use includes, without limitation, any direct or indirect use for commercial advantage, monetary compensation, revenue generation, business operations, or paid exploitation, including:
 
-Independent work is allowed when clearly marked as independent and non-canonical.
+- sale, resale, rental, paid distribution, or paid access;
+- monetized publication, media, courses, training, or content;
+- incorporation into a commercial product, service, platform, application, SaaS offering, consulting deliverable, client deliverable, or internal commercial system;
+- commercial redistribution, licensing, sublicensing, franchising, white-labeling, or transfer of exploitation rights;
+- use in paid research, contract research, commercial advisory work, or commercial due-diligence products;
+- use as commercial training, fine-tuning, retrieval, evaluation, benchmark, dataset, knowledge-base, or other input for AI or machine-learning systems;
+- advertising-supported, sponsorship-supported, subscription-supported, or transaction-supported exploitation;
+- any other use whose purpose or effect is to create commercial value for a person or organization beyond mere evaluation of whether to request a commercial license.
 
----
+Mere reading, evaluation, citation, or technical review for the purpose of deciding whether to seek a commercial license is not by itself a commercial exploitation right.
 
-## Attribution
+## 4. Commercial Authorization Requires Economic Participation
 
-Any public use, citation, review, or reference should identify:
+No commercial right is granted by implication, silence, repository access, technical access, citation, contribution, correspondence, or prior non-commercial permission.
 
-```text
+Any commercial authorization must be agreed with Kai Stefan Dietrich in writing and must include an expressly agreed form of economic participation, compensation, royalty, license fee, revenue share, equity participation, or other negotiated consideration for Kai Stefan Dietrich.
+
+Unless such economic-participation terms are expressly agreed in writing, no commercial exploitation permission exists.
+
+## 5. No Transfer or Sublicense
+
+A commercial authorization is personal to the authorized party and scope stated in the written agreement. It may not be transferred, assigned, sublicensed, expanded to affiliates, or extended to additional products, services, territories, use cases, or customers unless the written authorization expressly permits that extension.
+
+## 6. Attribution and Canonical Status
+
+Permitted public use must identify, where reasonably practicable:
+
 Kai Stefan Dietrich
 Quantum_Integrity_Core
 https://github.com/integrity-nexus-kai/Quantum_Integrity_Core
+
+Only author-approved material in the canonical repository, or material expressly designated by Kai Stefan Dietrich, may be represented as canonical.
+
+Modified, translated, summarized, adapted, or independently developed material must not be represented as the canonical work or as approved, endorsed, peer-reviewed, co-authored, or institutionally validated by Kai Stefan Dietrich unless expressly authorized in writing.
+
+## 7. Patents, Trademarks, Names, and Other Rights
+
+No patent, trademark, trade-name, branding, personality, database, confidentiality, or other right is granted except the limited copyright permissions expressly stated in this license.
+
+Project names, marks, logos, and identifying designations may be used descriptively for attribution, but no commercial branding or endorsement right is granted.
+
+## 8. Software and Executable Material
+
+Unless a specific file or directory carries a different license, software, scripts, validators, simulations, prompts, agents, executable logic, and technical specifications in this repository are covered by this license, including the commercial-use prohibition in Sections 3 and 4.
+
+This license is not an OSI-approved open-source license.
+
+## 9. External and Third-Party Material
+
+This license does not relicense material owned by third parties. External audits, quoted works, imported files, datasets, images, source code, or other third-party material remain subject to the rights and notices applicable to them.
+
+Repository placement does not create ownership of third-party material.
+
+## 10. No Implied Waiver
+
+Failure to enforce a term immediately does not waive that term. Permission for one use, project, customer, transaction, or version does not create permission for another.
+
+## 11. Breach
+
+Use outside the permissions expressly granted by this license is unauthorized. Any permission granted under this license terminates for a party that materially breaches its conditions, without limiting any rights or remedies available to the rights holder.
+
+## 12. Warranty and Liability
+
+The material is provided as-is, without warranty of correctness, completeness, fitness for a particular purpose, scientific validity, legal suitability, or non-infringement.
+
+Use is at the user's own risk to the extent permitted by applicable law.
+
+## 13. License Transition
+
+This v2.0 license governs the current repository state from 2026-09-26 onward and future repository versions unless a later or artifact-specific license states otherwise.
+
+Nothing in this license is intended to retract rights, if any, that were already validly and irrevocably granted to a particular copy under an earlier license before this transition.
+
+## 14. Contact for Commercial Licensing
+
+Commercial use requires prior written agreement.
+
+Kai Stefan Dietrich
+Email: kai.physics@protonmail.ch
+GitHub: https://github.com/integrity-nexus-kai
+
+Commercial terms, including economic participation, are negotiated separately for the specific use case.
+
+---
+
+Core rule:
+
+```text
+Read / study / cite / audit non-commercially: YES
+Commercial use: NO, unless prior written agreement
+Commercial sale / monetization / product integration / licensing: NO, unless prior written agreement
+Commercial authorization without agreed economic participation: NO
+Canonical status remains controlled by Kai Stefan Dietrich
 ```
-
-Do not imply endorsement, co-authorship, approval, peer review, or institutional validation unless explicitly granted in writing.
-
----
-
-## Modification Boundary
-
-You may not publish, redistribute, or present modified versions of the canonical documents, structure, governance model, object model, or research architecture as if they were the original or canonical material.
-
-Modified versions must not use the project name in a way that suggests canonical status, author approval, or continuity with the original repository.
-
----
-
-## No Warranty
-
-The material is provided as-is, without warranty of any kind. Use of the material is at your own risk.
-
----
-
-## Rights Reserved
-
-All rights not expressly granted in this license are reserved by Kai Stefan Dietrich.
-
----
-
-## Legal Note
-
-This is a custom research-governance license. It is not an OSI-approved open-source license.
