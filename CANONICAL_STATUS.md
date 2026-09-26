@@ -34,7 +34,7 @@ Canonical status and commercial exploitation rights are separate controls.
 
 The current `main` branch is governed by the **Canonical Integrity Research & Commercial Rights License v2.0**. Commercial use of current material requires prior explicit written agreement with Kai Stefan Dietrich and expressly negotiated economic participation for Kai Stefan Dietrich.
 
-Historical exception: the DOI-linked GitHub release `v1.0.0` preserves the MIT License contained in that tagged release. The current v2.0 license does not retroactively alter that archived version.
+Historical exception: the DOI-linked GitHub release `v1.0.0` remains governed by the release-specific license notice embedded in that tagged version. The current v2.0 license does not retroactively alter that archived version.
 
 See:
 - `LICENSE`
