@@ -107,7 +107,7 @@ Nothing in this license is intended to retract rights, if any, that were already
 
 The public GitHub release `v1.0.0`, published on 2026-05-19 as a DOI-linked archival snapshot, is a separate historical release object.
 
-Its tagged repository state contains an MIT License. This v2.0 license does not rewrite, relabel, or alter the files or license notice preserved in that historical DOI-linked release.
+Its tagged repository state contains its own release-specific license notice. This v2.0 license does not rewrite, relabel, or alter the files or license notice preserved in that historical DOI-linked release.
 
 For the avoidance of doubt:
 
