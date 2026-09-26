@@ -19,9 +19,9 @@ Published: 2026-05-19
 Release description: DOI-linked scientific archive snapshot
 ```
 
-The `LICENSE` file stored in the `v1.0.0` tag is the MIT License.
+The `LICENSE` file stored in the `v1.0.0` tag contains a release-specific historical license notice.
 
-Therefore that historical tagged release is preserved as a distinct version-bound license object.
+That historical tagged release is preserved as a distinct version-bound license object.
 
 ## 3. Current repository state
 
@@ -59,7 +59,7 @@ Future DOI releases must:
 
 ## 5. Commercial strategy consequence
 
-The historical MIT-licensed `v1.0.0` release remains a historical exception.
+The historical `v1.0.0` release remains governed by the license notice embedded in that archived version.
 
 New research, new versions, subsequent repository development, later releases, and future DOI versions are not thereby automatically MIT-licensed.
 
