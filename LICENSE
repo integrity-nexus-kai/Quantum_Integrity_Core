@@ -103,6 +103,22 @@ This v2.0 license governs the current repository state from 2026-09-26 onward an
 
 Nothing in this license is intended to retract rights, if any, that were already validly and irrevocably granted to a particular copy under an earlier license before this transition.
 
+## 13A. DOI-Versioned Release Boundary — Quantum_Integrity_Core
+
+The public GitHub release `v1.0.0`, published on 2026-05-19 as a DOI-linked archival snapshot, is a separate historical release object.
+
+Its tagged repository state contains an MIT License. This v2.0 license does not rewrite, relabel, or alter the files or license notice preserved in that historical DOI-linked release.
+
+For the avoidance of doubt:
+
+- `v1.0.0` and any DOI record that archived that exact release remain governed by the license terms attached to that release copy;
+- the current `main` branch from 2026-09-26 onward is governed by this v2.0 license unless an artifact-specific notice states otherwise;
+- future DOI-versioned releases must carry the then-current intended license explicitly in the archived release files and metadata;
+- no future version may be described as commercially restricted merely by changing the current repository if the archived version itself contains a different license;
+- concept DOI / all-versions identifiers must not be used to imply that one license retroactively governs every historical version.
+
+A separate transition record is maintained in `LICENSE_DOI_TRANSITION_NOTICE.md`.
+
 ## 14. Contact for Commercial Licensing
 
 Commercial use requires prior written agreement.
