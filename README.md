@@ -4,6 +4,22 @@ Topological Integrity Gravity (TIG) is a structurally constrained gravitational 
 
 The framework preserves General Relativity in the appropriate limits while introducing structural admissibility conditions governing horizon formation.
 
+
+---
+
+## License and DOI-Version Boundary
+
+The current `main` branch is governed by the **Canonical Integrity Research & Commercial Rights License v2.0**.
+
+Commercial use, monetization, sale, paid distribution, commercial product/service integration, licensing, sublicensing, and other commercial exploitation of the current repository material require prior explicit written agreement with Kai Stefan Dietrich and expressly negotiated economic participation for Kai Stefan Dietrich.
+
+**Historical DOI exception:** the public GitHub release `v1.0.0` from 2026-05-19 is a DOI-linked archival snapshot whose tagged `LICENSE` file is the MIT License. That historical tagged/DOI-linked version is preserved as its own version-bound licensing object and is not retroactively rewritten by changes to current `main`.
+
+See:
+- `LICENSE`
+- `LICENSE_DOI_TRANSITION_NOTICE.md`
+- `CANONICAL_STATUS.md`
+
 ---
 
 # Current Status
