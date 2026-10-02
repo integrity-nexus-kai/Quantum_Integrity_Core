@@ -164,3 +164,7 @@ python tools/verify_wave2.py
 Der JSON-Nachweis enthält die vollständigen rationalen Ausdrücke für □R und den Spurrest sowie die ausgeführten Checks. Ergebnis dieses Laufs: PASS für die Rechnungsprüfung, **negatives** Ergebnis für den konkreten Vakuumlösungsanspruch. Dies ist eine Selbstprüfung desselben Reparaturlaufs, kein unabhängiger Audit und keine Freigabe einer neuen kanonischen Theorie.
 
 Die beauftragten Reparaturen QIC-01–03 sind mit den begrenzten, expliziten Ergebnissen erledigt. Offen bleiben das eigenständige Dynamik-/Materieprogramm, eine nicht angenommene topologische Eindeutigkeitsherleitung, die bereits bestehenden O1–O7, Literatur-/Horizontvoraussetzungen, Echo-Physik und der Abschluss-/Exportbuild in den folgenden Wellen. Kein bestehendes Forschungs-OQ wird durch diese Reparatur geschlossen.
+
+## Fortschreibung Welle 3 — 2026-10-02
+
+Die vorstehenden Angaben zu ungeprüfter Echo-Schätzung und ausstehender Literaturarbeit beschreiben den historischen Welle-2-Stand. Die [bedingte Laufzeit](echo_delay_with_boundaries.md) und [Quellenprüfung](../../research/wave3_source_review.md) dokumentieren jetzt deren begrenzten Reparaturabschluss. Hayward-Herkunft, Randabhängigkeit und fortbestehende dynamische/QM-/Echo-Beweispflichten sind explizit. Normierung, negatives Vakuumresultat und bestehende Forschungs-OQs bleiben erhalten.

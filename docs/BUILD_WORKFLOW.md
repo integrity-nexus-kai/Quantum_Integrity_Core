@@ -1,19 +1,19 @@
 # QIC — Manuskriptzuordnung und Build-Ablauf
 
-Version 1.1 · 2026-10-02 · TECHNISCHER ARBEITSSTAND / KEINE RELEASEFREIGABE
+Version 1.2 · 2026-10-02 · TECHNISCHER ARBEITSSTAND / KEINE RELEASEFREIGABE
 
-Aktueller Reparatureingang Welle 2: main @ `88fef45371dbefe89ee35dce4e8accc5e8eb6baa`. Historischer Welle-1-Quellenfreeze: `8fb4989d43382ccf303c8c52b2c7af746fa35034`. Zugehörige Aufgaben: QIC-17, QIC-18 und QIC-22; Kernkorrekturen QIC-01–03.
+Aktueller Reparatureingang Welle 3: main @ `da326a4041054c01f2574d02312826870616670c`. Historischer Welle-2-Eingang: `88fef45371dbefe89ee35dce4e8accc5e8eb6baa`. Historischer Welle-1-Quellenfreeze: `8fb4989d43382ccf303c8c52b2c7af746fa35034`. Zugehörige Aufgaben: QIC-17, QIC-18 und QIC-22; Kernkorrekturen QIC-01–03; Quellen-/Echo-Korrekturen QIC-15/16/10/05/11/14/12/04.
 
 ## Eigenständige Manuskriptobjekte
 
 | Paket | Quelle und Build | Tatsächliche Bindung |
 |---|---|---|
-| Papertext | `papers/tig-paper/main.tex` | Titel „Topological Integrity Gravity: A Structural Horizon Transition“, im Text Version 1.2 vom 2. Oktober 2026; repräsentativer Geometriesektor mit negativem Vakuum-f(R)-Test. |
-| Einreichung | `submission/arxiv/main.tex` | Titel „A Structural Horizon Transition in a Representative TIG Geometry: A Test Against Quadratic f(R) Gravity“, überarbeiteter Draft vom 2. Oktober 2026; Normierung korrigiert, negativer Vakuumtest, Echo-Schätzung ungeprüft. |
+| Papertext | `papers/tig-paper/main.tex` | Titel „Topological Integrity Gravity: A Structural Horizon Transition“, im Text Version 1.3 vom 2. Oktober 2026; repräsentativer Geometriesektor mit negativem Vakuum-f(R)-Test. |
+| Einreichung | `submission/arxiv/main.tex` | Titel „A Structural Horizon Transition in a Representative TIG Geometry: A Test Against Quadratic f(R) Gravity“, überarbeiteter Draft vom 2. Oktober 2026; Normierung korrigiert, negativer Vakuumtest, bedingte Laufzeit hergeleitet, physische Echo-Vorhersage offen. |
 
 Die Pakete unterscheiden sich inhaltlich und sind keine nachgewiesenen Exporte derselben Quelle. Beide behalten ihr eigenes main.tex als Quelle ihres Texts; gemeinsamer Nachfolger und fachliche Harmonisierung bleiben Gegenstand der folgenden Wellen. Das strukturelle Register steht in [OBJECT_OWNERSHIP.md](../OBJECT_OWNERSHIP.md).
 
-Das Paper verwendet jetzt ein eingebettetes `thebibliography` mit zwölf Einträgen (Welle-1-Eingang: zehn). Seine `references.bib` sowie `abstract.tex` und `photon_sphere.tex` sind im geprüften main.tex nicht eingebunden. Änderungen dort ändern dieses PDF derzeit nicht. Das Einreichungspaket verwendet `references.bib` mit `unsrt`; es zitiert jetzt fünf Schlüssel (Welle-1-Eingang: vier). Die drei neuen Literaturquellen sind in beiden Bib-Dateien vorhanden, werden im Ausgangstext aber nicht zitiert: QIC-12 und QIC-13 bleiben offen.
+Das Paper verwendet ein eingebettetes thebibliography mit **18 Einträgen**. Seine references.bib sowie abstract.tex und photon_sphere.tex sind nicht eingebunden; die ersten beiden wurden als Begleitobjekte nachgeführt. Das Einreichungspaket verwendet references.bib mit unsrt und zitiert **elf Schlüssel**. Ghosh/Sarkar, Bessa und Garay werden jetzt in beiden Texten an ihren begrenzten Aussagepositionen zitiert; QIC-12 ist erledigt. Die erforderliche arXiv-/DOI-/Linkausgabe im unsrt-Build bleibt QIC-13/Welle 4 offen.
 
 ## Reproduzierbarer lokaler Build
 
@@ -49,10 +49,18 @@ Das arXiv-Paket wird innerhalb des Repositorybaums gebaut. Es ist wegen des rela
 
 Die eingecheckten älteren PDFs werden in Welle 1 nicht ersetzt oder als Resultat dieses Builds ausgegeben. Ihre Quellenbindung gehört zu QIC-20. Build-Metadaten und Quellenfingerprints stehen in [repair_tracking.json](../registry/repair_tracking.json).
 
-## Aktuelle Prüfung nach Welle 2
+## Historische Prüfung nach Welle 2
 
 Beide fachlich korrigierten Manuskripte bauen mit dem bestehenden Skript erfolgreich. Paper: zehn Seiten; Einreichung: sechs Seiten. Alle 16 Seiten der letzten Fassung gerendert und gesichtet, keine abgeschnittenen oder fehlenden Inhalte gesehen. Die finalen LaTeX-Logs enthalten keine Warnungen, offenen Zitate/Querverweise oder Overfull-Boxen. Die bisherige mathematische Abschnittsüberschrift der Einreichung wurde im Zuge der Kernkorrektur ersetzt; die beiden früheren Bookmarkwarnungen treten dadurch nicht mehr auf.
 
 Der vorhandene clearpage vor dem Einreichungs-Literaturverzeichnis und unsrt bleiben erhalten. Die bibliografische Linkausgabe und das Endlayout gehören weiter QIC-13/22 in Welle 4. Die alten eingecheckten PDFs werden durch diese lokale Prüfung nicht automatisch ersetzt. Live-Overleaf, eigenständiges Upload-ZIP und Veröffentlichung wurden nicht geprüft oder ausgeführt.
 
 Mathematische Selbstprüfung mit SymPy (geprüft 1.14.0): `python tools/verify_wave2.py`. Dieser Lauf rekonstruiert die Krümmung aus der Metrik und prüft 27 Bedingungen. Ein PASS der Rechnung steht neben dem **negativen** Vakuumlösungsresultat; es ist keine wissenschaftliche Promotion. Quellen, Rechnungen und Build-Fingerprints: [Welle-2-Arbeitsnachweis](REPAIR_WAVE2_2026-10-02.md), [Kernrechnung](../papers/derivations/quadratic_fr_and_horizon_checks.md), [Nachweissicht](../registry/repair_tracking.json).
+
+## Aktuelle Prüfung nach Welle 3
+
+Beide Manuskripte mit tools/build_manuscripts.py in frischen Ausgabeordnern gebaut; danach je zwei explizite finale pdflatex-Pässe im jeweiligen Paket-Ausgabeordner. Erst danach vollständige PDFs und Logs gebunden und ihre SHA-256-Fingerprints erneut gelesen. Paper: **zwölf Seiten**, Einreichung: **sieben Seiten**; alle 19 finalen Seiten gerendert und visuell geprüft, keine abgeschnittenen oder fehlenden Inhalte festgestellt. Extrahierte Zitate aufgelöst, finale LaTeX-Logs ohne Warnungen, fehlende Referenzen oder Overfull-Boxen. Fingerprints in registry/repair_tracking.json unter wave3.builds.
+
+Die bestehenden unsrt-Linkgrenzen und die Freifläche durch clearpage bleiben Abschlussarbeit in Welle 4. Dieser Arbeitsbuild ersetzt keine eingecheckten älteren PDFs, kein eigenständiges Upload-ZIP und keinen Live-Overleaf-Test. Kein Release erzeugt.
+
+Mathematische Prüfung (SymPy 1.14.0, mpmath 1.3.0): python tools/verify_wave3.py. 18 exakte und fünf numerische Bedingungen mit 60 Dezimalstellen geprüft: Hayward-Identität, lokale Faltenentwicklung, Laufzeitvorfaktoren, Oberflächengravitation, Testskalaroperator sowie horizontlose, mitlaufende und feste äußere Grenzen. Physische Reflexion, gravitative Störungen und eine beobachtbare Echo-Wellenform werden dadurch nicht nachgewiesen. [Laufzeitableitung](../papers/derivations/echo_delay_with_boundaries.md) · [Arbeitsnachweis](REPAIR_WAVE3_2026-10-02.md).

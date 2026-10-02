@@ -61,7 +61,7 @@ Kai Stefan Dietrich\\
 Independent Researcher\\
 \texttt{kai.physics@protonmail.ch}
 }
-\date{Version 1.2 -- 2 October 2026}
+\date{Version 1.3 -- 2 October 2026}
 
 \begin{document}
 
@@ -78,9 +78,11 @@ coalesce in a nondegenerate local fold with square-root separation. The cubic
 is a consequence of the chosen mass profile, not a universal requirement of
 fold bifurcations or dimensional consistency. A direct trace test also excludes
 this nontrivial representative metric as an exact vacuum solution of
-constant-coefficient quadratic metric \(f(R)\) gravity. The Schwarzschild limit
-and the bounded-curvature core remain geometric properties of the specified
-model; dynamical completion and observational forecasts remain separate tasks.
+constant-coefficient quadratic metric \(f(R)\) gravity. This geometry is a reparameterized Hayward metric.
+The Schwarzschild limit and bounded-curvature core remain geometric properties.
+A prescribed reflecting model yields a conditional inverse-square-root
+round-trip delay on the horizonless side. Physical reflection, dynamical
+completion and observational forecasts remain separate tasks.
 \end{abstract}
 
 \section{Introduction}
@@ -131,6 +133,12 @@ select that profile uniquely. The resulting critical point is a boundary
 between horizon and non-horizon configurations within this model. The associated root coalescence is structurally analogous to
 fold-type criticality and saddle-node bifurcations known from catastrophe theory
 \cite{arnold1992}.
+
+The representative geometry below is exactly Hayward's static family
+\cite{hayward2006} after setting $r_c^3=2M\ell^2$. Its metric and horizon
+coalescence are known properties, not new geometric discoveries.
+At fixed $\ell$, varying $M$ changes $r_c$; a fixed-$r_c$ parameter scan is
+not Hayward's time evolution.
 
 \section{Geometric and Physical Setup}
 
@@ -586,6 +594,100 @@ and a demonstrated map from the geometry to the observable. The horizon-root
 fold alone does not establish enhanced sensitivity or a critical exponent for
 every proposed observable.
 
+\section{Literature Context and Theorem Boundaries}
+
+Static horizon roots and dynamical formation are distinct. Hayward's
+time-dependent example supplies mass evolution and fluxes
+\cite{hayward2006}; these are additional inputs, not consequences of our cubic.
+Trapping horizons need not be global event horizons.
+
+The zeroth-law analysis of Ghosh and Sarkar \cite{ghosh2026zerothlaw}
+assumes a smooth stationary Killing horizon and appropriate field equations
+and matter conditions. Its Ricci-squared argument uses nonzero coupling,
+a compact connected boundaryless section and non-extremality. Pure $f(R)$
+uses the mixed projection and requires $f_R\ne0$ instead.
+Our critical horizon has $\kappa=0$; spherical angular constancy does not
+prove a field-equation solution or horizon formation.
+
+Bessa \cite{bessa2026matterdensityquadratic} studies scalar dust perturbations
+of flat FLRW in full quadratic gravity, including Weyl squared, with
+sub-horizon and quasi-static approximations. Its formal infrared continuation
+does not prove TIG perturbative stability or a controlled super-horizon limit.
+
+Garay et al.\ \cite{garay2026globalvariablesemergentcosmology} provide an
+indirect two-vertex LQG comparison, not ordinary quantum mechanics recovered
+from TIG. Finite-dimensional quantum reconstruction
+\cite{chiribella2011} requires its own operational assumptions.
+No TIG derivation of these assumptions or quantum recovery is supplied here.
+
+\section{Conditional Round-Trip Delay}
+
+In a connected static region with $F>0$, radial null propagation gives
+$dt=\pm dr/F$. We additionally prescribe an inner reflector at
+$r_{\rm ref}=2Mx_{\rm ref}>0$ and a partially reflecting, transmitting outer
+scattering boundary at $r_b=2Mx_b$. Neither boundary is derived from TIG.
+The geometric round-trip time in asymptotically normalized $t$ is
+\begin{equation}
+T_{\rm rt}=2\int_{r_{\rm ref}}^{r_b}\frac{dr}{F}
+=4M\int_{x_{\rm ref}}^{x_b}\frac{x^3+\beta^3}{x^3-x^2+\beta^3}\,dx.
+\label{eq:roundtrip}
+\end{equation}
+Echo-like output additionally requires excitation and appropriate scattering;
+this formula supplies neither a waveform nor a gravitational perturbation
+equation. A minimally coupled massless test scalar would have
+\begin{equation}
+(-\partial_t^2+\partial_{r_*}^2-V_\ell)\psi_\ell=0,\qquad
+\frac{dr_*}{dr}=\frac1F,\qquad
+V_\ell=F\left[\frac{\ell(\ell+1)}{r^2}+\frac{F'}r\right].
+\end{equation}
+An ideal Dirichlet inner boundary reflects that test field; its physical
+origin and the required outer scattering remain assumptions.
+The horizonless-object calculation of Cardoso et al.\ \cite{cardoso2016}
+is a methodological comparison with different geometry and boundary data.
+Its one-way delay is distinct from the round trip defined here.
+
+For fixed $M$, set $\eta=\beta-\beta_c>0$, $\delta=x-x_c$,
+$D_0=4/9$ and $s=\sqrt3\beta_c\sqrt{\eta}$. Above criticality $F>0$ at
+all positive radii. The exact numerator is
+\begin{equation}
+P=\delta^2+\delta^3+3\beta_c^2\eta+3\beta_c\eta^2+\eta^3.
+\end{equation}
+Its bottleneck has $F\sim(\delta^2+s^2)/D_0$. If the fixed endpoints
+satisfy $0<x_{\rm ref}<x_c<x_b$, the scaled integral in
+Eq.~\eqref{eq:roundtrip} contains
+$\int_{-\infty}^{\infty}dy/(1+y^2)=\pi$ and hence
+\begin{equation}
+T_{\rm rt}\sim\frac{16\pi M}{9\sqrt3\beta_c}
+(\beta-\beta_c)^{-1/2},\qquad \beta\downarrow\beta_c,\quad\beta>\beta_c.
+\label{eq:conditional_delay}
+\end{equation}
+The ratio to this leading term tends to one. The local scaled integrand is
+dominated by a constant times $(1+y^2)^{-1}$; regions away from $x_c$
+have bounded travel time. One fixed endpoint at $x_c$ halves the coefficient;
+two fixed endpoints strictly on the same side have a finite limit.
+A fixed exterior observer with a finite positive limiting lapse measures
+$\Delta\tau_{\rm obs}=\sqrt{F(r_{\rm obs})}\,T_{\rm rt}$.
+
+Below criticality, let $\epsilon=\beta_c-\beta>0$ and
+$s=\sqrt3\beta_c\sqrt{\epsilon}$. Returning exterior paths must stay at
+$x>x_+$. Fixed $x_c<x_{\rm ref}<x_b$ give a finite critical limit.
+Only the additional tracking prescription
+$x_{\rm ref}=x_++(q-1)s$, with fixed $q>1$, gives
+\begin{equation}
+T_{\rm rt}\sim\frac{2MD_0}{\sqrt3\beta_c}
+\ln\frac{q+1}{q-1}\,\epsilon^{-1/2}.
+\end{equation}
+This prescribes a coordinate gap, not a fixed proper gap.
+At fixed subcritical $\beta$, a mirror approaching the simple outer horizon
+instead gives $T_{\rm rt}=-\kappa_+^{-1}\ln(h/L)+O(1)$, where
+$h=r_{\rm ref}-r_+\to0^+$ and $L>0$ is fixed.
+At exact criticality, $x_{\rm ref}=x_c+d$ gives
+$T_{\rm rt}\sim16M/(9d)$ as $d\to0^+$.
+Crossing a future outer horizon is not a returning exterior signal path.
+The former unrestricted $(\beta_c-\beta)^{-1/2}$ echo claim therefore does
+not hold for arbitrary boundaries. Equation~\eqref{eq:conditional_delay}
+is a conditional geometric delay, not a demonstrated physical TIG echo.
+
 \section{Scope and Limitations}
 
 This paper develops the algebraic horizon structure of TIG. Several important
@@ -617,6 +719,14 @@ has a Schwarzschild limit and a finite-curvature core, but fails the vacuum
 trace equation of the tested constant-coefficient quadratic metric action.
 A dynamical completion with specified sources, perturbative stability, and
 observable predictions must be established separately.
+
+
+The static family is identified with Hayward's earlier metric. With additionally
+prescribed reflection and fixed endpoints straddling the horizonless bottleneck,
+the round-trip delay has exponent $-1/2$ on the $\beta>\beta_c$ side.
+Subcritical delays depend on the mirror prescription. Neither this kinematic
+calculation nor the comparison literature establishes physical TIG echoes,
+dynamical horizon formation or quantum-mechanical recovery.
 
 \begin{thebibliography}{99}
 
@@ -681,6 +791,47 @@ J. R. Chasnov,
 \textit{Applied Linear Algebra and Differential Equations},
 HKUST lecture notes (preface January 2020), Sec.~11.2.1,
 \url{https://www.math.hkust.edu.hk/~machas/applied-linear-algebra-and-differential-equations.pdf}.
+
+
+\bibitem{hayward2006}
+S. A. Hayward,
+\textit{Formation and Evaporation of Nonsingular Black Holes},
+Phys. Rev. Lett. 96, 031103 (2006),
+\href{https://doi.org/10.1103/PhysRevLett.96.031103}{doi:10.1103/PhysRevLett.96.031103},
+\href{https://arxiv.org/abs/gr-qc/0506126v2}{arXiv:gr-qc/0506126v2}.
+
+\bibitem{cardoso2016}
+V. Cardoso, E. Franzin, and P. Pani,
+\textit{Is the gravitational-wave ringdown a probe of the event horizon?},
+Phys. Rev. Lett. 116, 171101 (2016),
+\href{https://doi.org/10.1103/PhysRevLett.116.171101}{doi:10.1103/PhysRevLett.116.171101},
+\href{https://arxiv.org/abs/1602.07309v4}{arXiv:1602.07309v4 (includes Erratum)}.
+
+\bibitem{ghosh2026zerothlaw}
+R. Ghosh and S. Sarkar,
+\textit{How Universal Is the Black Hole Zeroth Law?},
+\href{https://arxiv.org/abs/2609.24648v1}{arXiv:2609.24648v1},
+preprint, submitted 21 September 2026.
+
+\bibitem{bessa2026matterdensityquadratic}
+P. Bessa,
+\textit{Matter density perturbations in Quadratic Gravity},
+\href{https://arxiv.org/abs/2609.29046v1}{arXiv:2609.29046v1},
+preprint, submitted 24 September 2026; author reports submission to PRD,
+journal receipt date not verified.
+
+\bibitem{garay2026globalvariablesemergentcosmology}
+I. Garay, L. J. Garay, D. H. Gugliotta, S. Rodr\'iguez-Gonz\'alez, and R. Vera,
+\textit{Global variables and dynamics of emergent cosmology in loop gravity},
+\href{https://arxiv.org/abs/2609.31123v1}{arXiv:2609.31123v1},
+preprint, submitted 25 September 2026.
+
+\bibitem{chiribella2011}
+G. Chiribella, G. M. D'Ariano, and P. Perinotti,
+\textit{Informational derivation of quantum theory},
+Phys. Rev. A 84, 012311 (2011),
+\href{https://doi.org/10.1103/PhysRevA.84.012311}{doi:10.1103/PhysRevA.84.012311},
+\href{https://arxiv.org/abs/1011.6451v3}{arXiv:1011.6451v3}.
 
 \end{thebibliography}
 

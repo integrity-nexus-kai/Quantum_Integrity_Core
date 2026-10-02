@@ -2,14 +2,16 @@
 
 ## Repository Repair Agent — Aufgabenliste
 
-**[REPAIR_TODO.md v1.3 — aktuelle Arbeitsgrundlage mit 24 Aufgaben](REPAIR_TODO.md)**
+**[REPAIR_TODO.md v1.4 — aktuelle Arbeitsgrundlage mit 24 Aufgaben](REPAIR_TODO.md)**
 
-Einstieg für den beauftragten Repair Agent: aktuelle Arbeitsgrundlage v1.3 vom 2. Oktober 2026. Vier Arbeitswellen; Wellen 1 und 2 ausgeführt, nächster Einstieg QIC-15 in Welle 3. Zuordnung, stabile IDs, Herkunft und offene Bearbeitungsstände stehen in der Liste. QIC-23 gilt vor jeder Veröffentlichung.
+Einstieg für den beauftragten Repair Agent: aktuelle Arbeitsgrundlage v1.4 vom 2. Oktober 2026. Vier Arbeitswellen; Wellen 1 bis 3 ausgeführt, nächster Einstieg QIC-19 in Welle 4. Zuordnung, stabile IDs, Herkunft und offene Bearbeitungsstände stehen in der Liste. QIC-23 gilt vor jeder Veröffentlichung.
 
-[Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md) · [Welle-2-Arbeitsnachweis](docs/REPAIR_WAVE2_2026-10-02.md) · [Manuskriptzuordnung und Build](docs/BUILD_WORKFLOW.md) · [Tatsächliche Quellenkarte](REPOSITORY_MAP.md).
+[Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md) · [Welle-2-Arbeitsnachweis](docs/REPAIR_WAVE2_2026-10-02.md) · [Welle-3-Arbeitsnachweis](docs/REPAIR_WAVE3_2026-10-02.md) · [Manuskriptzuordnung und Build](docs/BUILD_WORKFLOW.md) · [Tatsächliche Quellenkarte](REPOSITORY_MAP.md).
 
 
 **Geprüfter Manuskriptstand Welle 2:** Die kubische Horizontgleichung und ihr kritischer Punkt gelten für das konkret gewählte Massenprofil. Diese Metrik ist bei M>0 und r_c>0 keine Vakuumlösung der geprüften konstanten quadratischen metrischen f(R)-Theorie. Die nachstehenden Architekturstatus werden damit nicht als positiver f(R)-Lösungsbeweis ausgegeben; eigenständige Dynamik, Materiequelle und bestehende Forschungsfragen bleiben offen. [Rechnung und Voraussetzungen](papers/derivations/quadratic_fr_and_horizon_checks.md).
+
+**Geprüfter Manuskriptstand Welle 3:** Die repräsentative Metrik ist exakt eine umparametrisierte Hayward-Familie; ihre statische Horizontkoaleszenz ist bekannt. Der Echo-Exponent −1/2 gilt für die hergeleitete Laufzeit nur mit ausgewiesenen Integrationsgrenzen und Spiegelvorschriften. Physische TIG-Echos, dynamische Horizontentstehung und TIG-QM-Rückgewinnung bleiben offene Forschungsaufgaben. [Welle-3-Ergebnisse und Grenzen](docs/REPAIR_WAVE3_2026-10-02.md).
 
 Topological Integrity Gravity (TIG) is a structurally constrained gravitational research program investigating admissible horizon formation, bounded-curvature vacuum sectors, and integrity-driven geometric organization.
 

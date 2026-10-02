@@ -67,8 +67,8 @@ PRIMARY_OWNER_REPOSITORY für alle Zeilen: `integrity-nexus-kai/Quantum_Integrit
 
 | OBJECT_ID / OBJECT_NAME / PRIMARY_OWNER_PATH | OBJECT_TYPE | OWNERSHIP_CATEGORY | CLAIM_BOUNDARY | REVIEW_STATUS |
 |---|---|---|---|---|
-| `papers/tig-paper/main.tex` | Papertext | local-paper-object | Repräsentatives statisch-sphärisches Modell; Umfang laut Papertext | strukturell registriert; QIC-01–03 repariert, QIC-04 offen |
-| `submission/arxiv/main.tex` | Einreichungsmanuskript | local-submission-object | Eigener begrenzter Modelltext, negativer Vakuum-f(R)-Test, Echo-Schätzung offen; keine Exportgleichheit | QIC-01–03 repariert; eigenständige Dynamik/Materie und QIC-04 offen |
+| `papers/tig-paper/main.tex` | Papertext | local-paper-object | Repräsentatives statisch-sphärisches Modell; Umfang laut Papertext | strukturell registriert; QIC-01–04 repariert, Echo-Physik offen |
+| `submission/arxiv/main.tex` | Einreichungsmanuskript | local-submission-object | Eigener begrenzter Modelltext, negativer Vakuum-f(R)-Test, bedingte Laufzeit, keine Exportgleichheit | QIC-01–04 repariert; eigenständige Dynamik/Materie und physische Echo-Vorhersage offen |
 | `field_equations/field_equation_1_0.md` | Feldgleichungsarchitektur | local-canonical-object | Research Candidate mit statisch-sphärischem Scope laut Quelle; keine vollständige kovariante Theorie | Quellstatus unverändert; parallele Tensorstatus nicht harmonisiert |
 | `topology/theory/` | Grundlagen- und Strukturprogramm | local-research-object | Exploratory Mathematical Research laut eigenen Controls | Strukturzuordnung, keine wissenschaftliche Promotion |
 | `theory/integrity_tensor/` | Tensorforschung und Kandidaten | local-research-object | Kandidatenslots, Evaluationen und Auditobjekte bleiben getrennt | Statusunterschiede in repair_tracking dokumentiert |
@@ -77,3 +77,11 @@ PRIMARY_OWNER_REPOSITORY für alle Zeilen: `integrity-nexus-kai/Quantum_Integrit
 Die strukturelle Zuordnung bestimmt, welche Datei für ihren eigenen Text bearbeitet wird. Sie erklärt keines der beiden Manuskripte zum globalen Scientific Owner aller TIG-Aussagen. Ein gemeinsamer wissenschaftlicher Nachfolger oder eine Exportgleichheit wird erst aus dem Quellenabgleich begründet. Stand und Nachweise: [Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md).
 
 Fortschreibung Welle 2: Quellenfreeze `88fef45371dbefe89ee35dce4e8accc5e8eb6baa`; [Kernrechnung](papers/derivations/quadratic_fr_and_horizon_checks.md) und [Arbeitsnachweis](docs/REPAIR_WAVE2_2026-10-02.md). Der negative quadratische Vakuumtest wird nicht auf die separate effektive TIG-Tensorarchitektur übertragen.
+
+Fortschreibung Welle 3: Quellenfreeze `da326a4041054c01f2574d02312826870616670c`; [Arbeitsnachweis](docs/REPAIR_WAVE3_2026-10-02.md). Beide Manuskripte führen ihre geprüften Quellen und Laufzeitgrenzen selbst. Primäre Pfade der neuen Reparaturnachweise, mit unveränderter Repositoryzuständigkeit und LOCAL_REFERENCE_PATH jeweils gleich PRIMARY_OWNER_PATH:
+
+| OBJECT_ID / OBJECT_NAME / PRIMARY_OWNER_PATH | OBJECT_TYPE | OWNERSHIP_CATEGORY | CLAIM_BOUNDARY | REVIEW_STATUS |
+|---|---|---|---|---|
+| `research/wave3_source_review.md` | Quellenprüfnotiz | local-research-object | versionierte fremde Quellen und lokale Übertragungsprüfung; kein TIG-Theorem | benannte Passagen geprüft, same-run |
+| `papers/derivations/echo_delay_with_boundaries.md` | Bedingte Laufzeitableitung | local-research-object | statische Geometrie, vorgeschriebene Reflexion und Grenzen; keine physische TIG-Echo-Vorhersage | 18 exakte / fünf numerische Bedingungen PASS, same-run |
+| `tools/verify_wave3.py` | Rechenprüfung | local-research-object | lokale Identitäts-/Konvergenzprüfung, keine unabhängige wissenschaftliche Validierung | ausgeführt mit SymPy 1.14.0 / mpmath 1.3.0 |
