@@ -78,9 +78,9 @@ Dies entspricht einer de-Sitter-artigen Kernstruktur.
 
 ---
 
-### 4. Minimale interpolierende Massenfunktion
+### 4. Gewählte interpolierende Massenfunktion
 
-Die einfachste glatte Funktion, die beide Grenzfälle erfüllt, ist:
+Eine einfache interpolierende Funktion, die beide Grenzfälle erfüllt, ist:
 
 \[
 M(r) = M \frac{r^3}{r^3 + r_0^3}
@@ -134,7 +134,7 @@ Der Parameter \( r_0 \) ist die Integritätsskala des TIG-Modells.
 
 ### 8. Status der Herleitung
 
-Diese Herleitung ist effektiv und basiert auf physikalischen Anforderungen, nicht auf einer vollständigen Variation der TIG-Wirkung.
+Diese Herleitung ist effektiv und basiert auf physikalischen Anforderungen, nicht auf einer vollständigen Variation der TIG-Wirkung. Die beiden Grenzfälle bestimmen die Massenfunktion nicht eindeutig: Auch M r³/(r²+r₀²)^(3/2) erfüllt sie. Der konkrete kubische Horizontterm folgt erst aus dem hier gewählten Nenner r³+r₀³. Für M>0 und r₀>0 ist diese Metrik keine Vakuumlösung des geprüften konstanten quadratischen metrischen f(R)-Modells; die Spurprüfung und ihre Voraussetzungen stehen in [quadratic_fr_and_horizon_checks.md](quadratic_fr_and_horizon_checks.md).
 
 ---
 
@@ -201,4 +201,4 @@ The parameter \( r_0 \) represents the integrity scale of the TIG framework.
 
 ### 8. Status
 
-This is an effective derivation based on physical constraints.
+This is an effective derivation based on physical constraints. The limiting requirements do not uniquely select the profile: M r³/(r²+r₀²)^(3/2) also satisfies them. The cubic horizon term follows from the selected denominator. For M>0 and r₀>0, the metric fails the vacuum trace test for the constant-coefficient quadratic metric f(R) model; see [the explicit check](quadratic_fr_and_horizon_checks.md).
