@@ -1,12 +1,14 @@
 # QIC — Reparaturbericht: alter Stand, neuer Stand und Delta
 
-**Version:** 1.0 · **Datum:** 2. Oktober 2026  
+**Version:** 1.1 · **Datum:** 2. Oktober 2026  
 **Repository:** integrity-nexus-kai/Quantum_Integrity_Core · **Branch:** main  
 **Umfang:** die 24 beauftragten QIC-Reparaturen, Wellen 1–4  
 **Ergebnis:** **23 erledigt, 1 teilbearbeitet, 0 unbegonnen**  
 **Human Authority:** Kai Stefan Dietrich
 
-Dieser Markdown-Bericht dokumentiert die ausgeführte Reparatur und ihren Restumfang. Die einzige aktive Arbeitsliste bleibt [REPAIR_TODO.md v1.5](../REPAIR_TODO.md); dieser Bericht ist keine zusätzliche Aufgabenliste. Die PDFs sind erzeugte Manuskriptfassungen und Prüfarbeitsartefakte. Der Reparaturbericht selbst liegt hier als bearbeitbare Repo-Datei vor.
+Dieser Markdown-Bericht dokumentiert die ausgeführte Reparatur und ihren Restumfang. Die einzige aktive Arbeitsliste bleibt [REPAIR_TODO.md v1.6](../REPAIR_TODO.md); dieser Bericht ist keine zusätzliche Aufgabenliste. **Abschluss-Ergänzung:** Die sechs fachlichen Punkte sind jetzt als [offene Forschungsfragen QIC-RQ-01–06](../field_equations/open_questions.md#offene-forschungsfragen-aus-der-reparatur--2-oktober-2026) dokumentiert und auf Nutzerauftrag für später zurückgestellt. Die zusätzliche gesamte erreichbare Historienprüfung hat einen inhaltlich passenden Hauptquellkandidaten für das vierseitige Mai-Paper gefunden. Vollständige Originalpakete bleiben unbestätigt; QIC-20 bleibt quellenblockiert. [Abschlussnachweis](REPAIR_CLOSEOUT_2026-10-02.md). Die folgenden Welle-4-Vergleichssnapshots bleiben ihre historischen Bezugsstände.
+
+Die PDFs sind erzeugte Manuskriptfassungen und Prüfarbeitsartefakte. Der Reparaturbericht selbst liegt hier als bearbeitbare Repo-Datei vor.
 
 ## 1. Alter und neuer Stand
 
@@ -78,13 +80,13 @@ Einzelnachweise: [Nachweisregister](../registry/repair_tracking.json), [Kernrech
 | [TIG3_Vacuum_Structure.pdf](../papers/tig-paper/TIG3_Vacuum_Structure.pdf) | 14 Seiten, Titel „Topological Integrity Gravity III: Conditional Vacuum Admissibility and Bounded Curvature Structure“, Druckdatum 17. Mai 2026; PDF-Identität, Upload und DOI-Archiv belegt | Das genau dazugehörige ursprüngliche LaTeX-Paket einschließlich Literatur, Abbildungen und eingebundener Dateien |
 | [TIG_Paper.pdf](../papers/tig-paper/TIG_Paper.pdf) | Vier Seiten, Titel „Topological Integrity Gravity (TIG): A Quadratic f(R) Model with a Critical Horizon Transition“, Druckdatum 3. Mai 2026; PDF-Identität, Upload und DOI-Archiv belegt | Das genau dazugehörige ursprüngliche LaTeX-Paket einschließlich Literatur, Abbildungen und eingebundener Dateien |
 
-Die vorhandenen Kandidaten im aktuellen Repository, den geprüften Upload-/Tag-Ständen und dem veröffentlichten Archiv haben abweichende Titel oder Inhalte. Die passenden Pakete müssen daher vom Autor bereitgestellt beziehungsweise in der ursprünglichen Arbeitsablage gefunden werden. Ein benachbartes main.tex oder ein aktuelles Reparaturmanuskript schließt diese Quellenlücke nicht.
+Die in Welle 4 geprüften Kandidaten im aktuellen Repository, den Upload-/Tag-Ständen und dem veröffentlichten Archiv hatten abweichende Titel oder Inhalte. Die zusätzliche vollständige erreichbare Historienprüfung findet nun einen inhaltlich passenden Hauptquellkandidaten für das vierseitige Mai-Paper. Das vollständige Originalpaket und die genaue Erzeugungsbindung sind weiterhin nicht bestätigt; für TIG3 bleibt die passende Quelle unidentifiziert. Suche, Vergleich, Rekonstruktion und Dokumentation übernimmt der Repair Agent nach Zugriff auf die erforderlichen Quellen. Ein benachbartes main.tex oder ein aktuelles Reparaturmanuskript schließt die verbleibende Quellenlücke nicht. [Erweiterter Quellenbefund](REPAIR_CLOSEOUT_2026-10-02.md).
 
 Nach Eingang der Pakete kann der Repair Agent sämtliche Eingaben inventarisieren und mit Fingerprints sichern, den Build rekonstruieren, Titel/Text/Literatur/Abbildungen gegen das jeweilige Mai-PDF vergleichen und die bestätigte Quellen-/Versionsbindung dokumentieren. Erst danach kann QIC-20 auf ERLEDIGT gesetzt werden. Byteidentische PDF-Ausgabe ist bei anderen Compilerständen nicht automatisch zu erwarten; die tatsächliche Reproduktionsgrenze ist festzuhalten.
 
 ## 5. Was bleibt wissenschaftlich offen?
 
-Diese Forschungsfragen bestehen zusätzlich zum einzelnen technischen Restpunkt. Ihre Erschließung ist erledigt; ihre wissenschaftliche Lösung wurde durch die Reparatur nicht erreicht.
+Diese Forschungsfragen sind vollständig als QIC-RQ-01–06 im [bestehenden Forschungsfragen-Dokument](../field_equations/open_questions.md#offene-forschungsfragen-aus-der-reparatur--2-oktober-2026) aufgenommen. Alle sind OFFEN; ihre Bearbeitung ist auf ausdrücklichen Nutzerauftrag für später ZURÜCKGESTELLT. Sie bestehen zusätzlich zum einzelnen technischen Restpunkt. Ihre Erschließung ist erledigt; ihre wissenschaftliche Lösung wurde durch die Reparatur nicht erreicht.
 
 | Offener Gegenstand | Geprüfter Stand / verbleibende Arbeit |
 |---|---|
@@ -113,3 +115,7 @@ Maßgebliche bestehende Forschungsobjekte: [field_equations/open_questions.md](.
 Die geprüften Endartefakte und ihre Fingerprints stehen im [Exportverzeichnis](../submission/exports/wave4_2026-10-02/README.md). Der Build-/Exportweg steht in [BUILD_WORKFLOW.md](BUILD_WORKFLOW.md). Die hier berichteten Prüfungen stammen aus den jeweiligen Reparaturwellen; für diesen zusätzlichen Markdown-Bericht werden Aufgabenabdeckung, Konsistenz, lokale Links und Ablage geprüft, ohne erneut Manuskripte zu erzeugen.
 
 Der Endstand ist eine beauftragte Reparatur mit Selbstprüfung derselben Instanz. Eine unabhängige wissenschaftliche Prüfung oder Veröffentlichungsfreigabe folgt daraus nicht. Live-Overleaf wurde nicht verifiziert. Historische PDF-, Tag-, DOI- und Lizenzobjekte behalten ihre Identität; kein neues Release, kein neuer DOI und keine Einreichung wurden ausgeführt. SSC ist nicht Gegenstand dieses Berichts.
+
+## 7. Abschluss-Ergänzung v1.1
+
+Eingang main @ `b6adebbec1ccd504a48ba36b32af82b45541f6b6`. Sechs offene Forschungsfragen beim vorhandenen Dokumentationsort aufgenommen; Bearbeitung zurückgestellt. QIC-20 durch zusätzliche vollständige erreichbare Historienprüfung präzisiert. Alle 24 Reparaturaufträge sind bearbeitet; 23 erledigt, einer aufgrund unbestätigter Original-Erzeugungspakete weiterhin teilbearbeitet/quellenblockiert. Dieser Stand ist kein vollständiger Erledigt-Status. Alle derzeit ausführbaren Arbeiten abgeschlossen; anschließend Rücksprache. [Abschlussnachweis](REPAIR_CLOSEOUT_2026-10-02.md).
