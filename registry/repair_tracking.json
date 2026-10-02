@@ -1,0 +1,1015 @@
+{
+  "document_id": "QIC-REPAIR-WAVE1-2026-10-02",
+  "version": "1.0",
+  "object_class": "REPAIR_TRACKING_VIEW",
+  "source_freeze": {
+    "repository": "integrity-nexus-kai/Quantum_Integrity_Core",
+    "branch": "main",
+    "commit": "8fb4989d43382ccf303c8c52b2c7af746fa35034",
+    "tree": "f12b3ba616a31b3d12af9a2e7f47df2766212271"
+  },
+  "authority": "derived routing and traceability only; no scientific owner replacement",
+  "scope": {
+    "tree_blobs_inventoried": 244,
+    "text_sources_git_verified": 43,
+    "binary_build_inputs_git_verified": 1,
+    "unread_or_unfetched_paths": [
+      "AUTHOR.md",
+      "CITATION.cff",
+      "DEVELOPMENT_STATUS.md",
+      "IMPORT_MANIFEST.md",
+      "INTERFACE.md",
+      "LICENSE",
+      "README_EN.md",
+      "TIG_REPOSITORY_STRUCTURE_DE.md",
+      "TIG_REPOSITORY_STRUCTURE_EN.md",
+      "TOPOLOGICAL_INTEGRITY_GRAVITY_TIG_v1.0_DE_.md",
+      "TOPOLOGICAL_INTERGRITY_GRAVITY_TIG_v1.0_EN.md",
+      "abstract.md",
+      "applications/biological_integrity_dynamics.md",
+      "applications/biological_integrity_model.md",
+      "applications/biology_predictions.md",
+      "applications/cyber_integrity_model.md",
+      "applications/mas_integrity_simulation.md",
+      "applications/prototype_architecture.md",
+      "archive/field_equation_historical_status.md",
+      "axioma/axioma_architecture.md",
+      "biology_predictions.md",
+      "field_equations/field_equation_reverse_derivation_path.md",
+      "figures/tig_expansion_history_prediction.png",
+      "papers/archive/docs_redundant/executive_summary.md",
+      "papers/archive/docs_redundant/whats_missing.md",
+      "papers/archive/forbidden_paper_versions/tig_black_hole_solution.md",
+      "papers/archive/forbidden_paper_versions/tig_foundations_v1.md",
+      "papers/archive/forbidden_paper_versions/tig_foundations_v1.tex",
+      "papers/archive/forbidden_paper_versions/tig_master_arxivf.text",
+      "papers/archive/forbidden_paper_versions/tig_master_paper_v1_backup.md",
+      "papers/archive/paper_fragments/tig_black_hole_solution.tex",
+      "papers/derivations/_friedmann_derivation.md",
+      "papers/derivations/black_hole_stability_analysis.md",
+      "papers/derivations/comparison_starobinski.md",
+      "papers/derivations/concrete_scalar_mode:prediction.md",
+      "papers/derivations/cosmology_friedmann.md",
+      "papers/derivations/cosmology_prediction.md",
+      "papers/derivations/curvature_check.md",
+      "papers/derivations/derivations_comparisonlayer.md",
+      "papers/derivations/derivationsoperator_to_geometry.md",
+      "papers/derivations/entropy-geografie.md",
+      "papers/derivations/entropy_integrity.md",
+      "papers/derivations/entropy_integrity_framework.md",
+      "papers/derivations/explicit_black_hole_solution.md",
+      "papers/derivations/extenden_geometry_layer.md",
+      "papers/derivations/friedmann_equation.md",
+      "papers/derivations/horizons_thermodynamics.md",
+      "papers/derivations/integrity_functional.mdderi",
+      "papers/derivations/integrity_functional_systems.md",
+      "papers/derivations/integrity_tensor_derivation.md",
+      "papers/derivations/integrity_variation.md",
+      "papers/derivations/lambda_physical_role.md",
+      "papers/derivations/linear_perturbation_roadmap.md",
+      "papers/derivations/novelty_extraction.md",
+      "papers/derivations/predicitions_refinement.md",
+      "papers/derivations/predictions_tig.md",
+      "papers/derivations/quantitative_scalar_prediction.md",
+      "papers/derivations/quantum_link.md",
+      "papers/derivations/scalar_coupleling.md",
+      "papers/derivations/spectrale_derivation.md",
+      "papers/derivations/stability_analysis.md",
+      "papers/derivations/tig_positioning.md",
+      "papers/derivations/unified_intergaty_principle.md",
+      "papers/docs/faq.md",
+      "papers/tig-paper/TIG3_Vacuum_Structure.pdf",
+      "papers/tig-paper/TIG_Paper.pdf",
+      "papers/tig-paper/arvix_upload",
+      "papers/tig-paper/tig_bifurcation_robustness.png",
+      "papers/tig-paper/tig_echo_delay_prediction.png",
+      "papers/tig-paper/tig_horizon_radius_prediction.png",
+      "papers/tig-paper/tig_horizon_transition_publication.png",
+      "papers/tig-paper/tig_photon_sphere_deviation (1).png",
+      "papers/tig-paper/tig_photon_sphere_deviation.png",
+      "papers/tig_schwarzschild_horizon_comparison.png",
+      "papers/tig_topolocical_paper.md",
+      "project/submission/reviwer_.md",
+      "provenance/branch_consolidation/BRANCH_CONSOLIDATION_2026-09-16.md",
+      "registry/repository_status.md",
+      "research/evolution/boundary_operator.md",
+      "research/evolution/evolution_operator_axioms.md",
+      "research/evolution/evolution_operator_construction.md",
+      "research/evolution/operator_space_definition.md",
+      "share_draft.md",
+      "strategy/publication_strategy.md",
+      "strategy/tig_emergence_progra",
+      "submission/arxiv/tig_echo_delay_prediction .png",
+      "submission/arxiv/tig_horizon_branches_critical_transition.png",
+      "submission/arxiv/tig_qnm_frequency_prediction.png",
+      "theory/critical_evaporation.md",
+      "theory/hawking_sector/tig_horizon_dynamics_simulation.html",
+      "theory/hawking_sector/tig_horizon_dynamics_simulation.md",
+      "theory/integrity_tensor/candidates/ITC_001.md",
+      "theory/integrity_tensor/candidates/ITC_002.md",
+      "theory/integrity_tensor/candidates/ITC_003.md",
+      "theory/integrity_tensor/candidates/ITC_004.md",
+      "theory/integrity_tensor/candidates/ITC_005.md",
+      "theory/integrity_tensor/defect_to_tensor_hypothesis.md",
+      "theory/integrity_tensor/effective_integrity_tensor_1_0.md",
+      "theory/integrity_tensor/geometry_to_curvature.md",
+      "theory/integrity_tensor/integrity_scale_requirements.md",
+      "theory/integrity_tensor/integrity_tensor_candidates.md",
+      "theory/integrity_tensor/integrity_tensor_comparative_evaluation.md",
+      "theory/integrity_tensor/integrity_tensor_evaluation_framework.md",
+      "theory/integrity_tensor/integrity_tensor_phase1_summary.md",
+      "theory/integrity_tensor/integrity_tensor_program.md",
+      "theory/integrity_tensor/integrity_tensor_requirements.md",
+      "theory/integrity_tensor/integrity_torsion_scale_hypothesis.md",
+      "theory/integrity_tensor/organizational_action.md",
+      "theory/integrity_tensor/organizational_curvature_defect.md",
+      "theory/integrity_tensor/organizational_integrity_tensor.md",
+      "theory/integrity_tensor/rho_hessian_tensor_test.md",
+      "theory/integrity_tensor/tig_field_equation_1_0_integrity_torsion.md",
+      "theory/integrity_tensor/tig_native_tensor_derivation.md",
+      "theory/integrity_tensor/volumetric_organization.mathematical_definition.md",
+      "theory/integrity_tensor/volumetric_organization_to_geometry.md",
+      "theory/mathematical_derivation_of_TIG.md",
+      "theory/photon_sphere_dynamics/simulation.html",
+      "theory/tig_horizon_thermodynamics.md",
+      "topology/READ.md",
+      "topology/STRUCTURE_PLAN.md",
+      "topology/admissibility_conditions,md",
+      "topology/axiome.md",
+      "topology/branch_structure_emergence.md",
+      "topology/canonical_emergence_route.md",
+      "topology/connectivity_operator_formalization.md",
+      "topology/connectivity_operator_foundations.md",
+      "topology/connectivity_to_geometry.md",
+      "topology/continuous_geometry_limitations.md",
+      "topology/core_axioms.md",
+      "topology/critical_open_problems.md",
+      "topology/critical_surfaces.md",
+      "topology/critical_transition_dynamics.md",
+      "topology/cube_necessity_investigation.md",
+      "topology/cube_struture.md",
+      "topology/curvature_from_connectivity.md",
+      "topology/emergent_3d_spacetime_structure.md",
+      "topology/emergent_curvature.md",
+      "topology/emergent_curvature_construction.md",
+      "topology/emergent_dimension_construction.md",
+      "topology/emergent_geometry.md",
+      "topology/emergent_geometry_construction.md",
+      "topology/emergent_metric_construction.md",
+      "topology/emergent_metric_principle.md",
+      "topology/evolution/README.md",
+      "topology/evolution/admissibility_geometry.md",
+      "topology/evolution/admissibility_transition_structure.md",
+      "topology/evolution/recursive_connection_structure.md",
+      "topology/evolution/recursive_curvature.md",
+      "topology/evolution/recursive_dynamics.md",
+      "topology/evolution/recursive_geodesics.md",
+      "topology/evolution/recursive_metric_tensor.md",
+      "topology/evolution/recursive_operator_framework.md",
+      "topology/evolution/recursive_parallel_transport.md",
+      "topology/evolution/recursive_stability_spectrum.md",
+      "topology/evolution/theoryadmissibility_evolution.md",
+      "topology/evolution/tig_candidate_field_equation.md",
+      "topology/field_equation_requirements_from_topology.md",
+      "topology/foundations_limitations.md",
+      "topology/foundations_program_summary.md",
+      "topology/glossary.md",
+      "topology/horizon_emergence.md",
+      "topology/horizon_emergence_from_curvature.md",
+      "topology/integrety_metric.md",
+      "topology/integrity_collapse.md",
+      "topology/minimal_persistent_structure_problem.md",
+      "topology/minimal_structure_comparison.md",
+      "topology/organization_to_geometry_mapping.md",
+      "topology/organizational_degeneracy.md",
+      "topology/reduction_principles.md",
+      "topology/research_notes/double_slit_admissibility.md",
+      "topology/research_notes/x4_decay_mapping.md",
+      "topology/root_manifold.md",
+      "topology/stability_attractors.md",
+      "topology/state_diagram.md",
+      "topology/structural_admissibility_foundations.md",
+      "topology/structure/transition_oprators.md",
+      "topology/theoretical_core.md",
+      "topology/theory/primitives/README.md",
+      "topology/theory/primitives/admissibility_axioms.md",
+      "topology/theory/primitives/admissibility_functional.md",
+      "topology/theory/primitives/fundamental_admissibility_principle.md",
+      "topology/theory/primitives/minimal_axiom_system.md",
+      "topology/theory/primitives/minimal_recursive_axiom.md",
+      "topology/theory/primitives/primitive_object_classes.md",
+      "topology/theory/primitives/recursive_consistency.md",
+      "topology/theory/structure/README.md",
+      "topology/theory/structure/definition_hierarchy.md",
+      "topology/theory/structure/field_equation_constraints.md",
+      "topology/theory/structure/field_equation_requirements.md",
+      "topology/theory/structure/formal_vs_heuristic_layers.md",
+      "topology/theory/structure/non_triviality_analysis.md",
+      "topology/theory/structure/research_object_definition.md",
+      "topology/theory/structure/structural_reduction_analysis.md",
+      "topology/theory_mathematical_consolidation.md",
+      "topology/tig_cubic_reconstruction.md",
+      "topology/tig_field_equation_candidate.md",
+      "topology/volumetric_organization_necessity.md",
+      "topology/x4_topoligy.md",
+      "visualizations/tig_grid_heuristic/README.md",
+      "visualizations/tig_grid_heuristic/simulation.html"
+    ],
+    "full_repository_scientific_audit": false
+  },
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha": "c6797ac63e65f7f9b9bc246c98790007b8f5728c",
+      "bytes": 992
+    },
+    {
+      "path": "README.md",
+      "sha": "867999b29b728978d8b686400f2b8cab3e313fc7",
+      "bytes": 5711
+    },
+    {
+      "path": "REPAIR_TODO.md",
+      "sha": "bd740b014f98eae0b37b68125154ada4ecaff2e8",
+      "bytes": 17688
+    },
+    {
+      "path": "OBJECT_OWNERSHIP.md",
+      "sha": "b05753df2ac91bdaf426eb627acf2084b076e966",
+      "bytes": 1218
+    },
+    {
+      "path": "REPOSITORY_MAP.md",
+      "sha": "f1bc94f20146224fd6395ad5974c76347f1d2a8d",
+      "bytes": 1442
+    },
+    {
+      "path": "governance/repository_standard.md",
+      "sha": "c3cad2a8d64c1a77b67b24b9bf27cde92d9c85ab",
+      "bytes": 981
+    },
+    {
+      "path": "governance/claim_boundary_standard.md",
+      "sha": "3d1cae6aea7b7d45350773f5d362443485fbef57",
+      "bytes": 992
+    },
+    {
+      "path": "CANONICAL_CORE.md",
+      "sha": "7938694b9f8199bb801acbc00df78816f03ae1f7",
+      "bytes": 2080
+    },
+    {
+      "path": "CANONICAL_STATUS.md",
+      "sha": "563ec0f79ced2a92148b0e2077b321295ac8078f",
+      "bytes": 1424
+    },
+    {
+      "path": "field_equations/field_equation_1_0.md",
+      "sha": "9e29fe4f09b7a3d383fad17880f5489f79e6a879",
+      "bytes": 2238
+    },
+    {
+      "path": "field_equations/validation_status.md",
+      "sha": "01fc2905fe2bff736708d90808135366d7eab3af",
+      "bytes": 2497
+    },
+    {
+      "path": "field_equations/open_questions.md",
+      "sha": "ac755c1c0905c10ee399d2a1714051c377e3d9ff",
+      "bytes": 3497
+    },
+    {
+      "path": "papers/tig-paper/main.tex",
+      "sha": "c0c80858d176107f22e08bd1f57e67692cb7dfcf",
+      "bytes": 22711
+    },
+    {
+      "path": "papers/tig-paper/references.bib",
+      "sha": "f8ed52cb8c194f49ebe2eb460a3a38e11846ab36",
+      "bytes": 4542
+    },
+    {
+      "path": "papers/tig-paper/abstract.tex",
+      "sha": "feacdac3924e6da232ff7afc62b87a269a0020e7",
+      "bytes": 1080
+    },
+    {
+      "path": "papers/tig-paper/photon_sphere.tex",
+      "sha": "edf35b044c4d646db7e9b38aad1bd9a465ce33bc",
+      "bytes": 1667
+    },
+    {
+      "path": "submission/arxiv/main.tex",
+      "sha": "bccd4c0b86c654d44ccb52977185e120e76343b2",
+      "bytes": 5870
+    },
+    {
+      "path": "submission/arxiv/references.bib",
+      "sha": "923b6107bf48b63315e8bee605a63c89a6395466",
+      "bytes": 4436
+    },
+    {
+      "path": "research/tig_literature_matrix.md",
+      "sha": "64c4e0c4d2cd951a799f77339af681a4647aeae1",
+      "bytes": 6226
+    },
+    {
+      "path": "theory/integrity_tensor/tig_field_equation_1_0_audit.md",
+      "sha": "8958f23a5338dcf6f08216bfc966647c87dd958f",
+      "bytes": 2893
+    },
+    {
+      "path": "theory/integrity_tensor/organizational_tensor_audit_result.md",
+      "sha": "06a5a128e5bd3ef0b38523f04a50ffdbc11064de",
+      "bytes": 2658
+    },
+    {
+      "path": "theory/integrity_tensor/integrity_tensor_status.md",
+      "sha": "9f2831be250c5731cdcd69551733cba8fe7d77cc",
+      "bytes": 3477
+    },
+    {
+      "path": "theory/integrity_tensor/integrity_tensor_evaluation_results.md",
+      "sha": "9a45dd5a053b35ef0dd5f6a64226df246c1d17f8",
+      "bytes": 4115
+    },
+    {
+      "path": "theory/integrity_tensor/candidates/README.md",
+      "sha": "ef8112032f38c95fdc6bb7698a52aa4b5cc156be",
+      "bytes": 2485
+    },
+    {
+      "path": "topology/README.md",
+      "sha": "b4388abef767de9100e598dd116c21c81a7d2408",
+      "bytes": 1959
+    },
+    {
+      "path": "topology/theory/README.md",
+      "sha": "9a1b124a4af2c167ad30af5c0114d7efb3c11374",
+      "bytes": 2619
+    },
+    {
+      "path": "topology/theory/THEORY_STRUCTURE_GUIDE.md",
+      "sha": "0f3f6ddb5104554ce3c4c58726c9313b4a86462e",
+      "bytes": 1584
+    },
+    {
+      "path": "topology/theory/structure/consistency_audit.md",
+      "sha": "d08dd7ced3468aa695ebb9150855212b0b8e943c",
+      "bytes": 8101
+    },
+    {
+      "path": "topology/theory/structure/structural_dependency_map.md",
+      "sha": "c1eea41cec8eee1df4a0b3e356606e7995cf71f3",
+      "bytes": 7391
+    },
+    {
+      "path": "topology/theory/structure/non_claims_and_scope_limits.md",
+      "sha": "dff01b7706f8e889d7a87b84c57f2e6e97e17346",
+      "bytes": 7496
+    },
+    {
+      "path": "topology/structure/consitency_audit.md",
+      "sha": "63ffa97d3a1bfb4846fe152ea56bc845493bc963",
+      "bytes": 3088
+    },
+    {
+      "path": "papers/topological-foundations-program/README.md",
+      "sha": "305499f25bf762a121384b7b2a90a14781bbe1ef",
+      "bytes": 6050
+    },
+    {
+      "path": "theory/black_hole_sector/README.md",
+      "sha": "50622e1491dc175737ac37c0d33a75c55d5d6085",
+      "bytes": 514
+    },
+    {
+      "path": "theory/hawking_sector/README.md",
+      "sha": "3de96b8d185cfdc9c07e3ebafcf2381caaee5de1",
+      "bytes": 1771
+    },
+    {
+      "path": "papers/derivations/black_hole_R2_derivation.md",
+      "sha": "d606ac19e6b8253b53e10173426495ecfc67f3ea",
+      "bytes": 2926
+    },
+    {
+      "path": "papers/derivations/trace_equation_scalar_mode.md",
+      "sha": "6949b4a04b44fd5f579475af4c6f2eafc41a2586",
+      "bytes": 2998
+    },
+    {
+      "path": "papers/derivations/parameter_physics.md",
+      "sha": "060dbf5e9ced379ec46cba765036d6e27721b6bd",
+      "bytes": 9358
+    },
+    {
+      "path": "papers/derivations/core_strengthening_plan.md",
+      "sha": "3c73b55db4867e5eb4df07b94938e096ce5423da",
+      "bytes": 4924
+    },
+    {
+      "path": "papers/archive/paper_fragments/limitations.tex",
+      "sha": "e787e458e231fd60922677211e46b8f6ee180340",
+      "bytes": 6239
+    },
+    {
+      "path": "papers/tig_topological_paperREADME.md",
+      "sha": "6c946523dfe183e89446160b86391b17f840d5de",
+      "bytes": 3486
+    },
+    {
+      "path": "EXPORT_MANIFEST.md",
+      "sha": "74616ddedc252fb5cbf98973d8d66eb081fc0ab4",
+      "bytes": 1107
+    },
+    {
+      "path": "LM_EXPORT_MANIFEST.md",
+      "sha": "415ec8976ec3cddd32f090524cf7c3cb0b7da227",
+      "bytes": 1075
+    },
+    {
+      "path": "LICENSE_DOI_TRANSITION_NOTICE.md",
+      "sha": "1c2b18f10b2751441e7b3058705f3a443afd9dd0",
+      "bytes": 2559
+    }
+  ],
+  "binary_inputs": [
+    {
+      "path": "figures/tig_horizon_radius_prediction.png",
+      "sha": "f343f7dfc7b54e404fb415ef70bf12d6fa516d15",
+      "bytes": 131669
+    }
+  ],
+  "claims": [
+    {
+      "tracking_key": "W1-C01",
+      "title": "Repräsentative Geometrie",
+      "source_owner_path": "papers/tig-paper/main.tex",
+      "source_section": "Representative Effective Geometry",
+      "source_blob": "c0c80858d176107f22e08bd1f57e67692cb7dfcf",
+      "boundary": "static spherical representative geometry; no complete covariant solution asserted",
+      "qic_tasks": [
+        "QIC-02"
+      ],
+      "proof_obligations": [
+        "m(r), F(r), core scale",
+        "unit convention and field-equation scope"
+      ],
+      "source_dependencies": [
+        {
+          "path": "field_equations/field_equation_1_0.md",
+          "blob": "9e29fe4f09b7a3d383fad17880f5489f79e6a879"
+        },
+        {
+          "path": "papers/derivations/black_hole_R2_derivation.md",
+          "blob": "d606ac19e6b8253b53e10173426495ecfc67f3ea"
+        }
+      ],
+      "external_source_verification": "UNASSESSED_IN_WAVE_1",
+      "new_scientific_verdict": "NONE"
+    },
+    {
+      "tracking_key": "W1-C02",
+      "title": "Quadratischer f(R)-Lösungsanspruch",
+      "source_owner_path": "submission/arxiv/main.tex",
+      "source_section": "Quadratic f(R) Framework; Effective Geometry; Conclusion",
+      "source_blob": "bccd4c0b86c654d44ccb52977185e120e76343b2",
+      "boundary": "submission text claims demonstrated quadratic f(R) horizon transition; field-equation proof to be checked",
+      "qic_tasks": [
+        "QIC-01",
+        "QIC-02"
+      ],
+      "proof_obligations": [
+        "action normalization",
+        "matter or vacuum assumptions",
+        "boundary conditions and residual equations"
+      ],
+      "source_dependencies": [
+        {
+          "path": "field_equations/open_questions.md",
+          "blob": "ac755c1c0905c10ee399d2a1714051c377e3d9ff"
+        }
+      ],
+      "external_source_verification": "UNASSESSED_IN_WAVE_1",
+      "new_scientific_verdict": "NONE"
+    },
+    {
+      "tracking_key": "W1-C03",
+      "title": "Alpha-/Mu-Konvention",
+      "source_owner_path": "submission/arxiv/main.tex",
+      "source_section": "Quadratic f(R) Framework",
+      "source_blob": "bccd4c0b86c654d44ccb52977185e120e76343b2",
+      "boundary": "printed action, f(R), mu=16pi alpha and scalar mass; reconciliation pending",
+      "qic_tasks": [
+        "QIC-01"
+      ],
+      "proof_obligations": [
+        "placement of action prefactor",
+        "units",
+        "sign and stability assumptions"
+      ],
+      "source_dependencies": [
+        {
+          "path": "papers/derivations/parameter_physics.md",
+          "blob": "060dbf5e9ced379ec46cba765036d6e27721b6bd"
+        },
+        {
+          "path": "papers/derivations/trace_equation_scalar_mode.md",
+          "blob": "6949b4a04b44fd5f579475af4c6f2eafc41a2586"
+        }
+      ],
+      "external_source_verification": "UNASSESSED_IN_WAVE_1",
+      "new_scientific_verdict": "NONE"
+    },
+    {
+      "tracking_key": "W1-C04",
+      "title": "Spezifisches kubisches Horizontgesetz",
+      "source_owner_path": "papers/tig-paper/main.tex",
+      "source_section": "Derivation of the Cubic Normal Form; Criticality",
+      "source_blob": "c0c80858d176107f22e08bd1f57e67692cb7dfcf",
+      "boundary": "specific polynomial and critical point are source claims; preserve distinction from general fold necessity",
+      "qic_tasks": [
+        "QIC-03"
+      ],
+      "proof_obligations": [
+        "chosen mass profile",
+        "radial normalization",
+        "physical-root domain"
+      ],
+      "source_dependencies": [
+        {
+          "path": "field_equations/field_equation_1_0.md",
+          "blob": "9e29fe4f09b7a3d383fad17880f5489f79e6a879"
+        }
+      ],
+      "external_source_verification": "UNASSESSED_IN_WAVE_1",
+      "new_scientific_verdict": "NONE"
+    },
+    {
+      "tracking_key": "W1-C05",
+      "title": "Allgemeine kubische Notwendigkeit",
+      "source_owner_path": "submission/arxiv/main.tex",
+      "source_section": "Consistency Constraint",
+      "source_blob": "bccd4c0b86c654d44ccb52977185e120e76343b2",
+      "boundary": "universal cubic-fold wording is the existing repair target; primary support not independently checked in W1",
+      "qic_tasks": [
+        "QIC-03"
+      ],
+      "proof_obligations": [
+        "stationary equation versus potential",
+        "extra model restrictions"
+      ],
+      "source_dependencies": [
+        {
+          "path": "papers/tig-paper/main.tex",
+          "blob": "c0c80858d176107f22e08bd1f57e67692cb7dfcf"
+        }
+      ],
+      "external_source_verification": "UNASSESSED_IN_WAVE_1",
+      "new_scientific_verdict": "NONE"
+    },
+    {
+      "tracking_key": "W1-C06",
+      "title": "Echo-Zeit und Exponent",
+      "source_owner_path": "submission/arxiv/main.tex",
+      "source_section": "Echo Physics; Quantitative Prediction",
+      "source_blob": "bccd4c0b86c654d44ccb52977185e120e76343b2",
+      "boundary": "source shows integral without fixed bounds and critical exponent; full derivation pending",
+      "qic_tasks": [
+        "QIC-04"
+      ],
+      "proof_obligations": [
+        "reflection model",
+        "integration bounds",
+        "which side of criticality",
+        "time convention"
+      ],
+      "source_dependencies": [
+        {
+          "path": "field_equations/open_questions.md",
+          "blob": "ac755c1c0905c10ee399d2a1714051c377e3d9ff"
+        }
+      ],
+      "external_source_verification": "UNASSESSED_IN_WAVE_1",
+      "new_scientific_verdict": "NONE"
+    },
+    {
+      "tracking_key": "W1-C07",
+      "title": "GR-/Schwarzschild-Grenzfall",
+      "source_owner_path": "field_equations/validation_status.md",
+      "source_section": "P2-P4",
+      "source_blob": "01fc2905fe2bff736708d90808135366d7eab3af",
+      "boundary": "source labels recovery VALIDATED; geometric and full dynamical recovery remain distinct",
+      "qic_tasks": [
+        "QIC-02",
+        "QIC-07",
+        "QIC-09"
+      ],
+      "proof_obligations": [
+        "limit of geometry",
+        "matter assumptions",
+        "perturbation and dynamical scope"
+      ],
+      "source_dependencies": [
+        {
+          "path": "papers/tig-paper/main.tex",
+          "blob": "c0c80858d176107f22e08bd1f57e67692cb7dfcf"
+        },
+        {
+          "path": "field_equations/open_questions.md",
+          "blob": "ac755c1c0905c10ee399d2a1714051c377e3d9ff"
+        }
+      ],
+      "external_source_verification": "UNASSESSED_IN_WAVE_1",
+      "new_scientific_verdict": "NONE"
+    },
+    {
+      "tracking_key": "W1-C08",
+      "title": "Integrity-Tensor und Statusdifferenz",
+      "source_owner_path": "field_equations/field_equation_1_0.md",
+      "source_section": "Current Integrity Tensor Realization",
+      "source_blob": "9e29fe4f09b7a3d383fad17880f5489f79e6a879",
+      "boundary": "effective tensor construction is described; independent tensor definition remains open; parallel program status differs",
+      "qic_tasks": [
+        "QIC-02",
+        "QIC-06",
+        "QIC-08",
+        "QIC-09"
+      ],
+      "proof_obligations": [
+        "precise tensor identity",
+        "independence",
+        "covariance",
+        "conservation",
+        "action"
+      ],
+      "source_dependencies": [
+        {
+          "path": "field_equations/open_questions.md",
+          "blob": "ac755c1c0905c10ee399d2a1714051c377e3d9ff"
+        },
+        {
+          "path": "theory/integrity_tensor/integrity_tensor_status.md",
+          "blob": "9f2831be250c5731cdcd69551733cba8fe7d77cc"
+        },
+        {
+          "path": "theory/integrity_tensor/tig_field_equation_1_0_audit.md",
+          "blob": "8958f23a5338dcf6f08216bfc966647c87dd958f"
+        }
+      ],
+      "external_source_verification": "UNASSESSED_IN_WAVE_1",
+      "new_scientific_verdict": "NONE"
+    },
+    {
+      "tracking_key": "W1-C09",
+      "title": "Topologische Grundlagenroute",
+      "source_owner_path": "papers/topological-foundations-program/README.md",
+      "source_section": "Relationship to TIG; Limitations",
+      "source_blob": "305499f25bf762a121384b7b2a90a14781bbe1ef",
+      "boundary": "research program explicitly does not derive cubic law or prove emergent geometry",
+      "qic_tasks": [
+        "QIC-03",
+        "QIC-09"
+      ],
+      "proof_obligations": [
+        "primitive definitions",
+        "connectivity-to-geometry bridge",
+        "independent cubic derivation"
+      ],
+      "source_dependencies": [
+        {
+          "path": "topology/theory/structure/structural_dependency_map.md",
+          "blob": "c1eea41cec8eee1df4a0b3e356606e7995cf71f3"
+        },
+        {
+          "path": "topology/theory/structure/consistency_audit.md",
+          "blob": "d08dd7ced3468aa695ebb9150855212b0b8e943c"
+        }
+      ],
+      "external_source_verification": "UNASSESSED_IN_WAVE_1",
+      "new_scientific_verdict": "NONE"
+    },
+    {
+      "tracking_key": "W1-C10",
+      "title": "Photonensphären-Aussage",
+      "source_owner_path": "papers/tig-paper/main.tex",
+      "source_section": "Photon Sphere Structure and Observable Deviation",
+      "source_blob": "c0c80858d176107f22e08bd1f57e67692cb7dfcf",
+      "boundary": "model-dependent structural signature; no completed observational forecast",
+      "qic_tasks": [
+        "QIC-02",
+        "QIC-07",
+        "QIC-21"
+      ],
+      "proof_obligations": [
+        "chosen metric",
+        "null-geodesic condition",
+        "numerical reproducibility"
+      ],
+      "source_dependencies": [
+        {
+          "path": "papers/tig-paper/photon_sphere.tex",
+          "blob": "edf35b044c4d646db7e9b38aad1bd9a465ce33bc"
+        }
+      ],
+      "external_source_verification": "UNASSESSED_IN_WAVE_1",
+      "new_scientific_verdict": "NONE"
+    },
+    {
+      "tracking_key": "W1-C11",
+      "title": "Neue Literatur",
+      "source_owner_path": "research/tig_literature_matrix.md",
+      "source_section": "Priorisierte Auswahl; Einordnung nach Themen",
+      "source_blob": "64c4e0c4d2cd951a799f77339af681a4647aeae1",
+      "boundary": "three repository literature entries: relevance and explicit limitations, not TIG validation",
+      "qic_tasks": [
+        "QIC-05",
+        "QIC-07",
+        "QIC-10",
+        "QIC-11",
+        "QIC-12",
+        "QIC-14",
+        "QIC-15",
+        "QIC-16"
+      ],
+      "proof_obligations": [
+        "exact external version",
+        "theorem assumptions",
+        "direct support versus analogy"
+      ],
+      "source_dependencies": [
+        {
+          "path": "papers/tig-paper/references.bib",
+          "blob": "f8ed52cb8c194f49ebe2eb460a3a38e11846ab36"
+        },
+        {
+          "path": "submission/arxiv/references.bib",
+          "blob": "923b6107bf48b63315e8bee605a63c89a6395466"
+        }
+      ],
+      "external_source_verification": "UNASSESSED_IN_WAVE_1",
+      "new_scientific_verdict": "NONE"
+    },
+    {
+      "tracking_key": "W1-C12",
+      "title": "QM-Rückgewinnung",
+      "source_owner_path": "research/tig_literature_matrix.md",
+      "source_section": "Einordnung nach Themen; Was daraus für TIG folgt",
+      "source_blob": "64c4e0c4d2cd951a799f77339af681a4647aeae1",
+      "boundary": "matrix states no direct support from these three works; no universal absence claim",
+      "qic_tasks": [
+        "QIC-11",
+        "QIC-09"
+      ],
+      "proof_obligations": [
+        "claim-specific support class",
+        "scope of search",
+        "formal quantum derivation versus analogy"
+      ],
+      "source_dependencies": [
+        {
+          "path": "topology/theory/structure/non_claims_and_scope_limits.md",
+          "blob": "dff01b7706f8e889d7a87b84c57f2e6e97e17346"
+        }
+      ],
+      "external_source_verification": "UNASSESSED_IN_WAVE_1",
+      "new_scientific_verdict": "NONE"
+    }
+  ],
+  "existing_audits": [
+    {
+      "path": "theory/integrity_tensor/tig_field_equation_1_0_audit.md",
+      "source_result": "PASS for its own Integrity-Torsion structural candidate",
+      "scope": "non-tautology, dimensions, horizon recovery",
+      "qualification": "different displayed tensor form from field_equations endpoint; no automatic verdict transfer",
+      "tasks": [
+        "QIC-02",
+        "QIC-08",
+        "QIC-09"
+      ],
+      "source_blob": "8958f23a5338dcf6f08216bfc966647c87dd958f"
+    },
+    {
+      "path": "theory/integrity_tensor/organizational_tensor_audit_result.md",
+      "source_result": "mathematical criteria PASS/conditional; REJECTED AS CANONICAL TIG INTEGRITY TENSOR",
+      "scope": "organizational rho action/tensor; missing r_c according to source",
+      "qualification": "negative result retained; not a global no-defect verdict",
+      "tasks": [
+        "QIC-08",
+        "QIC-09"
+      ],
+      "source_blob": "06a5a128e5bd3ef0b38523f04a50ffdbc11064de"
+    },
+    {
+      "path": "topology/structure/consitency_audit.md",
+      "source_result": "Consolidation Draft v0.1",
+      "scope": "terms, hierarchy, paper compatibility",
+      "qualification": "no final independent scientific PASS claimed",
+      "tasks": [
+        "QIC-08",
+        "QIC-09"
+      ],
+      "source_blob": "63ffa97d3a1bfb4846fe152ea56bc845493bc963"
+    },
+    {
+      "path": "topology/theory/structure/consistency_audit.md",
+      "source_result": "Draft 1.0 / exploratory, unresolved items",
+      "scope": "A1-A3, B1-B3, C1-C2, D1, E1-E2, F1-F2, G1-G2",
+      "qualification": "risks and reduction targets retained at source; no finding closure",
+      "tasks": [
+        "QIC-08",
+        "QIC-09"
+      ],
+      "source_blob": "d08dd7ced3468aa695ebb9150855212b0b8e943c"
+    },
+    {
+      "path": "theory/integrity_tensor/integrity_tensor_evaluation_results.md",
+      "source_result": "INITIAL AUDIT; 5 reviewed, 0 promoted, 0 rejected in that source",
+      "scope": "ITC-001 through ITC-005; requirements R1-R8 OPEN",
+      "qualification": "not silently synchronized with reserved slots or the separate rho tensor audit",
+      "tasks": [
+        "QIC-08",
+        "QIC-09"
+      ],
+      "source_blob": "9a45dd5a053b35ef0dd5f6a64226df246c1d17f8"
+    }
+  ],
+  "questions": [
+    {
+      "source_id": "O1",
+      "title": "Variational Formulation",
+      "source_path": "field_equations/open_questions.md",
+      "source_status": "OPEN",
+      "related_source_items": [
+        "U5",
+        "structure/C1"
+      ],
+      "binding_note": "related or overlapping items, not asserted identical; original IDs and status preserved",
+      "impact_on_bounded_paper": "UNASSESSED_CLAIM_SPECIFIC",
+      "new_closure": "NONE"
+    },
+    {
+      "source_id": "O2",
+      "title": "Covariant Extension",
+      "source_path": "field_equations/open_questions.md",
+      "source_status": "OPEN",
+      "related_source_items": [
+        "U2",
+        "structure/C1",
+        "structure/C2"
+      ],
+      "binding_note": "related or overlapping items, not asserted identical; original IDs and status preserved",
+      "impact_on_bounded_paper": "UNASSESSED_CLAIM_SPECIFIC",
+      "new_closure": "NONE"
+    },
+    {
+      "source_id": "O3",
+      "title": "Independent Integrity Tensor Definition",
+      "source_path": "field_equations/open_questions.md",
+      "source_status": "OPEN",
+      "related_source_items": [
+        "U1",
+        "U3",
+        "structure/C2"
+      ],
+      "binding_note": "related or overlapping items, not asserted identical; original IDs and status preserved",
+      "impact_on_bounded_paper": "UNASSESSED_CLAIM_SPECIFIC",
+      "new_closure": "NONE"
+    },
+    {
+      "source_id": "O4",
+      "title": "Dynamical Closure",
+      "source_path": "field_equations/open_questions.md",
+      "source_status": "OPEN",
+      "related_source_items": [
+        "U5",
+        "U6",
+        "structure/G1"
+      ],
+      "binding_note": "related or overlapping items, not asserted identical; original IDs and status preserved",
+      "impact_on_bounded_paper": "UNASSESSED_CLAIM_SPECIFIC",
+      "new_closure": "NONE"
+    },
+    {
+      "source_id": "O5",
+      "title": "Energy Condition Classification",
+      "source_path": "field_equations/open_questions.md",
+      "source_status": "OPEN",
+      "related_source_items": [],
+      "binding_note": "related or overlapping items, not asserted identical; original IDs and status preserved",
+      "impact_on_bounded_paper": "UNASSESSED_CLAIM_SPECIFIC",
+      "new_closure": "NONE"
+    },
+    {
+      "source_id": "O6",
+      "title": "Perturbation Program",
+      "source_path": "field_equations/open_questions.md",
+      "source_status": "OPEN",
+      "related_source_items": [
+        "structure/G2"
+      ],
+      "binding_note": "related or overlapping items, not asserted identical; original IDs and status preserved",
+      "impact_on_bounded_paper": "UNASSESSED_CLAIM_SPECIFIC",
+      "new_closure": "NONE"
+    },
+    {
+      "source_id": "O7",
+      "title": "Observational Predictions",
+      "source_path": "field_equations/open_questions.md",
+      "source_status": "OPEN",
+      "related_source_items": [],
+      "binding_note": "related or overlapping items, not asserted identical; original IDs and status preserved",
+      "impact_on_bounded_paper": "UNASSESSED_CLAIM_SPECIFIC",
+      "new_closure": "NONE"
+    }
+  ],
+  "challenge_groups": [
+    {
+      "signature": "primitive-independence-and-reduction",
+      "source_path": "topology/theory/structure/consistency_audit.md",
+      "source_items": [
+        "A1",
+        "A2",
+        "A3",
+        "E1",
+        "E2",
+        "F1",
+        "F2"
+      ],
+      "status": "source open / unresolved",
+      "handling": "keep source items; group by signature, no closure or new OQ identity"
+    },
+    {
+      "signature": "tensor-definition-and-conservation",
+      "source_path": "topology/theory/structure/consistency_audit.md",
+      "source_items": [
+        "C1",
+        "C2"
+      ],
+      "status": "exploratory",
+      "handling": "bind to O1-O4 where relevant; source status conflict reviewed in QIC-02"
+    },
+    {
+      "signature": "scope-and-physical-interpretation",
+      "source_path": "topology/theory/structure/non_claims_and_scope_limits.md",
+      "source_items": [
+        "NC3",
+        "NC4",
+        "NC5",
+        "NC6",
+        "NC9",
+        "NC12",
+        "NC13"
+      ],
+      "status": "source boundaries preserved",
+      "handling": "no quantum derivation, physical X4 or empirical confirmation inferred"
+    }
+  ],
+  "builds": [
+    {
+      "package": "paper",
+      "pages": 10,
+      "pdf_sha256": "6683dc4583c70f190306c5496716b74fb87e30eddd883a1e8b161b50c38d93d3",
+      "warnings": [],
+      "render_pages": 10,
+      "log_sha256": "c426eaa5271ad4c7d5dd52bdf8673c507832b10f0d8114654b3e9a8a677ff818"
+    },
+    {
+      "package": "arxiv",
+      "pages": 5,
+      "pdf_sha256": "ae97f6e91f6f8e9d14cce128107d6ca3f360f49e63d4c461656b21f6e9011e67",
+      "warnings": [
+        "Package hyperref Warning: Token not allowed in a PDF string (Unicode):",
+        "Package hyperref Warning: Token not allowed in a PDF string (Unicode):"
+      ],
+      "render_pages": 5,
+      "log_sha256": "4e1a1e9ffb0fb803e1866bfe4766fe38e5a1605ef6b72b923f10453383d173f8"
+    }
+  ],
+  "baseline_failures": [
+    {
+      "package": "paper",
+      "returncode": 12,
+      "diagnostic": "pdfTeX font expansion requires scalable fonts",
+      "repair": "add lmodern after T1 encoding; runtime lmodern availability verified"
+    },
+    {
+      "package": "arxiv",
+      "returncode": 12,
+      "diagnostic": "tig_horizon_radius_prediction.png not found in package",
+      "repair": "graphicspath binds existing root figures directory; image Git blob verified"
+    }
+  ],
+  "qa": {
+    "git_blob_checks": "PASS",
+    "technical_builds": "PASS for both packages",
+    "citations_and_crossrefs": "no unresolved citations/references in final logs",
+    "rendered_and_inspected_pages": 15,
+    "render_check": "no clipped or missing content seen; inherited arxiv clearpage leaves large whitespace on conclusion page",
+    "remaining_warnings": "2 hyperref PDF-string warnings in arxiv; no fatal error; final metadata/layout cleanup remains",
+    "assurance": "AIL-0 / same-run / not independent",
+    "scientific_promotion": "NONE",
+    "release": "NONE"
+  }
+}

@@ -1,73 +1,70 @@
-# QIC — Arbeitsliste v1.1 für den Repository Repair Agent
+# QIC — Arbeitsliste v1.2 für den Repository Repair Agent
 
 **Dokument-ID:** QIC-REPAIR-TODO-2026-10-02  
-**Version:** 1.1  
+**Version:** 1.2  
 **Datum:** 2026-10-02  
 **Objektklasse:** operative Aufgabenliste / REPAIR_TASK_LIST  
 **Repository:** integrity-nexus-kai/Quantum_Integrity_Core  
 **Branch:** main  
-**Integrationsbasis / geprüfter Eingang:** b247bdefdf5d50b28dbad60b31f9f2e0f15a8975  
-**Status:** AKTUELLE ARBEITSGRUNDLAGE / 24 Aufgaben OFFEN / Reihenfolge korrigiert; keine Aufgabenreparatur durch diesen Versionslauf  
+**Integrationsbasis / geprüfter Eingang:** 8fb4989d43382ccf303c8c52b2c7af746fa35034  
+**Status:** AKTUELLE ARBEITSGRUNDLAGE / VIER WELLEN / WELLE 1 AUSGEFÜHRT / 2 Aufgaben strukturell erledigt, 5 teilbearbeitet, 17 offen
 **Human Authority:** Kai Stefan Dietrich
 
 ## Verbindlicher Einstieg
 
-Diese Fassung ist die aktuelle Arbeitsgrundlage für den beauftragten QIC-Reparaturlauf. Sie ersetzt v1.0 am selben Pfad; die [historische Fassung](https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/blob/b247bdefdf5d50b28dbad60b31f9f2e0f15a8975/REPAIR_TODO.md) bleibt über die Versionshistorie erhalten. Es gibt keine zweite aktive QIC-Reparaturliste.
+Diese Fassung ist die aktuelle Arbeitsgrundlage für den beauftragten QIC-Reparaturlauf. Sie ersetzt v1.1 am selben Pfad; die [historische Fassung](https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/blob/8fb4989d43382ccf303c8c52b2c7af746fa35034/REPAIR_TODO.md) bleibt über die Versionshistorie erhalten. Es gibt keine zweite aktive QIC-Reparaturliste.
 
-**Beginne mit QIC-17.** Danach gilt die nachstehende Ausführungsfolge mit ihren Abhängigkeiten. Aufgaben-IDs und Herkunft bleiben unverändert; die ID-Nummer bezeichnet nicht die Ausführungsposition. Die ursprüngliche Dringlichkeitsklasse bleibt sichtbar. Vorbereitende Quellen-/Scope-Arbeit ermöglicht die weiterhin kritischen Kernprüfungen.
+**Welle 1 ist ausgeführt. Nächster Einstieg: Welle 2 mit QIC-01.** Die nachstehende Ausführungsfolge und ihre Abhängigkeiten gelten weiter; die Nachweissichten aus Welle 1 werden laufend fortgeschrieben. Aufgaben-IDs und Herkunft bleiben unverändert; die ID-Nummer bezeichnet nicht die Ausführungsposition. Die ursprüngliche Dringlichkeitsklasse bleibt sichtbar. Vorbereitende Quellen-/Scope-Arbeit ermöglicht die weiterhin kritischen Kernprüfungen.
 
 Vor jeder Reparatur [AGENTS.md](AGENTS.md), [README.md](README.md), diese Liste, Branch/HEAD und die betroffenen Quellen frisch prüfen. Übernommene Auditbefunde zuerst gegen die tatsächlichen Quellen verifizieren. Ein Dateiname oder eine fehlende Ordnerkategorie allein beweist keinen Defekt. Bereits erfüllte Funktionen und dokumentierte Reparaturen berücksichtigen; bestehende Register verwenden.
 
 **QIC-23 gilt ab Arbeitsbeginn vor jeder Veröffentlichung**, unabhängig von der Position seines Abschlusses. Listenpflege, Reparatur, wissenschaftlicher Nachweis und Veröffentlichungsfreigabe sind getrennte Zustände.
 
-## Ausführungsphasen
+## Vier Arbeitswellen
 
-| Phase | Arbeitsblock | Aufgabenfolge | Zweck |
+| Welle | Arbeitsblock | Aufgabenfolge | Stand |
 |---|---|---|---|
-| 1 | Arbeitsgrundlage sichern | QIC-17 → QIC-18 → QIC-22 | Maßgebliche Manuskripte, Theoriequellen und reproduzierbaren Build feststellen. |
-| 2 | Befunde und Nachweise zuordnen | QIC-08 → QIC-06 → QIC-07 → QIC-09 | Vorhandene Audits, Aussagen, Quellen und offene Fragen erschließen; Doppelarbeit vermeiden. |
-| 3 | Wissenschaftlichen Kern prüfen | QIC-01 → QIC-02 → QIC-03 | Normierung, Feldgleichungs-/Lösungsanspruch und Begründung der kubischen Horizontgleichung prüfen. |
-| 4 | Literatur gezielt bearbeiten | QIC-15 → QIC-16 → QIC-10 → QIC-05 → QIC-11 → QIC-14 → QIC-12 | Suchrahmen und Auswahl festlegen, Horizontbildung und Beweisvoraussetzungen prüfen, Quellen korrekt integrieren. |
-| 5 | Echo-Aussagen prüfen | QIC-04 | Auf Grundlage der geprüften Geometrie und Horizontstruktur Randmodell, Integral und Skalierung untersuchen. |
-| 6 | Ausgabe und Ablage abschließen | QIC-19 → QIC-20 → QIC-21 → QIC-24 → QIC-13 | Navigation, PDF-Herkunft, Abbildungen, Dateinamen und Literaturausgabe bereinigen. |
-| 7 | Veröffentlichungskette abschließen | QIC-23 | Geprüfte Quelle, PDF, Einreichungspaket und DOI eindeutig verbinden. |
+| 1 | Arbeitsgrundlage und Nachweise | QIC-17 → QIC-18 → QIC-22 → QIC-08 → QIC-06 → QIC-07 → QIC-09 | AUSGEFÜHRT — Ausgangsbasis; laufende Aufgabenanteile bleiben sichtbar |
+| 2 | Normierung, Feldgleichungen und Horizontbegründung | QIC-01 → QIC-02 → QIC-03 | OFFEN |
+| 3 | Literatur und Echo-Prüfung | QIC-15 → QIC-16 → QIC-10 → QIC-05 → QIC-11 → QIC-14 → QIC-12 → QIC-04 | OFFEN |
+| 4 | Ausgabe, Abschlussbuild und Veröffentlichungskette | QIC-19 → QIC-20 → QIC-21 → QIC-24 → QIC-13 → QIC-23 | OFFEN |
 
-Phase 2 beginnt mit einer schlanken Bestandsaufnahme der vorhandenen Owner- und Auditquellen. Ihre Register-/Nachweisarbeit läuft während der fachlichen Reparaturen weiter; eine vollständige Neuorganisation des Repos ist keine Voraussetzung für den ersten Kernblock.
+Welle 1 umfasst die bisherigen Phasen 1 und 2; Welle 2 Phase 3; Welle 3 die Phasen 4 und 5; Welle 4 die Phasen 6 und 7. Alle 24 Aufgaben und ihre Reihenfolge bleiben erhalten. Die Wellen bündeln Arbeitsblöcke; sie erklären fortlaufende Nachweisarbeit nicht automatisch für abgeschlossen.
 
-Phase 4 darf vorbereitet und ausgeführt werden, sobald ihre jeweiligen Quellenabhängigkeiten geklärt sind; sie muss nicht vollständig auf den Abschluss von Phase 3 warten. QIC-11 blockiert die Horizont- oder Echo-Prüfung nicht automatisch. Für QIC-04 zählen die tatsächlich benötigten Modell-, Geometrie-, Horizont- und Randannahmen.
+QIC-22: Ausgangsbuild und Buildablauf in Welle 1, Abschlussbuild am reparierten Endstand in Welle 4. QIC-06/07/08/09: Ausgangssicht in Welle 1 und Fortschreibung bis zum Abschluss. QIC-23 gilt weiterhin ab Beginn vor jeder Veröffentlichung. Unabhängige Literaturvorbereitung darf vor Welle 3 stattfinden, sobald ihre Quellenabhängigkeiten geklärt sind. QIC-11 blockiert die Horizont- oder Echo-Prüfung nicht automatisch.
 
-QIC-22 hat zwei Zeitpunkte innerhalb einer Aufgabe: Ausgangsbuild und Ablaufaufnahme am Anfang, Abschlussbuild und aktualisierte Dokumentation am reparierten Endstand. Vorbereitung wird nicht als vollständiger Aufgabenabschluss markiert. Unabhängige reversible Navigations- oder Metadatenarbeit kann früher erfolgen, ohne wissenschaftliche Entscheidungen vorwegzunehmen.
+[Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md) · [Build und Manuskriptzuordnung](docs/BUILD_WORKFLOW.md) · [Gemeinsame abgeleitete Nachweissicht](registry/repair_tracking.json). Diese Artefakte dokumentieren Arbeit und Quellen; sie sind keine zweite aktive Aufgabenliste.
 
 ## Aufgaben — maßgebliche Ausführungsfolge
 
 Alle 24 Originalaufgaben, Herkunftskennungen und Dringlichkeitsklassen bleiben erhalten.
 
-| Position | Phase | ID | Dringlichkeit | Aufgabe | Herkunft | Bearbeitungsstand | Abhängigkeit / Abschlussbindung |
+| Position | Welle | ID | Dringlichkeit | Aufgabe | Herkunft | Bearbeitungsstand | Abhängigkeit / Abschlussbindung |
 |---|---|---|---|---|---|---|---|
-| 1 | 1 | QIC-17 | Mittel | Beide LaTeX-Pakete eindeutig zuordnen. Verhältnis zwischen papers/tig-paper/ und submission/arxiv/ klären; gegebenenfalls maßgebliche Quelle und Exportweg festlegen. | A14, B6 | OFFEN | Zuerst: Verhältnis und geltenden Scope beider Pakete prüfen; keine Autorität aus Versionsnummer oder Pfad ableiten. |
-| 2 | 1 | QIC-18 | Mittel | Zuständigkeiten der Theorieverzeichnisse klären. Repository-Karte gegen die tatsächlichen Ablagen prüfen. Für Grundlagen, Kandidaten, Ableitungen und Paper-Auszüge den maßgeblichen Ablageort ausweisen. | A21, B5 | OFFEN | Vor fachlichen Änderungen: maßgebliche Theoriequellen und bestehende Owner-/Statusbindungen feststellen. |
-| 3 | 1 | QIC-22 | Mittel | Arbeits-, Build- und Prüfablauf dokumentieren. Bestehende Repo- und Overleaf-Abläufe erfassen; die Erzeugung von Manuskript, Literaturverzeichnis, Abbildungen und PDF nachvollziehbar machen. | A17, B8 | OFFEN | Früh: Build und vorhandenen Overleaf-Ablauf erfassen, Ausgangsbuild versuchen und Ergebnis dokumentieren. Abschlussbuild nach den Reparaturen. |
-| 4 | 2 | QIC-08 | Hoch | Audit- und Reparaturübersicht herstellen. Verstreute Befunde mit betroffenen Dateien, Reparaturen, erneuten Prüfungen und belegtem Bearbeitungsstand verbinden. | A18, B3 | OFFEN | Nach Arbeitsgrundlage: schlanke Übersicht der vorhandenen Befunde beginnen; während aller Reparaturen fortschreiben. |
-| 5 | 2 | QIC-06 | Hoch | Aussagen und Nachweise gemeinsam erschließen. Aussagen, Annahmen, Beweispflichten, Abhängigkeiten und Nachweise verbinden. Bestehende Register nutzen; nur fehlende Funktionen ergänzen. | B1 | OFFEN | Auf Ausgangsbefunde und Quellen stützen; für den ersten Reparaturblock beginnen und fortschreiben. |
-| 6 | 2 | QIC-07 | Hoch | Quellen–Aussagen-Zuordnung präzisieren. Verwendete Quellenversionen und relevante Passagen oder Gleichungen angeben. Direkte Unterstützung, Analogie und offene Übertragung unterscheiden. | A7 | OFFEN | Quellversionen und Aussagen zunächst für die Kernprüfungen binden; neue Literatur in Phase 4 ergänzen. |
-| 7 | 2 | QIC-09 | Hoch | Offene Fragen und Gegenprüfung ordnen. Forschungsfragen, Grenzen, Gegenargumente, Gegenmodelle, Widerlegungsbedingungen und negative Ergebnisse gemeinsam erschließen; Mehrfacheinträge zusammenführen. | B2 | OFFEN | Bestehende offene Fragen und Gegenprüfungen aufnehmen; neue Erkenntnisse fortschreiben. |
-| 8 | 3 | QIC-01 | Kritisch | α-/μ-Normierung prüfen und korrigieren. Die festgestellte Inkonsistenz zwischen Definitionen und Gleichungen auflösen; alle betroffenen Manuskriptstellen nachführen. | A10 | OFFEN | Nach Quellen-/Scope-Zuordnung; Normierung vor der Prüfung des betroffenen f(R)-Lösungsanspruchs. |
-| 9 | 3 | QIC-02 | Kritisch | Metrik gegen die f(R)-Feldgleichungen prüfen. Voraussetzungen und tatsächlichen Lösungsnachweis klären. Aussagen über eine bewiesene Lösung auf den belegten Stand begrenzen. | A12 | OFFEN | Mit geklärter Normierung und Paketzuordnung; repräsentative Geometrie und behauptete Feldgleichungslösung unterscheiden. |
-| 10 | 3 | QIC-03 | Kritisch | Begründung der kubischen Strukturgleichung reparieren. Die allgemeine Behauptung einer kubischen Notwendigkeit für Faltenbifurkationen korrigieren; die spezifische TIG-Gleichung gesondert begründen. | A11 | OFFEN | Spezifische Horizontgleichung und allgemeine Bifurkationsbegründung gesondert prüfen; Ergebnis vor QIC-04 binden. |
-| 11 | 4 | QIC-15 | Mittel | Recherchezeitraum dokumentieren. Vorherigen Berichtsstichtag und aktuelles Suchfenster festhalten; neue Arbeiten von neuen Versionen unterscheiden. | A5 | OFFEN | Suchfenster vor erneuter Recherche festhalten; parallel zu Phase 3 möglich. |
-| 12 | 4 | QIC-16 | Mittel | Literaturpriorisierung nachvollziehbar machen. TIG-Relevanz, Neuigkeitswert und wissenschaftliche Belastbarkeit getrennt bewerten und die Auswahlreihenfolge begründen. | A6 | OFFEN | Auswahlkriterien vor der neuen Literaturauswahl festlegen; keine bloße Rangfolge nach Aktualität. |
-| 13 | 4 | QIC-10 | Hoch | Quellen zur Horizontbildung ergänzen. Ergebnisse über bestehende oder stationäre Horizonte von Ergebnissen über ihre Entstehung unterscheiden und die Abdeckungslücke bearbeiten. | A4 | OFFEN | Recherche nach geklärtem Suchrahmen; Horizontbildung von Eigenschaften bestehender Horizonte trennen. |
-| 14 | 4 | QIC-05 | Hoch | Voraussetzungen des Horizontbeweises vervollständigen. Beim Ghosh-/Sarkar-Eintrag die tragenden Annahmen, den Gültigkeitsbereich und die Übertragbarkeit auf TIG ausdrücklich erfassen. | A3 | OFFEN | Mit QIC-10 bearbeiten; Quellvoraussetzungen und tatsächliche TIG-Übertragbarkeit ausdrücklich prüfen. |
-| 15 | 4 | QIC-11 | Hoch | Quellen zur Rückgewinnung von QM bearbeiten. Direkte, belastbare Quellen suchen und einordnen. Eine fortbestehende Abdeckungslücke ausdrücklich ausweisen. | A9 | OFFEN | Eigener Recherche-/Theoriepunkt; kein pauschaler Blocker der Horizont- oder Echo-Prüfung. |
-| 16 | 4 | QIC-14 | Mittel | Bessa-Datumsangaben klären. Preprint-Veröffentlichung, Versionsdatum und gegebenenfalls Zeitschrifteneinreichung eindeutig unterscheiden. | A8 | OFFEN | Vor Integration der betreffenden Quelle ihre Datums- und Versionsangaben verifizieren. |
-| 17 | 4 | QIC-12 | Hoch | Neue Quellen in die Manuskripte integrieren. Für die drei aufgenommenen Quellen prüfen, welche Aussagen sie tatsächlich stützen, und passende Zitate an diesen Stellen ergänzen. | A1 | OFFEN | Nach Prüfung der jeweiligen Quellen und Aussagen; keine automatische Übernahme aller drei Quellen als TIG-Nachweis. |
-| 18 | 5 | QIC-04 | Kritisch | Echo-Delay herleiten. Exponent, Integrationsgrenzen und Reflexions-/Randmodell überprüfen; unbelegte Vorhersagen korrigieren oder entsprechend kennzeichnen. | A13 | OFFEN | Nach QIC-01–03, soweit ihre Ergebnisse das verwendete Modell betreffen; relevante Horizontvoraussetzungen aus QIC-05/10 berücksichtigen. |
-| 19 | 6 | QIC-19 | Mittel | Literaturmatrix in die Navigation aufnehmen. Die Auffindbarkeit von research/tig_literature_matrix.md über vorhandene Einstiegs- und Übersichtsdateien prüfen und fehlende Verweise ergänzen. | A20 | OFFEN | Vorhandene Literaturmatrix verlinken; unabhängige reversible Vorarbeit kann früher erfolgen. |
-| 20 | 6 | QIC-20 | Mittel | PDFs ihren Quellen zuordnen. Insbesondere für TIG3_Vacuum_Structure.pdf die zugehörige Manuskriptquelle und Version ermitteln und dokumentieren. | A19, B7 | OFFEN | Quellen- und Versionsbindung vor dem Abschluss von QIC-23; fehlende oder mehrdeutige Herkunft sichtbar halten. |
-| 21 | 6 | QIC-21 | Mittel | Abbildungen zuordnen und bereinigen. Verteilte, gleichnamige und mit (1) bezeichnete Bilder vergleichen; maßgebliche Quellen, Verwendung und Exportfassungen festlegen. | A16, B7 | OFFEN | Verwendung und Originalquellen vor Bereinigung prüfen; Auswirkungen im Abschlussbuild kontrollieren. |
-| 22 | 6 | QIC-24 | Bereinigung | Auffällige Dateinamen korrigieren. Endungen, Schreibfehler, problematische Sonderzeichen und versehentliche Leerzeichen kontrolliert vereinheitlichen; Verweise und Manuskript-Erzeugung anschließend prüfen. | A15, B9 | OFFEN | Nach Pfad-/Verwendungsabgleich kontrolliert ändern; anschließend Verweise und Build prüfen. |
-| 23 | 6 | QIC-13 | Hoch | Ausgabe des Literaturverzeichnisses korrigieren. Die festgestellte unsrt-Problematik beheben, damit erforderliche arXiv-Kennungen, DOI und Links im erzeugten Literaturverzeichnis erscheinen. | A2 | OFFEN | Im maßgeblichen Build arXiv, DOI und Links prüfen; Änderung anschließend im erzeugten Literaturverzeichnis verifizieren. |
-| 24 | 7 | QIC-23 | Vor Veröffentlichung zwingend | Veröffentlichungskette und DOI-Zuordnung dokumentieren. Manuskriptquelle, PDF, Einreichungspaket, veröffentlichte Fassung und DOI eindeutig verbinden. | B4 | OFFEN | Gilt ab Beginn vor jeder Veröffentlichung. Zuordnung am geprüften Endstand abschließen; keine neue Releasefreigabe durch Listenpflege. |
+| 1 | 1 | QIC-17 | Mittel | Beide LaTeX-Pakete eindeutig zuordnen. Verhältnis zwischen papers/tig-paper/ und submission/arxiv/ klären; gegebenenfalls maßgebliche Quelle und Exportweg festlegen. | A14, B6 | ERLEDIGT — strukturelle Paketzuordnung | Zuerst: Verhältnis und geltenden Scope beider Pakete prüfen; keine Autorität aus Versionsnummer oder Pfad ableiten. |
+| 2 | 1 | QIC-18 | Mittel | Zuständigkeiten der Theorieverzeichnisse klären. Repository-Karte gegen die tatsächlichen Ablagen prüfen. Für Grundlagen, Kandidaten, Ableitungen und Paper-Auszüge den maßgeblichen Ablageort ausweisen. | A21, B5 | ERLEDIGT — strukturelle Quellenkarte | Vor fachlichen Änderungen: maßgebliche Theoriequellen und bestehende Owner-/Statusbindungen feststellen. |
+| 3 | 1 | QIC-22 | Mittel | Arbeits-, Build- und Prüfablauf dokumentieren. Bestehende Repo- und Overleaf-Abläufe erfassen; die Erzeugung von Manuskript, Literaturverzeichnis, Abbildungen und PDF nachvollziehbar machen. | A17, B8 | TEILBEARBEITET — Ausgangsbuild PASS; Abschluss offen | Früh: Build und vorhandenen Overleaf-Ablauf erfassen, Ausgangsbuild versuchen und Ergebnis dokumentieren. Abschlussbuild nach den Reparaturen. |
+| 4 | 1 | QIC-08 | Hoch | Audit- und Reparaturübersicht herstellen. Verstreute Befunde mit betroffenen Dateien, Reparaturen, erneuten Prüfungen und belegtem Bearbeitungsstand verbinden. | A18, B3 | TEILBEARBEITET — Audit-/Befundsicht materialisiert | Nach Arbeitsgrundlage: schlanke Übersicht der vorhandenen Befunde beginnen; während aller Reparaturen fortschreiben. |
+| 5 | 1 | QIC-06 | Hoch | Aussagen und Nachweise gemeinsam erschließen. Aussagen, Annahmen, Beweispflichten, Abhängigkeiten und Nachweise verbinden. Bestehende Register nutzen; nur fehlende Funktionen ergänzen. | B1 | TEILBEARBEITET — 12 Aussagegruppen gebunden | Auf Ausgangsbefunde und Quellen stützen; für den ersten Reparaturblock beginnen und fortschreiben. |
+| 6 | 1 | QIC-07 | Hoch | Quellen–Aussagen-Zuordnung präzisieren. Verwendete Quellenversionen und relevante Passagen oder Gleichungen angeben. Direkte Unterstützung, Analogie und offene Übertragung unterscheiden. | A7 | TEILBEARBEITET — Repoquellen gebunden; externe Prüfung offen | Quellversionen und Aussagen zunächst für die Kernprüfungen binden; neue Literatur in Welle 3 ergänzen. |
+| 7 | 1 | QIC-09 | Hoch | Offene Fragen und Gegenprüfung ordnen. Forschungsfragen, Grenzen, Gegenargumente, Gegenmodelle, Widerlegungsbedingungen und negative Ergebnisse gemeinsam erschließen; Mehrfacheinträge zusammenführen. | B2 | TEILBEARBEITET — OQs/Gegenprüfung geroutet | Bestehende offene Fragen und Gegenprüfungen aufnehmen; neue Erkenntnisse fortschreiben. |
+| 8 | 2 | QIC-01 | Kritisch | α-/μ-Normierung prüfen und korrigieren. Die festgestellte Inkonsistenz zwischen Definitionen und Gleichungen auflösen; alle betroffenen Manuskriptstellen nachführen. | A10 | OFFEN | Nach Quellen-/Scope-Zuordnung; Normierung vor der Prüfung des betroffenen f(R)-Lösungsanspruchs. |
+| 9 | 2 | QIC-02 | Kritisch | Metrik gegen die f(R)-Feldgleichungen prüfen. Voraussetzungen und tatsächlichen Lösungsnachweis klären. Aussagen über eine bewiesene Lösung auf den belegten Stand begrenzen. | A12 | OFFEN | Mit geklärter Normierung und Paketzuordnung; repräsentative Geometrie und behauptete Feldgleichungslösung unterscheiden. |
+| 10 | 2 | QIC-03 | Kritisch | Begründung der kubischen Strukturgleichung reparieren. Die allgemeine Behauptung einer kubischen Notwendigkeit für Faltenbifurkationen korrigieren; die spezifische TIG-Gleichung gesondert begründen. | A11 | OFFEN | Spezifische Horizontgleichung und allgemeine Bifurkationsbegründung gesondert prüfen; Ergebnis vor QIC-04 binden. |
+| 11 | 3 | QIC-15 | Mittel | Recherchezeitraum dokumentieren. Vorherigen Berichtsstichtag und aktuelles Suchfenster festhalten; neue Arbeiten von neuen Versionen unterscheiden. | A5 | OFFEN | Suchfenster vor erneuter Recherche festhalten; parallel zu Welle 2 möglich. |
+| 12 | 3 | QIC-16 | Mittel | Literaturpriorisierung nachvollziehbar machen. TIG-Relevanz, Neuigkeitswert und wissenschaftliche Belastbarkeit getrennt bewerten und die Auswahlreihenfolge begründen. | A6 | OFFEN | Auswahlkriterien vor der neuen Literaturauswahl festlegen; keine bloße Rangfolge nach Aktualität. |
+| 13 | 3 | QIC-10 | Hoch | Quellen zur Horizontbildung ergänzen. Ergebnisse über bestehende oder stationäre Horizonte von Ergebnissen über ihre Entstehung unterscheiden und die Abdeckungslücke bearbeiten. | A4 | OFFEN | Recherche nach geklärtem Suchrahmen; Horizontbildung von Eigenschaften bestehender Horizonte trennen. |
+| 14 | 3 | QIC-05 | Hoch | Voraussetzungen des Horizontbeweises vervollständigen. Beim Ghosh-/Sarkar-Eintrag die tragenden Annahmen, den Gültigkeitsbereich und die Übertragbarkeit auf TIG ausdrücklich erfassen. | A3 | OFFEN | Mit QIC-10 bearbeiten; Quellvoraussetzungen und tatsächliche TIG-Übertragbarkeit ausdrücklich prüfen. |
+| 15 | 3 | QIC-11 | Hoch | Quellen zur Rückgewinnung von QM bearbeiten. Direkte, belastbare Quellen suchen und einordnen. Eine fortbestehende Abdeckungslücke ausdrücklich ausweisen. | A9 | OFFEN | Eigener Recherche-/Theoriepunkt; kein pauschaler Blocker der Horizont- oder Echo-Prüfung. |
+| 16 | 3 | QIC-14 | Mittel | Bessa-Datumsangaben klären. Preprint-Veröffentlichung, Versionsdatum und gegebenenfalls Zeitschrifteneinreichung eindeutig unterscheiden. | A8 | OFFEN | Vor Integration der betreffenden Quelle ihre Datums- und Versionsangaben verifizieren. |
+| 17 | 3 | QIC-12 | Hoch | Neue Quellen in die Manuskripte integrieren. Für die drei aufgenommenen Quellen prüfen, welche Aussagen sie tatsächlich stützen, und passende Zitate an diesen Stellen ergänzen. | A1 | OFFEN | Nach Prüfung der jeweiligen Quellen und Aussagen; keine automatische Übernahme aller drei Quellen als TIG-Nachweis. |
+| 18 | 3 | QIC-04 | Kritisch | Echo-Delay herleiten. Exponent, Integrationsgrenzen und Reflexions-/Randmodell überprüfen; unbelegte Vorhersagen korrigieren oder entsprechend kennzeichnen. | A13 | OFFEN | Nach QIC-01–03, soweit ihre Ergebnisse das verwendete Modell betreffen; relevante Horizontvoraussetzungen aus QIC-05/10 berücksichtigen. |
+| 19 | 4 | QIC-19 | Mittel | Literaturmatrix in die Navigation aufnehmen. Die Auffindbarkeit von research/tig_literature_matrix.md über vorhandene Einstiegs- und Übersichtsdateien prüfen und fehlende Verweise ergänzen. | A20 | OFFEN | Vorhandene Literaturmatrix verlinken; unabhängige reversible Vorarbeit kann früher erfolgen. |
+| 20 | 4 | QIC-20 | Mittel | PDFs ihren Quellen zuordnen. Insbesondere für TIG3_Vacuum_Structure.pdf die zugehörige Manuskriptquelle und Version ermitteln und dokumentieren. | A19, B7 | OFFEN | Quellen- und Versionsbindung vor dem Abschluss von QIC-23; fehlende oder mehrdeutige Herkunft sichtbar halten. |
+| 21 | 4 | QIC-21 | Mittel | Abbildungen zuordnen und bereinigen. Verteilte, gleichnamige und mit (1) bezeichnete Bilder vergleichen; maßgebliche Quellen, Verwendung und Exportfassungen festlegen. | A16, B7 | OFFEN | Verwendung und Originalquellen vor Bereinigung prüfen; Auswirkungen im Abschlussbuild kontrollieren. |
+| 22 | 4 | QIC-24 | Bereinigung | Auffällige Dateinamen korrigieren. Endungen, Schreibfehler, problematische Sonderzeichen und versehentliche Leerzeichen kontrolliert vereinheitlichen; Verweise und Manuskript-Erzeugung anschließend prüfen. | A15, B9 | OFFEN | Nach Pfad-/Verwendungsabgleich kontrolliert ändern; anschließend Verweise und Build prüfen. |
+| 23 | 4 | QIC-13 | Hoch | Ausgabe des Literaturverzeichnisses korrigieren. Die festgestellte unsrt-Problematik beheben, damit erforderliche arXiv-Kennungen, DOI und Links im erzeugten Literaturverzeichnis erscheinen. | A2 | OFFEN | Im maßgeblichen Build arXiv, DOI und Links prüfen; Änderung anschließend im erzeugten Literaturverzeichnis verifizieren. |
+| 24 | 4 | QIC-23 | Vor Veröffentlichung zwingend | Veröffentlichungskette und DOI-Zuordnung dokumentieren. Manuskriptquelle, PDF, Einreichungspaket, veröffentlichte Fassung und DOI eindeutig verbinden. | B4 | OFFEN | Gilt ab Beginn vor jeder Veröffentlichung. Zuordnung am geprüften Endstand abschließen; keine neue Releasefreigabe durch Listenpflege. |
 
 ## Bearbeitungsnachweis
 
@@ -79,9 +76,9 @@ Quelle: die am 2. Oktober 2026 im Chat „TIG Research Radar“ ausgegebenen Aud
 
 Die 32 Ausgangseinträge wurden mit sichtbarer Herkunft auf 26 Aufgaben konsolidiert: 24 für QIC und zwei für SSC. Der gemeinsame B7-Eintrag wurde in QIC-20 (PDF-Quellen) und QIC-21 (Abbildungen) getrennt erhalten. Keine Herkunft fehlt.
 
-Listen-Preflight: Vollständigkeit, eindeutige Repo-Zuordnung und Herkunftsabdeckung geprüft; alle Aufgaben zunächst OFFEN. Same-run-Selbstprüfung (AIL-0); kein unabhängiger Audit und keine erneute wissenschaftliche Prüfung der Befunde.
+Ursprünglicher Listen-Preflight v1.0: Vollständigkeit, eindeutige Repo-Zuordnung und Herkunftsabdeckung geprüft; alle Aufgaben zunächst OFFEN. Same-run-Selbstprüfung (AIL-0); kein unabhängiger Audit und keine erneute wissenschaftliche Prüfung der Befunde.
 
-## Begründung der Reihenfolge und aktueller Umfang
+## Begründung der Reihenfolge — erhaltene Ausgangsbewertung v1.1
 
 Der auf main @ b247bdefdf5d50b28dbad60b31f9f2e0f15a8975 gelesene [Papertext](papers/tig-paper/main.tex) beschreibt die Geometrie ausdrücklich als repräsentativen Sektor und nicht als vollständige Lösung neuer kovarianter Feldgleichungen. Das [arXiv-Paket](submission/arxiv/main.tex) enthält dagegen eine quadratische f(R)-Wirkung, eine α-/μ-Zuordnung und einen stärkeren Schluss über demonstrierte f(R)-Horizontübergänge. Vor Änderungen muss QIC-17 die Rollen, Quellenbindung und den jeweils geltenden Aussageumfang dieser Pakete feststellen. Die Fassungsdifferenz ist ein belegter Prüfgrund; daraus folgt keine ungeprüfte Wahl eines Scientific Owners.
 
@@ -89,7 +86,7 @@ Normierung, Lösungsanspruch und spezifische Horizontbegründung tragen die nach
 
 Die in [field_equations/open_questions.md](field_equations/open_questions.md) geführten Forschungsprogramme behalten ihre eigenen Quellen, Status und Prioritäten. Die Listenumsortierung behauptet weder ihre Schließung noch ihre automatische Blockierwirkung für jeden begrenzten Paperclaim. Ein offener Forschungsgegenstand wird nicht durch eine redaktionelle Reparatur gelöst.
 
-Der Auftrag dieses Versionslaufs ist die ausdrücklich freigegebene Korrektur der Arbeitsliste und ihrer direkten README-/AGENTS-Einstiege. Wissenschaftliche Manuskripte, Claimstatus, Auditverdikte, historische DOI-Fassungen und Releaseobjekte werden dabei nicht verändert.
+Der Auftrag des Versionslaufs v1.1 war die ausdrücklich freigegebene Korrektur der Arbeitsliste und ihrer direkten README-/AGENTS-Einstiege. Wissenschaftliche Manuskripte, Claimstatus, Auditverdikte, historische DOI-Fassungen und Releaseobjekte wurden in diesem Versionslauf nicht verändert.
 
 ## Ausführung und Entscheidungspunkte
 
@@ -108,3 +105,9 @@ Ein Same-run-Selbstcheck ist kein unabhängiger Audit. Externe Prüfung, Freigab
 - Listenprüfung vor Ablage: 24/24 Aufgaben mit identischen Originalaufträgen, Herkunft und Dringlichkeitsklassen erhalten; jede ID genau einmal in der maßgeblichen Aufgabentabelle; keine zyklische harte Abschlussabhängigkeit; lokale Markdown-Verweise geprüft.
 - Assurance: Same-run-Selbstprüfung / AIL-0 für operative Listenpflege; kein neues wissenschaftliches Audit.
 - Readback, Routing- und HEAD-Prüfung erfolgen nach dem Ablagecommit; der Abschlussnachweis berichtet das tatsächlich geprüfte Ergebnis.
+
+## Versionsnachweis v1.2 / Welle 1
+
+Auftrag: „bitte in vier wellen aufteilen. jetzt welle 1“. Quellenfreeze main @ `8fb4989d43382ccf303c8c52b2c7af746fa35034`. Zwei strukturelle Zuordnungsaufgaben erledigt, fünf Ausgangs-/Nachweisaufgaben teilbearbeitet, 17 Aufgaben offen. Die beiden technischen Buildfehler sind korrigiert; fachliche Kernprüfungen, externe Primärquellenprüfung, Endexport und Veröffentlichung folgen in ihren Wellen.
+
+Materialisierte Nachweise und tatsächliche Grenzen stehen im [Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md). Neue Arbeitsdateien ersetzen keine Scientific Owner. Kein Claim, wissenschaftliches Auditfinding oder bestehendes OQ wurde durch Welle 1 promoviert oder geschlossen. Readback und HEAD-Prüfung erfolgen nach dem Ablagecommit; Ergebnis im Abschlussnachweis.

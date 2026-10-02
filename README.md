@@ -2,9 +2,11 @@
 
 ## Repository Repair Agent — Aufgabenliste
 
-**[REPAIR_TODO.md v1.1 — aktuelle Arbeitsgrundlage mit 24 Aufgaben](REPAIR_TODO.md)**
+**[REPAIR_TODO.md v1.2 — aktuelle Arbeitsgrundlage mit 24 Aufgaben](REPAIR_TODO.md)**
 
-Einstieg für den beauftragten Repair Agent: aktuelle Arbeitsgrundlage v1.1 vom 2. Oktober 2026. Start mit QIC-17; sieben Ausführungsphasen, stabile IDs, Herkunft und offene Bearbeitungsstände stehen in der Liste. QIC-23 gilt vor jeder Veröffentlichung.
+Einstieg für den beauftragten Repair Agent: aktuelle Arbeitsgrundlage v1.2 vom 2. Oktober 2026. Vier Arbeitswellen; Welle 1 ausgeführt, nächster Einstieg QIC-01 in Welle 2. Zuordnung, stabile IDs, Herkunft und offene Bearbeitungsstände stehen in der Liste. QIC-23 gilt vor jeder Veröffentlichung.
+
+[Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md) · [Manuskriptzuordnung und Build](docs/BUILD_WORKFLOW.md) · [Tatsächliche Quellenkarte](REPOSITORY_MAP.md).
 
 
 Topological Integrity Gravity (TIG) is a structurally constrained gravitational research program investigating admissible horizon formation, bounded-curvature vacuum sectors, and integrity-driven geometric organization.
@@ -225,8 +227,8 @@ field_equations/
 
 papers/
 ├── tig-paper/
-├── TIG2/
-├── TIG3/
+├── derivations/
+├── topological-foundations-program/
 
 figures/
 theory/
