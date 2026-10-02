@@ -1,0 +1,52 @@
+{
+  "object_class": "EXPORTED_PACKAGE_OBJECT",
+  "release": "NONE",
+  "submitted": false,
+  "source_members": [
+    {
+      "name": "LICENSE",
+      "source": "LICENSE",
+      "bytes": 8744,
+      "sha256": "dfa00011bff778279aca6994889ab8fd75c2811b5263b2254943dbcd92ff2409"
+    },
+    {
+      "name": "figures/tig_horizon_branches.png",
+      "source": "figures/tig_horizon_branches.png",
+      "bytes": 76177,
+      "sha256": "ee8afe996d7ba08ca14d94b4ca0e1df9a94a1715191d43c03b64d1394a86c1ff"
+    },
+    {
+      "name": "main.tex",
+      "source": "submission/arxiv/main.tex",
+      "bytes": 15253,
+      "sha256": "2e58a8ec7f997c982ab62b7f85d054fed7fd4afc4f2d42d7b723bd7c635250d3"
+    },
+    {
+      "name": "references.bib",
+      "source": "submission/arxiv/references.bib",
+      "bytes": 6122,
+      "sha256": "c8ff91e5e03f2b51c6f8e276a8339bd71d7331395688a77aeca5865eae3d8b93"
+    },
+    {
+      "name": "unsrtnat.bst",
+      "source": "submission/arxiv/unsrtnat.bst",
+      "bytes": 24550,
+      "sha256": "2b257bc5d35c5716691f67615b3b29cc718d05b6b998f87473c924dec0a652e9"
+    }
+  ],
+  "zip_sha256": "015b3a3f3e4244fa0d92bfb2fc60eb8ea32070b254e55b6a8580b766263dd95b",
+  "zip_bytes": 88029,
+  "isolated_build": "PASS",
+  "final_latex_warnings": 0,
+  "local_input_paths": [
+    "./figures/tig_horizon_branches.png",
+    "./main.aux",
+    "./main.bbl",
+    "./main.out",
+    "main.aux",
+    "main.bbl",
+    "main.out",
+    "main.tex"
+  ],
+  "arxiv_pdf_sha256": "49674bc8e9ff2f9e956e7fd12ccbce98329def4991a82bb592d777d8cf744030"
+}

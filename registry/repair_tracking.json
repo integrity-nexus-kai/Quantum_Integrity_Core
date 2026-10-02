@@ -1,6 +1,6 @@
 {
   "document_id": "QIC-REPAIR-WAVE1-2026-10-02",
-  "version": "1.2",
+  "version": "1.3",
   "object_class": "REPAIR_TRACKING_VIEW",
   "source_freeze": {
     "repository": "integrity-nexus-kai/Quantum_Integrity_Core",
@@ -481,6 +481,12 @@
         "research/wave3_source_review.md",
         "papers/derivations/echo_delay_with_boundaries.md",
         "docs/REPAIR_WAVE3_2026-10-02.md"
+      ],
+      "wave4_assessment": "Representative reparameterized Hayward geometry; final manuscripts and static figure bound, no new scientific validation.",
+      "wave4_evidence_paths": [
+        "docs/REPAIR_WAVE4_2026-10-02.md",
+        "docs/ARTIFACT_BINDINGS.md",
+        "docs/PUBLICATION_CHAIN.md"
       ]
     },
     {
@@ -514,7 +520,13 @@
         "verification_tool": "tools/verify_wave2.py",
         "assurance": "same-run / not independent",
         "scientific_authority_promotion": "NONE"
-      }
+      },
+      "wave4_assessment": "Negative constant-coefficient quadratic metric f(R) vacuum test retained in both final PDFs; independent TIG/matter program remains open.",
+      "wave4_evidence_paths": [
+        "docs/REPAIR_WAVE4_2026-10-02.md",
+        "docs/ARTIFACT_BINDINGS.md",
+        "docs/PUBLICATION_CHAIN.md"
+      ]
     },
     {
       "tracking_key": "W1-C03",
@@ -550,7 +562,13 @@
         "verification_tool": "tools/verify_wave2.py",
         "assurance": "same-run / not independent",
         "scientific_authority_promotion": "NONE"
-      }
+      },
+      "wave4_assessment": "Wave2 action/mu convention retained; no new convention or mu/core-scale identification.",
+      "wave4_evidence_paths": [
+        "docs/REPAIR_WAVE4_2026-10-02.md",
+        "docs/ARTIFACT_BINDINGS.md",
+        "docs/PUBLICATION_CHAIN.md"
+      ]
     },
     {
       "tracking_key": "W1-C04",
@@ -588,6 +606,12 @@
         "research/wave3_source_review.md",
         "papers/derivations/echo_delay_with_boundaries.md",
         "docs/REPAIR_WAVE3_2026-10-02.md"
+      ],
+      "wave4_assessment": "Specified cubic and critical point retained; new generator binds static branches, no dynamical formation claim.",
+      "wave4_evidence_paths": [
+        "docs/REPAIR_WAVE4_2026-10-02.md",
+        "docs/ARTIFACT_BINDINGS.md",
+        "docs/PUBLICATION_CHAIN.md"
       ]
     },
     {
@@ -619,7 +643,13 @@
         "verification_tool": "tools/verify_wave2.py",
         "assurance": "same-run / not independent",
         "scientific_authority_promotion": "NONE"
-      }
+      },
+      "wave4_assessment": "Universal cubic necessity remains rejected; local fold counterexample retained.",
+      "wave4_evidence_paths": [
+        "docs/REPAIR_WAVE4_2026-10-02.md",
+        "docs/ARTIFACT_BINDINGS.md",
+        "docs/PUBLICATION_CHAIN.md"
+      ]
     },
     {
       "tracking_key": "W1-C06",
@@ -658,6 +688,12 @@
         "research/wave3_source_review.md",
         "papers/derivations/echo_delay_with_boundaries.md",
         "docs/REPAIR_WAVE3_2026-10-02.md"
+      ],
+      "wave4_assessment": "Conditional travel-time derivation retained; old unbound echo plots excluded from current manuscript/export. Physical echoes unproved.",
+      "wave4_evidence_paths": [
+        "docs/REPAIR_WAVE4_2026-10-02.md",
+        "docs/ARTIFACT_BINDINGS.md",
+        "docs/PUBLICATION_CHAIN.md"
       ]
     },
     {
@@ -702,6 +738,12 @@
         "research/wave3_source_review.md",
         "papers/derivations/echo_delay_with_boundaries.md",
         "docs/REPAIR_WAVE3_2026-10-02.md"
+      ],
+      "wave4_assessment": "Metric Schwarzschild limit and literature approximation boundaries retained; no full theory recovery or promotion.",
+      "wave4_evidence_paths": [
+        "docs/REPAIR_WAVE4_2026-10-02.md",
+        "docs/ARTIFACT_BINDINGS.md",
+        "docs/PUBLICATION_CHAIN.md"
       ]
     },
     {
@@ -747,7 +789,13 @@
         "verification_tool": "tools/verify_wave2.py",
         "assurance": "same-run / not independent",
         "scientific_authority_promotion": "NONE"
-      }
+      },
+      "wave4_assessment": "Original tensor owners, audit verdicts and status differences preserved; no scientific harmonization.",
+      "wave4_evidence_paths": [
+        "docs/REPAIR_WAVE4_2026-10-02.md",
+        "docs/ARTIFACT_BINDINGS.md",
+        "docs/PUBLICATION_CHAIN.md"
+      ]
     },
     {
       "tracking_key": "W1-C09",
@@ -784,7 +832,13 @@
         "verification_tool": "tools/verify_wave2.py",
         "assurance": "same-run / not independent",
         "scientific_authority_promotion": "NONE"
-      }
+      },
+      "wave4_assessment": "Original exploratory topology scope and research questions preserved; path cleanup changes bytes neither assumptions nor proof status.",
+      "wave4_evidence_paths": [
+        "docs/REPAIR_WAVE4_2026-10-02.md",
+        "docs/ARTIFACT_BINDINGS.md",
+        "docs/PUBLICATION_CHAIN.md"
+      ]
     },
     {
       "tracking_key": "W1-C10",
@@ -810,7 +864,13 @@
         }
       ],
       "external_source_verification": "UNASSESSED_IN_WAVE_1",
-      "new_scientific_verdict": "NONE"
+      "new_scientific_verdict": "NONE",
+      "wave4_assessment": "Photon-sphere orbit equation retained; unsupported assertion of supplied numerical curves corrected. Legacy plots excluded; quantitative shadow forecast remains open.",
+      "wave4_evidence_paths": [
+        "docs/REPAIR_WAVE4_2026-10-02.md",
+        "docs/ARTIFACT_BINDINGS.md",
+        "docs/PUBLICATION_CHAIN.md"
+      ]
     },
     {
       "tracking_key": "W1-C11",
@@ -851,6 +911,12 @@
         "research/wave3_source_review.md",
         "papers/derivations/echo_delay_with_boundaries.md",
         "docs/REPAIR_WAVE3_2026-10-02.md"
+      ],
+      "wave4_assessment": "Source versions/passages from wave3 retained; identifiers and clickable links verified in both final PDF bibliographies.",
+      "wave4_evidence_paths": [
+        "docs/REPAIR_WAVE4_2026-10-02.md",
+        "docs/ARTIFACT_BINDINGS.md",
+        "docs/PUBLICATION_CHAIN.md"
       ]
     },
     {
@@ -882,6 +948,12 @@
         "research/wave3_source_review.md",
         "papers/derivations/echo_delay_with_boundaries.md",
         "docs/REPAIR_WAVE3_2026-10-02.md"
+      ],
+      "wave4_assessment": "TIG QM recovery remains unproved; direct operational benchmarks remain contextual and do not close research OQs.",
+      "wave4_evidence_paths": [
+        "docs/REPAIR_WAVE4_2026-10-02.md",
+        "docs/ARTIFACT_BINDINGS.md",
+        "docs/PUBLICATION_CHAIN.md"
       ]
     }
   ],
@@ -1120,7 +1192,7 @@
     "scientific_promotion": "NONE",
     "release": "NONE"
   },
-  "view_scope": "Fortgeschriebene gemeinsame Reparaturnachweissicht; source_freeze, sources, builds und qa auf oberster Ebene bewahren Welle 1, wave2 bewahrt Welle 2. wave3 bindet den aktuellen Reparatureingang und die neuen Ergebnisse. Keine zweite Aufgabenliste, kein neuer wissenschaftlicher Owner.",
+  "view_scope": "Gemeinsame abgeleitete Reparaturnachweissicht; oberste Ebene bewahrt Welle 1, wave2/wave3 bewahren ihre historischen Nachweise. wave4 bindet den technischen Endstand und die verbleibende QIC-20-Quellenlücke. Keine zweite Aufgabenliste, kein neuer wissenschaftlicher Owner.",
   "wave2": {
     "date": "2026-10-02",
     "source_freeze": {
@@ -3796,5 +3868,1684 @@
       "figures": "UNCHANGED",
       "assurance": "same-run / not independent"
     }
+  },
+  "wave4": {
+    "date": "2026-10-02",
+    "source_freeze": {
+      "repository": "integrity-nexus-kai/Quantum_Integrity_Core",
+      "branch": "main",
+      "commit": "9f6cdf096716c6d070685b0d88555f403f6db8fa",
+      "tree": "eb097c0e32d54ba17ba735d55ff105578f71eec9"
+    },
+    "scope": {
+      "all_input_blobs_git_verified": 255,
+      "text_files_git_verified": 241,
+      "pdf_png_named_objects_git_verified": 14,
+      "full_scientific_audit": false,
+      "new_fourteen_repository_audit": false
+    },
+    "source_manifest": [
+      {
+        "path": "AGENTS.md",
+        "sha": "7583ac62dfd4daee1cdbeb4191b421e3c4337906",
+        "bytes": 2515
+      },
+      {
+        "path": "AUTHOR.md",
+        "sha": "5acbd776dab8c220b1ca832cf121b9d93f4dfd39",
+        "bytes": 425
+      },
+      {
+        "path": "CANONICAL_CORE.md",
+        "sha": "7938694b9f8199bb801acbc00df78816f03ae1f7",
+        "bytes": 2080
+      },
+      {
+        "path": "CANONICAL_STATUS.md",
+        "sha": "563ec0f79ced2a92148b0e2077b321295ac8078f",
+        "bytes": 1424
+      },
+      {
+        "path": "CITATION.cff",
+        "sha": "a9c1f5ec3c363cd3e9bfc6afc7ec18def56f8c70",
+        "bytes": 705
+      },
+      {
+        "path": "DEVELOPMENT_STATUS.md",
+        "sha": "bf9f123c776f7c9bdd4887c003de4cbac08ae8b6",
+        "bytes": 841
+      },
+      {
+        "path": "EXPORT_MANIFEST.md",
+        "sha": "74616ddedc252fb5cbf98973d8d66eb081fc0ab4",
+        "bytes": 1107
+      },
+      {
+        "path": "IMPORT_MANIFEST.md",
+        "sha": "c4b35e32322b4615d5f445956db4675e756c5450",
+        "bytes": 1001
+      },
+      {
+        "path": "INTERFACE.md",
+        "sha": "f82d16bf82777e120b7dc6a8e8a9349391bbbbf0",
+        "bytes": 1218
+      },
+      {
+        "path": "LICENSE",
+        "sha": "86661dc0b2522dee1836855b64e9b16efee7d805",
+        "bytes": 8744
+      },
+      {
+        "path": "LICENSE_DOI_TRANSITION_NOTICE.md",
+        "sha": "1c2b18f10b2751441e7b3058705f3a443afd9dd0",
+        "bytes": 2559
+      },
+      {
+        "path": "LM_EXPORT_MANIFEST.md",
+        "sha": "415ec8976ec3cddd32f090524cf7c3cb0b7da227",
+        "bytes": 1075
+      },
+      {
+        "path": "OBJECT_OWNERSHIP.md",
+        "sha": "5e0e4e35debb03a7bed91ea1e2aa6b4c3365e6de",
+        "bytes": 5168
+      },
+      {
+        "path": "README.md",
+        "sha": "90e0a7c941807bbff4b5c691dd279e9b992d5634",
+        "bytes": 7102
+      },
+      {
+        "path": "README_EN.md",
+        "sha": "20a5cfb8da66ed68024c52f1b516a4dbc7a5fd87",
+        "bytes": 2845
+      },
+      {
+        "path": "REPAIR_TODO.md",
+        "sha": "2ea5e6a6182d0ce111d1f2bad9d3ca334cf92d33",
+        "bytes": 22372
+      },
+      {
+        "path": "REPOSITORY_MAP.md",
+        "sha": "e063c7cb348028896d9061b702e0afe4234e2b9a",
+        "bytes": 3364
+      },
+      {
+        "path": "TIG_REPOSITORY_STRUCTURE_DE.md",
+        "sha": "3d0b1cf9d5ea7bffa0a6f247392add154d5e7c22",
+        "bytes": 1522
+      },
+      {
+        "path": "TIG_REPOSITORY_STRUCTURE_EN.md",
+        "sha": "3face87b3e8e2fdebcbf0f2ed5e472849c905344",
+        "bytes": 1445
+      },
+      {
+        "path": "TOPOLOGICAL_INTEGRITY_GRAVITY_TIG_v1.0_DE_.md",
+        "sha": "c13ca3823f770a82ab21fbd143775eaa65526acd",
+        "bytes": 3222
+      },
+      {
+        "path": "TOPOLOGICAL_INTERGRITY_GRAVITY_TIG_v1.0_EN.md",
+        "sha": "768dbb8ce3bc07ee605175d108f3ea1573124abe",
+        "bytes": 2995
+      },
+      {
+        "path": "abstract.md",
+        "sha": "20b6f0084fd2cb01b76ca70e4e3c7a13fa1e71a0",
+        "bytes": 3805
+      },
+      {
+        "path": "applications/biological_integrity_dynamics.md",
+        "sha": "8464e54f631a8347349a604d5e25692b866db930",
+        "bytes": 4157
+      },
+      {
+        "path": "applications/biological_integrity_model.md",
+        "sha": "3ae3f16ab602b07f18a6c52945acfad08c4db722",
+        "bytes": 2778
+      },
+      {
+        "path": "applications/biology_predictions.md",
+        "sha": "8e51fe54ee68a45dca2f4c4ede153f11dafaece2",
+        "bytes": 7608
+      },
+      {
+        "path": "applications/cyber_integrity_model.md",
+        "sha": "d6a71411158f12808f40d5bb879e47f61b6b8daf",
+        "bytes": 3557
+      },
+      {
+        "path": "applications/mas_integrity_simulation.md",
+        "sha": "7b92b45f2b4e3c4fa1a5b2e2e08a1b9bb50df97b",
+        "bytes": 3320
+      },
+      {
+        "path": "applications/prototype_architecture.md",
+        "sha": "5928b3ce21ca0313a933d314efafddf646f75028",
+        "bytes": 2362
+      },
+      {
+        "path": "archive/field_equation_historical_status.md",
+        "sha": "2b37029f44be11e3bdef9a58d759f164718602d0",
+        "bytes": 2930
+      },
+      {
+        "path": "axioma/axioma_architecture.md",
+        "sha": "7ee99086736ead5e745b6fec9590fbe48f0b6bf4",
+        "bytes": 5579
+      },
+      {
+        "path": "biology_predictions.md",
+        "sha": "b98d7007f03b9d7cfb9eef37f5b9c25813fc50d7",
+        "bytes": 6700
+      },
+      {
+        "path": "docs/BUILD_WORKFLOW.md",
+        "sha": "5f75a8a467558df01ae2e57c55a3015b0835c55c",
+        "bytes": 7900
+      },
+      {
+        "path": "docs/REPAIR_WAVE1_2026-10-02.md",
+        "sha": "6e4fa0b5e3c8154ec9a1df1036e0c423a127686d",
+        "bytes": 7709
+      },
+      {
+        "path": "docs/REPAIR_WAVE2_2026-10-02.md",
+        "sha": "d64b9a7b09bf3cd89c566ca7243668e98b661f58",
+        "bytes": 9019
+      },
+      {
+        "path": "docs/REPAIR_WAVE3_2026-10-02.md",
+        "sha": "0250738fcd91afdb56576102f97bd27431ba7125",
+        "bytes": 7218
+      },
+      {
+        "path": "field_equations/field_equation_1_0.md",
+        "sha": "9e29fe4f09b7a3d383fad17880f5489f79e6a879",
+        "bytes": 2238
+      },
+      {
+        "path": "field_equations/field_equation_reverse_derivation_path.md",
+        "sha": "5e5cea9fa83f4c594285f57436bda59f3f94ffa7",
+        "bytes": 3626
+      },
+      {
+        "path": "field_equations/open_questions.md",
+        "sha": "ac755c1c0905c10ee399d2a1714051c377e3d9ff",
+        "bytes": 3497
+      },
+      {
+        "path": "field_equations/validation_status.md",
+        "sha": "01fc2905fe2bff736708d90808135366d7eab3af",
+        "bytes": 2497
+      },
+      {
+        "path": "governance/claim_boundary_standard.md",
+        "sha": "3d1cae6aea7b7d45350773f5d362443485fbef57",
+        "bytes": 992
+      },
+      {
+        "path": "governance/repository_standard.md",
+        "sha": "c3cad2a8d64c1a77b67b24b9bf27cde92d9c85ab",
+        "bytes": 981
+      },
+      {
+        "path": "papers/archive/docs_redundant/executive_summary.md",
+        "sha": "8842c1915db0a69266dbd504dc577c041e394316",
+        "bytes": 3330
+      },
+      {
+        "path": "papers/archive/docs_redundant/whats_missing.md",
+        "sha": "d43b51af8eedb743b09a55bf6645454dc137f026",
+        "bytes": 4237
+      },
+      {
+        "path": "papers/archive/forbidden_paper_versions/tig_black_hole_solution.md",
+        "sha": "c337985090f5226cd1dcf84bab83fadce33f3770",
+        "bytes": 3562
+      },
+      {
+        "path": "papers/archive/forbidden_paper_versions/tig_foundations_v1.md",
+        "sha": "310ddb3c3a9a868011c1c7869f604d73bb4040e9",
+        "bytes": 4053
+      },
+      {
+        "path": "papers/archive/forbidden_paper_versions/tig_foundations_v1.tex",
+        "sha": "00e61066bcc09db514422c2070263a096042e8d0",
+        "bytes": 2883
+      },
+      {
+        "path": "papers/archive/forbidden_paper_versions/tig_master_arxivf.text",
+        "sha": "a90aef43e830e5df18b9ed119f7134246818ebba",
+        "bytes": 4438
+      },
+      {
+        "path": "papers/archive/forbidden_paper_versions/tig_master_paper_v1_backup.md",
+        "sha": "d539b7e1109cea241928476228ce095362b53bc9",
+        "bytes": 5013
+      },
+      {
+        "path": "papers/archive/paper_fragments/limitations.tex",
+        "sha": "e787e458e231fd60922677211e46b8f6ee180340",
+        "bytes": 6239
+      },
+      {
+        "path": "papers/archive/paper_fragments/tig_black_hole_solution.tex",
+        "sha": "1e28af6d069d5173e725470b364b3d6ae0bb2855",
+        "bytes": 1827
+      },
+      {
+        "path": "papers/derivations/_friedmann_derivation.md",
+        "sha": "014e4e27921f8a731a6ee1f64345c120a91cb904",
+        "bytes": 2089
+      },
+      {
+        "path": "papers/derivations/black_hole_R2_derivation.md",
+        "sha": "6533f4e7a6a36712250a72234632cd1400fd225c",
+        "bytes": 3734
+      },
+      {
+        "path": "papers/derivations/black_hole_stability_analysis.md",
+        "sha": "8ba01ddbd2c2f79ff64bef5487758481502da82c",
+        "bytes": 7898
+      },
+      {
+        "path": "papers/derivations/comparison_starobinski.md",
+        "sha": "60e4870b4029575e57475004d697a6459abdaff1",
+        "bytes": 6884
+      },
+      {
+        "path": "papers/derivations/concrete_scalar_mode:prediction.md",
+        "sha": "b93989f7025493d62de1aa60e7ce12520ecddd89",
+        "bytes": 4445
+      },
+      {
+        "path": "papers/derivations/core_strengthening_plan.md",
+        "sha": "3c73b55db4867e5eb4df07b94938e096ce5423da",
+        "bytes": 4924
+      },
+      {
+        "path": "papers/derivations/cosmology_friedmann.md",
+        "sha": "3b416a02a2c9af49b0a67f51bad78b45dc94a138",
+        "bytes": 3323
+      },
+      {
+        "path": "papers/derivations/cosmology_prediction.md",
+        "sha": "2ebe1af53d9078c7f4092f99941d06bf86ca76ad",
+        "bytes": 2401
+      },
+      {
+        "path": "papers/derivations/curvature_check.md",
+        "sha": "f21a417f9e6a319acf4a3339aa35c47f85c25bb1",
+        "bytes": 2579
+      },
+      {
+        "path": "papers/derivations/derivations_comparisonlayer.md",
+        "sha": "419a9a85ae98f2ae59d62dce50b56f3ad7121b24",
+        "bytes": 6903
+      },
+      {
+        "path": "papers/derivations/derivationsoperator_to_geometry.md",
+        "sha": "cb1eace8c3eb039d1e728930e4e71538e86178b5",
+        "bytes": 2634
+      },
+      {
+        "path": "papers/derivations/echo_delay_with_boundaries.md",
+        "sha": "e209851096d2f66f58867ee96048291ce2cc5684",
+        "bytes": 6605
+      },
+      {
+        "path": "papers/derivations/entropy-geografie.md",
+        "sha": "2706300620c9097fb6edd00529d1454930abce6c",
+        "bytes": 2511
+      },
+      {
+        "path": "papers/derivations/entropy_integrity.md",
+        "sha": "04ea8cf7bad39b3f9296f4c9cebd6b94087abcfd",
+        "bytes": 3331
+      },
+      {
+        "path": "papers/derivations/entropy_integrity_framework.md",
+        "sha": "04ea8cf7bad39b3f9296f4c9cebd6b94087abcfd",
+        "bytes": 3331
+      },
+      {
+        "path": "papers/derivations/explicit_black_hole_solution.md",
+        "sha": "f823ab7f0b6cd0dab6735f62f6a735ba5d09635f",
+        "bytes": 7643
+      },
+      {
+        "path": "papers/derivations/extenden_geometry_layer.md",
+        "sha": "90c6d514f1f55f4e2da86a2617890b8802c85b4d",
+        "bytes": 4784
+      },
+      {
+        "path": "papers/derivations/friedmann_equation.md",
+        "sha": "014e4e27921f8a731a6ee1f64345c120a91cb904",
+        "bytes": 2089
+      },
+      {
+        "path": "papers/derivations/horizons_thermodynamics.md",
+        "sha": "7d102cad55748495768c937b8c09c7d337cd1489",
+        "bytes": 4017
+      },
+      {
+        "path": "papers/derivations/integrity_functional.mdderi",
+        "sha": "f5377832eaa9c3671762b073918d7b241d53ff2a",
+        "bytes": 8857
+      },
+      {
+        "path": "papers/derivations/integrity_functional_systems.md",
+        "sha": "8fb802f947531b9db39fa6715a2cad46134fb02a",
+        "bytes": 6306
+      },
+      {
+        "path": "papers/derivations/integrity_tensor_derivation.md",
+        "sha": "2fbcdc69c84b0b0d855f485b68c248e7d77775fd",
+        "bytes": 6155
+      },
+      {
+        "path": "papers/derivations/integrity_variation.md",
+        "sha": "3bc2c838464075373400c2d87c3e4c6eaf438a29",
+        "bytes": 3359
+      },
+      {
+        "path": "papers/derivations/lambda_physical_role.md",
+        "sha": "d48fe714c1ccb7d2574b27e13c09f3bc92e41e64",
+        "bytes": 5038
+      },
+      {
+        "path": "papers/derivations/linear_perturbation_roadmap.md",
+        "sha": "5ff146de657dd8b3ddf2f2084e5555f8c71df61b",
+        "bytes": 6098
+      },
+      {
+        "path": "papers/derivations/novelty_extraction.md",
+        "sha": "79453392368384b93f1f1523a1ea907cb2fc56ab",
+        "bytes": 8638
+      },
+      {
+        "path": "papers/derivations/parameter_physics.md",
+        "sha": "060dbf5e9ced379ec46cba765036d6e27721b6bd",
+        "bytes": 9358
+      },
+      {
+        "path": "papers/derivations/predicitions_refinement.md",
+        "sha": "af496a85ce0ddad42ef5cdafc2bee9ec6cfe8132",
+        "bytes": 8556
+      },
+      {
+        "path": "papers/derivations/predictions_tig.md",
+        "sha": "cd806f6b7a120a9556eab46206abbf82bee4e4d6",
+        "bytes": 3051
+      },
+      {
+        "path": "papers/derivations/quadratic_fr_and_horizon_checks.md",
+        "sha": "d2d5c61ca94c500e481d232b65a43876790b4f36",
+        "bytes": 11860
+      },
+      {
+        "path": "papers/derivations/quantitative_scalar_prediction.md",
+        "sha": "202e7123bcc486f2181de79818b050f3a8ede36f",
+        "bytes": 6083
+      },
+      {
+        "path": "papers/derivations/quantum_link.md",
+        "sha": "0953182778e6f783191f0377575916ae2a1c16d9",
+        "bytes": 2582
+      },
+      {
+        "path": "papers/derivations/scalar_coupleling.md",
+        "sha": "ee5ee3b3a76936a1cf772c80e44511429c681b30",
+        "bytes": 6878
+      },
+      {
+        "path": "papers/derivations/spectrale_derivation.md",
+        "sha": "ffaaf5d8e7c295f60ef74c76419f02a12d833ebc",
+        "bytes": 7579
+      },
+      {
+        "path": "papers/derivations/stability_analysis.md",
+        "sha": "9b7882f3019c1ef498700e5bec32b72813c2388f",
+        "bytes": 2571
+      },
+      {
+        "path": "papers/derivations/tig_positioning.md",
+        "sha": "b93989f7025493d62de1aa60e7ce12520ecddd89",
+        "bytes": 4445
+      },
+      {
+        "path": "papers/derivations/trace_equation_scalar_mode.md",
+        "sha": "6949b4a04b44fd5f579475af4c6f2eafc41a2586",
+        "bytes": 2998
+      },
+      {
+        "path": "papers/derivations/unified_intergaty_principle.md",
+        "sha": "12f77001af7c407314983c461962a67d4af69ffb",
+        "bytes": 2693
+      },
+      {
+        "path": "papers/docs/faq.md",
+        "sha": "f160d6040d89320ba81288b1b4b0520f72761ce7",
+        "bytes": 8886
+      },
+      {
+        "path": "papers/tig-paper/abstract.tex",
+        "sha": "077f339d3be1b7b156efcb3f7f642b7b810561e7",
+        "bytes": 1130
+      },
+      {
+        "path": "papers/tig-paper/arvix_upload",
+        "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+        "bytes": 1
+      },
+      {
+        "path": "papers/tig-paper/main.tex",
+        "sha": "c8ec77146dc88cd7e437d47e4bb4abab771c7130",
+        "bytes": 32402
+      },
+      {
+        "path": "papers/tig-paper/photon_sphere.tex",
+        "sha": "edf35b044c4d646db7e9b38aad1bd9a465ce33bc",
+        "bytes": 1667
+      },
+      {
+        "path": "papers/tig-paper/references.bib",
+        "sha": "11e703fd70f37110bac9512d2215dc87622906ce",
+        "bytes": 5102
+      },
+      {
+        "path": "papers/tig_topolocical_paper.md",
+        "sha": "90372908e211df0a46b9d7aa38c04a0a69dd33ca",
+        "bytes": 3364
+      },
+      {
+        "path": "papers/tig_topological_paperREADME.md",
+        "sha": "6c946523dfe183e89446160b86391b17f840d5de",
+        "bytes": 3486
+      },
+      {
+        "path": "papers/topological-foundations-program/README.md",
+        "sha": "305499f25bf762a121384b7b2a90a14781bbe1ef",
+        "bytes": 6050
+      },
+      {
+        "path": "project/submission/reviwer_.md",
+        "sha": "628c4355e4cf6b4c68a52a49c88d67a6693cf9ff",
+        "bytes": 2830
+      },
+      {
+        "path": "provenance/branch_consolidation/BRANCH_CONSOLIDATION_2026-09-16.md",
+        "sha": "8ea913cbaaebf77bc81feecdc2173705ec126619",
+        "bytes": 2171
+      },
+      {
+        "path": "registry/repair_tracking.json",
+        "sha": "b0a9dbe6e408173b7f005fc35a4156ef89e38555",
+        "bytes": 131483
+      },
+      {
+        "path": "registry/repository_status.md",
+        "sha": "d6b79e6b057441fd80b215d16d8f786ea774b520",
+        "bytes": 3006
+      },
+      {
+        "path": "research/evolution/boundary_operator.md",
+        "sha": "0e201029dabb0379aa99d3b6aee0ff08c26dbe35",
+        "bytes": 4303
+      },
+      {
+        "path": "research/evolution/evolution_operator_axioms.md",
+        "sha": "b4bf22cb8fa7b04f8a81a5a0bf9feb5ee53a5b89",
+        "bytes": 3784
+      },
+      {
+        "path": "research/evolution/evolution_operator_construction.md",
+        "sha": "1827bcc80ac11cbe08c17dafa1ccf7e37008cac7",
+        "bytes": 4161
+      },
+      {
+        "path": "research/evolution/operator_space_definition.md",
+        "sha": "1f9c7fe88e710a1c4202b3ac875d38f639e510b3",
+        "bytes": 3187
+      },
+      {
+        "path": "research/tig_literature_matrix.md",
+        "sha": "77af4fb5e5d175b9a704a6a4e316b6581e3fa2cb",
+        "bytes": 4247
+      },
+      {
+        "path": "research/wave3_source_review.md",
+        "sha": "f5ee280863b4955c0149a50cdecd9ddd3e3a654a",
+        "bytes": 8401
+      },
+      {
+        "path": "share_draft.md",
+        "sha": "d678907a881fa39e0f94b460c95fd9d0d6f45ac8",
+        "bytes": 483
+      },
+      {
+        "path": "strategy/publication_strategy.md",
+        "sha": "114e489cc9e3a18c400678112204a6be445fbdbf",
+        "bytes": 2725
+      },
+      {
+        "path": "strategy/tig_emergence_progra",
+        "sha": "bbde5e72b4f694d3fe1f607a34d67a40048366f5",
+        "bytes": 3123
+      },
+      {
+        "path": "submission/arxiv/main.tex",
+        "sha": "f2c263c4323718115fef0bce7f1cb58ef8d5faeb",
+        "bytes": 14892
+      },
+      {
+        "path": "submission/arxiv/references.bib",
+        "sha": "503ba098831a1d5706b02fbf844884b32ac47d1c",
+        "bytes": 5304
+      },
+      {
+        "path": "theory/black_hole_sector/README.md",
+        "sha": "50622e1491dc175737ac37c0d33a75c55d5d6085",
+        "bytes": 514
+      },
+      {
+        "path": "theory/critical_evaporation.md",
+        "sha": "fffd6ac414d7d0ef5fbf00e2ab3ad173fc8adf01",
+        "bytes": 4031
+      },
+      {
+        "path": "theory/hawking_sector/README.md",
+        "sha": "3de96b8d185cfdc9c07e3ebafcf2381caaee5de1",
+        "bytes": 1771
+      },
+      {
+        "path": "theory/hawking_sector/tig_horizon_dynamics_simulation.html",
+        "sha": "3b9b2db848901fea93b32dc5245a9971c0bd15c1",
+        "bytes": 5695
+      },
+      {
+        "path": "theory/hawking_sector/tig_horizon_dynamics_simulation.md",
+        "sha": "6f0776bbefdee21897301cb27db9063afb0b2fb4",
+        "bytes": 3835
+      },
+      {
+        "path": "theory/integrity_tensor/candidates/ITC_001.md",
+        "sha": "5591ce3796e0aa3a2605222b459e0199e29d948d",
+        "bytes": 2926
+      },
+      {
+        "path": "theory/integrity_tensor/candidates/ITC_002.md",
+        "sha": "5b4938f728f18f2bb9bcc7d36a85f997e6c35c17",
+        "bytes": 3000
+      },
+      {
+        "path": "theory/integrity_tensor/candidates/ITC_003.md",
+        "sha": "e27ca0e6cfef3946e77a594be9844a9fe871884f",
+        "bytes": 3293
+      },
+      {
+        "path": "theory/integrity_tensor/candidates/ITC_004.md",
+        "sha": "a58afd27d5cc01a69d985ef2811113caff0d8398",
+        "bytes": 3441
+      },
+      {
+        "path": "theory/integrity_tensor/candidates/ITC_005.md",
+        "sha": "988756510038908e799501919e7881ccfb2c10a0",
+        "bytes": 3412
+      },
+      {
+        "path": "theory/integrity_tensor/candidates/README.md",
+        "sha": "ef8112032f38c95fdc6bb7698a52aa4b5cc156be",
+        "bytes": 2485
+      },
+      {
+        "path": "theory/integrity_tensor/defect_to_tensor_hypothesis.md",
+        "sha": "fe5d033cd5c9f73207bafc1456e16f54a8c4908b",
+        "bytes": 3372
+      },
+      {
+        "path": "theory/integrity_tensor/effective_integrity_tensor_1_0.md",
+        "sha": "0bab726db144d0d1123d2cfb194992aa203025f6",
+        "bytes": 3204
+      },
+      {
+        "path": "theory/integrity_tensor/geometry_to_curvature.md",
+        "sha": "5b4b85bd165aece54ed1f5ed66595cf94e35e849",
+        "bytes": 2630
+      },
+      {
+        "path": "theory/integrity_tensor/integrity_scale_requirements.md",
+        "sha": "f346134434935cbdd85a34f05381a5575b528b6a",
+        "bytes": 3384
+      },
+      {
+        "path": "theory/integrity_tensor/integrity_tensor_candidates.md",
+        "sha": "643e64f4e33d170925d63e4f1d4391a5595ef63c",
+        "bytes": 2680
+      },
+      {
+        "path": "theory/integrity_tensor/integrity_tensor_comparative_evaluation.md",
+        "sha": "541dd9252a7f0b1579695177a27adbb5e7661f3f",
+        "bytes": 2329
+      },
+      {
+        "path": "theory/integrity_tensor/integrity_tensor_evaluation_framework.md",
+        "sha": "9d8ed96761bc76e8c36f04c98c2880d1c2b13150",
+        "bytes": 3491
+      },
+      {
+        "path": "theory/integrity_tensor/integrity_tensor_evaluation_results.md",
+        "sha": "9a45dd5a053b35ef0dd5f6a64226df246c1d17f8",
+        "bytes": 4115
+      },
+      {
+        "path": "theory/integrity_tensor/integrity_tensor_phase1_summary.md",
+        "sha": "c42fe0164327d36e412074f35255948b6fd2c5c7",
+        "bytes": 3802
+      },
+      {
+        "path": "theory/integrity_tensor/integrity_tensor_program.md",
+        "sha": "5f8c8e150931d9ba56891607afbec437b3572d1f",
+        "bytes": 3278
+      },
+      {
+        "path": "theory/integrity_tensor/integrity_tensor_requirements.md",
+        "sha": "f627fc1471996d91e8e99b5493bf8fcddb7f9a0d",
+        "bytes": 3094
+      },
+      {
+        "path": "theory/integrity_tensor/integrity_tensor_status.md",
+        "sha": "9f2831be250c5731cdcd69551733cba8fe7d77cc",
+        "bytes": 3477
+      },
+      {
+        "path": "theory/integrity_tensor/integrity_torsion_scale_hypothesis.md",
+        "sha": "b8d770d9508894697ce328023497eb92eaf1daa8",
+        "bytes": 2934
+      },
+      {
+        "path": "theory/integrity_tensor/organizational_action.md",
+        "sha": "a0a9f8989f4215450e6eccf90ce8f4b56ba6f01f",
+        "bytes": 3436
+      },
+      {
+        "path": "theory/integrity_tensor/organizational_curvature_defect.md",
+        "sha": "b7c7d3394880fbf91e5fdf8f4f3315539544b67c",
+        "bytes": 2431
+      },
+      {
+        "path": "theory/integrity_tensor/organizational_integrity_tensor.md",
+        "sha": "d303c5aa00a853431bbb97c3543f6cc2a9f55597",
+        "bytes": 2521
+      },
+      {
+        "path": "theory/integrity_tensor/organizational_tensor_audit_result.md",
+        "sha": "06a5a128e5bd3ef0b38523f04a50ffdbc11064de",
+        "bytes": 2658
+      },
+      {
+        "path": "theory/integrity_tensor/rho_hessian_tensor_test.md",
+        "sha": "acf1f38fd290b435cbfdf07c59a6a36544096a69",
+        "bytes": 3880
+      },
+      {
+        "path": "theory/integrity_tensor/tig_field_equation_1_0_audit.md",
+        "sha": "8958f23a5338dcf6f08216bfc966647c87dd958f",
+        "bytes": 2893
+      },
+      {
+        "path": "theory/integrity_tensor/tig_field_equation_1_0_integrity_torsion.md",
+        "sha": "873d9c85ce2401afee0dd8bfad95e17a6d8dd3ec",
+        "bytes": 3910
+      },
+      {
+        "path": "theory/integrity_tensor/tig_native_tensor_derivation.md",
+        "sha": "8a541d59f46848e18ea556266d62055db603daf4",
+        "bytes": 2664
+      },
+      {
+        "path": "theory/integrity_tensor/volumetric_organization.mathematical_definition.md",
+        "sha": "e2cafa14c97c28e1ffab439111506cf09e7c1f56",
+        "bytes": 2782
+      },
+      {
+        "path": "theory/integrity_tensor/volumetric_organization_to_geometry.md",
+        "sha": "913bc492dc768ee2db017d7b31891dc14bf22b50",
+        "bytes": 3392
+      },
+      {
+        "path": "theory/mathematical_derivation_of_TIG.md",
+        "sha": "c790db14653016ba6fbc0e1f8dfa9955a349dc02",
+        "bytes": 3291
+      },
+      {
+        "path": "theory/photon_sphere_dynamics/simulation.html",
+        "sha": "2047b6a7e1d347a1656a4b695ed5f0650630d272",
+        "bytes": 7191
+      },
+      {
+        "path": "theory/tig_horizon_thermodynamics.md",
+        "sha": "13d9caca98ad7b6e1d5f3be5ab02e386aae25f05",
+        "bytes": 3442
+      },
+      {
+        "path": "tools/build_manuscripts.py",
+        "sha": "83aa9fdf055ad7412a6cb1dd15d46da04750bc5f",
+        "bytes": 1648
+      },
+      {
+        "path": "tools/verify_wave2.py",
+        "sha": "05bc4d37755a671bd4298f6a60d6c0e95cd070f3",
+        "bytes": 6168
+      },
+      {
+        "path": "tools/verify_wave3.py",
+        "sha": "80442ab6d6b0caf200a3e63eeda7ffc57d85b254",
+        "bytes": 5088
+      },
+      {
+        "path": "topology/READ.md",
+        "sha": "01b899f5051d6e62df7a9a234d59ee4f12fa986d",
+        "bytes": 4282
+      },
+      {
+        "path": "topology/README.md",
+        "sha": "b4388abef767de9100e598dd116c21c81a7d2408",
+        "bytes": 1959
+      },
+      {
+        "path": "topology/STRUCTURE_PLAN.md",
+        "sha": "c3b34c7d8c135149858e67287bdc5d2cc9d2ee6a",
+        "bytes": 1625
+      },
+      {
+        "path": "topology/admissibility_conditions,md",
+        "sha": "9413a71577db3d0ba2411dcb17ca7df73d885560",
+        "bytes": 5576
+      },
+      {
+        "path": "topology/axiome.md",
+        "sha": "3175a9cee188fb832a96660707834bb6888537ce",
+        "bytes": 5234
+      },
+      {
+        "path": "topology/branch_structure_emergence.md",
+        "sha": "7ea14b066192428fbb89e5ed2f25e27969a20914",
+        "bytes": 5250
+      },
+      {
+        "path": "topology/canonical_emergence_route.md",
+        "sha": "27b3e28becfa7733dac32f1791ea75463639649f",
+        "bytes": 4789
+      },
+      {
+        "path": "topology/connectivity_operator_formalization.md",
+        "sha": "68eefb339cff81a494bae50f7450a6af56b2e230",
+        "bytes": 4380
+      },
+      {
+        "path": "topology/connectivity_operator_foundations.md",
+        "sha": "22f6a7586e02aef14663f07ea6337c2e31a5647f",
+        "bytes": 4364
+      },
+      {
+        "path": "topology/connectivity_to_geometry.md",
+        "sha": "8f3f2faa88e4ce037fa67acf73cb5899ec4c7eb6",
+        "bytes": 4647
+      },
+      {
+        "path": "topology/continuous_geometry_limitations.md",
+        "sha": "0548cf06130d3ed2878706649ec2171a2774e3be",
+        "bytes": 2475
+      },
+      {
+        "path": "topology/core_axioms.md",
+        "sha": "a4415da5fe18610bc925b6b32da5b9939c3d996c",
+        "bytes": 3014
+      },
+      {
+        "path": "topology/critical_open_problems.md",
+        "sha": "8f1aab256b2f3027cce044c3645167e75a5c8758",
+        "bytes": 3889
+      },
+      {
+        "path": "topology/critical_surfaces.md",
+        "sha": "3175a9cee188fb832a96660707834bb6888537ce",
+        "bytes": 5234
+      },
+      {
+        "path": "topology/critical_transition_dynamics.md",
+        "sha": "a7d4d48bfb4fe9beff3a07435f2ad7419b18129c",
+        "bytes": 4230
+      },
+      {
+        "path": "topology/cube_necessity_investigation.md",
+        "sha": "1318169d81319df3028561259df95c14924d81ed",
+        "bytes": 3984
+      },
+      {
+        "path": "topology/cube_struture.md",
+        "sha": "3d5e91c23c90881ed2007948cbc2731c66b46480",
+        "bytes": 4343
+      },
+      {
+        "path": "topology/curvature_from_connectivity.md",
+        "sha": "e9b106a03a235b4552d480d7ba3f69c2496eb2d0",
+        "bytes": 4803
+      },
+      {
+        "path": "topology/emergent_3d_spacetime_structure.md",
+        "sha": "0dc1472f0b76346a8c0618394f464117a450c9b8",
+        "bytes": 3684
+      },
+      {
+        "path": "topology/emergent_curvature.md",
+        "sha": "e064bfc238a68c9a6f024ae2cd92ef48ba86d593",
+        "bytes": 3911
+      },
+      {
+        "path": "topology/emergent_curvature_construction.md",
+        "sha": "c0f8ae119f98a2cffb165c73d03f748b9c4db408",
+        "bytes": 4060
+      },
+      {
+        "path": "topology/emergent_dimension_construction.md",
+        "sha": "957411ff55126bbf268b510aa225a29845af4c8c",
+        "bytes": 4190
+      },
+      {
+        "path": "topology/emergent_geometry.md",
+        "sha": "e4c48ea21b73ac77822a45daa1e76431e19332ce",
+        "bytes": 3654
+      },
+      {
+        "path": "topology/emergent_geometry_construction.md",
+        "sha": "0ec8973e812a29aa96a18799f8b8cda6a40bd236",
+        "bytes": 4038
+      },
+      {
+        "path": "topology/emergent_metric_construction.md",
+        "sha": "14f093be694db301b070a80ce5ed56d254584d09",
+        "bytes": 4711
+      },
+      {
+        "path": "topology/emergent_metric_principle.md",
+        "sha": "f0721170f3442d1028505c17d7173b20fc965c9d",
+        "bytes": 4224
+      },
+      {
+        "path": "topology/evolution/README.md",
+        "sha": "47ead27dd80d104e49d991de0ef24b26385a22f9",
+        "bytes": 532
+      },
+      {
+        "path": "topology/evolution/admissibility_geometry.md",
+        "sha": "16ff20338e818e2d0fd4ed4bdf060c76a1cf837f",
+        "bytes": 7275
+      },
+      {
+        "path": "topology/evolution/admissibility_transition_structure.md",
+        "sha": "3d09d79b018964eb2402891172de672d1d4b99f6",
+        "bytes": 7248
+      },
+      {
+        "path": "topology/evolution/recursive_connection_structure.md",
+        "sha": "dc3a1ede2b9b651f391af99897dbd48c1702961a",
+        "bytes": 4172
+      },
+      {
+        "path": "topology/evolution/recursive_curvature.md",
+        "sha": "4e18b44063e6dc1c5755d243b67f9c77fc76e158",
+        "bytes": 3615
+      },
+      {
+        "path": "topology/evolution/recursive_dynamics.md",
+        "sha": "9f26caf56f1040dbb74af5fae4771148b7d4b2dc",
+        "bytes": 3489
+      },
+      {
+        "path": "topology/evolution/recursive_geodesics.md",
+        "sha": "c0cfecb18ca3ce189e0671f3c8d479380ecb0584",
+        "bytes": 4538
+      },
+      {
+        "path": "topology/evolution/recursive_metric_tensor.md",
+        "sha": "bbf0271e7dd0f6deec7f5b1eb1b0c33264fdcee2",
+        "bytes": 3548
+      },
+      {
+        "path": "topology/evolution/recursive_operator_framework.md",
+        "sha": "1217dd375c8270522377e0a9005bf64214af6b47",
+        "bytes": 3529
+      },
+      {
+        "path": "topology/evolution/recursive_parallel_transport.md",
+        "sha": "ada4f60dfb7e6351ce9250b8394e7cc91da486c0",
+        "bytes": 4447
+      },
+      {
+        "path": "topology/evolution/recursive_stability_spectrum.md",
+        "sha": "bf5d7e65d06b7099bdc165610ea148756969c506",
+        "bytes": 4768
+      },
+      {
+        "path": "topology/evolution/theoryadmissibility_evolution.md",
+        "sha": "4569cd4ded5bf43f165610e7345d442855a15c05",
+        "bytes": 6817
+      },
+      {
+        "path": "topology/evolution/tig_candidate_field_equation.md",
+        "sha": "af95d85f8603d9260fd5fa5cd36532e3fde106f9",
+        "bytes": 3986
+      },
+      {
+        "path": "topology/field_equation_requirements_from_topology.md",
+        "sha": "d459076d27642a2596c048e5a770f6f985bc712e",
+        "bytes": 5825
+      },
+      {
+        "path": "topology/foundations_limitations.md",
+        "sha": "00eb5087ace5c684c6591e741c9b38804bd16f9b",
+        "bytes": 5226
+      },
+      {
+        "path": "topology/foundations_program_summary.md",
+        "sha": "d5cf173d72dbffc8928c38c9be248ca9ac2a4b39",
+        "bytes": 4459
+      },
+      {
+        "path": "topology/glossary.md",
+        "sha": "b059a3f2d03dfc6c4fe7e379f671b2e594638d27",
+        "bytes": 5743
+      },
+      {
+        "path": "topology/horizon_emergence.md",
+        "sha": "b3270f83a530bf983f5eab468e133da301a4140a",
+        "bytes": 4367
+      },
+      {
+        "path": "topology/horizon_emergence_from_curvature.md",
+        "sha": "8b0ecbf1673ba74419c23af0f1d918022959c028",
+        "bytes": 4634
+      },
+      {
+        "path": "topology/integrety_metric.md",
+        "sha": "8591743a9ec7559e994a2ce1d69998ed579bb9d6",
+        "bytes": 5488
+      },
+      {
+        "path": "topology/integrity_collapse.md",
+        "sha": "64b3bb5ccf4ec89f308837a4dc6e86ef5fe3e678",
+        "bytes": 5994
+      },
+      {
+        "path": "topology/minimal_persistent_structure_problem.md",
+        "sha": "3abce3b290fd6e81952bad39c43bce11a4086cfb",
+        "bytes": 2791
+      },
+      {
+        "path": "topology/minimal_structure_comparison.md",
+        "sha": "58b88772bd760961882e811b5646188a81e63b47",
+        "bytes": 4694
+      },
+      {
+        "path": "topology/organization_to_geometry_mapping.md",
+        "sha": "e25e7300e011414be7824149a9b3a6dedfa44da1",
+        "bytes": 4629
+      },
+      {
+        "path": "topology/organizational_degeneracy.md",
+        "sha": "d9a0254e2f97fb1a9c229ecbb9bf6838b8580139",
+        "bytes": 5244
+      },
+      {
+        "path": "topology/reduction_principles.md",
+        "sha": "b8728e5effb8f63f07efce47693126d04731b318",
+        "bytes": 3993
+      },
+      {
+        "path": "topology/research_notes/double_slit_admissibility.md",
+        "sha": "149b9b1005dc1e96c1c1ecf30b4a3dca820c5418",
+        "bytes": 4467
+      },
+      {
+        "path": "topology/research_notes/x4_decay_mapping.md",
+        "sha": "6e0be70e804478f114606a93b1afb73d46854225",
+        "bytes": 3602
+      },
+      {
+        "path": "topology/root_manifold.md",
+        "sha": "0c077476e81c42f79abd687e77ee208d21daca93",
+        "bytes": 5074
+      },
+      {
+        "path": "topology/stability_attractors.md",
+        "sha": "cd9a0ecf56b5ac50d3d435e4ecb938b6b7982176",
+        "bytes": 6372
+      },
+      {
+        "path": "topology/state_diagram.md",
+        "sha": "3175a9cee188fb832a96660707834bb6888537ce",
+        "bytes": 5234
+      },
+      {
+        "path": "topology/structural_admissibility_foundations.md",
+        "sha": "a6b453b63d2d0c8004f5b8e33d350317a013c52e",
+        "bytes": 2997
+      },
+      {
+        "path": "topology/structure/consitency_audit.md",
+        "sha": "63ffa97d3a1bfb4846fe152ea56bc845493bc963",
+        "bytes": 3088
+      },
+      {
+        "path": "topology/structure/transition_oprators.md",
+        "sha": "331529df33550f12baf69facb91473112bb31b00",
+        "bytes": 4894
+      },
+      {
+        "path": "topology/theoretical_core.md",
+        "sha": "ec9966ad981afccfafe596220de48f2096fe3b22",
+        "bytes": 4859
+      },
+      {
+        "path": "topology/theory/README.md",
+        "sha": "9a1b124a4af2c167ad30af5c0114d7efb3c11374",
+        "bytes": 2619
+      },
+      {
+        "path": "topology/theory/THEORY_STRUCTURE_GUIDE.md",
+        "sha": "0f3f6ddb5104554ce3c4c58726c9313b4a86462e",
+        "bytes": 1584
+      },
+      {
+        "path": "topology/theory/primitives/README.md",
+        "sha": "3f993524ef9867f65e722340a72e59be2b3f1f92",
+        "bytes": 346
+      },
+      {
+        "path": "topology/theory/primitives/admissibility_axioms.md",
+        "sha": "c817a91def9f3449c76e771ef5df9ee08ecbbd3a",
+        "bytes": 6076
+      },
+      {
+        "path": "topology/theory/primitives/admissibility_functional.md",
+        "sha": "c41de59b1e901f0b57e382f938da06c7aeb9ce26",
+        "bytes": 5855
+      },
+      {
+        "path": "topology/theory/primitives/fundamental_admissibility_principle.md",
+        "sha": "130bc04652fd39bc39074aa16e99bc7606817640",
+        "bytes": 4802
+      },
+      {
+        "path": "topology/theory/primitives/minimal_axiom_system.md",
+        "sha": "459d986b24256807e973c5473ff060970c329161",
+        "bytes": 7048
+      },
+      {
+        "path": "topology/theory/primitives/minimal_recursive_axiom.md",
+        "sha": "88afb281d3c2c387870537e992559ffaecb5dbfd",
+        "bytes": 4109
+      },
+      {
+        "path": "topology/theory/primitives/primitive_object_classes.md",
+        "sha": "ead61ebae62da1084ad9e9805c44bd1898ea204d",
+        "bytes": 6961
+      },
+      {
+        "path": "topology/theory/primitives/recursive_consistency.md",
+        "sha": "894454b1ba7c9f7e1f6d4444a6d699ccdd2c35c7",
+        "bytes": 6315
+      },
+      {
+        "path": "topology/theory/structure/README.md",
+        "sha": "d766ef1026bbfa034c5c49fe4a5e62a9a251adb3",
+        "bytes": 384
+      },
+      {
+        "path": "topology/theory/structure/consistency_audit.md",
+        "sha": "d08dd7ced3468aa695ebb9150855212b0b8e943c",
+        "bytes": 8101
+      },
+      {
+        "path": "topology/theory/structure/definition_hierarchy.md",
+        "sha": "d09e20e21f4cc682740516a95ec8350efe53492c",
+        "bytes": 6919
+      },
+      {
+        "path": "topology/theory/structure/field_equation_constraints.md",
+        "sha": "fa1e58eb321fa30083df9ac20d0be6215c061f15",
+        "bytes": 7329
+      },
+      {
+        "path": "topology/theory/structure/field_equation_requirements.md",
+        "sha": "4e8b7e14b0d97e32b76304ae093e9e5e63b112cb",
+        "bytes": 5334
+      },
+      {
+        "path": "topology/theory/structure/formal_vs_heuristic_layers.md",
+        "sha": "d5f78751336c6a537ec5b011bb26c80efea16053",
+        "bytes": 8426
+      },
+      {
+        "path": "topology/theory/structure/non_claims_and_scope_limits.md",
+        "sha": "dff01b7706f8e889d7a87b84c57f2e6e97e17346",
+        "bytes": 7496
+      },
+      {
+        "path": "topology/theory/structure/non_triviality_analysis.md",
+        "sha": "9c638d27f6280a213663b2e98507a045d63001fc",
+        "bytes": 7662
+      },
+      {
+        "path": "topology/theory/structure/research_object_definition.md",
+        "sha": "0b6026d21c97989c13e3bb9b5d01727b36c6a521",
+        "bytes": 6913
+      },
+      {
+        "path": "topology/theory/structure/structural_dependency_map.md",
+        "sha": "c1eea41cec8eee1df4a0b3e356606e7995cf71f3",
+        "bytes": 7391
+      },
+      {
+        "path": "topology/theory/structure/structural_reduction_analysis.md",
+        "sha": "caf6cadc2c109f78b6ac64a2fb0c60718438367e",
+        "bytes": 7111
+      },
+      {
+        "path": "topology/theory_mathematical_consolidation.md",
+        "sha": "900307204e7c1b12b38d1f17e07f83ea419ae39d",
+        "bytes": 1692
+      },
+      {
+        "path": "topology/tig_cubic_reconstruction.md",
+        "sha": "cb562a09bb64e869e2a2b969477322ef6edb1447",
+        "bytes": 5454
+      },
+      {
+        "path": "topology/tig_field_equation_candidate.md",
+        "sha": "34f712c1af44065a3962019d0b0b7c394e64dd71",
+        "bytes": 3086
+      },
+      {
+        "path": "topology/volumetric_organization_necessity.md",
+        "sha": "d56680b9380585e8354bc74911ee1017311b34fc",
+        "bytes": 4305
+      },
+      {
+        "path": "topology/x4_topoligy.md",
+        "sha": "1f731a1e5fb036bd02590c8ae96a5861b08ebf4f",
+        "bytes": 5351
+      },
+      {
+        "path": "visualizations/tig_grid_heuristic/README.md",
+        "sha": "493d617102cc7d80e56d0c014e1bb7b4a95e4f53",
+        "bytes": 614
+      },
+      {
+        "path": "visualizations/tig_grid_heuristic/simulation.html",
+        "sha": "8f97d7d8b3e82d5f814556c7578bc57ea1d0f24d",
+        "bytes": 6126
+      }
+    ],
+    "binary_inputs": [
+      {
+        "path": "figures/tig_expansion_history_prediction.png",
+        "sha": "61334d3036a95863069265fa1e553687581b9c4f",
+        "sha256": "59977fb99b323f060fcdb1ea67af966a7a7c0a3634709e1d769aef5b39cbda40",
+        "bytes": 108834
+      },
+      {
+        "path": "figures/tig_horizon_radius_prediction.png",
+        "sha": "f343f7dfc7b54e404fb415ef70bf12d6fa516d15",
+        "sha256": "a16d41c3ed90f75f06af6c92536232559dff4e2c4f3f178dce578f825443119c",
+        "bytes": 131669
+      },
+      {
+        "path": "papers/tig-paper/TIG3_Vacuum_Structure.pdf",
+        "sha": "8c223ea0f80d1b32f9b3494d4cf9fc01550f126c",
+        "sha256": "b14b9f7013edbb1c18a09f077fb883c3c3555ea969600eabbeba699216c58132",
+        "bytes": 7096113
+      },
+      {
+        "path": "papers/tig-paper/TIG_Paper.pdf",
+        "sha": "33cecf3454fdf2ab8ff93372f9f3d1c4f9e5ef69",
+        "sha256": "40eb555066bd1609a7d6e32154a88c56356773aef704d08b72076f8e2d0a8a87",
+        "bytes": 203555
+      },
+      {
+        "path": "papers/tig-paper/tig_bifurcation_robustness.png",
+        "sha": "3764bd04372009733b406b01ecd2992c9ce4fed4",
+        "sha256": "5871959391a2ca2c584df624ba7f91da42e65bf7e18da8b61a1fbaba82087b7f",
+        "bytes": 314673
+      },
+      {
+        "path": "papers/tig-paper/tig_echo_delay_prediction.png",
+        "sha": "29afc26e433346dcea666784fa5af2da78596cca",
+        "sha256": "815b495a41a23bfe92fa08d36fa7dcb5d181499d5872dbe992073b81efff0133",
+        "bytes": 138755
+      },
+      {
+        "path": "papers/tig-paper/tig_horizon_radius_prediction.png",
+        "sha": "f343f7dfc7b54e404fb415ef70bf12d6fa516d15",
+        "sha256": "a16d41c3ed90f75f06af6c92536232559dff4e2c4f3f178dce578f825443119c",
+        "bytes": 131669
+      },
+      {
+        "path": "papers/tig-paper/tig_horizon_transition_publication.png",
+        "sha": "733b93d29f8c4b75ee1401e14e106eabfafbf68f",
+        "sha256": "db42e9b402e82eb04a5b30116183d456454274bcc528e1679580f7d19c876d78",
+        "bytes": 224183
+      },
+      {
+        "path": "papers/tig-paper/tig_photon_sphere_deviation (1).png",
+        "sha": "0833bf6fc9a3bd71ec6679c905d5f9653bccbb97",
+        "sha256": "feba315579a9856a74af6ba632ffd6dcce3408ebf42818665b2574562609bfeb",
+        "bytes": 105432
+      },
+      {
+        "path": "papers/tig-paper/tig_photon_sphere_deviation.png",
+        "sha": "2d719f735246498a0f4a1239c759da02d22dbecb",
+        "sha256": "35368b0f39439e32c705178b349211117fa756ea32a7a32e598b93ff7583f3e8",
+        "bytes": 19486
+      },
+      {
+        "path": "papers/tig_schwarzschild_horizon_comparison.png",
+        "sha": "b6347b60bb6ea2619f5ba9aafd6d702dbc2a0e15",
+        "sha256": "c8cfc09b3d850c9fe9cdbdb4cc1fc7c899df9ee91e957366d1cfc2b8c94d5ec4",
+        "bytes": 183386
+      },
+      {
+        "path": "submission/arxiv/tig_echo_delay_prediction .png",
+        "sha": "29afc26e433346dcea666784fa5af2da78596cca",
+        "sha256": "815b495a41a23bfe92fa08d36fa7dcb5d181499d5872dbe992073b81efff0133",
+        "bytes": 138755
+      },
+      {
+        "path": "submission/arxiv/tig_horizon_branches_critical_transition.png",
+        "sha": "99788c21fb868b9f0d4ddac98269adee3ec4670e",
+        "sha256": "6a4819599f489c896d89210af86e9a6d1224fde39bf56c73bb21edbb68fc7a7e",
+        "bytes": 166906
+      },
+      {
+        "path": "submission/arxiv/tig_qnm_frequency_prediction.png",
+        "sha": "48f29ccc226a0efa27202bb18e422d19080ae56c",
+        "sha256": "a0a2464e67294e5925cd54f1b7dc17fe5ec276fca3a4c9ac3999327c5554f9c7",
+        "bytes": 113279
+      }
+    ],
+    "path_migrations": [
+      {
+        "original_path": "topology/admissibility_conditions,md",
+        "current_path": "topology/admissibility_conditions.md",
+        "original_blob": "9413a71577db3d0ba2411dcb17ca7df73d885560",
+        "bytes_preserved": true,
+        "scientific_status_changed": false
+      },
+      {
+        "original_path": "papers/derivations/integrity_functional.mdderi",
+        "current_path": "papers/derivations/integrity_functional.md",
+        "original_blob": "f5377832eaa9c3671762b073918d7b241d53ff2a",
+        "bytes_preserved": true,
+        "scientific_status_changed": false
+      },
+      {
+        "original_path": "papers/derivations/concrete_scalar_mode:prediction.md",
+        "current_path": "papers/derivations/concrete_scalar_mode_prediction.md",
+        "original_blob": "b93989f7025493d62de1aa60e7ce12520ecddd89",
+        "bytes_preserved": true,
+        "scientific_status_changed": false
+      },
+      {
+        "original_path": "strategy/tig_emergence_progra",
+        "current_path": "strategy/tig_emergence_program.md",
+        "original_blob": "bbde5e72b4f694d3fe1f607a34d67a40048366f5",
+        "bytes_preserved": true,
+        "scientific_status_changed": false
+      },
+      {
+        "original_path": "project/submission/reviwer_.md",
+        "current_path": "project/submission/reviewer_notes.md",
+        "original_blob": "628c4355e4cf6b4c68a52a49c88d67a6693cf9ff",
+        "bytes_preserved": true,
+        "scientific_status_changed": false
+      },
+      {
+        "original_path": "papers/tig-paper/arvix_upload",
+        "current_path": "papers/tig-paper/arxiv_upload_placeholder.txt",
+        "original_blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+        "bytes_preserved": true,
+        "scientific_status_changed": false
+      },
+      {
+        "original_path": "papers/tig-paper/tig_photon_sphere_deviation.png",
+        "current_path": "papers/tig-paper/photon_sphere_generation_notes.md",
+        "original_blob": "2d719f735246498a0f4a1239c759da02d22dbecb",
+        "bytes_preserved": true,
+        "scientific_status_changed": false
+      },
+      {
+        "original_path": "papers/tig-paper/tig_photon_sphere_deviation (1).png",
+        "current_path": "papers/tig-paper/tig_photon_sphere_deviation_legacy.png",
+        "original_blob": "0833bf6fc9a3bd71ec6679c905d5f9653bccbb97",
+        "bytes_preserved": true,
+        "scientific_status_changed": false
+      },
+      {
+        "original_path": "submission/arxiv/tig_echo_delay_prediction .png",
+        "current_path": "submission/arxiv/tig_echo_delay_prediction_legacy.png",
+        "original_blob": "29afc26e433346dcea666784fa5af2da78596cca",
+        "bytes_preserved": true,
+        "scientific_status_changed": false
+      },
+      {
+        "original_path": "papers/tig-paper/tig_echo_delay_prediction.png",
+        "current_path": "papers/tig-paper/tig_echo_delay_prediction_legacy.png",
+        "original_blob": "29afc26e433346dcea666784fa5af2da78596cca",
+        "bytes_preserved": true,
+        "scientific_status_changed": false
+      }
+    ],
+    "figure_inspection": [
+      {
+        "path": "figures/tig_expansion_history_prediction.png",
+        "format": "PNG",
+        "dimensions": [
+          2100,
+          1350
+        ]
+      },
+      {
+        "path": "figures/tig_horizon_radius_prediction.png",
+        "format": "PNG",
+        "dimensions": [
+          2100,
+          1500
+        ]
+      },
+      {
+        "path": "papers/tig-paper/tig_bifurcation_robustness.png",
+        "format": "PNG",
+        "dimensions": [
+          2124,
+          1399
+        ]
+      },
+      {
+        "path": "papers/tig-paper/tig_echo_delay_prediction.png",
+        "format": "PNG",
+        "dimensions": [
+          2127,
+          1410
+        ]
+      },
+      {
+        "path": "papers/tig-paper/tig_horizon_radius_prediction.png",
+        "format": "PNG",
+        "dimensions": [
+          2100,
+          1500
+        ]
+      },
+      {
+        "path": "papers/tig-paper/tig_horizon_transition_publication.png",
+        "format": "PNG",
+        "dimensions": [
+          2362,
+          1517
+        ]
+      },
+      {
+        "path": "papers/tig-paper/tig_photon_sphere_deviation (1).png",
+        "format": "PNG",
+        "dimensions": [
+          1790,
+          1299
+        ]
+      },
+      {
+        "path": "papers/tig-paper/tig_photon_sphere_deviation.png",
+        "format": "INVALID_PNG",
+        "magic_hex": "0a0a45727374656c6c65206d69722065696e6520504e472d47726166696b3a20"
+      },
+      {
+        "path": "papers/tig_schwarzschild_horizon_comparison.png",
+        "format": "PNG",
+        "dimensions": [
+          2122,
+          1397
+        ]
+      },
+      {
+        "path": "submission/arxiv/tig_echo_delay_prediction .png",
+        "format": "PNG",
+        "dimensions": [
+          2127,
+          1410
+        ]
+      },
+      {
+        "path": "submission/arxiv/tig_horizon_branches_critical_transition.png",
+        "format": "PNG",
+        "dimensions": [
+          2129,
+          1410
+        ]
+      },
+      {
+        "path": "submission/arxiv/tig_qnm_frequency_prediction.png",
+        "format": "PNG",
+        "dimensions": [
+          2130,
+          1410
+        ]
+      }
+    ],
+    "active_figure": {
+      "source": "tools/generate_horizon_figure.py",
+      "equation": "x^3-x^2+beta^3=0",
+      "domain": "M>0, beta>=0; inner horizon only beta>0",
+      "critical_beta": 0.5291336839893999,
+      "critical_x": 0.6666666666666666,
+      "samples_per_branch": 601,
+      "max_polynomial_residual": 2.220446049250313e-16,
+      "interpretation": "static representative geometry; no dynamical horizon formation",
+      "image_sha256": "ee8afe996d7ba08ca14d94b4ca0e1df9a94a1715191d43c03b64d1394a86c1ff",
+      "generator_sha256": "e636e00487e9af49379a006e355d335a4fdd842df875cff88125e13c649da2f0"
+    },
+    "historical_pdf_source_candidates": [
+      {
+        "path": "papers/tig-paper/main.tex",
+        "commit": "1b3bf81b5a79d3a542cca8ad4fa140b34ca98888",
+        "sha": "fd78ab9064ec22ff5918ef70743358d1effa2287",
+        "title": "Topological Integrity Gravity (TIG): Critical Horizon Transitions in Quadratic f(R) Gravity",
+        "verdict": "DIFFERENT_TITLE_AND_TEXT_FROM_MAY3_PDF"
+      },
+      {
+        "path": "papers/tig-paper/main.tex",
+        "commit": "379a07df7ba38fa1531c9a0963c60a83d4d5603b",
+        "sha": "0208d66d8c2763efb38de24d121f3581004ee55b",
+        "title": "Topological Integrity Gravity: A Structural Horizon Transition",
+        "verdict": "NOT_TIG3_SOURCE"
+      }
+    ],
+    "pdf_histories": {
+      "tig3": [
+        {
+          "sha": "379a07df7ba38fa1531c9a0963c60a83d4d5603b",
+          "date": "2026-05-17T12:10:26Z",
+          "message": "Add files via upload"
+        }
+      ],
+      "paper": [
+        {
+          "sha": "1b3bf81b5a79d3a542cca8ad4fa140b34ca98888",
+          "date": "2026-05-04T08:55:23Z",
+          "message": "Add TIG Paper pdf\n\nInitial public PDF release of Topological Integrity Gravity (TIG)"
+        }
+      ]
+    },
+    "historical_repository_release": {
+      "tag": "v1.0.0",
+      "tag_commit": "b099c24b09c26a0aa5258c17ebb051f65f65f951",
+      "github_release_url": "https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/releases/tag/v1.0.0",
+      "published_at": "2026-05-19T17:58:28Z",
+      "version_doi": "10.5281/zenodo.20292983",
+      "concept_doi": "10.5281/zenodo.20292982",
+      "record_url": "https://zenodo.org/records/20292983",
+      "record_api": "https://zenodo.org/api/records/20292983",
+      "archive_bytes": 8185014,
+      "archive_md5": "e6aa822ab4b152d300a84a679d0ef42a",
+      "archive_sha256": "9a8b38894c6982b11dc8c169050a07aee1f131e526587afe7078bfc6e57526a6",
+      "verified_files": 156,
+      "all_archive_entries_equal_tag_blobs": true,
+      "record_license": "mit-license",
+      "current_license_unchanged": true
+    },
+    "bibliographic_metadata_sources": [
+      {
+        "url": "https://arxiv.org/abs/0805.1726v4",
+        "scope": "journal DOI and version metadata"
+      },
+      {
+        "url": "https://arxiv.org/abs/1002.4928v2",
+        "scope": "journal DOI and version metadata"
+      }
+    ],
+    "builds": [
+      {
+        "package": "paper",
+        "pages": 12,
+        "pdf_bytes": 386994,
+        "pdf_sha256": "a63f8df1774b4a79d7a346d6533cabe774878f2672c20ecb56c52c9fc9c6642d",
+        "latex_log_sha256": "7e44bf2f8fa4931925f63c289a0eb9ae72d20301906573388d2efb1a0508162e",
+        "source_sha256": "c53f2e58cdb654cc39a2469f71336c7c5e13ec3a403928c4aff08677021cde84",
+        "returncode": 0,
+        "final_latex_warnings": 0,
+        "explicit_final_pdflatex_passes": 2
+      },
+      {
+        "package": "arxiv",
+        "pages": 6,
+        "pdf_bytes": 323917,
+        "pdf_sha256": "8211fee9851ecf73d032e8080b6a525884773bef2141f5d487e7cdf62d1cbe21",
+        "latex_log_sha256": "ba6ffaa7f09978511b5db197334380dea8fea4693ec66265b301a0c1b151ef27",
+        "source_sha256": "2e58a8ec7f997c982ab62b7f85d054fed7fd4afc4f2d42d7b723bd7c635250d3",
+        "returncode": 0,
+        "final_latex_warnings": 0,
+        "explicit_final_pdflatex_passes": 2
+      },
+      {
+        "package": "standalone_export",
+        "pages": 6,
+        "pdf_sha256": "49674bc8e9ff2f9e956e7fd12ccbce98329def4991a82bb592d777d8cf744030",
+        "latex_log_sha256": "3360f0da04e28fb95b57f487462e100102470dd0b2e1bc2c5e1b8fde3f209716",
+        "returncode": 0,
+        "final_latex_warnings": 0,
+        "explicit_final_pdflatex_passes": 2,
+        "extracted_text_equal_repository_build": true
+      }
+    ],
+    "standalone_export": {
+      "object_class": "EXPORTED_PACKAGE_OBJECT",
+      "release": "NONE",
+      "submitted": false,
+      "source_members": [
+        {
+          "name": "LICENSE",
+          "source": "LICENSE",
+          "bytes": 8744,
+          "sha256": "dfa00011bff778279aca6994889ab8fd75c2811b5263b2254943dbcd92ff2409"
+        },
+        {
+          "name": "figures/tig_horizon_branches.png",
+          "source": "figures/tig_horizon_branches.png",
+          "bytes": 76177,
+          "sha256": "ee8afe996d7ba08ca14d94b4ca0e1df9a94a1715191d43c03b64d1394a86c1ff"
+        },
+        {
+          "name": "main.tex",
+          "source": "submission/arxiv/main.tex",
+          "bytes": 15253,
+          "sha256": "2e58a8ec7f997c982ab62b7f85d054fed7fd4afc4f2d42d7b723bd7c635250d3"
+        },
+        {
+          "name": "references.bib",
+          "source": "submission/arxiv/references.bib",
+          "bytes": 6122,
+          "sha256": "c8ff91e5e03f2b51c6f8e276a8339bd71d7331395688a77aeca5865eae3d8b93"
+        },
+        {
+          "name": "unsrtnat.bst",
+          "source": "submission/arxiv/unsrtnat.bst",
+          "bytes": 24550,
+          "sha256": "2b257bc5d35c5716691f67615b3b29cc718d05b6b998f87473c924dec0a652e9"
+        }
+      ],
+      "zip_sha256": "015b3a3f3e4244fa0d92bfb2fc60eb8ea32070b254e55b6a8580b766263dd95b",
+      "zip_bytes": 88029,
+      "isolated_build": "PASS",
+      "final_latex_warnings": 0,
+      "local_input_paths": [
+        "./figures/tig_horizon_branches.png",
+        "./main.aux",
+        "./main.bbl",
+        "./main.out",
+        "main.aux",
+        "main.bbl",
+        "main.out",
+        "main.tex"
+      ],
+      "arxiv_pdf_sha256": "49674bc8e9ff2f9e956e7fd12ccbce98329def4991a82bb592d777d8cf744030"
+    },
+    "qa": {
+      "final_pages_visually_inspected": 18,
+      "replica_pages_rendered": 6,
+      "replica_pixel_equality": true,
+      "final_latex_warnings": 0,
+      "resolved_citations": true,
+      "doi_arxiv_pdf_link_annotations": "PASS",
+      "all_true_input_pngs_visually_compared": 11,
+      "renames_byte_preservation": "PASS",
+      "overleaf_live": "NOT_VERIFIED",
+      "independent_audit": false
+    },
+    "repaired_task_ids": [
+      "QIC-19",
+      "QIC-21",
+      "QIC-24",
+      "QIC-13",
+      "QIC-23",
+      "QIC-22",
+      "QIC-08",
+      "QIC-06",
+      "QIC-07",
+      "QIC-09"
+    ],
+    "partially_repaired_task_ids": [
+      "QIC-20"
+    ],
+    "remaining_obligations": [
+      {
+        "task": "QIC-20",
+        "required": "Original LaTeX/Bib/figure source packages of both May PDFs, then source-to-PDF reconstruction check",
+        "owner": "Kai Stefan Dietrich / original author sources",
+        "reason": "Absent or mismatched in checked current, upload, tag and published archive snapshots"
+      }
+    ],
+    "original_scientific_audit_verdicts_changed": false,
+    "original_open_questions_closed": [],
+    "release": "NONE",
+    "submission": "NONE",
+    "evidence_paths": [
+      "docs/ARTIFACT_BINDINGS.md",
+      "docs/PUBLICATION_CHAIN.md",
+      "docs/BUILD_WORKFLOW.md",
+      "submission/exports/wave4_2026-10-02/README.md"
+    ],
+    "work_record_path": "docs/REPAIR_WAVE4_2026-10-02.md"
   }
 }

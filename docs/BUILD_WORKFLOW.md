@@ -1,19 +1,19 @@
 # QIC — Manuskriptzuordnung und Build-Ablauf
 
-Version 1.2 · 2026-10-02 · TECHNISCHER ARBEITSSTAND / KEINE RELEASEFREIGABE
+Version 1.3 · 2026-10-02 · TECHNISCHER ARBEITSSTAND / KEINE RELEASEFREIGABE
 
-Aktueller Reparatureingang Welle 3: main @ `da326a4041054c01f2574d02312826870616670c`. Historischer Welle-2-Eingang: `88fef45371dbefe89ee35dce4e8accc5e8eb6baa`. Historischer Welle-1-Quellenfreeze: `8fb4989d43382ccf303c8c52b2c7af746fa35034`. Zugehörige Aufgaben: QIC-17, QIC-18 und QIC-22; Kernkorrekturen QIC-01–03; Quellen-/Echo-Korrekturen QIC-15/16/10/05/11/14/12/04.
+Aktueller Reparatureingang Welle 4: main @ `9f6cdf096716c6d070685b0d88555f403f6db8fa`. Historischer Welle-3-Eingang: `da326a4041054c01f2574d02312826870616670c`. Historischer Welle-2-Eingang: `88fef45371dbefe89ee35dce4e8accc5e8eb6baa`. Historischer Welle-1-Quellenfreeze: `8fb4989d43382ccf303c8c52b2c7af746fa35034`. Zugehörige Aufgaben: QIC-17, QIC-18 und QIC-22; Kernkorrekturen QIC-01–03; Quellen-/Echo-Korrekturen QIC-15/16/10/05/11/14/12/04.
 
 ## Eigenständige Manuskriptobjekte
 
 | Paket | Quelle und Build | Tatsächliche Bindung |
 |---|---|---|
-| Papertext | `papers/tig-paper/main.tex` | Titel „Topological Integrity Gravity: A Structural Horizon Transition“, im Text Version 1.3 vom 2. Oktober 2026; repräsentativer Geometriesektor mit negativem Vakuum-f(R)-Test. |
+| Papertext | `papers/tig-paper/main.tex` | Titel „Topological Integrity Gravity: A Structural Horizon Transition“, im Text Version 1.4 vom 2. Oktober 2026; repräsentativer Geometriesektor mit negativem Vakuum-f(R)-Test. |
 | Einreichung | `submission/arxiv/main.tex` | Titel „A Structural Horizon Transition in a Representative TIG Geometry: A Test Against Quadratic f(R) Gravity“, überarbeiteter Draft vom 2. Oktober 2026; Normierung korrigiert, negativer Vakuumtest, bedingte Laufzeit hergeleitet, physische Echo-Vorhersage offen. |
 
-Die Pakete unterscheiden sich inhaltlich und sind keine nachgewiesenen Exporte derselben Quelle. Beide behalten ihr eigenes main.tex als Quelle ihres Texts; gemeinsamer Nachfolger und fachliche Harmonisierung bleiben Gegenstand der folgenden Wellen. Das strukturelle Register steht in [OBJECT_OWNERSHIP.md](../OBJECT_OWNERSHIP.md).
+Die Pakete unterscheiden sich inhaltlich und sind keine nachgewiesenen Exporte derselben Quelle. Beide behalten ihr eigenes main.tex als Quelle ihres Texts. Ein gemeinsamer wissenschaftlicher Nachfolger ist durch diesen Reparaturlauf nicht begründet. Das strukturelle Register steht in [OBJECT_OWNERSHIP.md](../OBJECT_OWNERSHIP.md).
 
-Das Paper verwendet ein eingebettetes thebibliography mit **18 Einträgen**. Seine references.bib sowie abstract.tex und photon_sphere.tex sind nicht eingebunden; die ersten beiden wurden als Begleitobjekte nachgeführt. Das Einreichungspaket verwendet references.bib mit unsrt und zitiert **elf Schlüssel**. Ghosh/Sarkar, Bessa und Garay werden jetzt in beiden Texten an ihren begrenzten Aussagepositionen zitiert; QIC-12 ist erledigt. Die erforderliche arXiv-/DOI-/Linkausgabe im unsrt-Build bleibt QIC-13/Welle 4 offen.
+Das Paper verwendet ein eingebettetes thebibliography mit **18 Einträgen**. Seine references.bib sowie abstract.tex und photon_sphere.tex sind nicht eingebunden; die ersten beiden wurden als Begleitobjekte nachgeführt. Das Einreichungspaket verwendet references.bib mit dem gebundenen unsrtnat-Stil und natbib (numerisch) und zitiert **elf Schlüssel**. Ghosh/Sarkar, Bessa und Garay werden jetzt in beiden Texten an ihren begrenzten Aussagepositionen zitiert; QIC-12 ist erledigt. QIC-13 ist abgeschlossen: vorhandene geprüfte DOI, versionierte arXiv-Kennungen und Links erscheinen in den beiden finalen PDF-Bibliografien; PDF-Linkannotationen geprüft.
 
 ## Reproduzierbarer lokaler Build
 
@@ -45,7 +45,7 @@ Historischer Build Welle 1 nach den technischen Korrekturen: beide latexmk-Läuf
 
 Für ein neues Overleaf-Projekt kann das Repository mit der passenden Hauptdatei und den relativen Abbildungspfaden genutzt werden. Der hier ausgeführte Test war lokal. Ein bestehendes Overleaf-Projekt, dessen Compilerstand oder Synchronisation wurde in diesem Lauf nicht geprüft; in den 43 gebundenen Textquellen ist kein verifizierter Projektpointer dokumentiert. Es wird kein Live-Overleaf-PASS behauptet.
 
-Das arXiv-Paket wird innerhalb des Repositorybaums gebaut. Es ist wegen des relativen Bildpfads noch kein eigenständig verifiziertes Upload-ZIP. Vor einem finalen Paket werden Quelle, Bib-Datei, Abbildungen und Pfade in einem abgegrenzten Export zusammengeführt und erneut gebaut. Das ist Abschlussarbeit in Welle 4 unter QIC-21/22/23, ohne automatische Veröffentlichung.
+Bis Welle 3 war nur der Build innerhalb des Repositorybaums geprüft. Welle 4 bindet nun Quelle, Bib-Datei, Stil, aktuelle Abbildung und LICENSE in einem abgegrenzten Quell-ZIP und baut es isoliert. Der Export ist technisch geprüft; eine Einreichung oder Veröffentlichung wurde nicht ausgeführt. Einzelheiten im aktuellen Abschlussnachweis unten.
 
 Die eingecheckten älteren PDFs werden in Welle 1 nicht ersetzt oder als Resultat dieses Builds ausgegeben. Ihre Quellenbindung gehört zu QIC-20. Build-Metadaten und Quellenfingerprints stehen in [repair_tracking.json](../registry/repair_tracking.json).
 
@@ -57,10 +57,28 @@ Der vorhandene clearpage vor dem Einreichungs-Literaturverzeichnis und unsrt ble
 
 Mathematische Selbstprüfung mit SymPy (geprüft 1.14.0): `python tools/verify_wave2.py`. Dieser Lauf rekonstruiert die Krümmung aus der Metrik und prüft 27 Bedingungen. Ein PASS der Rechnung steht neben dem **negativen** Vakuumlösungsresultat; es ist keine wissenschaftliche Promotion. Quellen, Rechnungen und Build-Fingerprints: [Welle-2-Arbeitsnachweis](REPAIR_WAVE2_2026-10-02.md), [Kernrechnung](../papers/derivations/quadratic_fr_and_horizon_checks.md), [Nachweissicht](../registry/repair_tracking.json).
 
-## Aktuelle Prüfung nach Welle 3
+## Historische Prüfung nach Welle 3
 
 Beide Manuskripte mit tools/build_manuscripts.py in frischen Ausgabeordnern gebaut; danach je zwei explizite finale pdflatex-Pässe im jeweiligen Paket-Ausgabeordner. Erst danach vollständige PDFs und Logs gebunden und ihre SHA-256-Fingerprints erneut gelesen. Paper: **zwölf Seiten**, Einreichung: **sieben Seiten**; alle 19 finalen Seiten gerendert und visuell geprüft, keine abgeschnittenen oder fehlenden Inhalte festgestellt. Extrahierte Zitate aufgelöst, finale LaTeX-Logs ohne Warnungen, fehlende Referenzen oder Overfull-Boxen. Fingerprints in registry/repair_tracking.json unter wave3.builds.
 
 Die bestehenden unsrt-Linkgrenzen und die Freifläche durch clearpage bleiben Abschlussarbeit in Welle 4. Dieser Arbeitsbuild ersetzt keine eingecheckten älteren PDFs, kein eigenständiges Upload-ZIP und keinen Live-Overleaf-Test. Kein Release erzeugt.
 
 Mathematische Prüfung (SymPy 1.14.0, mpmath 1.3.0): python tools/verify_wave3.py. 18 exakte und fünf numerische Bedingungen mit 60 Dezimalstellen geprüft: Hayward-Identität, lokale Faltenentwicklung, Laufzeitvorfaktoren, Oberflächengravitation, Testskalaroperator sowie horizontlose, mitlaufende und feste äußere Grenzen. Physische Reflexion, gravitative Störungen und eine beobachtbare Echo-Wellenform werden dadurch nicht nachgewiesen. [Laufzeitableitung](../papers/derivations/echo_delay_with_boundaries.md) · [Arbeitsnachweis](REPAIR_WAVE3_2026-10-02.md).
+
+## Aktueller Abschlussbuild Welle 4
+
+Paper zwölf, Einreichung sechs Seiten. Beide Builds in frischen Ordnern erfolgreich; danach je zwei explizite finale pdflatex-Pässe, vollständige PDFs/Logs gebunden und Fingerprints erneut gelesen. Alle **18 finalen Seiten** gerendert und visuell geprüft; kein fehlender Inhalt, keine offenen Zitate/Referenzen, keine finalen LaTeX-Warnungen oder Overfull-Boxen. Die unabhängige Exportkompilierung liefert sechs pixelgleiche Einreichungsseiten. Die Freifläche durch clearpage ist beseitigt; eine kompakte, lesbare Literaturausgabe verhindert den isolierten letzten Eintrag.
+
+Aktuelle PDFs: [Exportübersicht](../submission/exports/wave4_2026-10-02/README.md). Das Paper verwendet 18 eingebettete Einträge; beide Begleit-Bibdateien haben identische geprüfte Identifier-Ergänzungen. Originaltexte der Quellen werden damit nicht als neue TIG-Beweise übernommen. Die zuvor unbelegte Aussage über bereits vorliegende numerische Photonensphärenkurven ist auf die gegebene Gleichung und noch zu liefernde quantitative Vorhersage begrenzt.
+
+Die einzige aktive Abbildung der Einreichung stammt aus tools/generate_horizon_figure.py; alle früheren Figuren sind separat gebunden und nicht Teil des aktuellen Builds. python tools/generate_horizon_figure.py erzeugt PNG und JSON aus der konkreten Kubik; NumPy/Matplotlib erforderlich. Nicht benötigte Altbilder werden beim Export ausgeschlossen.
+
+Eigenständiges Quellpaket erzeugen und prüfen:
+
+```bash
+python tools/export_arxiv.py --output-dir /tmp/qic-export
+```
+
+Das Skript erzeugt ein deterministisches ZIP mit main.tex, references.bib, unsrtnat.bst, der einen Abbildung und dem unveränderten aktuellen LICENSE. ZIP wird in einen unabhängigen temporären Ordner entpackt und dort gebaut; keine Repository-Abbildungspfade im tatsächlich verwendeten INPUT-Set. Quellenbytes, ZIP-Integrität, finale Logs und PDF-Fingerprints geprüft. Kein Upload. Die komprimierte ZIP-Identität ist reproduzierbar; PDF-Zeitstempel/Compiler können bei Wiederholung andere PDF-Bytes ergeben.
+
+Bestehendes Live-Overleaf-Projekt weiterhin nicht verifiziert; der lokale beziehungsweise isolierte Compiler-Test wird davon unterschieden. TeX Live 2023/Debian, latexmk 4.83; Drittanbieter-Stil mit eigenem Lizenzhinweis. [Veröffentlichungskette](PUBLICATION_CHAIN.md) und wave4 im [Nachweisregister](../registry/repair_tracking.json) enthalten Quellen-/Exportfingerprints und den verbleibenden QIC-20-Restpunkt.
