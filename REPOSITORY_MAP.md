@@ -70,3 +70,22 @@ Status:
 ```text
 STRUCTURAL MAP — ACTIVE
 ```
+
+## Tatsächliche Ablagen und Quellenrollen — 2026-10-02
+
+Geprüfter Tree: main @ `8fb4989d43382ccf303c8c52b2c7af746fa35034`; 244 Dateiobjekte, vollständiger nicht abgeschnittener Tree. Die Rollen sind aus vorhandenen Controls abgeleitet; einzelne Forschungsnotizen behalten ihren eigenen Status.
+
+| Tatsächlicher Pfad | Dateiobjekte | Rolle und maßgeblicher Einstieg |
+|---|---:|---|
+| `field_equations/` | 4 | Aktuelle begrenzte Architektur; field_equation_1_0.md, validation_status.md und open_questions.md gemeinsam lesen. |
+| `topology/` | 87 | Grundlagen, Struktur, Interpretationen und Exploration; topology/theory/README.md und die Controls unter structure/. |
+| `theory/` | 37 | Tensor- und Sektorforschung; Kandidaten-/Audit-/Statusobjekte nicht gleichsetzen. |
+| `papers/derivations/` | 36 | Ableitungs-/Arbeitsnotizen; jeweiliger Scope gilt. |
+| `papers/tig-paper/` | 13 | Papertext main.tex; eingebettetes Literaturverzeichnis. abstract.tex/photon_sphere.tex sind im aktuellen main.tex nicht eingebunden. |
+| `submission/arxiv/` | 5 | Eigenständiges Einreichungsmanuskript und BibTeX; Abbildungsabhängigkeit auf figures/. |
+| `papers/archive/` | 9 | Ausdrücklich archivierte Materialgruppen; keine Current-Autorität aus Pfadnähe. |
+| `papers/topological-foundations-program/` | 1 | Programmpaper/-übersicht; erklärt die kubische Herleitung ausdrücklich als nicht abgeschlossen. |
+
+`papers/TIG2/` und `papers/TIG3/` existieren im geprüften Tree nicht. TIG1/TIG2/TIG3 bleiben wissenschaftliche Ebenenbezeichnungen; daraus werden keine neuen Ordner oder Owner erzeugt. Die tatsächliche Evolutionsablage ist `topology/evolution/`; `topology/theory/evolution/` ist in diesem Tree nicht vorhanden.
+
+Weitere Arbeitsbindung: [Build und Manuskriptzuordnung](docs/BUILD_WORKFLOW.md), [Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md), [abgeleitete Nachweissicht](registry/repair_tracking.json).
