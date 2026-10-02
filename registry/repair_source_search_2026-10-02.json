@@ -1,0 +1,3542 @@
+{
+  "document_id": "QIC-REPAIR-HISTORICAL-SOURCE-SEARCH-2026-10-02",
+  "version": "1.0",
+  "input_head": "b6adebbec1ccd504a48ba36b32af82b45541f6b6",
+  "scope": "All objects reachable from advertised main and v1.0.0; dangling objects and external author workspaces not included",
+  "refs": [
+    "b6adebbec1ccd504a48ba36b32af82b45541f6b6 refs/heads/main",
+    "b099c24b09c26a0aa5258c17ebb051f65f65f951 refs/tags/v1.0.0"
+  ],
+  "commits_checked": 634,
+  "git_objects_verified": 2684,
+  "unique_blobs_checked": 536,
+  "utf8_blobs_searched": 520,
+  "all_objects_git_hash_checked": true,
+  "blobs": [
+    {
+      "sha": "65b287fd306d47f5af7085ba5e9915fffbf2eaab",
+      "path_hint": "AGENTS.md",
+      "bytes": 3471
+    },
+    {
+      "sha": "5acbd776dab8c220b1ca832cf121b9d93f4dfd39",
+      "path_hint": "AUTHOR.md",
+      "bytes": 425
+    },
+    {
+      "sha": "7938694b9f8199bb801acbc00df78816f03ae1f7",
+      "path_hint": "CANONICAL_CORE.md",
+      "bytes": 2080
+    },
+    {
+      "sha": "563ec0f79ced2a92148b0e2077b321295ac8078f",
+      "path_hint": "CANONICAL_STATUS.md",
+      "bytes": 1424
+    },
+    {
+      "sha": "a9c1f5ec3c363cd3e9bfc6afc7ec18def56f8c70",
+      "path_hint": "CITATION.cff",
+      "bytes": 705
+    },
+    {
+      "sha": "bf9f123c776f7c9bdd4887c003de4cbac08ae8b6",
+      "path_hint": "DEVELOPMENT_STATUS.md",
+      "bytes": 841
+    },
+    {
+      "sha": "74616ddedc252fb5cbf98973d8d66eb081fc0ab4",
+      "path_hint": "EXPORT_MANIFEST.md",
+      "bytes": 1107
+    },
+    {
+      "sha": "c4b35e32322b4615d5f445956db4675e756c5450",
+      "path_hint": "IMPORT_MANIFEST.md",
+      "bytes": 1001
+    },
+    {
+      "sha": "f82d16bf82777e120b7dc6a8e8a9349391bbbbf0",
+      "path_hint": "INTERFACE.md",
+      "bytes": 1218
+    },
+    {
+      "sha": "86661dc0b2522dee1836855b64e9b16efee7d805",
+      "path_hint": "LICENSE",
+      "bytes": 8744
+    },
+    {
+      "sha": "1c2b18f10b2751441e7b3058705f3a443afd9dd0",
+      "path_hint": "LICENSE_DOI_TRANSITION_NOTICE.md",
+      "bytes": 2559
+    },
+    {
+      "sha": "415ec8976ec3cddd32f090524cf7c3cb0b7da227",
+      "path_hint": "LM_EXPORT_MANIFEST.md",
+      "bytes": 1075
+    },
+    {
+      "sha": "9dd87eb0e99264bc6be244dc54509c75eb229eb6",
+      "path_hint": "OBJECT_OWNERSHIP.md",
+      "bytes": 6836
+    },
+    {
+      "sha": "3bc5662783b499afabacf15a7b5f408a3139193b",
+      "path_hint": "README.md",
+      "bytes": 8133
+    },
+    {
+      "sha": "20a5cfb8da66ed68024c52f1b516a4dbc7a5fd87",
+      "path_hint": "README_EN.md",
+      "bytes": 2845
+    },
+    {
+      "sha": "a081ccd31a739306177c260c9f3114d0dad5d4af",
+      "path_hint": "REPAIR_TODO.md",
+      "bytes": 25528
+    },
+    {
+      "sha": "72696661b097029fd414ff757202f8574fedb38c",
+      "path_hint": "REPOSITORY_MAP.md",
+      "bytes": 4228
+    },
+    {
+      "sha": "3d0b1cf9d5ea7bffa0a6f247392add154d5e7c22",
+      "path_hint": "TIG_REPOSITORY_STRUCTURE_DE.md",
+      "bytes": 1522
+    },
+    {
+      "sha": "3face87b3e8e2fdebcbf0f2ed5e472849c905344",
+      "path_hint": "TIG_REPOSITORY_STRUCTURE_EN.md",
+      "bytes": 1445
+    },
+    {
+      "sha": "c13ca3823f770a82ab21fbd143775eaa65526acd",
+      "path_hint": "TOPOLOGICAL_INTEGRITY_GRAVITY_TIG_v1.0_DE_.md",
+      "bytes": 3222
+    },
+    {
+      "sha": "768dbb8ce3bc07ee605175d108f3ea1573124abe",
+      "path_hint": "TOPOLOGICAL_INTERGRITY_GRAVITY_TIG_v1.0_EN.md",
+      "bytes": 2995
+    },
+    {
+      "sha": "20b6f0084fd2cb01b76ca70e4e3c7a13fa1e71a0",
+      "path_hint": "abstract.md",
+      "bytes": 3805
+    },
+    {
+      "sha": "8464e54f631a8347349a604d5e25692b866db930",
+      "path_hint": "applications/biological_integrity_dynamics.md",
+      "bytes": 4157
+    },
+    {
+      "sha": "3ae3f16ab602b07f18a6c52945acfad08c4db722",
+      "path_hint": "applications/biological_integrity_model.md",
+      "bytes": 2778
+    },
+    {
+      "sha": "8e51fe54ee68a45dca2f4c4ede153f11dafaece2",
+      "path_hint": "applications/biology_predictions.md",
+      "bytes": 7608
+    },
+    {
+      "sha": "d6a71411158f12808f40d5bb879e47f61b6b8daf",
+      "path_hint": "applications/cyber_integrity_model.md",
+      "bytes": 3557
+    },
+    {
+      "sha": "7b92b45f2b4e3c4fa1a5b2e2e08a1b9bb50df97b",
+      "path_hint": "applications/mas_integrity_simulation.md",
+      "bytes": 3320
+    },
+    {
+      "sha": "5928b3ce21ca0313a933d314efafddf646f75028",
+      "path_hint": "applications/prototype_architecture.md",
+      "bytes": 2362
+    },
+    {
+      "sha": "2b37029f44be11e3bdef9a58d759f164718602d0",
+      "path_hint": "archive/field_equation_historical_status.md",
+      "bytes": 2930
+    },
+    {
+      "sha": "7ee99086736ead5e745b6fec9590fbe48f0b6bf4",
+      "path_hint": "axioma/axioma_architecture.md",
+      "bytes": 5579
+    },
+    {
+      "sha": "b98d7007f03b9d7cfb9eef37f5b9c25813fc50d7",
+      "path_hint": "biology_predictions.md",
+      "bytes": 6700
+    },
+    {
+      "sha": "c9b24e0e0e5c3649437501fed7950e1e31834ce4",
+      "path_hint": "docs/ARTIFACT_BINDINGS.md",
+      "bytes": 7986
+    },
+    {
+      "sha": "4ddcf75e3c0ded6f5fd0d62b0a321ffadad515b5",
+      "path_hint": "docs/BUILD_WORKFLOW.md",
+      "bytes": 10574
+    },
+    {
+      "sha": "7ca507b19a60aa01d9345d9561ff259d6a7f8e85",
+      "path_hint": "docs/PUBLICATION_CHAIN.md",
+      "bytes": 3864
+    },
+    {
+      "sha": "5b2d8635894b83d293b3033b69bd25a0f1bb2c37",
+      "path_hint": "docs/REPAIR_REPORT_2026-10-02.md",
+      "bytes": 16797
+    },
+    {
+      "sha": "6e4fa0b5e3c8154ec9a1df1036e0c423a127686d",
+      "path_hint": "docs/REPAIR_WAVE1_2026-10-02.md",
+      "bytes": 7709
+    },
+    {
+      "sha": "d64b9a7b09bf3cd89c566ca7243668e98b661f58",
+      "path_hint": "docs/REPAIR_WAVE2_2026-10-02.md",
+      "bytes": 9019
+    },
+    {
+      "sha": "0250738fcd91afdb56576102f97bd27431ba7125",
+      "path_hint": "docs/REPAIR_WAVE3_2026-10-02.md",
+      "bytes": 7218
+    },
+    {
+      "sha": "311af536bf7099dc563973fb7c62bc36156bcb83",
+      "path_hint": "docs/REPAIR_WAVE4_2026-10-02.md",
+      "bytes": 6357
+    },
+    {
+      "sha": "9e29fe4f09b7a3d383fad17880f5489f79e6a879",
+      "path_hint": "field_equations/field_equation_1_0.md",
+      "bytes": 2238
+    },
+    {
+      "sha": "5e5cea9fa83f4c594285f57436bda59f3f94ffa7",
+      "path_hint": "field_equations/field_equation_reverse_derivation_path.md",
+      "bytes": 3626
+    },
+    {
+      "sha": "ac755c1c0905c10ee399d2a1714051c377e3d9ff",
+      "path_hint": "field_equations/open_questions.md",
+      "bytes": 3497
+    },
+    {
+      "sha": "01fc2905fe2bff736708d90808135366d7eab3af",
+      "path_hint": "field_equations/validation_status.md",
+      "bytes": 2497
+    },
+    {
+      "sha": "61334d3036a95863069265fa1e553687581b9c4f",
+      "path_hint": "figures/tig_expansion_history_prediction.png",
+      "bytes": 108834
+    },
+    {
+      "sha": "814591c325fc6eddc0f2467aaceecd0d5897fc29",
+      "path_hint": "figures/tig_horizon_branches.json",
+      "bytes": 558
+    },
+    {
+      "sha": "fa70b27be9f04eb21dd113c304afbf4f6e49ac0a",
+      "path_hint": "figures/tig_horizon_branches.png",
+      "bytes": 76177
+    },
+    {
+      "sha": "f343f7dfc7b54e404fb415ef70bf12d6fa516d15",
+      "path_hint": "figures/tig_horizon_radius_prediction.png",
+      "bytes": 131669
+    },
+    {
+      "sha": "3d1cae6aea7b7d45350773f5d362443485fbef57",
+      "path_hint": "governance/claim_boundary_standard.md",
+      "bytes": 992
+    },
+    {
+      "sha": "c3cad2a8d64c1a77b67b24b9bf27cde92d9c85ab",
+      "path_hint": "governance/repository_standard.md",
+      "bytes": 981
+    },
+    {
+      "sha": "8842c1915db0a69266dbd504dc577c041e394316",
+      "path_hint": "papers/archive/docs_redundant/executive_summary.md",
+      "bytes": 3330
+    },
+    {
+      "sha": "d43b51af8eedb743b09a55bf6645454dc137f026",
+      "path_hint": "papers/archive/docs_redundant/whats_missing.md",
+      "bytes": 4237
+    },
+    {
+      "sha": "c337985090f5226cd1dcf84bab83fadce33f3770",
+      "path_hint": "papers/archive/forbidden_paper_versions/tig_black_hole_solution.md",
+      "bytes": 3562
+    },
+    {
+      "sha": "310ddb3c3a9a868011c1c7869f604d73bb4040e9",
+      "path_hint": "papers/archive/forbidden_paper_versions/tig_foundations_v1.md",
+      "bytes": 4053
+    },
+    {
+      "sha": "00e61066bcc09db514422c2070263a096042e8d0",
+      "path_hint": "papers/archive/forbidden_paper_versions/tig_foundations_v1.tex",
+      "bytes": 2883
+    },
+    {
+      "sha": "a90aef43e830e5df18b9ed119f7134246818ebba",
+      "path_hint": "papers/archive/forbidden_paper_versions/tig_master_arxivf.text",
+      "bytes": 4438
+    },
+    {
+      "sha": "d539b7e1109cea241928476228ce095362b53bc9",
+      "path_hint": "papers/archive/forbidden_paper_versions/tig_master_paper_v1_backup.md",
+      "bytes": 5013
+    },
+    {
+      "sha": "e787e458e231fd60922677211e46b8f6ee180340",
+      "path_hint": "papers/archive/paper_fragments/limitations.tex",
+      "bytes": 6239
+    },
+    {
+      "sha": "1e28af6d069d5173e725470b364b3d6ae0bb2855",
+      "path_hint": "papers/archive/paper_fragments/tig_black_hole_solution.tex",
+      "bytes": 1827
+    },
+    {
+      "sha": "014e4e27921f8a731a6ee1f64345c120a91cb904",
+      "path_hint": "papers/derivations/_friedmann_derivation.md",
+      "bytes": 2089
+    },
+    {
+      "sha": "6533f4e7a6a36712250a72234632cd1400fd225c",
+      "path_hint": "papers/derivations/black_hole_R2_derivation.md",
+      "bytes": 3734
+    },
+    {
+      "sha": "8ba01ddbd2c2f79ff64bef5487758481502da82c",
+      "path_hint": "papers/derivations/black_hole_stability_analysis.md",
+      "bytes": 7898
+    },
+    {
+      "sha": "60e4870b4029575e57475004d697a6459abdaff1",
+      "path_hint": "papers/derivations/comparison_starobinski.md",
+      "bytes": 6884
+    },
+    {
+      "sha": "b93989f7025493d62de1aa60e7ce12520ecddd89",
+      "path_hint": "papers/derivations/concrete_scalar_mode_prediction.md",
+      "bytes": 4445
+    },
+    {
+      "sha": "3c73b55db4867e5eb4df07b94938e096ce5423da",
+      "path_hint": "papers/derivations/core_strengthening_plan.md",
+      "bytes": 4924
+    },
+    {
+      "sha": "3b416a02a2c9af49b0a67f51bad78b45dc94a138",
+      "path_hint": "papers/derivations/cosmology_friedmann.md",
+      "bytes": 3323
+    },
+    {
+      "sha": "2ebe1af53d9078c7f4092f99941d06bf86ca76ad",
+      "path_hint": "papers/derivations/cosmology_prediction.md",
+      "bytes": 2401
+    },
+    {
+      "sha": "f21a417f9e6a319acf4a3339aa35c47f85c25bb1",
+      "path_hint": "papers/derivations/curvature_check.md",
+      "bytes": 2579
+    },
+    {
+      "sha": "419a9a85ae98f2ae59d62dce50b56f3ad7121b24",
+      "path_hint": "papers/derivations/derivations_comparisonlayer.md",
+      "bytes": 6903
+    },
+    {
+      "sha": "cb1eace8c3eb039d1e728930e4e71538e86178b5",
+      "path_hint": "papers/derivations/derivationsoperator_to_geometry.md",
+      "bytes": 2634
+    },
+    {
+      "sha": "e209851096d2f66f58867ee96048291ce2cc5684",
+      "path_hint": "papers/derivations/echo_delay_with_boundaries.md",
+      "bytes": 6605
+    },
+    {
+      "sha": "2706300620c9097fb6edd00529d1454930abce6c",
+      "path_hint": "papers/derivations/entropy-geografie.md",
+      "bytes": 2511
+    },
+    {
+      "sha": "04ea8cf7bad39b3f9296f4c9cebd6b94087abcfd",
+      "path_hint": "papers/derivations/entropy_integrity.md",
+      "bytes": 3331
+    },
+    {
+      "sha": "f823ab7f0b6cd0dab6735f62f6a735ba5d09635f",
+      "path_hint": "papers/derivations/explicit_black_hole_solution.md",
+      "bytes": 7643
+    },
+    {
+      "sha": "90c6d514f1f55f4e2da86a2617890b8802c85b4d",
+      "path_hint": "papers/derivations/extenden_geometry_layer.md",
+      "bytes": 4784
+    },
+    {
+      "sha": "7d102cad55748495768c937b8c09c7d337cd1489",
+      "path_hint": "papers/derivations/horizons_thermodynamics.md",
+      "bytes": 4017
+    },
+    {
+      "sha": "f5377832eaa9c3671762b073918d7b241d53ff2a",
+      "path_hint": "papers/derivations/integrity_functional.md",
+      "bytes": 8857
+    },
+    {
+      "sha": "8fb802f947531b9db39fa6715a2cad46134fb02a",
+      "path_hint": "papers/derivations/integrity_functional_systems.md",
+      "bytes": 6306
+    },
+    {
+      "sha": "2fbcdc69c84b0b0d855f485b68c248e7d77775fd",
+      "path_hint": "papers/derivations/integrity_tensor_derivation.md",
+      "bytes": 6155
+    },
+    {
+      "sha": "3bc2c838464075373400c2d87c3e4c6eaf438a29",
+      "path_hint": "papers/derivations/integrity_variation.md",
+      "bytes": 3359
+    },
+    {
+      "sha": "d48fe714c1ccb7d2574b27e13c09f3bc92e41e64",
+      "path_hint": "papers/derivations/lambda_physical_role.md",
+      "bytes": 5038
+    },
+    {
+      "sha": "5ff146de657dd8b3ddf2f2084e5555f8c71df61b",
+      "path_hint": "papers/derivations/linear_perturbation_roadmap.md",
+      "bytes": 6098
+    },
+    {
+      "sha": "79453392368384b93f1f1523a1ea907cb2fc56ab",
+      "path_hint": "papers/derivations/novelty_extraction.md",
+      "bytes": 8638
+    },
+    {
+      "sha": "060dbf5e9ced379ec46cba765036d6e27721b6bd",
+      "path_hint": "papers/derivations/parameter_physics.md",
+      "bytes": 9358
+    },
+    {
+      "sha": "af496a85ce0ddad42ef5cdafc2bee9ec6cfe8132",
+      "path_hint": "papers/derivations/predicitions_refinement.md",
+      "bytes": 8556
+    },
+    {
+      "sha": "cd806f6b7a120a9556eab46206abbf82bee4e4d6",
+      "path_hint": "papers/derivations/predictions_tig.md",
+      "bytes": 3051
+    },
+    {
+      "sha": "d2d5c61ca94c500e481d232b65a43876790b4f36",
+      "path_hint": "papers/derivations/quadratic_fr_and_horizon_checks.md",
+      "bytes": 11860
+    },
+    {
+      "sha": "202e7123bcc486f2181de79818b050f3a8ede36f",
+      "path_hint": "papers/derivations/quantitative_scalar_prediction.md",
+      "bytes": 6083
+    },
+    {
+      "sha": "0953182778e6f783191f0377575916ae2a1c16d9",
+      "path_hint": "papers/derivations/quantum_link.md",
+      "bytes": 2582
+    },
+    {
+      "sha": "ee5ee3b3a76936a1cf772c80e44511429c681b30",
+      "path_hint": "papers/derivations/scalar_coupleling.md",
+      "bytes": 6878
+    },
+    {
+      "sha": "ffaaf5d8e7c295f60ef74c76419f02a12d833ebc",
+      "path_hint": "papers/derivations/spectrale_derivation.md",
+      "bytes": 7579
+    },
+    {
+      "sha": "9b7882f3019c1ef498700e5bec32b72813c2388f",
+      "path_hint": "papers/derivations/stability_analysis.md",
+      "bytes": 2571
+    },
+    {
+      "sha": "6949b4a04b44fd5f579475af4c6f2eafc41a2586",
+      "path_hint": "papers/derivations/trace_equation_scalar_mode.md",
+      "bytes": 2998
+    },
+    {
+      "sha": "12f77001af7c407314983c461962a67d4af69ffb",
+      "path_hint": "papers/derivations/unified_intergaty_principle.md",
+      "bytes": 2693
+    },
+    {
+      "sha": "f160d6040d89320ba81288b1b4b0520f72761ce7",
+      "path_hint": "papers/docs/faq.md",
+      "bytes": 8886
+    },
+    {
+      "sha": "811fb0c31c000bb883c34c9cfd30b6f62e1b1f72",
+      "path_hint": "papers/tig-paper/README.md",
+      "bytes": 710
+    },
+    {
+      "sha": "8c223ea0f80d1b32f9b3494d4cf9fc01550f126c",
+      "path_hint": "papers/tig-paper/TIG3_Vacuum_Structure.pdf",
+      "bytes": 7096113
+    },
+    {
+      "sha": "33cecf3454fdf2ab8ff93372f9f3d1c4f9e5ef69",
+      "path_hint": "papers/tig-paper/TIG_Paper.pdf",
+      "bytes": 203555
+    },
+    {
+      "sha": "077f339d3be1b7b156efcb3f7f642b7b810561e7",
+      "path_hint": "papers/tig-paper/abstract.tex",
+      "bytes": 1130
+    },
+    {
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "path_hint": "papers/tig-paper/arxiv_upload_placeholder.txt",
+      "bytes": 1
+    },
+    {
+      "sha": "7f41db5c77f93d7e55f883c75d564ebcc1ddc6c5",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 32580
+    },
+    {
+      "sha": "edf35b044c4d646db7e9b38aad1bd9a465ce33bc",
+      "path_hint": "papers/tig-paper/photon_sphere.tex",
+      "bytes": 1667
+    },
+    {
+      "sha": "2d719f735246498a0f4a1239c759da02d22dbecb",
+      "path_hint": "papers/tig-paper/photon_sphere_generation_notes.md",
+      "bytes": 19486
+    },
+    {
+      "sha": "ae908bf707807ec6d3391e31ea31275b3d0b31de",
+      "path_hint": "papers/tig-paper/references.bib",
+      "bytes": 5488
+    },
+    {
+      "sha": "3764bd04372009733b406b01ecd2992c9ce4fed4",
+      "path_hint": "papers/tig-paper/tig_bifurcation_robustness.png",
+      "bytes": 314673
+    },
+    {
+      "sha": "29afc26e433346dcea666784fa5af2da78596cca",
+      "path_hint": "papers/tig-paper/tig_echo_delay_prediction_legacy.png",
+      "bytes": 138755
+    },
+    {
+      "sha": "733b93d29f8c4b75ee1401e14e106eabfafbf68f",
+      "path_hint": "papers/tig-paper/tig_horizon_transition_publication.png",
+      "bytes": 224183
+    },
+    {
+      "sha": "0833bf6fc9a3bd71ec6679c905d5f9653bccbb97",
+      "path_hint": "papers/tig-paper/tig_photon_sphere_deviation_legacy.png",
+      "bytes": 105432
+    },
+    {
+      "sha": "b6347b60bb6ea2619f5ba9aafd6d702dbc2a0e15",
+      "path_hint": "papers/tig_schwarzschild_horizon_comparison.png",
+      "bytes": 183386
+    },
+    {
+      "sha": "90372908e211df0a46b9d7aa38c04a0a69dd33ca",
+      "path_hint": "papers/tig_topolocical_paper.md",
+      "bytes": 3364
+    },
+    {
+      "sha": "6c946523dfe183e89446160b86391b17f840d5de",
+      "path_hint": "papers/tig_topological_paperREADME.md",
+      "bytes": 3486
+    },
+    {
+      "sha": "305499f25bf762a121384b7b2a90a14781bbe1ef",
+      "path_hint": "papers/topological-foundations-program/README.md",
+      "bytes": 6050
+    },
+    {
+      "sha": "628c4355e4cf6b4c68a52a49c88d67a6693cf9ff",
+      "path_hint": "project/submission/reviewer_notes.md",
+      "bytes": 2830
+    },
+    {
+      "sha": "8ea913cbaaebf77bc81feecdc2173705ec126619",
+      "path_hint": "provenance/branch_consolidation/BRANCH_CONSOLIDATION_2026-09-16.md",
+      "bytes": 2171
+    },
+    {
+      "sha": "811c8285e5ad8bad087ee5a2e9050b0556346927",
+      "path_hint": "registry/repair_tracking.json",
+      "bytes": 190257
+    },
+    {
+      "sha": "d6b79e6b057441fd80b215d16d8f786ea774b520",
+      "path_hint": "registry/repository_status.md",
+      "bytes": 3006
+    },
+    {
+      "sha": "0e201029dabb0379aa99d3b6aee0ff08c26dbe35",
+      "path_hint": "research/evolution/boundary_operator.md",
+      "bytes": 4303
+    },
+    {
+      "sha": "b4bf22cb8fa7b04f8a81a5a0bf9feb5ee53a5b89",
+      "path_hint": "research/evolution/evolution_operator_axioms.md",
+      "bytes": 3784
+    },
+    {
+      "sha": "1827bcc80ac11cbe08c17dafa1ccf7e37008cac7",
+      "path_hint": "research/evolution/evolution_operator_construction.md",
+      "bytes": 4161
+    },
+    {
+      "sha": "1f9c7fe88e710a1c4202b3ac875d38f639e510b3",
+      "path_hint": "research/evolution/operator_space_definition.md",
+      "bytes": 3187
+    },
+    {
+      "sha": "77af4fb5e5d175b9a704a6a4e316b6581e3fa2cb",
+      "path_hint": "research/tig_literature_matrix.md",
+      "bytes": 4247
+    },
+    {
+      "sha": "f5ee280863b4955c0149a50cdecd9ddd3e3a654a",
+      "path_hint": "research/wave3_source_review.md",
+      "bytes": 8401
+    },
+    {
+      "sha": "d678907a881fa39e0f94b460c95fd9d0d6f45ac8",
+      "path_hint": "share_draft.md",
+      "bytes": 483
+    },
+    {
+      "sha": "114e489cc9e3a18c400678112204a6be445fbdbf",
+      "path_hint": "strategy/publication_strategy.md",
+      "bytes": 2725
+    },
+    {
+      "sha": "bbde5e72b4f694d3fe1f607a34d67a40048366f5",
+      "path_hint": "strategy/tig_emergence_program.md",
+      "bytes": 3123
+    },
+    {
+      "sha": "ec0f77129adbcc2e5108afdbaee885c3842c7587",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 15253
+    },
+    {
+      "sha": "49e4ae818b361977e4ec16754870bd9ebebfc4f0",
+      "path_hint": "submission/arxiv/references.bib",
+      "bytes": 6122
+    },
+    {
+      "sha": "99788c21fb868b9f0d4ddac98269adee3ec4670e",
+      "path_hint": "submission/arxiv/tig_horizon_branches_critical_transition.png",
+      "bytes": 166906
+    },
+    {
+      "sha": "48f29ccc226a0efa27202bb18e422d19080ae56c",
+      "path_hint": "submission/arxiv/tig_qnm_frequency_prediction.png",
+      "bytes": 113279
+    },
+    {
+      "sha": "5d82d41fc4691f52291a523a9346cccc0d070aad",
+      "path_hint": "submission/arxiv/unsrtnat.bst",
+      "bytes": 24550
+    },
+    {
+      "sha": "061b946bb8cf464baa4415b6471f2acb8cf5824e",
+      "path_hint": "submission/exports/wave4_2026-10-02/README.md",
+      "bytes": 1077
+    },
+    {
+      "sha": "a59c9972e66a18804a756dbf84e58fd45eb5da9d",
+      "path_hint": "submission/exports/wave4_2026-10-02/arxiv.pdf",
+      "bytes": 323917
+    },
+    {
+      "sha": "4aabe399f5805b4beff251d571e51f5e8f09b074",
+      "path_hint": "submission/exports/wave4_2026-10-02/arxiv_source.zip",
+      "bytes": 88029
+    },
+    {
+      "sha": "c55169c0705b3d3ea6007a92b00dee9dafca8fc1",
+      "path_hint": "submission/exports/wave4_2026-10-02/paper.pdf",
+      "bytes": 386994
+    },
+    {
+      "sha": "2fdb742d0a745eae0feb0a752c0ba8d111905fcb",
+      "path_hint": "submission/exports/wave4_2026-10-02/source_manifest.json",
+      "bytes": 1534
+    },
+    {
+      "sha": "50622e1491dc175737ac37c0d33a75c55d5d6085",
+      "path_hint": "theory/black_hole_sector/README.md",
+      "bytes": 514
+    },
+    {
+      "sha": "fffd6ac414d7d0ef5fbf00e2ab3ad173fc8adf01",
+      "path_hint": "theory/critical_evaporation.md",
+      "bytes": 4031
+    },
+    {
+      "sha": "3de96b8d185cfdc9c07e3ebafcf2381caaee5de1",
+      "path_hint": "theory/hawking_sector/README.md",
+      "bytes": 1771
+    },
+    {
+      "sha": "3b9b2db848901fea93b32dc5245a9971c0bd15c1",
+      "path_hint": "theory/hawking_sector/tig_horizon_dynamics_simulation.html",
+      "bytes": 5695
+    },
+    {
+      "sha": "6f0776bbefdee21897301cb27db9063afb0b2fb4",
+      "path_hint": "theory/hawking_sector/tig_horizon_dynamics_simulation.md",
+      "bytes": 3835
+    },
+    {
+      "sha": "5591ce3796e0aa3a2605222b459e0199e29d948d",
+      "path_hint": "theory/integrity_tensor/candidates/ITC_001.md",
+      "bytes": 2926
+    },
+    {
+      "sha": "5b4938f728f18f2bb9bcc7d36a85f997e6c35c17",
+      "path_hint": "theory/integrity_tensor/candidates/ITC_002.md",
+      "bytes": 3000
+    },
+    {
+      "sha": "e27ca0e6cfef3946e77a594be9844a9fe871884f",
+      "path_hint": "theory/integrity_tensor/candidates/ITC_003.md",
+      "bytes": 3293
+    },
+    {
+      "sha": "a58afd27d5cc01a69d985ef2811113caff0d8398",
+      "path_hint": "theory/integrity_tensor/candidates/ITC_004.md",
+      "bytes": 3441
+    },
+    {
+      "sha": "988756510038908e799501919e7881ccfb2c10a0",
+      "path_hint": "theory/integrity_tensor/candidates/ITC_005.md",
+      "bytes": 3412
+    },
+    {
+      "sha": "ef8112032f38c95fdc6bb7698a52aa4b5cc156be",
+      "path_hint": "theory/integrity_tensor/candidates/README.md",
+      "bytes": 2485
+    },
+    {
+      "sha": "fe5d033cd5c9f73207bafc1456e16f54a8c4908b",
+      "path_hint": "theory/integrity_tensor/defect_to_tensor_hypothesis.md",
+      "bytes": 3372
+    },
+    {
+      "sha": "0bab726db144d0d1123d2cfb194992aa203025f6",
+      "path_hint": "theory/integrity_tensor/effective_integrity_tensor_1_0.md",
+      "bytes": 3204
+    },
+    {
+      "sha": "5b4b85bd165aece54ed1f5ed66595cf94e35e849",
+      "path_hint": "theory/integrity_tensor/geometry_to_curvature.md",
+      "bytes": 2630
+    },
+    {
+      "sha": "f346134434935cbdd85a34f05381a5575b528b6a",
+      "path_hint": "theory/integrity_tensor/integrity_scale_requirements.md",
+      "bytes": 3384
+    },
+    {
+      "sha": "643e64f4e33d170925d63e4f1d4391a5595ef63c",
+      "path_hint": "theory/integrity_tensor/integrity_tensor_candidates.md",
+      "bytes": 2680
+    },
+    {
+      "sha": "541dd9252a7f0b1579695177a27adbb5e7661f3f",
+      "path_hint": "theory/integrity_tensor/integrity_tensor_comparative_evaluation.md",
+      "bytes": 2329
+    },
+    {
+      "sha": "9d8ed96761bc76e8c36f04c98c2880d1c2b13150",
+      "path_hint": "theory/integrity_tensor/integrity_tensor_evaluation_framework.md",
+      "bytes": 3491
+    },
+    {
+      "sha": "9a45dd5a053b35ef0dd5f6a64226df246c1d17f8",
+      "path_hint": "theory/integrity_tensor/integrity_tensor_evaluation_results.md",
+      "bytes": 4115
+    },
+    {
+      "sha": "c42fe0164327d36e412074f35255948b6fd2c5c7",
+      "path_hint": "theory/integrity_tensor/integrity_tensor_phase1_summary.md",
+      "bytes": 3802
+    },
+    {
+      "sha": "5f8c8e150931d9ba56891607afbec437b3572d1f",
+      "path_hint": "theory/integrity_tensor/integrity_tensor_program.md",
+      "bytes": 3278
+    },
+    {
+      "sha": "f627fc1471996d91e8e99b5493bf8fcddb7f9a0d",
+      "path_hint": "theory/integrity_tensor/integrity_tensor_requirements.md",
+      "bytes": 3094
+    },
+    {
+      "sha": "9f2831be250c5731cdcd69551733cba8fe7d77cc",
+      "path_hint": "theory/integrity_tensor/integrity_tensor_status.md",
+      "bytes": 3477
+    },
+    {
+      "sha": "b8d770d9508894697ce328023497eb92eaf1daa8",
+      "path_hint": "theory/integrity_tensor/integrity_torsion_scale_hypothesis.md",
+      "bytes": 2934
+    },
+    {
+      "sha": "a0a9f8989f4215450e6eccf90ce8f4b56ba6f01f",
+      "path_hint": "theory/integrity_tensor/organizational_action.md",
+      "bytes": 3436
+    },
+    {
+      "sha": "b7c7d3394880fbf91e5fdf8f4f3315539544b67c",
+      "path_hint": "theory/integrity_tensor/organizational_curvature_defect.md",
+      "bytes": 2431
+    },
+    {
+      "sha": "d303c5aa00a853431bbb97c3543f6cc2a9f55597",
+      "path_hint": "theory/integrity_tensor/organizational_integrity_tensor.md",
+      "bytes": 2521
+    },
+    {
+      "sha": "06a5a128e5bd3ef0b38523f04a50ffdbc11064de",
+      "path_hint": "theory/integrity_tensor/organizational_tensor_audit_result.md",
+      "bytes": 2658
+    },
+    {
+      "sha": "acf1f38fd290b435cbfdf07c59a6a36544096a69",
+      "path_hint": "theory/integrity_tensor/rho_hessian_tensor_test.md",
+      "bytes": 3880
+    },
+    {
+      "sha": "8958f23a5338dcf6f08216bfc966647c87dd958f",
+      "path_hint": "theory/integrity_tensor/tig_field_equation_1_0_audit.md",
+      "bytes": 2893
+    },
+    {
+      "sha": "873d9c85ce2401afee0dd8bfad95e17a6d8dd3ec",
+      "path_hint": "theory/integrity_tensor/tig_field_equation_1_0_integrity_torsion.md",
+      "bytes": 3910
+    },
+    {
+      "sha": "8a541d59f46848e18ea556266d62055db603daf4",
+      "path_hint": "theory/integrity_tensor/tig_native_tensor_derivation.md",
+      "bytes": 2664
+    },
+    {
+      "sha": "e2cafa14c97c28e1ffab439111506cf09e7c1f56",
+      "path_hint": "theory/integrity_tensor/volumetric_organization.mathematical_definition.md",
+      "bytes": 2782
+    },
+    {
+      "sha": "913bc492dc768ee2db017d7b31891dc14bf22b50",
+      "path_hint": "theory/integrity_tensor/volumetric_organization_to_geometry.md",
+      "bytes": 3392
+    },
+    {
+      "sha": "c790db14653016ba6fbc0e1f8dfa9955a349dc02",
+      "path_hint": "theory/mathematical_derivation_of_TIG.md",
+      "bytes": 3291
+    },
+    {
+      "sha": "2047b6a7e1d347a1656a4b695ed5f0650630d272",
+      "path_hint": "theory/photon_sphere_dynamics/simulation.html",
+      "bytes": 7191
+    },
+    {
+      "sha": "13d9caca98ad7b6e1d5f3be5ab02e386aae25f05",
+      "path_hint": "theory/tig_horizon_thermodynamics.md",
+      "bytes": 3442
+    },
+    {
+      "sha": "83aa9fdf055ad7412a6cb1dd15d46da04750bc5f",
+      "path_hint": "tools/build_manuscripts.py",
+      "bytes": 1648
+    },
+    {
+      "sha": "66fa92df0137098bccc8593fb261d9950077a366",
+      "path_hint": "tools/export_arxiv.py",
+      "bytes": 4159
+    },
+    {
+      "sha": "553d58b04d63903b400b180f2ff444a159bd4181",
+      "path_hint": "tools/generate_horizon_figure.py",
+      "bytes": 2963
+    },
+    {
+      "sha": "05bc4d37755a671bd4298f6a60d6c0e95cd070f3",
+      "path_hint": "tools/verify_wave2.py",
+      "bytes": 6168
+    },
+    {
+      "sha": "80442ab6d6b0caf200a3e63eeda7ffc57d85b254",
+      "path_hint": "tools/verify_wave3.py",
+      "bytes": 5088
+    },
+    {
+      "sha": "01b899f5051d6e62df7a9a234d59ee4f12fa986d",
+      "path_hint": "topology/READ.md",
+      "bytes": 4282
+    },
+    {
+      "sha": "b4388abef767de9100e598dd116c21c81a7d2408",
+      "path_hint": "topology/README.md",
+      "bytes": 1959
+    },
+    {
+      "sha": "c3b34c7d8c135149858e67287bdc5d2cc9d2ee6a",
+      "path_hint": "topology/STRUCTURE_PLAN.md",
+      "bytes": 1625
+    },
+    {
+      "sha": "9413a71577db3d0ba2411dcb17ca7df73d885560",
+      "path_hint": "topology/admissibility_conditions.md",
+      "bytes": 5576
+    },
+    {
+      "sha": "3175a9cee188fb832a96660707834bb6888537ce",
+      "path_hint": "topology/axiome.md",
+      "bytes": 5234
+    },
+    {
+      "sha": "7ea14b066192428fbb89e5ed2f25e27969a20914",
+      "path_hint": "topology/branch_structure_emergence.md",
+      "bytes": 5250
+    },
+    {
+      "sha": "27b3e28becfa7733dac32f1791ea75463639649f",
+      "path_hint": "topology/canonical_emergence_route.md",
+      "bytes": 4789
+    },
+    {
+      "sha": "68eefb339cff81a494bae50f7450a6af56b2e230",
+      "path_hint": "topology/connectivity_operator_formalization.md",
+      "bytes": 4380
+    },
+    {
+      "sha": "22f6a7586e02aef14663f07ea6337c2e31a5647f",
+      "path_hint": "topology/connectivity_operator_foundations.md",
+      "bytes": 4364
+    },
+    {
+      "sha": "8f3f2faa88e4ce037fa67acf73cb5899ec4c7eb6",
+      "path_hint": "topology/connectivity_to_geometry.md",
+      "bytes": 4647
+    },
+    {
+      "sha": "0548cf06130d3ed2878706649ec2171a2774e3be",
+      "path_hint": "topology/continuous_geometry_limitations.md",
+      "bytes": 2475
+    },
+    {
+      "sha": "a4415da5fe18610bc925b6b32da5b9939c3d996c",
+      "path_hint": "topology/core_axioms.md",
+      "bytes": 3014
+    },
+    {
+      "sha": "8f1aab256b2f3027cce044c3645167e75a5c8758",
+      "path_hint": "topology/critical_open_problems.md",
+      "bytes": 3889
+    },
+    {
+      "sha": "a7d4d48bfb4fe9beff3a07435f2ad7419b18129c",
+      "path_hint": "topology/critical_transition_dynamics.md",
+      "bytes": 4230
+    },
+    {
+      "sha": "1318169d81319df3028561259df95c14924d81ed",
+      "path_hint": "topology/cube_necessity_investigation.md",
+      "bytes": 3984
+    },
+    {
+      "sha": "3d5e91c23c90881ed2007948cbc2731c66b46480",
+      "path_hint": "topology/cube_struture.md",
+      "bytes": 4343
+    },
+    {
+      "sha": "e9b106a03a235b4552d480d7ba3f69c2496eb2d0",
+      "path_hint": "topology/curvature_from_connectivity.md",
+      "bytes": 4803
+    },
+    {
+      "sha": "0dc1472f0b76346a8c0618394f464117a450c9b8",
+      "path_hint": "topology/emergent_3d_spacetime_structure.md",
+      "bytes": 3684
+    },
+    {
+      "sha": "e064bfc238a68c9a6f024ae2cd92ef48ba86d593",
+      "path_hint": "topology/emergent_curvature.md",
+      "bytes": 3911
+    },
+    {
+      "sha": "c0f8ae119f98a2cffb165c73d03f748b9c4db408",
+      "path_hint": "topology/emergent_curvature_construction.md",
+      "bytes": 4060
+    },
+    {
+      "sha": "957411ff55126bbf268b510aa225a29845af4c8c",
+      "path_hint": "topology/emergent_dimension_construction.md",
+      "bytes": 4190
+    },
+    {
+      "sha": "e4c48ea21b73ac77822a45daa1e76431e19332ce",
+      "path_hint": "topology/emergent_geometry.md",
+      "bytes": 3654
+    },
+    {
+      "sha": "0ec8973e812a29aa96a18799f8b8cda6a40bd236",
+      "path_hint": "topology/emergent_geometry_construction.md",
+      "bytes": 4038
+    },
+    {
+      "sha": "14f093be694db301b070a80ce5ed56d254584d09",
+      "path_hint": "topology/emergent_metric_construction.md",
+      "bytes": 4711
+    },
+    {
+      "sha": "f0721170f3442d1028505c17d7173b20fc965c9d",
+      "path_hint": "topology/emergent_metric_principle.md",
+      "bytes": 4224
+    },
+    {
+      "sha": "47ead27dd80d104e49d991de0ef24b26385a22f9",
+      "path_hint": "topology/evolution/README.md",
+      "bytes": 532
+    },
+    {
+      "sha": "16ff20338e818e2d0fd4ed4bdf060c76a1cf837f",
+      "path_hint": "topology/evolution/admissibility_geometry.md",
+      "bytes": 7275
+    },
+    {
+      "sha": "3d09d79b018964eb2402891172de672d1d4b99f6",
+      "path_hint": "topology/evolution/admissibility_transition_structure.md",
+      "bytes": 7248
+    },
+    {
+      "sha": "dc3a1ede2b9b651f391af99897dbd48c1702961a",
+      "path_hint": "topology/evolution/recursive_connection_structure.md",
+      "bytes": 4172
+    },
+    {
+      "sha": "4e18b44063e6dc1c5755d243b67f9c77fc76e158",
+      "path_hint": "topology/evolution/recursive_curvature.md",
+      "bytes": 3615
+    },
+    {
+      "sha": "9f26caf56f1040dbb74af5fae4771148b7d4b2dc",
+      "path_hint": "topology/evolution/recursive_dynamics.md",
+      "bytes": 3489
+    },
+    {
+      "sha": "c0cfecb18ca3ce189e0671f3c8d479380ecb0584",
+      "path_hint": "topology/evolution/recursive_geodesics.md",
+      "bytes": 4538
+    },
+    {
+      "sha": "bbf0271e7dd0f6deec7f5b1eb1b0c33264fdcee2",
+      "path_hint": "topology/evolution/recursive_metric_tensor.md",
+      "bytes": 3548
+    },
+    {
+      "sha": "1217dd375c8270522377e0a9005bf64214af6b47",
+      "path_hint": "topology/evolution/recursive_operator_framework.md",
+      "bytes": 3529
+    },
+    {
+      "sha": "ada4f60dfb7e6351ce9250b8394e7cc91da486c0",
+      "path_hint": "topology/evolution/recursive_parallel_transport.md",
+      "bytes": 4447
+    },
+    {
+      "sha": "bf5d7e65d06b7099bdc165610ea148756969c506",
+      "path_hint": "topology/evolution/recursive_stability_spectrum.md",
+      "bytes": 4768
+    },
+    {
+      "sha": "4569cd4ded5bf43f165610e7345d442855a15c05",
+      "path_hint": "topology/evolution/theoryadmissibility_evolution.md",
+      "bytes": 6817
+    },
+    {
+      "sha": "af95d85f8603d9260fd5fa5cd36532e3fde106f9",
+      "path_hint": "topology/evolution/tig_candidate_field_equation.md",
+      "bytes": 3986
+    },
+    {
+      "sha": "d459076d27642a2596c048e5a770f6f985bc712e",
+      "path_hint": "topology/field_equation_requirements_from_topology.md",
+      "bytes": 5825
+    },
+    {
+      "sha": "00eb5087ace5c684c6591e741c9b38804bd16f9b",
+      "path_hint": "topology/foundations_limitations.md",
+      "bytes": 5226
+    },
+    {
+      "sha": "d5cf173d72dbffc8928c38c9be248ca9ac2a4b39",
+      "path_hint": "topology/foundations_program_summary.md",
+      "bytes": 4459
+    },
+    {
+      "sha": "b059a3f2d03dfc6c4fe7e379f671b2e594638d27",
+      "path_hint": "topology/glossary.md",
+      "bytes": 5743
+    },
+    {
+      "sha": "b3270f83a530bf983f5eab468e133da301a4140a",
+      "path_hint": "topology/horizon_emergence.md",
+      "bytes": 4367
+    },
+    {
+      "sha": "8b0ecbf1673ba74419c23af0f1d918022959c028",
+      "path_hint": "topology/horizon_emergence_from_curvature.md",
+      "bytes": 4634
+    },
+    {
+      "sha": "8591743a9ec7559e994a2ce1d69998ed579bb9d6",
+      "path_hint": "topology/integrety_metric.md",
+      "bytes": 5488
+    },
+    {
+      "sha": "64b3bb5ccf4ec89f308837a4dc6e86ef5fe3e678",
+      "path_hint": "topology/integrity_collapse.md",
+      "bytes": 5994
+    },
+    {
+      "sha": "3abce3b290fd6e81952bad39c43bce11a4086cfb",
+      "path_hint": "topology/minimal_persistent_structure_problem.md",
+      "bytes": 2791
+    },
+    {
+      "sha": "58b88772bd760961882e811b5646188a81e63b47",
+      "path_hint": "topology/minimal_structure_comparison.md",
+      "bytes": 4694
+    },
+    {
+      "sha": "e25e7300e011414be7824149a9b3a6dedfa44da1",
+      "path_hint": "topology/organization_to_geometry_mapping.md",
+      "bytes": 4629
+    },
+    {
+      "sha": "d9a0254e2f97fb1a9c229ecbb9bf6838b8580139",
+      "path_hint": "topology/organizational_degeneracy.md",
+      "bytes": 5244
+    },
+    {
+      "sha": "b8728e5effb8f63f07efce47693126d04731b318",
+      "path_hint": "topology/reduction_principles.md",
+      "bytes": 3993
+    },
+    {
+      "sha": "149b9b1005dc1e96c1c1ecf30b4a3dca820c5418",
+      "path_hint": "topology/research_notes/double_slit_admissibility.md",
+      "bytes": 4467
+    },
+    {
+      "sha": "6e0be70e804478f114606a93b1afb73d46854225",
+      "path_hint": "topology/research_notes/x4_decay_mapping.md",
+      "bytes": 3602
+    },
+    {
+      "sha": "0c077476e81c42f79abd687e77ee208d21daca93",
+      "path_hint": "topology/root_manifold.md",
+      "bytes": 5074
+    },
+    {
+      "sha": "cd9a0ecf56b5ac50d3d435e4ecb938b6b7982176",
+      "path_hint": "topology/stability_attractors.md",
+      "bytes": 6372
+    },
+    {
+      "sha": "a6b453b63d2d0c8004f5b8e33d350317a013c52e",
+      "path_hint": "topology/structural_admissibility_foundations.md",
+      "bytes": 2997
+    },
+    {
+      "sha": "63ffa97d3a1bfb4846fe152ea56bc845493bc963",
+      "path_hint": "topology/structure/consitency_audit.md",
+      "bytes": 3088
+    },
+    {
+      "sha": "331529df33550f12baf69facb91473112bb31b00",
+      "path_hint": "topology/structure/transition_oprators.md",
+      "bytes": 4894
+    },
+    {
+      "sha": "ec9966ad981afccfafe596220de48f2096fe3b22",
+      "path_hint": "topology/theoretical_core.md",
+      "bytes": 4859
+    },
+    {
+      "sha": "9a1b124a4af2c167ad30af5c0114d7efb3c11374",
+      "path_hint": "topology/theory/README.md",
+      "bytes": 2619
+    },
+    {
+      "sha": "0f3f6ddb5104554ce3c4c58726c9313b4a86462e",
+      "path_hint": "topology/theory/THEORY_STRUCTURE_GUIDE.md",
+      "bytes": 1584
+    },
+    {
+      "sha": "3f993524ef9867f65e722340a72e59be2b3f1f92",
+      "path_hint": "topology/theory/primitives/README.md",
+      "bytes": 346
+    },
+    {
+      "sha": "c817a91def9f3449c76e771ef5df9ee08ecbbd3a",
+      "path_hint": "topology/theory/primitives/admissibility_axioms.md",
+      "bytes": 6076
+    },
+    {
+      "sha": "c41de59b1e901f0b57e382f938da06c7aeb9ce26",
+      "path_hint": "topology/theory/primitives/admissibility_functional.md",
+      "bytes": 5855
+    },
+    {
+      "sha": "130bc04652fd39bc39074aa16e99bc7606817640",
+      "path_hint": "topology/theory/primitives/fundamental_admissibility_principle.md",
+      "bytes": 4802
+    },
+    {
+      "sha": "459d986b24256807e973c5473ff060970c329161",
+      "path_hint": "topology/theory/primitives/minimal_axiom_system.md",
+      "bytes": 7048
+    },
+    {
+      "sha": "88afb281d3c2c387870537e992559ffaecb5dbfd",
+      "path_hint": "topology/theory/primitives/minimal_recursive_axiom.md",
+      "bytes": 4109
+    },
+    {
+      "sha": "ead61ebae62da1084ad9e9805c44bd1898ea204d",
+      "path_hint": "topology/theory/primitives/primitive_object_classes.md",
+      "bytes": 6961
+    },
+    {
+      "sha": "894454b1ba7c9f7e1f6d4444a6d699ccdd2c35c7",
+      "path_hint": "topology/theory/primitives/recursive_consistency.md",
+      "bytes": 6315
+    },
+    {
+      "sha": "d766ef1026bbfa034c5c49fe4a5e62a9a251adb3",
+      "path_hint": "topology/theory/structure/README.md",
+      "bytes": 384
+    },
+    {
+      "sha": "d08dd7ced3468aa695ebb9150855212b0b8e943c",
+      "path_hint": "topology/theory/structure/consistency_audit.md",
+      "bytes": 8101
+    },
+    {
+      "sha": "d09e20e21f4cc682740516a95ec8350efe53492c",
+      "path_hint": "topology/theory/structure/definition_hierarchy.md",
+      "bytes": 6919
+    },
+    {
+      "sha": "fa1e58eb321fa30083df9ac20d0be6215c061f15",
+      "path_hint": "topology/theory/structure/field_equation_constraints.md",
+      "bytes": 7329
+    },
+    {
+      "sha": "4e8b7e14b0d97e32b76304ae093e9e5e63b112cb",
+      "path_hint": "topology/theory/structure/field_equation_requirements.md",
+      "bytes": 5334
+    },
+    {
+      "sha": "d5f78751336c6a537ec5b011bb26c80efea16053",
+      "path_hint": "topology/theory/structure/formal_vs_heuristic_layers.md",
+      "bytes": 8426
+    },
+    {
+      "sha": "dff01b7706f8e889d7a87b84c57f2e6e97e17346",
+      "path_hint": "topology/theory/structure/non_claims_and_scope_limits.md",
+      "bytes": 7496
+    },
+    {
+      "sha": "9c638d27f6280a213663b2e98507a045d63001fc",
+      "path_hint": "topology/theory/structure/non_triviality_analysis.md",
+      "bytes": 7662
+    },
+    {
+      "sha": "0b6026d21c97989c13e3bb9b5d01727b36c6a521",
+      "path_hint": "topology/theory/structure/research_object_definition.md",
+      "bytes": 6913
+    },
+    {
+      "sha": "c1eea41cec8eee1df4a0b3e356606e7995cf71f3",
+      "path_hint": "topology/theory/structure/structural_dependency_map.md",
+      "bytes": 7391
+    },
+    {
+      "sha": "caf6cadc2c109f78b6ac64a2fb0c60718438367e",
+      "path_hint": "topology/theory/structure/structural_reduction_analysis.md",
+      "bytes": 7111
+    },
+    {
+      "sha": "900307204e7c1b12b38d1f17e07f83ea419ae39d",
+      "path_hint": "topology/theory_mathematical_consolidation.md",
+      "bytes": 1692
+    },
+    {
+      "sha": "cb562a09bb64e869e2a2b969477322ef6edb1447",
+      "path_hint": "topology/tig_cubic_reconstruction.md",
+      "bytes": 5454
+    },
+    {
+      "sha": "34f712c1af44065a3962019d0b0b7c394e64dd71",
+      "path_hint": "topology/tig_field_equation_candidate.md",
+      "bytes": 3086
+    },
+    {
+      "sha": "d56680b9380585e8354bc74911ee1017311b34fc",
+      "path_hint": "topology/volumetric_organization_necessity.md",
+      "bytes": 4305
+    },
+    {
+      "sha": "1f731a1e5fb036bd02590c8ae96a5861b08ebf4f",
+      "path_hint": "topology/x4_topoligy.md",
+      "bytes": 5351
+    },
+    {
+      "sha": "493d617102cc7d80e56d0c014e1bb7b4a95e4f53",
+      "path_hint": "visualizations/tig_grid_heuristic/README.md",
+      "bytes": 614
+    },
+    {
+      "sha": "8f97d7d8b3e82d5f814556c7578bc57ea1d0f24d",
+      "path_hint": "visualizations/tig_grid_heuristic/simulation.html",
+      "bytes": 6126
+    },
+    {
+      "sha": "dfc922f743ab489fc8c053919661a7de33f44c8a",
+      "path_hint": "AGENTS.md",
+      "bytes": 3196
+    },
+    {
+      "sha": "825f3d0da4fb978f4054318ae07d311fe09ca827",
+      "path_hint": "README.md",
+      "bytes": 7911
+    },
+    {
+      "sha": "dadeab79a1bd88843bb7a85926ff30c712d4c1de",
+      "path_hint": "REPAIR_TODO.md",
+      "bytes": 25190
+    },
+    {
+      "sha": "7583ac62dfd4daee1cdbeb4191b421e3c4337906",
+      "path_hint": "AGENTS.md",
+      "bytes": 2515
+    },
+    {
+      "sha": "5e0e4e35debb03a7bed91ea1e2aa6b4c3365e6de",
+      "path_hint": "OBJECT_OWNERSHIP.md",
+      "bytes": 5168
+    },
+    {
+      "sha": "90e0a7c941807bbff4b5c691dd279e9b992d5634",
+      "path_hint": "README.md",
+      "bytes": 7102
+    },
+    {
+      "sha": "2ea5e6a6182d0ce111d1f2bad9d3ca334cf92d33",
+      "path_hint": "REPAIR_TODO.md",
+      "bytes": 22372
+    },
+    {
+      "sha": "e063c7cb348028896d9061b702e0afe4234e2b9a",
+      "path_hint": "REPOSITORY_MAP.md",
+      "bytes": 3364
+    },
+    {
+      "sha": "5f75a8a467558df01ae2e57c55a3015b0835c55c",
+      "path_hint": "docs/BUILD_WORKFLOW.md",
+      "bytes": 7900
+    },
+    {
+      "sha": "c8ec77146dc88cd7e437d47e4bb4abab771c7130",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 32402
+    },
+    {
+      "sha": "11e703fd70f37110bac9512d2215dc87622906ce",
+      "path_hint": "papers/tig-paper/references.bib",
+      "bytes": 5102
+    },
+    {
+      "sha": "b0a9dbe6e408173b7f005fc35a4156ef89e38555",
+      "path_hint": "registry/repair_tracking.json",
+      "bytes": 131483
+    },
+    {
+      "sha": "f2c263c4323718115fef0bce7f1cb58ef8d5faeb",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 14892
+    },
+    {
+      "sha": "503ba098831a1d5706b02fbf844884b32ac47d1c",
+      "path_hint": "submission/arxiv/references.bib",
+      "bytes": 5304
+    },
+    {
+      "sha": "84a71df288da788d566799e11af3163a6e521bdd",
+      "path_hint": "AGENTS.md",
+      "bytes": 2036
+    },
+    {
+      "sha": "260917b9c3ca355e4f3e0e0fee8b4415301ce558",
+      "path_hint": "OBJECT_OWNERSHIP.md",
+      "bytes": 3974
+    },
+    {
+      "sha": "54a6aeba21b4e146a0e8212f8f7a65c4cb6008a9",
+      "path_hint": "README.md",
+      "bytes": 6568
+    },
+    {
+      "sha": "076299edebfd9473a6dbff34fef68de76fe98c59",
+      "path_hint": "REPAIR_TODO.md",
+      "bytes": 19977
+    },
+    {
+      "sha": "0fd68be4d2b8c4fc7e6fad04625ab9d9b7ca483c",
+      "path_hint": "docs/BUILD_WORKFLOW.md",
+      "bytes": 6283
+    },
+    {
+      "sha": "53247cfe299ef494fc9c9fe2cafe448c8c65be0e",
+      "path_hint": "papers/derivations/quadratic_fr_and_horizon_checks.md",
+      "bytes": 11319
+    },
+    {
+      "sha": "bda964612db1992300dead6bc8207ad5e4678ca3",
+      "path_hint": "papers/tig-paper/abstract.tex",
+      "bytes": 972
+    },
+    {
+      "sha": "5275d2de0f005e8567024392f3269176e8f5d045",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 24894
+    },
+    {
+      "sha": "f8ed52cb8c194f49ebe2eb460a3a38e11846ab36",
+      "path_hint": "papers/tig-paper/references.bib",
+      "bytes": 4542
+    },
+    {
+      "sha": "184b61afd85e236d00f0c45cee5a5b4756b49d50",
+      "path_hint": "project/submission/reviwer_.md",
+      "bytes": 1284
+    },
+    {
+      "sha": "bdc539af8cf5b2ec80d572df4deaf991bb64651e",
+      "path_hint": "registry/repair_tracking.json",
+      "bytes": 84480
+    },
+    {
+      "sha": "64c4e0c4d2cd951a799f77339af681a4647aeae1",
+      "path_hint": "research/tig_literature_matrix.md",
+      "bytes": 6226
+    },
+    {
+      "sha": "a043878a18857849a4ccb34df029b789428b850d",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 10023
+    },
+    {
+      "sha": "d1b709db07fcfe4cd8fbc8f6b2546f9d9e855cfa",
+      "path_hint": "submission/arxiv/references.bib",
+      "bytes": 4744
+    },
+    {
+      "sha": "ce27cf1443daf25362bea388e208e3b6c014aa1a",
+      "path_hint": "AGENTS.md",
+      "bytes": 1592
+    },
+    {
+      "sha": "68e336f02e3245a3d4a0d75f68f7aa528ae0f511",
+      "path_hint": "OBJECT_OWNERSHIP.md",
+      "bytes": 3608
+    },
+    {
+      "sha": "4f5d928a92900d28a911836c7cf5ae3c1629fd67",
+      "path_hint": "README.md",
+      "bytes": 5961
+    },
+    {
+      "sha": "5c5f9a88259b3a5fd17a024b8dcf96261bca69b9",
+      "path_hint": "REPAIR_TODO.md",
+      "bytes": 18366
+    },
+    {
+      "sha": "fc2802f3a6efeb80fac34df73d23deafd57780c7",
+      "path_hint": "docs/BUILD_WORKFLOW.md",
+      "bytes": 4459
+    },
+    {
+      "sha": "d606ac19e6b8253b53e10173426495ecfc67f3ea",
+      "path_hint": "papers/derivations/black_hole_R2_derivation.md",
+      "bytes": 2926
+    },
+    {
+      "sha": "177bf2a5a171386d6721008dd0d66e847d9c2d6c",
+      "path_hint": "papers/derivations/explicit_black_hole_solution.md",
+      "bytes": 7123
+    },
+    {
+      "sha": "feacdac3924e6da232ff7afc62b87a269a0020e7",
+      "path_hint": "papers/tig-paper/abstract.tex",
+      "bytes": 1080
+    },
+    {
+      "sha": "e3ba2ac392eff84baf41da9b9285951a5f8c7da6",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 22732
+    },
+    {
+      "sha": "f5e5cc674c3ddc217c5cf171ce04b6588c75f240",
+      "path_hint": "registry/repair_tracking.json",
+      "bytes": 37684
+    },
+    {
+      "sha": "05dd43bb2adba3e206d9f750c72a7efd9d339128",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 5902
+    },
+    {
+      "sha": "923b6107bf48b63315e8bee605a63c89a6395466",
+      "path_hint": "submission/arxiv/references.bib",
+      "bytes": 4436
+    },
+    {
+      "sha": "70de9dd946366885e45db2e2f5cadf6570a96c89",
+      "path_hint": "topology/tig_cubic_reconstruction.md",
+      "bytes": 4946
+    },
+    {
+      "sha": "c6797ac63e65f7f9b9bc246c98790007b8f5728c",
+      "path_hint": "AGENTS.md",
+      "bytes": 992
+    },
+    {
+      "sha": "b05753df2ac91bdaf426eb627acf2084b076e966",
+      "path_hint": "OBJECT_OWNERSHIP.md",
+      "bytes": 1218
+    },
+    {
+      "sha": "867999b29b728978d8b686400f2b8cab3e313fc7",
+      "path_hint": "README.md",
+      "bytes": 5711
+    },
+    {
+      "sha": "bd740b014f98eae0b37b68125154ada4ecaff2e8",
+      "path_hint": "REPAIR_TODO.md",
+      "bytes": 17688
+    },
+    {
+      "sha": "f1bc94f20146224fd6395ad5974c76347f1d2a8d",
+      "path_hint": "REPOSITORY_MAP.md",
+      "bytes": 1442
+    },
+    {
+      "sha": "c0c80858d176107f22e08bd1f57e67692cb7dfcf",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 22711
+    },
+    {
+      "sha": "bccd4c0b86c654d44ccb52977185e120e76343b2",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 5870
+    },
+    {
+      "sha": "6c7b7bbb1f11709171f2093564b3fa05f86466ff",
+      "path_hint": "AGENTS.md",
+      "bytes": 694
+    },
+    {
+      "sha": "5399dfa70da0c10195edb0dbf17036a3a29f30d9",
+      "path_hint": "README.md",
+      "bytes": 5582
+    },
+    {
+      "sha": "fd1d6439ae96969d012053bc2c6e0afbc9045fe5",
+      "path_hint": "REPAIR_TODO.md",
+      "bytes": 7920
+    },
+    {
+      "sha": "ea8db4e9034cb2e082ab71b264d4d105cfa60d8e",
+      "path_hint": "README.md",
+      "bytes": 5317
+    },
+    {
+      "sha": "a87875af189c2a1e905414f715b89a743eb4be65",
+      "path_hint": "submission/arxiv/references.bib",
+      "bytes": 4435
+    },
+    {
+      "sha": "7eec265d509f6dbd4c7082a46f152b8720002030",
+      "path_hint": "papers/tig-paper/references.bib",
+      "bytes": 4541
+    },
+    {
+      "sha": "391209b04b0a70e906335fdf33cd50b2ad1ccc83",
+      "path_hint": "submission/arxiv/references.bib",
+      "bytes": 4432
+    },
+    {
+      "sha": "f1e00de7c5a8acbfd96e92bfb1a4153d46036a69",
+      "path_hint": "papers/tig-paper/references.bib",
+      "bytes": 4538
+    },
+    {
+      "sha": "0f1876009cc52d7f8b0ce72d12ca230ce2d71f8f",
+      "path_hint": "research/tig_literature_matrix.md",
+      "bytes": 6229
+    },
+    {
+      "sha": "74b129fda4d2ac9fc79657c9052258524358f69d",
+      "path_hint": "submission/arxiv/references.bib",
+      "bytes": 3151
+    },
+    {
+      "sha": "de77f1be36263393ffadce77aa3a242a54394d23",
+      "path_hint": "papers/tig-paper/references.bib",
+      "bytes": 3257
+    },
+    {
+      "sha": "1a687128b55041185cfe1170922bc00162b81c05",
+      "path_hint": "CANONICAL_STATUS.md",
+      "bytes": 1395
+    },
+    {
+      "sha": "e2aa328485ebf9fa95abf7efd33ab6aa512512bd",
+      "path_hint": "README.md",
+      "bytes": 5319
+    },
+    {
+      "sha": "3022c17b9f28c28f259a6bf12955e441034e421c",
+      "path_hint": "LICENSE_DOI_TRANSITION_NOTICE.md",
+      "bytes": 2505
+    },
+    {
+      "sha": "23b23112ae51f66d018593e70318642d90619178",
+      "path_hint": "LICENSE",
+      "bytes": 8719
+    },
+    {
+      "sha": "7424a8ce2341b166af5c7d48dc380ffaec6349b2",
+      "path_hint": "CANONICAL_STATUS.md",
+      "bytes": 682
+    },
+    {
+      "sha": "635595eb2265afc07a7d1b91b3063f29b9e298a9",
+      "path_hint": "citation.cff",
+      "bytes": 891
+    },
+    {
+      "sha": "7b631b04348c5311224f92494637beee0d6cd63d",
+      "path_hint": "CITATION.cff",
+      "bytes": 678
+    },
+    {
+      "sha": "2ec96a4d54e06d6ab64229295d56c2410f0b45d7",
+      "path_hint": "README.md",
+      "bytes": 4429
+    },
+    {
+      "sha": "2575629dacebbbbae2f1b9eb67eb1c98ae2d0bf8",
+      "path_hint": "LICENSE",
+      "bytes": 7518
+    },
+    {
+      "sha": "644f4ef0e3bf2fcf0bcef45a0ae08ff4ebdff331",
+      "path_hint": "LICENSE",
+      "bytes": 1836
+    },
+    {
+      "sha": "3e8e139cc091b339591b8a748cbcf5a6ebc33594",
+      "path_hint": "README.md",
+      "bytes": 5287
+    },
+    {
+      "sha": "4aed3ff93c9df304cdfa40fc48aac1bf091d4b1a",
+      "path_hint": "biology_predictions.md",
+      "bytes": 14030
+    },
+    {
+      "sha": "5119863d8538515092198a21787d8decb0bc03a3",
+      "path_hint": "governance/locked_mode/LMR_topological_integrity_and_field_equation_status_boundary.md",
+      "bytes": 10331
+    },
+    {
+      "sha": "53c893bb9e0bbcb339e646745c7513dd72159b15",
+      "path_hint": "governance/locked_mode/LMR_topological_integrity_and_field_equation_status_boundary.md",
+      "bytes": 6921
+    },
+    {
+      "sha": "9731e2feed4d50d760ac62fcb1581b7eea4a1851",
+      "path_hint": "research/evolution/candidate_03_preservation_conditions.md",
+      "bytes": 10823
+    },
+    {
+      "sha": "03273b93261fd7f24435973b743e3632239882ae",
+      "path_hint": "research/evolution/constraint_induced_admissibility.md",
+      "bytes": 8312
+    },
+    {
+      "sha": "f35ebcda064bef3c359b36f0879304f6f04d19a2",
+      "path_hint": "research/evolution/saturation_flow_deficiency_analysis.md",
+      "bytes": 6507
+    },
+    {
+      "sha": "01a998254b90b0972ec9ee261db4ebbecc929222",
+      "path_hint": "research/evolution/saturation_flow_class.md",
+      "bytes": 5318
+    },
+    {
+      "sha": "d48244c3d5435f4c04c3fcb79f8aa6727643bf4e",
+      "path_hint": "LICENSE",
+      "bytes": 1076
+    },
+    {
+      "sha": "bf2a9d8dc1c0c22ddf8a6790fc76ff6c25009fd6",
+      "path_hint": "theory/integrity_tensor/integrity_tensor_candidate_construction.md",
+      "bytes": 2046
+    },
+    {
+      "sha": "45c67326a4085430603343e48146a4aea2ba0efc",
+      "path_hint": "README.md",
+      "bytes": 2533
+    },
+    {
+      "sha": "5ca3d62e7b807bfd0a7be4c9f905fe0fbd8b66c9",
+      "path_hint": "topology/README.md",
+      "bytes": 1210
+    },
+    {
+      "sha": "a4ef9b0ea144a6e39e17f28d5b0646f25813909d",
+      "path_hint": "topology/branch_structure_emergence.md",
+      "bytes": 5384
+    },
+    {
+      "sha": "66882f1bdc23f72c66bda6c356ddbd174225aeb6",
+      "path_hint": "topology/connectivity_operator_foundations.md",
+      "bytes": 4185
+    },
+    {
+      "sha": "061dacdd942803365981e3ce90946054d5d4a47e",
+      "path_hint": "topology/volumetric_organization_necessity.md",
+      "bytes": 3607
+    },
+    {
+      "sha": "5f913c63649626a2299d85ceeed2de87c187f297",
+      "path_hint": "topology/minimal_persistent_structure_problem.md",
+      "bytes": 2331
+    },
+    {
+      "sha": "f5995f96e1ac87f970f3d6353bdd930b3703016c",
+      "path_hint": "topology/structural_admissibility_foundations.md",
+      "bytes": 2463
+    },
+    {
+      "sha": "cbc78d5e8dc8134ed2dba4095ee57bbccc207c5c",
+      "path_hint": "topology/minimal_structure_comparison.md",
+      "bytes": 4139
+    },
+    {
+      "sha": "21e53d166e7f577873305ef611766175bbb3d128",
+      "path_hint": "strategy/publication_strategy.md",
+      "bytes": 1816
+    },
+    {
+      "sha": "536fa3fa3b40ed6e0f92a91f6d29a379621dd513",
+      "path_hint": "README.md",
+      "bytes": 1919
+    },
+    {
+      "sha": "74dc400a40928d841dc14e63ce59302ab3e6fa42",
+      "path_hint": "DEVELOPMENT_STATUS.md",
+      "bytes": 2194
+    },
+    {
+      "sha": "af22c2947835016230b7e990cc02e25b20805bda",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 9747
+    },
+    {
+      "sha": "f8ff6e66abb9a0918550467594fc86918d01867f",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 22773
+    },
+    {
+      "sha": "4a6b0bed2141938d5dfc734748027a1fb10c39b8",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 21157
+    },
+    {
+      "sha": "0f43a93a75a23c1bdc04b305eb67b576ba3cd46e",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 5770
+    },
+    {
+      "sha": "22a1ac8ad25d9a7cc2335f68782265eb41ce64a9",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 6373
+    },
+    {
+      "sha": "0208d66d8c2763efb38de24d121f3581004ee55b",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 28013
+    },
+    {
+      "sha": "b409792da0372544f3a60856b846df741021434e",
+      "path_hint": "README.md",
+      "bytes": 4577
+    },
+    {
+      "sha": "163b6938eab8cef507c6e2fb2542628821340c86",
+      "path_hint": "topology/theory/structure/TIG3_YM_OPERATOR_AUDIT.md",
+      "bytes": 9055
+    },
+    {
+      "sha": "b8a074814f39820dad9cff41e66b7c1e79f92a92",
+      "path_hint": "papers/tig-paper/TIG3_Vacuum_Structure (1).pdf",
+      "bytes": 7105833
+    },
+    {
+      "sha": "5e3961b67977bce28defd256a79131498b50e328",
+      "path_hint": "README.md",
+      "bytes": 4354
+    },
+    {
+      "sha": "53202abf6b07782b090125823593a1b8fd990cfa",
+      "path_hint": "README.md",
+      "bytes": 4348
+    },
+    {
+      "sha": "dcbe42f17537e07293097644dfade67a672bbf9d",
+      "path_hint": "strategy/DEVELOPMENT_STATUS.md",
+      "bytes": 1653
+    },
+    {
+      "sha": "5717f1f1b244c4277d76b1876e654cfa80d20d79",
+      "path_hint": "README.md",
+      "bytes": 1420
+    },
+    {
+      "sha": "9c8d7985ae8894aa00f785d8fae059c77f8f43b1",
+      "path_hint": "topology/theory/structural_reduction_analysis.md",
+      "bytes": 7192
+    },
+    {
+      "sha": "eeaef313c232ab5ecc8d5b4342f38ef11d87ec69",
+      "path_hint": "topology/recursive_dynamics.md",
+      "bytes": 5417
+    },
+    {
+      "sha": "c70e9666ae4b9e8e674af5040d79b58b96a6a6c7",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 27473
+    },
+    {
+      "sha": "09976ee68642c6055532ca9e5411d1932babd326",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 27358
+    },
+    {
+      "sha": "ef854ed0b9d2416358e450a721884eec5d4427c2",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 24634
+    },
+    {
+      "sha": "8fa5dacd0c1aa488c2a3a14860faafd3ee5c504c",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 22659
+    },
+    {
+      "sha": "a1661c082eef42e0185338cd050e048d0d35fe4d",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 19428
+    },
+    {
+      "sha": "6bc460a87901260f04a2f30126a04ed6402aaa3c",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 18862
+    },
+    {
+      "sha": "4bf1ff8a295e516213ece8990e52ed56b49f2c37",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 3232
+    },
+    {
+      "sha": "19202017be8db34fd94248582e8e23782cefc500",
+      "path_hint": "README.md",
+      "bytes": 5944
+    },
+    {
+      "sha": "845c6be64b8329babe48130bb323aef5dfe28e1e",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 11070
+    },
+    {
+      "sha": "8ffa5d999dbb325d673bec19074c4ddf5cde54b8",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 16367
+    },
+    {
+      "sha": "0879907f009fdbef469ec4b8f0b5b56e8c90ab40",
+      "path_hint": "papers/tig-paper/references.bib",
+      "bytes": 1437
+    },
+    {
+      "sha": "abfc6b1d6f98b565d5ab9579cd920e3675326872",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 12929
+    },
+    {
+      "sha": "5f0aed8b0138a9d75f34ad17abfe43ee511d9154",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 12923
+    },
+    {
+      "sha": "5f2ad08b0785a7ff68c0354b41fff027c3ae7807",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 12890
+    },
+    {
+      "sha": "c5bc166e0287df090ee67ed8d9fe1955e03e6dae",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 12512
+    },
+    {
+      "sha": "ea5426574b149416fdf3927e8f62cfe31550c046",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 11560
+    },
+    {
+      "sha": "b66a8351c7812bd1d9596dad94f3eb057b434c21",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 10497
+    },
+    {
+      "sha": "684c78909987b486128eead426971d3a82f2774a",
+      "path_hint": "papers/tig-paper/tig_photon_sphere_deviation.png",
+      "bytes": 19496
+    },
+    {
+      "sha": "95aeb172ed8db2942ce238cee6965f1090e11553",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 19391
+    },
+    {
+      "sha": "c544c55b4109ddb00cedee675209868502b8b00a",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 19106
+    },
+    {
+      "sha": "fd78ab9064ec22ff5918ef70743358d1effa2287",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 15511
+    },
+    {
+      "sha": "8bc908cf67e694fee5e63000c2f46e284ccf28ee",
+      "path_hint": "README.md",
+      "bytes": 5621
+    },
+    {
+      "sha": "655c376f7ab0cb3d2edaa5ec93d1fb24f9b225aa",
+      "path_hint": "README.md",
+      "bytes": 5181
+    },
+    {
+      "sha": "cd7bad45d96dffe76366c2d75570e2dc3f338252",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 12837
+    },
+    {
+      "sha": "587e131f83dfd5d274faced7a44b5b8179c80421",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 7634
+    },
+    {
+      "sha": "3c5fdc4171286baefd4c9b83076660ebb6882d02",
+      "path_hint": "README.md",
+      "bytes": 12817
+    },
+    {
+      "sha": "3d42b3d765ffeb99fe975d90f98b4ca3712c0212",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 7395
+    },
+    {
+      "sha": "4feaff036286b763bb5a0a65c4548ef5c114da1e",
+      "path_hint": "README.md",
+      "bytes": 9083
+    },
+    {
+      "sha": "919e85fc02803ea4d22274660fb7e2ddda844624",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 8708
+    },
+    {
+      "sha": "7638998249d42de1627f42ad040abc19c4321084",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 15823
+    },
+    {
+      "sha": "ebc6ef3207787723df13f0aeb3d4f26b810bcb0f",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 8889
+    },
+    {
+      "sha": "025a65f037e734f55a48cbbcbf5ce2e359c61c7d",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 8650
+    },
+    {
+      "sha": "7823a3cf5aa560a2a91fdd4633f1d7fc6ad4a3a9",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 7371
+    },
+    {
+      "sha": "5f29055b023ca6c65360759981c18965c66f3db4",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 7218
+    },
+    {
+      "sha": "8f0e89cf5f51068bb6d43bac493450850e6dd236",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 6101
+    },
+    {
+      "sha": "8d41ff8af3933ec35afcef77eaf34af3f593e3dd",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 5752
+    },
+    {
+      "sha": "8c6fb51afc855fb0336df583da640504cdc026a4",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 16040
+    },
+    {
+      "sha": "73045fd1e293946d495a8e4110f57e5366b64c15",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 15630
+    },
+    {
+      "sha": "c0e1cfae445584989a7d2f4da0f577855bd27599",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 15278
+    },
+    {
+      "sha": "f9f19cafd4a088e7ede1a50002740d9d0ba35d91",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 15276
+    },
+    {
+      "sha": "c7811c5c771138b0e6b956452f546a940d106dd9",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 14924
+    },
+    {
+      "sha": "8019ebe797a32c08497eb90c7955d8b750434335",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 14683
+    },
+    {
+      "sha": "539c4df7e34b5045c0f36831386b96c75d472f97",
+      "path_hint": "papers/tig-paper/abstract.tex",
+      "bytes": 1059
+    },
+    {
+      "sha": "d0b361a3206c29e5a282e85977cd94a662f72119",
+      "path_hint": "README.md",
+      "bytes": 9008
+    },
+    {
+      "sha": "7e8516a51f619e3ec1151308bd49b4dcf79b370a",
+      "path_hint": "README.md",
+      "bytes": 9264
+    },
+    {
+      "sha": "0582ccfbc3671dc985512e848765e113fccec7fc",
+      "path_hint": "papers/tig_schwarzschild_horizon_comparison.png",
+      "bytes": 194
+    },
+    {
+      "sha": "663c4c64a748354f352f2e2a1c44a8b76fa78df5",
+      "path_hint": "papers/tig-paper/abstract.tex",
+      "bytes": 4393
+    },
+    {
+      "sha": "0748f7c0e9cb2b1e3ee9e664c3070eaa93de9d4f",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 5962
+    },
+    {
+      "sha": "08fadab550ad64c7fac90e75ef3c6197e0a24fb0",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 5880
+    },
+    {
+      "sha": "eb09919405a6917566451d100ddaa212e4038764",
+      "path_hint": "README.md",
+      "bytes": 8982
+    },
+    {
+      "sha": "b0881aec1edb6ad336ce7306c2d1f32cfc25a7af",
+      "path_hint": "README.md",
+      "bytes": 8701
+    },
+    {
+      "sha": "db4133a7da5498d25e50d82cb0cb309db8fa37ff",
+      "path_hint": "README.md",
+      "bytes": 8428
+    },
+    {
+      "sha": "4a827c91d47e79108c867c42519180747fe1c6e5",
+      "path_hint": "README.md",
+      "bytes": 7724
+    },
+    {
+      "sha": "a04f054ececa5e926e3602f2a78594ab8c4acfdc",
+      "path_hint": "README.md",
+      "bytes": 6830
+    },
+    {
+      "sha": "39004ccf5629c97130e48c2fe73d1c9114472534",
+      "path_hint": "README.md",
+      "bytes": 6074
+    },
+    {
+      "sha": "5f90f1b465b9ab7eed2a8961f5464a49cbf599db",
+      "path_hint": "README.md",
+      "bytes": 5291
+    },
+    {
+      "sha": "b7860716d758299a296156d49d5d9da7012dc1c8",
+      "path_hint": "README.md",
+      "bytes": 4546
+    },
+    {
+      "sha": "9a8b6643e018f5b78a83f3edb16681aa2d3a570f",
+      "path_hint": "README.md",
+      "bytes": 3880
+    },
+    {
+      "sha": "1f71fcf4c8fbdef6a67f76c005ec8ea869324235",
+      "path_hint": "README.md",
+      "bytes": 3024
+    },
+    {
+      "sha": "2e1b394129e16f57b34261594eb231900800d079",
+      "path_hint": "README.md",
+      "bytes": 3008
+    },
+    {
+      "sha": "f2ef47846784c4e6770b7d0f1ee87f4eb62d9f88",
+      "path_hint": "README.md",
+      "bytes": 3125
+    },
+    {
+      "sha": "f3ba5f6ef89fb91848d0f8f7e228388447568a71",
+      "path_hint": "README.md",
+      "bytes": 3981
+    },
+    {
+      "sha": "cbd52804af80caea62009a0b01f4cec2c7fffa58",
+      "path_hint": "README.md",
+      "bytes": 4324
+    },
+    {
+      "sha": "979d4b81208d79d74d2cf92fd4213f71812324ec",
+      "path_hint": "README.md",
+      "bytes": 4002
+    },
+    {
+      "sha": "937b2d95d21ee4ebf4cc6481b2de3264290cadba",
+      "path_hint": "README.md",
+      "bytes": 4939
+    },
+    {
+      "sha": "88b492569532cf11a446b58700368b194e611fee",
+      "path_hint": "README.md",
+      "bytes": 4664
+    },
+    {
+      "sha": "992c95c725d0fb8b43283b0951ce99efbe4bd292",
+      "path_hint": "README.md",
+      "bytes": 4486
+    },
+    {
+      "sha": "82bad87daa6877f0d15ddbe1cb4db42df0192e57",
+      "path_hint": "README.md",
+      "bytes": 4046
+    },
+    {
+      "sha": "358a490f3c8f53334ff351e8e78fb35b8925b290",
+      "path_hint": "README.md",
+      "bytes": 3524
+    },
+    {
+      "sha": "b67a4e473abd76c39bfb6661b0d115937e7df33c",
+      "path_hint": "README.md",
+      "bytes": 3503
+    },
+    {
+      "sha": "69a4a3feb2af1a82b367221af99c8fa88ecd443e",
+      "path_hint": "README.md",
+      "bytes": 3537
+    },
+    {
+      "sha": "064d1b85048fc108d7339e31131494438164e5c1",
+      "path_hint": "README.md",
+      "bytes": 3113
+    },
+    {
+      "sha": "836d5c97e7ec1445d7b9c2b03efad8b414d94948",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 12680
+    },
+    {
+      "sha": "e75ec7d95a80c06cee801d02d6ed47735e8bbe18",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 12682
+    },
+    {
+      "sha": "4f431bcc67de55b48c47d53f407f0bc2ab9d92a8",
+      "path_hint": "papers/tig-paper/tig_main.tex",
+      "bytes": 11163
+    },
+    {
+      "sha": "3900fd582302365737814a7c8b02a06427289d02",
+      "path_hint": "papers/tig-paper/tig_main.tex",
+      "bytes": 6507
+    },
+    {
+      "sha": "548aebc2d66050118e7c11b6550a234af32452a6",
+      "path_hint": "papers/tig-paper/tig_main.tex",
+      "bytes": 5345
+    },
+    {
+      "sha": "df4f3bf83d8f37aa5c0e6b1597a7df5e1745cd63",
+      "path_hint": "papers/tig-paper/tig_main.tex",
+      "bytes": 7931
+    },
+    {
+      "sha": "ae93000f0f723969d069aa549504872a6a122e0f",
+      "path_hint": "papers/tig-paper/tig_main.tex",
+      "bytes": 5430
+    },
+    {
+      "sha": "17c0f212d83710b3c931016f04e9455ae223504d",
+      "path_hint": "papers/tig-paper/abstract.tex",
+      "bytes": 2125
+    },
+    {
+      "sha": "aed72f82c6a93c07b3f7be7b2ea44a45aa17ef01",
+      "path_hint": "papers/tig-paper/abstract.tex",
+      "bytes": 1262
+    },
+    {
+      "sha": "868265fecdcf7f26e0d3b00ebeb3e32c2aafef44",
+      "path_hint": "papers/tig-paper/abstract.tex",
+      "bytes": 3055
+    },
+    {
+      "sha": "ecd8094330195e54f7015a880adfc455643eafbe",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 6768
+    },
+    {
+      "sha": "801ea766b0f2ef1b4941ba1d5b5b9f0e65ec47ee",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 4630
+    },
+    {
+      "sha": "0753ebca4ad49b7f3dbf3e9740cc12aeb1718907",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 4610
+    },
+    {
+      "sha": "97018ad16439788d9bf9c62417da8843d24a20cc",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 11288
+    },
+    {
+      "sha": "0997200e3f21a9f7ad3bf004353edb0da933a9da",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 10676
+    },
+    {
+      "sha": "5acbd0d12e2fd79ac3b4f8ccddbcddb0fb69f76e",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 4934
+    },
+    {
+      "sha": "3bad633ccf9957c522436a2ee005c42083ec8d2b",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 7739
+    },
+    {
+      "sha": "2b0c4cda36d842ceeab0b2fce683795bd714e3c6",
+      "path_hint": "papers/tig-paper/references.bib",
+      "bytes": 2170
+    },
+    {
+      "sha": "d79b9e9383fcf8dc40c612de16dc6e311ad5bcaa",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 5595
+    },
+    {
+      "sha": "34be00726fc1e4c9aa8000db2b10e6c83e5157ab",
+      "path_hint": "papers/tig-paper/references.bib",
+      "bytes": 13094
+    },
+    {
+      "sha": "b2a90fc2ec74513298578e0db58bcf4756b81794",
+      "path_hint": "papers/tig-paper/references.bib",
+      "bytes": 3303
+    },
+    {
+      "sha": "d4dd45ebcc2639e02c818e9f2462e8dfb804adeb",
+      "path_hint": "papers/tig-paper/references.bib",
+      "bytes": 5746
+    },
+    {
+      "sha": "e5bad36ff45731f8fd4b3d9c6cc81f19fd96b9ef",
+      "path_hint": "papers/tig-paper/references.bib",
+      "bytes": 1961
+    },
+    {
+      "sha": "7e8c9d52a6857cc30b6a150fbd05ebf4d67707cc",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 14914
+    },
+    {
+      "sha": "229544bae589dbea4308667bd3c9c3dc811a7517",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 7580
+    },
+    {
+      "sha": "a0122bbdb0cf67c09e745f910e586ff219deb0e6",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 7850
+    },
+    {
+      "sha": "47e53f52ab0bbd29ae5b67a368c2c3204326ac97",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 5240
+    },
+    {
+      "sha": "1efbb9fd5a9d5165a1190af9c7d5140d48e571db",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 9136
+    },
+    {
+      "sha": "e4b7df8cd911d6fc626d22e833f0935f12c4084c",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 6822
+    },
+    {
+      "sha": "9479fbd4276117a0550cc7137de52c7d45ec96c5",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 5002
+    },
+    {
+      "sha": "31f34eb655e35c434c9157311f5ca3789a769e69",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 6688
+    },
+    {
+      "sha": "e9214ffd24b329f5b6266eea02c02f924045bf94",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 4674
+    },
+    {
+      "sha": "f82f7e4e1d40390a4390d820c0ef8d9ddce54caf",
+      "path_hint": "README_DE.md",
+      "bytes": 830
+    },
+    {
+      "sha": "177f43925dd4f00bd2db95dae048043857ef9dc5",
+      "path_hint": "README_DE.md",
+      "bytes": 1776
+    },
+    {
+      "sha": "2945496343bc304bfda54bdb4e0b80d9c0ff76df",
+      "path_hint": "README_EN.md",
+      "bytes": 1957
+    },
+    {
+      "sha": "5061a547a7b991d9bf0465981d73a7b45fafdc6a",
+      "path_hint": "README_EN.md",
+      "bytes": 2391
+    },
+    {
+      "sha": "64486d60d9f9835dbed750b40e7de08c8d7355d0",
+      "path_hint": "README_DE.md",
+      "bytes": 2611
+    },
+    {
+      "sha": "a448d62a54437e5c79f8576ec9b84b17330c292b",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 4665
+    },
+    {
+      "sha": "67d149d13da2a00d0ef45d72996bd4ebacaafe0e",
+      "path_hint": "papers/tig-paper/references.bib",
+      "bytes": 1812
+    },
+    {
+      "sha": "f0bf78b49bae6f1f34e600221731e420cfbbd1a4",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 4940
+    },
+    {
+      "sha": "c586dd14372d723401472a0b6123cc7478a70674",
+      "path_hint": "README_DE.md",
+      "bytes": 2599
+    },
+    {
+      "sha": "434db037c6b252a24cd7f64eccd0d451bbff8036",
+      "path_hint": "README_EN.md",
+      "bytes": 2601
+    },
+    {
+      "sha": "5a07e97dda02812e9edd4d7e3271db92d5c19e3d",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 4929
+    },
+    {
+      "sha": "bb2967216799d21383e3e9a89fc0d0868c5459cd",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 7360
+    },
+    {
+      "sha": "538fe61f97850b995183bd87c407c7a30d70fec8",
+      "path_hint": "main.tex",
+      "bytes": 6256
+    },
+    {
+      "sha": "4118434724a38c30645ef86ee86c77f864a481a0",
+      "path_hint": "main.tex",
+      "bytes": 8281
+    },
+    {
+      "sha": "e7f149597af376560cd24b697c96db5548a8b56f",
+      "path_hint": "references.bib",
+      "bytes": 1457
+    },
+    {
+      "sha": "ad3d3c7db0ca22fb38563ebf55c88e51cf758f6c",
+      "path_hint": "main.tex",
+      "bytes": 5708
+    },
+    {
+      "sha": "c5829bc511d269ba04eac348f6d4b00ae159d303",
+      "path_hint": "main.tex",
+      "bytes": 6578
+    },
+    {
+      "sha": "7ef5a893dbfb1a3bb83696f87bd8803b6743dc70",
+      "path_hint": "main.tex",
+      "bytes": 7978
+    },
+    {
+      "sha": "cf8bb34144303317eb265f60a3352ee1cb42eda0",
+      "path_hint": "main.tex",
+      "bytes": 7213
+    },
+    {
+      "sha": "a4981fcd1221a9f989ada45ab3b6504ebaf4ceec",
+      "path_hint": "main.tex",
+      "bytes": 6222
+    },
+    {
+      "sha": "b536db4c7f93deb5ad1709f77790d21d258bca77",
+      "path_hint": "main.tex",
+      "bytes": 6437
+    },
+    {
+      "sha": "4a75ad5b2865340ec7a940fee228bd2639d78b89",
+      "path_hint": "main.tex",
+      "bytes": 6030
+    },
+    {
+      "sha": "69298d1595a3ff588efa475f96f4f52537748ed3",
+      "path_hint": "main.tex",
+      "bytes": 6005
+    },
+    {
+      "sha": "98a73a216d9bc7167f86d7bc2a7567df16705035",
+      "path_hint": "papers/tig_black_hole_solution.tex",
+      "bytes": 2929
+    },
+    {
+      "sha": "2d3874b610972a9e2f00f2e696a62fd219ddc772",
+      "path_hint": "papers/black_hole_solution.tex",
+      "bytes": 464
+    },
+    {
+      "sha": "72263aa3e297de6210a1eb11bc21b4542913087a",
+      "path_hint": "papers/papers/tig_spectral_foundation.tex",
+      "bytes": 4229
+    },
+    {
+      "sha": "ae4203688fd687417faac5e4c0524d4c6100776c",
+      "path_hint": "papers/tig_master_arxiv_v2.tex",
+      "bytes": 4523
+    },
+    {
+      "sha": "56b89aa2347e559fb808d1e09afb9547be64eaec",
+      "path_hint": "papers/derivations/derivations/quantum_link.md",
+      "bytes": 2872
+    },
+    {
+      "sha": "024a35cfcf32516974b5a4063d1f86e9a5ce61dd",
+      "path_hint": "main.tex",
+      "bytes": 5978
+    },
+    {
+      "sha": "213de75a755862070a68bd210f7a1d7a4255937e",
+      "path_hint": "main.tex",
+      "bytes": 5789
+    },
+    {
+      "sha": "e8556db796f6cbc32d8541340bc57f7195bdbd66",
+      "path_hint": "main.tex",
+      "bytes": 5316
+    },
+    {
+      "sha": "937761b0a33ba2276adead07baa332d9b73c29c7",
+      "path_hint": "main.tex",
+      "bytes": 4799
+    },
+    {
+      "sha": "e621d993184fcd1808d3120053b7918aa7715e29",
+      "path_hint": "references.bib",
+      "bytes": 1318
+    },
+    {
+      "sha": "48dd988645dc66e25cbbca820fba7fb0ed5cd557",
+      "path_hint": "references.bib",
+      "bytes": 1452
+    },
+    {
+      "sha": "7d67cdf81080b50cfa8a1e8f7fd4debe4659f3d4",
+      "path_hint": "main.tex",
+      "bytes": 5253
+    },
+    {
+      "sha": "f5dfdd25ded555546275f8a9a9491759aad0a360",
+      "path_hint": "main.tex",
+      "bytes": 11671
+    },
+    {
+      "sha": "81b6d7a39630d2f1b5f5c740e877ca9873de5436",
+      "path_hint": "README_EN.md",
+      "bytes": 2025
+    },
+    {
+      "sha": "e8144b8f7ebbb755fc015b229047321d8a42674b",
+      "path_hint": "README_DE.md",
+      "bytes": 2502
+    },
+    {
+      "sha": "69ca8d1c7fef49bfd3ba97a271c349de1417f4aa",
+      "path_hint": "papers/faq.md",
+      "bytes": 7220
+    },
+    {
+      "sha": "c2a55385da2a2d7f9179a6ce9c9498906e15e9fc",
+      "path_hint": "README_DE.md",
+      "bytes": 2424
+    },
+    {
+      "sha": "50690cfc625217ea861cb4fdbe50604b174d8bd9",
+      "path_hint": "references.bib",
+      "bytes": 1295
+    },
+    {
+      "sha": "8250f9c03a317e1c490807bf0f1ce650bae5aed1",
+      "path_hint": "papers/faq.md",
+      "bytes": 4875
+    },
+    {
+      "sha": "3800c7d071d8e8d83297c55d80de52887313a630",
+      "path_hint": "main.tex",
+      "bytes": 4464
+    },
+    {
+      "sha": "93405ff5d4610d42a53ff455fadbb71ff94e3f4e",
+      "path_hint": "main.tex",
+      "bytes": 9989
+    },
+    {
+      "sha": "50e6c2dfff6e6715b3cd79f9941371f7e0d52021",
+      "path_hint": "references.bib",
+      "bytes": 1065
+    },
+    {
+      "sha": "30a36ae964e53ea92ab784ea786811e6cd1bf673",
+      "path_hint": "main.tex",
+      "bytes": 9411
+    },
+    {
+      "sha": "185314d7f623f14edd26b150cfd3c683f0419288",
+      "path_hint": "references.bib",
+      "bytes": 835
+    },
+    {
+      "sha": "d6d6ae2ef61c9633b0d33eee599245de2e495233",
+      "path_hint": "main.tex",
+      "bytes": 5967
+    },
+    {
+      "sha": "944311fa80436b7abc6eba57bb56c8a33e6fb237",
+      "path_hint": "main.tex",
+      "bytes": 5237
+    },
+    {
+      "sha": "257a9645365451387551710cb509e7341b6091c6",
+      "path_hint": "main.tex",
+      "bytes": 4251
+    },
+    {
+      "sha": "c8a6f31fbc59e0bf831628d9d1ecbdf37ee901e3",
+      "path_hint": "references.bib",
+      "bytes": 607
+    },
+    {
+      "sha": "c8b6cefa89e9da8dd4d873c12e51e96af8f71c2c",
+      "path_hint": "main.tex",
+      "bytes": 9131
+    },
+    {
+      "sha": "860134ed4f040aac18f4fe73595c2d0d09d0a103",
+      "path_hint": "main.tex",
+      "bytes": 5375
+    },
+    {
+      "sha": "dc9079b96381a4f22fa54565b7d9a192ea005bac",
+      "path_hint": "main.tex",
+      "bytes": 4277
+    },
+    {
+      "sha": "09082f0fcb6bd73a103774621389ca58c81e84d1",
+      "path_hint": "main.tex",
+      "bytes": 2178
+    },
+    {
+      "sha": "0f3e7dbd7ec216ae9c2929f8d01e15f72ff3fa7e",
+      "path_hint": "main.tex",
+      "bytes": 2559
+    },
+    {
+      "sha": "9f0f25e1978b855412926f5bb269debb8ebbf833",
+      "path_hint": "main.tex",
+      "bytes": 1024
+    },
+    {
+      "sha": "043fc180804c319dc7927cea03dfbb164a2a7dc6",
+      "path_hint": "papers/papers/tig_master_arxiv_v2.tex",
+      "bytes": 1269
+    },
+    {
+      "sha": "06a591adbe386c8938542e5caf5f97f6e00ba8c9",
+      "path_hint": "papers/papers/tig_master_arxiv_v2.tex",
+      "bytes": 898
+    },
+    {
+      "sha": "5b8c6fd73e6e9f930355da7a0ff24bc904fdb403",
+      "path_hint": "papers/papers/tig_master_arxiv_v2.tex",
+      "bytes": 5383
+    },
+    {
+      "sha": "fb8ab268312271768bc73f6304a6c12bd5dad51f",
+      "path_hint": "papers/derivations_field_equations.md",
+      "bytes": 3622
+    },
+    {
+      "sha": "8cf2bc8cff325260bb656a0bea4802a34973a413",
+      "path_hint": "papers/README.md",
+      "bytes": 205
+    },
+    {
+      "sha": "6454b45fde1bd199348744726f3f2ff2421dddf6",
+      "path_hint": "papers_tig_foundations_v1.tex",
+      "bytes": 3374
+    },
+    {
+      "sha": "e52a63f841e6b74f41885fcf7ae2161bbff176c4",
+      "path_hint": "README.md",
+      "bytes": 187
+    }
+  ],
+  "latex_candidates": [
+    {
+      "sha": "00e61066bcc09db514422c2070263a096042e8d0",
+      "path_hint": "papers/archive/forbidden_paper_versions/tig_foundations_v1.tex",
+      "bytes": 2883,
+      "title": "\\textbf{Topological Integrity Gravity (TIG):\\\\ A Spectral-Information-Theoretic Framework for Gravity and Quantum Fields}"
+    },
+    {
+      "sha": "a90aef43e830e5df18b9ed119f7134246818ebba",
+      "path_hint": "papers/archive/forbidden_paper_versions/tig_master_arxivf.text",
+      "bytes": 4438,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Spectral-Driven Stability Extension of General Relativity"
+    },
+    {
+      "sha": "7f41db5c77f93d7e55f883c75d564ebcc1ddc6c5",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 32580,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "2d719f735246498a0f4a1239c759da02d22dbecb",
+      "path_hint": "papers/tig-paper/photon_sphere_generation_notes.md",
+      "bytes": 19486,
+      "title": "Metric-Induced Deviation of the Photon Sphere"
+    },
+    {
+      "sha": "ec0f77129adbcc2e5108afdbaee885c3842c7587",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 15253,
+      "title": "A Structural Horizon Transition in a Representative TIG Geometry:\\\\ A Test Against Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "c8ec77146dc88cd7e437d47e4bb4abab771c7130",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 32402,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "f2c263c4323718115fef0bce7f1cb58ef8d5faeb",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 14892,
+      "title": "A Structural Horizon Transition in a Representative TIG Geometry:\\\\ A Test Against Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "5275d2de0f005e8567024392f3269176e8f5d045",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 24894,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "a043878a18857849a4ccb34df029b789428b850d",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 10023,
+      "title": "A Structural Horizon Transition in a Representative TIG Geometry:\\\\ A Test Against Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "e3ba2ac392eff84baf41da9b9285951a5f8c7da6",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 22732,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "05dd43bb2adba3e206d9f750c72a7efd9d339128",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 5902,
+      "title": "Critical Horizon Transitions in Quadratic $f(R)$ Gravity:\\\\ A Topological Integrity Perspective"
+    },
+    {
+      "sha": "c0c80858d176107f22e08bd1f57e67692cb7dfcf",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 22711,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "bccd4c0b86c654d44ccb52977185e120e76343b2",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 5870,
+      "title": "Critical Horizon Transitions in Quadratic $f(R)$ Gravity:\\\\ A Topological Integrity Perspective"
+    },
+    {
+      "sha": "af22c2947835016230b7e990cc02e25b20805bda",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 9747,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "f8ff6e66abb9a0918550467594fc86918d01867f",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 22773,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "4a6b0bed2141938d5dfc734748027a1fb10c39b8",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 21157,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "0f43a93a75a23c1bdc04b305eb67b576ba3cd46e",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 5770,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "22a1ac8ad25d9a7cc2335f68782265eb41ce64a9",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 6373,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "0208d66d8c2763efb38de24d121f3581004ee55b",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 28013,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "c70e9666ae4b9e8e674af5040d79b58b96a6a6c7",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 27473,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "09976ee68642c6055532ca9e5411d1932babd326",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 27358,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "ef854ed0b9d2416358e450a721884eec5d4427c2",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 24634,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "8fa5dacd0c1aa488c2a3a14860faafd3ee5c504c",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 22659,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "a1661c082eef42e0185338cd050e048d0d35fe4d",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 19428,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "6bc460a87901260f04a2f30126a04ed6402aaa3c",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 18862,
+      "title": "Topological Integrity Gravity: A Structural Horizon Transition"
+    },
+    {
+      "sha": "845c6be64b8329babe48130bb323aef5dfe28e1e",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 11070,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Structural Constraint on Horizon Formation in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "8ffa5d999dbb325d673bec19074c4ddf5cde54b8",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 16367,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Structural Constraint on Horizon Formation in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "abfc6b1d6f98b565d5ab9579cd920e3675326872",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 12929,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "5f0aed8b0138a9d75f34ad17abfe43ee511d9154",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 12923,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "5f2ad08b0785a7ff68c0354b41fff027c3ae7807",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 12890,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "c5bc166e0287df090ee67ed8d9fe1955e03e6dae",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 12512,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "ea5426574b149416fdf3927e8f62cfe31550c046",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 11560,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "b66a8351c7812bd1d9596dad94f3eb057b434c21",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 10497,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "684c78909987b486128eead426971d3a82f2774a",
+      "path_hint": "papers/tig-paper/tig_photon_sphere_deviation.png",
+      "bytes": 19496,
+      "title": "Metric-Induced Deviation of the Photon Sphere"
+    },
+    {
+      "sha": "95aeb172ed8db2942ce238cee6965f1090e11553",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 19391,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "c544c55b4109ddb00cedee675209868502b8b00a",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 19106,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "fd78ab9064ec22ff5918ef70743358d1effa2287",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 15511,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "cd7bad45d96dffe76366c2d75570e2dc3f338252",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 12837,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "587e131f83dfd5d274faced7a44b5b8179c80421",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 7634,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "3c5fdc4171286baefd4c9b83076660ebb6882d02",
+      "path_hint": "README.md",
+      "bytes": 12817,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "3d42b3d765ffeb99fe975d90f98b4ca3712c0212",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 7395,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "919e85fc02803ea4d22274660fb7e2ddda844624",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 8708,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "7638998249d42de1627f42ad040abc19c4321084",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 15823,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "ebc6ef3207787723df13f0aeb3d4f26b810bcb0f",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 8889,
+      "title": "Critical Horizon Transitions in Quadratic $f(R)$ Gravity:\\\\ A Topological Integrity Perspective"
+    },
+    {
+      "sha": "025a65f037e734f55a48cbbcbf5ce2e359c61c7d",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 8650,
+      "title": "Critical Horizon Transitions in Quadratic $f(R)$ Gravity:\\\\ A Topological Integrity Perspective"
+    },
+    {
+      "sha": "7823a3cf5aa560a2a91fdd4633f1d7fc6ad4a3a9",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 7371,
+      "title": "Critical Horizon Transitions in Quadratic $f(R)$ Gravity:\\\\ A Topological Integrity Perspective"
+    },
+    {
+      "sha": "5f29055b023ca6c65360759981c18965c66f3db4",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 7218,
+      "title": "Critical Horizon Transitions in Quadratic $f(R)$ Gravity:\\\\ A Topological Integrity Perspective"
+    },
+    {
+      "sha": "8f0e89cf5f51068bb6d43bac493450850e6dd236",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 6101,
+      "title": "Critical Horizon Transitions in Quadratic $f(R)$ Gravity:\\\\ A Topological Integrity Perspective"
+    },
+    {
+      "sha": "8d41ff8af3933ec35afcef77eaf34af3f593e3dd",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 5752,
+      "title": "Critical Horizon Transitions in Quadratic $f(R)$ Gravity:\\\\ A Topological Integrity Perspective"
+    },
+    {
+      "sha": "8c6fb51afc855fb0336df583da640504cdc026a4",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 16040,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "73045fd1e293946d495a8e4110f57e5366b64c15",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 15630,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "c0e1cfae445584989a7d2f4da0f577855bd27599",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 15278,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "f9f19cafd4a088e7ede1a50002740d9d0ba35d91",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 15276,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "c7811c5c771138b0e6b956452f546a940d106dd9",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 14924,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "8019ebe797a32c08497eb90c7955d8b750434335",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 14683,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "0748f7c0e9cb2b1e3ee9e664c3070eaa93de9d4f",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 5962,
+      "title": "Critical Horizon Transitions in Quadratic $f(R)$ Gravity:\\\\ A Topological Integrity Perspective"
+    },
+    {
+      "sha": "08fadab550ad64c7fac90e75ef3c6197e0a24fb0",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 5880,
+      "title": "Critical Horizon Transitions in Quadratic $f(R)$ Gravity:\\\\ A Topological Integrity Perspective"
+    },
+    {
+      "sha": "836d5c97e7ec1445d7b9c2b03efad8b414d94948",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 12680,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "e75ec7d95a80c06cee801d02d6ed47735e8bbe18",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 12682,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "4f431bcc67de55b48c47d53f407f0bc2ab9d92a8",
+      "path_hint": "papers/tig-paper/tig_main.tex",
+      "bytes": 11163,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "3900fd582302365737814a7c8b02a06427289d02",
+      "path_hint": "papers/tig-paper/tig_main.tex",
+      "bytes": 6507,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "548aebc2d66050118e7c11b6550a234af32452a6",
+      "path_hint": "papers/tig-paper/tig_main.tex",
+      "bytes": 5345,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Transitions in Quadratic $f(R)$ Gravity"
+    },
+    {
+      "sha": "df4f3bf83d8f37aa5c0e6b1597a7df5e1745cd63",
+      "path_hint": "papers/tig-paper/tig_main.tex",
+      "bytes": 7931,
+      "title": "Critical Horizon Transitions in Quadratic $f(R)$ Gravity:\\\\ A Topological Integrity Perspective"
+    },
+    {
+      "sha": "ae93000f0f723969d069aa549504872a6a122e0f",
+      "path_hint": "papers/tig-paper/tig_main.tex",
+      "bytes": 5430,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "ecd8094330195e54f7015a880adfc455643eafbe",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 6768,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "801ea766b0f2ef1b4941ba1d5b5b9f0e65ec47ee",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 4630,
+      "title": "Topological Integrity Gravity (TIG):\\ Critical Horizon Formation in a Quadratic $f(R)$ Framework"
+    },
+    {
+      "sha": "0753ebca4ad49b7f3dbf3e9740cc12aeb1718907",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 4610,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Formation in a Quadratic $f(R)$ Framework"
+    },
+    {
+      "sha": "97018ad16439788d9bf9c62417da8843d24a20cc",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 11288,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Formation in a Quadratic $f(R)$ Framework"
+    },
+    {
+      "sha": "0997200e3f21a9f7ad3bf004353edb0da933a9da",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 10676,
+      "title": "Topological Integrity Gravity (TIG):\\\\ Critical Horizon Formation in a Quadratic $f(R)$ Framework"
+    },
+    {
+      "sha": "5acbd0d12e2fd79ac3b4f8ccddbcddb0fb69f76e",
+      "path_hint": "submission/arxiv/main.tex",
+      "bytes": 4934,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "3bad633ccf9957c522436a2ee005c42083ec8d2b",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 7739,
+      "title": "Critical Horizon Formation in a Quadratic $f(R)$ Gravity Model"
+    },
+    {
+      "sha": "d79b9e9383fcf8dc40c612de16dc6e311ad5bcaa",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 5595,
+      "title": "Critical Horizon Transition in a Quadratic $f(R)$ Gravity Model"
+    },
+    {
+      "sha": "34be00726fc1e4c9aa8000db2b10e6c83e5157ab",
+      "path_hint": "papers/tig-paper/references.bib",
+      "bytes": 13094,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "d4dd45ebcc2639e02c818e9f2462e8dfb804adeb",
+      "path_hint": "papers/tig-paper/references.bib",
+      "bytes": 5746,
+      "title": "Critical Horizon Transition in a Quadratic $f(R)$ Gravity Model"
+    },
+    {
+      "sha": "7e8c9d52a6857cc30b6a150fbd05ebf4d67707cc",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 14914,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "229544bae589dbea4308667bd3c9c3dc811a7517",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 7580,
+      "title": "Topological Integrity Gravity (TIG): A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "a0122bbdb0cf67c09e745f910e586ff219deb0e6",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 7850,
+      "title": "Topological Integrity Gravity (TIG): A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "47e53f52ab0bbd29ae5b67a368c2c3204326ac97",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 5240,
+      "title": "Topological Integrity Gravity (TIG): A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "1efbb9fd5a9d5165a1190af9c7d5140d48e571db",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 9136,
+      "title": "Topological Integrity Gravity (TIG):\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "e4b7df8cd911d6fc626d22e833f0935f12c4084c",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 6822,
+      "title": "Topological Integrity Gravity (TIG):\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "9479fbd4276117a0550cc7137de52c7d45ec96c5",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 5002,
+      "title": "Topological Integrity Gravity (TIG):\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "31f34eb655e35c434c9157311f5ca3789a769e69",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 6688,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "e9214ffd24b329f5b6266eea02c02f924045bf94",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 4674,
+      "title": "Topological Integrity Gravity (TIG):\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "a448d62a54437e5c79f8576ec9b84b17330c292b",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 4665,
+      "title": "Topological Integrity Gravity (TIG):\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "f0bf78b49bae6f1f34e600221731e420cfbbd1a4",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 4940,
+      "title": "Topological Integrity Gravity (TIG):\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "5a07e97dda02812e9edd4d7e3271db92d5c19e3d",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 4929,
+      "title": "Topological Integrity Gravity (TIG):\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "bb2967216799d21383e3e9a89fc0d0868c5459cd",
+      "path_hint": "papers/tig-paper/main.tex",
+      "bytes": 7360,
+      "title": "Topological Integrity Gravity (TIG):\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "538fe61f97850b995183bd87c407c7a30d70fec8",
+      "path_hint": "main.tex",
+      "bytes": 6256,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "4118434724a38c30645ef86ee86c77f864a481a0",
+      "path_hint": "main.tex",
+      "bytes": 8281,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "ad3d3c7db0ca22fb38563ebf55c88e51cf758f6c",
+      "path_hint": "main.tex",
+      "bytes": 5708,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "c5829bc511d269ba04eac348f6d4b00ae159d303",
+      "path_hint": "main.tex",
+      "bytes": 6578,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic $f(R)$ Model with a Critical Horizon Transition"
+    },
+    {
+      "sha": "7ef5a893dbfb1a3bb83696f87bd8803b6743dc70",
+      "path_hint": "main.tex",
+      "bytes": 7978,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic Curvature Extension of General Relativity"
+    },
+    {
+      "sha": "cf8bb34144303317eb265f60a3352ee1cb42eda0",
+      "path_hint": "main.tex",
+      "bytes": 7213,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic Curvature Extension of General Relativity"
+    },
+    {
+      "sha": "a4981fcd1221a9f989ada45ab3b6504ebaf4ceec",
+      "path_hint": "main.tex",
+      "bytes": 6222,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic Curvature Extension of General Relativity"
+    },
+    {
+      "sha": "b536db4c7f93deb5ad1709f77790d21d258bca77",
+      "path_hint": "main.tex",
+      "bytes": 6437,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic Curvature Extension of General Relativity"
+    },
+    {
+      "sha": "4a75ad5b2865340ec7a940fee228bd2639d78b89",
+      "path_hint": "main.tex",
+      "bytes": 6030,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic Curvature Extension of General Relativity"
+    },
+    {
+      "sha": "69298d1595a3ff588efa475f96f4f52537748ed3",
+      "path_hint": "main.tex",
+      "bytes": 6005,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic Curvature Extension of General Relativity"
+    },
+    {
+      "sha": "98a73a216d9bc7167f86d7bc2a7567df16705035",
+      "path_hint": "papers/tig_black_hole_solution.tex",
+      "bytes": 2929,
+      "title": "\\textbf{Topological Integrity Gravity (TIG):\\\\ A Regular Black Hole Solution}"
+    },
+    {
+      "sha": "72263aa3e297de6210a1eb11bc21b4542913087a",
+      "path_hint": "papers/papers/tig_spectral_foundation.tex",
+      "bytes": 4229,
+      "title": "Spectral Foundations of Topological Integrity Gravity:\\\\ From Dirac Geometry to Effective Curvature Dynamics"
+    },
+    {
+      "sha": "024a35cfcf32516974b5a4063d1f86e9a5ce61dd",
+      "path_hint": "main.tex",
+      "bytes": 5978,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic Curvature Extension of General Relativity"
+    },
+    {
+      "sha": "213de75a755862070a68bd210f7a1d7a4255937e",
+      "path_hint": "main.tex",
+      "bytes": 5789,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic Curvature Extension of General Relativity"
+    },
+    {
+      "sha": "e8556db796f6cbc32d8541340bc57f7195bdbd66",
+      "path_hint": "main.tex",
+      "bytes": 5316,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic Curvature Extension of General Relativity"
+    },
+    {
+      "sha": "937761b0a33ba2276adead07baa332d9b73c29c7",
+      "path_hint": "main.tex",
+      "bytes": 4799,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic Curvature Extension of General Relativity"
+    },
+    {
+      "sha": "7d67cdf81080b50cfa8a1e8f7fd4debe4659f3d4",
+      "path_hint": "main.tex",
+      "bytes": 5253,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Quadratic Curvature Extension of General Relativity"
+    },
+    {
+      "sha": "f5dfdd25ded555546275f8a9a9491759aad0a360",
+      "path_hint": "main.tex",
+      "bytes": 11671,
+      "title": "Topological Integrity as a Global Constraint in Gravitational Theory"
+    },
+    {
+      "sha": "3800c7d071d8e8d83297c55d80de52887313a630",
+      "path_hint": "main.tex",
+      "bytes": 4464,
+      "title": "Topological Integrity as a Global Constraint in Gravitational Theory"
+    },
+    {
+      "sha": "93405ff5d4610d42a53ff455fadbb71ff94e3f4e",
+      "path_hint": "main.tex",
+      "bytes": 9989,
+      "title": "Topological Integrity as a Global Constraint in Gravitational Theory"
+    },
+    {
+      "sha": "30a36ae964e53ea92ab784ea786811e6cd1bf673",
+      "path_hint": "main.tex",
+      "bytes": 9411,
+      "title": "Topological Integrity as a Global Constraint in Gravitational Theory"
+    },
+    {
+      "sha": "d6d6ae2ef61c9633b0d33eee599245de2e495233",
+      "path_hint": "main.tex",
+      "bytes": 5967,
+      "title": "Topological Integrity as a Global Constraint in Gravitational Theory"
+    },
+    {
+      "sha": "944311fa80436b7abc6eba57bb56c8a33e6fb237",
+      "path_hint": "main.tex",
+      "bytes": 5237,
+      "title": "Topological Integrity Gravity (TIG)"
+    },
+    {
+      "sha": "257a9645365451387551710cb509e7341b6091c6",
+      "path_hint": "main.tex",
+      "bytes": 4251,
+      "title": "Topological Integrity Gravity (TIG)"
+    },
+    {
+      "sha": "c8b6cefa89e9da8dd4d873c12e51e96af8f71c2c",
+      "path_hint": "main.tex",
+      "bytes": 9131,
+      "title": "Topological Integrity Gravity (TIG)"
+    },
+    {
+      "sha": "860134ed4f040aac18f4fe73595c2d0d09d0a103",
+      "path_hint": "main.tex",
+      "bytes": 5375,
+      "title": "Topological Integrity Gravity (TIG)"
+    },
+    {
+      "sha": "dc9079b96381a4f22fa54565b7d9a192ea005bac",
+      "path_hint": "main.tex",
+      "bytes": 4277,
+      "title": "Topological Integrity Gravity (TIG)"
+    },
+    {
+      "sha": "09082f0fcb6bd73a103774621389ca58c81e84d1",
+      "path_hint": "main.tex",
+      "bytes": 2178,
+      "title": "Topological Integrity Gravity (TIG)"
+    },
+    {
+      "sha": "0f3e7dbd7ec216ae9c2929f8d01e15f72ff3fa7e",
+      "path_hint": "main.tex",
+      "bytes": 2559,
+      "title": "Topological Integrity Gravity (TIG)"
+    },
+    {
+      "sha": "9f0f25e1978b855412926f5bb269debb8ebbf833",
+      "path_hint": "main.tex",
+      "bytes": 1024,
+      "title": "Topological Integrity Gravity (TIG)"
+    },
+    {
+      "sha": "06a591adbe386c8938542e5caf5f97f6e00ba8c9",
+      "path_hint": "papers/papers/tig_master_arxiv_v2.tex",
+      "bytes": 898,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Spectral-Derived Effective Extension of General Relativity"
+    },
+    {
+      "sha": "5b8c6fd73e6e9f930355da7a0ff24bc904fdb403",
+      "path_hint": "papers/papers/tig_master_arxiv_v2.tex",
+      "bytes": 5383,
+      "title": "Topological Integrity Gravity (TIG):\\\\ A Spectral-Derived Effective Extension of General Relativity"
+    },
+    {
+      "sha": "6454b45fde1bd199348744726f3f2ff2421dddf6",
+      "path_hint": "papers_tig_foundations_v1.tex",
+      "bytes": 3374,
+      "title": "\\textbf{Topological Integrity Gravity (TIG):\\\\ A Spectral-Information-Theoretic Framework for Gravity and Quantum Fields}"
+    }
+  ],
+  "matching_paper_candidate": {
+    "blob": "5acbd0d12e2fd79ac3b4f8ccddbcddb0fb69f76e",
+    "source_sha256": "9d6d183b159cec956058efbff0bb270760cab94af738c537a76ede6283e742b5",
+    "bindings": [
+      {
+        "commit": "b4c85f7ea259d3cd312da588fd523a6780e5d7bb",
+        "date": "2026-05-03T16:35:04+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "f4305ba17661ca51353a2fd8557f54c90dd0b21e",
+        "date": "2026-05-03T16:33:13+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "9a8f3a981abe0ea32b8fa091349b55b0b4cfb284",
+        "date": "2026-05-03T16:09:50+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "4e21c6ede12d235963b03ddeb074c1fcf069f4aa",
+        "date": "2026-05-03T16:04:52+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "2200b673e8a72bc8eccc916c66187d86bcec299b",
+        "date": "2026-05-03T16:00:40+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "0b0b77c7ccaa4698ea586b7d0cbaac36c7eead4b",
+        "date": "2026-05-03T15:57:14+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "5c60fde74fda63945b5f515829893cfa86f13f7b",
+        "date": "2026-05-03T15:50:38+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "2bd5a8ce91849e1e14aecb9fed8a836a05e2a80e",
+        "date": "2026-05-03T15:43:33+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "1c42d95497a575df28527ec10dea9b3e55b6d7b1",
+        "date": "2026-05-03T15:42:40+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "d15eea1003efbc6632f847255221dee0231271e6",
+        "date": "2026-05-03T15:40:05+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      }
+    ],
+    "content_checks": {
+      "title_matches_printed_pdf": true,
+      "printed_date_matches": true,
+      "all_13_numbered_section_titles_in_pdf": true,
+      "abstract_paragraphs_match_content": true,
+      "introduction_specific_prose_matches": true,
+      "both_figure_filename_placeholders_match": true,
+      "empty_reference_heading_corresponds_to_source_bibliography": true
+    },
+    "classification": "CONTENT_MATCHING_HISTORICAL_MAIN_SOURCE_CANDIDATE; original complete compile package and exact generating state not confirmed",
+    "not_run": "No historical PDF rebuild or pixel comparison; current repaired manuscripts unchanged",
+    "dependency_check": {
+      "snapshot": "d15eea1003efbc6632f847255221dee0231271e6",
+      "items": [
+        {
+          "source_relative_path": "references.bib",
+          "repository_path": "submission/arxiv/references.bib",
+          "exists_in_candidate_snapshot": false,
+          "git_blob": null
+        },
+        {
+          "source_relative_path": "figures/tig_qnm_frequency_prediction.png",
+          "repository_path": "submission/arxiv/figures/tig_qnm_frequency_prediction.png",
+          "exists_in_candidate_snapshot": false,
+          "git_blob": null
+        },
+        {
+          "source_relative_path": "figures/tig_echo_delay_prediction.png",
+          "repository_path": "submission/arxiv/figures/tig_echo_delay_prediction.png",
+          "exists_in_candidate_snapshot": false,
+          "git_blob": null
+        }
+      ],
+      "warning": "Presence/absence in repository is not an original compiler-input manifest; no exact generating environment or original auxiliaries recovered."
+    }
+  },
+  "tig3_result": "No matching full LaTeX package identified in all reachable advertised QIC refs; external author/Overleaf workspaces and dangling objects not searched or declared absent.",
+  "qic20_status": "TEILBEARBEITET / QUELLENBLOCKIERT",
+  "pdf_rebuild_performed": false,
+  "reproduce": [
+    "git clone --bare https://github.com/integrity-nexus-kai/Quantum_Integrity_Core.git history.git",
+    "git --git-dir=history.git show-ref",
+    "git --git-dir=history.git rev-list --all --count",
+    "git --git-dir=history.git rev-list --objects --all",
+    "git --git-dir=history.git cat-file --batch"
+  ],
+  "preservation": "Read-only search; no original source/PDF/tag/license/release bytes or status changed.",
+  "latex_bearing_blobs_detected": 120
+}

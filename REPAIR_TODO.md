@@ -1,20 +1,20 @@
-# QIC — Arbeitsliste v1.5 für den Repository Repair Agent
+# QIC — Arbeitsliste v1.6 für den Repository Repair Agent
 
 **Dokument-ID:** QIC-REPAIR-TODO-2026-10-02  
-**Version:** 1.5  
+**Version:** 1.6  
 **Datum:** 2026-10-02  
 **Objektklasse:** operative Aufgabenliste / REPAIR_TASK_LIST  
 **Repository:** integrity-nexus-kai/Quantum_Integrity_Core  
 **Branch:** main  
-**Integrationsbasis / geprüfter Eingang:** 9f6cdf096716c6d070685b0d88555f403f6db8fa  
+**Integrationsbasis / geprüfter Eingang:** b6adebbec1ccd504a48ba36b32af82b45541f6b6  
 **Status:** AKTUELLE ARBEITSGRUNDLAGE / VIER WELLEN / WELLEN 1 BIS 4 AUSGEFÜHRT / 23 Aufgaben erledigt, 1 teilbearbeitet, 0 unbegonnen
 **Human Authority:** Kai Stefan Dietrich
 
 ## Verbindlicher Einstieg
 
-Diese Fassung ist die aktuelle Arbeitsgrundlage für den beauftragten QIC-Reparaturlauf. Sie ersetzt v1.4 am selben Pfad; die [historische Fassung](https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/blob/9f6cdf096716c6d070685b0d88555f403f6db8fa/REPAIR_TODO.md) bleibt über die Versionshistorie erhalten. Es gibt keine zweite aktive QIC-Reparaturliste.
+Diese Fassung ist die aktuelle Arbeitsgrundlage für den beauftragten QIC-Reparaturlauf. Sie ersetzt v1.5 am selben Pfad; die [historische Fassung](https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/blob/b6adebbec1ccd504a48ba36b32af82b45541f6b6/REPAIR_TODO.md) bleibt über die Versionshistorie erhalten. Es gibt keine zweite aktive QIC-Reparaturliste.
 
-**Wellen 1 bis 4 sind ausgeführt. Restpunkt: QIC-20 — die passenden Original-LaTeX-Pakete der beiden Mai-PDFs fehlen.** Die nachstehende Ausführungsfolge und ihre Abhängigkeiten gelten weiter; die Nachweissichten aus Welle 1 werden laufend fortgeschrieben. Aufgaben-IDs und Herkunft bleiben unverändert; die ID-Nummer bezeichnet nicht die Ausführungsposition. Die ursprüngliche Dringlichkeitsklasse bleibt sichtbar. Vorbereitende Quellen-/Scope-Arbeit ermöglicht die weiterhin kritischen Kernprüfungen.
+**Wellen 1 bis 4 und die derzeit ausführbare Abschlussbearbeitung sind ausgeführt. QIC-20 bleibt TEILBEARBEITET / QUELLENBLOCKIERT: Die vollständigen Original-Erzeugungspakete der Mai-PDFs sind nicht bestätigt.** Die sechs fachlichen Restpunkte sind als [offene Forschungsfragen](field_equations/open_questions.md#offene-forschungsfragen-aus-der-reparatur--2-oktober-2026) dokumentiert und auf Nutzerauftrag für später zurückgestellt. [Abschluss und zusätzliche historische Quellenprüfung](docs/REPAIR_CLOSEOUT_2026-10-02.md). Für das vierseitige Mai-Paper wurde inzwischen ein inhaltlich passender historischer Hauptquellkandidat gefunden; daraus folgt noch keine vollständige Paketbindung. Die nachstehende Ausführungsfolge und ihre Abhängigkeiten gelten weiter; die fortgeschriebenen Nachweissichten enthalten die Ergebnisse aller vier Wellen. Aufgaben-IDs und Herkunft bleiben unverändert; die ID-Nummer bezeichnet nicht die Ausführungsposition. Die ursprüngliche Dringlichkeitsklasse bleibt sichtbar. Vorbereitende Quellen-/Scope-Arbeit ermöglicht die weiterhin kritischen Kernprüfungen.
 
 Vor jeder Reparatur [AGENTS.md](AGENTS.md), [README.md](README.md), diese Liste, Branch/HEAD und die betroffenen Quellen frisch prüfen. Übernommene Auditbefunde zuerst gegen die tatsächlichen Quellen verifizieren. Ein Dateiname oder eine fehlende Ordnerkategorie allein beweist keinen Defekt. Bereits erfüllte Funktionen und dokumentierte Reparaturen berücksichtigen; bestehende Register verwenden.
 
@@ -24,7 +24,7 @@ Vor jeder Reparatur [AGENTS.md](AGENTS.md), [README.md](README.md), diese Liste,
 
 | Welle | Arbeitsblock | Aufgabenfolge | Stand |
 |---|---|---|---|
-| 1 | Arbeitsgrundlage und Nachweise | QIC-17 → QIC-18 → QIC-22 → QIC-08 → QIC-06 → QIC-07 → QIC-09 | AUSGEFÜHRT — Ausgangsbasis; laufende Aufgabenanteile bleiben sichtbar |
+| 1 | Arbeitsgrundlage und Nachweise | QIC-17 → QIC-18 → QIC-22 → QIC-08 → QIC-06 → QIC-07 → QIC-09 | AUSGEFÜHRT — alle sieben Aufgaben am begrenzten Reparatur-Endstand abgeschlossen |
 | 2 | Normierung, Feldgleichungen und Horizontbegründung | QIC-01 → QIC-02 → QIC-03 | AUSGEFÜHRT — Normierung korrigiert; Vakuumanspruch widerlegt; konkrete Kubik bestätigt |
 | 3 | Literatur und Echo-Prüfung | QIC-15 → QIC-16 → QIC-10 → QIC-05 → QIC-11 → QIC-14 → QIC-12 → QIC-04 | AUSGEFÜHRT — Quellen geprüft; bedingte Laufzeit hergeleitet |
 | 4 | Ausgabe, Abschlussbuild und Veröffentlichungskette | QIC-19 → QIC-20 → QIC-21 → QIC-24 → QIC-13 → QIC-23 | AUSGEFÜHRT MIT QUELLENLÜCKE — QIC-20 teilbearbeitet |
@@ -60,7 +60,7 @@ Alle 24 Originalaufgaben, Herkunftskennungen und Dringlichkeitsklassen bleiben e
 | 17 | 3 | QIC-12 | Hoch | Neue Quellen in die Manuskripte integrieren. Für die drei aufgenommenen Quellen prüfen, welche Aussagen sie tatsächlich stützen, und passende Zitate an diesen Stellen ergänzen. | A1 | ERLEDIGT — drei Quellen an begrenzten Aussagen in beiden Texten zitiert | Nach Prüfung der jeweiligen Quellen und Aussagen; keine automatische Übernahme aller drei Quellen als TIG-Nachweis. |
 | 18 | 3 | QIC-04 | Kritisch | Echo-Delay herleiten. Exponent, Integrationsgrenzen und Reflexions-/Randmodell überprüfen; unbelegte Vorhersagen korrigieren oder entsprechend kennzeichnen. | A13 | ERLEDIGT — bedingte Laufzeit hergeleitet; physische TIG-Echos offen | Nach QIC-01–03, soweit ihre Ergebnisse das verwendete Modell betreffen; relevante Horizontvoraussetzungen aus QIC-05/10 berücksichtigen. |
 | 19 | 4 | QIC-19 | Mittel | Literaturmatrix in die Navigation aufnehmen. Die Auffindbarkeit von research/tig_literature_matrix.md über vorhandene Einstiegs- und Übersichtsdateien prüfen und fehlende Verweise ergänzen. | A20 | ERLEDIGT — Literaturmatrix in README, AGENTS und Quellenkarte verlinkt | Vorhandene Literaturmatrix verlinken; unabhängige reversible Vorarbeit kann früher erfolgen. |
-| 20 | 4 | QIC-20 | Mittel | PDFs ihren Quellen zuordnen. Insbesondere für TIG3_Vacuum_Structure.pdf die zugehörige Manuskriptquelle und Version ermitteln und dokumentieren. | A19, B7 | TEILBEARBEITET — Mai-PDFs identifiziert; passende Original-LaTeX-Pakete fehlen | Quellen- und Versionsbindung vor dem Abschluss von QIC-23; fehlende oder mehrdeutige Herkunft sichtbar halten. |
+| 20 | 4 | QIC-20 | Mittel | PDFs ihren Quellen zuordnen. Insbesondere für TIG3_Vacuum_Structure.pdf die zugehörige Manuskriptquelle und Version ermitteln und dokumentieren. | A19, B7 | TEILBEARBEITET / QUELLENBLOCKIERT — historische Hauptquelle für das vierseitige Paper inhaltlich passend; vollständige Original-Erzeugungspakete nicht bestätigt | Quellen- und Versionsbindung vor dem Abschluss von QIC-23; fehlende oder mehrdeutige Herkunft sichtbar halten. |
 | 21 | 4 | QIC-21 | Mittel | Abbildungen zuordnen und bereinigen. Verteilte, gleichnamige und mit (1) bezeichnete Bilder vergleichen; maßgebliche Quellen, Verwendung und Exportfassungen festlegen. | A16, B7 | ERLEDIGT — Formate, Dubletten, Rollen und reproduzierbare aktuelle Grafik gebunden | Verwendung und Originalquellen vor Bereinigung prüfen; Auswirkungen im Abschlussbuild kontrollieren. |
 | 22 | 4 | QIC-24 | Bereinigung | Auffällige Dateinamen korrigieren. Endungen, Schreibfehler, problematische Sonderzeichen und versehentliche Leerzeichen kontrolliert vereinheitlichen; Verweise und Manuskript-Erzeugung anschließend prüfen. | A15, B9 | ERLEDIGT — zehn geprüfte Pfade umbenannt; Bytes und Verweise erhalten | Nach Pfad-/Verwendungsabgleich kontrolliert ändern; anschließend Verweise und Build prüfen. |
 | 23 | 4 | QIC-13 | Hoch | Ausgabe des Literaturverzeichnisses korrigieren. Die festgestellte unsrt-Problematik beheben, damit erforderliche arXiv-Kennungen, DOI und Links im erzeugten Literaturverzeichnis erscheinen. | A2 | ERLEDIGT — DOI/arXiv/Links in beiden finalen PDF-Bibliografien geprüft | Im maßgeblichen Build arXiv, DOI und Links prüfen; Änderung anschließend im erzeugten Literaturverzeichnis verifizieren. |
@@ -137,3 +137,11 @@ Auftrag: „welle 4 bitte“. Eingang main @ `9f6cdf096716c6d070685b0d88555f403f
 QIC-06/07/08/09/22 sind am begrenzten Reparatur-Endstand abgeschlossen; ihre operative Übersicht schließt keine Forschungsfragen. Alle 24 Originalaufträge, IDs, Herkunft, Dringlichkeiten, Positionen, Wellen und Abschlussbindungen bleiben erhalten. Gesamtstand: **23 erledigt, eine Aufgabe teilbearbeitet, keine unbegonnen**. Ein technischer Restpunkt bleibt; das Repository wird nicht als vollständig quellenrekonstruiert oder veröffentlichungsfreigegeben bezeichnet.
 
 [Arbeitsnachweis](docs/REPAIR_WAVE4_2026-10-02.md) · [Artefaktzuordnung](docs/ARTIFACT_BINDINGS.md) · [Veröffentlichungskette](docs/PUBLICATION_CHAIN.md) · [Exportobjekte](submission/exports/wave4_2026-10-02/README.md). Finale Builds ohne Warnungen; alle finalen Seiten visuell geprüft, DOI/arXiv/Links im PDF geprüft; isolierter Export und Repository-Build pixelgleich. Same-run-Selbstprüfung; bestehende Auditverdikte, Forschungs-OQs, Lizenz-/Tag-/DOI-Objekte unverändert. Commit-, Tree- und vollständiges Datei-Readback folgen der Ablage; der Abschluss berichtet das tatsächlich geprüfte Ergebnis.
+
+## Versionsnachweis v1.6 / Abschluss und Forschungsfragen
+
+Auftrag: offene fachliche Punkte als offene Forschungsfragen übernehmen und dokumentieren, später bearbeiten; die Reparaturliste abarbeiten, danach Rücksprache. Eingang main @ `b6adebbec1ccd504a48ba36b32af82b45541f6b6`. Die sechs Fragen QIC-RQ-01–06 sind im bestehenden Forschungsfragen-Dokument mit Ausgangsergebnis, Beweispflicht, Quellen und vorhandenen O-Programmen gebunden. Alle bleiben OFFEN; Bearbeitung auf ausdrücklichen Nutzerauftrag ZURÜCKGESTELLT. Keine neue Forschung oder SSC-Reparatur begonnen.
+
+QIC-20 zusätzlich über 634 erreichbare Commits, 2.684 verifizierte Git-Objekte und 536 unterschiedliche Blobs geprüft. Ein Hauptquellkandidat für das vierseitige Mai-Paper stimmt in sieben dokumentierten Text-/Strukturmerkmalen überein; ein vollständiges Originalpaket und die genaue Erzeugungsbindung sind weiterhin nicht bestätigt. Für TIG3 kein passendes vollständiges Paket im untersuchten erreichbaren Bestand identifiziert. Externe Autoren-/Overleaf-Arbeitsablagen nicht als geprüft ausgegeben.
+
+Gesamtstand unverändert: **23 ERLEDIGT, QIC-20 TEILBEARBEITET / QUELLENBLOCKIERT, 0 unbegonnen**. Alle derzeit ausführbaren Reparaturarbeiten ausgeführt. Die Quellenlücke wird weder als erledigt markiert noch als Forschungsfrage umetikettiert. Alle 24 Originalaufträge, IDs, Herkunft, Dringlichkeiten, Positionen, Wellen und Abschlussbindungen erhalten. [Abschlussnachweis](docs/REPAIR_CLOSEOUT_2026-10-02.md), [Quellensuchmanifest](registry/repair_source_search_2026-10-02.json). Manuskripte, historische PDFs, Endexporte, ursprüngliche Audit-/OQ-Status und Veröffentlichungsobjekte bleiben unverändert. Ablage-/Readback-Prüfung folgt am tatsächlichen Commit.

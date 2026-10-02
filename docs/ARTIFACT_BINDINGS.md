@@ -1,6 +1,6 @@
 # QIC — Artefakt- und Abbildungszuordnung
 
-Version 1.0 · 2026-10-02 · abgeleitete strukturelle Sicht. Eingang main @ `9f6cdf096716c6d070685b0d88555f403f6db8fa`. Alle 255 Eingangsblobs lokal gegen Git verifiziert: 241 Textdateien und 14 als PDF/PNG benannte Objekte. Eine PNG-Endung beweist keinen Bildinhalt.
+Version 1.1 · 2026-10-02 · abgeleitete strukturelle Sicht. Eingang main @ `9f6cdf096716c6d070685b0d88555f403f6db8fa`. Alle 255 Eingangsblobs lokal gegen Git verifiziert: 241 Textdateien und 14 als PDF/PNG benannte Objekte. Eine PNG-Endung beweist keinen Bildinhalt.
 
 ## PDF-Objekte und Quellenlücke — QIC-20
 
@@ -50,3 +50,11 @@ Alle elf echten Eingangs-PNGs visuell verglichen und Format/Dimensionen geprüft
 | `papers/tig-paper/tig_echo_delay_prediction.png` | `papers/tig-paper/tig_echo_delay_prediction_legacy.png` | identische vollständige Bytes / Blob-ID |
 
 Kein Zielpfad war belegt; keine Objektbytes verloren. Die skalare Notiz hat denselben Inhalt wie tig_positioning.md; beide Quellenidentitäten bleiben getrennt dokumentiert, keine wissenschaftliche Konsolidierung durch Dateinamenspflege. Der Upload-Platzhalter bleibt leer und begründet keine Einreichung. Dateinamen innerhalb expliziter Archive/DOI-Fassungen bleiben historische Identitäten. Aktuelle lokale Verweise geprüft; historische Register-/Nachweispfade bleiben als Snapshots erhalten und über wave4.path_migrations auflösbar.
+
+## Ergänzung v1.1 — vollständige erreichbare Historie geprüft
+
+Auf Nutzerauftrag wurde QIC-20 nach Welle 4 zusätzlich über die gesamte erreichbare QIC-Historie untersucht: 634 Commits, 536 unterschiedliche Blobs aus main und v1.0.0, 2.684 Git-Objekte mit erneut geprüfter Identität. Die oben dokumentierten Welle-4-Snapshots bleiben historische Prüfstände.
+
+Für das vierseitige TIG_Paper.pdf ist nun ein inhaltlich passender Hauptquellkandidat gebunden: submission/arxiv/main.tex, Blob `5acbd0d12e2fd79ac3b4f8ccddbcddb0fb69f76e`, frühester gefundener Snapshot [d15eea1](https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/blob/d15eea1003efbc6632f847255221dee0231271e6/submission/arxiv/main.tex). Titel, Datum, Prosa, Abschnittsstruktur und Platzhalter stimmen in den dokumentierten Merkmalen überein. Vollständiges Original-Erzeugungspaket und genauer Compiler-/Eingabestand bleiben unbestätigt; kein historischer PDF-Neubuild oder Pixelvergleich durchgeführt. Für TIG3 kein passendes vollständiges Paket im untersuchten erreichbaren Bestand identifiziert.
+
+**QIC-20 bleibt TEILBEARBEITET / QUELLENBLOCKIERT.** [Abschlussnachweis](REPAIR_CLOSEOUT_2026-10-02.md), [vollständiges Quellensuchmanifest](../registry/repair_source_search_2026-10-02.json). Kein bestehendes historisches PDF oder Quellenblob überschrieben.
