@@ -4,6 +4,8 @@
 
 **[REPAIR_TODO.md v1.5 — aktuelle Arbeitsgrundlage mit 24 Aufgaben](REPAIR_TODO.md)**
 
+**[Reparaturbericht — alter Stand, neuer Stand, Delta und Rest](docs/REPAIR_REPORT_2026-10-02.md): 23 Aufgaben erledigt, QIC-20 teilbearbeitet.** Bearbeitbare Markdown-Fassung des Gesamtberichts über alle vier Wellen.
+
 Einstieg für den beauftragten Repair Agent: aktuelle Arbeitsgrundlage v1.5 vom 2. Oktober 2026. Vier Arbeitswellen; Wellen 1 bis 4 ausgeführt; verbleibender Restpunkt QIC-20: passende Original-LaTeX-Pakete der beiden Mai-PDFs fehlen. Zuordnung, stabile IDs, Herkunft und offene Bearbeitungsstände stehen in der Liste. QIC-23 gilt vor jeder Veröffentlichung.
 
 [Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md) · [Welle-2-Arbeitsnachweis](docs/REPAIR_WAVE2_2026-10-02.md) · [Welle-3-Arbeitsnachweis](docs/REPAIR_WAVE3_2026-10-02.md) · [Welle-4-Arbeitsnachweis](docs/REPAIR_WAVE4_2026-10-02.md) · [Manuskriptzuordnung und Build](docs/BUILD_WORKFLOW.md) · [Tatsächliche Quellenkarte](REPOSITORY_MAP.md).

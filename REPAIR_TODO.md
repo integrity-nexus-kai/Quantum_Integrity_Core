@@ -68,6 +68,8 @@ Alle 24 Originalaufgaben, Herkunftskennungen und Dringlichkeitsklassen bleiben e
 
 ## Bearbeitungsnachweis
 
+Der [konsolidierte Reparaturbericht als Markdown](docs/REPAIR_REPORT_2026-10-02.md) stellt den alten und neuen Stand, das Delta aller 24 Aufgaben, die erledigten Reparaturen und den verbleibenden Rest gegenüber. Diese Arbeitsliste bleibt die einzige aktive Aufgabenliste; der Bericht ergänzt die Nachweisführung ohne Statusänderung.
+
 Pro ID knapp dokumentieren: verifizierter Ausgangsbefund mit Quellenpfad und Snapshot → ausgeführte Änderung oder begründet verworfener Verdacht → Prüfung/Readback → verbleibende wissenschaftliche Fragen → tatsächlicher Bearbeitungsstand. IDs und Herkunft bleiben stabil. Redaktionelle Reparatur und wissenschaftlicher Nachweis bleiben getrennt.
 
 ## Herkunft und Listen-Preflight
