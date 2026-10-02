@@ -1,5 +1,12 @@
 # Topological Integrity Gravity (TIG)
 
+## Repository Repair Agent — Aufgabenliste
+
+**[REPAIR_TODO.md — 24 priorisierte Aufgaben vom 2. Oktober 2026](REPAIR_TODO.md)**
+
+Einstieg für den beauftragten Repair Agent: Herkunft, Reihenfolge und offene Bearbeitungsstände sind in der Liste festgehalten.
+
+
 Topological Integrity Gravity (TIG) is a structurally constrained gravitational research program investigating admissible horizon formation, bounded-curvature vacuum sectors, and integrity-driven geometric organization.
 
 The framework preserves General Relativity in the appropriate limits while introducing structural admissibility conditions governing horizon formation.
