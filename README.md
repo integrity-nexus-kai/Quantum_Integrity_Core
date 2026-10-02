@@ -2,12 +2,14 @@
 
 ## Repository Repair Agent — Aufgabenliste
 
-**[REPAIR_TODO.md v1.2 — aktuelle Arbeitsgrundlage mit 24 Aufgaben](REPAIR_TODO.md)**
+**[REPAIR_TODO.md v1.3 — aktuelle Arbeitsgrundlage mit 24 Aufgaben](REPAIR_TODO.md)**
 
-Einstieg für den beauftragten Repair Agent: aktuelle Arbeitsgrundlage v1.2 vom 2. Oktober 2026. Vier Arbeitswellen; Welle 1 ausgeführt, nächster Einstieg QIC-01 in Welle 2. Zuordnung, stabile IDs, Herkunft und offene Bearbeitungsstände stehen in der Liste. QIC-23 gilt vor jeder Veröffentlichung.
+Einstieg für den beauftragten Repair Agent: aktuelle Arbeitsgrundlage v1.3 vom 2. Oktober 2026. Vier Arbeitswellen; Wellen 1 und 2 ausgeführt, nächster Einstieg QIC-15 in Welle 3. Zuordnung, stabile IDs, Herkunft und offene Bearbeitungsstände stehen in der Liste. QIC-23 gilt vor jeder Veröffentlichung.
 
-[Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md) · [Manuskriptzuordnung und Build](docs/BUILD_WORKFLOW.md) · [Tatsächliche Quellenkarte](REPOSITORY_MAP.md).
+[Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md) · [Welle-2-Arbeitsnachweis](docs/REPAIR_WAVE2_2026-10-02.md) · [Manuskriptzuordnung und Build](docs/BUILD_WORKFLOW.md) · [Tatsächliche Quellenkarte](REPOSITORY_MAP.md).
 
+
+**Geprüfter Manuskriptstand Welle 2:** Die kubische Horizontgleichung und ihr kritischer Punkt gelten für das konkret gewählte Massenprofil. Diese Metrik ist bei M>0 und r_c>0 keine Vakuumlösung der geprüften konstanten quadratischen metrischen f(R)-Theorie. Die nachstehenden Architekturstatus werden damit nicht als positiver f(R)-Lösungsbeweis ausgegeben; eigenständige Dynamik, Materiequelle und bestehende Forschungsfragen bleiben offen. [Rechnung und Voraussetzungen](papers/derivations/quadratic_fr_and_horizon_checks.md).
 
 Topological Integrity Gravity (TIG) is a structurally constrained gravitational research program investigating admissible horizon formation, bounded-curvature vacuum sectors, and integrity-driven geometric organization.
 

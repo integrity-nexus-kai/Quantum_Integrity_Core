@@ -1,20 +1,20 @@
-# QIC — Arbeitsliste v1.2 für den Repository Repair Agent
+# QIC — Arbeitsliste v1.3 für den Repository Repair Agent
 
 **Dokument-ID:** QIC-REPAIR-TODO-2026-10-02  
-**Version:** 1.2  
+**Version:** 1.3  
 **Datum:** 2026-10-02  
 **Objektklasse:** operative Aufgabenliste / REPAIR_TASK_LIST  
 **Repository:** integrity-nexus-kai/Quantum_Integrity_Core  
 **Branch:** main  
-**Integrationsbasis / geprüfter Eingang:** 8fb4989d43382ccf303c8c52b2c7af746fa35034  
-**Status:** AKTUELLE ARBEITSGRUNDLAGE / VIER WELLEN / WELLE 1 AUSGEFÜHRT / 2 Aufgaben strukturell erledigt, 5 teilbearbeitet, 17 offen
+**Integrationsbasis / geprüfter Eingang:** 88fef45371dbefe89ee35dce4e8accc5e8eb6baa  
+**Status:** AKTUELLE ARBEITSGRUNDLAGE / VIER WELLEN / WELLEN 1 UND 2 AUSGEFÜHRT / 5 Aufgaben erledigt, 5 teilbearbeitet, 14 offen
 **Human Authority:** Kai Stefan Dietrich
 
 ## Verbindlicher Einstieg
 
-Diese Fassung ist die aktuelle Arbeitsgrundlage für den beauftragten QIC-Reparaturlauf. Sie ersetzt v1.1 am selben Pfad; die [historische Fassung](https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/blob/8fb4989d43382ccf303c8c52b2c7af746fa35034/REPAIR_TODO.md) bleibt über die Versionshistorie erhalten. Es gibt keine zweite aktive QIC-Reparaturliste.
+Diese Fassung ist die aktuelle Arbeitsgrundlage für den beauftragten QIC-Reparaturlauf. Sie ersetzt v1.2 am selben Pfad; die [historische Fassung](https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/blob/88fef45371dbefe89ee35dce4e8accc5e8eb6baa/REPAIR_TODO.md) bleibt über die Versionshistorie erhalten. Es gibt keine zweite aktive QIC-Reparaturliste.
 
-**Welle 1 ist ausgeführt. Nächster Einstieg: Welle 2 mit QIC-01.** Die nachstehende Ausführungsfolge und ihre Abhängigkeiten gelten weiter; die Nachweissichten aus Welle 1 werden laufend fortgeschrieben. Aufgaben-IDs und Herkunft bleiben unverändert; die ID-Nummer bezeichnet nicht die Ausführungsposition. Die ursprüngliche Dringlichkeitsklasse bleibt sichtbar. Vorbereitende Quellen-/Scope-Arbeit ermöglicht die weiterhin kritischen Kernprüfungen.
+**Wellen 1 und 2 sind ausgeführt. Nächster Einstieg: Welle 3 mit QIC-15.** Die nachstehende Ausführungsfolge und ihre Abhängigkeiten gelten weiter; die Nachweissichten aus Welle 1 werden laufend fortgeschrieben. Aufgaben-IDs und Herkunft bleiben unverändert; die ID-Nummer bezeichnet nicht die Ausführungsposition. Die ursprüngliche Dringlichkeitsklasse bleibt sichtbar. Vorbereitende Quellen-/Scope-Arbeit ermöglicht die weiterhin kritischen Kernprüfungen.
 
 Vor jeder Reparatur [AGENTS.md](AGENTS.md), [README.md](README.md), diese Liste, Branch/HEAD und die betroffenen Quellen frisch prüfen. Übernommene Auditbefunde zuerst gegen die tatsächlichen Quellen verifizieren. Ein Dateiname oder eine fehlende Ordnerkategorie allein beweist keinen Defekt. Bereits erfüllte Funktionen und dokumentierte Reparaturen berücksichtigen; bestehende Register verwenden.
 
@@ -25,7 +25,7 @@ Vor jeder Reparatur [AGENTS.md](AGENTS.md), [README.md](README.md), diese Liste,
 | Welle | Arbeitsblock | Aufgabenfolge | Stand |
 |---|---|---|---|
 | 1 | Arbeitsgrundlage und Nachweise | QIC-17 → QIC-18 → QIC-22 → QIC-08 → QIC-06 → QIC-07 → QIC-09 | AUSGEFÜHRT — Ausgangsbasis; laufende Aufgabenanteile bleiben sichtbar |
-| 2 | Normierung, Feldgleichungen und Horizontbegründung | QIC-01 → QIC-02 → QIC-03 | OFFEN |
+| 2 | Normierung, Feldgleichungen und Horizontbegründung | QIC-01 → QIC-02 → QIC-03 | AUSGEFÜHRT — Normierung korrigiert; Vakuumanspruch widerlegt; konkrete Kubik bestätigt |
 | 3 | Literatur und Echo-Prüfung | QIC-15 → QIC-16 → QIC-10 → QIC-05 → QIC-11 → QIC-14 → QIC-12 → QIC-04 | OFFEN |
 | 4 | Ausgabe, Abschlussbuild und Veröffentlichungskette | QIC-19 → QIC-20 → QIC-21 → QIC-24 → QIC-13 → QIC-23 | OFFEN |
 
@@ -33,7 +33,7 @@ Welle 1 umfasst die bisherigen Phasen 1 und 2; Welle 2 Phase 3; Welle 3 die Phas
 
 QIC-22: Ausgangsbuild und Buildablauf in Welle 1, Abschlussbuild am reparierten Endstand in Welle 4. QIC-06/07/08/09: Ausgangssicht in Welle 1 und Fortschreibung bis zum Abschluss. QIC-23 gilt weiterhin ab Beginn vor jeder Veröffentlichung. Unabhängige Literaturvorbereitung darf vor Welle 3 stattfinden, sobald ihre Quellenabhängigkeiten geklärt sind. QIC-11 blockiert die Horizont- oder Echo-Prüfung nicht automatisch.
 
-[Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md) · [Build und Manuskriptzuordnung](docs/BUILD_WORKFLOW.md) · [Gemeinsame abgeleitete Nachweissicht](registry/repair_tracking.json). Diese Artefakte dokumentieren Arbeit und Quellen; sie sind keine zweite aktive Aufgabenliste.
+[Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md) · [Welle-2-Arbeitsnachweis](docs/REPAIR_WAVE2_2026-10-02.md) · [Kernrechnungen](papers/derivations/quadratic_fr_and_horizon_checks.md) · [Build und Manuskriptzuordnung](docs/BUILD_WORKFLOW.md) · [Gemeinsame abgeleitete Nachweissicht](registry/repair_tracking.json). Diese Artefakte dokumentieren Arbeit und Quellen; sie sind keine zweite aktive Aufgabenliste.
 
 ## Aufgaben — maßgebliche Ausführungsfolge
 
@@ -43,14 +43,14 @@ Alle 24 Originalaufgaben, Herkunftskennungen und Dringlichkeitsklassen bleiben e
 |---|---|---|---|---|---|---|---|
 | 1 | 1 | QIC-17 | Mittel | Beide LaTeX-Pakete eindeutig zuordnen. Verhältnis zwischen papers/tig-paper/ und submission/arxiv/ klären; gegebenenfalls maßgebliche Quelle und Exportweg festlegen. | A14, B6 | ERLEDIGT — strukturelle Paketzuordnung | Zuerst: Verhältnis und geltenden Scope beider Pakete prüfen; keine Autorität aus Versionsnummer oder Pfad ableiten. |
 | 2 | 1 | QIC-18 | Mittel | Zuständigkeiten der Theorieverzeichnisse klären. Repository-Karte gegen die tatsächlichen Ablagen prüfen. Für Grundlagen, Kandidaten, Ableitungen und Paper-Auszüge den maßgeblichen Ablageort ausweisen. | A21, B5 | ERLEDIGT — strukturelle Quellenkarte | Vor fachlichen Änderungen: maßgebliche Theoriequellen und bestehende Owner-/Statusbindungen feststellen. |
-| 3 | 1 | QIC-22 | Mittel | Arbeits-, Build- und Prüfablauf dokumentieren. Bestehende Repo- und Overleaf-Abläufe erfassen; die Erzeugung von Manuskript, Literaturverzeichnis, Abbildungen und PDF nachvollziehbar machen. | A17, B8 | TEILBEARBEITET — Ausgangsbuild PASS; Abschluss offen | Früh: Build und vorhandenen Overleaf-Ablauf erfassen, Ausgangsbuild versuchen und Ergebnis dokumentieren. Abschlussbuild nach den Reparaturen. |
-| 4 | 1 | QIC-08 | Hoch | Audit- und Reparaturübersicht herstellen. Verstreute Befunde mit betroffenen Dateien, Reparaturen, erneuten Prüfungen und belegtem Bearbeitungsstand verbinden. | A18, B3 | TEILBEARBEITET — Audit-/Befundsicht materialisiert | Nach Arbeitsgrundlage: schlanke Übersicht der vorhandenen Befunde beginnen; während aller Reparaturen fortschreiben. |
-| 5 | 1 | QIC-06 | Hoch | Aussagen und Nachweise gemeinsam erschließen. Aussagen, Annahmen, Beweispflichten, Abhängigkeiten und Nachweise verbinden. Bestehende Register nutzen; nur fehlende Funktionen ergänzen. | B1 | TEILBEARBEITET — 12 Aussagegruppen gebunden | Auf Ausgangsbefunde und Quellen stützen; für den ersten Reparaturblock beginnen und fortschreiben. |
-| 6 | 1 | QIC-07 | Hoch | Quellen–Aussagen-Zuordnung präzisieren. Verwendete Quellenversionen und relevante Passagen oder Gleichungen angeben. Direkte Unterstützung, Analogie und offene Übertragung unterscheiden. | A7 | TEILBEARBEITET — Repoquellen gebunden; externe Prüfung offen | Quellversionen und Aussagen zunächst für die Kernprüfungen binden; neue Literatur in Welle 3 ergänzen. |
-| 7 | 1 | QIC-09 | Hoch | Offene Fragen und Gegenprüfung ordnen. Forschungsfragen, Grenzen, Gegenargumente, Gegenmodelle, Widerlegungsbedingungen und negative Ergebnisse gemeinsam erschließen; Mehrfacheinträge zusammenführen. | B2 | TEILBEARBEITET — OQs/Gegenprüfung geroutet | Bestehende offene Fragen und Gegenprüfungen aufnehmen; neue Erkenntnisse fortschreiben. |
-| 8 | 2 | QIC-01 | Kritisch | α-/μ-Normierung prüfen und korrigieren. Die festgestellte Inkonsistenz zwischen Definitionen und Gleichungen auflösen; alle betroffenen Manuskriptstellen nachführen. | A10 | OFFEN | Nach Quellen-/Scope-Zuordnung; Normierung vor der Prüfung des betroffenen f(R)-Lösungsanspruchs. |
-| 9 | 2 | QIC-02 | Kritisch | Metrik gegen die f(R)-Feldgleichungen prüfen. Voraussetzungen und tatsächlichen Lösungsnachweis klären. Aussagen über eine bewiesene Lösung auf den belegten Stand begrenzen. | A12 | OFFEN | Mit geklärter Normierung und Paketzuordnung; repräsentative Geometrie und behauptete Feldgleichungslösung unterscheiden. |
-| 10 | 2 | QIC-03 | Kritisch | Begründung der kubischen Strukturgleichung reparieren. Die allgemeine Behauptung einer kubischen Notwendigkeit für Faltenbifurkationen korrigieren; die spezifische TIG-Gleichung gesondert begründen. | A11 | OFFEN | Spezifische Horizontgleichung und allgemeine Bifurkationsbegründung gesondert prüfen; Ergebnis vor QIC-04 binden. |
+| 3 | 1 | QIC-22 | Mittel | Arbeits-, Build- und Prüfablauf dokumentieren. Bestehende Repo- und Overleaf-Abläufe erfassen; die Erzeugung von Manuskript, Literaturverzeichnis, Abbildungen und PDF nachvollziehbar machen. | A17, B8 | TEILBEARBEITET — Wellen-1/2-Builds PASS; Abschluss offen | Früh: Build und vorhandenen Overleaf-Ablauf erfassen, Ausgangsbuild versuchen und Ergebnis dokumentieren. Abschlussbuild nach den Reparaturen. |
+| 4 | 1 | QIC-08 | Hoch | Audit- und Reparaturübersicht herstellen. Verstreute Befunde mit betroffenen Dateien, Reparaturen, erneuten Prüfungen und belegtem Bearbeitungsstand verbinden. | A18, B3 | TEILBEARBEITET — Wellen-1/2-Befunde und Reparaturen gebunden | Nach Arbeitsgrundlage: schlanke Übersicht der vorhandenen Befunde beginnen; während aller Reparaturen fortschreiben. |
+| 5 | 1 | QIC-06 | Hoch | Aussagen und Nachweise gemeinsam erschließen. Aussagen, Annahmen, Beweispflichten, Abhängigkeiten und Nachweise verbinden. Bestehende Register nutzen; nur fehlende Funktionen ergänzen. | B1 | TEILBEARBEITET — 12 Aussagegruppen; Kernprüfungen fortgeschrieben | Auf Ausgangsbefunde und Quellen stützen; für den ersten Reparaturblock beginnen und fortschreiben. |
+| 6 | 1 | QIC-07 | Hoch | Quellen–Aussagen-Zuordnung präzisieren. Verwendete Quellenversionen und relevante Passagen oder Gleichungen angeben. Direkte Unterstützung, Analogie und offene Übertragung unterscheiden. | A7 | TEILBEARBEITET — Kernquellen geprüft; Literaturblock offen | Quellversionen und Aussagen zunächst für die Kernprüfungen binden; neue Literatur in Welle 3 ergänzen. |
+| 7 | 1 | QIC-09 | Hoch | Offene Fragen und Gegenprüfung ordnen. Forschungsfragen, Grenzen, Gegenargumente, Gegenmodelle, Widerlegungsbedingungen und negative Ergebnisse gemeinsam erschließen; Mehrfacheinträge zusammenführen. | B2 | TEILBEARBEITET — Gegenmodelle und negatives f(R)-Ergebnis erhalten | Bestehende offene Fragen und Gegenprüfungen aufnehmen; neue Erkenntnisse fortschreiben. |
+| 8 | 2 | QIC-01 | Kritisch | α-/μ-Normierung prüfen und korrigieren. Die festgestellte Inkonsistenz zwischen Definitionen und Gleichungen auflösen; alle betroffenen Manuskriptstellen nachführen. | A10 | ERLEDIGT — Wirkung/μ-Konvention korrigiert und geprüft | Nach Quellen-/Scope-Zuordnung; Normierung vor der Prüfung des betroffenen f(R)-Lösungsanspruchs. |
+| 9 | 2 | QIC-02 | Kritisch | Metrik gegen die f(R)-Feldgleichungen prüfen. Voraussetzungen und tatsächlichen Lösungsnachweis klären. Aussagen über eine bewiesene Lösung auf den belegten Stand begrenzen. | A12 | ERLEDIGT — Vakuumanspruch widerlegt; Manuskripte begrenzt | Mit geklärter Normierung und Paketzuordnung; repräsentative Geometrie und behauptete Feldgleichungslösung unterscheiden. |
+| 10 | 2 | QIC-03 | Kritisch | Begründung der kubischen Strukturgleichung reparieren. Die allgemeine Behauptung einer kubischen Notwendigkeit für Faltenbifurkationen korrigieren; die spezifische TIG-Gleichung gesondert begründen. | A11 | ERLEDIGT — modellgebundene Kubik und lokaler Fold nachgewiesen | Spezifische Horizontgleichung und allgemeine Bifurkationsbegründung gesondert prüfen; Ergebnis vor QIC-04 binden. |
 | 11 | 3 | QIC-15 | Mittel | Recherchezeitraum dokumentieren. Vorherigen Berichtsstichtag und aktuelles Suchfenster festhalten; neue Arbeiten von neuen Versionen unterscheiden. | A5 | OFFEN | Suchfenster vor erneuter Recherche festhalten; parallel zu Welle 2 möglich. |
 | 12 | 3 | QIC-16 | Mittel | Literaturpriorisierung nachvollziehbar machen. TIG-Relevanz, Neuigkeitswert und wissenschaftliche Belastbarkeit getrennt bewerten und die Auswahlreihenfolge begründen. | A6 | OFFEN | Auswahlkriterien vor der neuen Literaturauswahl festlegen; keine bloße Rangfolge nach Aktualität. |
 | 13 | 3 | QIC-10 | Hoch | Quellen zur Horizontbildung ergänzen. Ergebnisse über bestehende oder stationäre Horizonte von Ergebnissen über ihre Entstehung unterscheiden und die Abdeckungslücke bearbeiten. | A4 | OFFEN | Recherche nach geklärtem Suchrahmen; Horizontbildung von Eigenschaften bestehender Horizonte trennen. |
@@ -111,3 +111,9 @@ Ein Same-run-Selbstcheck ist kein unabhängiger Audit. Externe Prüfung, Freigab
 Auftrag: „bitte in vier wellen aufteilen. jetzt welle 1“. Quellenfreeze main @ `8fb4989d43382ccf303c8c52b2c7af746fa35034`. Zwei strukturelle Zuordnungsaufgaben erledigt, fünf Ausgangs-/Nachweisaufgaben teilbearbeitet, 17 Aufgaben offen. Die beiden technischen Buildfehler sind korrigiert; fachliche Kernprüfungen, externe Primärquellenprüfung, Endexport und Veröffentlichung folgen in ihren Wellen.
 
 Materialisierte Nachweise und tatsächliche Grenzen stehen im [Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md). Neue Arbeitsdateien ersetzen keine Scientific Owner. Kein Claim, wissenschaftliches Auditfinding oder bestehendes OQ wurde durch Welle 1 promoviert oder geschlossen. Readback und HEAD-Prüfung erfolgen nach dem Ablagecommit; Ergebnis im Abschlussnachweis.
+
+## Versionsnachweis v1.3 / Welle 2
+
+Auftrag: „jetzt welle 2“. Frisch gelesener Eingang main @ `88fef45371dbefe89ee35dce4e8accc5e8eb6baa`. QIC-01–03 sind als beauftragte Reparaturen erledigt: konsistente Alpha-/Mu-Konvention, explizites negatives Vakuum-f(R)-Ergebnis mit begrenzten Manuskriptclaims, konkrete kubische Horizontableitung und lokaler Fold. Kein positiver f(R)-Lösungsnachweis wird behauptet. Das eigenständige Dynamik-/Materieprogramm bleibt offen; Abschluss dieser Reparatur-IDs schließt keine bestehenden Forschungs-OQs.
+
+27 symbolische Checks bestanden; beide Manuskriptbuilds erfolgreich, zehn plus sechs PDF-Seiten visuell geprüft. Die Nachweissicht aus Welle 1 ist fortgeschrieben. Alle 24 IDs, Originalaufträge, Dringlichkeitsklassen, Herkunft und Wellenzuordnungen bleiben erhalten. Stand: fünf erledigt (darunter zwei strukturelle Zuordnungen), fünf teilbearbeitet, 14 offen. [Welle-2-Arbeitsnachweis](docs/REPAIR_WAVE2_2026-10-02.md) und [vollständige Kernrechnung](papers/derivations/quadratic_fr_and_horizon_checks.md). Readback und HEAD-Prüfung erfolgen nach dem Ablagecommit und werden im Abschlussbericht bestätigt.

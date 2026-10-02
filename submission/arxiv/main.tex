@@ -8,81 +8,90 @@
 \usepackage{float}
 \usepackage{microtype}
 
-\title{Critical Horizon Transitions in Quadratic $f(R)$ Gravity:\\
-A Topological Integrity Perspective}
+\title{A Structural Horizon Transition in a Representative TIG Geometry:\\
+A Test Against Quadratic $f(R)$ Gravity}
 
 \author{Kai Stefan Dietrich\\
 Independent Research}
 
-\date{May 2026}
+\date{Revised draft -- 2 October 2026}
 
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
-
-We introduce Topological Integrity Gravity (TIG), a structurally constrained extension of General Relativity in which admissible curvature corrections are restricted by consistency conditions.
-
-The theory predicts the existence of a critical parameter separating horizon and non-horizon configurations, leading to a discrete transition in the space of gravitational solutions. In contrast to phenomenological $f(R)$ models, this transition is not arbitrary but arises from structural constraints on the horizon equation.
-
-Near the critical regime, TIG implies non-linear scaling behavior of observable quantities, in contrast to the linear response expected in General Relativity. This leads to enhanced sensitivity of photon sphere structure, shadow radius, and gravitational wave signatures close to the transition.
-
-We argue that these effects are not model-dependent features but direct consequences of the underlying consistency structure, providing a pathway toward observational tests of constrained gravity theories.
-
+We analyze the horizon structure of a specified static, spherically symmetric
+representative geometry within the Topological Integrity Gravity (TIG) research
+program. The chosen regular mass profile yields the exact dimensionless horizon
+equation \(x^3-x^2+\beta^3=0\). We derive its discriminant, positive-root sectors,
+and critical point \(x_c=2/3\), \(\beta_c=(4/27)^{1/3}\). The two positive roots
+coalesce in a nondegenerate local fold with square-root separation. The cubic
+is a consequence of the chosen mass profile, not a universal requirement of
+fold bifurcations or dimensional consistency. A direct trace test also excludes
+this nontrivial representative metric as an exact vacuum solution of
+constant-coefficient quadratic metric \(f(R)\) gravity. The Schwarzschild limit
+and the bounded-curvature core remain geometric properties of the specified
+model; dynamical completion and observational forecasts remain separate tasks.
 \end{abstract}
 
 \section{Introduction}
 
 General Relativity provides an accurate description of gravitational phenomena across a wide range of scales \cite{einstein1915,wald1984}. Extensions such as $f(R)$ gravity introduce higher-curvature corrections and additional degrees of freedom \cite{sotiriou2010,defelice2010}.
 
-The existence of a critical transition in horizon formation suggests that the presence or absence of horizons may not be a binary property, but rather the result of an underlying structural condition.
+The number of positive horizon roots can depend on a control parameter and change at a critical coalescence. This parameter-dependent root structure is the subject of the present static analysis.
 
-In this work, we identify such a mechanism within a quadratic $f(R)$ framework and analyze its physical and observational consequences.
+We analyze a specified representative metric and test its compatibility with
+quadratic metric $f(R)$ gravity. The algebraic horizon transition is established
+for that metric, while the direct vacuum test gives a negative result. Counting
+static Killing-horizon roots does not establish dynamical horizon formation.
 
-\section{Consistency Constraint}
+\section{Consistency Constraint and Model Choice}
 
-A generic extension of General Relativity allows arbitrary curvature corrections, leading to a large space of admissible models. However, not all such extensions are physically consistent.
+Structural consistency and the Schwarzschild limit constrain a model without
+uniquely specifying its mass profile or the degree of its horizon equation.
+A local fold equilibrium equation is quadratic, $y^2-\lambda=0$; a cubic
+potential can generate it by differentiation \cite{chasnov2020}.
+Indeed, $x^2-x+\lambda=0$ has a root $x=1$ at $\lambda=0$ and a fold at
+$(x,\lambda)=(1/2,1/4)$. Lower-order equations therefore can capture fold
+behavior. The cubic below follows specifically from the selected regular
+mass profile, rather than from a universal bifurcation requirement.
 
-Horizon formation must satisfy a structural stability requirement: small perturbations should not produce unphysical changes in the number of horizons except at well-defined critical points.
+\section{Quadratic Gravity as a Consistency Test}
 
-The minimal structure capable of producing such a transition is cubic. Lower-order structures cannot capture bifurcation behavior, while higher-order terms introduce unnecessary branches.
-
-Thus, the horizon equation takes the form
-\begin{equation}
-x^3 - x^2 + \beta^3 = 0
-\end{equation}
-
-This structure can be understood from catastrophe theory: the simplest structurally stable bifurcation that changes the number of real solutions is the saddle-node (fold) bifurcation, universally described by a cubic normal form.
-
-\section{Quadratic $f(R)$ Framework}
-
-We consider the action
+We use the metric formalism, signature $(-,+,+,+)$, and geometrized units
+$G=c=1$. To retain the convention $\mu=16\pi\alpha$, the action is
 \begin{equation}
 S=\int d^4x\sqrt{-g}
-\left[
-\frac{1}{16\pi}(R-2\Lambda+\alpha R^2)
-\right]
-+S_{\mathrm{matter}}.
+\left[\frac{R-2\Lambda}{16\pi}+\alpha R^2\right]+S_{\mathrm{matter}}
+=\frac{1}{16\pi}\int d^4x\sqrt{-g}\,f(R)+S_{\mathrm{matter}},
 \end{equation}
-
-Defining
+where
 \begin{equation}
-f(R)=R-2\Lambda+\mu R^2,
-\qquad
-\mu=16\pi\alpha,
+f(R)=R-2\Lambda+\mu R^2,\qquad \mu=16\pi\alpha.
 \end{equation}
-we obtain a quadratic $f(R)$ model.
+Thus $\alpha$ here is the coefficient outside the Einstein prefactor. If the
+entire expression $R-2\Lambda+\alpha_{\mathrm{in}}R^2$ were placed inside
+that prefactor, its coefficient would instead satisfy $\mu=\alpha_{\mathrm{in}}$.
+These are different parameter conventions, not simultaneous definitions of
+the same $\alpha$. Here $[\mu]=[\alpha]=L^2$, $[R]=[\Lambda]=L^{-2}$.
 
-The scalar degree of freedom is
+The metric field equations are \cite{sotiriou2010,defelice2010}
 \begin{equation}
-\phi=f'(R)=1+2\mu R,
+f_R R_{\mu\nu}-\frac{1}{2}f g_{\mu\nu}
+ +(g_{\mu\nu}\Box-\nabla_\mu\nabla_\nu)f_R=8\pi T_{\mu\nu},
 \end{equation}
-
-with mass
+with $f_R=1+2\mu R$. Their trace is
 \begin{equation}
-m_\phi^2=\frac{1}{6\mu}.
+6\mu\Box R-R+4\Lambda=8\pi T.
+\label{eq:fr_trace}
 \end{equation}
+Linearization about a constant-curvature vacuum background yields
+$m_\phi^2=1/(6\mu)$ for the scalar curvature mode. Positive $\mu$ gives a
+positive squared mass; this alone is not a proof of full background stability.
+The scalar variable $\phi=f_R$ is not assumed to be a canonically normalized
+Einstein-frame scalar. No relation between $\mu$ and the core scale $r_c$ follows
+from this action comparison.
 
 \section{Effective Geometry}
 
@@ -91,7 +100,7 @@ We consider a static, spherically symmetric metric
 ds^2=-F(r)dt^2+\frac{dr^2}{F(r)}+r^2d\Omega^2.
 \end{equation}
 
-We introduce the effective mass profile
+For $M>0$ and $r_c>0$, we choose the representative effective mass profile
 \begin{equation}
 m(r)=\frac{Mr^3}{r^3+r_c^3},
 \end{equation}
@@ -101,9 +110,36 @@ leading to
 F(r)=1-\frac{2m(r)}{r}.
 \end{equation}
 
+
+The asymptotic Schwarzschild limit and the regular-core behavior do not select
+this profile uniquely: $\widetilde m(r)=Mr^3/(r^2+r_c^2)^{3/2}$ satisfies both
+requirements and gives a different horizon equation. The following calculations
+refer only to the specified profile.
+
+\section{Vacuum Field-Equation Test}
+
+Set $a=r_c^3$. A direct curvature calculation for the stated metric gives
+\begin{equation}
+R(r)=\frac{12Ma(2a-r^3)}{(r^3+a)^3},\qquad
+\Box R=\frac{1}{r^2}\frac{d}{dr}\left(r^2F\frac{dR}{dr}\right).
+\end{equation}
+In vacuum, Eq.~\eqref{eq:fr_trace} must vanish identically. At infinity its
+left side tends to $4\Lambda$, forcing $\Lambda=0$. For that value,
+\begin{equation}
+\lim_{r\to\infty}r^6(6\mu\Box R-R)=12Ma\ne0,
+\qquad
+\lim_{r\to0^+}(6\mu\Box R-R)=-\frac{24M}{a}\ne0.
+\end{equation}
+Therefore this nontrivial representative geometry is not an exact vacuum
+solution of constant-coefficient quadratic metric $f(R)$ gravity.
+This exclusion does not cover different metric ansatzes or specified matter
+models. With matter, its stress tensor and its own equations must be supplied;
+defining $T_{\mu\nu}$ from the metric residual alone does not demonstrate that
+completion. The Schwarzschild limit $r_c=0$ at $r>0$ is a separate vacuum case.
+
 \section{Critical Horizon Structure}
 
-Horizons satisfy
+Candidate static Killing horizons at positive radii satisfy
 \begin{equation}
 F(r_H)=0.
 \end{equation}
@@ -122,15 +158,25 @@ the parameter $\beta$ is the dimensionless ratio between the internal scale $r_c
 
 We obtain
 \begin{equation}
-x^3-x^2+\beta^3=0.
+P(x,\beta)=x^3-x^2+\beta^3=0.
 \end{equation}
+Here $F=P/(x^3+\beta^3)$; the denominator is positive for $x>0$, $\beta>0$.
+At $\beta=0$, the double zero $x=0$ in the cleared polynomial is outside this
+equivalence domain and is not a Schwarzschild horizon. The cubic term
+$\beta^3$ originates in $r_c^3$ in the chosen mass profile; dimensionlessness
+alone does not require it.
 
 The critical value is
 \begin{equation}
 \beta_c=\left(\frac{4}{27}\right)^{1/3}.
 \end{equation}
 
-As shown in Fig.~\ref{fig:horizon}, the outer horizon branch terminates at $\beta_c$, indicating a saddle-node bifurcation.
+At criticality, $P=(x-2/3)^2(x+1/3)$. For $0<\beta<\beta_c$ there are two
+positive roots and one negative root; at $\beta_c$ one positive double root;
+above $\beta_c$ the only real root is negative. The discriminant is
+$\Delta=\beta^3(4-27\beta^3)$. Figure~\ref{fig:horizon} illustrates the approach
+of the outer branch to the analytically derived critical value. The positive branch count changes,
+while the branch locations remain continuous up to coalescence.
 
 \begin{figure}[H]
 \centering
@@ -146,9 +192,11 @@ The echo delay is estimated as
 \Delta t_{\mathrm{echo}} \simeq 2\int \frac{dr}{F(r)}.
 \end{equation}
 
-Near $\beta_c$, the delay diverges, indicating a critical regime.
+This expression is provisional: integration limits, propagation region, and
+a reflecting boundary or scattering model have not been specified here.
+No echo signal or divergent delay is established by the horizon roots alone.
 
-\section{Quantitative Prediction}
+\section{Local Horizon Scaling and Open Echo Estimate}
 
 The horizon equation is
 \begin{equation}
@@ -162,27 +210,41 @@ x_c=\frac{2}{3}, \qquad \beta_c=\left(\frac{4}{27}\right)^{1/3}.
 
 Expanding around criticality yields
 \begin{equation}
-x_\pm-x_c \sim (\beta_c-\beta)^{1/2}.
+x_\pm-x_c=\pm\sqrt{3}\,\beta_c\epsilon^{1/2}+O(\epsilon),
+\qquad \epsilon=\beta_c-\beta>0.
 \end{equation}
 
-Thus, the critical exponent is
+The derivatives $P_{xx}(x_c,\beta_c)=2$ and
+$P_\beta(x_c,\beta_c)=3\beta_c^2$ are nonzero, so this is a nondegenerate
+local fold. The exact expansion is
+\begin{equation}
+P(x_c+\delta,\beta_c-\epsilon)=\delta^2+\delta^3
+-3\beta_c^2\epsilon+3\beta_c\epsilon^2-\epsilon^3.
+\end{equation}
+Thus the horizon-root displacement exponent in this parameterization is
 \begin{equation}
 \alpha_H=\frac{1}{2}.
 \end{equation}
 
-For echoes,
+The distinct candidate echo scaling
 \begin{equation}
 \Delta t_{\mathrm{echo}} \sim (\beta_c-\beta)^{-1/2},
 \end{equation}
 
-giving
-\begin{equation}
-\alpha_{\mathrm{echo}}=-\frac{1}{2}.
-\end{equation}
+with proposed exponent $\alpha_{\mathrm{echo}}=-1/2$ is not derived by this
+root expansion and remains an unverified estimate. Its sign, applicable side
+of criticality, endpoints, and reflection assumptions require a separate
+propagation calculation. It is not used as a result of the present analysis.
 
 \section{Conclusion}
 
-We have demonstrated that quadratic $f(R)$ gravity admits a structurally controlled transition in horizon formation with universal critical behavior.
+The specified representative TIG geometry has an exact cubic horizon equation
+and a nondegenerate fold with horizon-root exponent $1/2$. Neither structural
+consistency nor a generic fold uniquely requires this cubic mass-profile law.
+The nontrivial metric fails the vacuum trace equation of the tested quadratic
+metric $f(R)$ action; no exact solution with specified matter has been
+demonstrated. The algebraic horizon result remains model-conditional, while
+dynamical completion, stability, and echo forecasts require separate evidence.
 
 \clearpage
 

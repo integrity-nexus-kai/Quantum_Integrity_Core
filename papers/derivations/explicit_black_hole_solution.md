@@ -233,7 +233,7 @@ Diese Dichte ist:
 
 Wichtig:
 
-Diese Metrik ist nicht automatisch eine exakte Vakuumlösung der reinen \(R+R^2\)-Feldgleichung.
+Die Prüfung vom 2. Oktober 2026 schließt diese Metrik für M>0 und r₀>0 als exakte Vakuumlösung des konstanten quadratischen metrischen f(R)-Modells aus. Voraussetzungen, Spurgleichung und nicht verschwindender Rest stehen in [quadratic_fr_and_horizon_checks.md](quadratic_fr_and_horizon_checks.md). Damit wird keine Theorie mit einer eigenständig spezifizierten Materiequelle ausgeschlossen.
 
 Sie ist zunächst eine effektive reguläre Lösung mit einer geometrisch interpretierten effektiven Quelle.
 
@@ -535,7 +535,7 @@ The density is:
 
 Important:
 
-This metric is not automatically an exact vacuum solution of the pure \(R+R^2\) field equations.
+The check of 2 October 2026 excludes this metric for M>0 and r₀>0 as an exact vacuum solution of the constant-coefficient quadratic metric f(R) model. See [the assumptions and nonzero trace residual](quadratic_fr_and_horizon_checks.md). This does not exclude a theory with independently specified matter sources.
 
 It should first be understood as an effective regular solution with a geometrically interpreted effective source:
 

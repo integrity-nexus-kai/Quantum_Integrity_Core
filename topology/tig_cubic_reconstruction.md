@@ -137,15 +137,15 @@ A quadratic relation permits at most two branches.
 
 A linear relation permits only one.
 
-The simplest algebraic structure capable of supporting:
+A cubic algebraic structure can support:
 
 - branch emergence,
 - branch interaction,
 - branch merging,
 
-is cubic.
+but these phenomena do not require a cubic. The quadratic fold equation y²−λ=0 already creates and merges two real branches. A cubic potential and a quadratic equilibrium equation must not be conflated.
 
-This motivates the investigation of cubic criticality.
+This motivates investigation of the specific TIG cubic and its additional model assumptions, not a universal cubic necessity. The existing mass profile produces the cubic directly; generic fold theory does not select that profile. See the [explicit model and counterexample checks](../papers/derivations/quadratic_fr_and_horizon_checks.md).
 
 ---
 
@@ -153,7 +153,7 @@ This motivates the investigation of cubic criticality.
 
 TIG proposes:
 
-> The cubic horizon condition may represent the minimal algebraic structure capable of encoding organizational degeneracy and branch formation.
+> The specific cubic horizon condition may encode model-specific organizational assumptions beyond a generic fold; those assumptions and a unique derivation remain to be demonstrated.
 
 This remains an active research hypothesis.
 

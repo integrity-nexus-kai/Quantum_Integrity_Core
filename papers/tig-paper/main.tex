@@ -61,7 +61,7 @@ Kai Stefan Dietrich\\
 Independent Researcher\\
 \texttt{kai.physics@protonmail.ch}
 }
-\date{Version 1.1}
+\date{Version 1.2 -- 2 October 2026}
 
 \begin{document}
 
@@ -69,21 +69,18 @@ Independent Researcher\\
 \thispagestyle{plain}
 
 \begin{abstract}
-We introduce Topological Integrity Gravity (TIG), a structurally constrained
-framework for gravitational horizon formation. The central idea is that
-admissible curvature corrections should not be treated as arbitrary
-phenomenological deformations of General Relativity, but as structures
-constrained by consistency requirements. Within a minimal static and spherically
-symmetric reduction, these conditions lead to a cubic normal form governing
-horizon formation. The resulting horizon equation exhibits a critical transition
-separating configurations with horizons from compact configurations without
-horizons. This transition is controlled by a dimensionless parameter and is
-characterized by the coalescence of roots in the associated cubic equation. We
-derive the critical parameter, analyze the discriminant structure, and discuss
-the interpretation of the transition as a structural threshold rather than a
-continuous perturbative deformation. The framework preserves the classical
-Schwarzschild limit while defining a constrained high-curvature sector suitable
-for further mathematical and observational analysis.
+We analyze the horizon structure of a specified static, spherically symmetric
+representative geometry within the Topological Integrity Gravity (TIG) research
+program. The chosen regular mass profile yields the exact dimensionless horizon
+equation \(x^3-x^2+\beta^3=0\). We derive its discriminant, positive-root sectors,
+and critical point \(x_c=2/3\), \(\beta_c=(4/27)^{1/3}\). The two positive roots
+coalesce in a nondegenerate local fold with square-root separation. The cubic
+is a consequence of the chosen mass profile, not a universal requirement of
+fold bifurcations or dimensional consistency. A direct trace test also excludes
+this nontrivial representative metric as an exact vacuum solution of
+constant-coefficient quadratic metric \(f(R)\) gravity. The Schwarzschild limit
+and the bounded-curvature core remain geometric properties of the specified
+model; dynamical completion and observational forecasts remain separate tasks.
 \end{abstract}
 
 \section{Introduction}
@@ -117,7 +114,8 @@ We call this framework \emph{Topological Integrity Gravity} (TIG). The term
 refers to the preservation of the qualitative root structure associated with
 horizon formation under admissible curvature corrections.
 
-The central result of this paper is the emergence of a cubic normal form,
+The central result of this paper is the exact horizon equation of the chosen
+representative mass profile,
 \begin{equation}
 x^3 - x^2 + \beta^3 = 0,
 \label{eq:intro_cubic}
@@ -127,10 +125,10 @@ dimensionless structural control parameter. This equation exhibits a critical
 transition: for sufficiently small \(\beta\), horizon solutions exist; beyond a
 critical value, no positive horizon root remains.
 
-The transition is not introduced by hand. It follows from the algebraic
-structure of the reduced horizon equation. The resulting critical point is
-therefore interpreted as a structural boundary between horizon and non-horizon
-configurations. The associated root coalescence is structurally analogous to
+The transition follows from the algebraic horizon equation once the mass
+profile has been specified. Structural consistency requirements alone do not
+select that profile uniquely. The resulting critical point is a boundary
+between horizon and non-horizon configurations within this model. The associated root coalescence is structurally analogous to
 fold-type criticality and saddle-node bifurcations known from catastrophe theory
 \cite{arnold1992}.
 
@@ -155,8 +153,8 @@ where \(M\) is the mass of the central object \cite{schwarzschild1916}. The
 Schwarzschild geometry remains the canonical reference solution for static black
 holes in General Relativity \cite{wald1984,chandrasekhar1983}.
 
-The horizon condition can be expressed through the vanishing of the lapse
-function,
+In the one-function static sector used below, candidate Killing horizons are
+located at positive zeros of the lapse function,
 \begin{equation}
 A(r)=0.
 \label{eq:horizon_condition}
@@ -187,6 +185,12 @@ The regime \(\beta \ll 1\) corresponds to corrections much smaller than the
 Schwarzschild scale.
 \end{definition}
 
+Below we use geometrized units \(G=c=1\), with \(M\) denoting the mass in
+length units, \(r_s=2M\), and \(\ell=r_c\). The analyzed sector has
+\(A(r)=F(r)\) and \(B(r)=1/F(r)\); it does not exhaust general static spherical
+metrics. Counting its lapse zeros does not establish a dynamical formation
+process or the global event-horizon structure of an evolving spacetime.
+
 The limit \(\beta=0\) must recover the classical Schwarzschild horizon. This
 requirement imposes a normalization condition on any admissible horizon
 equation: the dimensionless equation must admit \(x=1\) as the physical root
@@ -216,62 +220,55 @@ quantities such as the discriminant.
 These conditions are minimal. They do not specify a complete gravitational field
 theory. Instead, they constrain the admissible reduced horizon equations.
 
-The simplest nontrivial algebraic setting in which a horizon can disappear
-through root coalescence is a cubic equation. A quadratic equation can describe
-a pairwise disappearance of roots, but does not naturally encode the
-Schwarzschild root together with a degenerate correction sector. The cubic
-normal form is therefore the minimal algebraic structure capable of encoding:
-\begin{enumerate}[label=(\alph*)]
-\item the Schwarzschild root at \(x=1\);
-\item a degenerate zero-radius sector;
-\item a finite correction scale;
-\item a discriminant-controlled structural transition.
-\end{enumerate}
-
-This point is closely related to the normal-form viewpoint in local bifurcation
-analysis, where qualitative changes of solution structure are captured by
-minimal polynomial models \cite{arnold1992}.
-
-\section{Derivation of the Cubic Normal Form}
-
-We begin with the degenerate Schwarzschild-compatible polynomial
+These requirements do not determine a polynomial degree or a unique mass
+profile. A local fold has an equilibrium equation of the form
 \begin{equation}
-P_0(x) = x^2(x-1).
-\label{eq:degenerate_polynomial}
+y^2-\lambda=0,
 \end{equation}
-This polynomial has a simple physical root at \(x=1\) and a double root at
-\(x=0\). The root at \(x=1\) represents the classical horizon, while the double
-root at the origin represents a degenerate internal sector.
+which is quadratic; a corresponding potential can be cubic
+\cite{arnold1992,chasnov2020}. For example,
+\(Q(x,\lambda)=x^2-x+\lambda\) has the Schwarzschild-normalized root \(x=1\)
+at \(\lambda=0\) and a fold at \((x,\lambda)=(1/2,1/4)\).
+Adding a double zero-radius factor is an additional model choice, not a
+consequence of fold criticality. Likewise, dimensional consistency of two
+dimensionless variables does not require a \(\beta^3\) correction.
 
-Expanding \eqref{eq:degenerate_polynomial}, we obtain
-\begin{equation}
-P_0(x)=x^3-x^2.
-\label{eq:expanded_p0}
-\end{equation}
+\section{Derivation of the Specific Cubic Horizon Equation}
 
-A finite structural correction must lift the degenerate zero-radius sector while
-preserving dimensional consistency. Since \(x\) is dimensionless and \(\beta\)
-is dimensionless, the lowest correction compatible with the cubic structure is
-proportional to \(\beta^3\). We therefore define
+Choose \(M>0\), \(r_c>0\), and the representative mass profile
 \begin{equation}
-P(x,\beta)=x^3-x^2+\beta^3.
-\label{eq:normal_form_polynomial}
+m(r)=\frac{M r^3}{r^3+r_c^3},\qquad
+F(r)=1-\frac{2m(r)}{r}.
+\label{eq:chosen_mass_profile}
 \end{equation}
+It has \(m(r)\to M\) at infinity and \(m(r)=O(r^3)\) near the center.
+These requirements do not make the interpolation unique: for example,
+\(\widetilde m(r)=M r^3/(r^2+r_c^2)^{3/2}\) has the same two limiting
+properties and gives a different horizon equation.
 
-The horizon equation is
+For the chosen profile and positive horizon radius, \(F(r_H)=0\) gives
 \begin{equation}
-P(x,\beta)=0,
+r_H^3-2Mr_H^2+r_c^3=0.
 \end{equation}
-or explicitly,
+With \(x=r_H/(2M)\) and \(\beta=r_c/(2M)\), division by \((2M)^3\) yields
 \begin{equation}
-x^3-x^2+\beta^3=0.
+P(x,\beta)=x^3-x^2+\beta^3=0.
 \label{eq:tig_horizon_equation}
 \end{equation}
+Indeed, \(F=P/(x^3+\beta^3)\); the denominator is positive for
+\(x>0\), \(\beta>0\). The \(\beta^3\) term comes from the chosen
+\(r_c^3\) in the mass-profile denominator, not from dimensional analysis
+alone. This is an exact reduced horizon equation for the specified geometry.
+
+At \(\beta=0\), clearing the denominator yields \(P_0=x^2(x-1)\).
+The double zero at \(x=0\) is outside the equivalence domain and is not an
+additional Schwarzschild horizon or a derived internal physical sector.
+For \(r_c>0\), the regular center has \(F(0)=1\).
 
 \begin{remark}
-Equation \eqref{eq:tig_horizon_equation} is not proposed as a fundamental field
-equation. It is a reduced algebraic normal form for the horizon condition under
-the structural consistency assumptions stated above.
+Equation \eqref{eq:tig_horizon_equation} is not a fundamental field equation
+or a unique consequence of the consistency principle. Its cubic degree is a
+property of the selected representative geometry.
 \end{remark}
 
 \section{Root Structure and Criticality}
@@ -399,33 +396,27 @@ The physical nonzero root is
 x=1.
 \end{equation}
 
-For small positive \(\beta\), the physical horizon root is deformed away from
-the Schwarzschild value. As \(\beta\) increases, the relevant positive roots
+For \(0<\beta<\beta_c\), there are exactly two positive roots and one negative
+root. The positive roots follow from \(P(0)>0\),
+\(P(2/3)=\beta^3-4/27<0\), and the monotonicity on either side of the minimum.
+The negative root is outside the radial domain. The outer positive root is
+continuously deformed away from the Schwarzschild value. As \(\beta\) increases, the relevant positive roots
 approach each other. At \(\beta=\beta_c\), the roots coalesce at \(x=2/3\).
 For \(\beta>\beta_c\), the corresponding pair of real roots no longer exists.
 
-This is the structural horizon transition of TIG. It separates a regime in which
-horizon solutions exist from a regime in which compact configurations do not
-possess horizons. The transition is not interpreted as a smooth perturbation of
-the Schwarzschild radius. Instead, it represents a qualitative change in the
-root structure of the horizon equation.
+At criticality, \(P=(x-2/3)^2(x+1/3)\); above criticality its only real root
+is negative. Thus the count of positive horizon roots changes from two to zero
+through one positive double root. The branch locations are continuous up to
+coalescence; it is their number that changes. This is a model-specific static
+horizon transition, not a proof of dynamical black-hole formation.
 
 \section{Comparison with General Relativity}
 
-In General Relativity, the Schwarzschild horizon is located at \(r=r_s\), or
-\(x=1\) in dimensionless form. In TIG, the horizon condition becomes a cubic
-equation. The Schwarzschild solution is recovered in the limit
-\begin{equation}
-\beta\to 0.
-\end{equation}
-Thus TIG does not remove the Schwarzschild solution from the theory. Instead,
-it embeds it into a larger structural setting in which the existence of horizons
-depends on the value of the control parameter \(\beta\).
-
-The classical horizon appears as the limiting member of a family of structurally
-constrained configurations. In this setting, General Relativity corresponds to a
-boundary point of the structural solution family rather than to an arbitrary
-member of a phenomenological parameter space.
+For every fixed \(r>0\), the limit \(r_c\to0\) of the chosen geometry is
+\(F(r)=1-2M/r\), and its outer horizon tends to \(r=2M\) or \(x=1\).
+This is a metric-level Schwarzschild recovery, not a derivation of the full
+Einstein dynamics from a completed TIG action. The limit is not uniform at the
+center, where the Schwarzschild geometry is singular.
 
 \section{Scaling Near Criticality}
 
@@ -468,13 +459,15 @@ At \(x_c=2/3\), one has \(P_{xx}(x_c)=2\). Hence
 \end{equation}
 and therefore
 \begin{equation}
-\delta\sim \epsilon^{1/2}.
+\delta_\pm=\pm\sqrt{3}\,\beta_c\epsilon^{1/2}+O(\epsilon).
 \label{eq:sqrt_scaling}
 \end{equation}
 
-This square-root scaling is characteristic of saddle-node type criticality
-\cite{arnold1992}. Observable quantities depending on the horizon root may
-therefore exhibit nonlinear scaling near the transition.
+Here \(P_{xx}(x_c,\beta_c)=2\ne0\) and
+\(P_\beta(x_c,\beta_c)=3\beta_c^2\ne0\), establishing a nondegenerate local
+fold \cite{arnold1992,chasnov2020}. The exponent refers to horizon-root
+displacement in this control parameter; it does not by itself fix an echo,
+shadow, or perturbation exponent or imply dynamical stability.
 
 \section{Representative Effective Geometry}
 
@@ -491,7 +484,7 @@ regularized high-curvature sector.
 
 For large radial distance, \(r\gg r_c\), one has
 \begin{equation}
-F(r)=1-\frac{2M}{r}+O\!\left(\frac{r_c^3}{r^4}\right),
+F(r)=1-\frac{2M}{r}+\frac{2M r_c^3}{r^4}+O(r^{-7}),
 \end{equation}
 so the Schwarzschild-compatible asymptotic behavior is recovered.
 
@@ -503,6 +496,36 @@ which corresponds to a regular de Sitter-like core in this representative
 sector. This does not constitute a general singularity-resolution theorem; it
 only states that the analyzed representative geometry has finite central
 behavior.
+
+
+\subsection{Test Against Quadratic Metric Gravity}
+
+For comparison, consider the metric action
+\(S_g=(16\pi)^{-1}\int\sqrt{-g}(R-2\Lambda+\mu R^2)\,d^4x\),
+with constant finite \(\mu\) and \(\Lambda\). Its vacuum trace equation is
+\begin{equation}
+6\mu\Box R-R+4\Lambda=0
+\label{eq:vacuum_trace_test}
+\end{equation}
+\cite{sotiriou2010,defelice2010}. For the representative geometry, writing
+\(a=r_c^3\), direct curvature calculation gives
+\begin{equation}
+R(r)=\frac{12Ma(2a-r^3)}{(r^3+a)^3},\qquad
+\Box R=\frac{1}{r^2}\frac{d}{dr}\left(r^2F\frac{dR}{dr}\right).
+\end{equation}
+At infinity the trace residual tends to \(4\Lambda\), so vacuum compatibility
+requires \(\Lambda=0\). With that value,
+\begin{equation}
+\lim_{r\to\infty}r^6(6\mu\Box R-R)=12Ma\ne0,
+\qquad
+\lim_{r\to0^+}(6\mu\Box R-R)=-\frac{24M}{a}\ne0.
+\end{equation}
+Consequently, for \(M>0\) and \(r_c>0\), this metric is not an exact vacuum
+solution of constant-coefficient quadratic metric gravity. With matter, a
+specified source and its own equations must instead be demonstrated; defining
+an effective tensor from the metric is insufficient. No relation between
+\(r_c\) and \(\mu\) is derived here. This negative dynamical test does not
+alter the algebraic horizon calculation for the representative model.
 
 \section{Photon Sphere Structure and Observable Deviation}
 
@@ -557,11 +580,11 @@ Possible implications include:
 \item modified ringdown or echo-like structures near criticality.
 \end{itemize}
 
-At the present stage, these implications should be regarded as structural
-predictions rather than fully developed observational forecasts. A complete
-analysis requires solving the full metric functions and perturbation equations.
-Nevertheless, the existence of a critical transition provides a clear target:
-observables should exhibit enhanced sensitivity near \(\beta=\beta_c\).
+At the present stage, these implications are model-dependent research targets.
+A prediction requires specified sources, propagation and perturbation equations,
+and a demonstrated map from the geometry to the observable. The horizon-root
+fold alone does not establish enhanced sensitivity or a critical exponent for
+every proposed observable.
 
 \section{Scope and Limitations}
 
@@ -573,31 +596,27 @@ consistency principle must be formulated. Second, stability of the resulting
 compact configurations must be analyzed. Third, observational predictions must
 be computed within a fully specified metric model.
 
-The present work should therefore be read as the foundational normal-form
-analysis of the TIG horizon transition, not as a complete gravitational theory.
+The present work is an algebraic analysis of a specified representative
+geometry with a local fold transition. It is not a complete gravitational
+theory, a vacuum solution of the tested quadratic metric action, or a proof of
+its own observational predictions.
 
 \section{Conclusion}
 
-We have introduced Topological Integrity Gravity as a structurally constrained
-approach to horizon formation. Starting from minimal consistency requirements,
-we derived a cubic normal form for the horizon equation:
+For the specified regular mass profile, we derived the exact horizon equation
 \begin{equation}
-x^3-x^2+\beta^3=0.
+x^3-x^2+\beta^3=0,
 \end{equation}
-This equation exhibits a critical transition at
-\begin{equation}
-\beta_c=\left(\frac{4}{27}\right)^{1/3},
-\end{equation}
-where two real roots coalesce at
-\begin{equation}
-x_c=\frac{2}{3}.
-\end{equation}
+with critical point \(x_c=2/3\), \(\beta_c=(4/27)^{1/3}\). Two positive roots
+coalesce in a local nondegenerate fold and disappear above the critical value;
+their displacements scale as \((\beta_c-\beta)^{1/2}\).
 
-The resulting structure separates horizon and non-horizon configurations and
-suggests that gravitational systems may be constrained by algebraic consistency
-conditions beyond ordinary phenomenological deformation. Future work will focus
-on deriving full field equations, analyzing dynamical stability, and extracting
-observational signatures.
+The cubic degree and the correction parameterization follow from the selected
+mass profile, not from a universal cubic requirement for folds. The geometry
+has a Schwarzschild limit and a finite-curvature core, but fails the vacuum
+trace equation of the tested constant-coefficient quadratic metric action.
+A dynamical completion with specified sources, perturbative stability, and
+observable predictions must be established separately.
 
 \begin{thebibliography}{99}
 
@@ -650,6 +669,18 @@ Oxford University Press (1983).
 V. I. Arnold,
 \textit{Catastrophe Theory},
 Springer (1992).
+
+\bibitem{defelice2010}
+A. De Felice and S. Tsujikawa,
+\textit{f(R) Theories},
+Living Reviews in Relativity 13, 3 (2010),
+\href{https://doi.org/10.12942/lrr-2010-3}{doi:10.12942/lrr-2010-3}.
+
+\bibitem{chasnov2020}
+J. R. Chasnov,
+\textit{Applied Linear Algebra and Differential Equations},
+HKUST lecture notes (preface January 2020), Sec.~11.2.1,
+\url{https://www.math.hkust.edu.hk/~machas/applied-linear-algebra-and-differential-equations.pdf}.
 
 \end{thebibliography}
 
