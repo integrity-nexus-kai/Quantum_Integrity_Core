@@ -85,3 +85,16 @@ Fortschreibung Welle 3: Quellenfreeze `da326a4041054c01f2574d02312826870616670c`
 | `research/wave3_source_review.md` | Quellenprüfnotiz | local-research-object | versionierte fremde Quellen und lokale Übertragungsprüfung; kein TIG-Theorem | benannte Passagen geprüft, same-run |
 | `papers/derivations/echo_delay_with_boundaries.md` | Bedingte Laufzeitableitung | local-research-object | statische Geometrie, vorgeschriebene Reflexion und Grenzen; keine physische TIG-Echo-Vorhersage | 18 exakte / fünf numerische Bedingungen PASS, same-run |
 | `tools/verify_wave3.py` | Rechenprüfung | local-research-object | lokale Identitäts-/Konvergenzprüfung, keine unabhängige wissenschaftliche Validierung | ausgeführt mit SymPy 1.14.0 / mpmath 1.3.0 |
+
+## Fortschreibung Welle 4
+
+Die Quellenkarte und historischen Owner-/Statusbindungen bleiben erhalten. Die zehn kontrollierten Pfadmigrationen bewahren die Objektbytes und bisherige Quellenidentitäten; aktuelle Auflösung über registry/repair_tracking.json, wave4.path_migrations. Keine wissenschaftliche Statuspromotion durch Umbenennung. [Artefaktzuordnung](docs/ARTIFACT_BINDINGS.md) bindet historische PDFs und frühere Abbildungen; passende Mai-LaTeX-Quellen bleiben unbestimmt.
+
+| OBJECT_ID / PRIMARY_OWNER_PATH | OBJECT_TYPE | OWNERSHIP_CATEGORY | CLAIM_BOUNDARY | REVIEW_STATUS |
+|---|---|---|---|---|
+| `tools/generate_horizon_figure.py` | Grafikgenerator | local-research-object | überprüfte statische Kubik; kein dynamischer Entstehungsnachweis | ausgeführt, Gleichungsresiduen geprüft |
+| `figures/tig_horizon_branches.png` | Abgeleitete aktuelle Grafik | local-paper-object | Export des angegebenen Generators, keine eigene Theorieautorität | PNG/Metadaten/aktive Einbindung geprüft |
+| `tools/export_arxiv.py` | Quellpaketexport | local-submission-object | transportiert exakt gebundene Quellen; veröffentlicht nicht | isolierter ZIP-Build PASS |
+| `submission/exports/wave4_2026-10-02/` | PDFs und Quell-ZIP | exported-package-object | abgeleitete Arbeitsfassungen; kein neuer DOI, keine Einreichung | Inhalte/Fingerprints, Build, PDF und ZIP geprüft |
+
+PRIMARY_OWNER_REPOSITORY jeweils Quantum_Integrity_Core; LOCAL_REFERENCE_PATH jeweils derselbe Pfad. Primäre Manuskriptquellen bleiben papers/tig-paper/main.tex beziehungsweise submission/arxiv/main.tex. Der mitgelieferte unsrtnat-Stil bewahrt seinen eigenen Drittanbieter-Lizenzhinweis.

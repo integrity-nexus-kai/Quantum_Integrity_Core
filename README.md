@@ -2,11 +2,16 @@
 
 ## Repository Repair Agent — Aufgabenliste
 
-**[REPAIR_TODO.md v1.4 — aktuelle Arbeitsgrundlage mit 24 Aufgaben](REPAIR_TODO.md)**
+**[REPAIR_TODO.md v1.5 — aktuelle Arbeitsgrundlage mit 24 Aufgaben](REPAIR_TODO.md)**
 
-Einstieg für den beauftragten Repair Agent: aktuelle Arbeitsgrundlage v1.4 vom 2. Oktober 2026. Vier Arbeitswellen; Wellen 1 bis 3 ausgeführt, nächster Einstieg QIC-19 in Welle 4. Zuordnung, stabile IDs, Herkunft und offene Bearbeitungsstände stehen in der Liste. QIC-23 gilt vor jeder Veröffentlichung.
+Einstieg für den beauftragten Repair Agent: aktuelle Arbeitsgrundlage v1.5 vom 2. Oktober 2026. Vier Arbeitswellen; Wellen 1 bis 4 ausgeführt; verbleibender Restpunkt QIC-20: passende Original-LaTeX-Pakete der beiden Mai-PDFs fehlen. Zuordnung, stabile IDs, Herkunft und offene Bearbeitungsstände stehen in der Liste. QIC-23 gilt vor jeder Veröffentlichung.
 
-[Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md) · [Welle-2-Arbeitsnachweis](docs/REPAIR_WAVE2_2026-10-02.md) · [Welle-3-Arbeitsnachweis](docs/REPAIR_WAVE3_2026-10-02.md) · [Manuskriptzuordnung und Build](docs/BUILD_WORKFLOW.md) · [Tatsächliche Quellenkarte](REPOSITORY_MAP.md).
+[Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md) · [Welle-2-Arbeitsnachweis](docs/REPAIR_WAVE2_2026-10-02.md) · [Welle-3-Arbeitsnachweis](docs/REPAIR_WAVE3_2026-10-02.md) · [Welle-4-Arbeitsnachweis](docs/REPAIR_WAVE4_2026-10-02.md) · [Manuskriptzuordnung und Build](docs/BUILD_WORKFLOW.md) · [Tatsächliche Quellenkarte](REPOSITORY_MAP.md).
+
+
+[Literaturmatrix](research/tig_literature_matrix.md) · [Quellenprüfung](research/wave3_source_review.md) · [Aktuelle PDFs und Quell-ZIP](submission/exports/wave4_2026-10-02/README.md) · [Artefakt-/Abbildungszuordnung](docs/ARTIFACT_BINDINGS.md) · [Versionen und DOI-Kette](docs/PUBLICATION_CHAIN.md).
+
+**Technischer Endstand Welle 4:** Paper v1.4 und Einreichungsdraft Welle 4 bauen mit lesbaren DOI-/arXiv-Verweisen und Links. Das Quell-ZIP baut isoliert. Die beiden PDFs in papers/tig-paper/ sind historische Mai-Fassungen; ihre passenden LaTeX-Quellen bleiben unrekonstruiert. Die aktuellen Exporte sind abgeleitete Arbeitsartefakte ohne neue DOI-/Release- oder Einreichungsfreigabe.
 
 
 **Geprüfter Manuskriptstand Welle 2:** Die kubische Horizontgleichung und ihr kritischer Punkt gelten für das konkret gewählte Massenprofil. Diese Metrik ist bei M>0 und r_c>0 keine Vakuumlösung der geprüften konstanten quadratischen metrischen f(R)-Theorie. Die nachstehenden Architekturstatus werden damit nicht als positiver f(R)-Lösungsbeweis ausgegeben; eigenständige Dynamik, Materiequelle und bestehende Forschungsfragen bleiben offen. [Rechnung und Voraussetzungen](papers/derivations/quadratic_fr_and_horizon_checks.md).

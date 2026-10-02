@@ -1,0 +1,12 @@
+{
+  "source": "tools/generate_horizon_figure.py",
+  "equation": "x^3-x^2+beta^3=0",
+  "domain": "M>0, beta>=0; inner horizon only beta>0",
+  "critical_beta": 0.5291336839893999,
+  "critical_x": 0.6666666666666666,
+  "samples_per_branch": 601,
+  "max_polynomial_residual": 2.220446049250313e-16,
+  "interpretation": "static representative geometry; no dynamical horizon formation",
+  "image_sha256": "ee8afe996d7ba08ca14d94b4ca0e1df9a94a1715191d43c03b64d1394a86c1ff",
+  "generator_sha256": "e636e00487e9af49379a006e355d335a4fdd842df875cff88125e13c649da2f0"
+}
