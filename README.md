@@ -1,6 +1,6 @@
 # Topological Integrity Gravity (TIG)
 
-**[Preflight vom 3. Oktober 2026](docs/PREFLIGHT_QIC_2026-10-03.md):** technische Wiederholungsprüfung PASS; fünf offene Dokumentationsbefunde an öffentlichen Texten und Verweisen (`REQUEST_CHANGES`). Selbstprüfung AIL-0, keine Veröffentlichungsfreigabe; ursprünglicher Reparaturabschluss und offene Forschungsfragen bleiben getrennt.
+**[Dokumentationskorrektur zum Preflight](docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md):** die fünf Befunde sind im begrenzten Text-/Verweisumfang repariert; Abschlussnachweise und Prüfumfang sind verknüpft. Der [ursprüngliche Preflight](docs/PREFLIGHT_QIC_2026-10-03.md) bleibt als Befund am damaligen Commit erhalten. Interne Prüfung AIL-0; unabhängige Prüfung und Veröffentlichungsfreigabe sind separate Schritte.
 
 ## Repository Repair Agent — Aufgabenliste
 
@@ -22,9 +22,7 @@ TIG3: elf Quellen importiert, Builds und 14-Seiten-Vergleich bestätigt. Viersei
 
 **Geprüfter Manuskriptstand Welle 3:** Die repräsentative Metrik ist exakt eine umparametrisierte Hayward-Familie; ihre statische Horizontkoaleszenz ist bekannt. Der Echo-Exponent −1/2 gilt für die hergeleitete Laufzeit nur mit ausgewiesenen Integrationsgrenzen und Spiegelvorschriften. Physische TIG-Echos, dynamische Horizontentstehung und TIG-QM-Rückgewinnung bleiben offene Forschungsaufgaben. [Welle-3-Ergebnisse und Grenzen](docs/REPAIR_WAVE3_2026-10-02.md).
 
-Topological Integrity Gravity (TIG) is a structurally constrained gravitational research program investigating admissible horizon formation, bounded-curvature vacuum sectors, and integrity-driven geometric organization.
-
-The framework preserves General Relativity in the appropriate limits while introducing structural admissibility conditions governing horizon formation.
+Topological Integrity Gravity (TIG) is a gravitational research program investigating structural admissibility and bounded-curvature representative geometries. The current manuscripts examine a specified static Hayward family, its horizon roots and a negative quadratic f(R) vacuum test. A complete dynamical theory remains a research objective.
 
 
 ---
@@ -46,22 +44,9 @@ See:
 
 # Current Status
 
-TIG currently possesses:
+The current manuscripts establish the horizon polynomial and local root coalescence for the chosen static representative mass profile, examine its finite curvature, and show that the nontrivial metric is not a vacuum solution of the tested constant-coefficient quadratic metric f(R) theory. The geometric round-trip delay is conditional on stated endpoints and a prescribed reflector. [Manuscript calculation and assumptions](papers/derivations/quadratic_fr_and_horizon_checks.md).
 
-- a validated Field Equation Architecture,
-- a canonical spherical realization,
-- a derived horizon condition,
-- a critical horizon transition,
-- General Relativity recovery,
-- Schwarzschild recovery,
-- Newtonian recovery,
-- bounded-curvature representative geometries.
-
-Current classification:
-
-**STRUCTURALLY VALIDATED RESEARCH CANDIDATE**
-
-TIG should currently be interpreted as a validated field-equation architecture rather than a completed gravitational field theory.
+The separate [effective field-equation architecture](field_equations/field_equation_1_0.md) retains the source classification **STRUCTURALLY VALIDATED RESEARCH CANDIDATE**, within its static spherical realization and assessed sector. Its [registered validation results](field_equations/validation_status.md) are separate source objects; this summary does not independently re-audit them or transfer their positive status to the quadratic f(R) vacuum claim, complete covariant dynamics, a fundamental independent tensor or empirical validation.
 
 ---
 
@@ -90,19 +75,21 @@ including:
 
 ## TIG3
 
-Bounded-curvature vacuum realization including:
+Historical bounded-curvature representative sector and separate effective architecture, including:
 
 - effective field-equation architecture,
 - integrity tensor realization,
 - finite-curvature geometry,
-- critical horizon dynamics,
+- static horizon-root coalescence,
 - observational research directions.
+
+The historical TIG3 source/PDF binding has its [own comparison record](docs/TIG3_SOURCE_COMPARISON_2026-10-03.md). Its label does not prove a vacuum solution of the quadratic f(R) theory tested in the current manuscripts or a dynamical formation process.
 
 ---
 
 # Canonical Field Equation Architecture
 
-The current TIG realization is based on:
+The separate architecture records the following field-equation form; its source status and assumptions are bound to [field_equations/field_equation_1_0.md](field_equations/field_equation_1_0.md):
 
 ```math
 G_{\mu\nu}
@@ -171,31 +158,23 @@ and
 \left(\frac{4}{27}\right)^{1/3}.
 ```
 
-This bifurcation governs admissible horizon formation within the current TIG realization.
+For M>0 and r_c>0, this is the static Killing-horizon root structure of the specified Hayward mass profile. It does not establish dynamical horizon formation. At beta=0, polynomial zero roots are not positive Schwarzschild horizons. Known Hayward coalescence and the current parameterization are distinguished in the [source review](research/wave3_source_review.md).
 
 ---
 
-# Validated Results
+# Registered Architecture Results and Their Scope
 
-The following results are currently established within the TIG program:
+The positive statuses below are retained from [field_equations/validation_status.md](field_equations/validation_status.md) for the separate effective architecture, not newly awarded by this README or transferred to the current quadratic f(R) test. [Object/source boundaries](OBJECT_OWNERSHIP.md).
 
-- Tensor Construction
-- Horizon Derivation
-- Critical Transition
-- Finite Curvature
-- Structural Stability
-- Admissibility Closure
-- General Relativity Recovery
-- Schwarzschild Recovery
-- Newtonian Recovery
+| Registered item | Object and boundary |
+|---|---|
+| P1 Tensor Construction | Effective tensor realization in the source architecture; independent fundamental tensor derivation remains O3 / QIC-RQ-02. |
+| P2–P4 GR / Schwarzschild / Newtonian Recovery | Registered limits of that architecture and spherical realization; no complete covariant/dynamical-theory proof is inferred. |
+| P5–P7 Horizon Derivation / Critical Transition / Finite Curvature | Stated representative static mass profile and its geometry; no dynamical formation or empirical confirmation is inferred. |
+| P9 Structural Stability | Original positive status is limited to the source's analyzed perturbation sector. Complete gravitational perturbation dynamics and physical echo stability remain open. |
+| P10 Admissibility Closure | Original status for established requirements of the stated realization; no universal closure or completion of the open research programs. |
 
-See:
-
-```text
-field_equations/validation_status.md
-```
-
-for detailed classification.
+P8 Effective Stress Tensor Analysis remains PRELIMINARY in its source. The detailed historical derivations and their original audits have not been independently revalidated in this documentation repair. [Open programs and QIC-RQ-01–06](field_equations/open_questions.md).
 
 ---
 
