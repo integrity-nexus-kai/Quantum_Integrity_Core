@@ -1,0 +1,1521 @@
+{
+  "phase": "DOCUMENTATION_DELTA_CHECK",
+  "observed_head": "ce4b5fa4e494ea07f9437d353efd6dcb1ba37263",
+  "baseline": "ce4b5fa4e494ea07f9437d353efd6dcb1ba37263",
+  "timestamp": "2026-10-03T13:18:14.097176+00:00",
+  "changed_existing_paths_allowed": [
+    "AGENTS.md",
+    "README.md",
+    "README_EN.md",
+    "abstract.md",
+    "docs/REPAIR_REPORT_2026-10-02.md",
+    "field_equations/open_questions.md",
+    "papers/tig-paper/README.md"
+  ],
+  "unchanged_existing_paths": 293,
+  "protected_files": [
+    {
+      "path": "AUTHOR.md",
+      "sha256": "02b8f86561738d470c708d12c1e3bf3c4ac71c74d70c6661a0c1a6ba15c0728e",
+      "git_blob": "5acbd776dab8c220b1ca832cf121b9d93f4dfd39"
+    },
+    {
+      "path": "CANONICAL_CORE.md",
+      "sha256": "f613c53806163a959c9143cf60d6d3aa659be43c93416f56db0ead23153de6f8",
+      "git_blob": "7938694b9f8199bb801acbc00df78816f03ae1f7"
+    },
+    {
+      "path": "CANONICAL_STATUS.md",
+      "sha256": "8e42e1e2e537ff56e9805f8f0c976ada66a9889c629ac785cabdef1431e63856",
+      "git_blob": "563ec0f79ced2a92148b0e2077b321295ac8078f"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "d2c6df17baa9fff19ee7c4e607b6a8dc3b385ab2a9e20572c8962c1e82fdc5e3",
+      "git_blob": "a9c1f5ec3c363cd3e9bfc6afc7ec18def56f8c70"
+    },
+    {
+      "path": "DEVELOPMENT_STATUS.md",
+      "sha256": "1ccc9f440c76a7a73521736ad70eda7584197555981a9bf0faeb744a2da9ab46",
+      "git_blob": "bf9f123c776f7c9bdd4887c003de4cbac08ae8b6"
+    },
+    {
+      "path": "EXPORT_MANIFEST.md",
+      "sha256": "994a8b65dc6e02b979294c4580c160e3c18625db7a568ce2d1cbd8a733e311f4",
+      "git_blob": "74616ddedc252fb5cbf98973d8d66eb081fc0ab4"
+    },
+    {
+      "path": "IMPORT_MANIFEST.md",
+      "sha256": "6f8fe6d13ed8a371ada9be03fb30b4a6380c0b791a1068d333d36a6c2b57fd54",
+      "git_blob": "c4b35e32322b4615d5f445956db4675e756c5450"
+    },
+    {
+      "path": "INTERFACE.md",
+      "sha256": "461462d37c05b5c847485237d2d0081260c312d823d9e0277321f2a4e630898b",
+      "git_blob": "f82d16bf82777e120b7dc6a8e8a9349391bbbbf0"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "dfa00011bff778279aca6994889ab8fd75c2811b5263b2254943dbcd92ff2409",
+      "git_blob": "86661dc0b2522dee1836855b64e9b16efee7d805"
+    },
+    {
+      "path": "LICENSE_DOI_TRANSITION_NOTICE.md",
+      "sha256": "2240a1bc8b3d1bcae5cc579c3ac26ec14e243aae057e3eb6345061f67c9d0fec",
+      "git_blob": "1c2b18f10b2751441e7b3058705f3a443afd9dd0"
+    },
+    {
+      "path": "LM_EXPORT_MANIFEST.md",
+      "sha256": "ceae592c168bd6d447ab290bf0ed84d1cb6ab91a6d567fef9eefe3f43653c796",
+      "git_blob": "415ec8976ec3cddd32f090524cf7c3cb0b7da227"
+    },
+    {
+      "path": "OBJECT_OWNERSHIP.md",
+      "sha256": "056390c939125ba61d1ba18167f1d00fff44e31b4b600d751aa24e5521cc3977",
+      "git_blob": "3504554d0e91ede304662eb538e9d3043d604dc2"
+    },
+    {
+      "path": "REPAIR_TODO.md",
+      "sha256": "c45305c8f3c052f7f8d8cf1e6f72e54947ea8ac4711b5f2f01d838868fd74e42",
+      "git_blob": "2b2a7558a2b330db8ede11befed23f0fbba33fec"
+    },
+    {
+      "path": "REPOSITORY_MAP.md",
+      "sha256": "6de375ec308c2edccb4df98c7a65c41d09dacbb736b587bb187ae6d3ac61150a",
+      "git_blob": "a676f4edfc856e19a193565574457d1ea5fef995"
+    },
+    {
+      "path": "TIG_REPOSITORY_STRUCTURE_DE.md",
+      "sha256": "d7fedfa2a1938d389b2297ec796700f50e43a622275dc8068eb8bf08c3fa9ca7",
+      "git_blob": "3d0b1cf9d5ea7bffa0a6f247392add154d5e7c22"
+    },
+    {
+      "path": "TIG_REPOSITORY_STRUCTURE_EN.md",
+      "sha256": "e6f88a2e3303d615bf2068d1e22af1c91290ec5584aee80fe1c8f63dbe7c82ff",
+      "git_blob": "3face87b3e8e2fdebcbf0f2ed5e472849c905344"
+    },
+    {
+      "path": "TOPOLOGICAL_INTEGRITY_GRAVITY_TIG_v1.0_DE_.md",
+      "sha256": "e6576d0d55350dae35f63b10e8c9450b6ab63a949a782837c5366bec54c820ea",
+      "git_blob": "c13ca3823f770a82ab21fbd143775eaa65526acd"
+    },
+    {
+      "path": "TOPOLOGICAL_INTERGRITY_GRAVITY_TIG_v1.0_EN.md",
+      "sha256": "7983599eae708ce41ca3c12e198191d86cddd1f757d1f0b049c2ff9643673916",
+      "git_blob": "768dbb8ce3bc07ee605175d108f3ea1573124abe"
+    },
+    {
+      "path": "applications/biological_integrity_dynamics.md",
+      "sha256": "a5266006842d56e770d6b32bbe36f5ba6adbec24897a7be3c3925cbb971d83d9",
+      "git_blob": "8464e54f631a8347349a604d5e25692b866db930"
+    },
+    {
+      "path": "applications/biological_integrity_model.md",
+      "sha256": "208c0d606c565b4020c4e27bb2ce30a00f4bf47e05f3efac8d2b7aa4eff47f72",
+      "git_blob": "3ae3f16ab602b07f18a6c52945acfad08c4db722"
+    },
+    {
+      "path": "applications/biology_predictions.md",
+      "sha256": "f019bb156693b1db8a3f914fd86d27fbfae67ac0a906a6695055d894dad21fdf",
+      "git_blob": "8e51fe54ee68a45dca2f4c4ede153f11dafaece2"
+    },
+    {
+      "path": "applications/cyber_integrity_model.md",
+      "sha256": "fb5458d711855968ffa959aa5a98e1b1c7667629b6f27272ba30e7135ab957d9",
+      "git_blob": "d6a71411158f12808f40d5bb879e47f61b6b8daf"
+    },
+    {
+      "path": "applications/mas_integrity_simulation.md",
+      "sha256": "5675b6cbd1a564a8ae48e4962250c194fcfef427cbdcf50694f5a2519efcd916",
+      "git_blob": "7b92b45f2b4e3c4fa1a5b2e2e08a1b9bb50df97b"
+    },
+    {
+      "path": "applications/prototype_architecture.md",
+      "sha256": "584a9e4cdf528341849582573cd6610aab894cb595e3f8bb656a29ca2a61544b",
+      "git_blob": "5928b3ce21ca0313a933d314efafddf646f75028"
+    },
+    {
+      "path": "archive/field_equation_historical_status.md",
+      "sha256": "194c2da438d7b1956ab883cf34e0f8077ecbaaef54d6e18fa2b814e67073c320",
+      "git_blob": "2b37029f44be11e3bdef9a58d759f164718602d0"
+    },
+    {
+      "path": "axioma/axioma_architecture.md",
+      "sha256": "81626c6aed9463cec9ee2e4c9717d9e304d5336441f273238d4cd10d58f8bce2",
+      "git_blob": "7ee99086736ead5e745b6fec9590fbe48f0b6bf4"
+    },
+    {
+      "path": "biology_predictions.md",
+      "sha256": "e022e12f1194eaa9be6da572fbd0a6399fe47a11c7606b7bcc33f5ecc8fa8c6c",
+      "git_blob": "b98d7007f03b9d7cfb9eef37f5b9c25813fc50d7"
+    },
+    {
+      "path": "docs/ARTIFACT_BINDINGS.md",
+      "sha256": "55ebab3afbfdae96c8534341b8a34c2832287a57fb8f5f67ee4f6889699a4306",
+      "git_blob": "1f0ced71291858e10ad826da4f0bd692e9c7f00e"
+    },
+    {
+      "path": "docs/BUILD_WORKFLOW.md",
+      "sha256": "a947bf813b901d8da062118e324f7cb92fbbafd7455279dee146f3ccf87fc756",
+      "git_blob": "899bf6dd3d669ada71f164694c4dea256c9c95fb"
+    },
+    {
+      "path": "docs/PREFLIGHT_QIC_2026-10-03.md",
+      "sha256": "57b024249632ffe0beb16ed9d8fec478e94a0220aa3b4c00f04a2e45556799e4",
+      "git_blob": "c984d5f5cf39e59963c0a02287bb5381315f0723"
+    },
+    {
+      "path": "docs/PUBLICATION_CHAIN.md",
+      "sha256": "4abaf4d982f7dfd5e6a742f8b5d9d71e9da4b1ba33c75dbfbde44cf21a225680",
+      "git_blob": "18f571cca41b16ac78c2cf4d90507ccf3de8855d"
+    },
+    {
+      "path": "docs/QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md",
+      "sha256": "4d5f52024167d92ed0870abc9277ccb95c0bd88076d4a349fbfee10eafa432c6",
+      "git_blob": "c7a9e226cec4bb6f1e7e1326f6618e98fd44fb98"
+    },
+    {
+      "path": "docs/REPAIR_CLOSEOUT_2026-10-02.md",
+      "sha256": "e9d7410ddffa55fba5df579cdec3389d90366ea51436f897d14662833811ba51",
+      "git_blob": "b2e51f85cff31247b94f2f9a354ae03885a8fac0"
+    },
+    {
+      "path": "docs/REPAIR_WAVE1_2026-10-02.md",
+      "sha256": "17781a4428b4bd05fcc438963df0606c166addbc1f1bb78dc4d4f4c8fa8e6326",
+      "git_blob": "6e4fa0b5e3c8154ec9a1df1036e0c423a127686d"
+    },
+    {
+      "path": "docs/REPAIR_WAVE2_2026-10-02.md",
+      "sha256": "22d07bc314bacc457d10f92c1990f090589ab6f7aad5b0af58411da38ab083b8",
+      "git_blob": "d64b9a7b09bf3cd89c566ca7243668e98b661f58"
+    },
+    {
+      "path": "docs/REPAIR_WAVE3_2026-10-02.md",
+      "sha256": "6a2ea15462647b73ff42c5caf5e892d3b5dbad6c94443947ad83a2126e386878",
+      "git_blob": "0250738fcd91afdb56576102f97bd27431ba7125"
+    },
+    {
+      "path": "docs/REPAIR_WAVE4_2026-10-02.md",
+      "sha256": "f592cd37fc9cb81515736ff271d3233388113eb715779a50ca08d4b90f9498d9",
+      "git_blob": "311af536bf7099dc563973fb7c62bc36156bcb83"
+    },
+    {
+      "path": "docs/TIG3_SOURCE_COMPARISON_2026-10-03.md",
+      "sha256": "d2e073b54285ea484c5b628d75373ad8362647cd35a466f220698b08d78547e8",
+      "git_blob": "48f017e67261d3ade2ee739d240b3b1d94f73b08"
+    },
+    {
+      "path": "docs/evidence/preflight_2026-10-03/checks.json",
+      "sha256": "9d2f44282a6dcf502d569a8910e7a3bb14d33b54d1172c1f1c3f4b10e60a958d",
+      "git_blob": "bf03c08574430bc33a9d498726944aa5ab76cef6"
+    },
+    {
+      "path": "docs/evidence/preflight_2026-10-03/inventory.json",
+      "sha256": "0957135e58991225093fb2781c19c992dc63278ae966a34e0927f525d34119f4",
+      "git_blob": "9f11227ee11bcf4e485deb736f48369624c2b121"
+    },
+    {
+      "path": "docs/evidence/qic20_2026-10-03/main.bbl",
+      "sha256": "dd9ef71ff0c88ff4e5777d5bb5df35c3b89e18a17f3ba9733e719683d382c04d",
+      "git_blob": "9b431fad0d4079afd902592878894a32b623a159"
+    },
+    {
+      "path": "docs/evidence/qic20_2026-10-03/main.blg",
+      "sha256": "7047b70e84bb21e4215912c85056b646ade3f703124b3cd7e0863d4713661296",
+      "git_blob": "9fba33989df5c53d4b1c177822c4bc4c2674f09e"
+    },
+    {
+      "path": "docs/evidence/qic20_2026-10-03/main.log",
+      "sha256": "ea9dd8c0fb379e04375000ffe2f02d48437c6ddc6121e1e7fb19324075b6ceb7",
+      "git_blob": "1cf64603f5c934137f75a5d9afa57599fb363f02"
+    },
+    {
+      "path": "docs/evidence/qic20_2026-10-03/repeat_result.json",
+      "sha256": "33baf940e75fa40c9391f020069deb13e51f432da971fdf331d45f122f0c43ee",
+      "git_blob": "6ca5fadb182c80c4f5a3fc606d36930b581cdd29"
+    },
+    {
+      "path": "docs/evidence/qic20_2026-10-03/runs.json",
+      "sha256": "dfee25a2a50705074c41fb47c0385a056d2fe0fa62670eedb6c67e9af21ab7d1",
+      "git_blob": "d8be5f9bc5e02b99ced43f4aa31ab96cb30adb5b"
+    },
+    {
+      "path": "field_equations/field_equation_1_0.md",
+      "sha256": "549be8eee4ae7e3fd43f3995b075147af910b50219d41ee196bd06e994ae239c",
+      "git_blob": "9e29fe4f09b7a3d383fad17880f5489f79e6a879"
+    },
+    {
+      "path": "field_equations/field_equation_reverse_derivation_path.md",
+      "sha256": "7eeb71b1a111a58306d174e5625419492a9b32d467b43c31b48d1c981a89e1e6",
+      "git_blob": "5e5cea9fa83f4c594285f57436bda59f3f94ffa7"
+    },
+    {
+      "path": "field_equations/validation_status.md",
+      "sha256": "ddcfa721aec66dc22f4b45a2c84108e500b1cffb2508c23be48d6f03961df0db",
+      "git_blob": "01fc2905fe2bff736708d90808135366d7eab3af"
+    },
+    {
+      "path": "figures/tig_expansion_history_prediction.png",
+      "sha256": "59977fb99b323f060fcdb1ea67af966a7a7c0a3634709e1d769aef5b39cbda40",
+      "git_blob": "61334d3036a95863069265fa1e553687581b9c4f"
+    },
+    {
+      "path": "figures/tig_horizon_branches.json",
+      "sha256": "fa64616f27e5b03a9d4d23435442c20dd5ac9ae270d384528e317f85850012fb",
+      "git_blob": "814591c325fc6eddc0f2467aaceecd0d5897fc29"
+    },
+    {
+      "path": "figures/tig_horizon_branches.png",
+      "sha256": "ee8afe996d7ba08ca14d94b4ca0e1df9a94a1715191d43c03b64d1394a86c1ff",
+      "git_blob": "fa70b27be9f04eb21dd113c304afbf4f6e49ac0a"
+    },
+    {
+      "path": "figures/tig_horizon_radius_prediction.png",
+      "sha256": "a16d41c3ed90f75f06af6c92536232559dff4e2c4f3f178dce578f825443119c",
+      "git_blob": "f343f7dfc7b54e404fb415ef70bf12d6fa516d15"
+    },
+    {
+      "path": "governance/claim_boundary_standard.md",
+      "sha256": "a55b869f50a452a9f40a648006bf215edc12812851e5deffa76ab2b2e244f25b",
+      "git_blob": "3d1cae6aea7b7d45350773f5d362443485fbef57"
+    },
+    {
+      "path": "governance/repository_standard.md",
+      "sha256": "8fd34f2a5b72150556eea4fc112325ea14b386e2554a399d2b036d272e1866b5",
+      "git_blob": "c3cad2a8d64c1a77b67b24b9bf27cde92d9c85ab"
+    },
+    {
+      "path": "papers/archive/docs_redundant/executive_summary.md",
+      "sha256": "5162099e17d30a1b40b46134496d9fe02ca1b10ef796ffafbe2bafd7e90b034a",
+      "git_blob": "8842c1915db0a69266dbd504dc577c041e394316"
+    },
+    {
+      "path": "papers/archive/docs_redundant/whats_missing.md",
+      "sha256": "9d65ae9a65e0ac8300d41a8d07ebea80c2b66a8a289a40d32fda19369b38765e",
+      "git_blob": "d43b51af8eedb743b09a55bf6645454dc137f026"
+    },
+    {
+      "path": "papers/archive/forbidden_paper_versions/tig_black_hole_solution.md",
+      "sha256": "daa80d157c67f8d6b8585bff9edb671695c41436c266d784994ddefe42bd5e24",
+      "git_blob": "c337985090f5226cd1dcf84bab83fadce33f3770"
+    },
+    {
+      "path": "papers/archive/forbidden_paper_versions/tig_foundations_v1.md",
+      "sha256": "faa406bdf9bda78dd9f996c001431b9e745d887d04d0d0fe43c1ffdb9be6dea2",
+      "git_blob": "310ddb3c3a9a868011c1c7869f604d73bb4040e9"
+    },
+    {
+      "path": "papers/archive/forbidden_paper_versions/tig_foundations_v1.tex",
+      "sha256": "2fb65f1dca9b8e60c051b61f226a11e4dee07e07465914ffa9568453b6f2c772",
+      "git_blob": "00e61066bcc09db514422c2070263a096042e8d0"
+    },
+    {
+      "path": "papers/archive/forbidden_paper_versions/tig_master_arxivf.text",
+      "sha256": "e0bad8844beab2daabcf18e1eafd7a62d063a412499fd642054a05b41ca43cfd",
+      "git_blob": "a90aef43e830e5df18b9ed119f7134246818ebba"
+    },
+    {
+      "path": "papers/archive/forbidden_paper_versions/tig_master_paper_v1_backup.md",
+      "sha256": "9ccb0d4c035feaef03a967def95358e7f4e02b7958c358cad380772a20069241",
+      "git_blob": "d539b7e1109cea241928476228ce095362b53bc9"
+    },
+    {
+      "path": "papers/archive/paper_fragments/limitations.tex",
+      "sha256": "3fe4e2e2d11c898a830a910166624afabf0f021573ea7d2b63dadf6bb9cbff8d",
+      "git_blob": "e787e458e231fd60922677211e46b8f6ee180340"
+    },
+    {
+      "path": "papers/archive/paper_fragments/tig_black_hole_solution.tex",
+      "sha256": "fc8f9e9bacf79ed53ff8f93673c23f5624c6200b66c4ae69c5c28884cca545ff",
+      "git_blob": "1e28af6d069d5173e725470b364b3d6ae0bb2855"
+    },
+    {
+      "path": "papers/archive/source_bindings/tig_2026-05-03/README.md",
+      "sha256": "fa1a9dd6fe1a404761125f4ef67ce7884148d8135f97e422c85fa9450534bf07",
+      "git_blob": "5cc791387348dfc99238abf2ec1441fe02b4d129"
+    },
+    {
+      "path": "papers/archive/source_bindings/tig_2026-05-03/main.tex",
+      "sha256": "9d6d183b159cec956058efbff0bb270760cab94af738c537a76ede6283e742b5",
+      "git_blob": "5acbd0d12e2fd79ac3b4f8ccddbcddb0fb69f76e"
+    },
+    {
+      "path": "papers/derivations/_friedmann_derivation.md",
+      "sha256": "a26da4d627a8fecae8c97a7b08127b12e1fb2c6daf64a8faaac4b58b6a16c23d",
+      "git_blob": "014e4e27921f8a731a6ee1f64345c120a91cb904"
+    },
+    {
+      "path": "papers/derivations/black_hole_R2_derivation.md",
+      "sha256": "6bc383535207ceabef0df41497500a4ed32731c96b7af72a3a805096666eadcf",
+      "git_blob": "6533f4e7a6a36712250a72234632cd1400fd225c"
+    },
+    {
+      "path": "papers/derivations/black_hole_stability_analysis.md",
+      "sha256": "f0555cd4c3f060d90daea74c86aecf7e6c15ccf48f7ba48c6845816926913757",
+      "git_blob": "8ba01ddbd2c2f79ff64bef5487758481502da82c"
+    },
+    {
+      "path": "papers/derivations/comparison_starobinski.md",
+      "sha256": "6de90d57bca752b0bf6841791d0b20bcbf6cb9d9db8ab11a9b5b308581c7a54a",
+      "git_blob": "60e4870b4029575e57475004d697a6459abdaff1"
+    },
+    {
+      "path": "papers/derivations/concrete_scalar_mode_prediction.md",
+      "sha256": "ad60eb201aeaf42db3691b80bc67e2158f72338187d8b62166de0aa5f246909d",
+      "git_blob": "b93989f7025493d62de1aa60e7ce12520ecddd89"
+    },
+    {
+      "path": "papers/derivations/core_strengthening_plan.md",
+      "sha256": "c9138e46c131c0fc731cf7c2b563aad8950204f76e82a7c1bd674184a3519750",
+      "git_blob": "3c73b55db4867e5eb4df07b94938e096ce5423da"
+    },
+    {
+      "path": "papers/derivations/cosmology_friedmann.md",
+      "sha256": "ae888f15c1ee132a59d4f29b55099b5d29193d737fed6aaae03db652fd843ba4",
+      "git_blob": "3b416a02a2c9af49b0a67f51bad78b45dc94a138"
+    },
+    {
+      "path": "papers/derivations/cosmology_prediction.md",
+      "sha256": "23f78fc309e8304bbb4804e5f86b0ae33252960e43fcc3c56c6ac2676cb23800",
+      "git_blob": "2ebe1af53d9078c7f4092f99941d06bf86ca76ad"
+    },
+    {
+      "path": "papers/derivations/curvature_check.md",
+      "sha256": "16f6c12f1e15177b68994e48584afeb6aed58b9e1e4b48daf237508843d16c30",
+      "git_blob": "f21a417f9e6a319acf4a3339aa35c47f85c25bb1"
+    },
+    {
+      "path": "papers/derivations/derivations_comparisonlayer.md",
+      "sha256": "4e3d0c12facaf9eacbec83a09a534b09fe4b7191ed84636a3632bc1ca2f57b21",
+      "git_blob": "419a9a85ae98f2ae59d62dce50b56f3ad7121b24"
+    },
+    {
+      "path": "papers/derivations/derivationsoperator_to_geometry.md",
+      "sha256": "12e0adaf77b374b733d31e1779c22dfd7590039c51e2eb739b6eebe0831698e8",
+      "git_blob": "cb1eace8c3eb039d1e728930e4e71538e86178b5"
+    },
+    {
+      "path": "papers/derivations/echo_delay_with_boundaries.md",
+      "sha256": "7a0fb0a8dfa3af534860b4e8006e849e3f2928e342a325204fcd3c3bf84a6d94",
+      "git_blob": "e209851096d2f66f58867ee96048291ce2cc5684"
+    },
+    {
+      "path": "papers/derivations/entropy-geografie.md",
+      "sha256": "476e83315b4e80b0b9461c9db2ac82f9ac5123e9409e145a7f2ef645cfc352c3",
+      "git_blob": "2706300620c9097fb6edd00529d1454930abce6c"
+    },
+    {
+      "path": "papers/derivations/entropy_integrity.md",
+      "sha256": "8e8cf492931377d2c8c8c368f1e1c3b37205b8de0ca4fb34efdc6e23f5a4486f",
+      "git_blob": "04ea8cf7bad39b3f9296f4c9cebd6b94087abcfd"
+    },
+    {
+      "path": "papers/derivations/entropy_integrity_framework.md",
+      "sha256": "8e8cf492931377d2c8c8c368f1e1c3b37205b8de0ca4fb34efdc6e23f5a4486f",
+      "git_blob": "04ea8cf7bad39b3f9296f4c9cebd6b94087abcfd"
+    },
+    {
+      "path": "papers/derivations/explicit_black_hole_solution.md",
+      "sha256": "77a097e98d3f71bdbaa1a50771771acb4323daf5434ae7203c1e4a2c408f39a0",
+      "git_blob": "f823ab7f0b6cd0dab6735f62f6a735ba5d09635f"
+    },
+    {
+      "path": "papers/derivations/extenden_geometry_layer.md",
+      "sha256": "df9a95be2bbfa5033da76750bbf258f1365444f223146e37991b0db3779cfb7b",
+      "git_blob": "90c6d514f1f55f4e2da86a2617890b8802c85b4d"
+    },
+    {
+      "path": "papers/derivations/friedmann_equation.md",
+      "sha256": "a26da4d627a8fecae8c97a7b08127b12e1fb2c6daf64a8faaac4b58b6a16c23d",
+      "git_blob": "014e4e27921f8a731a6ee1f64345c120a91cb904"
+    },
+    {
+      "path": "papers/derivations/horizons_thermodynamics.md",
+      "sha256": "6808d8577dcc5972e48a932d9cb3a52b1f6d644c2c53429f24fff8b44883713d",
+      "git_blob": "7d102cad55748495768c937b8c09c7d337cd1489"
+    },
+    {
+      "path": "papers/derivations/integrity_functional.md",
+      "sha256": "203ceb29ae9d8fbe5fb582a36493e2500ad6faca75ceea8c2ee0e53ae78d6d17",
+      "git_blob": "f5377832eaa9c3671762b073918d7b241d53ff2a"
+    },
+    {
+      "path": "papers/derivations/integrity_functional_systems.md",
+      "sha256": "c8f1ecf22f68ba098f27feb45c6736840f34f33c032a7586720d4cce61d4df66",
+      "git_blob": "8fb802f947531b9db39fa6715a2cad46134fb02a"
+    },
+    {
+      "path": "papers/derivations/integrity_tensor_derivation.md",
+      "sha256": "2b0b5c97a52359ec4e985ba7e498aa2f2dfb7dbb3318dce0e9d25cf0b00e6b1f",
+      "git_blob": "2fbcdc69c84b0b0d855f485b68c248e7d77775fd"
+    },
+    {
+      "path": "papers/derivations/integrity_variation.md",
+      "sha256": "ab2c845ecc5108e99b4780b1bab0f9d02dce12f87593451607e5a6f4a33d512c",
+      "git_blob": "3bc2c838464075373400c2d87c3e4c6eaf438a29"
+    },
+    {
+      "path": "papers/derivations/lambda_physical_role.md",
+      "sha256": "01bcdcd36abd5f5acf71666d1bd7deece2bf0d05386595a641205ecdb086479e",
+      "git_blob": "d48fe714c1ccb7d2574b27e13c09f3bc92e41e64"
+    },
+    {
+      "path": "papers/derivations/linear_perturbation_roadmap.md",
+      "sha256": "d287089d90393692bfdbd4e4b06940d06c00c79053375c6e43e4decc8a45ef88",
+      "git_blob": "5ff146de657dd8b3ddf2f2084e5555f8c71df61b"
+    },
+    {
+      "path": "papers/derivations/novelty_extraction.md",
+      "sha256": "da9e7bcddb1d8f5bf33820de6ee6a20f05acb7a60b032ec4a5406e30a34af4fd",
+      "git_blob": "79453392368384b93f1f1523a1ea907cb2fc56ab"
+    },
+    {
+      "path": "papers/derivations/parameter_physics.md",
+      "sha256": "2e6e562944488568dbb8d4752fa6d9829f3d6e1d8dc8307d4a9a2e088686b443",
+      "git_blob": "060dbf5e9ced379ec46cba765036d6e27721b6bd"
+    },
+    {
+      "path": "papers/derivations/predicitions_refinement.md",
+      "sha256": "da9360e7428c0a71b2a908b4f39432d9e2660cee1119e0835a3d3e09ede08da6",
+      "git_blob": "af496a85ce0ddad42ef5cdafc2bee9ec6cfe8132"
+    },
+    {
+      "path": "papers/derivations/predictions_tig.md",
+      "sha256": "acf305ecbb0bb6767c28125325f0171390954ffa88a6962189c0032bceab2446",
+      "git_blob": "cd806f6b7a120a9556eab46206abbf82bee4e4d6"
+    },
+    {
+      "path": "papers/derivations/quadratic_fr_and_horizon_checks.md",
+      "sha256": "23acefaff1caee7ae46a78d64460aa1ab176a3c9d871d641f9ed83048ae04ff9",
+      "git_blob": "d2d5c61ca94c500e481d232b65a43876790b4f36"
+    },
+    {
+      "path": "papers/derivations/quantitative_scalar_prediction.md",
+      "sha256": "0d1844d06f9893acb4e8ae24f1c818196f42378b6d45297f02082b491437009c",
+      "git_blob": "202e7123bcc486f2181de79818b050f3a8ede36f"
+    },
+    {
+      "path": "papers/derivations/quantum_link.md",
+      "sha256": "260ed8bdac5c037b2cc9fc0be38139fa384f57edb9718e4e93b2cc21ca681cc7",
+      "git_blob": "0953182778e6f783191f0377575916ae2a1c16d9"
+    },
+    {
+      "path": "papers/derivations/scalar_coupleling.md",
+      "sha256": "24243d4c51498b1a8aa08cdce03d03cff7c3d34d8b737bcf2753a99c66c054e8",
+      "git_blob": "ee5ee3b3a76936a1cf772c80e44511429c681b30"
+    },
+    {
+      "path": "papers/derivations/spectrale_derivation.md",
+      "sha256": "51be24fc876f8c85afdc9e0f6f109d6fef876a204780ee420d96c5678f5d5363",
+      "git_blob": "ffaaf5d8e7c295f60ef74c76419f02a12d833ebc"
+    },
+    {
+      "path": "papers/derivations/stability_analysis.md",
+      "sha256": "54cc62f8ff8c67b4bd9b385021bf2d6cbc33c5f674eccbd2a49d319436ca04cd",
+      "git_blob": "9b7882f3019c1ef498700e5bec32b72813c2388f"
+    },
+    {
+      "path": "papers/derivations/tig_positioning.md",
+      "sha256": "ad60eb201aeaf42db3691b80bc67e2158f72338187d8b62166de0aa5f246909d",
+      "git_blob": "b93989f7025493d62de1aa60e7ce12520ecddd89"
+    },
+    {
+      "path": "papers/derivations/trace_equation_scalar_mode.md",
+      "sha256": "18b8cbcf3a6e7e4cc76e58abb07122c0b7a5f3cb2f488ca617c03351b660692b",
+      "git_blob": "6949b4a04b44fd5f579475af4c6f2eafc41a2586"
+    },
+    {
+      "path": "papers/derivations/unified_intergaty_principle.md",
+      "sha256": "0f21ddd054002de87a6dee32c551472fa8037576be4106a241801a85b1336c13",
+      "git_blob": "12f77001af7c407314983c461962a67d4af69ffb"
+    },
+    {
+      "path": "papers/docs/faq.md",
+      "sha256": "731d8bfb2d0f9ae14f3ed9b4b627355c05aa8f4d07ec5c948fde78e456297192",
+      "git_blob": "f160d6040d89320ba81288b1b4b0520f72761ce7"
+    },
+    {
+      "path": "papers/tig-paper/TIG3_Vacuum_Structure.pdf",
+      "sha256": "b14b9f7013edbb1c18a09f077fb883c3c3555ea969600eabbeba699216c58132",
+      "git_blob": "8c223ea0f80d1b32f9b3494d4cf9fc01550f126c"
+    },
+    {
+      "path": "papers/tig-paper/TIG_Paper.pdf",
+      "sha256": "40eb555066bd1609a7d6e32154a88c56356773aef704d08b72076f8e2d0a8a87",
+      "git_blob": "33cecf3454fdf2ab8ff93372f9f3d1c4f9e5ef69"
+    },
+    {
+      "path": "papers/tig-paper/abstract.tex",
+      "sha256": "632cf35aff32842f9d2af6f4a977593e544d9356c61cd88462479decf4327153",
+      "git_blob": "077f339d3be1b7b156efcb3f7f642b7b810561e7"
+    },
+    {
+      "path": "papers/tig-paper/arxiv_upload_placeholder.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "git_blob": "8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "papers/tig-paper/main.tex",
+      "sha256": "c53f2e58cdb654cc39a2469f71336c7c5e13ec3a403928c4aff08677021cde84",
+      "git_blob": "7f41db5c77f93d7e55f883c75d564ebcc1ddc6c5"
+    },
+    {
+      "path": "papers/tig-paper/photon_sphere.tex",
+      "sha256": "d56065f17ae4e41fc285b83a72f37d6ea508c0e9c40075f8357cdc3bdea7cca9",
+      "git_blob": "edf35b044c4d646db7e9b38aad1bd9a465ce33bc"
+    },
+    {
+      "path": "papers/tig-paper/photon_sphere_generation_notes.md",
+      "sha256": "35368b0f39439e32c705178b349211117fa756ea32a7a32e598b93ff7583f3e8",
+      "git_blob": "2d719f735246498a0f4a1239c759da02d22dbecb"
+    },
+    {
+      "path": "papers/tig-paper/references.bib",
+      "sha256": "cdbb1c2a001e8bff38470856153d5fe82adefe30a3ddd42f0a84236b5034d7a5",
+      "git_blob": "ae908bf707807ec6d3391e31ea31275b3d0b31de"
+    },
+    {
+      "path": "papers/tig-paper/tig_bifurcation_robustness.png",
+      "sha256": "5871959391a2ca2c584df624ba7f91da42e65bf7e18da8b61a1fbaba82087b7f",
+      "git_blob": "3764bd04372009733b406b01ecd2992c9ce4fed4"
+    },
+    {
+      "path": "papers/tig-paper/tig_echo_delay_prediction_legacy.png",
+      "sha256": "815b495a41a23bfe92fa08d36fa7dcb5d181499d5872dbe992073b81efff0133",
+      "git_blob": "29afc26e433346dcea666784fa5af2da78596cca"
+    },
+    {
+      "path": "papers/tig-paper/tig_horizon_radius_prediction.png",
+      "sha256": "a16d41c3ed90f75f06af6c92536232559dff4e2c4f3f178dce578f825443119c",
+      "git_blob": "f343f7dfc7b54e404fb415ef70bf12d6fa516d15"
+    },
+    {
+      "path": "papers/tig-paper/tig_horizon_transition_publication.png",
+      "sha256": "db42e9b402e82eb04a5b30116183d456454274bcc528e1679580f7d19c876d78",
+      "git_blob": "733b93d29f8c4b75ee1401e14e106eabfafbf68f"
+    },
+    {
+      "path": "papers/tig-paper/tig_photon_sphere_deviation_legacy.png",
+      "sha256": "feba315579a9856a74af6ba632ffd6dcce3408ebf42818665b2574562609bfeb",
+      "git_blob": "0833bf6fc9a3bd71ec6679c905d5f9653bccbb97"
+    },
+    {
+      "path": "papers/tig3-vacuum/README.md",
+      "sha256": "f5ad24a4a76c26dff52ddbcd1b1862af75db7e1b56ee7bfbdc71eefe29230113",
+      "git_blob": "79206497021b9b5906bed54abfb87780a38b72cc"
+    },
+    {
+      "path": "papers/tig3-vacuum/source_import_2026-10-03/figures/README.md",
+      "sha256": "6e5be51bf6db3d15de7f4ac84853643384466ae6c2ae7fa6166ba891177ef81d",
+      "git_blob": "dce602d8e4cdec5a14c70c2fd1798589aca5e0e8"
+    },
+    {
+      "path": "papers/tig3-vacuum/source_import_2026-10-03/figures/tig3_cubic_branch_structure.png",
+      "sha256": "992fc16e93c224f7e32f6f3c6dfd0988b4a3dbfdaf61d879eb812fb65bd4aa16",
+      "git_blob": "a8ae0441125a2e90b2087c3c80544a0265ab19cc"
+    },
+    {
+      "path": "papers/tig3-vacuum/source_import_2026-10-03/figures/tig3_curvature_structure.png",
+      "sha256": "4c3cee391af0946b9578e67fcc5ffeba77b34748d7cddae7cd8f4da1a7cb961b",
+      "git_blob": "f200c070e50c2c765203702407aef59c03941c48"
+    },
+    {
+      "path": "papers/tig3-vacuum/source_import_2026-10-03/figures/tig3_discriminant_structure.png",
+      "sha256": "18fd43129536179a74610990feed9c3d10d8da1a2871cc26620046ef8a728685",
+      "git_blob": "41077e969db49fc0abfe3e94ea719bc1c8e41b22"
+    },
+    {
+      "path": "papers/tig3-vacuum/source_import_2026-10-03/figures/tig3_effective_potential.png",
+      "sha256": "c9fce17289bec1740515b6cc88f6cda8fa8792b92827619eaa42340dc64aae1a",
+      "git_blob": "416c8bd2a4fe0ac4ff8773f15c04651e83b7c43f"
+    },
+    {
+      "path": "papers/tig3-vacuum/source_import_2026-10-03/figures/tig3_lapse_function.png",
+      "sha256": "756e7222f990d89fc7feceb42eae5723fbe4441d0477bd4e539cf41ec456c3b6",
+      "git_blob": "c05bfc496bd76ff3ba52a3615209b927a759e4d3"
+    },
+    {
+      "path": "papers/tig3-vacuum/source_import_2026-10-03/main.tex",
+      "sha256": "515993dcf904694bfe082c6fdeafaf14c4b75d94584f06970e7a7bf628abce17",
+      "git_blob": "cf2ff568cd36377c477d6bfd9189307d4d4907c1"
+    },
+    {
+      "path": "papers/tig3-vacuum/source_import_2026-10-03/references.bib",
+      "sha256": "e5880d3b5f5951d01e9a77c90a1ad4bc60618e07375da2720a3b950e324a085e",
+      "git_blob": "c26fbf4ef45bba397cffb38bcab66b1555c2d797"
+    },
+    {
+      "path": "papers/tig3-vacuum/source_import_2026-10-03/sections/conclusions_and_limitations.tex",
+      "sha256": "c437653fff79ad2bd7e67f63e14498dd1f22abebe1f209d408b471bfaf5da78c",
+      "git_blob": "91b8290f982f012b5acc5bdc32a5bdda6dca2a30"
+    },
+    {
+      "path": "papers/tig3-vacuum/source_import_2026-10-03/sections/introduction_and_geometry.tex",
+      "sha256": "b431da360e387cb1d89ff0806585764bf699473709730116a8e9a313ee7a9685",
+      "git_blob": "e53a5a1ddae0cc8dc91473a1c01732f41ff8bdd4"
+    },
+    {
+      "path": "papers/tig3-vacuum/source_import_2026-10-03/sections/perturbative_framework.tex",
+      "sha256": "d5b0e36737cb4662e55ad8ff64e975a54939d5f200120da86973949d0583f58e",
+      "git_blob": "a82c82d83a748f09afd5f8bac0771c1a069d5a13"
+    },
+    {
+      "path": "papers/tig_schwarzschild_horizon_comparison.png",
+      "sha256": "c8cfc09b3d850c9fe9cdbdb4cc1fc7c899df9ee91e957366d1cfc2b8c94d5ec4",
+      "git_blob": "b6347b60bb6ea2619f5ba9aafd6d702dbc2a0e15"
+    },
+    {
+      "path": "papers/tig_topolocical_paper.md",
+      "sha256": "2a727d41a5128351209df7c2cfde481058195607c3c3c3fd6771ed2a8b9f5549",
+      "git_blob": "90372908e211df0a46b9d7aa38c04a0a69dd33ca"
+    },
+    {
+      "path": "papers/tig_topological_paperREADME.md",
+      "sha256": "30593fb9d128aa46ee250fca1630aa6bbe35b01700201c91d5014db1018e912e",
+      "git_blob": "6c946523dfe183e89446160b86391b17f840d5de"
+    },
+    {
+      "path": "papers/topological-foundations-program/README.md",
+      "sha256": "b39c84bfcea5564349770dbec0a36a16e3e9cf189098c5bbe2ada439e36f10fd",
+      "git_blob": "305499f25bf762a121384b7b2a90a14781bbe1ef"
+    },
+    {
+      "path": "project/submission/reviewer_notes.md",
+      "sha256": "6408ee11fc322663785da5e9cf3e61238376e1105b0eeabd7674a67081c6b9b4",
+      "git_blob": "628c4355e4cf6b4c68a52a49c88d67a6693cf9ff"
+    },
+    {
+      "path": "provenance/branch_consolidation/BRANCH_CONSOLIDATION_2026-09-16.md",
+      "sha256": "6f297f41274660e847ce9dfc72fd8609dd53256ffb409d5ecf6e931e6c1427bc",
+      "git_blob": "8ea913cbaaebf77bc81feecdc2173705ec126619"
+    },
+    {
+      "path": "registry/qic20_source_binding_closeout_2026-10-03.json",
+      "sha256": "4957bbe6ed134036530451c55d7bde01c0e233f27d9bfb2d7e0c9117899a5677",
+      "git_blob": "2b6ac06a452cdb711d89132a72a41658b9d6056e"
+    },
+    {
+      "path": "registry/qic_preflight_2026-10-03.json",
+      "sha256": "ac454c9d110102c6a84b7c1daf9dac322addb203fba5331d5bc2b96430f97f6e",
+      "git_blob": "99f37fab912c15c8e974ea5741cb548c9d9a9bf0"
+    },
+    {
+      "path": "registry/repair_source_search_2026-10-02.json",
+      "sha256": "b75bb6f2d5b6dd390829cd4879bba2ed4774f271eaff6866012dff9dbd0c7796",
+      "git_blob": "befd17c9de78104cf3dd4c5c207f4cc873ebe980"
+    },
+    {
+      "path": "registry/repair_tracking.json",
+      "sha256": "e0c708a11431969c88461c2dd2657878312892a5cb85534d633034ef5bcf42b9",
+      "git_blob": "301ac4cb4f6437b5a00bf2646a77d0e819e34142"
+    },
+    {
+      "path": "registry/repository_status.md",
+      "sha256": "c20c4a8bc6c1f6887ea1cb846acd9ecbdd7940775845505cae16e208a123ba58",
+      "git_blob": "d6b79e6b057441fd80b215d16d8f786ea774b520"
+    },
+    {
+      "path": "registry/tig3_source_binding_2026-10-03.json",
+      "sha256": "77eafc5d6eacfb9fb383fc6fb1979752e0a1192a574b6c6bbf4a6776f8d4f3e8",
+      "git_blob": "714bea173a346279c8a6e1b4c3d7825e8f66666e"
+    },
+    {
+      "path": "research/evolution/boundary_operator.md",
+      "sha256": "aa3cf885e5b6418ff1b458bc402610c3ae7f5abefe5c7f54940afa25af50354e",
+      "git_blob": "0e201029dabb0379aa99d3b6aee0ff08c26dbe35"
+    },
+    {
+      "path": "research/evolution/evolution_operator_axioms.md",
+      "sha256": "3abb2a060c85fa20a1f3671d01cc030e2bee6ebfb4b7b9d5241e6b2da4cdef9a",
+      "git_blob": "b4bf22cb8fa7b04f8a81a5a0bf9feb5ee53a5b89"
+    },
+    {
+      "path": "research/evolution/evolution_operator_construction.md",
+      "sha256": "78406f166d4d35c72838a21c2ca4c3723eae61bf4e32b0a8d244387766ce1b70",
+      "git_blob": "1827bcc80ac11cbe08c17dafa1ccf7e37008cac7"
+    },
+    {
+      "path": "research/evolution/operator_space_definition.md",
+      "sha256": "c56b3fec4dd15526070fab3748fab0659686f5d3ec191e880a3317723e0a2a6a",
+      "git_blob": "1f9c7fe88e710a1c4202b3ac875d38f639e510b3"
+    },
+    {
+      "path": "research/tig_literature_matrix.md",
+      "sha256": "34c3197104948d90be520e39caeac4354c507316761d131bce3d794790370491",
+      "git_blob": "77af4fb5e5d175b9a704a6a4e316b6581e3fa2cb"
+    },
+    {
+      "path": "research/wave3_source_review.md",
+      "sha256": "94a3703e589ec796846d4e23cfe368ed890e4fbd994710e7b431707e5f2ab6a8",
+      "git_blob": "f5ee280863b4955c0149a50cdecd9ddd3e3a654a"
+    },
+    {
+      "path": "share_draft.md",
+      "sha256": "63152f412d684920cf81c4c7ba8eb7f4fdf1dda45592fe7c996b1174361208eb",
+      "git_blob": "d678907a881fa39e0f94b460c95fd9d0d6f45ac8"
+    },
+    {
+      "path": "strategy/publication_strategy.md",
+      "sha256": "580773cf91374292c17208c56bc8d061649c319242d79b1939bbd63b3b0bc396",
+      "git_blob": "114e489cc9e3a18c400678112204a6be445fbdbf"
+    },
+    {
+      "path": "strategy/tig_emergence_program.md",
+      "sha256": "f31c446f72c5f4fca4057ad8ba88518364d513d6216db486fcba461157156d66",
+      "git_blob": "bbde5e72b4f694d3fe1f607a34d67a40048366f5"
+    },
+    {
+      "path": "submission/arxiv/main.tex",
+      "sha256": "2e58a8ec7f997c982ab62b7f85d054fed7fd4afc4f2d42d7b723bd7c635250d3",
+      "git_blob": "ec0f77129adbcc2e5108afdbaee885c3842c7587"
+    },
+    {
+      "path": "submission/arxiv/references.bib",
+      "sha256": "c8ff91e5e03f2b51c6f8e276a8339bd71d7331395688a77aeca5865eae3d8b93",
+      "git_blob": "49e4ae818b361977e4ec16754870bd9ebebfc4f0"
+    },
+    {
+      "path": "submission/arxiv/tig_echo_delay_prediction_legacy.png",
+      "sha256": "815b495a41a23bfe92fa08d36fa7dcb5d181499d5872dbe992073b81efff0133",
+      "git_blob": "29afc26e433346dcea666784fa5af2da78596cca"
+    },
+    {
+      "path": "submission/arxiv/tig_horizon_branches_critical_transition.png",
+      "sha256": "6a4819599f489c896d89210af86e9a6d1224fde39bf56c73bb21edbb68fc7a7e",
+      "git_blob": "99788c21fb868b9f0d4ddac98269adee3ec4670e"
+    },
+    {
+      "path": "submission/arxiv/tig_qnm_frequency_prediction.png",
+      "sha256": "a0a2464e67294e5925cd54f1b7dc17fe5ec276fca3a4c9ac3999327c5554f9c7",
+      "git_blob": "48f29ccc226a0efa27202bb18e422d19080ae56c"
+    },
+    {
+      "path": "submission/arxiv/unsrtnat.bst",
+      "sha256": "2b257bc5d35c5716691f67615b3b29cc718d05b6b998f87473c924dec0a652e9",
+      "git_blob": "5d82d41fc4691f52291a523a9346cccc0d070aad"
+    },
+    {
+      "path": "submission/exports/wave4_2026-10-02/README.md",
+      "sha256": "33c948958d576d512e556c90b5c214696c113ad68bc26e72a99b7e00d5489a37",
+      "git_blob": "061b946bb8cf464baa4415b6471f2acb8cf5824e"
+    },
+    {
+      "path": "submission/exports/wave4_2026-10-02/arxiv.pdf",
+      "sha256": "49674bc8e9ff2f9e956e7fd12ccbce98329def4991a82bb592d777d8cf744030",
+      "git_blob": "a59c9972e66a18804a756dbf84e58fd45eb5da9d"
+    },
+    {
+      "path": "submission/exports/wave4_2026-10-02/arxiv_source.zip",
+      "sha256": "015b3a3f3e4244fa0d92bfb2fc60eb8ea32070b254e55b6a8580b766263dd95b",
+      "git_blob": "4aabe399f5805b4beff251d571e51f5e8f09b074"
+    },
+    {
+      "path": "submission/exports/wave4_2026-10-02/paper.pdf",
+      "sha256": "a63f8df1774b4a79d7a346d6533cabe774878f2672c20ecb56c52c9fc9c6642d",
+      "git_blob": "c55169c0705b3d3ea6007a92b00dee9dafca8fc1"
+    },
+    {
+      "path": "submission/exports/wave4_2026-10-02/source_manifest.json",
+      "sha256": "efe18be776599c52fe0c5acc62bbf7d625e143c47ff9bda9b4ccedaed7bba8af",
+      "git_blob": "2fdb742d0a745eae0feb0a752c0ba8d111905fcb"
+    },
+    {
+      "path": "theory/black_hole_sector/README.md",
+      "sha256": "30bacf8580a256075528c701ed1bd0b3b1ca522a8c803d081dcd6bf09ea21f46",
+      "git_blob": "50622e1491dc175737ac37c0d33a75c55d5d6085"
+    },
+    {
+      "path": "theory/critical_evaporation.md",
+      "sha256": "b412a2ef0422527865cba0f8763511c63a0d079c722e110e6d1db2ea1974498e",
+      "git_blob": "fffd6ac414d7d0ef5fbf00e2ab3ad173fc8adf01"
+    },
+    {
+      "path": "theory/hawking_sector/README.md",
+      "sha256": "4b6d919776dd91967c52754c40b5107b281e3479233c28a78fe46fa0319c8660",
+      "git_blob": "3de96b8d185cfdc9c07e3ebafcf2381caaee5de1"
+    },
+    {
+      "path": "theory/hawking_sector/tig_horizon_dynamics_simulation.html",
+      "sha256": "c44ff12638ec5abbe83836c39130548dc04e95624bec047bfd32d60573c6042b",
+      "git_blob": "3b9b2db848901fea93b32dc5245a9971c0bd15c1"
+    },
+    {
+      "path": "theory/hawking_sector/tig_horizon_dynamics_simulation.md",
+      "sha256": "d58c5e14e1348991f4fc899bd2e0fbe472e9666acb1304f5d43fe140d316aeb4",
+      "git_blob": "6f0776bbefdee21897301cb27db9063afb0b2fb4"
+    },
+    {
+      "path": "theory/integrity_tensor/candidates/ITC_001.md",
+      "sha256": "4ef58826d84f35e5f19f4c8af7931ffc4e5eb80de12337cc2653d3a5f7c3c189",
+      "git_blob": "5591ce3796e0aa3a2605222b459e0199e29d948d"
+    },
+    {
+      "path": "theory/integrity_tensor/candidates/ITC_002.md",
+      "sha256": "98d0e1dc9872cd2a36037df417283b7ecbc47b1f7fe35f18bb1497a707e3d0ef",
+      "git_blob": "5b4938f728f18f2bb9bcc7d36a85f997e6c35c17"
+    },
+    {
+      "path": "theory/integrity_tensor/candidates/ITC_003.md",
+      "sha256": "b9c3c46d1d5d289ff45a2525b664f878c7945ae27864d5617c513a85ebef4cf8",
+      "git_blob": "e27ca0e6cfef3946e77a594be9844a9fe871884f"
+    },
+    {
+      "path": "theory/integrity_tensor/candidates/ITC_004.md",
+      "sha256": "a4084a2d4ed10a7376db88b0003e3914c941a64fe48d89a945bb080a4e4007a6",
+      "git_blob": "a58afd27d5cc01a69d985ef2811113caff0d8398"
+    },
+    {
+      "path": "theory/integrity_tensor/candidates/ITC_005.md",
+      "sha256": "7fe7434e28cf537ce5a57a20182f64672df2881720bfb4fffb750c7c504ade08",
+      "git_blob": "988756510038908e799501919e7881ccfb2c10a0"
+    },
+    {
+      "path": "theory/integrity_tensor/candidates/README.md",
+      "sha256": "f2a2b87fdf7e2d8c961236c81591def37153a3e04fc6b94a915376cfecf83c57",
+      "git_blob": "ef8112032f38c95fdc6bb7698a52aa4b5cc156be"
+    },
+    {
+      "path": "theory/integrity_tensor/defect_to_tensor_hypothesis.md",
+      "sha256": "8eb59df2aa8f724a74b1b38158038526756369aaf7dfd1dc6fd05217a1213014",
+      "git_blob": "fe5d033cd5c9f73207bafc1456e16f54a8c4908b"
+    },
+    {
+      "path": "theory/integrity_tensor/effective_integrity_tensor_1_0.md",
+      "sha256": "003b19cf1caf0c710b6bc7f1964fab1bb41f551fb7d62716a5be121e2a706c8e",
+      "git_blob": "0bab726db144d0d1123d2cfb194992aa203025f6"
+    },
+    {
+      "path": "theory/integrity_tensor/geometry_to_curvature.md",
+      "sha256": "b3a28783e95f80bac2bf186ef05db42fd27b6e990e8959029b7ed00af21020cc",
+      "git_blob": "5b4b85bd165aece54ed1f5ed66595cf94e35e849"
+    },
+    {
+      "path": "theory/integrity_tensor/integrity_scale_requirements.md",
+      "sha256": "478fc4d716a4615a89bfb5b9945d2528d5fa658a66f8932c1bf8e8a9df2659d6",
+      "git_blob": "f346134434935cbdd85a34f05381a5575b528b6a"
+    },
+    {
+      "path": "theory/integrity_tensor/integrity_tensor_candidates.md",
+      "sha256": "a3531af0a9795011c19f82919b9069d850835b7fddec9950e32c7a13c3183684",
+      "git_blob": "643e64f4e33d170925d63e4f1d4391a5595ef63c"
+    },
+    {
+      "path": "theory/integrity_tensor/integrity_tensor_comparative_evaluation.md",
+      "sha256": "b0b388e19cbe15e17470c3a1e33855aae77c1897be52737d4f28c1fc895c6d32",
+      "git_blob": "541dd9252a7f0b1579695177a27adbb5e7661f3f"
+    },
+    {
+      "path": "theory/integrity_tensor/integrity_tensor_evaluation_framework.md",
+      "sha256": "1488ef02fa6cd0a5b9adcc23a8ea5178e889ecffa1a844dec92b26f8be6b8eb6",
+      "git_blob": "9d8ed96761bc76e8c36f04c98c2880d1c2b13150"
+    },
+    {
+      "path": "theory/integrity_tensor/integrity_tensor_evaluation_results.md",
+      "sha256": "d0f3131f1329bce6a5d62ffa457affd0a371d9b6daac963a8514e35528e8a559",
+      "git_blob": "9a45dd5a053b35ef0dd5f6a64226df246c1d17f8"
+    },
+    {
+      "path": "theory/integrity_tensor/integrity_tensor_phase1_summary.md",
+      "sha256": "7f416a3f659d7c24e67a1163794b5e64e4eb86e300cd961baac1be3ac7ac1983",
+      "git_blob": "c42fe0164327d36e412074f35255948b6fd2c5c7"
+    },
+    {
+      "path": "theory/integrity_tensor/integrity_tensor_program.md",
+      "sha256": "3e2229fcc04901667ea29189ee2e54b6918123900a9111f63bc8c791a09019b4",
+      "git_blob": "5f8c8e150931d9ba56891607afbec437b3572d1f"
+    },
+    {
+      "path": "theory/integrity_tensor/integrity_tensor_requirements.md",
+      "sha256": "23c2c494ad16cd6d7f49e67d3e6c9309943a162cf723c83c377e18b8a7a099f4",
+      "git_blob": "f627fc1471996d91e8e99b5493bf8fcddb7f9a0d"
+    },
+    {
+      "path": "theory/integrity_tensor/integrity_tensor_status.md",
+      "sha256": "d260a89af53e36dce6ddaf17613407f218868e1c19e24daa456b223f23657715",
+      "git_blob": "9f2831be250c5731cdcd69551733cba8fe7d77cc"
+    },
+    {
+      "path": "theory/integrity_tensor/integrity_torsion_scale_hypothesis.md",
+      "sha256": "46d9d6c83489cef659053ede07fdc604c6582d3fea12304229c4a2e9b8ee455c",
+      "git_blob": "b8d770d9508894697ce328023497eb92eaf1daa8"
+    },
+    {
+      "path": "theory/integrity_tensor/organizational_action.md",
+      "sha256": "38ed570c1089e1e83d01221d463c6e866edd74a926ba7c815cc7b5c207d31195",
+      "git_blob": "a0a9f8989f4215450e6eccf90ce8f4b56ba6f01f"
+    },
+    {
+      "path": "theory/integrity_tensor/organizational_curvature_defect.md",
+      "sha256": "844be416db96c87b9ac67ebc424b2019ac086a6611539848c02228f60b8e282d",
+      "git_blob": "b7c7d3394880fbf91e5fdf8f4f3315539544b67c"
+    },
+    {
+      "path": "theory/integrity_tensor/organizational_integrity_tensor.md",
+      "sha256": "3a22ac15bf023199632f54a1d857d9e7ebe167453c045a5ba6975dd7648796a3",
+      "git_blob": "d303c5aa00a853431bbb97c3543f6cc2a9f55597"
+    },
+    {
+      "path": "theory/integrity_tensor/organizational_tensor_audit_result.md",
+      "sha256": "f1a201059b5fcda600d8cf144fe406c437068a88150172bc241b00332dd7eb44",
+      "git_blob": "06a5a128e5bd3ef0b38523f04a50ffdbc11064de"
+    },
+    {
+      "path": "theory/integrity_tensor/rho_hessian_tensor_test.md",
+      "sha256": "e53b6d2ebd6d69e01b7bdd5ae219145d58cc89d5b1c42eda657ce96c38fdf358",
+      "git_blob": "acf1f38fd290b435cbfdf07c59a6a36544096a69"
+    },
+    {
+      "path": "theory/integrity_tensor/tig_field_equation_1_0_audit.md",
+      "sha256": "6c3947ee4e959f7cfd8231165592ba98ada845d918ea37fa838a5b1a42c543ec",
+      "git_blob": "8958f23a5338dcf6f08216bfc966647c87dd958f"
+    },
+    {
+      "path": "theory/integrity_tensor/tig_field_equation_1_0_integrity_torsion.md",
+      "sha256": "7764be2b08f70b99cf90e55cfeff5cec1fa47b29e4b51aaab8d3a9f40d9ef55d",
+      "git_blob": "873d9c85ce2401afee0dd8bfad95e17a6d8dd3ec"
+    },
+    {
+      "path": "theory/integrity_tensor/tig_native_tensor_derivation.md",
+      "sha256": "7ff270d0912b8062fadeb4d1294e9a55208a916022d7c570f9afe03868b9b2ab",
+      "git_blob": "8a541d59f46848e18ea556266d62055db603daf4"
+    },
+    {
+      "path": "theory/integrity_tensor/volumetric_organization.mathematical_definition.md",
+      "sha256": "61a007dab6576901ef78f8c5f63a00eea1e4bdf47358c28c1d8fec266a30c06e",
+      "git_blob": "e2cafa14c97c28e1ffab439111506cf09e7c1f56"
+    },
+    {
+      "path": "theory/integrity_tensor/volumetric_organization_to_geometry.md",
+      "sha256": "001cf511fbbbeadb7d1cfb606748bbea2c389e2c4f6ca9536638aa3a3ff13e64",
+      "git_blob": "913bc492dc768ee2db017d7b31891dc14bf22b50"
+    },
+    {
+      "path": "theory/mathematical_derivation_of_TIG.md",
+      "sha256": "786c602812956d0d8b43216436b842dff602dd0dd520fcadf756ae170959584d",
+      "git_blob": "c790db14653016ba6fbc0e1f8dfa9955a349dc02"
+    },
+    {
+      "path": "theory/photon_sphere_dynamics/simulation.html",
+      "sha256": "c36618eed3551f862838a11ae63047bcec0db1aed647db18a32b5708f2905121",
+      "git_blob": "2047b6a7e1d347a1656a4b695ed5f0650630d272"
+    },
+    {
+      "path": "theory/tig_horizon_thermodynamics.md",
+      "sha256": "5c8e45399b5aab71e42cc52f191b5d222a5c3d54ca8414a006c6f60d69e17a0b",
+      "git_blob": "13d9caca98ad7b6e1d5f3be5ab02e386aae25f05"
+    },
+    {
+      "path": "tools/build_manuscripts.py",
+      "sha256": "15ebf67488752ac28d7ec9957361847cd1b2e3fcb339ca0c0a6c2c17d1d62a63",
+      "git_blob": "83aa9fdf055ad7412a6cb1dd15d46da04750bc5f"
+    },
+    {
+      "path": "tools/export_arxiv.py",
+      "sha256": "fc4705f14174804545cfbb561631dd572e0086b1db4dbabe15e67029ad05d956",
+      "git_blob": "66fa92df0137098bccc8593fb261d9950077a366"
+    },
+    {
+      "path": "tools/generate_horizon_figure.py",
+      "sha256": "e636e00487e9af49379a006e355d335a4fdd842df875cff88125e13c649da2f0",
+      "git_blob": "553d58b04d63903b400b180f2ff444a159bd4181"
+    },
+    {
+      "path": "tools/reproduce_historical_tig.py",
+      "sha256": "d90f447be3b3923c8b91afe11be53346ccd0599c3639bff5538bcf6ba5d07ade",
+      "git_blob": "777098850c9b942582a553e2419bace7b609d409"
+    },
+    {
+      "path": "tools/verify_wave2.py",
+      "sha256": "7cf6ea9e33573240c62597e3b7f0e5a1d2ff7482aa89bd4ca38cef865399a823",
+      "git_blob": "05bc4d37755a671bd4298f6a60d6c0e95cd070f3"
+    },
+    {
+      "path": "tools/verify_wave3.py",
+      "sha256": "b99fb76935106b647d079bd7dae2489308d8aee3f3b012bbe48cdfe20e517c1d",
+      "git_blob": "80442ab6d6b0caf200a3e63eeda7ffc57d85b254"
+    },
+    {
+      "path": "topology/READ.md",
+      "sha256": "fd3387d0c523bf9017b8100690bf9eaf81d37f08beedb64c1a54f503378338cd",
+      "git_blob": "01b899f5051d6e62df7a9a234d59ee4f12fa986d"
+    },
+    {
+      "path": "topology/README.md",
+      "sha256": "6a4e4cdbe61b54e7ce0008ca2ea1a0b9bcff769680397034a68abab44215d1e1",
+      "git_blob": "b4388abef767de9100e598dd116c21c81a7d2408"
+    },
+    {
+      "path": "topology/STRUCTURE_PLAN.md",
+      "sha256": "133f7314d5813272d8c44d9f88959c3e0964d5c37755728d5a8d7652ebfe9f9d",
+      "git_blob": "c3b34c7d8c135149858e67287bdc5d2cc9d2ee6a"
+    },
+    {
+      "path": "topology/admissibility_conditions.md",
+      "sha256": "a960c0efe37a1cfced41c856fa0135f9f52136d9aad99de16b0395993a94bea3",
+      "git_blob": "9413a71577db3d0ba2411dcb17ca7df73d885560"
+    },
+    {
+      "path": "topology/axiome.md",
+      "sha256": "92a65de1035222f326776ebfa4b46e7b0d393a121fd4fc8c15c77e3a7fcf2a89",
+      "git_blob": "3175a9cee188fb832a96660707834bb6888537ce"
+    },
+    {
+      "path": "topology/branch_structure_emergence.md",
+      "sha256": "92a1546684b2626b65275d908fb3626c4671e0ffce35966c499d9c55299cc117",
+      "git_blob": "7ea14b066192428fbb89e5ed2f25e27969a20914"
+    },
+    {
+      "path": "topology/canonical_emergence_route.md",
+      "sha256": "3b455d82e478be925694fdebabfb74b2d49201cedb07cd691c7feeda26f84b5e",
+      "git_blob": "27b3e28becfa7733dac32f1791ea75463639649f"
+    },
+    {
+      "path": "topology/connectivity_operator_formalization.md",
+      "sha256": "c8dca664a746bff0585d45938570260aad17e950da7adf7589e4251ae26d32b9",
+      "git_blob": "68eefb339cff81a494bae50f7450a6af56b2e230"
+    },
+    {
+      "path": "topology/connectivity_operator_foundations.md",
+      "sha256": "852d704b7d74729b3f0348b9a81e3941691bcaf79e9775a4dbf4385bf3b1bb85",
+      "git_blob": "22f6a7586e02aef14663f07ea6337c2e31a5647f"
+    },
+    {
+      "path": "topology/connectivity_to_geometry.md",
+      "sha256": "e7797789975dc46e1ef338707dfa53eaea7b39447d2c2c2ae3eec112a276689f",
+      "git_blob": "8f3f2faa88e4ce037fa67acf73cb5899ec4c7eb6"
+    },
+    {
+      "path": "topology/continuous_geometry_limitations.md",
+      "sha256": "226a0ca2a0b7c5333d3a843287c78a3eca04c2e6987db258b17503b24c044161",
+      "git_blob": "0548cf06130d3ed2878706649ec2171a2774e3be"
+    },
+    {
+      "path": "topology/core_axioms.md",
+      "sha256": "8e5e916cbe33ca6e0f228878a60e50cf4a1912ec6b9da3a91cb6a51ec21154b3",
+      "git_blob": "a4415da5fe18610bc925b6b32da5b9939c3d996c"
+    },
+    {
+      "path": "topology/critical_open_problems.md",
+      "sha256": "f387f6c3c8c908f3b7a5063585707c5654316a13426dc97d1282b6665f77571b",
+      "git_blob": "8f1aab256b2f3027cce044c3645167e75a5c8758"
+    },
+    {
+      "path": "topology/critical_surfaces.md",
+      "sha256": "92a65de1035222f326776ebfa4b46e7b0d393a121fd4fc8c15c77e3a7fcf2a89",
+      "git_blob": "3175a9cee188fb832a96660707834bb6888537ce"
+    },
+    {
+      "path": "topology/critical_transition_dynamics.md",
+      "sha256": "6f1149daac675524d1fb8a5f608d9638da686de1b41898b332cb20220eee0d2e",
+      "git_blob": "a7d4d48bfb4fe9beff3a07435f2ad7419b18129c"
+    },
+    {
+      "path": "topology/cube_necessity_investigation.md",
+      "sha256": "a93b4f5a1c749b385d744d2ed4e09c54bba3c8764d4a586b57ca262841a1c4df",
+      "git_blob": "1318169d81319df3028561259df95c14924d81ed"
+    },
+    {
+      "path": "topology/cube_struture.md",
+      "sha256": "1b0e90c483796b8573fd2f9af055cc75b0f1bd3674f8854d1ad49999124545e8",
+      "git_blob": "3d5e91c23c90881ed2007948cbc2731c66b46480"
+    },
+    {
+      "path": "topology/curvature_from_connectivity.md",
+      "sha256": "cc4da08bd471d7bc16ac4ddddc0340297fab131cdfdcd07255d7c36ebb72bc18",
+      "git_blob": "e9b106a03a235b4552d480d7ba3f69c2496eb2d0"
+    },
+    {
+      "path": "topology/emergent_3d_spacetime_structure.md",
+      "sha256": "468a8c9bd8f1234b73cf9ab40d98dcdf48f2fad7664ed8680cecbe271efb063b",
+      "git_blob": "0dc1472f0b76346a8c0618394f464117a450c9b8"
+    },
+    {
+      "path": "topology/emergent_curvature.md",
+      "sha256": "404a469920c9404240c5b7f8988778176857ad128b23f7d0c906a2aaee75a6bb",
+      "git_blob": "e064bfc238a68c9a6f024ae2cd92ef48ba86d593"
+    },
+    {
+      "path": "topology/emergent_curvature_construction.md",
+      "sha256": "81ee2a08fb8bbf390e89d7cf28dc8c37c2749012fc28f19b71a205176bbf8e80",
+      "git_blob": "c0f8ae119f98a2cffb165c73d03f748b9c4db408"
+    },
+    {
+      "path": "topology/emergent_dimension_construction.md",
+      "sha256": "e2e6f5ec83db134ac8fd21a3b5bf890afc24a913870e68ba43433b37b543d4a2",
+      "git_blob": "957411ff55126bbf268b510aa225a29845af4c8c"
+    },
+    {
+      "path": "topology/emergent_geometry.md",
+      "sha256": "311ddffec2fed7207c62f3d23b385b92bafd0bd9465452ac183f3aaf52742328",
+      "git_blob": "e4c48ea21b73ac77822a45daa1e76431e19332ce"
+    },
+    {
+      "path": "topology/emergent_geometry_construction.md",
+      "sha256": "169cc626a85db47eac64bdcec2eda386a346b09fe21b3cf63467794fd8ef8261",
+      "git_blob": "0ec8973e812a29aa96a18799f8b8cda6a40bd236"
+    },
+    {
+      "path": "topology/emergent_metric_construction.md",
+      "sha256": "4ff3d0b9583f104714797a0bd6410c2219aa424ace4b5aed13644e6c3e5ebc93",
+      "git_blob": "14f093be694db301b070a80ce5ed56d254584d09"
+    },
+    {
+      "path": "topology/emergent_metric_principle.md",
+      "sha256": "35cd68559876f148a8b46bffb340b006cad03f50ffa5388dc92cfb25347ae18a",
+      "git_blob": "f0721170f3442d1028505c17d7173b20fc965c9d"
+    },
+    {
+      "path": "topology/evolution/README.md",
+      "sha256": "7cd7551cfb46733651dbd19e3934673cb355170eb1ad2848d8295675db5ad4c9",
+      "git_blob": "47ead27dd80d104e49d991de0ef24b26385a22f9"
+    },
+    {
+      "path": "topology/evolution/admissibility_geometry.md",
+      "sha256": "a39d55c2a0c29b510415f34f6184d3f0c2df5b0820d6838fe1439e85f7cf68ba",
+      "git_blob": "16ff20338e818e2d0fd4ed4bdf060c76a1cf837f"
+    },
+    {
+      "path": "topology/evolution/admissibility_transition_structure.md",
+      "sha256": "11f6de761e45b32a7be3752dfaab1732583fef42b72a12836d887ed6935d0a7b",
+      "git_blob": "3d09d79b018964eb2402891172de672d1d4b99f6"
+    },
+    {
+      "path": "topology/evolution/recursive_connection_structure.md",
+      "sha256": "9ba8382dd5f327d6c12f0ffde762b395f88c086a986fac6aeb26feea20962da0",
+      "git_blob": "dc3a1ede2b9b651f391af99897dbd48c1702961a"
+    },
+    {
+      "path": "topology/evolution/recursive_curvature.md",
+      "sha256": "473e770d05e2406f505e7d754e4070aa3dee7df887afa56b7d9cb78796b18e0e",
+      "git_blob": "4e18b44063e6dc1c5755d243b67f9c77fc76e158"
+    },
+    {
+      "path": "topology/evolution/recursive_dynamics.md",
+      "sha256": "3f874941bf2255d30503fe68c0cb4c55e25b47a0215e80675eedaf495252fc32",
+      "git_blob": "9f26caf56f1040dbb74af5fae4771148b7d4b2dc"
+    },
+    {
+      "path": "topology/evolution/recursive_geodesics.md",
+      "sha256": "8d4c8c140f6cc625fcf62a3e8d972dada95e3f6f36e22cc0ee93d627265173c2",
+      "git_blob": "c0cfecb18ca3ce189e0671f3c8d479380ecb0584"
+    },
+    {
+      "path": "topology/evolution/recursive_metric_tensor.md",
+      "sha256": "ad0f8d0fd916f08f8e61e32e27f7c42c00b3637fff362fe6105b9b875444904c",
+      "git_blob": "bbf0271e7dd0f6deec7f5b1eb1b0c33264fdcee2"
+    },
+    {
+      "path": "topology/evolution/recursive_operator_framework.md",
+      "sha256": "e51715a236eb1eb81f9f11e15cef048cc9ea4e73891c5abac9a7d536928563bd",
+      "git_blob": "1217dd375c8270522377e0a9005bf64214af6b47"
+    },
+    {
+      "path": "topology/evolution/recursive_parallel_transport.md",
+      "sha256": "8fd54de0d9ceed25fa1f02f2636df4e22949d6607d2056f6a7c3e0df4bed8116",
+      "git_blob": "ada4f60dfb7e6351ce9250b8394e7cc91da486c0"
+    },
+    {
+      "path": "topology/evolution/recursive_stability_spectrum.md",
+      "sha256": "46516522fcebd66b4e9a4635d2b6f41c0113a1092fb6eebf2bbf42a347507d3d",
+      "git_blob": "bf5d7e65d06b7099bdc165610ea148756969c506"
+    },
+    {
+      "path": "topology/evolution/theoryadmissibility_evolution.md",
+      "sha256": "dcd724bf00249e34a2a561207d7c06f48766f09b7a7791354208b29f304bfe3f",
+      "git_blob": "4569cd4ded5bf43f165610e7345d442855a15c05"
+    },
+    {
+      "path": "topology/evolution/tig_candidate_field_equation.md",
+      "sha256": "91eee9b9b90ba14ab2c9aabf5afec461a7f5bcfe3f713c1e707127c6d47eb130",
+      "git_blob": "af95d85f8603d9260fd5fa5cd36532e3fde106f9"
+    },
+    {
+      "path": "topology/field_equation_requirements_from_topology.md",
+      "sha256": "34ff891d761e609574d8e6476736b48ff11d57167560c426bb4f97836a30ba0a",
+      "git_blob": "d459076d27642a2596c048e5a770f6f985bc712e"
+    },
+    {
+      "path": "topology/foundations_limitations.md",
+      "sha256": "b5c7fac0c3309f2f490a4ae59beca00a5062c91415483417eb49d11ab8d72637",
+      "git_blob": "00eb5087ace5c684c6591e741c9b38804bd16f9b"
+    },
+    {
+      "path": "topology/foundations_program_summary.md",
+      "sha256": "6178f5ccb4ba0084f36ea91f834ec196dd394369750380e327cf602752e2ddbe",
+      "git_blob": "d5cf173d72dbffc8928c38c9be248ca9ac2a4b39"
+    },
+    {
+      "path": "topology/glossary.md",
+      "sha256": "df392bb4c0e1843d49ed82aa897ce5511a9dc92a700016ba4e60d81795de44b8",
+      "git_blob": "b059a3f2d03dfc6c4fe7e379f671b2e594638d27"
+    },
+    {
+      "path": "topology/horizon_emergence.md",
+      "sha256": "1b554f773e03cb33844347f10ad84c1a16f766573ccff495a24148044a7f8fb0",
+      "git_blob": "b3270f83a530bf983f5eab468e133da301a4140a"
+    },
+    {
+      "path": "topology/horizon_emergence_from_curvature.md",
+      "sha256": "35fa50b18528ad19a2c426b55d88bab02b691b33dca965c4343c551add7290cc",
+      "git_blob": "8b0ecbf1673ba74419c23af0f1d918022959c028"
+    },
+    {
+      "path": "topology/integrety_metric.md",
+      "sha256": "8f55de646598c2f12cf88ec0ad2dd7cac7f13532af4d3ab5e8078de0b58d18b3",
+      "git_blob": "8591743a9ec7559e994a2ce1d69998ed579bb9d6"
+    },
+    {
+      "path": "topology/integrity_collapse.md",
+      "sha256": "b875de708f903925961314fef9b969f38b58708c440e2740dbb3cfcb18a83abd",
+      "git_blob": "64b3bb5ccf4ec89f308837a4dc6e86ef5fe3e678"
+    },
+    {
+      "path": "topology/minimal_persistent_structure_problem.md",
+      "sha256": "5e4abf26730a4d3fd7326cc6a66b8a45a089fd1180112af0f564d6f26f4240aa",
+      "git_blob": "3abce3b290fd6e81952bad39c43bce11a4086cfb"
+    },
+    {
+      "path": "topology/minimal_structure_comparison.md",
+      "sha256": "30fb1d928ff53a7c663b904bb45f9af3cf80afa4619a548ff2745a376b0603fc",
+      "git_blob": "58b88772bd760961882e811b5646188a81e63b47"
+    },
+    {
+      "path": "topology/organization_to_geometry_mapping.md",
+      "sha256": "365c1b7e071618d17f82647a40f4a17ab3e2354d0a01cd35ce0949924d0c6ec4",
+      "git_blob": "e25e7300e011414be7824149a9b3a6dedfa44da1"
+    },
+    {
+      "path": "topology/organizational_degeneracy.md",
+      "sha256": "4beb60878262b6ed92cf34421ae4f1642d6650796290c3df6efbc8076f81db24",
+      "git_blob": "d9a0254e2f97fb1a9c229ecbb9bf6838b8580139"
+    },
+    {
+      "path": "topology/reduction_principles.md",
+      "sha256": "bbe87dad3d57b6033f6298cbc2a7c50225a36601da0b07c49511a0ed146d2fe1",
+      "git_blob": "b8728e5effb8f63f07efce47693126d04731b318"
+    },
+    {
+      "path": "topology/research_notes/double_slit_admissibility.md",
+      "sha256": "3e53ed39531e9f0e7f865f047c2b47caf89fddc8385384a9ef5ca5be1663dfb0",
+      "git_blob": "149b9b1005dc1e96c1c1ecf30b4a3dca820c5418"
+    },
+    {
+      "path": "topology/research_notes/x4_decay_mapping.md",
+      "sha256": "a54b7316132650b0750cecad2b3adb441742bc7f77f4ef7093929e9be4e4a380",
+      "git_blob": "6e0be70e804478f114606a93b1afb73d46854225"
+    },
+    {
+      "path": "topology/root_manifold.md",
+      "sha256": "88c2aaea4cbe0458134cb2a18eb3724b64444c1e71939f9fa0db2ed94a7bc177",
+      "git_blob": "0c077476e81c42f79abd687e77ee208d21daca93"
+    },
+    {
+      "path": "topology/stability_attractors.md",
+      "sha256": "a4028427845f37ee5c401f04e21d8db932d6c60d6d2fa03fc8456b108eca9081",
+      "git_blob": "cd9a0ecf56b5ac50d3d435e4ecb938b6b7982176"
+    },
+    {
+      "path": "topology/state_diagram.md",
+      "sha256": "92a65de1035222f326776ebfa4b46e7b0d393a121fd4fc8c15c77e3a7fcf2a89",
+      "git_blob": "3175a9cee188fb832a96660707834bb6888537ce"
+    },
+    {
+      "path": "topology/structural_admissibility_foundations.md",
+      "sha256": "938ea5c0ecd40a2f6d5aaf9fad895e36aa8ce9a4ce7e4287dd3c2148b9f3577c",
+      "git_blob": "a6b453b63d2d0c8004f5b8e33d350317a013c52e"
+    },
+    {
+      "path": "topology/structure/consitency_audit.md",
+      "sha256": "09b86dbf33c44e82c9919bbe6d3f0679f4f6ebd998f16a1cd8ff54694e71d39d",
+      "git_blob": "63ffa97d3a1bfb4846fe152ea56bc845493bc963"
+    },
+    {
+      "path": "topology/structure/transition_oprators.md",
+      "sha256": "11765cfaf433928cfdda02337dd9f94ed5e27ca8843e9f572a103e031339d775",
+      "git_blob": "331529df33550f12baf69facb91473112bb31b00"
+    },
+    {
+      "path": "topology/theoretical_core.md",
+      "sha256": "6ce4162fb02ecb29e4594579d469bf3c135823fadc6802dea472dd95e09b8b52",
+      "git_blob": "ec9966ad981afccfafe596220de48f2096fe3b22"
+    },
+    {
+      "path": "topology/theory/README.md",
+      "sha256": "6b7f34eb16cae75a7ba08b997be7044be5b28de7a926a41c33dda7512526fc74",
+      "git_blob": "9a1b124a4af2c167ad30af5c0114d7efb3c11374"
+    },
+    {
+      "path": "topology/theory/THEORY_STRUCTURE_GUIDE.md",
+      "sha256": "cb4f373076a0575197c2fb77e7d09c193de180de1c37efb6b5f941ff5e942c0a",
+      "git_blob": "0f3f6ddb5104554ce3c4c58726c9313b4a86462e"
+    },
+    {
+      "path": "topology/theory/primitives/README.md",
+      "sha256": "9cd5a0669c4753a81f3a78e01571bd0edd058466e98bfa5deef7bdb08764833a",
+      "git_blob": "3f993524ef9867f65e722340a72e59be2b3f1f92"
+    },
+    {
+      "path": "topology/theory/primitives/admissibility_axioms.md",
+      "sha256": "c91197b4d4b0e8a84f52336a87510d372390d911d6f943c1d5d17ac3b5c4f17c",
+      "git_blob": "c817a91def9f3449c76e771ef5df9ee08ecbbd3a"
+    },
+    {
+      "path": "topology/theory/primitives/admissibility_functional.md",
+      "sha256": "f170b933cedec8c53f8caa4b4476b612e58dd425db75a4e650de8da55f184205",
+      "git_blob": "c41de59b1e901f0b57e382f938da06c7aeb9ce26"
+    },
+    {
+      "path": "topology/theory/primitives/fundamental_admissibility_principle.md",
+      "sha256": "89ebee8b6557946bbdd8d05539cbccd26d1600b182ed5b813f5f68df527a44ee",
+      "git_blob": "130bc04652fd39bc39074aa16e99bc7606817640"
+    },
+    {
+      "path": "topology/theory/primitives/minimal_axiom_system.md",
+      "sha256": "92567397ef6d8082d03f920488a2c31b136d2968621d35afc6e3fe09d0af8676",
+      "git_blob": "459d986b24256807e973c5473ff060970c329161"
+    },
+    {
+      "path": "topology/theory/primitives/minimal_recursive_axiom.md",
+      "sha256": "1304eaf012864257d89631456cf833a9e1a5528ab1508923ad16a845631ab0dd",
+      "git_blob": "88afb281d3c2c387870537e992559ffaecb5dbfd"
+    },
+    {
+      "path": "topology/theory/primitives/primitive_object_classes.md",
+      "sha256": "9fbfabf5dbb3e79cbe24db40ae52c53a9faa895622cdfcf84ea5b81f21ab1e9c",
+      "git_blob": "ead61ebae62da1084ad9e9805c44bd1898ea204d"
+    },
+    {
+      "path": "topology/theory/primitives/recursive_consistency.md",
+      "sha256": "571cb82f5b029689486d9eb9aef43af9a278b91ab30e033339e9d55be6eb3f11",
+      "git_blob": "894454b1ba7c9f7e1f6d4444a6d699ccdd2c35c7"
+    },
+    {
+      "path": "topology/theory/structure/README.md",
+      "sha256": "8aaa2191c56c296a86c6aeabbc059d17b8d07e5cf42901c3d188ddf9ede175fd",
+      "git_blob": "d766ef1026bbfa034c5c49fe4a5e62a9a251adb3"
+    },
+    {
+      "path": "topology/theory/structure/consistency_audit.md",
+      "sha256": "e4731ccf8d3fd5324a0baa095ea506639ff3429d9c075dcfe88765ca8b980c91",
+      "git_blob": "d08dd7ced3468aa695ebb9150855212b0b8e943c"
+    },
+    {
+      "path": "topology/theory/structure/definition_hierarchy.md",
+      "sha256": "d437cf968511b4d3ee7007618dd47ebee66fd37267606cacbe549db3022799e5",
+      "git_blob": "d09e20e21f4cc682740516a95ec8350efe53492c"
+    },
+    {
+      "path": "topology/theory/structure/field_equation_constraints.md",
+      "sha256": "2b73865384e392144f3f685822e4728887868356704babcc829718dabde17763",
+      "git_blob": "fa1e58eb321fa30083df9ac20d0be6215c061f15"
+    },
+    {
+      "path": "topology/theory/structure/field_equation_requirements.md",
+      "sha256": "ebf889d08075ec3bf3dc2e1f5c88125243d290cf6abfed5265186fafa5c6a388",
+      "git_blob": "4e8b7e14b0d97e32b76304ae093e9e5e63b112cb"
+    },
+    {
+      "path": "topology/theory/structure/formal_vs_heuristic_layers.md",
+      "sha256": "2e8a0a5a16796fabd30f1a0369639ed0ef9446370d64d54b810de1dfae2174fc",
+      "git_blob": "d5f78751336c6a537ec5b011bb26c80efea16053"
+    },
+    {
+      "path": "topology/theory/structure/non_claims_and_scope_limits.md",
+      "sha256": "3f6aba12b6c2a703d8b18eabf54d7ebcb33300489c543a51b2529ec847d01597",
+      "git_blob": "dff01b7706f8e889d7a87b84c57f2e6e97e17346"
+    },
+    {
+      "path": "topology/theory/structure/non_triviality_analysis.md",
+      "sha256": "934d5667be75bd630b8e6b7646c3a892185c054c3ebb5c74a3c5a05344806522",
+      "git_blob": "9c638d27f6280a213663b2e98507a045d63001fc"
+    },
+    {
+      "path": "topology/theory/structure/research_object_definition.md",
+      "sha256": "51e4c08da503e3266a96ba2655c3219128253d69b210e77df533a1003d68de65",
+      "git_blob": "0b6026d21c97989c13e3bb9b5d01727b36c6a521"
+    },
+    {
+      "path": "topology/theory/structure/structural_dependency_map.md",
+      "sha256": "7f0c700f4ef7d527c1e52057ff1845e5c4d22b2a10e522bce71efa908605e3e8",
+      "git_blob": "c1eea41cec8eee1df4a0b3e356606e7995cf71f3"
+    },
+    {
+      "path": "topology/theory/structure/structural_reduction_analysis.md",
+      "sha256": "dfd065afc5a3273d8479a61da6ff73b8f9fbfaa7aefe01f6f2ecc7b186973926",
+      "git_blob": "caf6cadc2c109f78b6ac64a2fb0c60718438367e"
+    },
+    {
+      "path": "topology/theory_mathematical_consolidation.md",
+      "sha256": "a56f5d4cb9c3de77dee7167e7460917501ccadefeb50b6baab1785cd7d1b205f",
+      "git_blob": "900307204e7c1b12b38d1f17e07f83ea419ae39d"
+    },
+    {
+      "path": "topology/tig_cubic_reconstruction.md",
+      "sha256": "bc425aa3b039621baf2f0f628f66f456613be42f7f9476bc601cfd1e727f16f6",
+      "git_blob": "cb562a09bb64e869e2a2b969477322ef6edb1447"
+    },
+    {
+      "path": "topology/tig_field_equation_candidate.md",
+      "sha256": "b46fd0d3370e859f23583235f499de8036f741d67d5fe8f27c67c5b877128bb2",
+      "git_blob": "34f712c1af44065a3962019d0b0b7c394e64dd71"
+    },
+    {
+      "path": "topology/volumetric_organization_necessity.md",
+      "sha256": "805454f6741dec150ce1bad8b7d450f934486d061c85d6df39ba5c7288e59bf2",
+      "git_blob": "d56680b9380585e8354bc74911ee1017311b34fc"
+    },
+    {
+      "path": "topology/x4_topoligy.md",
+      "sha256": "e22d59784a3a64ada149f1f1a988a95f86f75d0b33b3ed679bbfe483b1d5c952",
+      "git_blob": "1f731a1e5fb036bd02590c8ae96a5861b08ebf4f"
+    },
+    {
+      "path": "visualizations/tig_grid_heuristic/README.md",
+      "sha256": "a7925f97a62cb99f5068bb318a6fc234722d44bad830be5dc2d2f6ac9a5c4094",
+      "git_blob": "493d617102cc7d80e56d0c014e1bb7b4a95e4f53"
+    },
+    {
+      "path": "visualizations/tig_grid_heuristic/simulation.html",
+      "sha256": "3c358d6727cb712b9d0d26b8661f48bec8c226cc29367f2af4fecd431e02eb36",
+      "git_blob": "8f97d7d8b3e82d5f814556c7578bc57ea1d0f24d"
+    }
+  ],
+  "oq_only_changed_line": 255,
+  "original_tasklist_unchanged": true,
+  "original_repair_tracking_unchanged": true,
+  "original_preflight_and_evidence_unchanged": true,
+  "six_research_questions_open_and_deferred": true,
+  "local_inline_markdown_destinations_checked": 330,
+  "missing_local_destinations": [],
+  "json_files_parsed": [
+    "figures/tig_horizon_branches.json",
+    "registry/repair_source_search_2026-10-02.json",
+    "registry/qic_preflight_repair_2026-10-03.json",
+    "registry/repair_tracking.json",
+    "registry/qic_preflight_2026-10-03.json",
+    "registry/qic20_source_binding_closeout_2026-10-03.json",
+    "registry/tig3_source_binding_2026-10-03.json",
+    "docs/evidence/qic20_2026-10-03/runs.json",
+    "docs/evidence/qic20_2026-10-03/repeat_result.json",
+    "docs/evidence/preflight_2026-10-03/inventory.json",
+    "docs/evidence/preflight_2026-10-03/checks.json",
+    "submission/exports/wave4_2026-10-02/source_manifest.json"
+  ],
+  "five_documentation_marker_checks": "PASS",
+  "semantic_review_required": "Marker checks are auxiliary; adversarial semantic review compares actual claims and bound manuscript assumptions.",
+  "limitations": [
+    "external URLs/reference-style/automatic anchors not live validated",
+    "no independent scientific audit",
+    "no archival semantic review",
+    "no new builds or mathematics; sources and existing outputs byte-identical to baseline"
+  ],
+  "changed_path_sha256": {
+    "AGENTS.md": "3a702c1f20d2cbaca74cfcfdfe06faf749be28ce93509b29a35fd2f4bdc2c08d",
+    "README.md": "d05879b73b2bffbfd33eaea0f24831eb499c8d45dbb8ad3e5ebfd6f4983a383c",
+    "README_EN.md": "f386fb7a3d50594f7138a48dc35a7f504b97d44ecdc1f022cff9f2453a8f61ce",
+    "abstract.md": "5e34e4326a678122dba82162eacc3fe0c39370e571357caed0f4554b254d7025",
+    "docs/REPAIR_REPORT_2026-10-02.md": "8514d309fcf6038294102fea678f2bcd7310f35f29128d1cd4f2cb5430620bbb",
+    "field_equations/open_questions.md": "42ede5a78d241e56a74ca3f3c49d9b4ec898a03f10c86250c00a7384b6c94268",
+    "papers/tig-paper/README.md": "a3c8e08604c2650fe063fedd74187b8b141968b77ce51252663592ed5da3dc3c"
+  }
+}

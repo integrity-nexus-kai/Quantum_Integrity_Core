@@ -252,7 +252,7 @@ Derived through the TIG-E
 **Status aller folgenden Fragen:** OFFEN  
 **Bearbeitung:** ZURÜCKGESTELLT — keine Forschungsbearbeitung in diesem Abschlusslauf
 
-Die folgenden IDs kennzeichnen konkrete Fragen aus dem Repair-Ergebnis. Wo sie bestehende Programme präzisieren, sind diese Programme verlinkt statt als neue Programme verdoppelt. QM-Rückgewinnung ist eine zusätzlich dokumentierte Fragestellung. Die Beantwortung dieser Fragen ist von der Erledigung der begrenzten Reparaturaufträge getrennt. Der technische Quellenrest QIC-20 wird ausschließlich in [REPAIR_TODO.md](../REPAIR_TODO.md) und seiner Nachweissicht geführt.
+Die folgenden IDs kennzeichnen konkrete Fragen aus dem Repair-Ergebnis. Wo sie bestehende Programme präzisieren, sind diese Programme verlinkt statt als neue Programme verdoppelt. QM-Rückgewinnung ist eine zusätzlich dokumentierte Fragestellung. Die Beantwortung dieser Fragen ist von der Erledigung der begrenzten Reparaturaufträge getrennt. QIC-20 ist als technischer Quellen-/Versionszuordnungsauftrag qualifiziert ERLEDIGT; [REPAIR_TODO.md](../REPAIR_TODO.md) und der [Abschlussnachweis](../docs/QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md) dokumentieren die Zuordnung und verbleibenden historischen Provenienzgrenzen. Keine der folgenden Forschungsfragen wird dadurch beantwortet oder geschlossen.
 
 | Frage | Thema | Zugeordnete bestehende Programme | Status / Disposition |
 |---|---|---|---|

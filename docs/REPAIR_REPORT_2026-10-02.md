@@ -1,8 +1,8 @@
 # QIC — Reparaturbericht: alter Stand, neuer Stand und Delta
 
-**Version:** 1.3 · **Datum:** 3. Oktober 2026  
+**Version:** 1.4 · **Datum:** 3. Oktober 2026
 **Repository:** integrity-nexus-kai/Quantum_Integrity_Core · **Branch:** main  
-**Umfang:** die 24 beauftragten QIC-Reparaturen, Wellen 1–4  
+**Umfang:** die 24 beauftragten QIC-Reparaturen, Wellen 1–4; ergänzender Dokumentationsabschluss der fünf Preflightbefunde
 **Ergebnis:** **24 erledigt, 0 teilbearbeitet, 0 unbegonnen**  
 **Human Authority:** Kai Stefan Dietrich
 
@@ -127,3 +127,20 @@ TIG3-Teil von QIC-20 erledigt; Gesamtaufgabe bleibt teilbearbeitet wegen des vol
 ## Aktueller Abschluss v1.3 / QIC-20
 
 Eingang `574a24d072f0b0eb446601349683d1bf682fe12a`; der unveränderte historische Quellstand reproduziert das vierseitige Mai-PDF einschließlich aller damaligen Fehlstellen. Quellen-/Versionsbindung vollständig geprüft; QIC-20 ERLEDIGT. **24 erledigt, 0 teilbearbeitet, 0 unbegonnen.** [Vollständiger Abschlussnachweis](QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md), [Manifest](../registry/qic20_source_binding_closeout_2026-10-03.json). Forschungsfragen bleiben OFFEN/zurückgestellt; anschließend Rücksprache.
+
+
+## Ergänzender Dokumentationsabschluss v1.4 — 3. Oktober 2026
+
+Eingang main @ `ce4b5fa4e494ea07f9437d353efd6dcb1ba37263`. Die fünf Befunde QIC-PF-001–005 aus dem nachgelagerten Preflight sind im Text-/Verweisumfang repariert. Das ursprüngliche Aufgabenregister v1.8 bleibt unverändert bei 24/24 erledigten Aufgaben; keine Aufgabe wird neu geöffnet.
+
+| Befund | Alter Stand | Repariertes Delta |
+|---|---|---|
+| QIC-PF-001 | Englischsprachiger Einstieg behauptete ein konstruiertes quadratisches f(R)-Modell und ungebundene PDF-Inhalte | Repräsentative Hayward-Geometrie, negativer Vakuumtest, bedingte Laufzeit und die tatsächlichen Quellen/Exporte verknüpft |
+| QIC-PF-002 | Repo-Abstract behauptete spektrale Herleitung, Parameter-/Materiekopplung und einen Verdampfungs-Remnant | Beide Sprachfassungen auf aktive Manuskriptkette und ihre ausdrücklich offenen Nachweispflichten begrenzt; Alttext über Git erreichbar |
+| QIC-PF-003 | Öffentlicher Haupttext verwendete dynamische Entstehungsbegriffe und pauschale Validierung | Statische Wurzelkoaleszenz benannt; ursprüngliche positive Architekturstatus an Objekt/Sektor gebunden, ohne Originalauditstatus zu verändern |
+| QIC-PF-004 | Paper-README führte QIC-20 noch als teilbearbeitet | Qualifizierten Quellenabschluss und beide historischen Quellenbindungen verknüpft; fehlende Originaleingaben und Compilergrenzen erhalten |
+| QIC-PF-005 | OQ-Einleitung sprach von einem technischen Quellenrest | Redaktionellen Abschlussverweis korrigiert; O1–O7 und QIC-RQ-01–06 inhaltlich/statusmäßig unverändert |
+
+QIC-PF-004/005 sind das unmittelbare Quellenabschluss-/Routingdelta. QIC-PF-001–003 sind zuvor erhaltene öffentliche Zusammenfassungen zum bereits reparierten Manuskriptstand; sie werden im ausdrücklich beauftragten nachgelagerten Dokumentationsabschluss behandelt. Es erfolgt keine neue Manuskript-/Forschungsbearbeitung und kein Neustart der ursprünglichen 24 Aufgaben.
+
+[Dokumentationsabschluss](PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md) · [Nachweisregister](../registry/qic_preflight_repair_2026-10-03.json) · [Auftrag für separate Prüfung](QIC_DOCUMENTATION_AUDIT_HANDOFF_2026-10-03.md). Der ursprüngliche Preflight und sein REQUEST_CHANGES-Urteil bleiben am damaligen Commit als Historie erhalten. Die anschließende interne Prüfung des reparierten main und ihre Freeze-/Assurancebindung werden separat dokumentiert. Eine abgeschlossene unabhängige Prüfung oder wissenschaftliche Freigabe wird damit nicht behauptet.

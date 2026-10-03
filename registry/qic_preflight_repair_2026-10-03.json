@@ -1,0 +1,110 @@
+{
+  "document_id": "QIC-PREFLIGHT-DOCUMENTATION-REPAIR-2026-10-03",
+  "version": "1.0",
+  "input_head": "ce4b5fa4e494ea07f9437d353efd6dcb1ba37263",
+  "object_class": "DERIVED_REPAIR_EVIDENCE",
+  "report": "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md",
+  "original_preflight": "registry/qic_preflight_2026-10-03.json",
+  "findings": [
+    {
+      "finding_id": "QIC-PF-001",
+      "original_preflight_snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
+      "path": "README_EN.md",
+      "original_statement": "Der englische Einstieg bezeichnet TIG weiterhin als konstruiertes quadratisches f(R)-Modell mit vollständiger Herleitung. Der aktive Manuskriptstand liefert dagegen einen negativen Vakuumtest der repräsentativen Geometrie. Außerdem wird ein aktuelles PDF mit numerischer Illustration und Photonensphären-/Schattenresultaten beschrieben, ohne aktive Exportbindung.",
+      "repair_status": "REPAIRED_PENDING_MAIN_RECHECK",
+      "source_delta_relation": "OLDER_PUBLIC_SUMMARY_OF_ALREADY_REPAIRED_MANUSCRIPT",
+      "review_status": "SEPARATE_REVIEW_NOT_PERFORMED",
+      "evidence_paths": [
+        "README_EN.md",
+        "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md"
+      ]
+    },
+    {
+      "finding_id": "QIC-PF-002",
+      "original_preflight_snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
+      "path": "abstract.md",
+      "original_statement": "Der unmarkierte zweisprachige Repo-Abstract behauptet spektrale Herleitung, Parameter-/Materiekopplung und einen Verdampfungs-Remnant als Folgerung statischer Regularität. Diese Aussagen sind durch die hier geprüfte aktive Manuskriptkette nicht belegt; statische Horizonte und Temperaturgrenzen liefern keine Verdampfungsdynamik. Das ist eine fehlende Quellen-/Scopebindung, kein Unmöglichkeitsbeweis für jede andere Theorie.",
+      "repair_status": "REPAIRED_PENDING_MAIN_RECHECK",
+      "source_delta_relation": "OLDER_PUBLIC_SUMMARY_OF_ALREADY_REPAIRED_MANUSCRIPT",
+      "review_status": "SEPARATE_REVIEW_NOT_PERFORMED",
+      "evidence_paths": [
+        "abstract.md",
+        "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md"
+      ]
+    },
+    {
+      "finding_id": "QIC-PF-003",
+      "original_preflight_snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
+      "path": "README.md",
+      "original_statement": "Der aktuelle Vorspann benennt die Grenzen korrekt; der Haupttext nennt dennoch critical horizon dynamics und horizon formation sowie unqualifiziert etablierte Stabilitäts-/Closure-Ergebnisse. Die separate effektive Architektur besitzt eigene historische Validierungsstatus; diese werden nicht widerlegt. Im öffentlichen Kurztext fehlen unmittelbare Objekt-, Sektor- und Nachweisgrenzen, wodurch der Leser statische Prüfung mit Dynamik verwechseln kann.",
+      "repair_status": "REPAIRED_PENDING_MAIN_RECHECK",
+      "source_delta_relation": "OLDER_PUBLIC_SUMMARY_OF_ALREADY_REPAIRED_MANUSCRIPT",
+      "review_status": "SEPARATE_REVIEW_NOT_PERFORMED",
+      "evidence_paths": [
+        "README.md",
+        "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md"
+      ]
+    },
+    {
+      "finding_id": "QIC-PF-004",
+      "original_preflight_snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
+      "path": "papers/tig-paper/README.md",
+      "original_statement": "Der aktive Paper-Einstieg sagt noch QIC-20 bleibt teilbearbeitet. Die maßgebliche Arbeitsliste v1.8 und beide aktuellen Abschlussregister führen QIC-20 als qualifiziert erledigte Quellen-/Versionszuordnung. Fehlende vollständige Originalpakete bleiben Provenienzgrenzen, sind aber kein aktueller Teilbearbeitungsstatus dieses ursprünglichen Auftrags.",
+      "repair_status": "REPAIRED_PENDING_MAIN_RECHECK",
+      "source_delta_relation": "DIRECT_SOURCE_CLOSEOUT_ROUTING_DELTA",
+      "review_status": "SEPARATE_REVIEW_NOT_PERFORMED",
+      "evidence_paths": [
+        "papers/tig-paper/README.md",
+        "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md"
+      ]
+    },
+    {
+      "finding_id": "QIC-PF-005",
+      "original_preflight_snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
+      "path": "field_equations/open_questions.md",
+      "original_statement": "Die Einleitung spricht noch vom technischen Quellenrest QIC-20. Der Abschluss ist erfolgt. Alle sechs Forschungsfragen bleiben korrekt OFFEN / ZURÜCKGESTELLT; hier liegt ausschließlich ein veralteter redaktioneller Verweis vor.",
+      "repair_status": "REPAIRED_PENDING_MAIN_RECHECK",
+      "source_delta_relation": "DIRECT_SOURCE_CLOSEOUT_ROUTING_DELTA",
+      "review_status": "SEPARATE_REVIEW_NOT_PERFORMED",
+      "evidence_paths": [
+        "field_equations/open_questions.md",
+        "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md"
+      ]
+    }
+  ],
+  "original_repair_tasks": {
+    "total": 24,
+    "completed": 24,
+    "reopened": 0,
+    "working_list": "REPAIR_TODO.md",
+    "working_list_version": "1.8",
+    "modified": false
+  },
+  "research_questions": {
+    "original_programs": "O1–O7",
+    "repair_questions": "QIC-RQ-01–06",
+    "question_status_changes": false,
+    "disposition": "OPEN / DEFERRED_BY_EXPLICIT_HUMAN_AUTHORITY",
+    "only_change": "QIC-20 closure reference in introduction"
+  },
+  "post_main_reaudit": {
+    "status": "PENDING",
+    "assurance": "AIL-0",
+    "planned_scope": "five public documentation findings, protected-file delta and auditability only"
+  },
+  "independent_review": {
+    "status": "NOT_PERFORMED",
+    "minimum_separated_machine_review": "AIL-2",
+    "handoff": "docs/QIC_DOCUMENTATION_AUDIT_HANDOFF_2026-10-03.md",
+    "auditability": "PREPARED_PENDING_FROZEN_MAIN_CHECK",
+    "AIL1_note": "fresh run/context of same agent type is internal re-check, not independent"
+  },
+  "release": "NONE / REVIEW_REQUIRED",
+  "new_release_doi_or_submission": false,
+  "scientific_promotion": false,
+  "original_audit_changes": false,
+  "historical_pdf_or_source_changes": false,
+  "evidence": [
+    "docs/evidence/preflight_repair_2026-10-03/preintegration_checks.json"
+  ]
+}
