@@ -1,5 +1,7 @@
 # Topological Integrity Gravity (TIG)
 
+**[Preflight vom 3. Oktober 2026](docs/PREFLIGHT_QIC_2026-10-03.md):** technische Wiederholungsprüfung PASS; fünf offene Dokumentationsbefunde an öffentlichen Texten und Verweisen (`REQUEST_CHANGES`). Selbstprüfung AIL-0, keine Veröffentlichungsfreigabe; ursprünglicher Reparaturabschluss und offene Forschungsfragen bleiben getrennt.
+
 ## Repository Repair Agent — Aufgabenliste
 
 **[REPAIR_TODO.md v1.8 — aktuelle Arbeitsgrundlage](REPAIR_TODO.md): 24/24 Aufgaben ERLEDIGT.** Vier Arbeitswellen und abschließende historische Quellenzuordnung ausgeführt.

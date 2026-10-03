@@ -1,0 +1,472 @@
+{
+  "document_id": "QIC-PREFLIGHT-2026-10-03",
+  "version": "1.0",
+  "run_identity": {
+    "mode": "L1_ONE_REPO_DRY_RUN",
+    "timestamp": "2026-10-03T10:27:23.450023+00:00",
+    "same_run_self_check": true
+  },
+  "governance_scope": {
+    "included": [
+      "QIC snapshot integrity",
+      "active repair list and closure bindings",
+      "two active manuscript objects and isolated source export",
+      "selected public entry/abstract surfaces",
+      "registered local research questions",
+      "ten Nexus governance sources as supporting controls only"
+    ],
+    "excluded": [
+      "full scientific audit of all 296 files",
+      "all-fourteen-repository audit",
+      "independent rederivation of historical positive audits",
+      "global dependency/reverse-dependency completeness",
+      "live Overleaf",
+      "new literature/remote DOI verification",
+      "scientific resolution of deferred research",
+      "SSC repair",
+      "Kairos-Architects-I content",
+      "archival semantic review or rebuild",
+      "release/submission/DOI creation"
+    ],
+    "semantic_review_paths": [
+      "AGENTS.md",
+      "README.md",
+      "README_EN.md",
+      "REPAIR_TODO.md",
+      "OBJECT_OWNERSHIP.md",
+      "REPOSITORY_MAP.md",
+      "CANONICAL_STATUS.md",
+      "CANONICAL_CORE.md",
+      "DEVELOPMENT_STATUS.md",
+      "INTERFACE.md",
+      "IMPORT_MANIFEST.md",
+      "EXPORT_MANIFEST.md",
+      "LM_EXPORT_MANIFEST.md",
+      "CITATION.cff",
+      "abstract.md",
+      "share_draft.md",
+      "strategy/publication_strategy.md",
+      "governance/claim_boundary_standard.md",
+      "registry/repository_status.md",
+      "field_equations/field_equation_1_0.md",
+      "field_equations/validation_status.md",
+      "field_equations/open_questions.md",
+      "theory/integrity_tensor/tig_field_equation_1_0_audit.md",
+      "papers/tig-paper/README.md",
+      "papers/tig-paper/main.tex",
+      "submission/arxiv/main.tex",
+      "docs/BUILD_WORKFLOW.md",
+      "docs/QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md"
+    ],
+    "archive_handling": "identity/hash checks only; no archive semantics, no historical rebuild",
+    "ruleset_scope_observation": "Current frozen Nexus inventory describes nine repositories; skill bootstrap eight is superseded for inventory context. Audit authorization remains one repository."
+  },
+  "authority_sources": [
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "architecture/eight_repository_research_graph.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "bc19b78a421c464feb1968e26396b4bcf2331f73",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "audit/audit_protocol.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "191ae8f20d39a2c7852e604ff71f9d278dc3509c",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "governance/claim_status_taxonomy.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "fa24184ab9427f406fa24b50de064a6ef60e0bde",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "governance/cross_repository_claim_boundary_matrix.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "5a131e0ab0697ddc8bed889091f56eaf7d62c8bd",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "operations/codex_agents.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "f443a6d0d2214d215ee4e17f3b7712b280a7c83b",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "registry/master_open_question_backlog.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "def2612e707018eccb962fd99b5d4294dd845703",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "registry/open_questions.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "b3459195c8ea38f424760952a2220ee80cb3e81c",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "registry/repository_status.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "3ce437b6b547dcf8476f469cabb4f88da740d73a",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "shared/terminology_drift_matrix.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "5318c17681b70d34e6b25321331c1e53b0ec8dd5",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "shared/terminology_inventory.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "c36eb5aa64cd947905f8b41b7cee867cd971c8a3",
+      "purpose": "governance control context only; private source text not reproduced"
+    }
+  ],
+  "source_freeze": [
+    {
+      "repository": "integrity-nexus-kai/Quantum_Integrity_Core",
+      "repository_id": 1225446590,
+      "visibility": "PUBLIC",
+      "branch": "main",
+      "default_branch": "main",
+      "commit": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
+      "tree": "aefe3541f4cd4e020830d882430d9834f5936848",
+      "observed_at": "2026-10-03T10:27:23.450023+00:00",
+      "access_method": "GitHub read connector; fetched detached Git worktree; Git blob checks",
+      "tool_status": "SUCCESS",
+      "nexus_expected_commit": null,
+      "local_checkout_equals_observed_remote_head": true
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "repository_id": 1279473978,
+      "visibility": "PRIVATE",
+      "branch": "main",
+      "default_branch": "main",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "observed_at": "2026-10-03T10:27:23.450023+00:00",
+      "access_method": "GitHub read connector at explicit commit; ten successful text reads",
+      "tool_status": "SUCCESS"
+    }
+  ],
+  "assessment_state": "PARTIAL",
+  "assessment_limit": "Defined technical preflight completed; whole scientific corpus and global dependency/reverse-dependency closure not independently assessed.",
+  "required_assurance_level": "AIL-1",
+  "findings": [
+    {
+      "finding_id": "QIC-PF-001",
+      "repository": "integrity-nexus-kai/Quantum_Integrity_Core",
+      "path": "README_EN.md",
+      "location": "lines 9–13, 28–36, 49–59, 85",
+      "snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
+      "rule_ids": [
+        "G-01",
+        "G-06",
+        "G-07"
+      ],
+      "finding_type": "CLAIM_OVEREXTENSION",
+      "severity": "HIGH",
+      "statement": "Der englische Einstieg bezeichnet TIG weiterhin als konstruiertes quadratisches f(R)-Modell mit vollständiger Herleitung. Der aktive Manuskriptstand liefert dagegen einen negativen Vakuumtest der repräsentativen Geometrie. Außerdem wird ein aktuelles PDF mit numerischer Illustration und Photonensphären-/Schattenresultaten beschrieben, ohne aktive Exportbindung.",
+      "evidence_paths": [
+        "README_EN.md",
+        "submission/arxiv/main.tex",
+        "papers/tig-paper/main.tex",
+        "docs/BUILD_WORKFLOW.md",
+        "field_equations/open_questions.md"
+      ],
+      "affected_objects_and_dependencies": [
+        "QIC-01/02/21 scope",
+        "QIC-RQ-01",
+        "QIC-RQ-06",
+        "public English entry"
+      ],
+      "allowed_next_action": "Englischen Einstieg an den begrenzten aktuellen Manuskriptstand und die richtigen Export-/Quellenlinks anpassen.",
+      "required_handoff": "Controlled documentation repair; no scientific claim promotion or OQ closure."
+    },
+    {
+      "finding_id": "QIC-PF-002",
+      "repository": "integrity-nexus-kai/Quantum_Integrity_Core",
+      "path": "abstract.md",
+      "location": "lines 8–26 and 32–50",
+      "snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
+      "rule_ids": [
+        "G-01",
+        "G-06",
+        "G-07",
+        "G-10"
+      ],
+      "finding_type": "UNSUPPORTED_PHYSICAL_INTERPRETATION",
+      "severity": "HIGH",
+      "statement": "Der unmarkierte zweisprachige Repo-Abstract behauptet spektrale Herleitung, Parameter-/Materiekopplung und einen Verdampfungs-Remnant als Folgerung statischer Regularität. Diese Aussagen sind durch die hier geprüfte aktive Manuskriptkette nicht belegt; statische Horizonte und Temperaturgrenzen liefern keine Verdampfungsdynamik. Das ist eine fehlende Quellen-/Scopebindung, kein Unmöglichkeitsbeweis für jede andere Theorie.",
+      "evidence_paths": [
+        "abstract.md",
+        "papers/tig-paper/main.tex",
+        "submission/arxiv/main.tex",
+        "field_equations/open_questions.md",
+        "governance/claim_boundary_standard.md"
+      ],
+      "affected_objects_and_dependencies": [
+        "QIC-RQ-01",
+        "QIC-RQ-03",
+        "current public abstract",
+        "spectral versus representative geometry object identity"
+      ],
+      "allowed_next_action": "Aktuellen Abstract mit dem Manuskriptstand abgleichen oder den alten Text ausdrücklich als historisches/hypothetisches Objekt mit Quelle und Grenzen kennzeichnen.",
+      "required_handoff": "Controlled documentation repair; no scientific claim promotion or OQ closure."
+    },
+    {
+      "finding_id": "QIC-PF-003",
+      "repository": "integrity-nexus-kai/Quantum_Integrity_Core",
+      "path": "README.md",
+      "location": "lines 89–97, 172, 176–196",
+      "snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
+      "rule_ids": [
+        "G-01",
+        "G-03",
+        "G-06",
+        "G-07"
+      ],
+      "finding_type": "SCOPE_BINDING_INCOMPLETE",
+      "severity": "MEDIUM",
+      "statement": "Der aktuelle Vorspann benennt die Grenzen korrekt; der Haupttext nennt dennoch critical horizon dynamics und horizon formation sowie unqualifiziert etablierte Stabilitäts-/Closure-Ergebnisse. Die separate effektive Architektur besitzt eigene historische Validierungsstatus; diese werden nicht widerlegt. Im öffentlichen Kurztext fehlen unmittelbare Objekt-, Sektor- und Nachweisgrenzen, wodurch der Leser statische Prüfung mit Dynamik verwechseln kann.",
+      "evidence_paths": [
+        "README.md",
+        "field_equations/validation_status.md",
+        "field_equations/field_equation_1_0.md",
+        "OBJECT_OWNERSHIP.md",
+        "papers/tig-paper/main.tex"
+      ],
+      "affected_objects_and_dependencies": [
+        "public root entry",
+        "effective architecture versus quadratic f(R) paper",
+        "QIC-RQ-02",
+        "QIC-RQ-03"
+      ],
+      "allowed_next_action": "Dynamik-/Entstehungsformulierungen auf statische Wurzelkoaleszenz begrenzen; positive Architekturstatus mit konkretem Objekt und geprüftem Sektor verbinden, Originalauditstatus erhalten.",
+      "required_handoff": "Controlled documentation repair; no scientific claim promotion or OQ closure."
+    },
+    {
+      "finding_id": "QIC-PF-004",
+      "repository": "integrity-nexus-kai/Quantum_Integrity_Core",
+      "path": "papers/tig-paper/README.md",
+      "location": "line 5",
+      "snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
+      "rule_ids": [
+        "G-01",
+        "G-04",
+        "G-12"
+      ],
+      "finding_type": "STATUS_CONFLICT",
+      "severity": "MEDIUM",
+      "statement": "Der aktive Paper-Einstieg sagt noch QIC-20 bleibt teilbearbeitet. Die maßgebliche Arbeitsliste v1.8 und beide aktuellen Abschlussregister führen QIC-20 als qualifiziert erledigte Quellen-/Versionszuordnung. Fehlende vollständige Originalpakete bleiben Provenienzgrenzen, sind aber kein aktueller Teilbearbeitungsstatus dieses ursprünglichen Auftrags.",
+      "evidence_paths": [
+        "papers/tig-paper/README.md",
+        "REPAIR_TODO.md",
+        "registry/repair_tracking.json",
+        "registry/qic20_source_binding_closeout_2026-10-03.json",
+        "docs/QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md"
+      ],
+      "affected_objects_and_dependencies": [
+        "QIC-20 routing",
+        "historical PDF binding",
+        "24/24 operational repair record"
+      ],
+      "allowed_next_action": "Paper-Einstieg mit dem qualifizierten Abschluss und dessen Nachweis verknüpfen; fehlende Originaleingaben und historischen Fehlerbuild ausdrücklich erhalten.",
+      "required_handoff": "Controlled documentation repair; no scientific claim promotion or OQ closure."
+    },
+    {
+      "finding_id": "QIC-PF-005",
+      "repository": "integrity-nexus-kai/Quantum_Integrity_Core",
+      "path": "field_equations/open_questions.md",
+      "location": "line 255",
+      "snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
+      "rule_ids": [
+        "G-01",
+        "G-04",
+        "G-11"
+      ],
+      "finding_type": "STALE_ROUTING_TEXT",
+      "severity": "LOW",
+      "statement": "Die Einleitung spricht noch vom technischen Quellenrest QIC-20. Der Abschluss ist erfolgt. Alle sechs Forschungsfragen bleiben korrekt OFFEN / ZURÜCKGESTELLT; hier liegt ausschließlich ein veralteter redaktioneller Verweis vor.",
+      "evidence_paths": [
+        "field_equations/open_questions.md",
+        "REPAIR_TODO.md",
+        "docs/QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md"
+      ],
+      "affected_objects_and_dependencies": [
+        "QIC-RQ-01–06 registry introduction",
+        "QIC-20 closeout reference"
+      ],
+      "allowed_next_action": "Verweis auf den abgeschlossenen technischen Zuordnungsauftrag aktualisieren; Forschungsstatus unverändert lassen.",
+      "required_handoff": "Controlled documentation repair; no scientific claim promotion or OQ closure."
+    }
+  ],
+  "verdict": {
+    "content_verdict": {
+      "value": "REQUEST_CHANGES",
+      "reason_code": "PUBLIC_ENTRY_CLAIMS_AND_ROUTING_REQUIRE_CORRECTION",
+      "rule_ids": [
+        "G-01",
+        "G-04",
+        "G-06",
+        "G-07"
+      ],
+      "evidence_paths": [
+        "README_EN.md",
+        "abstract.md",
+        "README.md",
+        "papers/tig-paper/README.md",
+        "field_equations/open_questions.md"
+      ]
+    },
+    "sync_state": {
+      "value": "UNVERIFIABLE",
+      "reason_code": "NO_QIC_EXPECTED_COMMIT_IN_LOADED_NEXUS_SOURCES",
+      "rule_ids": [
+        "G-01",
+        "G-02"
+      ],
+      "evidence_paths": [
+        "registry/repository_status.md",
+        "Integrity_Nexus:registry/repository_status.md",
+        "Integrity_Nexus:architecture/eight_repository_research_graph.md",
+        "docs/evidence/preflight_2026-10-03/inventory.json"
+      ]
+    },
+    "permission_state": {
+      "value": "READ_ONLY",
+      "reason_code": "ASSURANCE_PHASE_ONLY_NO_REPOSITORY_MUTATION",
+      "rule_ids": [
+        "G-16"
+      ],
+      "evidence_paths": [
+        "AGENTS.md",
+        "REPAIR_TODO.md"
+      ]
+    },
+    "release_state": {
+      "value": "REVIEW_REQUIRED",
+      "reason_code": "PUBLIC_CLAIM_SCOPE_FINDINGS_AND_INCOMPLETE_GLOBAL_READINESS",
+      "rule_ids": [
+        "G-05",
+        "G-06",
+        "G-17"
+      ],
+      "evidence_paths": [
+        "REPAIR_TODO.md",
+        "README_EN.md",
+        "abstract.md",
+        "docs/evidence/preflight_2026-10-03/checks.json"
+      ]
+    },
+    "assurance_level": {
+      "value": "AIL-0",
+      "reason_code": "SAME_PRODUCING_INSTANCE_NO_INDEPENDENT_REVIEW",
+      "rule_ids": [
+        "G-16",
+        "G-17"
+      ],
+      "evidence_paths": [
+        "docs/evidence/preflight_2026-10-03/checks.json",
+        "docs/PREFLIGHT_QIC_2026-10-03.md"
+      ]
+    }
+  },
+  "allowed_next_actions": [
+    "Review five documentation findings",
+    "Repair public summaries and routing through a separately authorized controlled integration",
+    "Obtain separately performed AIL-1 review for routine assurance",
+    "Bind QIC expected snapshot in global governance only through its proper owner and authority"
+  ],
+  "required_handoff": {
+    "to": "Human Authority / authorized documentation integrator",
+    "reason": "No research, original audit/OQ closure or scientific release follows automatically from this preflight. Global sync/readiness and independent review remain separately bound."
+  },
+  "decision_cards": [
+    {
+      "decision_id": "QIC-PF-D01",
+      "problem": "Active public summaries retain claims/statuses predating the completed repairs.",
+      "recommendation": "Correct the five documentation findings against the frozen current source objects.",
+      "impact": "Public statements align with the repaired manuscripts; no science or original audit status change.",
+      "evidence_paths": [
+        "README_EN.md",
+        "abstract.md",
+        "README.md",
+        "papers/tig-paper/README.md",
+        "field_equations/open_questions.md"
+      ],
+      "safe_default": "Document findings; preserve original sources and deferred research.",
+      "actions": [
+        "controlled documentation repair",
+        "separate review"
+      ]
+    }
+  ],
+  "security_assertions": {
+    "write_actions_attempted": 0,
+    "scope": "read-only assurance phase; later user-authorized report integration is a separate action",
+    "private_source_text_copied_to_public_report": false,
+    "archival_content_semantically_inspected": false,
+    "archival_bytes_mutated": false,
+    "scientific_claim_promotion": false,
+    "original_oq_or_audit_closure": false,
+    "external_message_or_submission": false
+  },
+  "technical_summary": {
+    "tracked_files": 296,
+    "all_git_blobs_match": true,
+    "json_files_valid": 8,
+    "markdown_files_scanned": 225,
+    "inline_local_destinations_checked": 260,
+    "missing_local_destinations": 0,
+    "binding_checks_passed": 46,
+    "math_checks": {
+      "wave2": 27,
+      "wave3_exact": 18,
+      "wave3_numeric": 5
+    },
+    "builds": {
+      "paper_pages": 12,
+      "arxiv_pages": 6,
+      "isolated_pages": 6,
+      "all_exit_codes": 0,
+      "final_warning_markers": 0
+    },
+    "rendered_pages": 24,
+    "all_page_renders_and_text_match_reference": true,
+    "zip_matches_existing_export": true,
+    "active_repair_counts": {
+      "completed": 24,
+      "partial": 0,
+      "unbegun": 0
+    },
+    "deferred_questions_open": 6
+  },
+  "evidence_manifest": [
+    {
+      "path": "docs/evidence/preflight_2026-10-03/inventory.json",
+      "sha256": "0957135e58991225093fb2781c19c992dc63278ae966a34e0927f525d34119f4"
+    },
+    {
+      "path": "docs/evidence/preflight_2026-10-03/checks.json",
+      "sha256": "9d2f44282a6dcf502d569a8910e7a3bb14d33b54d1172c1f1c3f4b10e60a958d"
+    }
+  ],
+  "integration_boundary": {
+    "assessment_snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
+    "planned_publication": "report, machine-readable result, local evidence and entry links only",
+    "report_commit_changes_do_not_reassess_new_head": true,
+    "new_repair_list_created": false
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
+  "builds": [
+    {
+      "package": "paper",
+      "returncode": 0,
+      "pdf": "/workspace/scratch/3bfbd9a5e0b0/qic_preflight_2026-10-03/builds/paper/main.pdf",
+      "log": "/workspace/scratch/3bfbd9a5e0b0/qic_preflight_2026-10-03/builds/paper/latexmk.stdout.log"
+    },
+    {
+      "package": "arxiv",
+      "returncode": 0,
+      "pdf": "/workspace/scratch/3bfbd9a5e0b0/qic_preflight_2026-10-03/builds/arxiv/main.pdf",
+      "log": "/workspace/scratch/3bfbd9a5e0b0/qic_preflight_2026-10-03/builds/arxiv/latexmk.stdout.log"
+    }
+  ],
+  "wave2": {
+    "verification": "PASS",
+    "assurance": "same-run, not independent",
+    "sympy_version": "1.14.0",
+    "checks": [
+      "Ricci scalar from Christoffel symbols",
+      "mixed Ricci t/r equality",
+      "radial scalar dAlembertian",
+      "mixed f(R) t/r residual difference",
+      "representative Ricci scalar",
+      "vacuum trace core limit",
+      "vacuum trace infinity limit",
+      "asymptotically flat vacuum obstruction",
+      "Schwarzschild limiting curvature",
+      "Schwarzschild full vacuum Ricci",
+      "action coefficient convention",
+      "quadratic trace cancellation",
+      "scalaron mass about constant curvature",
+      "horizon numerator",
+      "discriminant",
+      "critical polynomial",
+      "critical derivative",
+      "fold second derivative",
+      "fold transverse derivative",
+      "critical factorization",
+      "exact local fold expansion",
+      "quadratic fold counterexample",
+      "quadratic fold derivative",
+      "quadratic fold nondegeneracy",
+      "alternative mass Schwarzschild limit",
+      "alternative mass regular-core limit",
+      "regularity and Schwarzschild limit do not uniquely select the mass profile"
+    ],
+    "assumptions": [
+      "metric formalism",
+      "signature -+++",
+      "G=c=1",
+      "M>0",
+      "a=rc^3>0",
+      "r>0",
+      "constant finite mu and Lambda"
+    ],
+    "ricci_scalar": "-12*M*a*(-2*a + r**3)/(a + r**3)**3",
+    "box_R": "-72*M*a*r*(-42*M*a**2*r**2 + 81*M*a*r**5 - 12*M*r**8 + 14*a**3 - 21*a**2*r**3 - 30*a*r**6 + 5*r**9)/(a + r**3)**6",
+    "vacuum_trace": "4*(Lambda*a**6 + 6*Lambda*a**5*r**3 + 15*Lambda*a**4*r**6 + 20*Lambda*a**3*r**9 + 15*Lambda*a**2*r**12 + 6*Lambda*a*r**15 + Lambda*r**18 + 4536*M**2*a**3*mu*r**3 - 8748*M**2*a**2*mu*r**6 + 1296*M**2*a*mu*r**9 - 6*M*a**5 - 1512*M*a**4*mu*r - 15*M*a**4*r**3 + 2268*M*a**3*mu*r**4 - 9*M*a**3*r**6 + 3240*M*a**2*mu*r**7 + 3*M*a**2*r**9 - 540*M*a*mu*r**10 + 3*M*a*r**12)/(a + r**3)**6",
+    "vacuum_obstruction": {
+      "Lambda_required_at_infinity": "0",
+      "r6_trace_limit_with_Lambda0": "12*M*a",
+      "core_trace_limit_with_Lambda0": "-24*M/a"
+    },
+    "conclusion": "This nontrivial representative metric is not a vacuum solution of constant-coefficient quadratic metric f(R). A specified matter source has not been demonstrated.",
+    "critical_x": "2/3",
+    "critical_beta": "2**(2/3)/3",
+    "horizon_exponent": "1/2, local nondegenerate fold for the specified mass profile",
+    "echo_exponent": "NOT_CHECKED_WAVE2"
+  },
+  "wave3": {
+    "verification": "PASS",
+    "assurance": "same-run / not independent",
+    "sympy_version": "1.14.0",
+    "mpmath_version": "1.3.0",
+    "exact_checks": [
+      "critical denominator",
+      "exact expansion above criticality",
+      "metric second derivative at criticality",
+      "metric transverse derivative at criticality",
+      "positive-side scaled denominator",
+      "negative-side scaled denominator",
+      "arctangent primitive",
+      "logarithmic primitive",
+      "full bottleneck coefficient",
+      "half bottleneck coefficient",
+      "on-horizon derivative",
+      "surface gravity fold scaling",
+      "fixed-beta simple-horizon logarithmic coefficient",
+      "exact critical factorization",
+      "critical inverse-square coefficient",
+      "Hayward metric identity",
+      "Hayward critical beta cube",
+      "test-scalar radial wave operator"
+    ],
+    "numerical_checks": 5,
+    "numerical_precision_decimal_digits": 60,
+    "bottleneck_coefficient_over_M": 6.0939839980923445,
+    "tracking_coefficient_over_M_q2": 1.0655305199420109,
+    "fixed_exterior_critical_delay_over_M": 12.587999031977105,
+    "numerical_samples": [
+      {
+        "distance": "0.01",
+        "horizonless_full_crossing_ratio": 0.9964332175223707,
+        "tracking_exterior_mirror_ratio": 1.6219345048256366,
+        "fixed_exterior_delay_over_M": 13.098086942756245
+      },
+      {
+        "distance": "0.001",
+        "horizonless_full_crossing_ratio": 0.9997342870741874,
+        "tracking_exterior_mirror_ratio": 1.3329268906419074,
+        "fixed_exterior_delay_over_M": 12.636513841393718
+      },
+      {
+        "distance": "0.0001",
+        "horizonless_full_crossing_ratio": 1.0000350196681629,
+        "tracking_exterior_mirror_ratio": 1.1452338918819038,
+        "fixed_exterior_delay_over_M": 12.592827305887377
+      },
+      {
+        "distance": "0.000001",
+        "horizonless_full_crossing_ratio": 1.0000089817963045,
+        "tracking_exterior_mirror_ratio": 1.022271808268983,
+        "fixed_exterior_delay_over_M": 12.588047289365562
+      },
+      {
+        "distance": "0.00000001",
+        "horizonless_full_crossing_ratio": 1.0000009546864717,
+        "tracking_exterior_mirror_ratio": 1.00299618128328,
+        "fixed_exterior_delay_over_M": 12.587999514548457
+      }
+    ],
+    "boundary": "geometric round-trip delay with a prescribed reflector; no physical TIG echo or QM recovery proved"
+  },
+  "pdf_comparison": {
+    "runs": [
+      {
+        "package": "paper",
+        "pages": 12,
+        "sha256": "9eb5625f68e6337ea351f9e05c09b80ac0e145dc2c92e0b325f876ddc83ad114",
+        "reference": "repo/submission/exports/wave4_2026-10-02/paper.pdf",
+        "comparison": [
+          {
+            "page": 1,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 5
+          },
+          {
+            "page": 2,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 5
+          },
+          {
+            "page": 3,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 2
+          },
+          {
+            "page": 4,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 1
+          },
+          {
+            "page": 5,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 0
+          },
+          {
+            "page": 6,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 0
+          },
+          {
+            "page": 7,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 4
+          },
+          {
+            "page": 8,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 0
+          },
+          {
+            "page": 9,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 5
+          },
+          {
+            "page": 10,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 3
+          },
+          {
+            "page": 11,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 2
+          },
+          {
+            "page": 12,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 13
+          }
+        ]
+      },
+      {
+        "package": "arxiv",
+        "pages": 6,
+        "sha256": "9e6cec89686472e469a2af4b4e9828305c43e7d34f05e104de1816a6a2c9eebf",
+        "reference": "repo/submission/exports/wave4_2026-10-02/arxiv.pdf",
+        "comparison": [
+          {
+            "page": 1,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 5
+          },
+          {
+            "page": 2,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 3
+          },
+          {
+            "page": 3,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 2
+          },
+          {
+            "page": 4,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 2
+          },
+          {
+            "page": 5,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 6
+          },
+          {
+            "page": 6,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 18
+          }
+        ]
+      },
+      {
+        "package": "isolated",
+        "pages": 6,
+        "sha256": "4405d89bf4b5a9ed9d5c32145a8caf0c58db05e924b673ca7d526464b2dbfe27",
+        "reference": "builds/arxiv/main.pdf",
+        "comparison": [
+          {
+            "page": 1,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 5
+          },
+          {
+            "page": 2,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 3
+          },
+          {
+            "page": 3,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 2
+          },
+          {
+            "page": 4,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 2
+          },
+          {
+            "page": 5,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 6
+          },
+          {
+            "page": 6,
+            "render_equal_to_reference": true,
+            "text_equal_to_reference": true,
+            "links": 18
+          }
+        ]
+      }
+    ],
+    "rendered_pages": 24,
+    "all_render_equal": true,
+    "all_text_equal": true
+  },
+  "standalone_export": {
+    "object_class": "EXPORTED_PACKAGE_OBJECT",
+    "release": "NONE",
+    "submitted": false,
+    "source_members": [
+      {
+        "name": "LICENSE",
+        "source": "LICENSE",
+        "bytes": 8744,
+        "sha256": "dfa00011bff778279aca6994889ab8fd75c2811b5263b2254943dbcd92ff2409"
+      },
+      {
+        "name": "figures/tig_horizon_branches.png",
+        "source": "figures/tig_horizon_branches.png",
+        "bytes": 76177,
+        "sha256": "ee8afe996d7ba08ca14d94b4ca0e1df9a94a1715191d43c03b64d1394a86c1ff"
+      },
+      {
+        "name": "main.tex",
+        "source": "submission/arxiv/main.tex",
+        "bytes": 15253,
+        "sha256": "2e58a8ec7f997c982ab62b7f85d054fed7fd4afc4f2d42d7b723bd7c635250d3"
+      },
+      {
+        "name": "references.bib",
+        "source": "submission/arxiv/references.bib",
+        "bytes": 6122,
+        "sha256": "c8ff91e5e03f2b51c6f8e276a8339bd71d7331395688a77aeca5865eae3d8b93"
+      },
+      {
+        "name": "unsrtnat.bst",
+        "source": "submission/arxiv/unsrtnat.bst",
+        "bytes": 24550,
+        "sha256": "2b257bc5d35c5716691f67615b3b29cc718d05b6b998f87473c924dec0a652e9"
+      }
+    ],
+    "zip_sha256": "015b3a3f3e4244fa0d92bfb2fc60eb8ea32070b254e55b6a8580b766263dd95b",
+    "zip_bytes": 88029,
+    "isolated_build": "PASS",
+    "final_latex_warnings": 0,
+    "local_input_paths": [
+      "./figures/tig_horizon_branches.png",
+      "./main.aux",
+      "./main.bbl",
+      "./main.out",
+      "main.aux",
+      "main.bbl",
+      "main.out",
+      "main.tex"
+    ],
+    "arxiv_pdf_sha256": "4405d89bf4b5a9ed9d5c32145a8caf0c58db05e924b673ca7d526464b2dbfe27"
+  },
+  "final_logs": [
+    {
+      "package": "paper",
+      "sha256": "db623f8cf602fb8515bdc2a4d88fdc250de477e727097e1a252ed03d49f00efe",
+      "Warning": 0,
+      "Overfull": 0,
+      "undefined": 0
+    },
+    {
+      "package": "arxiv",
+      "sha256": "6f4be9c81101899105ea3d38a30854ea75192a9a6c42563fb1099b6c42dee88f",
+      "Warning": 0,
+      "Overfull": 0,
+      "undefined": 0
+    },
+    {
+      "package": "isolated_export",
+      "sha256": "d7ce64b72c83c8b0c57a9a7faade221bb6c8411ba2a21df3b60d670f6466267a",
+      "Warning": 0,
+      "Overfull": 0,
+      "undefined": 0
+    }
+  ],
+  "visual_review": "24 rendered pages inspected in four contact sheets; no clipped or missing content seen",
+  "environment": {
+    "python": "3.12",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "latexmk": "4.83",
+    "pdftex": "1.40.25",
+    "texlive": "2023/Debian"
+  },
+  "initial_environment_failures": "Default Python lacked SymPy; an old venv launcher was unavailable. Successful final runs used Python with PYTHONPATH pointing to existing SymPy 1.14.0 / mpmath 1.3.0 packages. No repository dependency or source was changed.",
+  "source_zip_bytes_equal_to_checked_in_wave4_export": true,
+  "tracked_worktree_changes_during_assurance": [],
+  "commands": [
+    "python tools/build_manuscripts.py all --output-dir <external scratch builds>",
+    "PYTHONPATH=<existing SymPy/mpmath site-packages> python tools/verify_wave2.py",
+    "PYTHONPATH=<existing SymPy/mpmath site-packages> python tools/verify_wave3.py",
+    "python tools/export_arxiv.py --output-dir <external scratch export>"
+  ],
+  "path_note": "Absolute scratch paths in raw build records identify this execution only; repository-relative frozen sources are bound in inventory.json."
+}
