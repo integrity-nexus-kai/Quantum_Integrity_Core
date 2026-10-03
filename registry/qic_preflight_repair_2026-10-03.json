@@ -1,6 +1,6 @@
 {
   "document_id": "QIC-PREFLIGHT-DOCUMENTATION-REPAIR-2026-10-03",
-  "version": "1.0",
+  "version": "1.1",
   "input_head": "ce4b5fa4e494ea07f9437d353efd6dcb1ba37263",
   "object_class": "DERIVED_REPAIR_EVIDENCE",
   "report": "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md",
@@ -11,65 +11,95 @@
       "original_preflight_snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
       "path": "README_EN.md",
       "original_statement": "Der englische Einstieg bezeichnet TIG weiterhin als konstruiertes quadratisches f(R)-Modell mit vollständiger Herleitung. Der aktive Manuskriptstand liefert dagegen einen negativen Vakuumtest der repräsentativen Geometrie. Außerdem wird ein aktuelles PDF mit numerischer Illustration und Photonensphären-/Schattenresultaten beschrieben, ohne aktive Exportbindung.",
-      "repair_status": "REPAIRED_PENDING_MAIN_RECHECK",
+      "repair_status": "ERLEDIGT_IM_DOKUMENTATIONSUMFANG",
       "source_delta_relation": "OLDER_PUBLIC_SUMMARY_OF_ALREADY_REPAIRED_MANUSCRIPT",
       "review_status": "SEPARATE_REVIEW_NOT_PERFORMED",
       "evidence_paths": [
         "README_EN.md",
         "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md"
-      ]
+      ],
+      "internal_verification": {
+        "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+        "result": "PASS_WITH_BOUNDARIES",
+        "assurance": "AIL-0",
+        "report": "registry/qic_documentation_reaudit_2026-10-03.json"
+      }
     },
     {
       "finding_id": "QIC-PF-002",
       "original_preflight_snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
       "path": "abstract.md",
       "original_statement": "Der unmarkierte zweisprachige Repo-Abstract behauptet spektrale Herleitung, Parameter-/Materiekopplung und einen Verdampfungs-Remnant als Folgerung statischer Regularität. Diese Aussagen sind durch die hier geprüfte aktive Manuskriptkette nicht belegt; statische Horizonte und Temperaturgrenzen liefern keine Verdampfungsdynamik. Das ist eine fehlende Quellen-/Scopebindung, kein Unmöglichkeitsbeweis für jede andere Theorie.",
-      "repair_status": "REPAIRED_PENDING_MAIN_RECHECK",
+      "repair_status": "ERLEDIGT_IM_DOKUMENTATIONSUMFANG",
       "source_delta_relation": "OLDER_PUBLIC_SUMMARY_OF_ALREADY_REPAIRED_MANUSCRIPT",
       "review_status": "SEPARATE_REVIEW_NOT_PERFORMED",
       "evidence_paths": [
         "abstract.md",
         "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md"
-      ]
+      ],
+      "internal_verification": {
+        "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+        "result": "PASS_WITH_BOUNDARIES",
+        "assurance": "AIL-0",
+        "report": "registry/qic_documentation_reaudit_2026-10-03.json"
+      }
     },
     {
       "finding_id": "QIC-PF-003",
       "original_preflight_snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
       "path": "README.md",
       "original_statement": "Der aktuelle Vorspann benennt die Grenzen korrekt; der Haupttext nennt dennoch critical horizon dynamics und horizon formation sowie unqualifiziert etablierte Stabilitäts-/Closure-Ergebnisse. Die separate effektive Architektur besitzt eigene historische Validierungsstatus; diese werden nicht widerlegt. Im öffentlichen Kurztext fehlen unmittelbare Objekt-, Sektor- und Nachweisgrenzen, wodurch der Leser statische Prüfung mit Dynamik verwechseln kann.",
-      "repair_status": "REPAIRED_PENDING_MAIN_RECHECK",
+      "repair_status": "ERLEDIGT_IM_DOKUMENTATIONSUMFANG",
       "source_delta_relation": "OLDER_PUBLIC_SUMMARY_OF_ALREADY_REPAIRED_MANUSCRIPT",
       "review_status": "SEPARATE_REVIEW_NOT_PERFORMED",
       "evidence_paths": [
         "README.md",
         "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md"
-      ]
+      ],
+      "internal_verification": {
+        "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+        "result": "PASS_WITH_BOUNDARIES",
+        "assurance": "AIL-0",
+        "report": "registry/qic_documentation_reaudit_2026-10-03.json"
+      }
     },
     {
       "finding_id": "QIC-PF-004",
       "original_preflight_snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
       "path": "papers/tig-paper/README.md",
       "original_statement": "Der aktive Paper-Einstieg sagt noch QIC-20 bleibt teilbearbeitet. Die maßgebliche Arbeitsliste v1.8 und beide aktuellen Abschlussregister führen QIC-20 als qualifiziert erledigte Quellen-/Versionszuordnung. Fehlende vollständige Originalpakete bleiben Provenienzgrenzen, sind aber kein aktueller Teilbearbeitungsstatus dieses ursprünglichen Auftrags.",
-      "repair_status": "REPAIRED_PENDING_MAIN_RECHECK",
+      "repair_status": "ERLEDIGT_IM_DOKUMENTATIONSUMFANG",
       "source_delta_relation": "DIRECT_SOURCE_CLOSEOUT_ROUTING_DELTA",
       "review_status": "SEPARATE_REVIEW_NOT_PERFORMED",
       "evidence_paths": [
         "papers/tig-paper/README.md",
         "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md"
-      ]
+      ],
+      "internal_verification": {
+        "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+        "result": "PASS_WITH_BOUNDARIES",
+        "assurance": "AIL-0",
+        "report": "registry/qic_documentation_reaudit_2026-10-03.json"
+      }
     },
     {
       "finding_id": "QIC-PF-005",
       "original_preflight_snapshot": "4e1d4cbbc80664e130e19b2d32cf215b6152e5a7",
       "path": "field_equations/open_questions.md",
       "original_statement": "Die Einleitung spricht noch vom technischen Quellenrest QIC-20. Der Abschluss ist erfolgt. Alle sechs Forschungsfragen bleiben korrekt OFFEN / ZURÜCKGESTELLT; hier liegt ausschließlich ein veralteter redaktioneller Verweis vor.",
-      "repair_status": "REPAIRED_PENDING_MAIN_RECHECK",
+      "repair_status": "ERLEDIGT_IM_DOKUMENTATIONSUMFANG",
       "source_delta_relation": "DIRECT_SOURCE_CLOSEOUT_ROUTING_DELTA",
       "review_status": "SEPARATE_REVIEW_NOT_PERFORMED",
       "evidence_paths": [
         "field_equations/open_questions.md",
         "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md"
-      ]
+      ],
+      "internal_verification": {
+        "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+        "result": "PASS_WITH_BOUNDARIES",
+        "assurance": "AIL-0",
+        "report": "registry/qic_documentation_reaudit_2026-10-03.json"
+      }
     }
   ],
   "original_repair_tasks": {
@@ -88,16 +118,29 @@
     "only_change": "QIC-20 closure reference in introduction"
   },
   "post_main_reaudit": {
-    "status": "PENDING",
+    "status": "COMPLETE_IN_DEFINED_SCOPE",
+    "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
     "assurance": "AIL-0",
-    "planned_scope": "five public documentation findings, protected-file delta and auditability only"
+    "content_verdict": "PASS_WITH_BOUNDARIES",
+    "sync_state": "UNVERIFIABLE",
+    "release_state": "REVIEW_REQUIRED",
+    "report": "docs/QIC_DOCUMENTATION_REAUDIT_2026-10-03.md",
+    "machine_report": "registry/qic_documentation_reaudit_2026-10-03.json",
+    "protected_existing_paths_unchanged": 293,
+    "oq_changed_lines": [
+      255
+    ],
+    "local_inline_targets_checked": 330,
+    "missing_local_targets": 0
   },
   "independent_review": {
     "status": "NOT_PERFORMED",
     "minimum_separated_machine_review": "AIL-2",
     "handoff": "docs/QIC_DOCUMENTATION_AUDIT_HANDOFF_2026-10-03.md",
-    "auditability": "PREPARED_PENDING_FROZEN_MAIN_CHECK",
-    "AIL1_note": "fresh run/context of same agent type is internal re-check, not independent"
+    "auditability": "READY_FOR_SEPARATE_DOCUMENTATION_REVIEW_WITH_BOUNDARIES",
+    "AIL1_note": "fresh run/context of same agent type is internal re-check, not independent",
+    "freeze": "docs/evidence/preflight_repair_2026-10-03/audit_freeze.json",
+    "review_source_commit": "2a6d853ae489fc9824e0ada6562eeb100ed6799a"
   },
   "release": "NONE / REVIEW_REQUIRED",
   "new_release_doi_or_submission": false,
@@ -105,6 +148,22 @@
   "original_audit_changes": false,
   "historical_pdf_or_source_changes": false,
   "evidence": [
-    "docs/evidence/preflight_repair_2026-10-03/preintegration_checks.json"
+    "docs/evidence/preflight_repair_2026-10-03/preintegration_checks.json",
+    "docs/evidence/preflight_repair_2026-10-03/main_checks.json",
+    "docs/evidence/preflight_repair_2026-10-03/audit_freeze.json"
+  ],
+  "evidence_manifest": [
+    {
+      "path": "docs/evidence/preflight_repair_2026-10-03/preintegration_checks.json",
+      "sha256": "e8ea55e0c44f702e7d0081143bfd68fc08e54f2e61c9d42eb1042e462dad413b"
+    },
+    {
+      "path": "docs/evidence/preflight_repair_2026-10-03/main_checks.json",
+      "sha256": "fce5dd6926b1896939e61ca2d254a998cd164348384c80f7d595b62aeedd83b8"
+    },
+    {
+      "path": "docs/evidence/preflight_repair_2026-10-03/audit_freeze.json",
+      "sha256": "75e31d830f6afa5b3e636efbe319da88120bd70cd20f4a25e7b12505ce8e9fa6"
+    }
   ]
 }
