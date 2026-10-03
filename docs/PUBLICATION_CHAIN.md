@@ -1,6 +1,6 @@
 # QIC — Veröffentlichungskette und DOI-Zuordnung
 
-Version 1.0 · 2026-10-02 · QIC-23 · Zuordnung, keine neue Veröffentlichung.
+Version 1.1 · 2026-10-03 · QIC-23 · Zuordnung, keine neue Veröffentlichung.
 
 ## Aktuelle Arbeitsartefakte
 
@@ -25,3 +25,9 @@ Damit sind die Mai-PDFs als Bestandteile dieses Repositoryarchivs belegt; daraus
 Historisches Archiv/Tag/DOI bleiben unverändert. Der Zenodo-Repositoryrecord beschreibt die historische Lizenz als MIT; aktuelles main besitzt die eigene Lizenz v2.0. Die historische Lizenznotiz und der aktuelle LICENSE-Inhalt werden in diesem Lauf nicht geändert. [Bestehende Übergangsnotiz](../LICENSE_DOI_TRANSITION_NOTICE.md), [kanonische Versionsgrenze](../CANONICAL_STATUS.md). Der mitgelieferte unsrtnat-Stil bewahrt seinen eigenen Drittanbieter-Lizenzhinweis.
 
 QIC-23 ist als Versions-/Artefaktzuordnung erledigt. Keine arXiv-Einreichung, neue Release-/DOI-Veröffentlichung oder unabhängige wissenschaftliche Freigabe ausgeführt. Ein künftiges Publikationspaket muss seinen konkreten Quellenstand, PDF, Lizenz und Versions-/Konzept-DOI separat binden; die unrekonstruierten Mai-Quellen werden nicht stillschweigend ergänzt.
+
+## Fortschreibung — TIG3-Quellenbindung, 3. Oktober 2026
+
+Die vorstehenden Wellen-/Historienbefunde behalten ihre geprüften Bezugsstände. Neu: [TIG3-Quellstand](../papers/tig3-vacuum/README.md) aus dem Autoren-ZIP vom 3. Oktober bytegleich importiert; erfolgreiche Builds mit 16 Seiten (Originaleinstellung) und 14 Seiten (kontrollierte 11pt-/Mai-Rekonstruktion). Auf allen 14 Vergleichsseiten gleicher Text nach alleiniger Aufzählungszeichen-Normalisierung, fünf RGB-identische Abbildungen, gleiche 32 nummerierte Gleichungen und 20 Literaturangaben. [Vollständiger Vergleich](TIG3_SOURCE_COMPARISON_2026-10-03.md), [Manifest](../registry/tig3_source_binding_2026-10-03.json).
+
+TIG3-Teil von QIC-20 erledigt; Gesamtaufgabe bleibt teilbearbeitet wegen des vollständigen ursprünglichen Erzeugungspakets des vierseitigen `TIG_Paper.pdf`. Die exakten Mai-TIG3-Quellbytes und der damalige Compilerstand sind nicht zurückgewonnen; die Rekonstruktion ist entsprechend bezeichnet. Quellenimport ersetzt weder wissenschaftliche Owner noch reparierte Manuskripte, historische PDF-/DOI-Objekte oder Forschungsstatus.

@@ -98,3 +98,9 @@ Die Quellenkarte und historischen Owner-/Statusbindungen bleiben erhalten. Die z
 | `submission/exports/wave4_2026-10-02/` | PDFs und Quell-ZIP | exported-package-object | abgeleitete Arbeitsfassungen; kein neuer DOI, keine Einreichung | Inhalte/Fingerprints, Build, PDF und ZIP geprüft |
 
 PRIMARY_OWNER_REPOSITORY jeweils Quantum_Integrity_Core; LOCAL_REFERENCE_PATH jeweils derselbe Pfad. Primäre Manuskriptquellen bleiben papers/tig-paper/main.tex beziehungsweise submission/arxiv/main.tex. Der mitgelieferte unsrtnat-Stil bewahrt seinen eigenen Drittanbieter-Lizenzhinweis.
+
+## Fortschreibung — TIG3-Quellenbindung, 3. Oktober 2026
+
+Die vorstehenden Wellen-/Historienbefunde behalten ihre geprüften Bezugsstände. Neu: [TIG3-Quellstand](papers/tig3-vacuum/README.md) aus dem Autoren-ZIP vom 3. Oktober bytegleich importiert; erfolgreiche Builds mit 16 Seiten (Originaleinstellung) und 14 Seiten (kontrollierte 11pt-/Mai-Rekonstruktion). Auf allen 14 Vergleichsseiten gleicher Text nach alleiniger Aufzählungszeichen-Normalisierung, fünf RGB-identische Abbildungen, gleiche 32 nummerierte Gleichungen und 20 Literaturangaben. [Vollständiger Vergleich](docs/TIG3_SOURCE_COMPARISON_2026-10-03.md), [Manifest](registry/tig3_source_binding_2026-10-03.json).
+
+TIG3-Teil von QIC-20 erledigt; Gesamtaufgabe bleibt teilbearbeitet wegen des vollständigen ursprünglichen Erzeugungspakets des vierseitigen `TIG_Paper.pdf`. Die exakten Mai-TIG3-Quellbytes und der damalige Compilerstand sind nicht zurückgewonnen; die Rekonstruktion ist entsprechend bezeichnet. Quellenimport ersetzt weder wissenschaftliche Owner noch reparierte Manuskripte, historische PDF-/DOI-Objekte oder Forschungsstatus.

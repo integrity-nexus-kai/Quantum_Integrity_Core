@@ -1,0 +1,373 @@
+{
+  "document_id": "QIC-TIG3-SOURCE-BINDING-2026-10-03",
+  "version": "1.0",
+  "date": "2026-10-03",
+  "input_head": "9080eb8c4f6240eb7ffb8b76679ce7d50f0c9bb5",
+  "authority": "user-authorized source import and technical comparison; derived provenance, no scientific owner promotion",
+  "upload": {
+    "filename": "TIG3_Vacuum_Structure.zip",
+    "bytes": 12824141,
+    "sha256": "9940b429c3be9636799ea35789d8601e3ccc77ce304ed676f1b4a3fe69ba3166",
+    "members": 183,
+    "imported_members": 11
+  },
+  "main_source": "papers/tig3-vacuum/source_import_2026-10-03/main.tex",
+  "original_sources_changed": false,
+  "source_members": [
+    {
+      "archive_path": "tig3-vacuum/paper/figures/README.md",
+      "repository_path": "papers/tig3-vacuum/source_import_2026-10-03/figures/README.md",
+      "bytes": 4855,
+      "sha256": "6e5be51bf6db3d15de7f4ac84853643384466ae6c2ae7fa6166ba891177ef81d",
+      "git_blob_sha": "dce602d8e4cdec5a14c70c2fd1798589aca5e0e8"
+    },
+    {
+      "archive_path": "tig3-vacuum/paper/figures/tig3_cubic_branch_structure.png",
+      "repository_path": "papers/tig3-vacuum/source_import_2026-10-03/figures/tig3_cubic_branch_structure.png",
+      "bytes": 1273773,
+      "sha256": "992fc16e93c224f7e32f6f3c6dfd0988b4a3dbfdaf61d879eb812fb65bd4aa16",
+      "git_blob_sha": "a8ae0441125a2e90b2087c3c80544a0265ab19cc"
+    },
+    {
+      "archive_path": "tig3-vacuum/paper/figures/tig3_curvature_structure.png",
+      "repository_path": "papers/tig3-vacuum/source_import_2026-10-03/figures/tig3_curvature_structure.png",
+      "bytes": 1531013,
+      "sha256": "4c3cee391af0946b9578e67fcc5ffeba77b34748d7cddae7cd8f4da1a7cb961b",
+      "git_blob_sha": "f200c070e50c2c765203702407aef59c03941c48"
+    },
+    {
+      "archive_path": "tig3-vacuum/paper/figures/tig3_discriminant_structure.png",
+      "repository_path": "papers/tig3-vacuum/source_import_2026-10-03/figures/tig3_discriminant_structure.png",
+      "bytes": 1249435,
+      "sha256": "18fd43129536179a74610990feed9c3d10d8da1a2871cc26620046ef8a728685",
+      "git_blob_sha": "41077e969db49fc0abfe3e94ea719bc1c8e41b22"
+    },
+    {
+      "archive_path": "tig3-vacuum/paper/figures/tig3_effective_potential.png",
+      "repository_path": "papers/tig3-vacuum/source_import_2026-10-03/figures/tig3_effective_potential.png",
+      "bytes": 1591790,
+      "sha256": "c9fce17289bec1740515b6cc88f6cda8fa8792b92827619eaa42340dc64aae1a",
+      "git_blob_sha": "416c8bd2a4fe0ac4ff8773f15c04651e83b7c43f"
+    },
+    {
+      "archive_path": "tig3-vacuum/paper/figures/tig3_lapse_function.png",
+      "repository_path": "papers/tig3-vacuum/source_import_2026-10-03/figures/tig3_lapse_function.png",
+      "bytes": 1387514,
+      "sha256": "756e7222f990d89fc7feceb42eae5723fbe4441d0477bd4e539cf41ec456c3b6",
+      "git_blob_sha": "c05bfc496bd76ff3ba52a3615209b927a759e4d3"
+    },
+    {
+      "archive_path": "tig3-vacuum/paper/main.tex",
+      "repository_path": "papers/tig3-vacuum/source_import_2026-10-03/main.tex",
+      "bytes": 3469,
+      "sha256": "515993dcf904694bfe082c6fdeafaf14c4b75d94584f06970e7a7bf628abce17",
+      "git_blob_sha": "cf2ff568cd36377c477d6bfd9189307d4d4907c1"
+    },
+    {
+      "archive_path": "tig3-vacuum/paper/references.bib",
+      "repository_path": "papers/tig3-vacuum/source_import_2026-10-03/references.bib",
+      "bytes": 4930,
+      "sha256": "e5880d3b5f5951d01e9a77c90a1ad4bc60618e07375da2720a3b950e324a085e",
+      "git_blob_sha": "c26fbf4ef45bba397cffb38bcab66b1555c2d797"
+    },
+    {
+      "archive_path": "tig3-vacuum/paper/sections/conclusions_and_limitations.tex",
+      "repository_path": "papers/tig3-vacuum/source_import_2026-10-03/sections/conclusions_and_limitations.tex",
+      "bytes": 6362,
+      "sha256": "c437653fff79ad2bd7e67f63e14498dd1f22abebe1f209d408b471bfaf5da78c",
+      "git_blob_sha": "91b8290f982f012b5acc5bdc32a5bdda6dca2a30"
+    },
+    {
+      "archive_path": "tig3-vacuum/paper/sections/introduction_and_geometry.tex",
+      "repository_path": "papers/tig3-vacuum/source_import_2026-10-03/sections/introduction_and_geometry.tex",
+      "bytes": 8818,
+      "sha256": "b431da360e387cb1d89ff0806585764bf699473709730116a8e9a313ee7a9685",
+      "git_blob_sha": "e53a5a1ddae0cc8dc91473a1c01732f41ff8bdd4"
+    },
+    {
+      "archive_path": "tig3-vacuum/paper/sections/perturbative_framework.tex",
+      "repository_path": "papers/tig3-vacuum/source_import_2026-10-03/sections/perturbative_framework.tex",
+      "bytes": 8652,
+      "sha256": "d5b0e36737cb4662e55ad8ff64e975a54939d5f200120da86973949d0583f58e",
+      "git_blob_sha": "a82c82d83a748f09afd5f8bac0771c1a069d5a13"
+    }
+  ],
+  "controlled_variant": {
+    "historically_original_source_bytes_confirmed": false,
+    "main_sha256": "0305065f2d35c047e3b840a3b456c6001795f95b1f5392753f98533bda3e8508",
+    "changes": [
+      {
+        "from": "\\documentclass[12pt]{article}",
+        "to": "\\documentclass[11pt]{article}"
+      },
+      {
+        "from": "\\date{\\today}",
+        "to": "\\date{May 17, 2026}"
+      }
+    ]
+  },
+  "build_environment": {
+    "pdftex": "1.40.25",
+    "texlive": "2023/Debian",
+    "latexmk": "4.83",
+    "shell_escape": false,
+    "font_setup": "generated missing tcrm PK fonts with separate existing TMPDIR directories; source bytes unchanged"
+  },
+  "pdfs": {
+    "historic": {
+      "pages": 14,
+      "sha256": "b14b9f7013edbb1c18a09f077fb883c3c3555ea969600eabbeba699216c58132",
+      "images": [
+        {
+          "page": 2,
+          "source": "tig3_cubic_branch_structure.png",
+          "rgb_sha256": "5f7cc9293a851510946e06a8c0b079e29f34045f84d0e5e878ae3cafe3fcc4fc"
+        },
+        {
+          "page": 3,
+          "source": "tig3_discriminant_structure.png",
+          "rgb_sha256": "0b1f79991268bce1d43ac1c5be1e618cd8548a6b86e18651402b1c013ea22b11"
+        },
+        {
+          "page": 4,
+          "source": "tig3_lapse_function.png",
+          "rgb_sha256": "4911172e6013e43968c3c49fff8e4a854931579362de5d277a2f0eff9123a6c7"
+        },
+        {
+          "page": 5,
+          "source": "tig3_curvature_structure.png",
+          "rgb_sha256": "1aad09788561fd603c36dc39170dcf412032b46c913f796fa447dfdb40ddca16"
+        },
+        {
+          "page": 8,
+          "source": "tig3_effective_potential.png",
+          "rgb_sha256": "5b2fc9b60fc7a3379641d6c69a33374a7ded30c9fdf53922e66daf7e7bb157da"
+        }
+      ],
+      "metadata": {
+        "format": "PDF 1.5",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "LaTeX with hyperref",
+        "producer": "pdfTeX-1.40.27",
+        "creationDate": "D:20260517114447Z",
+        "modDate": "D:20260517114447Z",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    "original12": {
+      "pages": 16,
+      "sha256": "d60befd224bf9ae42600c84bd9219593c1da195af28f7ad9effd61f047304e46",
+      "images": [
+        {
+          "page": 3,
+          "source": "tig3_cubic_branch_structure.png",
+          "rgb_sha256": "5f7cc9293a851510946e06a8c0b079e29f34045f84d0e5e878ae3cafe3fcc4fc"
+        },
+        {
+          "page": 4,
+          "source": "tig3_discriminant_structure.png",
+          "rgb_sha256": "0b1f79991268bce1d43ac1c5be1e618cd8548a6b86e18651402b1c013ea22b11"
+        },
+        {
+          "page": 5,
+          "source": "tig3_lapse_function.png",
+          "rgb_sha256": "4911172e6013e43968c3c49fff8e4a854931579362de5d277a2f0eff9123a6c7"
+        },
+        {
+          "page": 6,
+          "source": "tig3_curvature_structure.png",
+          "rgb_sha256": "1aad09788561fd603c36dc39170dcf412032b46c913f796fa447dfdb40ddca16"
+        },
+        {
+          "page": 9,
+          "source": "tig3_effective_potential.png",
+          "rgb_sha256": "5b2fc9b60fc7a3379641d6c69a33374a7ded30c9fdf53922e66daf7e7bb157da"
+        }
+      ],
+      "metadata": {
+        "format": "PDF 1.5",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "LaTeX with hyperref",
+        "producer": "pdfTeX-1.40.25",
+        "creationDate": "D:20261003182007+09'00'",
+        "modDate": "D:20261003182007+09'00'",
+        "trapped": "",
+        "encryption": null
+      },
+      "final_log_sha256": "da86891e0ae50e5dd69ce47ab657374f14f322cadc7016db49ae9048bf590d4f",
+      "build_exit_code": 0
+    },
+    "controlled11": {
+      "pages": 14,
+      "sha256": "4755e68129b7cebc20fbad3e2fa9963adcfb9808d9dc251122a4f89da477ff40",
+      "images": [
+        {
+          "page": 2,
+          "source": "tig3_cubic_branch_structure.png",
+          "rgb_sha256": "5f7cc9293a851510946e06a8c0b079e29f34045f84d0e5e878ae3cafe3fcc4fc"
+        },
+        {
+          "page": 3,
+          "source": "tig3_discriminant_structure.png",
+          "rgb_sha256": "0b1f79991268bce1d43ac1c5be1e618cd8548a6b86e18651402b1c013ea22b11"
+        },
+        {
+          "page": 4,
+          "source": "tig3_lapse_function.png",
+          "rgb_sha256": "4911172e6013e43968c3c49fff8e4a854931579362de5d277a2f0eff9123a6c7"
+        },
+        {
+          "page": 5,
+          "source": "tig3_curvature_structure.png",
+          "rgb_sha256": "1aad09788561fd603c36dc39170dcf412032b46c913f796fa447dfdb40ddca16"
+        },
+        {
+          "page": 8,
+          "source": "tig3_effective_potential.png",
+          "rgb_sha256": "5b2fc9b60fc7a3379641d6c69a33374a7ded30c9fdf53922e66daf7e7bb157da"
+        }
+      ],
+      "metadata": {
+        "format": "PDF 1.5",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "LaTeX with hyperref",
+        "producer": "pdfTeX-1.40.25",
+        "creationDate": "D:20261003182018+09'00'",
+        "modDate": "D:20261003182018+09'00'",
+        "trapped": "",
+        "encryption": null
+      },
+      "final_log_sha256": "5ac7cb0630b826d0557605e42302bd7b2af23cd93e5a03285e4a5aeaf343e306",
+      "build_exit_code": 0
+    }
+  },
+  "final_log_warnings": {
+    "original12": [
+      "Overfull \\hbox (5.42104pt too wide) in paragraph at lines 261--262",
+      "Overfull \\hbox (3.63481pt too wide) in paragraph at lines 109--110"
+    ],
+    "controlled11": []
+  },
+  "comparison": {
+    "pages": [
+      {
+        "page": 1,
+        "text_equal_after_bullet_encoding_normalization": true,
+        "render_pixels_equal": true,
+        "changed_pixel_fraction": 0.0
+      },
+      {
+        "page": 2,
+        "text_equal_after_bullet_encoding_normalization": true,
+        "render_pixels_equal": false,
+        "changed_pixel_fraction": 0.0001812233266239201
+      },
+      {
+        "page": 3,
+        "text_equal_after_bullet_encoding_normalization": true,
+        "render_pixels_equal": false,
+        "changed_pixel_fraction": 0.00040671494677429397
+      },
+      {
+        "page": 4,
+        "text_equal_after_bullet_encoding_normalization": true,
+        "render_pixels_equal": false,
+        "changed_pixel_fraction": 7.746951367129408e-05
+      },
+      {
+        "page": 5,
+        "text_equal_after_bullet_encoding_normalization": true,
+        "render_pixels_equal": false,
+        "changed_pixel_fraction": 7.746951367129408e-05
+      },
+      {
+        "page": 6,
+        "text_equal_after_bullet_encoding_normalization": true,
+        "render_pixels_equal": false,
+        "changed_pixel_fraction": 0.0001812233266239201
+      },
+      {
+        "page": 7,
+        "text_equal_after_bullet_encoding_normalization": true,
+        "render_pixels_equal": false,
+        "changed_pixel_fraction": 0.00028497713957654613
+      },
+      {
+        "page": 8,
+        "text_equal_after_bullet_encoding_normalization": true,
+        "render_pixels_equal": false,
+        "changed_pixel_fraction": 0.00015770579568799152
+      },
+      {
+        "page": 9,
+        "text_equal_after_bullet_encoding_normalization": true,
+        "render_pixels_equal": false,
+        "changed_pixel_fraction": 0.0002808269870584411
+      },
+      {
+        "page": 10,
+        "text_equal_after_bullet_encoding_normalization": true,
+        "render_pixels_equal": false,
+        "changed_pixel_fraction": 0.0004592835453369578
+      },
+      {
+        "page": 11,
+        "text_equal_after_bullet_encoding_normalization": true,
+        "render_pixels_equal": false,
+        "changed_pixel_fraction": 0.0006156059568522477
+      },
+      {
+        "page": 12,
+        "text_equal_after_bullet_encoding_normalization": true,
+        "render_pixels_equal": false,
+        "changed_pixel_fraction": 0.0004260823251921175
+      },
+      {
+        "page": 13,
+        "text_equal_after_bullet_encoding_normalization": true,
+        "render_pixels_equal": false,
+        "changed_pixel_fraction": 0.001769348356885449
+      },
+      {
+        "page": 14,
+        "text_equal_after_bullet_encoding_normalization": true,
+        "render_pixels_equal": false,
+        "changed_pixel_fraction": 0.002880205847564898
+      }
+    ],
+    "raw_extracted_text_differences": 66,
+    "raw_difference_type": "bullet U+2022 vs U+0088 from embedded font encoding",
+    "normalized_page_text_equal": 14,
+    "normalization": "only U+0088 -> U+2022; no prose, equation, reference or whitespace removal",
+    "numbered_equations": 32,
+    "bibliography_entries": 20,
+    "cited_keys": 20,
+    "bibliography_keys": 22,
+    "missing_citation_keys": 0,
+    "missing_input_files": 0,
+    "missing_graphics_files": 0,
+    "historical_embedded_images_rgb_identical_to_upload": 5,
+    "all_44_pages_rendered_and_visually_inspected": true,
+    "historical_and_controlled_pdf_bytes_equal": false,
+    "historical_and_controlled_render_all_pages_equal": false,
+    "maximum_changed_render_pixel_fraction": 0.002880205847564898
+  },
+  "task_result": {
+    "QIC-20": "PARTIALLY_COMPLETED",
+    "tig3_part": "SOURCE_CONTENT_AND_LAYOUT_BINDING_VERIFIED",
+    "remaining": "Four-page TIG_Paper.pdf: content-matching historical main source exists, complete original generating package remains unconfirmed. Exact May TIG3 source snapshot/engine bytes not recovered; reconstruction explicitly labeled."
+  },
+  "new_release_or_doi": false,
+  "research_work_started": false,
+  "report": "docs/TIG3_SOURCE_COMPARISON_2026-10-03.md"
+}

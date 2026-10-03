@@ -1,6 +1,6 @@
 # QIC — Manuskriptzuordnung und Build-Ablauf
 
-Version 1.3 · 2026-10-02 · TECHNISCHER ARBEITSSTAND / KEINE RELEASEFREIGABE
+Version 1.4 · 2026-10-03 · TECHNISCHER ARBEITSSTAND / KEINE RELEASEFREIGABE
 
 Aktueller Reparatureingang Welle 4: main @ `9f6cdf096716c6d070685b0d88555f403f6db8fa`. Historischer Welle-3-Eingang: `da326a4041054c01f2574d02312826870616670c`. Historischer Welle-2-Eingang: `88fef45371dbefe89ee35dce4e8accc5e8eb6baa`. Historischer Welle-1-Quellenfreeze: `8fb4989d43382ccf303c8c52b2c7af746fa35034`. Zugehörige Aufgaben: QIC-17, QIC-18 und QIC-22; Kernkorrekturen QIC-01–03; Quellen-/Echo-Korrekturen QIC-15/16/10/05/11/14/12/04.
 
@@ -82,3 +82,9 @@ python tools/export_arxiv.py --output-dir /tmp/qic-export
 Das Skript erzeugt ein deterministisches ZIP mit main.tex, references.bib, unsrtnat.bst, der einen Abbildung und dem unveränderten aktuellen LICENSE. ZIP wird in einen unabhängigen temporären Ordner entpackt und dort gebaut; keine Repository-Abbildungspfade im tatsächlich verwendeten INPUT-Set. Quellenbytes, ZIP-Integrität, finale Logs und PDF-Fingerprints geprüft. Kein Upload. Die komprimierte ZIP-Identität ist reproduzierbar; PDF-Zeitstempel/Compiler können bei Wiederholung andere PDF-Bytes ergeben.
 
 Bestehendes Live-Overleaf-Projekt weiterhin nicht verifiziert; der lokale beziehungsweise isolierte Compiler-Test wird davon unterschieden. TeX Live 2023/Debian, latexmk 4.83; Drittanbieter-Stil mit eigenem Lizenzhinweis. [Veröffentlichungskette](PUBLICATION_CHAIN.md) und wave4 im [Nachweisregister](../registry/repair_tracking.json) enthalten Quellen-/Exportfingerprints und den verbleibenden QIC-20-Restpunkt.
+
+## Fortschreibung — TIG3-Quellenbindung, 3. Oktober 2026
+
+Die vorstehenden Wellen-/Historienbefunde behalten ihre geprüften Bezugsstände. Neu: [TIG3-Quellstand](../papers/tig3-vacuum/README.md) aus dem Autoren-ZIP vom 3. Oktober bytegleich importiert; erfolgreiche Builds mit 16 Seiten (Originaleinstellung) und 14 Seiten (kontrollierte 11pt-/Mai-Rekonstruktion). Auf allen 14 Vergleichsseiten gleicher Text nach alleiniger Aufzählungszeichen-Normalisierung, fünf RGB-identische Abbildungen, gleiche 32 nummerierte Gleichungen und 20 Literaturangaben. [Vollständiger Vergleich](TIG3_SOURCE_COMPARISON_2026-10-03.md), [Manifest](../registry/tig3_source_binding_2026-10-03.json).
+
+TIG3-Teil von QIC-20 erledigt; Gesamtaufgabe bleibt teilbearbeitet wegen des vollständigen ursprünglichen Erzeugungspakets des vierseitigen `TIG_Paper.pdf`. Die exakten Mai-TIG3-Quellbytes und der damalige Compilerstand sind nicht zurückgewonnen; die Rekonstruktion ist entsprechend bezeichnet. Quellenimport ersetzt weder wissenschaftliche Owner noch reparierte Manuskripte, historische PDF-/DOI-Objekte oder Forschungsstatus.

@@ -1,0 +1,278 @@
+% =========================================================
+% Perturbative Operator Framework
+% =========================================================
+
+\section{Perturbative Operator Framework}
+
+\subsection{Perturbative Structure}
+
+We consider perturbations of the representative background geometry introduced in the previous section.
+
+The metric perturbation is written as
+
+\begin{equation}
+g_{ab}
+\rightarrow
+g_{ab} + h_{ab},
+\end{equation}
+
+where the perturbative sector satisfies
+
+\begin{equation}
+|h_{ab}| \ll 1.
+\end{equation}
+
+The present analysis is restricted to the linear perturbative regime.
+
+No nonlinear stability claims are made.
+
+% =========================================================
+
+\subsection{Spherical Symmetry and Mode Reduction}
+
+Due to the static spherical symmetry of the representative background geometry, perturbative modes may be decomposed into angular sectors \cite{reggewheeler1957,zerilli1970,vishveshwara1970}.
+
+The perturbative analysis is formulated using a reduced radial description associated with angular harmonic decomposition.
+
+The present work does not attempt a complete tensor-harmonic classification. Instead, we focus on the resulting effective radial perturbative structure.
+
+This reduced framework is interpreted as a representative operator-theoretic sector suitable for perturbative admissibility analysis.
+
+% =========================================================
+
+\subsection{Tortoise Coordinate}
+
+We introduce the tortoise coordinate $r_*$ through
+
+\begin{equation}
+\frac{dr_*}{dr}
+=
+\frac{1}{F(r)},
+\end{equation}
+
+where $F(r)$ is the representative lapse function defined in Eq.~(\ref{eq:lapse}).
+
+The tortoise coordinate regularizes the perturbative radial structure near simple horizon sectors and allows the perturbation equations to be expressed in Schrödinger-type form \cite{reggewheeler1957,chandrasekhar1983}.
+
+% =========================================================
+
+\subsection{Effective Radial Operator}
+
+The perturbative radial dynamics are modeled formally through the operator
+
+\begin{equation}
+L_{\mathrm{TIG}}
+=
+-
+\frac{d^2}{dr_*^2}
++
+V_{\mathrm{eff}}(r).
+\label{eq:operator}
+\end{equation}
+
+The effective potential is represented by the candidate structure
+
+\begin{equation}
+V_{\mathrm{eff}}(r)
+=
+F(r)
+\left[
+\frac{\ell(\ell+1)}{r^2}
++
+\frac{F'(r)}{r}
+\right].
+\label{eq:potential}
+\end{equation}
+
+Here $\ell$ denotes the angular harmonic index.
+
+The exact perturbative derivation of the effective potential remains incomplete and is treated conservatively throughout the present work.
+
+Accordingly, Eq.~(\ref{eq:potential}) should be interpreted as a representative candidate perturbative potential compatible with the analyzed geometric sector.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.97\textwidth]
+{figures/tig3_effective_potential.png}
+\caption{
+Representative operator-theoretic structure associated with the TIG3 perturbative admissibility framework.
+The figure schematically summarizes the relation between the perturbative operator sector, admissibility conditions, representative geometry, and bounded-curvature vacuum structure.
+The diagram is interpretive and intended as a structural overview rather than a rigorous closure theorem.
+}
+\label{fig:tig3_effective_potential}
+\end{figure}
+
+% =========================================================
+
+\subsection{Asymptotic Behavior of the Potential}
+
+For large radial distance,
+
+\begin{equation}
+r \gg r_c,
+\end{equation}
+
+the effective potential approaches the Schwarzschild-type asymptotic structure
+
+\begin{equation}
+V_{\mathrm{eff}}(r)
+\sim
+\frac{\ell(\ell+1)}{r^2}
++
+\mathcal{O}\!\left(\frac{1}{r^3}\right).
+\end{equation}
+
+Thus the perturbative sector remains compatible with the classical far-field regime \cite{wald1984,chandrasekhar1983}.
+
+Near the regulated core, the bounded behavior of $F(r)$ prevents the emergence of divergent representative potential terms within the analyzed perturbative sector.
+
+% =========================================================
+
+\subsection{Quadratic Form Structure}
+
+Associated with the formal operator (\ref{eq:operator}), we define the quadratic form
+
+\begin{equation}
+Q[\psi]
+=
+\int
+\left(
+\left|
+\frac{d\psi}{dr_*}
+\right|^2
++
+V_{\mathrm{eff}}(r)
+|\psi|^2
+\right)
+dr_*.
+\label{eq:quadratic_form}
+\end{equation}
+
+The quadratic form plays a central role in the perturbative admissibility structure.
+
+In particular, lower-boundedness of $Q[\psi]$ is required for controlled spectral behavior and bounded linear evolution \cite{friedrichs1934,reedsimon2,kato1995}.
+
+The present work does not establish a complete positivity theorem for the quadratic form.
+
+Such results remain conditional upon further operator-theoretic analysis.
+
+% =========================================================
+
+\subsection{Self-Adjoint Realization}
+
+The perturbative framework requires a mathematically controlled realization of the formal operator $L_{\mathrm{TIG}}$.
+
+The present analysis adopts a conservative operator-theoretic perspective in which self-adjoint realization is treated conditionally.
+
+Formally, one seeks a self-adjoint extension
+
+\begin{equation}
+L_{\mathrm{TIG}}^{F},
+\end{equation}
+
+obtained through quadratic-form methods and admissible endpoint classification \cite{friedrichs1934,reedsimon2,reedsimon4,weidmann1987}.
+
+The existence and uniqueness of such a realization depend on:
+\begin{itemize}[leftmargin=0.6cm]
+\item endpoint behavior,
+\item domain structure,
+\item quadratic-form closability,
+\item and lower-boundedness conditions.
+\end{itemize}
+
+The complete proof of self-adjoint realization remains open.
+
+% =========================================================
+
+\subsection{Spectral Admissibility}
+
+The central spectral admissibility condition of the present framework is
+
+\begin{equation}
+\sigma(L_{\mathrm{TIG}}^{F})
+\subset
+[0,\infty),
+\label{eq:spectral_condition}
+\end{equation}
+
+where $\sigma(L_{\mathrm{TIG}}^{F})$ denotes the spectrum of the self-adjoint perturbative operator.
+
+Condition (\ref{eq:spectral_condition}) excludes negative spectral modes corresponding to exponentially growing perturbative instabilities \cite{davies1996,teschl2009}.
+
+The present work does not establish a rigorous spectral nonnegativity theorem.
+
+Instead, Eq.~(\ref{eq:spectral_condition}) defines the conditional spectral admissibility requirement underlying the TIG3 perturbative program.
+
+% =========================================================
+
+\subsection{Conditional Bounded Linear Evolution}
+
+Under the assumptions:
+\begin{itemize}[leftmargin=0.6cm]
+\item admissible endpoint structure,
+\item self-adjoint realization,
+\item and spectral nonnegativity,
+\end{itemize}
+
+the perturbative evolution equation
+
+\begin{equation}
+\partial_t^2 \Psi
++
+L_{\mathrm{TIG}}^{F}\Psi
+=
+0
+\end{equation}
+
+admits bounded linear finite-energy evolution within the analyzed perturbative sector.
+
+This statement is conditional.
+
+No nonlinear boundedness theorem is established in the present work.
+
+% =========================================================
+
+\subsection{Near-Critical Perturbative Sector}
+
+Near the critical branch-merger regime
+
+\begin{equation}
+\beta \approx \beta_c,
+\end{equation}
+
+the perturbative geometry may develop modified spectral structures associated with elongated throat behavior.
+
+Potential effects include:
+\begin{itemize}[leftmargin=0.6cm]
+\item slow decay,
+\item metastable trapping,
+\item resonance accumulation,
+\item and spectral compression.
+\end{itemize}
+
+The present work does not establish rigorous resonance theorems in the near-critical sector.
+
+Such structures remain conjectural and require future asymptotic spectral analysis.
+
+% =========================================================
+
+\subsection{Interpretation}
+
+The perturbative framework developed above should be interpreted as a conditional operator-theoretic admissibility program associated with a representative bounded-curvature vacuum geometry.
+
+The present analysis establishes:
+\begin{itemize}[leftmargin=0.6cm]
+\item a coherent perturbative radial operator structure,
+\item a quadratic-form framework,
+\item and a conditional spectral admissibility hierarchy.
+\end{itemize}
+
+The framework does not currently establish:
+\begin{itemize}[leftmargin=0.6cm]
+\item nonlinear stability,
+\item complete spectral classification,
+\item exact perturbative derivation of the effective potential,
+\item or full covariant gravitational closure.
+\end{itemize}
+
+The present work is therefore interpreted conservatively as a mathematically structured perturbative admissibility framework suitable for further operator-theoretic development.
