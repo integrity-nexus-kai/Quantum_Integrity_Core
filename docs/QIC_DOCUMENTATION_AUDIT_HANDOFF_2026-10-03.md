@@ -1,10 +1,12 @@
 # QIC — Prüfauftrag für den separaten Dokumentations-Abschlussaudit
 
-Version 1.0 · 3. Oktober 2026 · abgeleiteter Prüfauftrag, keine neue operative Reparaturliste.
+Version 1.1 · 3. Oktober 2026 · abgeleiteter Prüfauftrag, keine neue operative Reparaturliste.
 
 ## Initialisierung und verbindlicher Freeze
 
 Lies AGENTS.md im Repository `integrity-nexus-kai/Quantum_Integrity_Core`, dann [Dokumentationsabschluss](PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md), [aktuelles Register](../registry/qic_preflight_repair_2026-10-03.json) und den dort gebundenen Re-Audit-Freeze. Stelle main frisch fest. Der eingefrorene Reviewgegenstand wird über das Register aufgelöst; ist main inzwischen weitergelaufen, analysiere das konkrete Delta, statt unbemerkt einen anderen Stand zu prüfen. Prüfe eigenständig die aktuellen Primärquellen und die tatsächlich vorhandenen Belege. Erzeuge Befunde ausschließlich für den folgenden begrenzten Umfang.
+
+Der feste Reviewgegenstand ist `main @ 2a6d853ae489fc9824e0ada6562eeb100ed6799a`, Tree `2b5b95c9471b5f14b7043d46981e135735a90c69`. Alle 304 Dateiidentitäten stehen im [Freeze](evidence/preflight_repair_2026-10-03/audit_freeze.json). Der nachfolgende interne [Re-Auditbericht](QIC_DOCUMENTATION_REAUDIT_2026-10-03.md) ist Produzentenevidenz AIL-0, kein unabhängiges Urteil. Nachgelagerte Ablageänderungen betreffen dieses Reviewrouting und die Prüfmetadaten; bei Prüfung des neuesten main das Delta ausdrücklich berücksichtigen.
 
 ## Umfang und adversariale Prüfungen
 

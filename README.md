@@ -1,6 +1,6 @@
 # Topological Integrity Gravity (TIG)
 
-**[Dokumentationskorrektur zum Preflight](docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md):** die fünf Befunde sind im begrenzten Text-/Verweisumfang repariert; Abschlussnachweise und Prüfumfang sind verknüpft. Der [ursprüngliche Preflight](docs/PREFLIGHT_QIC_2026-10-03.md) bleibt als Befund am damaligen Commit erhalten. Interne Prüfung AIL-0; unabhängige Prüfung und Veröffentlichungsfreigabe sind separate Schritte.
+**[Dokumentationskorrektur zum Preflight](docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md):** die fünf Befunde sind im begrenzten Text-/Verweisumfang repariert; Abschlussnachweise und Prüfumfang sind verknüpft. Der [ursprüngliche Preflight](docs/PREFLIGHT_QIC_2026-10-03.md) bleibt als Befund am damaligen Commit erhalten. [Interner Re-Audit](docs/QIC_DOCUMENTATION_REAUDIT_2026-10-03.md): PASS_WITH_BOUNDARIES / AIL-0 am reparierten main-Freeze `2a6d853`. Auditfähigkeit des Dokumentationsumfangs ist belegt; unabhängige Bestätigung und Veröffentlichungsfreigabe bleiben separate Schritte.
 
 ## Repository Repair Agent — Aufgabenliste
 

@@ -1,0 +1,349 @@
+{
+  "document_id": "QIC-DOCUMENTATION-REAUDIT-2026-10-03",
+  "version": "1.0",
+  "run_identity": {
+    "mode": "L1_ONE_REPO_DRY_RUN",
+    "timestamp": "2026-10-03T13:22:13.430999+00:00",
+    "same_run_self_check": true
+  },
+  "governance_scope": {
+    "included": [
+      "five documentation findings QIC-PF-001–005",
+      "actual repaired main snapshot",
+      "all baseline protected paths",
+      "OQ introductory reference only",
+      "original 24-task integrity",
+      "bounded separate-review auditability"
+    ],
+    "excluded": [
+      "whole scientific corpus audit",
+      "independent scientific or machine review",
+      "global reverse dependency closure",
+      "SSC",
+      "new literature review",
+      "live Overleaf",
+      "archival semantic inspection/rebuild",
+      "claim promotion",
+      "original audit/OQ closure",
+      "release/submission"
+    ]
+  },
+  "authority_sources": [
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "architecture/eight_repository_research_graph.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "bc19b78a421c464feb1968e26396b4bcf2331f73",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "audit/audit_protocol.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "191ae8f20d39a2c7852e604ff71f9d278dc3509c",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "governance/claim_status_taxonomy.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "fa24184ab9427f406fa24b50de064a6ef60e0bde",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "governance/cross_repository_claim_boundary_matrix.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "5a131e0ab0697ddc8bed889091f56eaf7d62c8bd",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "operations/codex_agents.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "f443a6d0d2214d215ee4e17f3b7712b280a7c83b",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "registry/master_open_question_backlog.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "def2612e707018eccb962fd99b5d4294dd845703",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "registry/open_questions.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "b3459195c8ea38f424760952a2220ee80cb3e81c",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "registry/repository_status.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "3ce437b6b547dcf8476f469cabb4f88da740d73a",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "shared/terminology_drift_matrix.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "5318c17681b70d34e6b25321331c1e53b0ec8dd5",
+      "purpose": "governance control context only; private source text not reproduced"
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "path": "shared/terminology_inventory.md",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "git_blob": "c36eb5aa64cd947905f8b41b7cee867cd971c8a3",
+      "purpose": "governance control context only; private source text not reproduced"
+    }
+  ],
+  "source_freeze": [
+    {
+      "repository": "integrity-nexus-kai/Quantum_Integrity_Core",
+      "repository_id": 1225446590,
+      "visibility": "PUBLIC",
+      "branch": "main",
+      "commit": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+      "tree": "2b5b95c9471b5f14b7043d46981e135735a90c69",
+      "observed_at": "2026-10-03T13:22:13.430999+00:00",
+      "access_method": "GitHub repair commit/ref followed by fresh fetch and detached worktree; full changed-file readback; source and delta checks",
+      "tool_status": "SUCCESS",
+      "nexus_expected_commit": null
+    },
+    {
+      "repository": "integrity-nexus-kai/Integrity_Nexus",
+      "repository_id": 1279473978,
+      "visibility": "PRIVATE",
+      "branch": "main",
+      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "observed_at": "2026-10-03T13:22:13.430999+00:00",
+      "access_method": "fresh GitHub ref and ten successful explicit-commit source reads; all blobs match previous frozen governance",
+      "tool_status": "SUCCESS"
+    }
+  ],
+  "assessment_state": "COMPLETE",
+  "assessment_limit": "Complete only for the five documentation findings, protected-file delta and bounded separate-review auditability; not a complete scientific or global audit.",
+  "required_assurance_level": "AIL-2",
+  "findings": [],
+  "finding_dispositions": [
+    {
+      "finding_id": "QIC-PF-001",
+      "path": "README_EN.md",
+      "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+      "observation": "REPAIR_DELTA_VERIFIED_IN_DEFINED_DOCUMENTATION_SCOPE",
+      "assurance": "AIL-0",
+      "separate_review": "NOT_PERFORMED",
+      "evidence_paths": [
+        "README_EN.md",
+        "docs/evidence/preflight_repair_2026-10-03/main_checks.json",
+        "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md"
+      ],
+      "rules_preserved": [
+        "G-01",
+        "G-06",
+        "G-07"
+      ]
+    },
+    {
+      "finding_id": "QIC-PF-002",
+      "path": "abstract.md",
+      "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+      "observation": "REPAIR_DELTA_VERIFIED_IN_DEFINED_DOCUMENTATION_SCOPE",
+      "assurance": "AIL-0",
+      "separate_review": "NOT_PERFORMED",
+      "evidence_paths": [
+        "abstract.md",
+        "docs/evidence/preflight_repair_2026-10-03/main_checks.json",
+        "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md"
+      ],
+      "rules_preserved": [
+        "G-01",
+        "G-06",
+        "G-07",
+        "G-10"
+      ]
+    },
+    {
+      "finding_id": "QIC-PF-003",
+      "path": "README.md",
+      "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+      "observation": "REPAIR_DELTA_VERIFIED_IN_DEFINED_DOCUMENTATION_SCOPE",
+      "assurance": "AIL-0",
+      "separate_review": "NOT_PERFORMED",
+      "evidence_paths": [
+        "README.md",
+        "docs/evidence/preflight_repair_2026-10-03/main_checks.json",
+        "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md"
+      ],
+      "rules_preserved": [
+        "G-01",
+        "G-03",
+        "G-06",
+        "G-07"
+      ]
+    },
+    {
+      "finding_id": "QIC-PF-004",
+      "path": "papers/tig-paper/README.md",
+      "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+      "observation": "REPAIR_DELTA_VERIFIED_IN_DEFINED_DOCUMENTATION_SCOPE",
+      "assurance": "AIL-0",
+      "separate_review": "NOT_PERFORMED",
+      "evidence_paths": [
+        "papers/tig-paper/README.md",
+        "docs/evidence/preflight_repair_2026-10-03/main_checks.json",
+        "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md"
+      ],
+      "rules_preserved": [
+        "G-01",
+        "G-04",
+        "G-12"
+      ]
+    },
+    {
+      "finding_id": "QIC-PF-005",
+      "path": "field_equations/open_questions.md",
+      "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+      "observation": "REPAIR_DELTA_VERIFIED_IN_DEFINED_DOCUMENTATION_SCOPE",
+      "assurance": "AIL-0",
+      "separate_review": "NOT_PERFORMED",
+      "evidence_paths": [
+        "field_equations/open_questions.md",
+        "docs/evidence/preflight_repair_2026-10-03/main_checks.json",
+        "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md"
+      ],
+      "rules_preserved": [
+        "G-01",
+        "G-04",
+        "G-11"
+      ]
+    }
+  ],
+  "verdict": {
+    "content_verdict": {
+      "value": "PASS_WITH_BOUNDARIES",
+      "reason_code": "FIVE_DOCUMENTATION_REPAIR_DELTAS_VERIFIED_NO_NEW_DEFECT_IN_SCOPE",
+      "rule_ids": [
+        "G-01",
+        "G-03",
+        "G-04",
+        "G-06",
+        "G-07",
+        "G-12"
+      ],
+      "evidence_paths": [
+        "README.md",
+        "README_EN.md",
+        "abstract.md",
+        "papers/tig-paper/README.md",
+        "field_equations/open_questions.md",
+        "docs/evidence/preflight_repair_2026-10-03/main_checks.json"
+      ]
+    },
+    "sync_state": {
+      "value": "UNVERIFIABLE",
+      "reason_code": "NO_EXPECTED_QIC_COMMIT_REGISTERED_IN_LOADED_NEXUS_SOURCES",
+      "rule_ids": [
+        "G-01",
+        "G-02"
+      ],
+      "evidence_paths": [
+        "Integrity_Nexus:registry/repository_status.md",
+        "Integrity_Nexus:architecture/eight_repository_research_graph.md"
+      ]
+    },
+    "permission_state": {
+      "value": "READ_ONLY",
+      "reason_code": "SEPARATE_L1_REAUDIT_AFTER_AUTHORIZED_REPAIR_INTEGRATION",
+      "rule_ids": [
+        "G-16"
+      ],
+      "evidence_paths": [
+        "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md",
+        "docs/evidence/preflight_repair_2026-10-03/main_checks.json"
+      ]
+    },
+    "release_state": {
+      "value": "REVIEW_REQUIRED",
+      "reason_code": "SEPARATE_REVIEW_AND_GLOBAL_BINDING_NOT_PERFORMED",
+      "rule_ids": [
+        "G-05",
+        "G-17"
+      ],
+      "evidence_paths": [
+        "docs/QIC_DOCUMENTATION_AUDIT_HANDOFF_2026-10-03.md",
+        "registry/qic_preflight_repair_2026-10-03.json"
+      ]
+    },
+    "assurance_level": {
+      "value": "AIL-0",
+      "reason_code": "SAME_PRODUCING_INSTANCE_NOT_INDEPENDENT",
+      "rule_ids": [
+        "G-16",
+        "G-17"
+      ],
+      "evidence_paths": [
+        "docs/evidence/preflight_repair_2026-10-03/main_checks.json",
+        "docs/QIC_DOCUMENTATION_AUDIT_HANDOFF_2026-10-03.md"
+      ]
+    }
+  },
+  "allowed_next_actions": [
+    "integrate this derived report separately under existing documentation authorization",
+    "separate AIL-2 machine review of frozen bounded documentation scope",
+    "human review of defined scope",
+    "retain deferred research and preserved original audit statuses"
+  ],
+  "required_handoff": {
+    "artifact": "docs/QIC_DOCUMENTATION_AUDIT_HANDOFF_2026-10-03.md",
+    "auditability": "READY_FOR_SEPARATE_DOCUMENTATION_REVIEW_WITH_BOUNDARIES",
+    "independent_review_performed": false,
+    "boundary": "Auditability is evidence availability and freeze consistency, not an independent pass or scientific release."
+  },
+  "decision_cards": [],
+  "security_assertions": {
+    "write_actions_attempted": 0,
+    "scope": "L1 read-only re-audit phase only; prior repair and later report integration are separate authorized actions",
+    "private_governance_source_text_republished": false,
+    "archive_semantics_read_or_changed": false,
+    "original_audit_or_oq_status_changes": false,
+    "new_scientific_claim_promotion": false,
+    "external_messages_or_submission": false
+  },
+  "checks": {
+    "protected_baseline_paths_unchanged": 293,
+    "changed_existing_paths": 7,
+    "oq_only_changed_line": 255,
+    "original_24_tasklist_byte_unchanged": true,
+    "original_repair_tracking_byte_unchanged": true,
+    "six_research_questions_open_deferred": true,
+    "inline_markdown_targets_checked": 330,
+    "missing_inline_targets": 0,
+    "repair_commit_changed_files_read_back": 11,
+    "new_builds_or_math_runs": false,
+    "inherited_build_and_math_evidence": "docs/evidence/preflight_2026-10-03/checks.json; inputs and recorded outputs preserved byte-identically",
+    "all_ten_governance_source_blobs_unchanged": true
+  },
+  "semantic_review": {
+    "first_pass": "Three public summaries aligned to active geometry, negative vacuum test, conditional delay and separate architecture scope. Two QIC-20 references aligned to qualified closure.",
+    "adversarial_pass": [
+      "No inference from static roots or vanishing temperature to dynamical formation/evaporation/remnant",
+      "No positive f(R) solution, spectral derivation or material coupling imported without evidence",
+      "No transfer from historical effective-architecture status to independent tensor/covariant dynamics/current vacuum claim",
+      "Original record preserves missing input/compiler qualification and error codes",
+      "The OQ edit is precisely one explanatory paragraph; all questions/statuses and task registry preserved",
+      "PDF/build successes inherited only because verified source/output bytes are unchanged",
+      "AIL-1 is explicitly not called independent; separate AIL-2 review not fabricated"
+    ]
+  },
+  "evidence_paths": [
+    "docs/evidence/preflight_repair_2026-10-03/main_checks.json",
+    "docs/evidence/preflight_repair_2026-10-03/preintegration_checks.json",
+    "docs/PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md",
+    "docs/QIC_DOCUMENTATION_AUDIT_HANDOFF_2026-10-03.md"
+  ],
+  "scope_graph_note": "Current frozen Nexus inventory remains nine repositories; this run inspects only QIC content and supporting controls."
+}
