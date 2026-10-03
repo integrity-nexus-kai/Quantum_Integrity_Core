@@ -1,5 +1,7 @@
 # Repository Repair Agent — Einstieg
 
+Aktueller gesonderter Prüfbericht: [QIC-Preflight vom 3. Oktober 2026](docs/PREFLIGHT_QIC_2026-10-03.md), [maschinenlesbare Bewertung](registry/qic_preflight_2026-10-03.json). Technische Wiederholungsprüfung PASS; fünf offene Dokumentationsbefunde, Gesamtinhalt REQUEST_CHANGES. AIL-0, keine Veröffentlichungsfreigabe. Der Bericht ist keine zweite aktive Reparaturliste und ändert weder ursprüngliche Abschluss- noch Forschungs-/Auditstatus.
+
 Für den ausdrücklich beauftragten QIC Repository Repair Agent ist [REPAIR_TODO.md](REPAIR_TODO.md) die aktuelle Arbeitsgrundlage v1.8 vom 3. Oktober 2026 mit 24 Aufgaben in vier Arbeitswellen. Diese Fassung ersetzt v1.7 am selben Pfad; Aufgaben-IDs und Herkunft bleiben stabil. Wellen 1 bis 4 sind ausgeführt; QIC-20 ist als Quellen-/Versionszuordnung abgeschlossen: TIG3-Import und vierseitige historische Fehlereingabe-Rekonstruktion geprüft; vollständige ursprüngliche Eingabepakete und exakte Compilerzustände bleiben benannte Provenienzgrenzen. Die Kernreparaturen QIC-01–03 sind dokumentiert; die geprüfte Metrik ist keine Vakuumlösung der untersuchten quadratischen metrischen f(R)-Theorie. Die fortlaufenden Nachweisaufgaben aus Welle 1 sind am begrenzten Reparatur-Endstand in Welle 4 abgeschlossen.
 
 Gesamtbericht als bearbeitbare Repo-Datei: [Reparaturbericht — alter Stand, neuer Stand, Delta, erledigte Aufgaben und Rest](docs/REPAIR_REPORT_2026-10-02.md). Er dokumentiert den Endstand aller vier Wellen; die aktive Arbeitsgrundlage bleibt REPAIR_TODO.md v1.8.
