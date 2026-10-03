@@ -1,0 +1,293 @@
+% =========================================================
+% Introduction and Geometry
+% =========================================================
+
+\section{Introduction}
+
+\subsection{Motivation}
+
+One of the central open problems in gravitational physics concerns the structural behavior of spacetime geometry in high-curvature vacuum regimes. In particular, classical Schwarzschild geometry predicts the formation of curvature singularities associated with geodesic incompleteness and divergent curvature invariants \cite{wald1984,hawkingellis1973,penrose1965,hawking1970}.
+
+A variety of approaches have attempted to regulate such singular structures through modified geometric sectors, effective matter models, or quantum-gravitational corrections \cite{bardeen1968,dymnikova1992,hayward2006,ansoldi2008}. However, many such constructions either introduce uncontrolled ultraviolet assumptions or lack mathematically stable perturbative formulations.
+
+The present work develops a conservative operator-theoretic perturbative framework associated with a representative bounded-curvature vacuum geometry compatible with the branch structure established in Topological Integrity Gravity II (TIG2).
+
+The goal of the present paper is not to propose a complete alternative theory of gravity, but rather to define a mathematically coherent perturbative admissibility framework suitable for further spectral and geometric analysis.
+
+% =========================================================
+
+\subsection{TIG2 Structural Background}
+
+The present framework builds upon the cubic branch structure introduced in TIG2 \cite{tig2}.
+
+The central structural relation is
+
+\begin{equation}
+x^3 - x^2 + \beta^3 = 0,
+\end{equation}
+
+where
+
+\begin{equation}
+x = \frac{r_H}{2M},
+\qquad
+\beta = \frac{r_c}{2M}.
+\end{equation}
+
+Here:
+\begin{itemize}[leftmargin=0.6cm]
+\item $r_H$ denotes the horizon radius,
+\item $M$ is the mass parameter,
+\item and $r_c$ is a regulated representative core scale.
+\end{itemize}
+
+The discriminant structure is given by
+
+\begin{equation}
+\Delta(\beta)
+=
+\beta^3(4 - 27\beta^3).
+\end{equation}
+
+The critical branch-merger point occurs at
+
+\begin{equation}
+x_c = \frac{2}{3},
+\qquad
+\beta_c^3 = \frac{4}{27}.
+\end{equation}
+
+This branch structure defines the admissible near-critical sector underlying the TIG3 vacuum program.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.88\textwidth]
+{figures/tig3_cubic_branch_structure.png}
+\caption{
+Cubic branch structure associated with the TIG2 horizon relation
+$x^3 - x^2 + \beta^3 = 0$.
+The figure illustrates the admissible horizon branches, the critical branch-merger point
+$x_c = 2/3$, and the discriminant-controlled transition separating admissible and non-admissible sectors.
+}
+\label{fig:tig3_cubic_branch_structure}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]
+{figures/tig3_discriminant_structure.png}
+\caption{
+Discriminant structure associated with the TIG2 cubic horizon relation.
+The sign change of
+$\Delta(\beta)=\beta^3(4-27\beta^3)$
+determines the transition between admissible and non-admissible horizon sectors.
+The critical value
+$\beta_c^3 = 4/27$
+corresponds to the branch-merger configuration.
+}
+\label{fig:tig3_discriminant_structure}
+\end{figure}
+
+% =========================================================
+
+\subsection{Scientific Scope}
+
+The present paper develops a conditional perturbative operator framework associated with a representative bounded-curvature geometry.
+
+The analysis focuses on:
+\begin{itemize}[leftmargin=0.6cm]
+\item representative vacuum geometry,
+\item perturbative admissibility,
+\item operator-theoretic structure,
+\item spectral consistency,
+\item and bounded linear evolution.
+\end{itemize}
+
+The framework does not currently establish:
+\begin{itemize}[leftmargin=0.6cm]
+\item nonlinear stability,
+\item complete covariant field equations,
+\item quantum-gravity completion,
+\item observational confirmation,
+\item or full singularity resolution.
+\end{itemize}
+
+All perturbative statements are conditional upon the operator-theoretic assumptions explicitly stated below.
+
+% =========================================================
+
+\section{Representative TIG3 Geometry}
+
+\subsection{Metric Ansatz}
+
+We consider a static spherically symmetric representative geometry of the form
+
+\begin{equation}
+ds^2
+=
+-F(r)\,dt^2
++
+\frac{dr^2}{F(r)}
++
+r^2 d\Omega^2,
+\end{equation}
+
+where
+
+\begin{equation}
+d\Omega^2
+=
+d\theta^2
++
+\sin^2\theta\, d\phi^2.
+\end{equation}
+
+The representative lapse function is chosen as
+
+\begin{equation}
+F(r)
+=
+1
+-
+\frac{2Mr^2}{r^3 + r_c^3}.
+\label{eq:lapse}
+\end{equation}
+
+The geometry preserves Schwarzschild-compatible asymptotics while introducing a regulated high-curvature core scale.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]
+{figures/tig3_lapse_function.png}
+\caption{
+Representative lapse function $F(r)$ associated with the TIG3 vacuum geometry for representative near-critical parameter sectors.
+The geometry interpolates between a bounded-curvature core region and Schwarzschild-compatible asymptotic behavior.
+The horizon structure corresponds to the admissible branch regime associated with the TIG2 cubic relation.
+}
+\label{fig:tig3_lapse_function}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.94\textwidth]
+{figures/tig3_curvature_structure.png}
+\caption{
+Representative curvature structure associated with the TIG3 vacuum geometry.
+The displayed Ricci and Kretschmann invariants remain finite throughout the analyzed representative sector and approach Schwarzschild-compatible asymptotic behavior at large radial distance.
+The figure illustrates bounded-curvature behavior rather than a complete singularity-resolution theorem.
+}
+\label{fig:tig3_curvature_structure}
+\end{figure}
+
+% =========================================================
+
+\subsection{Asymptotic Structure}
+
+For large radial distance,
+
+\begin{equation}
+r \gg r_c,
+\end{equation}
+
+the lapse function admits the asymptotic expansion
+
+\begin{equation}
+F(r)
+=
+1
+-
+\frac{2M}{r}
++
+\mathcal{O}\!\left(\frac{r_c^3}{r^3}\right).
+\end{equation}
+
+Hence the representative geometry reproduces Schwarzschild-compatible asymptotic behavior in the low-curvature regime \cite{wald1984,chandrasekhar1983}.
+
+This compatibility condition is essential for maintaining consistency with the classical far-field sector of General Relativity.
+
+% =========================================================
+
+\subsection{Near-Core Structure}
+
+Near the regulated core,
+
+\begin{equation}
+r \ll r_c,
+\end{equation}
+
+the lapse function behaves as
+
+\begin{equation}
+F(r)
+\approx
+1
+-
+\frac{2M}{r_c^3}r^2.
+\end{equation}
+
+The resulting geometry possesses bounded representative curvature invariants within the analyzed sector.
+
+In particular, the representative Kretschmann scalar remains finite near the regulated core.
+
+The present work interprets this structure conservatively as a bounded-curvature representative geometry rather than a complete singularity-resolution theorem.
+
+% =========================================================
+
+\subsection{Horizon Structure}
+
+The horizon sector is determined by the roots of
+
+\begin{equation}
+F(r_H)=0.
+\end{equation}
+
+After rescaling according to
+
+\begin{equation}
+x
+=
+\frac{r_H}{2M},
+\qquad
+\beta
+=
+\frac{r_c}{2M},
+\end{equation}
+
+the horizon equation reduces exactly to the TIG2 cubic branch relation
+
+\begin{equation}
+x^3 - x^2 + \beta^3 = 0.
+\end{equation}
+
+Thus the representative TIG3 geometry is structurally compatible with the admissible branch hierarchy established in TIG2 \cite{tig2}.
+
+% =========================================================
+
+\subsection{Near-Critical Sector}
+
+Near the critical branch-merger regime,
+
+\begin{equation}
+\beta \approx \beta_c,
+\end{equation}
+
+the geometry may develop elongated throat structures and modified perturbative trapping behavior.
+
+The present work does not establish a rigorous near-critical resonance theorem. Such structures are interpreted only as conjectural perturbative sectors requiring further operator-theoretic analysis.
+
+% =========================================================
+
+\subsection{Interpretation}
+
+The representative geometry introduced above should be interpreted as a mathematically controlled bounded-curvature sector suitable for perturbative operator analysis.
+
+The present framework is intentionally conservative.
+
+In particular, the geometry is not currently claimed to represent:
+\begin{itemize}[leftmargin=0.6cm]
+\item a complete covariant gravitational theory,
+\item a final black-hole replacement model,
+\item or a quantum-gravitational completion.
+\end{itemize}
+
+Rather, the geometry serves as the background structure for the perturbative admissibility program developed in the following sections.

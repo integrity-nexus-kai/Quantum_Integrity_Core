@@ -1,6 +1,6 @@
 {
   "document_id": "QIC-REPAIR-WAVE1-2026-10-02",
-  "version": "1.4",
+  "version": "1.5",
   "object_class": "REPAIR_TRACKING_VIEW",
   "source_freeze": {
     "repository": "integrity-nexus-kai/Quantum_Integrity_Core",
@@ -5655,5 +5655,24 @@
     "ssc_work_started": false,
     "research_work_started": false,
     "release_or_submission_performed": false
+  },
+  "tig3_source_binding": {
+    "date": "2026-10-03",
+    "input_head": "9080eb8c4f6240eb7ffb8b76679ce7d50f0c9bb5",
+    "report": "docs/TIG3_SOURCE_COMPARISON_2026-10-03.md",
+    "manifest": "registry/tig3_source_binding_2026-10-03.json",
+    "source_import": "papers/tig3-vacuum/source_import_2026-10-03",
+    "tig3_part_status": "SOURCE_CONTENT_AND_LAYOUT_BINDING_VERIFIED",
+    "qic20_status": "PARTIALLY_COMPLETED",
+    "remaining": "Complete original generating package of four-page TIG_Paper.pdf unconfirmed",
+    "repair_counts": {
+      "completed": 23,
+      "partially_completed": 1,
+      "unbegun": 0
+    },
+    "research_work_started": false,
+    "historical_pdf_bytes_changed": false,
+    "repaired_manuscript_bytes_changed": false,
+    "new_release_or_doi": false
   }
 }
