@@ -1,0 +1,77 @@
+{
+  "purpose": "FORENSIC_CONTENT_COMPARISON_ONLY",
+  "runs": [
+    {
+      "command": [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-no-shell-escape",
+        "-recorder",
+        "-output-directory=build",
+        "main.tex"
+      ],
+      "cwd": ".",
+      "exit_code": 1,
+      "console_log": "pass_1.log"
+    },
+    {
+      "command": [
+        "bibtex",
+        "main.aux"
+      ],
+      "cwd": "build",
+      "exit_code": 2,
+      "console_log": "pass_2.log"
+    },
+    {
+      "command": [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-no-shell-escape",
+        "-recorder",
+        "-output-directory=build",
+        "main.tex"
+      ],
+      "cwd": ".",
+      "exit_code": 1,
+      "console_log": "pass_3.log"
+    },
+    {
+      "command": [
+        "pdflatex",
+        "-interaction=nonstopmode",
+        "-no-shell-escape",
+        "-recorder",
+        "-output-directory=build",
+        "main.tex"
+      ],
+      "cwd": ".",
+      "exit_code": 1,
+      "console_log": "pass_4.log"
+    }
+  ],
+  "clean_compilation": false,
+  "historical_source_sha256": "9d6d183b159cec956058efbff0bb270760cab94af738c537a76ede6283e742b5",
+  "historical_pdf_sha256": "40eb555066bd1609a7d6e32154a88c56356773aef704d08b72076f8e2d0a8a87",
+  "reconstructed_pdf_sha256": "f24a46d6bd51e984cd3a251904d9ab61364fc4e237f72911b408de9fccca78dc",
+  "page_comparison": [
+    {
+      "page": 1,
+      "text_equal_after_bullet_encoding_normalization": true
+    },
+    {
+      "page": 2,
+      "text_equal_after_bullet_encoding_normalization": true
+    },
+    {
+      "page": 3,
+      "text_equal_after_bullet_encoding_normalization": true
+    },
+    {
+      "page": 4,
+      "text_equal_after_bullet_encoding_normalization": true
+    }
+  ],
+  "source_content_binding_verified": true,
+  "exact_original_compiler_or_input_state_proven": false
+}

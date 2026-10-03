@@ -1,6 +1,6 @@
 {
   "document_id": "QIC-REPAIR-WAVE1-2026-10-02",
-  "version": "1.5",
+  "version": "1.6",
   "object_class": "REPAIR_TRACKING_VIEW",
   "source_freeze": {
     "repository": "integrity-nexus-kai/Quantum_Integrity_Core",
@@ -5674,5 +5674,39 @@
     "historical_pdf_bytes_changed": false,
     "repaired_manuscript_bytes_changed": false,
     "new_release_or_doi": false
+  },
+  "current_repair_status": {
+    "date": "2026-10-03",
+    "working_list_version": "1.8",
+    "completed": 24,
+    "partially_completed": 0,
+    "unbegun": 0,
+    "QIC-20": "ERLEDIGT",
+    "record": "docs/QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md",
+    "manifest": "registry/qic20_source_binding_closeout_2026-10-03.json",
+    "research_work_disposition": "OPEN / DEFERRED_BY_EXPLICIT_HUMAN_AUTHORITY",
+    "next_action": "CONSULT_HUMAN_AUTHORITY",
+    "scientific_audit_verdicts_changed": false
+  },
+  "qic20_source_binding_closeout": {
+    "input_head": "574a24d072f0b0eb446601349683d1bf682fe12a",
+    "report": "docs/QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md",
+    "manifest": "registry/qic20_source_binding_closeout_2026-10-03.json",
+    "historical_source": "papers/archive/source_bindings/tig_2026-05-03/main.tex",
+    "historical_source_blob": "5acbd0d12e2fd79ac3b4f8ccddbcddb0fb69f76e",
+    "four_page_comparison": "4/4 pages equal after normalization of three bullet encodings only",
+    "build_exit_codes": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "clean_historical_compile": false,
+    "original_complete_input_bundle_recovered": false,
+    "historical_provenance_qualifications_retained": true,
+    "task_status": "ERLEDIGT",
+    "closure_scope": "original source/version attribution task",
+    "historical_pdfs_unchanged": true,
+    "original_audit_and_oq_status_unchanged": true
   }
 }

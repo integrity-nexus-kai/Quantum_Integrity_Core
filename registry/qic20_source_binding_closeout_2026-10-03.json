@@ -1,0 +1,295 @@
+{
+  "document_id": "QIC20-SOURCE-BINDING-CLOSEOUT-2026-10-03",
+  "version": "1.0",
+  "date": "2026-10-03",
+  "input_head": "574a24d072f0b0eb446601349683d1bf682fe12a",
+  "task_id": "QIC-20",
+  "task_status": "ERLEDIGT",
+  "closure_scope": "Source/version attribution of the two historical PDFs, with explicit forensic qualifications. Not restoration of missing original assets or an error-free historical build.",
+  "four_page_binding": {
+    "source_path": "papers/archive/source_bindings/tig_2026-05-03/main.tex",
+    "historical_path": "submission/arxiv/main.tex",
+    "historical_git_blob": "5acbd0d12e2fd79ac3b4f8ccddbcddb0fb69f76e",
+    "source_sha256": "9d6d183b159cec956058efbff0bb270760cab94af738c537a76ede6283e742b5",
+    "source_bytes": 4934,
+    "earliest_reachable_snapshot": "d15eea1003efbc6632f847255221dee0231271e6",
+    "snapshot_time": "2026-05-03T15:40:05+02:00",
+    "reachable_snapshots_with_same_blob": [
+      {
+        "commit": "b4c85f7ea259d3cd312da588fd523a6780e5d7bb",
+        "date": "2026-05-03T16:35:04+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "f4305ba17661ca51353a2fd8557f54c90dd0b21e",
+        "date": "2026-05-03T16:33:13+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "9a8f3a981abe0ea32b8fa091349b55b0b4cfb284",
+        "date": "2026-05-03T16:09:50+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "4e21c6ede12d235963b03ddeb074c1fcf069f4aa",
+        "date": "2026-05-03T16:04:52+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "2200b673e8a72bc8eccc916c66187d86bcec299b",
+        "date": "2026-05-03T16:00:40+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "0b0b77c7ccaa4698ea586b7d0cbaac36c7eead4b",
+        "date": "2026-05-03T15:57:14+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "5c60fde74fda63945b5f515829893cfa86f13f7b",
+        "date": "2026-05-03T15:50:38+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "2bd5a8ce91849e1e14aecb9fed8a836a05e2a80e",
+        "date": "2026-05-03T15:43:33+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "1c42d95497a575df28527ec10dea9b3e55b6d7b1",
+        "date": "2026-05-03T15:42:40+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      },
+      {
+        "commit": "d15eea1003efbc6632f847255221dee0231271e6",
+        "date": "2026-05-03T15:40:05+02:00",
+        "paths": [
+          "submission/arxiv/main.tex"
+        ]
+      }
+    ],
+    "source_bytes_changed": false,
+    "build_runs": [
+      {
+        "command": [
+          "pdflatex",
+          "-interaction=nonstopmode",
+          "-no-shell-escape",
+          "-recorder",
+          "-output-directory=build",
+          "main.tex"
+        ],
+        "cwd": ".",
+        "exit_code": 1,
+        "console_log": "pass_1.log"
+      },
+      {
+        "command": [
+          "bibtex",
+          "main.aux"
+        ],
+        "cwd": "build",
+        "exit_code": 2,
+        "console_log": "pass_2.log"
+      },
+      {
+        "command": [
+          "pdflatex",
+          "-interaction=nonstopmode",
+          "-no-shell-escape",
+          "-recorder",
+          "-output-directory=build",
+          "main.tex"
+        ],
+        "cwd": ".",
+        "exit_code": 1,
+        "console_log": "pass_3.log"
+      },
+      {
+        "command": [
+          "pdflatex",
+          "-interaction=nonstopmode",
+          "-no-shell-escape",
+          "-recorder",
+          "-output-directory=build",
+          "main.tex"
+        ],
+        "cwd": ".",
+        "exit_code": 1,
+        "console_log": "pass_4.log"
+      }
+    ],
+    "build_environment": {
+      "pdftex": "1.40.25",
+      "texlive": "2023/Debian",
+      "bibtex": "0.99d",
+      "shell_escape": false
+    },
+    "clean_compile": false,
+    "historical_error_output_reproduced": true,
+    "bibtex_generated_empty_bbl_sha256": "dd9ef71ff0c88ff4e5777d5bb5df35c3b89e18a17f3ba9733e719683d382c04d",
+    "diagnostic_evidence_directory": "docs/evidence/qic20_2026-10-03",
+    "missing_referenced_inputs": [
+      "references.bib",
+      "figures/tig_qnm_frequency_prediction.png",
+      "figures/tig_echo_delay_prediction.png"
+    ],
+    "missing_inputs_fabricated": false,
+    "bibliography_entries": 0,
+    "unresolved_citation_keys": 7,
+    "numbered_equations": 23,
+    "numbered_main_sections": 13,
+    "figure_filename_placeholders": 2,
+    "reference_headings": 2,
+    "comparison": {
+      "historic": {
+        "pages": 4,
+        "bytes": 203555,
+        "sha256": "40eb555066bd1609a7d6e32154a88c56356773aef704d08b72076f8e2d0a8a87",
+        "metadata": {
+          "format": "PDF 1.5",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "LaTeX with hyperref",
+          "producer": "pdfTeX-1.40.27",
+          "creationDate": "D:20260503134126Z",
+          "modDate": "D:20260503134126Z",
+          "trapped": "",
+          "encryption": null
+        },
+        "embedded_images": 0
+      },
+      "reconstructed": {
+        "pages": 4,
+        "bytes": 193762,
+        "sha256": "50e3de7f8936ca7f2abe1c37b5f7cfe1a0d19cccd0623305029ef9fd97a25c76",
+        "metadata": {
+          "format": "PDF 1.5",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "LaTeX with hyperref",
+          "producer": "pdfTeX-1.40.25",
+          "creationDate": "D:20261003184953+09'00'",
+          "modDate": "D:20261003184953+09'00'",
+          "trapped": "",
+          "encryption": null
+        },
+        "embedded_images": 0
+      },
+      "page_comparison": [
+        {
+          "page": 1,
+          "raw_text_equal": true,
+          "bullet_normalized_text_equal": true,
+          "changed_render_pixel_fraction": 0.0010231775425828939,
+          "text_diff": []
+        },
+        {
+          "page": 2,
+          "raw_text_equal": true,
+          "bullet_normalized_text_equal": true,
+          "changed_render_pixel_fraction": 9.575665043236787e-05,
+          "text_diff": []
+        },
+        {
+          "page": 3,
+          "raw_text_equal": false,
+          "bullet_normalized_text_equal": true,
+          "changed_render_pixel_fraction": 8.866356521515544e-05,
+          "text_diff": [
+            "--- ",
+            "+++ ",
+            "@@ -45,6 +45,6 @@",
+            " (22)",
+            " 12",
+            " Observational Implications",
+            "-• Shadow radius deviations",
+            "-• QNM frequency shifts",
+            "+ Shadow radius deviations",
+            "+ QNM frequency shifts",
+            " 3"
+          ]
+        },
+        {
+          "page": 4,
+          "raw_text_equal": false,
+          "bullet_normalized_text_equal": true,
+          "changed_render_pixel_fraction": 2.837234086884974e-05,
+          "text_diff": [
+            "--- ",
+            "+++ ",
+            "@@ -1,6 +1,6 @@",
+            " figures/tig_echo_delay_prediction.png",
+            " Figure 2: Echo delay scaling near critical transition.",
+            "-• Echo signatures",
+            "+ Echo signatures",
+            " 13",
+            " Conclusion",
+            " We identified a critical parameter"
+          ]
+        }
+      ]
+    },
+    "normalization": "Only U+0088 to U+2022 for three bullet characters; no prose/equation/reference/whitespace removal",
+    "all_eight_pages_rendered_and_visually_reviewed": true,
+    "exact_original_compiler_state_proven": false,
+    "original_complete_input_bundle_recovered": false,
+    "pdf_bytes_equal": false,
+    "repeat_validation": {
+      "record": "docs/evidence/qic20_2026-10-03/repeat_result.json",
+      "result_sha256": "33baf940e75fa40c9391f020069deb13e51f432da971fdf331d45f122f0c43ee",
+      "content_comparison_verified": true,
+      "rendering_pixel_identical_to_first_reconstruction_pages": 4,
+      "runs_exit_codes": [
+        1,
+        2,
+        1,
+        1
+      ]
+    }
+  },
+  "tig3_binding": {
+    "source": "papers/tig3-vacuum/source_import_2026-10-03/main.tex",
+    "record": "docs/TIG3_SOURCE_COMPARISON_2026-10-03.md",
+    "manifest": "registry/tig3_source_binding_2026-10-03.json",
+    "verified_pages": 14,
+    "verified_numbered_equations": 32,
+    "verified_bibliography_entries": 20,
+    "rgb_identical_images": 5,
+    "source_binding_status": "VERIFIED_WITH_EXPLICIT_RECONSTRUCTION_QUALIFICATIONS"
+  },
+  "repair_counts": {
+    "completed": 24,
+    "partially_completed": 0,
+    "unbegun": 0
+  },
+  "research_questions": "QIC-RQ-01–06 OPEN / DEFERRED_BY_EXPLICIT_HUMAN_AUTHORITY",
+  "old_audits_changed": false,
+  "historical_pdfs_changed": false,
+  "current_repaired_manuscripts_changed": false,
+  "release_doi_or_submission_performed": false,
+  "ssc_work_started": false,
+  "report": "docs/QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md"
+}

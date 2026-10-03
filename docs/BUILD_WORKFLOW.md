@@ -1,6 +1,6 @@
 # QIC — Manuskriptzuordnung und Build-Ablauf
 
-Version 1.4 · 2026-10-03 · TECHNISCHER ARBEITSSTAND / KEINE RELEASEFREIGABE
+Version 1.5 · 2026-10-03 · TECHNISCHER ARBEITSSTAND / KEINE RELEASEFREIGABE
 
 Aktueller Reparatureingang Welle 4: main @ `9f6cdf096716c6d070685b0d88555f403f6db8fa`. Historischer Welle-3-Eingang: `da326a4041054c01f2574d02312826870616670c`. Historischer Welle-2-Eingang: `88fef45371dbefe89ee35dce4e8accc5e8eb6baa`. Historischer Welle-1-Quellenfreeze: `8fb4989d43382ccf303c8c52b2c7af746fa35034`. Zugehörige Aufgaben: QIC-17, QIC-18 und QIC-22; Kernkorrekturen QIC-01–03; Quellen-/Echo-Korrekturen QIC-15/16/10/05/11/14/12/04.
 
@@ -88,3 +88,9 @@ Bestehendes Live-Overleaf-Projekt weiterhin nicht verifiziert; der lokale bezieh
 Die vorstehenden Wellen-/Historienbefunde behalten ihre geprüften Bezugsstände. Neu: [TIG3-Quellstand](../papers/tig3-vacuum/README.md) aus dem Autoren-ZIP vom 3. Oktober bytegleich importiert; erfolgreiche Builds mit 16 Seiten (Originaleinstellung) und 14 Seiten (kontrollierte 11pt-/Mai-Rekonstruktion). Auf allen 14 Vergleichsseiten gleicher Text nach alleiniger Aufzählungszeichen-Normalisierung, fünf RGB-identische Abbildungen, gleiche 32 nummerierte Gleichungen und 20 Literaturangaben. [Vollständiger Vergleich](TIG3_SOURCE_COMPARISON_2026-10-03.md), [Manifest](../registry/tig3_source_binding_2026-10-03.json).
 
 TIG3-Teil von QIC-20 erledigt; Gesamtaufgabe bleibt teilbearbeitet wegen des vollständigen ursprünglichen Erzeugungspakets des vierseitigen `TIG_Paper.pdf`. Die exakten Mai-TIG3-Quellbytes und der damalige Compilerstand sind nicht zurückgewonnen; die Rekonstruktion ist entsprechend bezeichnet. Quellenimport ersetzt weder wissenschaftliche Owner noch reparierte Manuskripte, historische PDF-/DOI-Objekte oder Forschungsstatus.
+
+## Aktueller Abschluss — QIC-20, 3. Oktober 2026
+
+**QIC-20 ERLEDIGT; alle 24 Reparaturaufgaben erledigt.** [Abschlussnachweis](QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md), [Manifest](../registry/qic20_source_binding_closeout_2026-10-03.json). Die unveränderte historische Hauptquelle des vierseitigen Mai-Papers reproduziert alle vier Seiten einschließlich der sieben ungelösten Zitatkeys, zweier Bildplatzhalter und doppelter leerer References-Überschrift. Zwei unabhängige Arbeitsordnerläufe bestätigen den Vergleich; Compiler-Exitcodes bleiben 1/2/1/1. Die Quelle wird als Archivobjekt registriert; keine fehlenden Originaldateien erfunden. Quelle/PDF-Zuordnung ist erfüllt, exakter historischer Compiler-/Eingabestand bleibt qualifiziert. Die vorher dokumentierten Teilbearbeitungsstände sind historische Zwischenstände und werden durch diesen Abschluss abgelöst. Aktuelle reparierte Manuskripte/Exporte, historische PDF-/DOI-Objekte und Forschungsstatus bleiben unverändert.
+
+Forensischer Vergleich: `python tools/reproduce_historical_tig.py --output-dir /tmp/qic-may3-reproduction` aus der Repo-Wurzel. Werkzeug-Exitcode 0 bedeutet Inhaltsvergleich bestanden; einzelne Compiler-/BibTeX-Fehler werden ausdrücklich erhalten. Archivquelle nicht in den aktiven Export aufnehmen.

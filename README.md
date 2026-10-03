@@ -2,23 +2,19 @@
 
 ## Repository Repair Agent — Aufgabenliste
 
-**[REPAIR_TODO.md v1.7 — aktuelle Arbeitsgrundlage mit 24 Aufgaben](REPAIR_TODO.md)**
+**[REPAIR_TODO.md v1.8 — aktuelle Arbeitsgrundlage](REPAIR_TODO.md): 24/24 Aufgaben ERLEDIGT.** Vier Arbeitswellen und abschließende historische Quellenzuordnung ausgeführt.
 
-**[Reparaturbericht — alter Stand, neuer Stand, Delta und Rest](docs/REPAIR_REPORT_2026-10-02.md): 23 Aufgaben erledigt, QIC-20 teilbearbeitet.** Bearbeitbare Markdown-Fassung des Gesamtberichts über alle vier Wellen.
+**[Reparaturbericht — alter Stand, neuer Stand, Delta und Rest](docs/REPAIR_REPORT_2026-10-02.md)** · **[QIC-20-Abschlussnachweis](docs/QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md)**. Bearbeitbare Markdown-Nachweise.
 
-**Fortschreibung 3. Oktober 2026:** [TIG3-Quelle und Versionsvergleich](docs/TIG3_SOURCE_COMPARISON_2026-10-03.md) — elf Originaldateien bytegleich importiert; Builds 16/14 Seiten erfolgreich; alle 14 Vergleichsseiten textgleich nach alleiniger Aufzählungszeichen-Normalisierung; fünf Bilder RGB-identisch. TIG3-Teil erledigt. QIC-20-Rest: vollständiges ursprüngliches Erzeugungspaket des vierseitigen Mai-Papers. Wissenschaftliche Forschung bleibt zurückgestellt.
+TIG3: elf Quellen importiert, Builds und 14-Seiten-Vergleich bestätigt. Vierseitiges TIG-Paper vom 3. Mai: unveränderte historische Hauptquelle rekonstruiert alle vier Seiten einschließlich der ungelösten Zitate und Bildplatzhalter. Die Quellen-/Versionszuordnung ist erledigt. Exakte ursprüngliche Compiler-/Eingabezustände bleiben als historische Provenienzgrenzen dokumentiert; der forensische Altbuild ist kein fehlerfreier aktueller Build.
 
-Einstieg für den beauftragten Repair Agent: aktuelle Arbeitsgrundlage v1.7 vom 3. Oktober 2026. Vier Arbeitswellen; Wellen 1 bis 4 ausgeführt; verbleibender Restpunkt QIC-20: TIG3-Quellen sind importiert und gegen das Mai-PDF geprüft; das vollständige Original-Erzeugungspaket des vierseitigen Mai-Papers ist noch nicht bestätigt. Zuordnung, stabile IDs, Herkunft und offene Bearbeitungsstände stehen in der Liste. QIC-23 gilt vor jeder Veröffentlichung.
+[Welle 1](docs/REPAIR_WAVE1_2026-10-02.md) · [Welle 2](docs/REPAIR_WAVE2_2026-10-02.md) · [Welle 3](docs/REPAIR_WAVE3_2026-10-02.md) · [Welle 4](docs/REPAIR_WAVE4_2026-10-02.md) · [TIG3-Vergleich](docs/TIG3_SOURCE_COMPARISON_2026-10-03.md) · [Manuskriptzuordnung und Build](docs/BUILD_WORKFLOW.md) · [Quellenkarte](REPOSITORY_MAP.md).
 
-[Welle-1-Arbeitsnachweis](docs/REPAIR_WAVE1_2026-10-02.md) · [Welle-2-Arbeitsnachweis](docs/REPAIR_WAVE2_2026-10-02.md) · [Welle-3-Arbeitsnachweis](docs/REPAIR_WAVE3_2026-10-02.md) · [Welle-4-Arbeitsnachweis](docs/REPAIR_WAVE4_2026-10-02.md) · [Manuskriptzuordnung und Build](docs/BUILD_WORKFLOW.md) · [Tatsächliche Quellenkarte](REPOSITORY_MAP.md).
+[Literaturmatrix](research/tig_literature_matrix.md) · [Quellenprüfung](research/wave3_source_review.md) · [Aktuelle Exporte](submission/exports/wave4_2026-10-02/README.md) · [Artefaktzuordnung](docs/ARTIFACT_BINDINGS.md) · [DOI-Kette](docs/PUBLICATION_CHAIN.md).
 
+**Forschungsstand:** QIC-RQ-01–06 sind im bestehenden [Forschungsfragen-Dokument](field_equations/open_questions.md#offene-forschungsfragen-aus-der-reparatur--2-oktober-2026) OFFEN und auf Nutzerauftrag zurückgestellt. Reparaturabschluss ist keine wissenschaftliche Lösung dieser Fragen. Anschließend Rücksprache; kein automatischer Forschungs-, SSC- oder Veröffentlichungsstart.
 
-[Literaturmatrix](research/tig_literature_matrix.md) · [Quellenprüfung](research/wave3_source_review.md) · [Aktuelle PDFs und Quell-ZIP](submission/exports/wave4_2026-10-02/README.md) · [Artefakt-/Abbildungszuordnung](docs/ARTIFACT_BINDINGS.md) · [Versionen und DOI-Kette](docs/PUBLICATION_CHAIN.md).
-
-**Abschluss der Reparaturbearbeitung:** Die sechs fachlichen Restpunkte sind im bestehenden [Forschungsfragen-Dokument](field_equations/open_questions.md#offene-forschungsfragen-aus-der-reparatur--2-oktober-2026) als QIC-RQ-01–06 OFFEN und auf Nutzerauftrag für später ZURÜCKGESTELLT. Alle derzeit ausführbaren Reparaturarbeiten sind ausgeführt; QIC-20 bleibt quellenblockiert. Ein historischer Hauptquellkandidat für das vierseitige Mai-Paper wurde zusätzlich gefunden; TIG3 ist inzwischen durch den geprüften Quellenimport gebunden; das vollständige Original-Erzeugungspaket des vierseitigen Papers bleibt unbestätigt. [Abschlussnachweis und Quellenprüfung](docs/REPAIR_CLOSEOUT_2026-10-02.md). Nächster Schritt: Rücksprache; kein automatischer Forschungs- oder SSC-Start.
-
-**Technischer Endstand Welle 4:** Paper v1.4 und Einreichungsdraft Welle 4 bauen mit lesbaren DOI-/arXiv-Verweisen und Links. Das Quell-ZIP baut isoliert. Die beiden PDFs in papers/tig-paper/ sind historische Mai-Fassungen; TIG3 ist inzwischen durch den geprüften Quellenimport gebunden; das vollständige Original-Erzeugungspaket des vierseitigen Papers bleibt unbestätigt; der spätere Hauptquellfund für das vierseitige Paper steht im Abschlussnachweis. Die aktuellen Exporte sind abgeleitete Arbeitsartefakte ohne neue DOI-/Release- oder Einreichungsfreigabe.
-
+**Aktueller technischer Endstand:** Paper v1.4 und Einreichungsdraft Welle 4 bauen erfolgreich; das Quell-ZIP baut isoliert. Die beiden historischen Mai-PDFs behalten ihre ursprünglichen Bytes. Aktuelle Exporte sind Arbeitsartefakte ohne neue DOI-/Release- oder Einreichungsfreigabe. QIC-23 gilt vor jeder Veröffentlichung.
 
 **Geprüfter Manuskriptstand Welle 2:** Die kubische Horizontgleichung und ihr kritischer Punkt gelten für das konkret gewählte Massenprofil. Diese Metrik ist bei M>0 und r_c>0 keine Vakuumlösung der geprüften konstanten quadratischen metrischen f(R)-Theorie. Die nachstehenden Architekturstatus werden damit nicht als positiver f(R)-Lösungsbeweis ausgegeben; eigenständige Dynamik, Materiequelle und bestehende Forschungsfragen bleiben offen. [Rechnung und Voraussetzungen](papers/derivations/quadratic_fr_and_horizon_checks.md).
 

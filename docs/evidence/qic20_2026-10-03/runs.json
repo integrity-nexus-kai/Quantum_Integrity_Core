@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "pdflatex",
+      "-interaction=nonstopmode",
+      "-no-shell-escape",
+      "-recorder",
+      "-output-directory=build",
+      "main.tex"
+    ],
+    "cwd": ".",
+    "exit_code": 1,
+    "console_log": "pass_1.log"
+  },
+  {
+    "command": [
+      "bibtex",
+      "main.aux"
+    ],
+    "cwd": "build",
+    "exit_code": 2,
+    "console_log": "pass_2.log"
+  },
+  {
+    "command": [
+      "pdflatex",
+      "-interaction=nonstopmode",
+      "-no-shell-escape",
+      "-recorder",
+      "-output-directory=build",
+      "main.tex"
+    ],
+    "cwd": ".",
+    "exit_code": 1,
+    "console_log": "pass_3.log"
+  },
+  {
+    "command": [
+      "pdflatex",
+      "-interaction=nonstopmode",
+      "-no-shell-escape",
+      "-recorder",
+      "-output-directory=build",
+      "main.tex"
+    ],
+    "cwd": ".",
+    "exit_code": 1,
+    "console_log": "pass_4.log"
+  }
+]
