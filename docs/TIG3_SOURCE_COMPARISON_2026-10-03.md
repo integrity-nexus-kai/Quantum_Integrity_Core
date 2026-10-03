@@ -5,6 +5,8 @@
 **Eingang:** QIC `main` @ `9080eb8c4f6240eb7ffb8b76679ce7d50f0c9bb5`  
 **Ergebnis:** TIG3-Quellen inhaltlich und im rekonstruierten 14-Seiten-Layout bestätigt. QIC-20 bleibt wegen des vollständigen Erzeugungspakets des separaten vierseitigen Mai-Papers teilbearbeitet.
 
+**Nachfolgender Abschluss:** Der folgende TIG3-Vergleich dokumentiert den Zwischenstand vor dem vierseitigen Neubuild. QIC-20 ist inzwischen insgesamt ERLEDIGT; [aktueller Abschlussnachweis](QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md). Die ursprünglichen TIG3-Ergebnisse und ihre Grenzen bleiben unverändert.
+
 ## Alter Stand, neuer Stand, Delta
 
 | Gegenstand | Alter Stand | Neuer Stand / Delta |

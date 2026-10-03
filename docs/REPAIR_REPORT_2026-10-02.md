@@ -1,12 +1,12 @@
 # QIC — Reparaturbericht: alter Stand, neuer Stand und Delta
 
-**Version:** 1.2 · **Datum:** 3. Oktober 2026  
+**Version:** 1.3 · **Datum:** 3. Oktober 2026  
 **Repository:** integrity-nexus-kai/Quantum_Integrity_Core · **Branch:** main  
 **Umfang:** die 24 beauftragten QIC-Reparaturen, Wellen 1–4  
-**Ergebnis:** **23 erledigt, 1 teilbearbeitet, 0 unbegonnen**  
+**Ergebnis:** **24 erledigt, 0 teilbearbeitet, 0 unbegonnen**  
 **Human Authority:** Kai Stefan Dietrich
 
-Dieser Markdown-Bericht dokumentiert die ausgeführte Reparatur und ihren Restumfang. Die einzige aktive Arbeitsliste bleibt [REPAIR_TODO.md v1.7](../REPAIR_TODO.md); dieser Bericht ist keine zusätzliche Aufgabenliste. **Abschluss-Ergänzung:** Die sechs fachlichen Punkte sind jetzt als [offene Forschungsfragen QIC-RQ-01–06](../field_equations/open_questions.md#offene-forschungsfragen-aus-der-reparatur--2-oktober-2026) dokumentiert und auf Nutzerauftrag für später zurückgestellt. Die zusätzliche gesamte erreichbare Historienprüfung hat einen inhaltlich passenden Hauptquellkandidaten für das vierseitige Mai-Paper gefunden. TIG3 ist inzwischen durch einen erfolgreichen Quellenimport/Build/Vergleich gebunden; das vollständige ursprüngliche Erzeugungspaket des vierseitigen Papers bleibt unbestätigt. QIC-20 bleibt deshalb teilbearbeitet. [Abschlussnachweis](REPAIR_CLOSEOUT_2026-10-02.md). Die folgenden Welle-4-Vergleichssnapshots bleiben ihre historischen Bezugsstände.
+Dieser Markdown-Bericht dokumentiert die ausgeführte Reparatur und ihren Restumfang. Die einzige aktive Arbeitsliste bleibt [REPAIR_TODO.md v1.8](../REPAIR_TODO.md); dieser Bericht ist keine zusätzliche Aufgabenliste. **Abschluss-Ergänzung:** Die sechs fachlichen Punkte sind jetzt als [offene Forschungsfragen QIC-RQ-01–06](../field_equations/open_questions.md#offene-forschungsfragen-aus-der-reparatur--2-oktober-2026) dokumentiert und auf Nutzerauftrag für später zurückgestellt. Die zusätzliche gesamte erreichbare Historienprüfung hat einen inhaltlich passenden Hauptquellkandidaten für das vierseitige Mai-Paper gefunden. Beide Mai-PDFs sind inzwischen im Quellen-/Versionsumfang gebunden: TIG3 über den Autorenimport, das vierseitige Paper über den vollständigen seitenweisen historischen Vergleich. QIC-20 ist ERLEDIGT; vollständige ursprüngliche Eingabepakete und exakte Compilerzustände bleiben als historische Provenienzgrenzen dokumentiert. [Abschlussnachweis](REPAIR_CLOSEOUT_2026-10-02.md). Die folgenden Welle-4-Vergleichssnapshots bleiben ihre historischen Bezugsstände.
 
 Die PDFs sind erzeugte Manuskriptfassungen und Prüfarbeitsartefakte. Der Reparaturbericht selbst liegt hier als bearbeitbare Repo-Datei vor.
 
@@ -63,7 +63,7 @@ Alle Aufgaben standen in der Ausgangsliste auf OFFEN. „Erledigt“ bedeutet Ab
 | 3 | QIC-12 · Quellenintegration | Drei neue Quellen vorhanden, aber im Haupttext noch nicht passend zitiert | Alle drei Quellen an ihre tatsächlich gestützten, begrenzten Aussagen in beiden Manuskripten gebunden | ERLEDIGT |
 | 3 | QIC-04 · Echo-Laufzeit | −1/2-Exponent ohne vollständige Grenzen und Reflexionsvorschrift | Bedingte geometrische Hin-/Rücklaufzeit hergeleitet; Vorfaktoren und unterschiedliche Grenzfälle geprüft; unbelegte universelle Echo-Vorhersage entfernt | ERLEDIGT |
 | 4 | QIC-19 · Navigation | Literaturmatrix über Einstiege nicht hinreichend auffindbar | Matrix in README, AGENTS und Quellenkarte verlinkt | ERLEDIGT |
-| 4 | QIC-20 · Historische PDF-Quellen | Herkunft und Erzeugungsquellen der beiden Mai-PDFs ungeklärt | Titel, Daten, Uploadcommits, PDF-Bytes und historische Ablage belegt; TIG3-Import/Build/Vergleich bestätigt, vollständiges ursprüngliches vierseitiges Erzeugungspaket unbestätigt | TEILBEARBEITET |
+| 4 | QIC-20 · Historische PDF-Quellen | Herkunft und Erzeugungsquellen der beiden Mai-PDFs ungeklärt | Beide Quellenversionen über vollständige Inhalts-/Layoutvergleiche gebunden; historische Fehlereingaben und Compilergrenzen dokumentiert | ERLEDIGT |
 | 4 | QIC-21 · Abbildungen | Gleichnamige/duplizierte Bilder und ihre Verwendung ungeklärt | Formate und elf echte PNGs geprüft; zwei Dublettengruppen gebunden; vermeintliche PNG als Text erkannt; neue aktive Horizontgrafik reproduzierbar erzeugt | ERLEDIGT |
 | 4 | QIC-24 · Dateinamen | Tippfehler, Sonderzeichen, Leerzeichen und falsche Endungen | Zehn Pfade ohne Inhaltsänderung umbenannt; Referenzen repariert; alte Identitäten über die Migrationssicht erhalten | ERLEDIGT |
 | 4 | QIC-13 · Literaturausgabe | unsrt-Ausgabe zeigte erforderliche Identifier/Links nicht ausreichend | unsrtnat/natbib und DOI-/URL-Ausgabe eingerichtet; Bibliografien und klickbare Ziele in beiden End-PDFs geprüft | ERLEDIGT |
@@ -73,20 +73,18 @@ Einzelnachweise: [Nachweisregister](../registry/repair_tracking.json), [Kernrech
 
 ## 4. Was bleibt aus dem Reparaturauftrag übrig?
 
-**Ein Restpunkt: QIC-20 — vollständiges ursprüngliches Erzeugungspaket des vierseitigen Mai-Papers. TIG3-Teil erledigt; siehe Fortschreibung vom 3. Oktober.**
+**Keine offene Reparaturaufgabe: alle 24 Aufgaben ERLEDIGT.** [QIC-20-Abschluss](QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md) mit altem Stand, neuem Stand, Delta und Nachweisen.
 
-| Historisches Objekt | Bereits geklärt | Noch benötigt |
+| Historisches Objekt | Quellenbindung | Qualifikation |
 |---|---|---|
-| [TIG3_Vacuum_Structure.pdf](../papers/tig-paper/TIG3_Vacuum_Structure.pdf) | 14 Seiten, Titel „Topological Integrity Gravity III: Conditional Vacuum Admissibility and Bounded Curvature Structure“, Druckdatum 17. Mai 2026; PDF-Identität, Upload und DOI-Archiv belegt | TIG3-Teil erledigt: elf Paketdateien importiert, Builds und 14-Seiten-Vergleich bestätigt; exakte historische Quellbytes nicht zurückgewonnen |
-| [TIG_Paper.pdf](../papers/tig-paper/TIG_Paper.pdf) | Vier Seiten, Titel „Topological Integrity Gravity (TIG): A Quadratic f(R) Model with a Critical Horizon Transition“, Druckdatum 3. Mai 2026; PDF-Identität, Upload und DOI-Archiv belegt | Das genau dazugehörige ursprüngliche LaTeX-Paket einschließlich Literatur, Abbildungen und eingebundener Dateien |
+| TIG3_Vacuum_Structure.pdf | Autorenimport mit vollständigem Paket; 14-Seiten-Vergleich, fünf RGB-identische Bilder | 11pt-/Mai-Fassung rekonstruiert; exakte Mai-Quellbytes/Compilerkonfiguration unbestätigt |
+| TIG_Paper.pdf | Bytegleiche historische Hauptquelle, vier Seiten textgleich nach alleiniger Bullet-Kodierungsnormalisierung | Forensischer Fehlereingabe-Build mit Exitcodes 1/2/1/1; ursprüngliche vollständige Eingabeablage unbestätigt |
 
-Die in Welle 4 geprüften Kandidaten im aktuellen Repository, den Upload-/Tag-Ständen und dem veröffentlichten Archiv hatten abweichende Titel oder Inhalte. Die zusätzliche vollständige erreichbare Historienprüfung findet nun einen inhaltlich passenden Hauptquellkandidaten für das vierseitige Mai-Paper. Das vollständige Originalpaket und die genaue Erzeugungsbindung sind weiterhin nicht bestätigt; TIG3 ist durch den späteren Autorenimport und den Vergleich vom 3. Oktober gebunden. Suche, Vergleich, Rekonstruktion und Dokumentation übernimmt der Repair Agent nach Zugriff auf die erforderlichen Quellen. Ein benachbartes main.tex oder ein aktuelles Reparaturmanuskript schließt die verbleibende Quellenlücke nicht. [Erweiterter Quellenbefund](REPAIR_CLOSEOUT_2026-10-02.md).
-
-Nach Eingang der Pakete kann der Repair Agent sämtliche Eingaben inventarisieren und mit Fingerprints sichern, den Build rekonstruieren, Titel/Text/Literatur/Abbildungen gegen das jeweilige Mai-PDF vergleichen und die bestätigte Quellen-/Versionsbindung dokumentieren. Erst danach kann QIC-20 auf ERLEDIGT gesetzt werden. Byteidentische PDF-Ausgabe ist bei anderen Compilerständen nicht automatisch zu erwarten; die tatsächliche Reproduktionsgrenze ist festzuhalten.
+Die historischen Defekte werden für die Quellenzuordnung reproduziert und dokumentiert; fehlende Eingaben werden nicht erfunden. Die benannten Provenienzgrenzen sind kein behaupteter wissenschaftlicher Nachweis oder fehlerfreier Altbuild. Die früher zusätzlich angesetzte Bedingung vollständiger Originalpakete wird nicht als erfüllt ausgewiesen: Der Quellen-/Versionsauftrag ist nun durch den Vergleich erfüllt. Eine gesonderte Restaurierung der historischen Publikationsdateien wurde nicht beauftragt.
 
 ## 5. Was bleibt wissenschaftlich offen?
 
-Diese Forschungsfragen sind vollständig als QIC-RQ-01–06 im [bestehenden Forschungsfragen-Dokument](../field_equations/open_questions.md#offene-forschungsfragen-aus-der-reparatur--2-oktober-2026) aufgenommen. Alle sind OFFEN; ihre Bearbeitung ist auf ausdrücklichen Nutzerauftrag für später ZURÜCKGESTELLT. Sie bestehen zusätzlich zum einzelnen technischen Restpunkt. Ihre Erschließung ist erledigt; ihre wissenschaftliche Lösung wurde durch die Reparatur nicht erreicht.
+Diese Forschungsfragen sind vollständig als QIC-RQ-01–06 im [bestehenden Forschungsfragen-Dokument](../field_equations/open_questions.md#offene-forschungsfragen-aus-der-reparatur--2-oktober-2026) aufgenommen. Alle sind OFFEN; ihre Bearbeitung ist auf ausdrücklichen Nutzerauftrag für später ZURÜCKGESTELLT. Sie bestehen unabhängig vom jetzt vollständig erledigten Reparaturauftrag. Ihre Erschließung ist erledigt; ihre wissenschaftliche Lösung wurde durch die Reparatur nicht erreicht.
 
 | Offener Gegenstand | Geprüfter Stand / verbleibende Arbeit |
 |---|---|
@@ -116,12 +114,16 @@ Die geprüften Endartefakte und ihre Fingerprints stehen im [Exportverzeichnis](
 
 Der Endstand ist eine beauftragte Reparatur mit Selbstprüfung derselben Instanz. Eine unabhängige wissenschaftliche Prüfung oder Veröffentlichungsfreigabe folgt daraus nicht. Live-Overleaf wurde nicht verifiziert. Historische PDF-, Tag-, DOI- und Lizenzobjekte behalten ihre Identität; kein neues Release, kein neuer DOI und keine Einreichung wurden ausgeführt. SSC ist nicht Gegenstand dieses Berichts.
 
-## 7. Abschluss-Ergänzung v1.1
+## 7. Historische Abschluss-Ergänzung v1.1
 
 Eingang main @ `b6adebbec1ccd504a48ba36b32af82b45541f6b6`. Sechs offene Forschungsfragen beim vorhandenen Dokumentationsort aufgenommen; Bearbeitung zurückgestellt. QIC-20 durch zusätzliche vollständige erreichbare Historienprüfung präzisiert. Alle 24 Reparaturaufträge sind bearbeitet; 23 erledigt, einer aufgrund unbestätigter Original-Erzeugungspakete weiterhin teilbearbeitet/quellenblockiert. Dieser Stand ist kein vollständiger Erledigt-Status. Alle derzeit ausführbaren Arbeiten abgeschlossen; anschließend Rücksprache. [Abschlussnachweis](REPAIR_CLOSEOUT_2026-10-02.md).
 
-## Fortschreibung — TIG3-Quellenbindung, 3. Oktober 2026
+## Historischer Zwischenstand — TIG3-Quellenbindung, 3. Oktober 2026
 
 Die vorstehenden Wellen-/Historienbefunde behalten ihre geprüften Bezugsstände. Neu: [TIG3-Quellstand](../papers/tig3-vacuum/README.md) aus dem Autoren-ZIP vom 3. Oktober bytegleich importiert; erfolgreiche Builds mit 16 Seiten (Originaleinstellung) und 14 Seiten (kontrollierte 11pt-/Mai-Rekonstruktion). Auf allen 14 Vergleichsseiten gleicher Text nach alleiniger Aufzählungszeichen-Normalisierung, fünf RGB-identische Abbildungen, gleiche 32 nummerierte Gleichungen und 20 Literaturangaben. [Vollständiger Vergleich](TIG3_SOURCE_COMPARISON_2026-10-03.md), [Manifest](../registry/tig3_source_binding_2026-10-03.json).
 
 TIG3-Teil von QIC-20 erledigt; Gesamtaufgabe bleibt teilbearbeitet wegen des vollständigen ursprünglichen Erzeugungspakets des vierseitigen `TIG_Paper.pdf`. Die exakten Mai-TIG3-Quellbytes und der damalige Compilerstand sind nicht zurückgewonnen; die Rekonstruktion ist entsprechend bezeichnet. Quellenimport ersetzt weder wissenschaftliche Owner noch reparierte Manuskripte, historische PDF-/DOI-Objekte oder Forschungsstatus.
+
+## Aktueller Abschluss v1.3 / QIC-20
+
+Eingang `574a24d072f0b0eb446601349683d1bf682fe12a`; der unveränderte historische Quellstand reproduziert das vierseitige Mai-PDF einschließlich aller damaligen Fehlstellen. Quellen-/Versionsbindung vollständig geprüft; QIC-20 ERLEDIGT. **24 erledigt, 0 teilbearbeitet, 0 unbegonnen.** [Vollständiger Abschlussnachweis](QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md), [Manifest](../registry/qic20_source_binding_closeout_2026-10-03.json). Forschungsfragen bleiben OFFEN/zurückgestellt; anschließend Rücksprache.
