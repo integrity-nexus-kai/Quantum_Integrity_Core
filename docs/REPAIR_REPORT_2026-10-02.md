@@ -14,8 +14,8 @@ Die PDFs sind erzeugte Manuskriptfassungen und Prüfarbeitsartefakte. Der Repara
 
 | Vergleich | Alter Stand | Neuer Stand |
 |---|---|---|
-| Bezugsstand | [main vor der Reparatur: b247bde](https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/tree/b247bdefdf5d50b28dbad60b31f9f2e0f15a8975) | [main nach Welle 4: 4b7dec0](https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/tree/4b7dec0e2118c165732c6960e7a8635d2a818ef5) |
-| Arbeitsliste | [v1.0: 24 Aufgaben OFFEN](https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/blob/b247bdefdf5d50b28dbad60b31f9f2e0f15a8975/REPAIR_TODO.md), nach Dringlichkeit aufgereiht | [v1.5: 23 ERLEDIGT, QIC-20 TEILBEARBEITET](https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/blob/4b7dec0e2118c165732c6960e7a8635d2a818ef5/REPAIR_TODO.md), vier Wellen mit Abhängigkeiten |
+| Bezugsstand | [main vor der Reparatur: d8abb0e](https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/tree/d8abb0e166c655b5912cd43890860f2a7b01b030) | [main nach Welle 4: e7c2eae](https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/tree/e7c2eae63aa0ed38866021437b0d53b9fa21ad9b) |
+| Arbeitsliste | [v1.0: 24 Aufgaben OFFEN](https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/blob/d8abb0e166c655b5912cd43890860f2a7b01b030/REPAIR_TODO.md), nach Dringlichkeit aufgereiht | [v1.5: 23 ERLEDIGT, QIC-20 TEILBEARBEITET](https://github.com/integrity-nexus-kai/Quantum_Integrity_Core/blob/e7c2eae63aa0ed38866021437b0d53b9fa21ad9b/REPAIR_TODO.md), vier Wellen mit Abhängigkeiten |
 | Quellen und Pakete | Zwei unterschiedliche Manuskriptpakete; ihre Rollen und Quellenbindungen waren ein Prüfauftrag | Beide Pakete gesondert zugeordnet; Quellenkarte, Objektzuständigkeiten und gemeinsamer Reparaturnachweis vorhanden |
 | Kernbehauptungen | Inkonsistente α-/μ-Schreibweise, stärkerer quadratischer f(R)-Lösungsanspruch, allgemeine kubische Fold-Behauptung und unbegründete Echo-Skalierung | Normierung korrigiert, konkreter Vakuumanspruch analytisch widerlegt, Kubik modellgebunden hergeleitet, Echo-Laufzeit mit ausdrücklichen Grenzen und Reflexionsannahmen |
 | Literatur | Neue Quellen vorhanden, aber noch nicht an begrenzte Aussagen im Haupttext gebunden; Voraussetzungen und Ausgabe zu prüfen | Primärquellen und Versionen geprüft, Aussagen begrenzt, Zitate integriert, DOI-/arXiv-Angaben und Klickziele in den Endausgaben kontrolliert |
@@ -108,7 +108,7 @@ Maßgebliche bestehende Forschungsobjekte: [field_equations/open_questions.md](.
 | Isoliertes Quellpaket | Fünf erwartete ZIP-Mitglieder; frischer isolierter Build erfolgreich; keine externen Repository-Bildabhängigkeiten |
 | Historische DOI-Bindung | Alle 156 Dateien des Zenodo-Archivs exakt mit den Git-Blobs des v1.0.0-Tags abgeglichen |
 | Welle-4-Strukturprüfung | 273 Aufgaben-, Quellen-, Link-, Byte-, Pfad- und Exportprüfungen bestanden |
-| Welle-4-Ablage | Commit 4b7dec0, Parent und vollständiger Tree geprüft; alle 35 geschriebenen Dateien frisch zurückgelesen und verglichen |
+| Welle-4-Ablage | Commit e7c2eae, Parent und vollständiger Tree geprüft; alle 35 geschriebenen Dateien frisch zurückgelesen und verglichen |
 
 Die geprüften Endartefakte und ihre Fingerprints stehen im [Exportverzeichnis](../submission/exports/wave4_2026-10-02/README.md). Der Build-/Exportweg steht in [BUILD_WORKFLOW.md](BUILD_WORKFLOW.md). Die hier berichteten Prüfungen stammen aus den jeweiligen Reparaturwellen; für diesen zusätzlichen Markdown-Bericht werden Aufgabenabdeckung, Konsistenz, lokale Links und Ablage geprüft, ohne erneut Manuskripte zu erzeugen.
 
@@ -116,7 +116,7 @@ Der Endstand ist eine beauftragte Reparatur mit Selbstprüfung derselben Instanz
 
 ## 7. Historische Abschluss-Ergänzung v1.1
 
-Eingang main @ `b6adebbec1ccd504a48ba36b32af82b45541f6b6`. Sechs offene Forschungsfragen beim vorhandenen Dokumentationsort aufgenommen; Bearbeitung zurückgestellt. QIC-20 durch zusätzliche vollständige erreichbare Historienprüfung präzisiert. Alle 24 Reparaturaufträge sind bearbeitet; 23 erledigt, einer aufgrund unbestätigter Original-Erzeugungspakete weiterhin teilbearbeitet/quellenblockiert. Dieser Stand ist kein vollständiger Erledigt-Status. Alle derzeit ausführbaren Arbeiten abgeschlossen; anschließend Rücksprache. [Abschlussnachweis](REPAIR_CLOSEOUT_2026-10-02.md).
+Eingang main @ `5299e60eec0d8538e901e369c8cd2db191b80216`. Sechs offene Forschungsfragen beim vorhandenen Dokumentationsort aufgenommen; Bearbeitung zurückgestellt. QIC-20 durch zusätzliche vollständige erreichbare Historienprüfung präzisiert. Alle 24 Reparaturaufträge sind bearbeitet; 23 erledigt, einer aufgrund unbestätigter Original-Erzeugungspakete weiterhin teilbearbeitet/quellenblockiert. Dieser Stand ist kein vollständiger Erledigt-Status. Alle derzeit ausführbaren Arbeiten abgeschlossen; anschließend Rücksprache. [Abschlussnachweis](REPAIR_CLOSEOUT_2026-10-02.md).
 
 ## Historischer Zwischenstand — TIG3-Quellenbindung, 3. Oktober 2026
 
@@ -126,12 +126,12 @@ TIG3-Teil von QIC-20 erledigt; Gesamtaufgabe bleibt teilbearbeitet wegen des vol
 
 ## Aktueller Abschluss v1.3 / QIC-20
 
-Eingang `574a24d072f0b0eb446601349683d1bf682fe12a`; der unveränderte historische Quellstand reproduziert das vierseitige Mai-PDF einschließlich aller damaligen Fehlstellen. Quellen-/Versionsbindung vollständig geprüft; QIC-20 ERLEDIGT. **24 erledigt, 0 teilbearbeitet, 0 unbegonnen.** [Vollständiger Abschlussnachweis](QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md), [Manifest](../registry/qic20_source_binding_closeout_2026-10-03.json). Forschungsfragen bleiben OFFEN/zurückgestellt; anschließend Rücksprache.
+Eingang `019937c911386894c0b4463ec204c713c3606b44`; der unveränderte historische Quellstand reproduziert das vierseitige Mai-PDF einschließlich aller damaligen Fehlstellen. Quellen-/Versionsbindung vollständig geprüft; QIC-20 ERLEDIGT. **24 erledigt, 0 teilbearbeitet, 0 unbegonnen.** [Vollständiger Abschlussnachweis](QIC20_SOURCE_BINDING_CLOSEOUT_2026-10-03.md), [Manifest](../registry/qic20_source_binding_closeout_2026-10-03.json). Forschungsfragen bleiben OFFEN/zurückgestellt; anschließend Rücksprache.
 
 
 ## Ergänzender Dokumentationsabschluss v1.4 — 3. Oktober 2026
 
-Eingang main @ `ce4b5fa4e494ea07f9437d353efd6dcb1ba37263`. Die fünf Befunde QIC-PF-001–005 aus dem nachgelagerten Preflight sind im Text-/Verweisumfang repariert. Das ursprüngliche Aufgabenregister v1.8 bleibt unverändert bei 24/24 erledigten Aufgaben; keine Aufgabe wird neu geöffnet.
+Eingang main @ `e1457db847f4ecbfbfa614e8e182c30a745b7e0c`. Die fünf Befunde QIC-PF-001–005 aus dem nachgelagerten Preflight sind im Text-/Verweisumfang repariert. Das ursprüngliche Aufgabenregister v1.8 bleibt unverändert bei 24/24 erledigten Aufgaben; keine Aufgabe wird neu geöffnet.
 
 | Befund | Alter Stand | Repariertes Delta |
 |---|---|---|
@@ -146,4 +146,4 @@ QIC-PF-004/005 sind das unmittelbare Quellenabschluss-/Routingdelta. QIC-PF-001�
 [Dokumentationsabschluss](PREFLIGHT_REPAIR_CLOSEOUT_2026-10-03.md) · [Nachweisregister](../registry/qic_preflight_repair_2026-10-03.json) · [Auftrag für separate Prüfung](QIC_DOCUMENTATION_AUDIT_HANDOFF_2026-10-03.md). Der ursprüngliche Preflight und sein REQUEST_CHANGES-Urteil bleiben am damaligen Commit als Historie erhalten. Die anschließende interne Prüfung des reparierten main und ihre Freeze-/Assurancebindung werden separat dokumentiert. Eine abgeschlossene unabhängige Prüfung oder wissenschaftliche Freigabe wird damit nicht behauptet.
 
 
-**Interne Nachprüfung der Dokumentationskorrektur:** main-Freeze `2a6d853ae489fc9824e0ada6562eeb100ed6799a`; [Re-Auditbericht](QIC_DOCUMENTATION_REAUDIT_2026-10-03.md) PASS_WITH_BOUNDARIES / AIL-0. Fünf Befunde operativ im begrenzten Dokumentationsumfang erledigt, 293 frühere Pfade unverändert, 330 lokale Linkziele vorhanden. Auditfähigkeit für einen separaten Abschlussaudit ist durch Prüffreeze, Delta und Belegbindungen festgestellt; eine unabhängige Bestätigung ist noch nicht erfolgt. Originalaufgaben bleiben 24/24 erledigt, Forschung bleibt offen/zurückgestellt.
+**Interne Nachprüfung der Dokumentationskorrektur:** main-Freeze `2111d0e119c373063d5f35d0ebd4ffdf25351f90`; [Re-Auditbericht](QIC_DOCUMENTATION_REAUDIT_2026-10-03.md) PASS_WITH_BOUNDARIES / AIL-0. Fünf Befunde operativ im begrenzten Dokumentationsumfang erledigt, 293 frühere Pfade unverändert, 330 lokale Linkziele vorhanden. Auditfähigkeit für einen separaten Abschlussaudit ist durch Prüffreeze, Delta und Belegbindungen festgestellt; eine unabhängige Bestätigung ist noch nicht erfolgt. Originalaufgaben bleiben 24/24 erledigt, Forschung bleibt offen/zurückgestellt.
