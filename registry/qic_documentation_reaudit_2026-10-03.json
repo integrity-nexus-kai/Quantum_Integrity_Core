@@ -32,70 +32,70 @@
     {
       "repository": "integrity-nexus-kai/Integrity_Nexus",
       "path": "architecture/eight_repository_research_graph.md",
-      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "commit": "bc4e41db6990a871eb3bf92609afe4bbefe5bb0b",
       "git_blob": "bc19b78a421c464feb1968e26396b4bcf2331f73",
       "purpose": "governance control context only; private source text not reproduced"
     },
     {
       "repository": "integrity-nexus-kai/Integrity_Nexus",
       "path": "audit/audit_protocol.md",
-      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "commit": "bc4e41db6990a871eb3bf92609afe4bbefe5bb0b",
       "git_blob": "191ae8f20d39a2c7852e604ff71f9d278dc3509c",
       "purpose": "governance control context only; private source text not reproduced"
     },
     {
       "repository": "integrity-nexus-kai/Integrity_Nexus",
       "path": "governance/claim_status_taxonomy.md",
-      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "commit": "bc4e41db6990a871eb3bf92609afe4bbefe5bb0b",
       "git_blob": "fa24184ab9427f406fa24b50de064a6ef60e0bde",
       "purpose": "governance control context only; private source text not reproduced"
     },
     {
       "repository": "integrity-nexus-kai/Integrity_Nexus",
       "path": "governance/cross_repository_claim_boundary_matrix.md",
-      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "commit": "bc4e41db6990a871eb3bf92609afe4bbefe5bb0b",
       "git_blob": "5a131e0ab0697ddc8bed889091f56eaf7d62c8bd",
       "purpose": "governance control context only; private source text not reproduced"
     },
     {
       "repository": "integrity-nexus-kai/Integrity_Nexus",
       "path": "operations/codex_agents.md",
-      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "commit": "bc4e41db6990a871eb3bf92609afe4bbefe5bb0b",
       "git_blob": "f443a6d0d2214d215ee4e17f3b7712b280a7c83b",
       "purpose": "governance control context only; private source text not reproduced"
     },
     {
       "repository": "integrity-nexus-kai/Integrity_Nexus",
       "path": "registry/master_open_question_backlog.md",
-      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "commit": "bc4e41db6990a871eb3bf92609afe4bbefe5bb0b",
       "git_blob": "def2612e707018eccb962fd99b5d4294dd845703",
       "purpose": "governance control context only; private source text not reproduced"
     },
     {
       "repository": "integrity-nexus-kai/Integrity_Nexus",
       "path": "registry/open_questions.md",
-      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "commit": "bc4e41db6990a871eb3bf92609afe4bbefe5bb0b",
       "git_blob": "b3459195c8ea38f424760952a2220ee80cb3e81c",
       "purpose": "governance control context only; private source text not reproduced"
     },
     {
       "repository": "integrity-nexus-kai/Integrity_Nexus",
       "path": "registry/repository_status.md",
-      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "commit": "bc4e41db6990a871eb3bf92609afe4bbefe5bb0b",
       "git_blob": "3ce437b6b547dcf8476f469cabb4f88da740d73a",
       "purpose": "governance control context only; private source text not reproduced"
     },
     {
       "repository": "integrity-nexus-kai/Integrity_Nexus",
       "path": "shared/terminology_drift_matrix.md",
-      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "commit": "bc4e41db6990a871eb3bf92609afe4bbefe5bb0b",
       "git_blob": "5318c17681b70d34e6b25321331c1e53b0ec8dd5",
       "purpose": "governance control context only; private source text not reproduced"
     },
     {
       "repository": "integrity-nexus-kai/Integrity_Nexus",
       "path": "shared/terminology_inventory.md",
-      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "commit": "bc4e41db6990a871eb3bf92609afe4bbefe5bb0b",
       "git_blob": "c36eb5aa64cd947905f8b41b7cee867cd971c8a3",
       "purpose": "governance control context only; private source text not reproduced"
     }
@@ -106,7 +106,7 @@
       "repository_id": 1225446590,
       "visibility": "PUBLIC",
       "branch": "main",
-      "commit": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+      "commit": "2111d0e119c373063d5f35d0ebd4ffdf25351f90",
       "tree": "2b5b95c9471b5f14b7043d46981e135735a90c69",
       "observed_at": "2026-10-03T13:22:13.430999+00:00",
       "access_method": "GitHub repair commit/ref followed by fresh fetch and detached worktree; full changed-file readback; source and delta checks",
@@ -118,7 +118,7 @@
       "repository_id": 1279473978,
       "visibility": "PRIVATE",
       "branch": "main",
-      "commit": "bdcc02a8fec6bd2dc7f70585a028aab1a52e0952",
+      "commit": "bc4e41db6990a871eb3bf92609afe4bbefe5bb0b",
       "observed_at": "2026-10-03T13:22:13.430999+00:00",
       "access_method": "fresh GitHub ref and ten successful explicit-commit source reads; all blobs match previous frozen governance",
       "tool_status": "SUCCESS"
@@ -132,7 +132,7 @@
     {
       "finding_id": "QIC-PF-001",
       "path": "README_EN.md",
-      "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+      "snapshot": "2111d0e119c373063d5f35d0ebd4ffdf25351f90",
       "observation": "REPAIR_DELTA_VERIFIED_IN_DEFINED_DOCUMENTATION_SCOPE",
       "assurance": "AIL-0",
       "separate_review": "NOT_PERFORMED",
@@ -150,7 +150,7 @@
     {
       "finding_id": "QIC-PF-002",
       "path": "abstract.md",
-      "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+      "snapshot": "2111d0e119c373063d5f35d0ebd4ffdf25351f90",
       "observation": "REPAIR_DELTA_VERIFIED_IN_DEFINED_DOCUMENTATION_SCOPE",
       "assurance": "AIL-0",
       "separate_review": "NOT_PERFORMED",
@@ -169,7 +169,7 @@
     {
       "finding_id": "QIC-PF-003",
       "path": "README.md",
-      "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+      "snapshot": "2111d0e119c373063d5f35d0ebd4ffdf25351f90",
       "observation": "REPAIR_DELTA_VERIFIED_IN_DEFINED_DOCUMENTATION_SCOPE",
       "assurance": "AIL-0",
       "separate_review": "NOT_PERFORMED",
@@ -188,7 +188,7 @@
     {
       "finding_id": "QIC-PF-004",
       "path": "papers/tig-paper/README.md",
-      "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+      "snapshot": "2111d0e119c373063d5f35d0ebd4ffdf25351f90",
       "observation": "REPAIR_DELTA_VERIFIED_IN_DEFINED_DOCUMENTATION_SCOPE",
       "assurance": "AIL-0",
       "separate_review": "NOT_PERFORMED",
@@ -206,7 +206,7 @@
     {
       "finding_id": "QIC-PF-005",
       "path": "field_equations/open_questions.md",
-      "snapshot": "2a6d853ae489fc9824e0ada6562eeb100ed6799a",
+      "snapshot": "2111d0e119c373063d5f35d0ebd4ffdf25351f90",
       "observation": "REPAIR_DELTA_VERIFIED_IN_DEFINED_DOCUMENTATION_SCOPE",
       "assurance": "AIL-0",
       "separate_review": "NOT_PERFORMED",

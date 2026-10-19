@@ -1,8 +1,8 @@
 # QIC — Abschluss der fünf Preflight-Dokumentationskorrekturen
 
-Version 1.1 · 3. Oktober 2026 · Eingang `main @ ce4b5fa4e494ea07f9437d353efd6dcb1ba37263`.
+Version 1.1 · 3. Oktober 2026 · Eingang `main @ e1457db847f4ecbfbfa614e8e182c30a745b7e0c`.
 
-**Reparaturumfang:** QIC-PF-001–005, ausschließlich öffentliche Zusammenfassungen, aktuelle Verweise und deren Abschlussnachweise. Der [ursprüngliche Preflight](PREFLIGHT_QIC_2026-10-03.md) bleibt unverändert als Befund am Commit 4e1d4cb erhalten. Dieser Bericht führt keine zweite aktive Reparaturliste ein.
+**Reparaturumfang:** QIC-PF-001–005, ausschließlich öffentliche Zusammenfassungen, aktuelle Verweise und deren Abschlussnachweise. Der [ursprüngliche Preflight](PREFLIGHT_QIC_2026-10-03.md) bleibt unverändert als Befund am Commit 64afddf erhalten. Dieser Bericht führt keine zweite aktive Reparaturliste ein.
 
 ## Alter Stand, neuer Stand und Delta
 
@@ -26,7 +26,7 @@ Manuskriptquellen, aktive Grafik und Generator, Build-/Prüfprogramme, aktuelle 
 
 ## Prüfung und getrennter Auditstand
 
-[Nachweisregister](../registry/qic_preflight_repair_2026-10-03.json) trennt Vorintegration, nachgelagerte Prüfung des tatsächlichen main, operative Dokumentationsreparatur und unabhängige Reviewbestätigung. Die Reparaturen wurden auf main abgelegt und am frisch gefetchten Commit `2a6d853ae489fc9824e0ada6562eeb100ed6799a` intern erneut geprüft. [Re-Auditbericht](QIC_DOCUMENTATION_REAUDIT_2026-10-03.md): PASS_WITH_BOUNDARIES für den definierten Dokumentationsumfang, AIL-0. 293 frühere Dateien unverändert; 330 lokale Inline-Linkziele vorhanden; elf integrierte Dateien vollständig zurückgelesen. Quellen-/Fragen-/Aufgabenstatusgrenzen erhalten. Die ursprünglichen erfolgreichen Build-/Mathematikläufe wurden nicht neu ausgeführt; ihre Inputs und Ausgaben bleiben bytegleich.
+[Nachweisregister](../registry/qic_preflight_repair_2026-10-03.json) trennt Vorintegration, nachgelagerte Prüfung des tatsächlichen main, operative Dokumentationsreparatur und unabhängige Reviewbestätigung. Die Reparaturen wurden auf main abgelegt und am frisch gefetchten Commit `2111d0e119c373063d5f35d0ebd4ffdf25351f90` intern erneut geprüft. [Re-Auditbericht](QIC_DOCUMENTATION_REAUDIT_2026-10-03.md): PASS_WITH_BOUNDARIES für den definierten Dokumentationsumfang, AIL-0. 293 frühere Dateien unverändert; 330 lokale Inline-Linkziele vorhanden; elf integrierte Dateien vollständig zurückgelesen. Quellen-/Fragen-/Aufgabenstatusgrenzen erhalten. Die ursprünglichen erfolgreichen Build-/Mathematikläufe wurden nicht neu ausgeführt; ihre Inputs und Ausgaben bleiben bytegleich.
 
 **Assurancekorrektur:** AIL-0 ist die Selbstprüfung dieser produzierenden Instanz. AIL-1 bedeutet frischer Lauf/Kontext desselben Agententyps und ist ebenfalls keine unabhängige Prüfung. Ein getrenntes maschinelles Re-Audit benötigt AIL-2 (separate Instanz oder Modell mit frischer Quellenlesung); externe Fachvalidierung wäre AIL-4. Die vereinfachte Formulierung zum unabhängigen AIL-1-Lauf im alten Preflight wird hier ausdrücklich präzisiert, ohne dessen historisches Urteil zu ersetzen.
 
@@ -39,4 +39,4 @@ Verbleibend sind ein separat ausgeführtes Review, die nicht attestierte globale
 
 ## Audit Documentation Event
 
-3. Oktober 2026: Reparaturcommit `2a6d853` am tatsächlichen main geprüft; formales Re-Auditschema gültig, neue materielle Befunde im begrenzten Umfang keine. QIC-PF-001–005 operativ im Dokumentationsumfang ERLEDIGT, interne Bestätigung AIL-0; unabhängige Reviewbestätigung weiterhin NOT_PERFORMED. Der gesonderte Ablagecommit dieses Re-Audits ändert Prüfmetadaten/Einstiegsverweise, nicht den geprüften Manuskript-/Quellenstand. Schutz der Originalobjekte und vollständiges Readback werden am Ablagecommit zusätzlich geprüft. Die 24 alten Aufgaben bleiben unverändert erledigt, alle Forschungsfragen offen/zurückgestellt, globale Synchronität nicht attestiert, keine Veröffentlichungsfreigabe.
+3. Oktober 2026: Reparaturcommit `2111d0e` am tatsächlichen main geprüft; formales Re-Auditschema gültig, neue materielle Befunde im begrenzten Umfang keine. QIC-PF-001–005 operativ im Dokumentationsumfang ERLEDIGT, interne Bestätigung AIL-0; unabhängige Reviewbestätigung weiterhin NOT_PERFORMED. Der gesonderte Ablagecommit dieses Re-Audits ändert Prüfmetadaten/Einstiegsverweise, nicht den geprüften Manuskript-/Quellenstand. Schutz der Originalobjekte und vollständiges Readback werden am Ablagecommit zusätzlich geprüft. Die 24 alten Aufgaben bleiben unverändert erledigt, alle Forschungsfragen offen/zurückgestellt, globale Synchronität nicht attestiert, keine Veröffentlichungsfreigabe.

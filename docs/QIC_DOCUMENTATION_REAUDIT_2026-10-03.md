@@ -1,16 +1,16 @@
 # QIC — interner Re-Audit nach der Dokumentationsreparatur
 
-3. Oktober 2026 · L1_ONE_REPO_DRY_RUN · **AIL-0** · Prüffreeze `main @ 2a6d853ae489fc9824e0ada6562eeb100ed6799a` · Tree `2b5b95c9471b5f14b7043d46981e135735a90c69`.
+3. Oktober 2026 · L1_ONE_REPO_DRY_RUN · **AIL-0** · Prüffreeze `main @ 2111d0e119c373063d5f35d0ebd4ffdf25351f90` · Tree `2b5b95c9471b5f14b7043d46981e135735a90c69`.
 
 **Ergebnis: PASS_WITH_BOUNDARIES für die fünf Dokumentationskorrekturen und deren Erhaltungsdelta.** Keine neue materielle Abweichung im definierten Umfang. Auditfähigkeit für eine getrennte Abschlussprüfung ist belegt; die unabhängige Prüfung selbst ist nicht erfolgt.
 
 ## Quellen und tatsächliche Prüfung
 
-Reparaturen auf main abgelegt, frisch gefetcht und in einem neuen sauberen detached Worktree geprüft. Alle elf integrierten Dateien wurden vollständig gegen die vorbereiteten Bytes zurückgelesen. Gegenüber Eingang `ce4b5fa` bleiben 293 bisherige Dateien unverändert; sieben bisherige Dokumentationspfade haben das erlaubte Delta. Dazu gehören keine Manuskriptquellen, historischen PDFs, Quellenimporte, Build-/Mathematikprogramme, aktiven Grafik-/Exportdateien, Lizenzen, ursprünglichen Audit-/Validierungsobjekte oder das 24er-Aufgabenregister.
+Reparaturen auf main abgelegt, frisch gefetcht und in einem neuen sauberen detached Worktree geprüft. Alle elf integrierten Dateien wurden vollständig gegen die vorbereiteten Bytes zurückgelesen. Gegenüber Eingang `e1457db` bleiben 293 bisherige Dateien unverändert; sieben bisherige Dokumentationspfade haben das erlaubte Delta. Dazu gehören keine Manuskriptquellen, historischen PDFs, Quellenimporte, Build-/Mathematikprogramme, aktiven Grafik-/Exportdateien, Lizenzen, ursprünglichen Audit-/Validierungsobjekte oder das 24er-Aufgabenregister.
 
 Beim OQ-Dokument unterscheidet sich exakt Zeile 255: die erklärende QIC-20-Routingpassage. Alle übrigen Zeilen, O1–O7 und QIC-RQ-01–06 bleiben gleich; sechs Forschungsfragen OFFEN / ZURÜCKGESTELLT. Die bisherigen technischen Build-/Mathematiknachweise werden aufgrund bytegleicher Eingaben und Ausgaben erhalten. In diesem Lauf wurden keine neuen Builds oder Mathematiktests behauptet.
 
-330 lokale Inline-Markdown-Ziele außerhalb von Codeblöcken geprüft, kein fehlendes Ziel. Externe URLs, Referenzstil-Links und automatische GitHub-Anker wurden nicht vollständig live geprüft. Zehn Governancequellen frisch am Nexus-main `bdcc02a8fec6bd2dc7f70585a028aab1a52e0952` gelesen; alle Git-Blobs entsprechen dem vorherigen Freeze. Keine privaten Governancequelltexte in diese öffentliche Ablage kopiert. Ein erwarteter globaler QIC-Zielcommit ist in diesen Quellen weiterhin nicht gebunden.
+330 lokale Inline-Markdown-Ziele außerhalb von Codeblöcken geprüft, kein fehlendes Ziel. Externe URLs, Referenzstil-Links und automatische GitHub-Anker wurden nicht vollständig live geprüft. Zehn Governancequellen frisch am Nexus-main `bc4e41db6990a871eb3bf92609afe4bbefe5bb0b` gelesen; alle Git-Blobs entsprechen dem vorherigen Freeze. Keine privaten Governancequelltexte in diese öffentliche Ablage kopiert. Ein erwarteter globaler QIC-Zielcommit ist in diesen Quellen weiterhin nicht gebunden.
 
 ## Semantische Erst- und Gegenprüfung
 
